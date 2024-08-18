@@ -36,7 +36,11 @@ def get_latest_article(url):
         description_element = article.select_one('p.feed-post-body-resumo')
         description = description_element.text.strip() if description_element else ""
         
-        date = parse_date(date_str)
+        try:
+            date = parse_date(date_str)
+        except Exception as e:
+            print(f"Erro ao analisar a data '{date_str}': {e}")
+            date = datetime.datetime.now(pytz.timezone('America/Sao_Paulo'))
         
         return {
             'title': title,
@@ -56,8 +60,16 @@ def parse_date(date_str):
         elif 'dia' in date_str:
             days = int(date_str.split()[1])
             return (now - datetime.timedelta(days=days)).replace(microsecond=0)
+    elif date_str.lower() == 'ontem':
+        return (now - datetime.timedelta(days=1)).replace(hour=0, minute=0, second=0, microsecond=0)
+    elif date_str.lower() == 'hoje':
+        return now.replace(hour=0, minute=0, second=0, microsecond=0)
     else:
-        return datetime.datetime.strptime(date_str, "%d/%m/%Y %H:%M").replace(tzinfo=pytz.timezone('America/Sao_Paulo'))
+        try:
+            return datetime.datetime.strptime(date_str, "%d/%m/%Y %H:%M").replace(tzinfo=pytz.timezone('America/Sao_Paulo'))
+        except ValueError:
+            print(f"Formato de data não reconhecido: {date_str}. Usando a data atual.")
+            return now.replace(microsecond=0)
 
 def generate_feed(columnist, article):
     feed = Rss201rev2Feed(
