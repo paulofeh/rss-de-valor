@@ -20,6 +20,18 @@ COLUMNISTS = [
         "feed_file": "maria_cristina_fernandes_feed.xml",
         "history_file": "maria_cristina_fernandes_history.json"
     },
+    {  
+        "name": "Martha Batalha",
+        "url": "https://oglobo.globo.com/cultura/martha-batalha/",
+        "feed_file": "martha_batalha_feed.xml",
+        "history_file": "martha_batalha_history.json"
+    },
+    {
+        "name": "José Eduardo Agualusa",
+        "url": "https://oglobo.globo.com/cultura/jose-eduardo-agualusa/",
+        "feed_file": "jose_eduardo_agualusa_feed.xml",
+        "history_file": "jose_eduardo_agualusa_history.json"
+    },
     # Adicione outros colunistas aqui seguindo o mesmo formato
 ]
 
