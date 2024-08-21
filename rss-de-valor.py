@@ -32,6 +32,30 @@ COLUMNISTS = [
         "feed_file": "jose_eduardo_agualusa_feed.xml",
         "history_file": "jose_eduardo_agualusa_history.json"
     },
+    {   
+        "name": "Pedro Doria",
+        "url": "https://oglobo.globo.com/opiniao/pedro-doria/",
+        "feed_file": "pedro_doria_feed.xml",
+        "history_file": "pedro_doria_history.json"
+    },
+    {
+        "name": "José Eli da Veiga",
+        "url": "https://valor.globo.com/opiniao/jose-eli-da-veiga/",
+        "feed_file": "jose_eli_da_veiga_feed.xml",
+        "history_file": "jose_eli_da_veiga_history.json"
+    },
+    {
+        "name": "Tatiana Salem Levy",
+        "url": "https://valor.globo.com/autores/tatiana-salem-levy/",
+        "feed_file": "tatiana_salem_levy_feed.xml",
+        "history_file": "tatiana_salem_levy_history.json"
+    },
+    {
+        "name": "Roberto DaMatta",
+        "url": "https://oglobo.globo.com/opiniao/roberto-damatta/",
+        "feed_file": "roberto_damatta_feed.xml",
+        "history_file": "roberto_damatta_history.json"
+    },
     # Adicione outros colunistas aqui seguindo o mesmo formato
 ]
 
