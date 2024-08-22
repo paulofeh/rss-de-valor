@@ -120,7 +120,7 @@ def generate_feed(columnist, article):
         link=article['link'],
         pubdate=article['pubdate'],
         description=article['description'],
-        author_name=article['author'],
+        author_name=columnist['name'],
     )
 
     return feed
