@@ -22,7 +22,7 @@ jobs:
           pip install requests beautifulsoup4 pytz feedgenerator
 
       - name: Run RSS generator
-        run: python rss-de-valor.py
+        run: python rss-de-valor-v2.py
 
       - name: Commit and push if changed
         run: |
