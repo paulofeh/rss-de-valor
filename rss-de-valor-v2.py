@@ -1,10 +1,32 @@
 import requests
+from requests.adapters import HTTPAdapter
+from requests.packages.urllib3.util.retry import Retry
 from bs4 import BeautifulSoup
 import datetime
 import pytz
 from feedgenerator import Rss201rev2Feed
 import os
 import json
+import time
+
+def requests_retry_session(
+    retries=3,
+    backoff_factor=0.3,
+    status_forcelist=(500, 502, 504),
+    session=None,
+):
+    session = session or requests.Session()
+    retry = Retry(
+        total=retries,
+        read=retries,
+        connect=retries,
+        backoff_factor=backoff_factor,
+        status_forcelist=status_forcelist,
+    )
+    adapter = HTTPAdapter(max_retries=retry)
+    session.mount('http://', adapter)
+    session.mount('https://', adapter)
+    return session
 
 # Base scraper class
 class BaseScraper:
@@ -12,9 +34,14 @@ class BaseScraper:
         self.url = url
 
     def get_latest_article(self):
-        response = requests.get(self.url)
-        soup = BeautifulSoup(response.content, 'html.parser')
-        return self._extract_article_data(soup)
+        try:
+            response = requests_retry_session().get(self.url, timeout=10)
+            response.raise_for_status()
+            soup = BeautifulSoup(response.content, 'html.parser')
+            return self._extract_article_data(soup)
+        except requests.exceptions.RequestException as e:
+            print(f"Erro ao acessar {self.url}: {e}")
+            return None
 
     def _extract_article_data(self, soup):
         raise NotImplementedError("This method should be implemented by subclasses")
@@ -150,22 +177,34 @@ def main():
     for source in sources:
         scraper_class = get_scraper_class(source['scraper'])
         scraper = scraper_class(source['url'])
-        latest_article = scraper.get_latest_article()
         
-        if latest_article:
-            history = load_history(source['history_file'])
-            
-            if latest_article['link'] != history.get('last_article_link'):
-                feed = generate_feed(source['name'], source['url'], latest_article)
-                save_feed(feed, source['feed_file'])
-                print(f"RSS feed for {source['name']} generated successfully! Saved as '{source['feed_file']}'")
+        max_retries = 3
+        for attempt in range(max_retries):
+            try:
+                latest_article = scraper.get_latest_article()
+                if latest_article:
+                    history = load_history(source['history_file'])
+                    
+                    if latest_article['link'] != history.get('last_article_link'):
+                        feed = generate_feed(source['name'], source['url'], latest_article)
+                        save_feed(feed, source['feed_file'])
+                        print(f"RSS feed for {source['name']} generated successfully! Saved as '{source['feed_file']}'")
+                        
+                        history['last_article_link'] = latest_article['link']
+                        save_history(source['history_file'], history)
+                    else:
+                        print(f"No new article for {source['name']}. Feed not updated.")
+                else:
+                    print(f"Couldn't fetch the latest article for {source['name']}.")
                 
-                history['last_article_link'] = latest_article['link']
-                save_history(source['history_file'], history)
-            else:
-                print(f"No new article for {source['name']}. Feed not updated.")
-        else:
-            print(f"Couldn't fetch the latest article for {source['name']}.")
+                break  # Se bem-sucedido, saia do loop
+            except Exception as e:
+                print(f"Erro ao processar {source['name']}: {e}")
+                if attempt < max_retries - 1:
+                    print(f"Tentando novamente em 5 segundos...")
+                    time.sleep(5)
+                else:
+                    print(f"Falha após {max_retries} tentativas para {source['name']}.")
 
 if __name__ == "__main__":
     main()
