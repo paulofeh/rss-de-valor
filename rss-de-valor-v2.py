@@ -129,6 +129,40 @@ class WashingtonPostScraper(BaseScraper):
         except ValueError:
             print(f"Não foi possível analisar a data: {date_str}")
             return datetime.datetime.now(pytz.timezone('US/Eastern'))
+        
+class FolhaScraper(BaseScraper):
+    def _extract_article_data(self, soup):
+        article = soup.select_one('div.c-headline.c-headline--opinion')
+        if article:
+            title = article.select_one('h2.c-headline__title').text.strip()
+            link = article.select_one('a.c-headline__url')['href']
+            date_str = article.select_one('time.c-headline__dateline')['datetime']
+            
+            # Extrair o nome do autor dinamicamente
+            author_element = soup.select_one('div[data-qa="kicker"]')
+            author = author_element.text.strip() if author_element else "Autor Desconhecido"
+            
+            description_element = article.select_one('p.c-headline__standfirst')
+            description = description_element.text.strip() if description_element else ""
+            
+            date = self._parse_date(date_str)
+            
+            return {
+                'title': title,
+                'link': link,
+                'pubdate': date,
+                'author': author,
+                'description': description,
+            }
+        return None
+
+    def _parse_date(self, date_str):
+        try:
+            # A data vem no formato "YYYY-MM-DD HH:MM:SS"
+            return datetime.datetime.strptime(date_str, "%Y-%m-%d %H:%M:%S").replace(tzinfo=pytz.timezone('America/Sao_Paulo'))
+        except ValueError:
+            print(f"Formato de data não reconhecido: {date_str}. Usando a data atual.")
+            return datetime.datetime.now(pytz.timezone('America/Sao_Paulo')).replace(microsecond=0)
 
 # RSS feed generator
 def generate_feed(source_name, url, article):

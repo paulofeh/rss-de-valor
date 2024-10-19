@@ -62,6 +62,13 @@
       "feed_file": "wp_climate_lab_feed.xml",
       "history_file": "wp_climate_lab_history.json",
       "scraper": "WashingtonPostScraper"
+    },
+    {
+      "name": "Rodrigo Zeidan",
+      "url": "https://www1.folha.uol.com.br/colunas/rodrigo-zeidan/",
+      "feed_file": "rodrigo_zeidan_feed.xml",
+      "history_file": "rodrigo_zeidan_history.json",
+      "scraper": "FolhaScraper"
     }
   ]
 }
