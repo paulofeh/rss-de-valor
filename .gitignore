@@ -24,12 +24,6 @@ var/
 venv/
 ENV/
 
-# Generated files
-feeds/*
-!feeds/.gitkeep
-history/*
-!history/.gitkeep
-
 # IDEs
 .idea/
 .vscode/
@@ -44,3 +38,7 @@ history/*
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# NÃO ignore os arquivos gerados
+# !feeds/*.xml
+# !history/*.json

@@ -8,9 +8,13 @@ on:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Importante: permite que a action faça commit/push
     
     steps:
     - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0  # Importante para evitar problemas com histórico do git
     
     - name: Set up Python
       uses: actions/setup-python@v5
@@ -24,11 +28,21 @@ jobs:
         
     - name: Run scraper
       run: python main.py
-        
-    - name: Commit and push if changed
+      
+    - name: Configure Git
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add feeds/
-        git add history/
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Update feeds" && git push)
+        
+    - name: Check for changes
+      id: verify_diff
+      run: |
+        git add feeds/ history/
+        git status
+        git diff --staged --quiet && echo "no_changes=true" >> $GITHUB_OUTPUT || echo "no_changes=false" >> $GITHUB_OUTPUT
+        
+    - name: Commit and push if changes exist
+      if: steps.verify_diff.outputs.no_changes == 'false'
+      run: |
+        git commit -m "Update feeds [skip ci]"
+        git push
