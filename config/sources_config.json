@@ -71,11 +71,46 @@
       "scraper": "FolhaScraper"
     },
     {
-      "name": "Estadão - Oliver Stuenkel",
+      "name": "Oliver Stuenkel",
       "url": "https://www.estadao.com.br/internacional/oliver-stuenkel/",
       "scraper": "EstadaoColumnistScraper",
       "feed_file": "estadao_oliver_feed.xml",
       "history_file": "estadao_oliver_history.json"
+    },
+    {
+      "name": "Felipe Salto",
+      "url": "https://www.estadao.com.br/opiniao/felipe-salto/",
+      "scraper": "EstadaoColumnistScraper",
+      "feed_file": "estadao_felipesalto_feed.xml",
+      "history_file": "estadao_felipesalto_history.json"
+    },
+    {
+      "name": "Eugenio Bucci",
+      "url": "https://www.estadao.com.br/opiniao/eugenio-bucci/",
+      "scraper": "EstadaoColumnistScraper",
+      "feed_file": "estadao_bucci_feed.xml",
+      "history_file": "estadao_bucci_history.json"
+    },
+    {
+      "name": "Leandro Karnal",
+      "url": "https://www.estadao.com.br/cultura/leandro-karnal/",
+      "scraper": "EstadaoColumnistScraper",
+      "feed_file": "estadao_karnal_feed.xml",
+      "history_file": "estadao_karnal_history.json"
+    },
+    {
+      "name": "Ignácio de Loyola Brandão",
+      "url": "https://www.estadao.com.br/cultura/ignacio-de-loyola-brandao/",
+      "scraper": "EstadaoColumnistScraper",
+      "feed_file": "estadao_loyola_feed.xml",
+      "history_file": "estadao_loyola_history.json"
+    },
+    {
+      "name": "Ricardo Basaglia",
+      "url": "https://www.estadao.com.br/economia/ricardo-basaglia/",
+      "scraper": "EstadaoColumnistScraper",
+      "feed_file": "estadao_basaglia_feed.xml",
+      "history_file": "estadao_basaglia_history.json"
     }
   ]
 }
