@@ -69,6 +69,13 @@
       "feed_file": "rodrigo_zeidan_feed.xml",
       "history_file": "rodrigo_zeidan_history.json",
       "scraper": "FolhaScraper"
+    },
+    {
+      "name": "Estadão - Oliver Stuenkel",
+      "url": "https://www.estadao.com.br/internacional/oliver-stuenkel/",
+      "scraper": "EstadaoColumnistScraper",
+      "feed_file": "estadao_oliver_feed.xml",
+      "history_file": "estadao_oliver_history.json"
     }
   ]
 }

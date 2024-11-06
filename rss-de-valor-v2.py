@@ -89,6 +89,7 @@ class ValorOGloboScraper(BaseScraper):
                 print(f"Formato de data não reconhecido: {date_str}. Usando a data atual.")
                 return now.replace(microsecond=0)
 
+# Washington Post scraper
 class WashingtonPostScraper(BaseScraper):
     def _extract_article_data(self, soup):
         articles = soup.select('div[data-feature-id="homepage/story"]')
@@ -129,7 +130,8 @@ class WashingtonPostScraper(BaseScraper):
         except ValueError:
             print(f"Não foi possível analisar a data: {date_str}")
             return datetime.datetime.now(pytz.timezone('US/Eastern'))
-        
+
+# Folha scraper        
 class FolhaScraper(BaseScraper):
     def _extract_article_data(self, soup):
         article = soup.select_one('div.c-headline.c-headline--opinion')
@@ -163,6 +165,69 @@ class FolhaScraper(BaseScraper):
         except ValueError:
             print(f"Formato de data não reconhecido: {date_str}. Usando a data atual.")
             return datetime.datetime.now(pytz.timezone('America/Sao_Paulo')).replace(microsecond=0)
+
+# Estadão scraper        
+class EstadaoColumnistScraper(BaseScraper):
+    def _extract_article_data(self, soup):
+        # Procura o container principal da manchete
+        article = soup.select_one('div.manchete-dia-a-dia-block-container')
+        if article:
+            # Extrai o título
+            title_element = article.select_one('h2.headline')
+            title = title_element.text.strip() if title_element else "No title found"
+            
+            # Extrai o link
+            link_element = article.select_one('a')
+            link = link_element['href'] if link_element else ""
+            
+            # Extrai a descrição (subtítulo)
+            description_element = article.select_one('p.subheadline')
+            description = description_element.text.strip() if description_element else ""
+            
+            # Extrai o autor do "chapeu"
+            author_element = article.select_one('div.chapeu span')
+            author = author_element.text.strip() if author_element else "Autor Desconhecido"
+            
+            # Como o Estadão não mostra a data na manchete principal,
+            # vamos pegar a data do artigo mais recente da lista
+            latest_article = soup.select_one('div.noticias-mais-recenter--item')
+            if latest_article:
+                date_element = latest_article.select_one('span.date')
+                date_str = date_element.text.strip() if date_element else ""
+                date = self._parse_date(date_str)
+            else:
+                date = datetime.datetime.now(pytz.timezone('America/Sao_Paulo'))
+            
+            return {
+                'title': title,
+                'link': link,
+                'pubdate': date,
+                'author': author,
+                'description': description,
+            }
+        return None
+
+    def _parse_date(self, date_str):
+        try:
+            # Remove possíveis espaços extras e a palavra "Por" do início
+            date_str = date_str.replace('Por', '').strip()
+            
+            # O formato da data é "DD/MM/YYYY, HHhMM"
+            date_parts = date_str.split(',')
+            if len(date_parts) == 2:
+                date_part = date_parts[0].strip()
+                time_part = date_parts[1].strip().replace('h', ':')
+                
+                datetime_str = f"{date_part} {time_part}"
+                return datetime.datetime.strptime(datetime_str, "%d/%m/%Y %H:%M").replace(
+                    tzinfo=pytz.timezone('America/Sao_Paulo')
+                )
+        except ValueError as e:
+            print(f"Erro ao analisar a data '{date_str}': {e}")
+            
+        # Em caso de erro, retorna a data atual
+        return datetime.datetime.now(pytz.timezone('America/Sao_Paulo')).replace(microsecond=0)
+    
 
 # RSS feed generator
 def generate_feed(source_name, url, article):
