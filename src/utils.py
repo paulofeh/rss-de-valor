@@ -4,6 +4,9 @@ from feedgenerator import Rss201rev2Feed
 from datetime import datetime
 import pytz
 
+# Constante para a URL base do GitHub Pages
+GITHUB_PAGES_BASE_URL = "https://paulofeh.github.io/rss-de-valor"
+
 class CustomRssFeed(Rss201rev2Feed):
     def root_attributes(self):
         attrs = super().root_attributes()
@@ -12,11 +15,8 @@ class CustomRssFeed(Rss201rev2Feed):
 
     def add_item_elements(self, handler, item):
         super().add_item_elements(handler, item)
-        
-        # Adiciona o guid (mesmo que o link)
         handler.addQuickElement('guid', item['link'], attrs={'isPermaLink': 'true'})
         
-        # Garante que o item tenha uma data de publicação
         if 'pubdate' not in item:
             item['pubdate'] = datetime.now(pytz.utc)
 
@@ -38,14 +38,21 @@ def get_config_path(filename):
     """Get the full path for a config file."""
     return os.path.join('config', filename)
 
+def get_feed_url(filename):
+    """Get the full GitHub Pages URL for a feed file."""
+    return f"{GITHUB_PAGES_BASE_URL}/feeds/{filename}"
+
 def generate_feed(source_name, url, article):
     """Generate RSS feed for an article."""
+    feed_filename = f"{source_name.lower().replace(' ', '_')}_feed.xml"
+    feed_url = get_feed_url(feed_filename)
+
     feed = CustomRssFeed(
         title=f"{source_name}",
         link=url,
         description=f"Últimos artigos de {source_name}",
         language="pt-br",
-        feed_url=f"https://raw.githubusercontent.com/paulofeh/rss-de-valor/main/feeds/{source_name.lower().replace(' ', '_')}_feed.xml",
+        feed_url=feed_url,
         feed_guid=url,
         ttl="60"
     )
@@ -55,10 +62,10 @@ def generate_feed(source_name, url, article):
         link=article['link'],
         description=article['description'],
         author_name=article['author'],
-        author_email="",  # Campo vazio mas presente
+        author_email="",
         pubdate=article['pubdate'],
-        unique_id=article['link'],  # Garante um ID único
-        updateddate=article['pubdate'],  # Data de atualização
+        unique_id=article['link'],
+        updateddate=article['pubdate'],
     )
 
     return feed
