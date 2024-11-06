@@ -1,6 +1,24 @@
 import os
 import json
 from feedgenerator import Rss201rev2Feed
+from datetime import datetime
+import pytz
+
+class CustomRssFeed(Rss201rev2Feed):
+    def root_attributes(self):
+        attrs = super().root_attributes()
+        attrs['xmlns:atom'] = 'http://www.w3.org/2005/Atom'
+        return attrs
+
+    def add_item_elements(self, handler, item):
+        super().add_item_elements(handler, item)
+        
+        # Adiciona o guid (mesmo que o link)
+        handler.addQuickElement('guid', item['link'], attrs={'isPermaLink': 'true'})
+        
+        # Garante que o item tenha uma data de publicação
+        if 'pubdate' not in item:
+            item['pubdate'] = datetime.now(pytz.utc)
 
 def ensure_directories():
     """Create necessary directories if they don't exist."""
@@ -22,19 +40,25 @@ def get_config_path(filename):
 
 def generate_feed(source_name, url, article):
     """Generate RSS feed for an article."""
-    feed = Rss201rev2Feed(
+    feed = CustomRssFeed(
         title=f"{source_name}",
         link=url,
         description=f"Últimos artigos de {source_name}",
         language="pt-br",
+        feed_url=f"https://raw.githubusercontent.com/paulofeh/rss-de-valor/main/feeds/{source_name.lower().replace(' ', '_')}_feed.xml",
+        feed_guid=url,
+        ttl="60"
     )
 
     feed.add_item(
         title=article['title'],
         link=article['link'],
-        pubdate=article['pubdate'],
         description=article['description'],
         author_name=article['author'],
+        author_email="",  # Campo vazio mas presente
+        pubdate=article['pubdate'],
+        unique_id=article['link'],  # Garante um ID único
+        updateddate=article['pubdate'],  # Data de atualização
     )
 
     return feed
