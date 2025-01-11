@@ -111,6 +111,27 @@
       "scraper": "EstadaoColumnistScraper",
       "feed_file": "estadao_basaglia_feed.xml",
       "history_file": "estadao_basaglia_history.json"
+    },
+    {
+      "name": "Fernando Reinach",
+      "url": "https://www.estadao.com.br/ciencia/fernando-reinach/",
+      "scraper": "EstadaoColumnistScraper",
+      "feed_file": "fernando_reinach_feed.xml",
+      "history_file": "fernando_reinach_history.json"
+    },
+    {
+      "name": "Demi Getschko",
+      "url": "https://www.estadao.com.br/link/demi-getschko/",
+      "scraper": "EstadaoColumnistScraper",
+      "feed_file": "demi_getschko_feed.xml",
+      "history_file": "demi_getschko_history.json"
+    },
+    {
+      "name": "Felipe Salto",
+      "url": "https://www.estadao.com.br/opiniao/felipe-salto/",
+      "scraper": "EstadaoColumnistScraper",
+      "feed_file": "felipe_salto_feed.xml",
+      "history_file": "felipe_salto_history.json"
     }
   ]
 }
