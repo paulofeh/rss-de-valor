@@ -14,6 +14,8 @@
                 <outline type="rss" text="Leandro Karnal" title="Leandro Karnal" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/estadao_karnal_feed.xml"/>
                 <outline type="rss" text="Ignácio de Loyola Brandão" title="Ignácio de Loyola Brandão" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/estadao_loyola_feed.xml"/>
                 <outline type="rss" text="Oliver Stuenkel" title="Oliver Stuenkel" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/estadao_oliver_feed.xml"/>
+                <outline type="rss" text="Fernando Reinach" title="Fernando Reinach" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/fernando_reinach_feed.xml"/>
+                <outline type="rss" text="Demi Getschko" title="Demi Getschko" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/demi_getschko_feed.xml"/>
             </outline>
             <outline text="Valor" title="Valor">
                 <outline type="rss" text="Guilherme Ravache" title="Guilherme Ravache" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/guilherme_ravache_feed.xml"/>
@@ -27,9 +29,8 @@
                 <outline type="rss" text="Roberto DaMatta" title="Roberto DaMatta" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/roberto_damatta_feed.xml"/>
                 <outline type="rss" text="Tatiana Salem Levy" title="Tatiana Salem Levy" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/tatiana_salem_levy_feed.xml"/>
             </outline>
-            <outline text="Outros" title="Outros">
+            <outline text="Folha" title="Folha">
                 <outline type="rss" text="Rodrigo Zeidan" title="Rodrigo Zeidan" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/rodrigo_zeidan_feed.xml"/>
-                <outline type="rss" text="WP Climate Lab" title="WP Climate Lab" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/wp_climate_lab_feed.xml"/>
             </outline>
         </outline>
     </body>

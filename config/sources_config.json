@@ -57,13 +57,6 @@
       "scraper": "ValorOGloboScraper"
     },
     {
-      "name": "Washington Post Climate Lab",
-      "url": "https://www.washingtonpost.com/climate-environment/climate-lab/",
-      "feed_file": "wp_climate_lab_feed.xml",
-      "history_file": "wp_climate_lab_history.json",
-      "scraper": "WashingtonPostScraper"
-    },
-    {
       "name": "Rodrigo Zeidan",
       "url": "https://www1.folha.uol.com.br/colunas/rodrigo-zeidan/",
       "feed_file": "rodrigo_zeidan_feed.xml",
@@ -125,13 +118,6 @@
       "scraper": "EstadaoColumnistScraper",
       "feed_file": "demi_getschko_feed.xml",
       "history_file": "demi_getschko_history.json"
-    },
-    {
-      "name": "Felipe Salto",
-      "url": "https://www.estadao.com.br/opiniao/felipe-salto/",
-      "scraper": "EstadaoColumnistScraper",
-      "feed_file": "felipe_salto_feed.xml",
-      "history_file": "felipe_salto_history.json"
     }
   ]
 }
