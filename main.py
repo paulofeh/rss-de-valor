@@ -6,7 +6,9 @@ from src.utils import (
     load_history,
     save_history,
     generate_feed,
-    save_feed
+    save_feed,
+    generate_opml,
+    save_opml
 )
 
 def main():
@@ -51,6 +53,15 @@ def main():
                     time.sleep(5)
                 else:
                     print(f"Falha após {max_retries} tentativas para {source['name']}.")
+    
+    # Gera o arquivo OPML atualizado
+    try:
+        opml = generate_opml(sources)
+        save_opml(opml, 'feeds/feeds.opml')
+        print("Arquivo OPML atualizado com sucesso!")
+    except Exception as e:
+        print(f"Erro ao gerar arquivo OPML: {str(e)}")
+
 
 if __name__ == "__main__":
     main()

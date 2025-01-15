@@ -118,6 +118,42 @@
       "scraper": "EstadaoColumnistScraper",
       "feed_file": "demi_getschko_feed.xml",
       "history_file": "demi_getschko_history.json"
+    },
+    {
+      "name": "Por dentro do agro",
+      "url": "https://www.linkedin.com/newsletters/7174507900894126080/",
+      "feed_file": "mariana_grilli_feed.xml",
+      "history_file": "mariana_grilli_history.json",
+      "scraper": "LinkedInNewsletterScraper"
+    },
+    {
+      "name": "AI in the news",
+      "url": "https://www.linkedin.com/newsletters/7233909926606053377/",
+      "feed_file": "ai_news_feed.xml",
+      "history_file": "ai_news_history.json",
+      "scraper": "LinkedInNewsletterScraper"
+    },
+    {
+      "name": "Fabio Alperovitch",
+      "url": "https://www.linkedin.com/newsletters/6916134115763187712/",
+      "feed_file": "fabio_alperovitch_feed.xml",
+      "history_file": "fabio_alperovitch_history.json",
+      "scraper": "LinkedInNewsletterScraper"
+    },
+    {
+      "name": "Guilherme Ravache (LinkedIn)",
+      "url": "https://www.linkedin.com/newsletters/6790715495914999808/",
+      "feed_file": "ravache_linkedin_feed.xml",
+      "history_file": "ravache_linkedin_history.json",
+      "scraper": "LinkedInNewsletterScraper"
+    },
+    {
+      "name": "André Derviche",
+      "url": "https://www.linkedin.com/newsletters/7157735697066471424/",
+      "feed_file": "andre_derviche_feed.xml",
+      "history_file": "andre_derviche_history.json",
+      "scraper": "LinkedInNewsletterScraper"
     }
+
   ]
 }

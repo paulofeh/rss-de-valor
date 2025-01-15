@@ -215,9 +215,89 @@ class EstadaoColumnistScraper(BaseScraper):
             
         return datetime.datetime.now(pytz.timezone('America/Sao_Paulo')).replace(microsecond=0)
 
+class LinkedInNewsletterScraper(BaseScraper):
+    """Scraper for LinkedIn Newsletter articles."""
+    
+    def __init__(self, url):
+        super().__init__(url)
+        self.headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+            'Accept-Language': 'en-US,en;q=0.5',
+            'DNT': '1',
+            'Connection': 'keep-alive',
+            'Upgrade-Insecure-Requests': '1',
+        }
+
+    def get_latest_article(self):
+        """Fetch and extract the latest article data."""
+        try:
+            session = requests_retry_session()
+            response = session.get(
+                self.url,
+                headers=self.headers,
+                timeout=30
+            )
+            response.raise_for_status()
+            
+            if 'login' in response.url.lower() or 'authenticate' in response.url.lower():
+                print(f"LinkedIn está solicitando autenticação para {self.url}")
+                return None
+                
+            soup = BeautifulSoup(response.content, 'html.parser', from_encoding='utf-8')
+            return self._extract_article_data(soup)
+        except requests.exceptions.RequestException as e:
+            print(f"Erro ao acessar {self.url}: {str(e)}")
+            return None
+    
+    def _extract_article_data(self, soup):
+        """Extract data from LinkedIn newsletter page."""
+        # Find all article updates in the newsletter
+        articles = soup.select('div.share-update-card')
+        if not articles:
+            return None
+            
+        # Get the most recent article (first one)
+        latest_article = articles[0]
+        
+        # Extract article title
+        title_element = latest_article.select_one('h3.share-article__title a')
+        title = title_element.text.strip() if title_element else "No title found"
+        
+        # Extract article link
+        link = title_element['href'] if title_element else ""
+        
+        # Extract author information from the profile card
+        author_element = soup.select_one('h3.profile-card__header-name')
+        author = author_element.text.strip() if author_element else "Unknown Author"
+        
+        # Extract article description/subtitle
+        description_element = latest_article.select_one('h4.share-article__subtitle')
+        description = description_element.text.strip() if description_element else ""
+        
+        # For LinkedIn newsletters, we'll use the current time as publication date
+        pubdate = datetime.datetime.now(pytz.UTC)
+        
+        return {
+            'title': title,
+            'link': link,
+            'pubdate': pubdate,
+            'author': author,
+            'description': description
+        }
+        
+    def _parse_date(self, date_str):
+        """
+        LinkedIn shows relative dates (e.g., "3mo", "1w") which are difficult to parse precisely.
+        For now, we'll return current time as this would need more complex logic to handle all cases.
+        """
+        return datetime.datetime.now(pytz.UTC)
+
+
 def get_scraper_class(scraper_name):
     """Get the scraper class by name."""
     scrapers = {
+        'LinkedInNewsletterScraper': LinkedInNewsletterScraper,
         'ValorOGloboScraper': ValorOGloboScraper,
         'WashingtonPostScraper': WashingtonPostScraper,
         'FolhaScraper': FolhaScraper,
