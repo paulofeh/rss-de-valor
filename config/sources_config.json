@@ -160,6 +160,13 @@
       "feed_file": "flavio_moreira_feed.xml",
       "history_file": "flavio_moreira_history.json",
       "scraper": "LinkedInNewsletterScraper"
+    },
+    {
+      "name": "Dorrit Harazim",
+      "url": "https://oglobo.globo.com/opiniao/dorrit-harazim/",
+      "feed_file": "dorrit_harazim_feed.xml",
+      "history_file": "dorrit_harazim_history.json",
+      "scraper": "ValorOGloboScraper"
     }
   ]
 }
