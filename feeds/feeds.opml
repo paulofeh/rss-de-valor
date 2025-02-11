@@ -1,7 +1,7 @@
 <opml version="2.0">
     <head>
         <title>RSS de Colunistas</title>
-        <dateCreated>Tue, 11 Feb 2025 12:31:14 GMT</dateCreated>
+        <dateCreated>Tue, 11 Feb 2025 13:43:49 GMT</dateCreated>
         <ownerName>RSS Scraper</ownerName>
         </head>
     <body>
@@ -17,6 +17,7 @@
                 <outline type="rss" text="Ricardo Basaglia" title="Ricardo Basaglia" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/estadao_basaglia_feed.xml" />
                 </outline>
             <outline text="Valor" title="Valor">
+                <outline type="rss" text="Bruno Carazza" title="Bruno Carazza" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/bruno_carazza_feed.xml" />
                 <outline type="rss" text="Guilherme Ravache" title="Guilherme Ravache" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/guilherme_ravache_feed.xml" />
                 <outline type="rss" text="José Eli da Veiga" title="José Eli da Veiga" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/jose_eli_da_veiga_feed.xml" />
                 <outline type="rss" text="Maria Cristina Fernandes" title="Maria Cristina Fernandes" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/maria_cristina_fernandes_feed.xml" />
