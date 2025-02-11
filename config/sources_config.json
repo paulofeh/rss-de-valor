@@ -167,6 +167,13 @@
       "feed_file": "dorrit_harazim_feed.xml",
       "history_file": "dorrit_harazim_history.json",
       "scraper": "ValorOGloboScraper"
+    },
+    {
+      "name": "Bruno Carazza",
+      "url": "https://valor.globo.com/autores/bruno-carazza/",
+      "feed_file": "bruno_carazza_feed.xml",
+      "history_file": "bruno_carazza_history.json",
+      "scraper": "ValorOGloboScraper"
     }
   ]
 }
