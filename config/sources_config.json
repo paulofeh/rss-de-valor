@@ -174,6 +174,13 @@
       "feed_file": "bruno_carazza_feed.xml",
       "history_file": "bruno_carazza_history.json",
       "scraper": "ValorOGloboScraper"
+    },
+    {
+      "name": "Silvio Meira",
+      "url": "https://www.poder360.com.br/author/silvio-meira-2/",
+      "feed_file": "silvio_meira_feed.xml",
+      "history_file": "silvio_meira_history.json",
+      "scraper": "Poder360Scraper"
     }
   ]
 }

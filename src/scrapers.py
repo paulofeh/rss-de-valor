@@ -46,6 +46,79 @@ class BaseScraper:
     def _extract_article_data(self, soup):
         raise NotImplementedError("This method should be implemented by subclasses")
 
+class Poder360Scraper(BaseScraper):
+    """Scraper for Poder360 columnist articles."""
+    
+    def _extract_article_data(self, soup):
+        # Find the most recent article in the archive list
+        article = soup.select_one('ul.archive-list__list li')
+        
+        if article:
+            # Extract title
+            title_element = article.select_one('h2.archive-list__title-2 a')
+            title = title_element.text.strip() if title_element else "Título não encontrado"
+            
+            # Extract link
+            link = title_element['href'] if title_element else ""
+            
+            # Extract date
+            date_element = article.select_one('span.archive-list__date')
+            date_str = date_element.text.strip() if date_element else ""
+            date = self._parse_date(date_str)
+            
+            # Extract author from the profile or page title
+            author_element = soup.select_one('h2.box-profile-author__title')
+            author = author_element.text.strip() if author_element else "Autor Desconhecido"
+            
+            # Extract description/summary
+            description_element = article.select_one('div.archive-list__text p')
+            description = description_element.text.strip() if description_element else ""
+            
+            # Extract category/tag
+            tag_element = article.select_one('a.archive-list__tag')
+            tag = tag_element.text.strip() if tag_element else ""
+            
+            # Add tag to description if available
+            if tag and description:
+                description = f"[{tag}] {description}"
+            
+            return {
+                'title': title,
+                'link': link,
+                'pubdate': date,
+                'author': author,
+                'description': description,
+            }
+            
+        return None
+    
+    def _parse_date(self, date_str):
+        """Parse date from Poder360 format (e.g., "24.fev.2025")."""
+        try:
+            # Map Portuguese month abbreviations to numbers
+            month_map = {
+                'jan': 1, 'fev': 2, 'mar': 3, 'abr': 4, 'mai': 5, 'jun': 6,
+                'jul': 7, 'ago': 8, 'set': 9, 'out': 10, 'nov': 11, 'dez': 12
+            }
+            
+            # Split the date string
+            parts = date_str.split('.')
+            if len(parts) == 3:
+                day = int(parts[0])
+                month_abbr = parts[1].lower()
+                year = int(parts[2])
+                
+                # Convert month abbreviation to number
+                month = month_map.get(month_abbr, 1)  # Default to January if not found
+                
+                # Create datetime object
+                return datetime.datetime(year, month, day, tzinfo=pytz.timezone('America/Sao_Paulo'))
+        except (ValueError, IndexError) as e:
+            print(f"Erro ao analisar a data '{date_str}': {e}")
+        
+        # Default to current time if parsing fails
+        return datetime.datetime.now(pytz.timezone('America/Sao_Paulo')).replace(microsecond=0)
+
 class ValorOGloboScraper(BaseScraper):
     """Scraper for Valor/O Globo articles."""
     def _extract_article_data(self, soup):
@@ -302,5 +375,6 @@ def get_scraper_class(scraper_name):
         'WashingtonPostScraper': WashingtonPostScraper,
         'FolhaScraper': FolhaScraper,
         'EstadaoColumnistScraper': EstadaoColumnistScraper,
+        'Poder360Scraper': Poder360Scraper,
     }
     return scrapers.get(scraper_name)
