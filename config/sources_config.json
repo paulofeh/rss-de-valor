@@ -181,6 +181,13 @@
       "feed_file": "silvio_meira_feed.xml",
       "history_file": "silvio_meira_history.json",
       "scraper": "Poder360Scraper"
+    },
+    {
+      "name": "Pedro Fernando Nery",
+      "url": "https://www.estadao.com.br/economia/pedro-fernando-nery/",
+      "scraper": "EstadaoColumnistScraper",
+      "feed_file": "pfnery_feed.xml",
+      "history_file": "pfnery_history.json"
     }
   ]
 }
