@@ -1,7 +1,7 @@
 <opml version="2.0">
     <head>
         <title>RSS de Colunistas</title>
-        <dateCreated>Wed, 19 Mar 2025 12:34:02 GMT</dateCreated>
+        <dateCreated>Wed, 19 Mar 2025 17:57:46 GMT</dateCreated>
         <ownerName>RSS Scraper</ownerName>
         </head>
     <body>
@@ -14,6 +14,7 @@
                 <outline type="rss" text="Ignácio de Loyola Brandão" title="Ignácio de Loyola Brandão" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/estadao_loyola_feed.xml" />
                 <outline type="rss" text="Leandro Karnal" title="Leandro Karnal" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/estadao_karnal_feed.xml" />
                 <outline type="rss" text="Oliver Stuenkel" title="Oliver Stuenkel" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/estadao_oliver_feed.xml" />
+                <outline type="rss" text="Pedro Fernando Nery" title="Pedro Fernando Nery" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/pfnery_feed.xml" />
                 <outline type="rss" text="Ricardo Basaglia" title="Ricardo Basaglia" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/estadao_basaglia_feed.xml" />
                 </outline>
             <outline text="Valor" title="Valor">
