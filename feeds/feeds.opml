@@ -1,7 +1,7 @@
 <opml version="2.0">
     <head>
         <title>RSS de Colunistas</title>
-        <dateCreated>Mon, 24 Mar 2025 18:24:08 GMT</dateCreated>
+        <dateCreated>Mon, 24 Mar 2025 20:32:35 GMT</dateCreated>
         <ownerName>RSS Scraper</ownerName>
         </head>
     <body>
@@ -32,6 +32,7 @@
                 <outline type="rss" text="Roberto DaMatta" title="Roberto DaMatta" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/roberto_damatta_feed.xml" />
                 </outline>
             <outline text="Folha" title="Folha">
+                <outline type="rss" text="Giovana Madalosso" title="Giovana Madalosso" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/giovana_madalosso_feed.xml" />
                 <outline type="rss" text="Rodrigo Zeidan" title="Rodrigo Zeidan" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/rodrigo_zeidan_feed.xml" />
                 </outline>
             <outline text="LinkedIn" title="LinkedIn">
