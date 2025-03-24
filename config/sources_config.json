@@ -188,6 +188,13 @@
       "scraper": "EstadaoColumnistScraper",
       "feed_file": "pfnery_feed.xml",
       "history_file": "pfnery_history.json"
+    },
+    {
+      "name": "Giovana Madalosso",
+      "url": "https://www1.folha.uol.com.br/colunas/giovana-maladosso/",
+      "scraper": "FolhaScraper",
+      "feed_file": "giovana_madalosso_feed.xml",
+      "history_file": "giovana_madalosso_history.json"
     }
   ]
 }
