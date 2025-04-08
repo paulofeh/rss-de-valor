@@ -195,6 +195,13 @@
       "scraper": "FolhaScraper",
       "feed_file": "giovana_madalosso_feed.xml",
       "history_file": "giovana_madalosso_history.json"
+    },
+    {
+      "name": "Bernardo Mello Franco",
+      "url": "https://oglobo.globo.com/blogs/bernardo-mello-franco/",
+      "scraper": "ValorOGloboScraper",
+      "feed_file": "bernardo_mello_franco_feed.xml",
+      "history_file": "bernardo_mello_franco_history.json"
     }
   ]
 }
