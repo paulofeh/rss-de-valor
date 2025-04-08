@@ -1,7 +1,7 @@
 <opml version="2.0">
     <head>
         <title>RSS de Colunistas</title>
-        <dateCreated>Tue, 08 Apr 2025 12:34:52 GMT</dateCreated>
+        <dateCreated>Tue, 08 Apr 2025 13:46:55 GMT</dateCreated>
         <ownerName>RSS Scraper</ownerName>
         </head>
     <body>
@@ -25,6 +25,7 @@
                 <outline type="rss" text="Tatiana Salem Levy" title="Tatiana Salem Levy" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/tatiana_salem_levy_feed.xml" />
                 </outline>
             <outline text="O Globo" title="O Globo">
+                <outline type="rss" text="Bernardo Mello Franco" title="Bernardo Mello Franco" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/bernardo_mello_franco_feed.xml" />
                 <outline type="rss" text="Dorrit Harazim" title="Dorrit Harazim" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/dorrit_harazim_feed.xml" />
                 <outline type="rss" text="José Eduardo Agualusa" title="José Eduardo Agualusa" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/jose_eduardo_agualusa_feed.xml" />
                 <outline type="rss" text="Martha Batalha" title="Martha Batalha" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/martha_batalha_feed.xml" />
