@@ -1,7 +1,7 @@
 <opml version="2.0">
     <head>
         <title>RSS de Colunistas</title>
-        <dateCreated>Tue, 29 Apr 2025 12:37:04 GMT</dateCreated>
+        <dateCreated>Tue, 29 Apr 2025 13:25:27 GMT</dateCreated>
         <ownerName>RSS Scraper</ownerName>
         </head>
     <body>
@@ -42,6 +42,7 @@
                 <outline type="rss" text="Fabio Alperovitch" title="Fabio Alperovitch" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/fabio_alperovitch_feed.xml" />
                 <outline type="rss" text="Flávio Moreira" title="Flávio Moreira" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/flavio_moreira_feed.xml" />
                 <outline type="rss" text="Guilherme Ravache (LinkedIn)" title="Guilherme Ravache (LinkedIn)" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/ravache_linkedin_feed.xml" />
+                <outline type="rss" text="O Essencial" title="O Essencial" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/o_essencial_feed.xml" />
                 <outline type="rss" text="Por dentro do agro" title="Por dentro do agro" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/mariana_grilli_feed.xml" />
                 </outline>
             </outline>
