@@ -51,10 +51,10 @@
     },
     {
       "name": "Roberto DaMatta",
-      "url": "https://oglobo.globo.com/opiniao/roberto-damatta/",
+      "url": "https://www.estadao.com.br/cultura/roberto-damatta/",
       "feed_file": "roberto_damatta_feed.xml",
       "history_file": "roberto_damatta_history.json",
-      "scraper": "ValorOGloboScraper"
+      "scraper": "EstadaoColumnistScraper"
     },
     {
       "name": "Rodrigo Zeidan",
