@@ -1,7 +1,7 @@
 <opml version="2.0">
     <head>
         <title>RSS de Colunistas</title>
-        <dateCreated>Wed, 10 Dec 2025 18:28:43 GMT</dateCreated>
+        <dateCreated>Thu, 11 Dec 2025 01:27:59 GMT</dateCreated>
         <ownerName>RSS Scraper</ownerName>
         </head>
     <body>
@@ -16,6 +16,7 @@
                 <outline type="rss" text="Oliver Stuenkel" title="Oliver Stuenkel" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/estadao_oliver_feed.xml" />
                 <outline type="rss" text="Pedro Fernando Nery" title="Pedro Fernando Nery" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/pfnery_feed.xml" />
                 <outline type="rss" text="Ricardo Basaglia" title="Ricardo Basaglia" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/estadao_basaglia_feed.xml" />
+                <outline type="rss" text="Roberto DaMatta" title="Roberto DaMatta" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/roberto_damatta_feed.xml" />
                 </outline>
             <outline text="Valor" title="Valor">
                 <outline type="rss" text="Bruno Carazza" title="Bruno Carazza" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/bruno_carazza_feed.xml" />
@@ -30,7 +31,6 @@
                 <outline type="rss" text="José Eduardo Agualusa" title="José Eduardo Agualusa" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/jose_eduardo_agualusa_feed.xml" />
                 <outline type="rss" text="Martha Batalha" title="Martha Batalha" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/martha_batalha_feed.xml" />
                 <outline type="rss" text="Pedro Doria" title="Pedro Doria" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/pedro_doria_feed.xml" />
-                <outline type="rss" text="Roberto DaMatta" title="Roberto DaMatta" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/roberto_damatta_feed.xml" />
                 </outline>
             <outline text="Folha" title="Folha">
                 <outline type="rss" text="Giovana Madalosso" title="Giovana Madalosso" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/giovana_madalosso_feed.xml" />
