@@ -71,6 +71,67 @@ def generate_feed(source_name, url, article):
 
     return feed
 
+def generate_grouped_feed(group_name, articles):
+    """Generate RSS feed for a group of articles from multiple authors.
+
+    Args:
+        group_name: Name of the group (e.g., 'estadao', 'oglobo')
+        articles: List of dicts with keys: author_name, article (with title, link, etc.)
+
+    Returns:
+        CustomRssFeed object
+    """
+    # Create display name for the group
+    group_display_names = {
+        'estadao': 'Estadão',
+        'oglobo': 'O Globo',
+        'valor': 'Valor Econômico',
+        'folha': 'Folha de S.Paulo',
+        'linkedin': 'LinkedIn Newsletters',
+        'poder360': 'Poder360'
+    }
+
+    display_name = group_display_names.get(group_name, group_name.title())
+    feed_filename = f"{group_name}_feed.xml"
+    feed_url = get_feed_url(feed_filename)
+
+    # Use the first article's link as the main link (or a generic URL)
+    main_link = articles[0]['article']['link'] if articles else "https://paulofeh.github.io/rss-de-valor"
+
+    feed = CustomRssFeed(
+        title=f"{display_name} - Colunistas",
+        link=main_link,
+        description=f"Últimos artigos de colunistas do {display_name}",
+        language="pt-br",
+        feed_url=feed_url,
+        feed_guid=feed_url,
+        ttl="60"
+    )
+
+    # Sort articles by date (most recent first)
+    sorted_articles = sorted(articles, key=lambda x: x['article']['pubdate'], reverse=True)
+
+    # Add each article to the feed with author name in the title
+    for item in sorted_articles:
+        author_name = item['author_name']
+        article = item['article']
+
+        # Format title as "Author: Article Title"
+        title_with_author = f"{author_name}: {article['title']}"
+
+        feed.add_item(
+            title=title_with_author,
+            link=article['link'],
+            description=article['description'],
+            author_name=author_name,
+            author_email="",
+            pubdate=article['pubdate'],
+            unique_id=article['link'],
+            updateddate=article['pubdate'],
+        )
+
+    return feed
+
 def save_feed(feed, filename):
     """Save feed to the feeds directory."""
     full_path = get_feed_path(filename)
@@ -99,62 +160,59 @@ def load_sources_config(filename='sources_config.json'):
     return config['sources']
 
 def generate_opml(sources):
-    """Generate OPML file from sources configuration."""
+    """Generate OPML file from sources configuration with grouped feeds."""
     # Create root OPML element
     opml = ET.Element('opml', version="2.0")
-    
+
     # Create head section
     head = ET.SubElement(opml, 'head')
     title = ET.SubElement(head, 'title')
-    title.text = 'RSS de Colunistas'
+    title.text = 'RSS de Colunistas - Feeds Agrupados'
     date_created = ET.SubElement(head, 'dateCreated')
     date_created.text = datetime.now(pytz.UTC).strftime('%a, %d %b %Y %H:%M:%S GMT')
     owner_name = ET.SubElement(head, 'ownerName')
     owner_name.text = 'RSS Scraper'
-    
+
     # Create body section
     body = ET.SubElement(opml, 'body')
-    
+
     # Create main Colunistas outline
     main_outline = ET.SubElement(body, 'outline', text="Colunistas", title="Colunistas")
-    
-    # Create dictionary to group sources by publisher
-    publishers = {
-        'Estadão': [],
-        'Valor': [],
-        'O Globo': [],
-        'Folha': [],
-        'LinkedIn': []  # Adicionando suporte para LinkedIn
-    }
-    
-    # Group sources by publisher
+
+    # Get unique groups from sources
+    groups_info = {}
     for source in sources:
-        if 'estadao' in source['url'].lower():
-            publishers['Estadão'].append(source)
-        elif 'valor.globo' in source['url'].lower():
-            publishers['Valor'].append(source)
-        elif 'oglobo' in source['url'].lower():
-            publishers['O Globo'].append(source)
-        elif 'folha' in source['url'].lower():
-            publishers['Folha'].append(source)
-        elif 'linkedin' in source['url'].lower():
-            publishers['LinkedIn'].append(source)
-    
-    # Create outlines for each publisher
-    for publisher, sources_list in publishers.items():
-        if sources_list:  # Only create publisher outline if it has sources
-            publisher_outline = ET.SubElement(main_outline, 'outline', 
-                                           text=publisher, title=publisher)
-            
-            # Add sources for this publisher
-            for source in sorted(sources_list, key=lambda x: x['name']):
-                feed_url = f"{GITHUB_PAGES_BASE_URL}/feeds/{source['feed_file']}"
-                ET.SubElement(publisher_outline, 'outline',
-                            type="rss",
-                            text=source['name'],
-                            title=source['name'],
-                            xmlUrl=feed_url)
-    
+        group = source.get('group')
+        if group and group not in groups_info:
+            groups_info[group] = []
+        if group:
+            groups_info[group].append(source['name'])
+
+    # Display names for groups
+    group_display_names = {
+        'estadao': 'Estadão',
+        'oglobo': 'O Globo',
+        'valor': 'Valor Econômico',
+        'folha': 'Folha de S.Paulo',
+        'linkedin': 'LinkedIn Newsletters',
+        'poder360': 'Poder360'
+    }
+
+    # Create feed entries for each group
+    for group in sorted(groups_info.keys()):
+        display_name = group_display_names.get(group, group.title())
+        feed_url = f"{GITHUB_PAGES_BASE_URL}/feeds/{group}_feed.xml"
+
+        # Count of columnists in this group
+        count = len(groups_info[group])
+        description = f"{display_name} - {count} colunistas"
+
+        ET.SubElement(main_outline, 'outline',
+                     type="rss",
+                     text=description,
+                     title=description,
+                     xmlUrl=feed_url)
+
     return opml
 
 def save_opml(opml_element, filename='feeds.opml'):
