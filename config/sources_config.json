@@ -130,7 +130,7 @@
     },
     {
       "name": "Demi Getschko",
-      "url": "https://www.estadao.com.br/link/demi-getschko/",
+      "url": "https://www.estadao.com.br/economia/demi-getschko/",
       "scraper": "EstadaoColumnistScraper",
       "feed_file": "demi_getschko_feed.xml",
       "history_file": "demi_getschko_history.json",
@@ -226,7 +226,7 @@
     },
     {
       "name": "Giovana Madalosso",
-      "url": "https://www1.folha.uol.com.br/colunas/giovana-maladosso/",
+      "url": "https://www1.folha.uol.com.br/colunas/giovana-madalosso/",
       "scraper": "FolhaScraper",
       "feed_file": "giovana_madalosso_feed.xml",
       "history_file": "giovana_madalosso_history.json",
