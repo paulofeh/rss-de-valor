@@ -1,22 +1,28 @@
 <opml version="2.0">
     <head>
         <title>RSS de Colunistas</title>
-        <dateCreated>Mon, 19 Jan 2026 12:47:05 GMT</dateCreated>
+        <dateCreated>Mon, 19 Jan 2026 15:59:02 GMT</dateCreated>
         <ownerName>RSS Scraper</ownerName>
         </head>
     <body>
         <outline text="Colunistas" title="Colunistas">
             <outline text="Estadão" title="Estadão">
+                <outline type="rss" text="Alice Ferraz" title="Alice Ferraz" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/alice_ferraz_feed.xml" />
+                <outline type="rss" text="Babel" title="Babel" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/babel_feed.xml" />
                 <outline type="rss" text="Demi Getschko" title="Demi Getschko" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/demi_getschko_feed.xml" />
+                <outline type="rss" text="Duquesa de Tax" title="Duquesa de Tax" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/duquesa_feed.xml" />
                 <outline type="rss" text="Eugenio Bucci" title="Eugenio Bucci" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/estadao_bucci_feed.xml" />
                 <outline type="rss" text="Felipe Salto" title="Felipe Salto" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/estadao_felipesalto_feed.xml" />
                 <outline type="rss" text="Fernando Reinach" title="Fernando Reinach" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/fernando_reinach_feed.xml" />
+                <outline type="rss" text="Frankito, o Curioso" title="Frankito, o Curioso" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/frankito_feed.xml" />
                 <outline type="rss" text="Ignácio de Loyola Brandão" title="Ignácio de Loyola Brandão" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/estadao_loyola_feed.xml" />
                 <outline type="rss" text="Leandro Karnal" title="Leandro Karnal" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/estadao_karnal_feed.xml" />
+                <outline type="rss" text="Nicolau da Rocha Cavalcanti" title="Nicolau da Rocha Cavalcanti" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/nicolau_feed.xml" />
                 <outline type="rss" text="Oliver Stuenkel" title="Oliver Stuenkel" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/estadao_oliver_feed.xml" />
                 <outline type="rss" text="Pedro Fernando Nery" title="Pedro Fernando Nery" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/pfnery_feed.xml" />
                 <outline type="rss" text="Ricardo Basaglia" title="Ricardo Basaglia" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/estadao_basaglia_feed.xml" />
                 <outline type="rss" text="Roberto DaMatta" title="Roberto DaMatta" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/roberto_damatta_feed.xml" />
+                <outline type="rss" text="William Waack" title="William Waack" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/william_waack_feed.xml" />
                 </outline>
             <outline text="Valor" title="Valor">
                 <outline type="rss" text="Bruno Carazza" title="Bruno Carazza" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/bruno_carazza_feed.xml" />
@@ -30,10 +36,20 @@
                 <outline type="rss" text="Dorrit Harazim" title="Dorrit Harazim" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/dorrit_harazim_feed.xml" />
                 <outline type="rss" text="José Eduardo Agualusa" title="José Eduardo Agualusa" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/jose_eduardo_agualusa_feed.xml" />
                 <outline type="rss" text="Martha Batalha" title="Martha Batalha" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/martha_batalha_feed.xml" />
+                <outline type="rss" text="Michel Alcoforado" title="Michel Alcoforado" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/michel_alcoforado_feed.xml" />
+                <outline type="rss" text="Nelson Motta" title="Nelson Motta" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/nelson_motta_feed.xml" />
+                <outline type="rss" text="Pablo Ortellado" title="Pablo Ortellado" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/pablo_ortellado_feed.xml" />
                 <outline type="rss" text="Pedro Doria" title="Pedro Doria" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/pedro_doria_feed.xml" />
+                <outline type="rss" text="Pedro Pacífico" title="Pedro Pacífico" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/pedro_pacifico_feed.xml" />
                 </outline>
             <outline text="Folha" title="Folha">
+                <outline type="rss" text="Bernardo Guimarães" title="Bernardo Guimarães" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/bernardo_guimaraes_feed.xml" />
+                <outline type="rss" text="Dráuzio Varella" title="Dráuzio Varella" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/drauzio_feed.xml" />
                 <outline type="rss" text="Giovana Madalosso" title="Giovana Madalosso" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/giovana_madalosso_feed.xml" />
+                <outline type="rss" text="Ilona Szabó" title="Ilona Szabó" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/ilona_szabo_feed.xml" />
+                <outline type="rss" text="Juliano Spyer" title="Juliano Spyer" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/juliano_spyer_feed.xml" />
+                <outline type="rss" text="Marcos Mendes" title="Marcos Mendes" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/marcos_mendes_feed.xml" />
+                <outline type="rss" text="Martin Wolf" title="Martin Wolf" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/martin_wolf_feed.xml" />
                 <outline type="rss" text="Rodrigo Zeidan" title="Rodrigo Zeidan" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/rodrigo_zeidan_feed.xml" />
                 </outline>
             <outline text="LinkedIn" title="LinkedIn">
