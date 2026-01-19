@@ -171,14 +171,14 @@ def load_sources_config(filename='sources_config.json'):
     return config['sources']
 
 def generate_opml(sources):
-    """Generate OPML file from sources configuration with grouped feeds."""
+    """Generate OPML file from sources configuration with both grouped and individual feeds."""
     # Create root OPML element
     opml = ET.Element('opml', version="2.0")
 
     # Create head section
     head = ET.SubElement(opml, 'head')
     title = ET.SubElement(head, 'title')
-    title.text = 'RSS de Colunistas - Feeds Agrupados'
+    title.text = 'RSS de Colunistas'
     date_created = ET.SubElement(head, 'dateCreated')
     date_created.text = datetime.now(pytz.UTC).strftime('%a, %d %b %Y %H:%M:%S GMT')
     owner_name = ET.SubElement(head, 'ownerName')
@@ -186,18 +186,6 @@ def generate_opml(sources):
 
     # Create body section
     body = ET.SubElement(opml, 'body')
-
-    # Create main Colunistas outline
-    main_outline = ET.SubElement(body, 'outline', text="Colunistas", title="Colunistas")
-
-    # Get unique groups from sources
-    groups_info = {}
-    for source in sources:
-        group = source.get('group')
-        if group and group not in groups_info:
-            groups_info[group] = []
-        if group:
-            groups_info[group].append(source['name'])
 
     # Display names for groups
     group_display_names = {
@@ -209,6 +197,20 @@ def generate_opml(sources):
         'poder360': 'Poder360'
     }
 
+    # ============================================
+    # SECTION 1: Grouped Feeds
+    # ============================================
+    grouped_outline = ET.SubElement(body, 'outline', text="📚 Feeds Agrupados por Veículo", title="📚 Feeds Agrupados por Veículo")
+
+    # Get unique groups from sources
+    groups_info = {}
+    for source in sources:
+        group = source.get('group', '').strip()
+        if group:
+            if group not in groups_info:
+                groups_info[group] = []
+            groups_info[group].append(source['name'])
+
     # Create feed entries for each group
     for group in sorted(groups_info.keys()):
         display_name = group_display_names.get(group, group.title())
@@ -218,11 +220,58 @@ def generate_opml(sources):
         count = len(groups_info[group])
         description = f"{display_name} - {count} colunistas"
 
-        ET.SubElement(main_outline, 'outline',
+        ET.SubElement(grouped_outline, 'outline',
                      type="rss",
                      text=description,
                      title=description,
                      xmlUrl=feed_url)
+
+    # ============================================
+    # SECTION 2: Individual Feeds
+    # ============================================
+    individual_outline = ET.SubElement(body, 'outline', text="📄 Feeds Individuais", title="📄 Feeds Individuais")
+
+    # Group sources by publisher for better organization
+    sources_by_group = {}
+    ungrouped_sources = []
+
+    for source in sources:
+        group = source.get('group', '').strip()
+        if group:
+            if group not in sources_by_group:
+                sources_by_group[group] = []
+            sources_by_group[group].append(source)
+        else:
+            ungrouped_sources.append(source)
+
+    # Add grouped sources
+    for group in sorted(sources_by_group.keys()):
+        display_name = group_display_names.get(group, group.title())
+        group_outline = ET.SubElement(individual_outline, 'outline',
+                                      text=display_name,
+                                      title=display_name)
+
+        for source in sorted(sources_by_group[group], key=lambda x: x['name']):
+            feed_url = f"{GITHUB_PAGES_BASE_URL}/feeds/{source['feed_file']}"
+            ET.SubElement(group_outline, 'outline',
+                        type="rss",
+                        text=source['name'],
+                        title=source['name'],
+                        xmlUrl=feed_url)
+
+    # Add ungrouped sources (if any)
+    if ungrouped_sources:
+        other_outline = ET.SubElement(individual_outline, 'outline',
+                                      text="Outros",
+                                      title="Outros")
+
+        for source in sorted(ungrouped_sources, key=lambda x: x['name']):
+            feed_url = f"{GITHUB_PAGES_BASE_URL}/feeds/{source['feed_file']}"
+            ET.SubElement(other_outline, 'outline',
+                        type="rss",
+                        text=source['name'],
+                        title=source['name'],
+                        xmlUrl=feed_url)
 
     return opml
 

@@ -6,6 +6,7 @@ from src.utils import (
     load_sources_config,
     load_history,
     save_history,
+    generate_feed,
     generate_grouped_feed,
     save_feed,
     generate_opml,
@@ -26,9 +27,10 @@ def main():
     new_articles_count = 0
     no_change_count = 0
     error_count = 0
+    individual_feeds_generated = 0
 
     print("=" * 70)
-    print("Coletando artigos de todos os colunistas...")
+    print("Coletando artigos e gerando feeds individuais...")
     print("=" * 70)
 
     for source in sources:
@@ -39,7 +41,7 @@ def main():
             continue
 
         scraper = scraper_class(source['url'])
-        group = source.get('group', 'outros')
+        group = source.get('group', '')  # Empty string if no group
 
         max_retries = 3
         for attempt in range(max_retries):
@@ -48,23 +50,33 @@ def main():
                 if latest_article:
                     history = load_history(source['history_file'])
 
-                    # Always add to grouped articles (not just new ones)
-                    grouped_articles[group].append({
-                        'author_name': source['name'],
-                        'article': latest_article
-                    })
-
                     # Check if this is a new article for logging/statistics
-                    if latest_article['link'] != history.get('last_article_link'):
+                    is_new_article = latest_article['link'] != history.get('last_article_link')
+
+                    if is_new_article:
                         # Update history
                         history['last_article_link'] = latest_article['link']
                         save_history(source['history_file'], history)
-
                         print(f"✅ Novo artigo: {source['name']}")
                         new_articles_count += 1
                     else:
                         print(f"ℹ️  Sem novidades: {source['name']}")
                         no_change_count += 1
+
+                    # ALWAYS generate individual feed (whether new or not)
+                    try:
+                        individual_feed = generate_feed(source['name'], source['url'], latest_article)
+                        save_feed(individual_feed, source['feed_file'])
+                        individual_feeds_generated += 1
+                    except Exception as e:
+                        print(f"   ⚠️  Erro ao gerar feed individual de {source['name']}: {str(e)}")
+
+                    # Add to grouped articles ONLY if group is specified and not empty
+                    if group and group.strip():
+                        grouped_articles[group].append({
+                            'author_name': source['name'],
+                            'article': latest_article
+                        })
                 else:
                     print(f"⚠️  Não foi possível obter artigo: {source['name']}")
                     error_count += 1
@@ -84,8 +96,9 @@ def main():
     print("Gerando feeds agrupados por veículo...")
     print("=" * 70)
 
+    grouped_feeds_generated = 0
     if not grouped_articles:
-        print("⚠️  Nenhum artigo coletado. Feeds não atualizados.")
+        print("ℹ️  Nenhum grupo configurado ou nenhum artigo coletado para agrupamento.")
     else:
         for group, articles in grouped_articles.items():
             try:
@@ -93,6 +106,7 @@ def main():
                 feed_filename = f"{group}_feed.xml"
                 save_feed(feed, feed_filename)
                 print(f"✅ Feed do {group.title()} gerado com {len(articles)} artigo(s)")
+                grouped_feeds_generated += 1
             except Exception as e:
                 print(f"❌ Erro ao gerar feed do {group}: {str(e)}")
 
@@ -104,6 +118,8 @@ def main():
     print(f"ℹ️  Sem mudanças: {no_change_count}")
     print(f"❌ Erros: {error_count}")
     print(f"📊 Total processado: {new_articles_count + no_change_count + error_count}")
+    print(f"\n📄 Feeds individuais gerados: {individual_feeds_generated}")
+    print(f"📚 Feeds agrupados gerados: {grouped_feeds_generated}")
 
     # Gera o arquivo OPML atualizado
     print("\n" + "=" * 70)
