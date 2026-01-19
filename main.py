@@ -10,7 +10,9 @@ from src.utils import (
     generate_grouped_feed,
     save_feed,
     generate_opml,
-    save_opml
+    save_opml,
+    generate_html_index,
+    save_html_index
 )
 
 def main():
@@ -131,6 +133,18 @@ def main():
         print("✅ Arquivo OPML atualizado com sucesso!")
     except Exception as e:
         print(f"❌ Erro ao gerar arquivo OPML: {str(e)}")
+
+    # Gera a página HTML index
+    print("\n" + "=" * 70)
+    print("Gerando página HTML...")
+    print("=" * 70)
+    try:
+        html = generate_html_index(sources)
+        save_html_index(html, 'feeds/index.html')
+        print("✅ Página HTML gerada com sucesso!")
+        print("   Acesse em: https://paulofeh.github.io/rss-de-valor/feeds/")
+    except Exception as e:
+        print(f"❌ Erro ao gerar página HTML: {str(e)}")
 
 
 if __name__ == "__main__":
