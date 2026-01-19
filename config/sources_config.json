@@ -5,322 +5,368 @@
       "url": "https://valor.globo.com/autores/guilherme-ravache/",
       "feed_file": "guilherme_ravache_feed.xml",
       "history_file": "guilherme_ravache_history.json",
-      "scraper": "ValorOGloboScraper"
+      "scraper": "ValorOGloboScraper",
+      "group": "valor"
     },
     {
       "name": "Maria Cristina Fernandes",
       "url": "https://valor.globo.com/opiniao/maria-cristina-fernandes/",
       "feed_file": "maria_cristina_fernandes_feed.xml",
       "history_file": "maria_cristina_fernandes_history.json",
-      "scraper": "ValorOGloboScraper"
+      "scraper": "ValorOGloboScraper",
+      "group": "valor"
     },
     {
       "name": "Martha Batalha",
       "url": "https://oglobo.globo.com/cultura/martha-batalha/",
       "feed_file": "martha_batalha_feed.xml",
       "history_file": "martha_batalha_history.json",
-      "scraper": "ValorOGloboScraper"
+      "scraper": "ValorOGloboScraper",
+      "group": "oglobo"
     },
     {
       "name": "José Eduardo Agualusa",
       "url": "https://oglobo.globo.com/cultura/jose-eduardo-agualusa/",
       "feed_file": "jose_eduardo_agualusa_feed.xml",
       "history_file": "jose_eduardo_agualusa_history.json",
-      "scraper": "ValorOGloboScraper"
+      "scraper": "ValorOGloboScraper",
+      "group": "oglobo"
     },
     {
       "name": "Pedro Doria",
       "url": "https://oglobo.globo.com/opiniao/pedro-doria/",
       "feed_file": "pedro_doria_feed.xml",
       "history_file": "pedro_doria_history.json",
-      "scraper": "ValorOGloboScraper"
+      "scraper": "ValorOGloboScraper",
+      "group": "oglobo"
     },
     {
       "name": "José Eli da Veiga",
       "url": "https://valor.globo.com/opiniao/jose-eli-da-veiga/",
       "feed_file": "jose_eli_da_veiga_feed.xml",
       "history_file": "jose_eli_da_veiga_history.json",
-      "scraper": "ValorOGloboScraper"
+      "scraper": "ValorOGloboScraper",
+      "group": "valor"
     },
     {
       "name": "Tatiana Salem Levy",
       "url": "https://valor.globo.com/autores/tatiana-salem-levy/",
       "feed_file": "tatiana_salem_levy_feed.xml",
       "history_file": "tatiana_salem_levy_history.json",
-      "scraper": "ValorOGloboScraper"
+      "scraper": "ValorOGloboScraper",
+      "group": "valor"
     },
     {
       "name": "Roberto DaMatta",
       "url": "https://www.estadao.com.br/cultura/roberto-damatta/",
       "feed_file": "roberto_damatta_feed.xml",
       "history_file": "roberto_damatta_history.json",
-      "scraper": "EstadaoColumnistScraper"
+      "scraper": "EstadaoColumnistScraper",
+      "group": "estadao"
     },
     {
       "name": "Rodrigo Zeidan",
       "url": "https://www1.folha.uol.com.br/colunas/rodrigo-zeidan/",
       "feed_file": "rodrigo_zeidan_feed.xml",
       "history_file": "rodrigo_zeidan_history.json",
-      "scraper": "FolhaScraper"
+      "scraper": "FolhaScraper",
+      "group": "folha"
     },
     {
       "name": "Oliver Stuenkel",
       "url": "https://www.estadao.com.br/internacional/oliver-stuenkel/",
       "scraper": "EstadaoColumnistScraper",
       "feed_file": "estadao_oliver_feed.xml",
-      "history_file": "estadao_oliver_history.json"
+      "history_file": "estadao_oliver_history.json",
+      "group": "estadao"
     },
     {
       "name": "Felipe Salto",
       "url": "https://www.estadao.com.br/opiniao/felipe-salto/",
       "scraper": "EstadaoColumnistScraper",
       "feed_file": "estadao_felipesalto_feed.xml",
-      "history_file": "estadao_felipesalto_history.json"
+      "history_file": "estadao_felipesalto_history.json",
+      "group": "estadao"
     },
     {
       "name": "Eugenio Bucci",
       "url": "https://www.estadao.com.br/opiniao/eugenio-bucci/",
       "scraper": "EstadaoColumnistScraper",
       "feed_file": "estadao_bucci_feed.xml",
-      "history_file": "estadao_bucci_history.json"
+      "history_file": "estadao_bucci_history.json",
+      "group": "estadao"
     },
     {
       "name": "Leandro Karnal",
       "url": "https://www.estadao.com.br/cultura/leandro-karnal/",
       "scraper": "EstadaoColumnistScraper",
       "feed_file": "estadao_karnal_feed.xml",
-      "history_file": "estadao_karnal_history.json"
+      "history_file": "estadao_karnal_history.json",
+      "group": "estadao"
     },
     {
       "name": "Ignácio de Loyola Brandão",
       "url": "https://www.estadao.com.br/cultura/ignacio-de-loyola-brandao/",
       "scraper": "EstadaoColumnistScraper",
       "feed_file": "estadao_loyola_feed.xml",
-      "history_file": "estadao_loyola_history.json"
+      "history_file": "estadao_loyola_history.json",
+      "group": "estadao"
     },
     {
       "name": "Ricardo Basaglia",
       "url": "https://www.estadao.com.br/economia/ricardo-basaglia/",
       "scraper": "EstadaoColumnistScraper",
       "feed_file": "estadao_basaglia_feed.xml",
-      "history_file": "estadao_basaglia_history.json"
+      "history_file": "estadao_basaglia_history.json",
+      "group": "estadao"
     },
     {
       "name": "Fernando Reinach",
       "url": "https://www.estadao.com.br/ciencia/fernando-reinach/",
       "scraper": "EstadaoColumnistScraper",
       "feed_file": "fernando_reinach_feed.xml",
-      "history_file": "fernando_reinach_history.json"
+      "history_file": "fernando_reinach_history.json",
+      "group": "estadao"
     },
     {
       "name": "Demi Getschko",
       "url": "https://www.estadao.com.br/link/demi-getschko/",
       "scraper": "EstadaoColumnistScraper",
       "feed_file": "demi_getschko_feed.xml",
-      "history_file": "demi_getschko_history.json"
+      "history_file": "demi_getschko_history.json",
+      "group": "estadao"
     },
     {
       "name": "Por dentro do agro",
       "url": "https://www.linkedin.com/newsletters/7174507900894126080/",
       "feed_file": "mariana_grilli_feed.xml",
       "history_file": "mariana_grilli_history.json",
-      "scraper": "LinkedInNewsletterScraper"
+      "scraper": "LinkedInNewsletterScraper",
+      "group": "linkedin"
     },
     {
       "name": "AI in the news",
       "url": "https://www.linkedin.com/newsletters/7233909926606053377/",
       "feed_file": "ai_news_feed.xml",
       "history_file": "ai_news_history.json",
-      "scraper": "LinkedInNewsletterScraper"
+      "scraper": "LinkedInNewsletterScraper",
+      "group": "linkedin"
     },
     {
       "name": "Fabio Alperovitch",
       "url": "https://www.linkedin.com/newsletters/6916134115763187712/",
       "feed_file": "fabio_alperovitch_feed.xml",
       "history_file": "fabio_alperovitch_history.json",
-      "scraper": "LinkedInNewsletterScraper"
+      "scraper": "LinkedInNewsletterScraper",
+      "group": "linkedin"
     },
     {
       "name": "Guilherme Ravache (LinkedIn)",
       "url": "https://www.linkedin.com/newsletters/6790715495914999808/",
       "feed_file": "ravache_linkedin_feed.xml",
       "history_file": "ravache_linkedin_history.json",
-      "scraper": "LinkedInNewsletterScraper"
+      "scraper": "LinkedInNewsletterScraper",
+      "group": "linkedin"
     },
     {
       "name": "André Derviche",
       "url": "https://www.linkedin.com/newsletters/7157735697066471424/",
       "feed_file": "andre_derviche_feed.xml",
       "history_file": "andre_derviche_history.json",
-      "scraper": "LinkedInNewsletterScraper"
+      "scraper": "LinkedInNewsletterScraper",
+      "group": "linkedin"
     },
     {
       "name": "O Essencial",
       "url": "https://www.linkedin.com/newsletters/7321547919445180417/",
       "feed_file": "o_essencial_feed.xml",
       "history_file": "o_essencial_history.json",
-      "scraper": "LinkedInNewsletterScraper"
+      "scraper": "LinkedInNewsletterScraper",
+      "group": "linkedin"
     },
     {
       "name": "Flávio Moreira",
       "url": "https://www.linkedin.com/newsletters/7082534632725823488/",
       "feed_file": "flavio_moreira_feed.xml",
       "history_file": "flavio_moreira_history.json",
-      "scraper": "LinkedInNewsletterScraper"
+      "scraper": "LinkedInNewsletterScraper",
+      "group": "linkedin"
     },
     {
       "name": "Dorrit Harazim",
       "url": "https://oglobo.globo.com/opiniao/dorrit-harazim/",
       "feed_file": "dorrit_harazim_feed.xml",
       "history_file": "dorrit_harazim_history.json",
-      "scraper": "ValorOGloboScraper"
+      "scraper": "ValorOGloboScraper",
+      "group": "oglobo"
     },
     {
       "name": "Bruno Carazza",
       "url": "https://valor.globo.com/autores/bruno-carazza/",
       "feed_file": "bruno_carazza_feed.xml",
       "history_file": "bruno_carazza_history.json",
-      "scraper": "ValorOGloboScraper"
+      "scraper": "ValorOGloboScraper",
+      "group": "valor"
     },
     {
       "name": "Silvio Meira",
       "url": "https://www.poder360.com.br/author/silvio-meira-2/",
       "feed_file": "silvio_meira_feed.xml",
       "history_file": "silvio_meira_history.json",
-      "scraper": "Poder360Scraper"
+      "scraper": "Poder360Scraper",
+      "group": "poder360"
     },
     {
       "name": "Pedro Fernando Nery",
       "url": "https://www.estadao.com.br/economia/pedro-fernando-nery/",
       "scraper": "EstadaoColumnistScraper",
       "feed_file": "pfnery_feed.xml",
-      "history_file": "pfnery_history.json"
+      "history_file": "pfnery_history.json",
+      "group": "estadao"
     },
     {
       "name": "Giovana Madalosso",
       "url": "https://www1.folha.uol.com.br/colunas/giovana-maladosso/",
       "scraper": "FolhaScraper",
       "feed_file": "giovana_madalosso_feed.xml",
-      "history_file": "giovana_madalosso_history.json"
+      "history_file": "giovana_madalosso_history.json",
+      "group": "folha"
     },
     {
       "name": "Bernardo Mello Franco",
       "url": "https://oglobo.globo.com/blogs/bernardo-mello-franco/",
       "scraper": "ValorOGloboScraper",
       "feed_file": "bernardo_mello_franco_feed.xml",
-      "history_file": "bernardo_mello_franco_history.json"
+      "history_file": "bernardo_mello_franco_history.json",
+      "group": "oglobo"
     },
     {
       "name": "Michel Alcoforado",
       "url": "https://oglobo.globo.com/cultura/michel-alcoforado/",
       "feed_file": "michel_alcoforado_feed.xml",
       "history_file": "michel_alcoforado_history.json",
-      "scraper": "ValorOGloboScraper"
+      "scraper": "ValorOGloboScraper",
+      "group": "oglobo"
     },
     {
       "name": "Nelson Motta",
       "url": "https://oglobo.globo.com/cultura/nelson-motta/",
       "feed_file": "nelson_motta_feed.xml",
       "history_file": "nelson_motta_history.json",
-      "scraper": "ValorOGloboScraper"
+      "scraper": "ValorOGloboScraper",
+      "group": "oglobo"
     },
     {
       "name": "Pablo Ortellado",
       "url": "https://oglobo.globo.com/opiniao/pablo-ortellado/",
       "feed_file": "pablo_ortellado_feed.xml",
       "history_file": "pablo_ortellado_history.json",
-      "scraper": "ValorOGloboScraper"
+      "scraper": "ValorOGloboScraper",
+      "group": "oglobo"
     },
     {
       "name": "Pedro Pacífico",
       "url": "https://oglobo.globo.com/cultura/pedro-pacifico/",
       "feed_file": "pedro_pacifico_feed.xml",
       "history_file": "pedro_pacifico_history.json",
-      "scraper": "ValorOGloboScraper"
+      "scraper": "ValorOGloboScraper",
+      "group": "oglobo"
     },
     {
       "name": "Duquesa de Tax",
       "url": "https://www.estadao.com.br/economia/duquesa-de-tax/",
       "feed_file": "duquesa_feed.xml",
       "history_file": "duquesa_history.json",
-      "scraper": "EstadaoColumnistScraper"
+      "scraper": "EstadaoColumnistScraper",
+      "group": "estadao"
     },
     {
       "name": "Alice Ferraz",
       "url": "https://www.estadao.com.br/cultura/alice-ferraz/",
       "feed_file": "alice_ferraz_feed.xml",
       "history_file": "alice_ferraz_history.json",
-      "scraper": "EstadaoColumnistScraper"
+      "scraper": "EstadaoColumnistScraper",
+      "group": "estadao"
     },
     {
       "name": "Babel",
       "url": "https://www.estadao.com.br/cultura/babel/",
       "feed_file": "babel_feed.xml",
       "history_file": "babel_history.json",
-      "scraper": "EstadaoColumnistScraper"
+      "scraper": "EstadaoColumnistScraper",
+      "group": "estadao"
     },
     {
       "name": "William Waack",
       "url": "https://www.estadao.com.br/politica/william-waack/",
       "feed_file": "william_waack_feed.xml",
       "history_file": "william_waack_history.json",
-      "scraper": "EstadaoColumnistScraper"
+      "scraper": "EstadaoColumnistScraper",
+      "group": "estadao"
     },
     {
       "name": "Nicolau da Rocha Cavalcanti",
       "url": "https://www.estadao.com.br/opiniao/nicolau-da-rocha-cavalcanti/",
       "feed_file": "nicolau_feed.xml",
       "history_file": "nicolau_history.json",
-      "scraper": "EstadaoColumnistScraper"
+      "scraper": "EstadaoColumnistScraper",
+      "group": "estadao"
     },
     {
       "name": "Frankito, o Curioso",
       "url": "https://www.estadao.com.br/ciencia/frankito-o-curioso/",
       "feed_file": "frankito_feed.xml",
       "history_file": "frankito_history.json",
-      "scraper": "EstadaoColumnistScraper"
+      "scraper": "EstadaoColumnistScraper",
+      "group": "estadao"
     },
     {
       "name": "Bernardo Guimarães",
       "url": "https://www1.folha.uol.com.br/colunas/bernardo-guimaraes/",
       "scraper": "FolhaScraper",
       "feed_file": "bernardo_guimaraes_feed.xml",
-      "history_file": "bernardo_guimaraes_history.json"
+      "history_file": "bernardo_guimaraes_history.json",
+      "group": "folha"
     },
     {
       "name": "Dráuzio Varella",
       "url": "https://www1.folha.uol.com.br/colunas/drauziovarella/",
       "scraper": "FolhaScraper",
       "feed_file": "drauzio_feed.xml",
-      "history_file": "drauzio_history.json"
+      "history_file": "drauzio_history.json",
+      "group": "folha"
     },
     {
       "name": "Ilona Szabó",
       "url": "https://www1.folha.uol.com.br/colunas/ilona-szabo/",
       "scraper": "FolhaScraper",
       "feed_file": "ilona_szabo_feed.xml",
-      "history_file": "ilona_szabo_history.json"
+      "history_file": "ilona_szabo_history.json",
+      "group": "folha"
     },
     {
       "name": "Juliano Spyer",
       "url": "https://www1.folha.uol.com.br/colunas/juliano-spyer/",
       "scraper": "FolhaScraper",
       "feed_file": "juliano_spyer_feed.xml",
-      "history_file": "juliano_spyer_history.json"
+      "history_file": "juliano_spyer_history.json",
+      "group": "folha"
     },
     {
       "name": "Marcos Mendes",
       "url": "https://www1.folha.uol.com.br/colunas/marcos-mendes/",
       "scraper": "FolhaScraper",
       "feed_file": "marcos_mendes_feed.xml",
-      "history_file": "marcos_mendes_history.json"
+      "history_file": "marcos_mendes_history.json",
+      "group": "folha"
     },
     {
       "name": "Martin Wolf",
       "url": "https://www1.folha.uol.com.br/colunas/martinwolf/",
       "scraper": "FolhaScraper",
       "feed_file": "martin_wolf_feed.xml",
-      "history_file": "martin_wolf_history.json"
+      "history_file": "martin_wolf_history.json",
+      "group": "folha"
     }
   ]
 }
