@@ -209,6 +209,118 @@
       "scraper": "ValorOGloboScraper",
       "feed_file": "bernardo_mello_franco_feed.xml",
       "history_file": "bernardo_mello_franco_history.json"
+    },
+    {
+      "name": "Michel Alcoforado",
+      "url": "https://oglobo.globo.com/cultura/michel-alcoforado/",
+      "feed_file": "michel_alcoforado_feed.xml",
+      "history_file": "michel_alcoforado_history.json",
+      "scraper": "ValorOGloboScraper"
+    },
+    {
+      "name": "Nelson Motta",
+      "url": "https://oglobo.globo.com/cultura/nelson-motta/",
+      "feed_file": "nelson_motta_feed.xml",
+      "history_file": "nelson_motta_history.json",
+      "scraper": "ValorOGloboScraper"
+    },
+    {
+      "name": "Pablo Ortellado",
+      "url": "https://oglobo.globo.com/opiniao/pablo-ortellado/",
+      "feed_file": "pablo_ortellado_feed.xml",
+      "history_file": "pablo_ortellado_history.json",
+      "scraper": "ValorOGloboScraper"
+    },
+    {
+      "name": "Pedro Pacífico",
+      "url": "https://oglobo.globo.com/cultura/pedro-pacifico/",
+      "feed_file": "pedro_pacifico_feed.xml",
+      "history_file": "pedro_pacifico_history.json",
+      "scraper": "ValorOGloboScraper"
+    },
+    {
+      "name": "Duquesa de Tax",
+      "url": "https://www.estadao.com.br/economia/duquesa-de-tax/",
+      "feed_file": "duquesa_feed.xml",
+      "history_file": "duquesa_history.json",
+      "scraper": "EstadaoColumnistScraper"
+    },
+    {
+      "name": "Alice Ferraz",
+      "url": "https://www.estadao.com.br/cultura/alice-ferraz/",
+      "feed_file": "alice_ferraz_feed.xml",
+      "history_file": "alice_ferraz_history.json",
+      "scraper": "EstadaoColumnistScraper"
+    },
+    {
+      "name": "Babel",
+      "url": "https://www.estadao.com.br/cultura/babel/",
+      "feed_file": "babel_feed.xml",
+      "history_file": "babel_history.json",
+      "scraper": "EstadaoColumnistScraper"
+    },
+    {
+      "name": "William Waack",
+      "url": "https://www.estadao.com.br/politica/william-waack/",
+      "feed_file": "william_waack_feed.xml",
+      "history_file": "william_waack_history.json",
+      "scraper": "EstadaoColumnistScraper"
+    },
+    {
+      "name": "Nicolau da Rocha Cavalcanti",
+      "url": "https://www.estadao.com.br/opiniao/nicolau-da-rocha-cavalcanti/",
+      "feed_file": "nicolau_feed.xml",
+      "history_file": "nicolau_history.json",
+      "scraper": "EstadaoColumnistScraper"
+    },
+    {
+      "name": "Frankito, o Curioso",
+      "url": "https://www.estadao.com.br/ciencia/frankito-o-curioso/",
+      "feed_file": "frankito_feed.xml",
+      "history_file": "frankito_history.json",
+      "scraper": "EstadaoColumnistScraper"
+    },
+    {
+      "name": "Bernardo Guimarães",
+      "url": "https://www1.folha.uol.com.br/colunas/bernardo-guimaraes/",
+      "scraper": "FolhaScraper",
+      "feed_file": "bernardo_guimaraes_feed.xml",
+      "history_file": "bernardo_guimaraes_history.json"
+    },
+    {
+      "name": "Dráuzio Varella",
+      "url": "https://www1.folha.uol.com.br/colunas/drauziovarella/",
+      "scraper": "FolhaScraper",
+      "feed_file": "drauzio_feed.xml",
+      "history_file": "drauzio_history.json"
+    },
+    {
+      "name": "Ilona Szabó",
+      "url": "https://www1.folha.uol.com.br/colunas/ilona-szabo/",
+      "scraper": "FolhaScraper",
+      "feed_file": "ilona_szabo_feed.xml",
+      "history_file": "ilona_szabo_history.json"
+    },
+    {
+      "name": "Juliano Spyer",
+      "url": "https://www1.folha.uol.com.br/colunas/juliano-spyer/",
+      "scraper": "FolhaScraper",
+      "feed_file": "juliano_spyer_feed.xml",
+      "history_file": "juliano_spyer_history.json"
+    },
+    {
+      "name": "Marcos Mendes",
+      "url": "https://www1.folha.uol.com.br/colunas/marcos-mendes/",
+      "scraper": "FolhaScraper",
+      "feed_file": "marcos_mendes_feed.xml",
+      "history_file": "marcos_mendes_history.json"
+    },
+    {
+      "name": "Martin Wolf",
+      "url": "https://www1.folha.uol.com.br/colunas/martinwolf/",
+      "scraper": "FolhaScraper",
+      "feed_file": "martin_wolf_feed.xml",
+      "history_file": "martin_wolf_history.json"
     }
   ]
 }
