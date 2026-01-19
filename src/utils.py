@@ -109,7 +109,15 @@ def generate_grouped_feed(group_name, articles):
     )
 
     # Sort articles by date (most recent first)
-    sorted_articles = sorted(articles, key=lambda x: x['article']['pubdate'], reverse=True)
+    # Use current time as default for articles without date
+    from datetime import datetime
+    default_date = datetime.now(pytz.UTC)
+
+    sorted_articles = sorted(
+        articles,
+        key=lambda x: x['article']['pubdate'] if x['article']['pubdate'] is not None else default_date,
+        reverse=True
+    )
 
     # Add each article to the feed with author name in the title
     for item in sorted_articles:
@@ -119,15 +127,18 @@ def generate_grouped_feed(group_name, articles):
         # Format title as "Author: Article Title"
         title_with_author = f"{author_name}: {article['title']}"
 
+        # Use current time if pubdate is None
+        pubdate = article['pubdate'] if article['pubdate'] is not None else default_date
+
         feed.add_item(
             title=title_with_author,
             link=article['link'],
             description=article['description'],
             author_name=author_name,
             author_email="",
-            pubdate=article['pubdate'],
+            pubdate=pubdate,
             unique_id=article['link'],
-            updateddate=article['pubdate'],
+            updateddate=pubdate,
         )
 
     return feed
