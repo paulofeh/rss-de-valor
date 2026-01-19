@@ -4,6 +4,8 @@ from urllib3.util.retry import Retry
 from bs4 import BeautifulSoup
 import datetime
 import pytz
+import xml.etree.ElementTree as ET
+from email.utils import parsedate_to_datetime
 
 def requests_retry_session(
     retries=3,
@@ -45,6 +47,104 @@ class BaseScraper:
 
     def _extract_article_data(self, soup):
         raise NotImplementedError("This method should be implemented by subclasses")
+
+class ExistingRssScraper(BaseScraper):
+    """Scraper for existing RSS feeds (no scraping needed)."""
+
+    def get_latest_article(self):
+        """Fetch and parse an existing RSS feed to get the latest article."""
+        try:
+            # Fetch the RSS feed
+            response = requests_retry_session().get(self.url, timeout=30)
+            response.raise_for_status()
+
+            # Parse XML
+            root = ET.fromstring(response.content)
+
+            # Find namespace (if any)
+            namespace = {}
+            if root.tag.startswith('{'):
+                # Extract namespace
+                ns = root.tag[1:root.tag.index('}')]
+                namespace = {'ns': ns}
+
+            # Try to find items/entries (RSS 2.0 uses <item>, Atom uses <entry>)
+            items = root.findall('.//item') or root.findall('.//{http://www.w3.org/2005/Atom}entry')
+
+            if not items:
+                print(f"Nenhum item encontrado no feed: {self.url}")
+                return None
+
+            # Get the first (most recent) item
+            item = items[0]
+
+            # Extract title
+            title_elem = item.find('title') or item.find('{http://www.w3.org/2005/Atom}title')
+            title = title_elem.text if title_elem is not None and title_elem.text else 'Título não encontrado'
+
+            # Extract link
+            link_elem = item.find('link') or item.find('{http://www.w3.org/2005/Atom}link')
+            if link_elem is not None:
+                # Atom feeds use link as an attribute
+                link = link_elem.get('href', link_elem.text if link_elem.text else '')
+            else:
+                link = ''
+
+            # Extract description
+            desc_elem = (item.find('description') or
+                        item.find('{http://purl.org/rss/1.0/modules/content/}encoded') or
+                        item.find('{http://www.w3.org/2005/Atom}summary') or
+                        item.find('{http://www.w3.org/2005/Atom}content'))
+            description = desc_elem.text if desc_elem is not None and desc_elem.text else ''
+
+            # Extract author
+            author_elem = (item.find('author') or
+                          item.find('{http://purl.org/dc/elements/1.1/}creator') or
+                          item.find('{http://www.w3.org/2005/Atom}author/{http://www.w3.org/2005/Atom}name'))
+            author = author_elem.text if author_elem is not None and author_elem.text else 'Autor não encontrado'
+
+            # Extract publication date
+            pubdate = None
+            date_elem = (item.find('pubDate') or
+                        item.find('{http://purl.org/dc/elements/1.1/}date') or
+                        item.find('{http://www.w3.org/2005/Atom}published') or
+                        item.find('{http://www.w3.org/2005/Atom}updated'))
+
+            if date_elem is not None and date_elem.text:
+                try:
+                    # Try parsing RFC 822 format (RSS 2.0)
+                    pubdate = parsedate_to_datetime(date_elem.text)
+                    # Convert to UTC if not already
+                    if pubdate.tzinfo is None:
+                        pubdate = pubdate.replace(tzinfo=pytz.UTC)
+                    else:
+                        pubdate = pubdate.astimezone(pytz.UTC)
+                except Exception:
+                    try:
+                        # Try ISO 8601 format (Atom)
+                        pubdate = datetime.datetime.fromisoformat(date_elem.text.replace('Z', '+00:00'))
+                        if pubdate.tzinfo is None:
+                            pubdate = pubdate.replace(tzinfo=pytz.UTC)
+                        else:
+                            pubdate = pubdate.astimezone(pytz.UTC)
+                    except Exception:
+                        pass
+
+            # If still no date, use current time
+            if not pubdate:
+                pubdate = datetime.datetime.now(pytz.UTC)
+
+            return {
+                'title': title,
+                'link': link,
+                'pubdate': pubdate,
+                'author': author,
+                'description': description
+            }
+
+        except Exception as e:
+            print(f"Erro ao processar feed RSS {self.url}: {str(e)}")
+            return None
 
 class Poder360Scraper(BaseScraper):
     """Scraper for Poder360 columnist articles."""
@@ -370,6 +470,7 @@ class LinkedInNewsletterScraper(BaseScraper):
 def get_scraper_class(scraper_name):
     """Get the scraper class by name."""
     scrapers = {
+        'ExistingRssScraper': ExistingRssScraper,
         'LinkedInNewsletterScraper': LinkedInNewsletterScraper,
         'ValorOGloboScraper': ValorOGloboScraper,
         'WashingtonPostScraper': WashingtonPostScraper,

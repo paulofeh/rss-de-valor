@@ -330,32 +330,32 @@
     },
     {
       "name": "Dráuzio Varella",
-      "url": "https://www1.folha.uol.com.br/colunas/drauziovarella/",
-      "scraper": "FolhaScraper",
+      "url": "https://feeds.folha.uol.com.br/colunas/drauziovarella/rss091.xml",
+      "scraper": "ExistingRssScraper",
       "feed_file": "drauzio_feed.xml",
       "history_file": "drauzio_history.json",
       "group": "folha"
     },
     {
       "name": "Ilona Szabó",
-      "url": "https://www1.folha.uol.com.br/colunas/ilona-szabo/",
-      "scraper": "FolhaScraper",
+      "url": "https://feeds.folha.uol.com.br/colunas/ilona-szabo/rss091.xml",
+      "scraper": "ExistingRssScraper",
       "feed_file": "ilona_szabo_feed.xml",
       "history_file": "ilona_szabo_history.json",
       "group": "folha"
     },
     {
       "name": "Juliano Spyer",
-      "url": "https://www1.folha.uol.com.br/colunas/juliano-spyer/",
-      "scraper": "FolhaScraper",
+      "url": "https://feeds.folha.uol.com.br/colunas/juliano-spyer/rss091.xml",
+      "scraper": "ExistingRssScraper",
       "feed_file": "juliano_spyer_feed.xml",
       "history_file": "juliano_spyer_history.json",
       "group": "folha"
     },
     {
       "name": "Marcos Mendes",
-      "url": "https://www1.folha.uol.com.br/colunas/marcos-mendes/",
-      "scraper": "FolhaScraper",
+      "url": "https://feeds.folha.uol.com.br/colunas/marcos-mendes/rss091.xml",
+      "scraper": "ExistingRssScraper",
       "feed_file": "marcos_mendes_feed.xml",
       "history_file": "marcos_mendes_history.json",
       "group": "folha"
@@ -366,6 +366,142 @@
       "scraper": "FolhaScraper",
       "feed_file": "martin_wolf_feed.xml",
       "history_file": "martin_wolf_history.json",
+      "group": "folha"
+    },
+    {
+      "name": "Antonio Prata",
+      "url": "https://feeds.folha.uol.com.br/colunas/antonioprata/rss091.xml",
+      "scraper": "ExistingRssScraper",
+      "feed_file": "antonio_prata_feed.xml",
+      "history_file": "antonio_prata_history.json",
+      "group": "folha"
+    },
+    {
+      "name": "Bernardo Carvalho",
+      "url": "https://feeds.folha.uol.com.br/colunas/bernardo-carvalho/rss091.xml",
+      "scraper": "ExistingRssScraper",
+      "feed_file": "bernardo_carvalho_feed.xml",
+      "history_file": "bernardo_carvalho_history.json",
+      "group": "folha"
+    },
+    {
+      "name": "Caos Planejado",
+      "url": "https://feeds.folha.uol.com.br/colunas/caos-planejado/rss091.xml",
+      "scraper": "ExistingRssScraper",
+      "feed_file": "caos_planejado_feed.xml",
+      "history_file": "caos_planejado_history.json",
+      "group": "folha"
+    },
+    {
+      "name": "Celso Rocha de Barros",
+      "url": "https://feeds.folha.uol.com.br/colunas/celso-rocha-de-barros/rss091.xml",
+      "scraper": "ExistingRssScraper",
+      "feed_file": "celso_rocha_barros_feed.xml",
+      "history_file": "celso_rocha_barros_history.json",
+      "group": "folha"
+    },
+    {
+      "name": "Conrado Hubner Mendes",
+      "url": "https://feeds.folha.uol.com.br/colunas/conrado-hubner-mendes/rss091.xml",
+      "scraper": "ExistingRssScraper",
+      "feed_file": "conrado_hubner_feed.xml",
+      "history_file": "conrado_hubner_history.json",
+      "group": "folha"
+    },
+    {
+      "name": "João Pereira Coutinho",
+      "url": "https://feeds.folha.uol.com.br/colunas/joaopereiracoutinho/rss091.xml",
+      "scraper": "ExistingRssScraper",
+      "feed_file": "joao_pereira_coutinho_feed.xml",
+      "history_file": "joao_pereira_coutinho_history.json",
+      "group": "folha"
+    },
+    {
+      "name": "Marcelo Viana",
+      "url": "https://feeds.folha.uol.com.br/colunas/marceloviana/rss091.xml",
+      "scraper": "ExistingRssScraper",
+      "feed_file": "marcelo_viana_feed.xml",
+      "history_file": "marcelo_viana_history.json",
+      "group": "folha"
+    },
+    {
+      "name": "Marcos Lisboa",
+      "url": "https://feeds.folha.uol.com.br/colunas/marcos-lisboa/rss091.xml",
+      "scraper": "ExistingRssScraper",
+      "feed_file": "marcos_lisboa_feed.xml",
+      "history_file": "marcos_lisboa_history.json",
+      "group": "folha"
+    },
+    {
+      "name": "Maria Hermínia Tavares",
+      "url": "https://feeds.folha.uol.com.br/colunas/maria-herminia-tavares/rss091.xml",
+      "scraper": "ExistingRssScraper",
+      "feed_file": "maria_herminia_feed.xml",
+      "history_file": "maria_herminia_history.json",
+      "group": "folha"
+    },
+    {
+      "name": "Mariliz Pereira Jorge",
+      "url": "https://feeds.folha.uol.com.br/colunas/marilizpereirajorge/rss091.xml",
+      "scraper": "ExistingRssScraper",
+      "feed_file": "mariliz_pereira_feed.xml",
+      "history_file": "mariliz_pereira_history.json",
+      "group": "folha"
+    },
+    {
+      "name": "Ronaldo Lemos",
+      "url": "https://feeds.folha.uol.com.br/colunas/ronaldolemos/rss091.xml",
+      "scraper": "ExistingRssScraper",
+      "feed_file": "ronaldo_lemos_feed.xml",
+      "history_file": "ronaldo_lemos_history.json",
+      "group": "folha"
+    },
+    {
+      "name": "Samuel Pessoa",
+      "url": "https://feeds.folha.uol.com.br/colunas/samuelpessoa/rss091.xml",
+      "scraper": "ExistingRssScraper",
+      "feed_file": "samuel_pessoa_feed.xml",
+      "history_file": "samuel_pessoa_history.json",
+      "group": "folha"
+    },
+    {
+      "name": "Tati Bernardi",
+      "url": "https://feeds.folha.uol.com.br/colunas/tatibernardi/rss091.xml",
+      "scraper": "ExistingRssScraper",
+      "feed_file": "tati_bernardi_feed.xml",
+      "history_file": "tati_bernardi_history.json",
+      "group": "folha"
+    },
+    {
+      "name": "Vera Iaconelli",
+      "url": "https://feeds.folha.uol.com.br/colunas/vera-iaconelli/rss091.xml",
+      "scraper": "ExistingRssScraper",
+      "feed_file": "vera_iaconelli_feed.xml",
+      "history_file": "vera_iaconelli_history.json",
+      "group": "folha"
+    },
+    {
+      "name": "Wilson Gomes",
+      "url": "https://feeds.folha.uol.com.br/colunas/wilson-gomes/rss091.xml",
+      "scraper": "ExistingRssScraper",
+      "feed_file": "wilson_gomes_feed.xml",
+      "history_file": "wilson_gomes_history.json",
+      "group": "folha"
+    },
+    {
+      "name": "Zeca Camargo",
+      "url": "https://feeds.folha.uol.com.br/colunas/zecacamargo/rss091.xml",
+      "scraper": "ExistingRssScraper",
+      "feed_file": "zeca_camargo_feed.xml",
+      "history_file": "zeca_camargo_history.json",
+      "group": "folha"
+    },
+    {
+      "name": "De Grão em Grão",
+      "url": "https://feeds.folha.uol.com.br/blogs/de-grao-em-grao/rss091.xml",
+      "scraper": "ExistingRssScraper",
+      "feed_file": "de_grao_em_grao_feed.xml",
+      "history_file": "de_grao_em_grao_history.json",
       "group": "folha"
     }
   ]
