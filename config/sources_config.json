@@ -177,14 +177,6 @@
       "group": "linkedin"
     },
     {
-      "name": "O Essencial",
-      "url": "https://www.linkedin.com/newsletters/7321547919445180417/",
-      "feed_file": "o_essencial_feed.xml",
-      "history_file": "o_essencial_history.json",
-      "scraper": "LinkedInNewsletterScraper",
-      "group": "linkedin"
-    },
-    {
       "name": "Flávio Moreira",
       "url": "https://www.linkedin.com/newsletters/7082534632725823488/",
       "feed_file": "flavio_moreira_feed.xml",
