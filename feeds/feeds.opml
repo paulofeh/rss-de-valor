@@ -1,14 +1,14 @@
 <opml version="2.0">
     <head>
         <title>RSS de Colunistas</title>
-        <dateCreated>Tue, 27 Jan 2026 06:34:10 GMT</dateCreated>
+        <dateCreated>Tue, 27 Jan 2026 12:47:49 GMT</dateCreated>
         <ownerName>RSS Scraper</ownerName>
         </head>
     <body>
         <outline text="📚 Feeds Agrupados por Veículo" title="📚 Feeds Agrupados por Veículo">
             <outline type="rss" text="Estadão - 16 colunistas" title="Estadão - 16 colunistas" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/estadao_feed.xml" />
             <outline type="rss" text="Folha de S.Paulo - 25 colunistas" title="Folha de S.Paulo - 25 colunistas" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/folha_feed.xml" />
-            <outline type="rss" text="LinkedIn Newsletters - 7 colunistas" title="LinkedIn Newsletters - 7 colunistas" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/linkedin_feed.xml" />
+            <outline type="rss" text="LinkedIn Newsletters - 6 colunistas" title="LinkedIn Newsletters - 6 colunistas" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/linkedin_feed.xml" />
             <outline type="rss" text="O Globo - 9 colunistas" title="O Globo - 9 colunistas" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/oglobo_feed.xml" />
             <outline type="rss" text="Poder360 - 1 colunistas" title="Poder360 - 1 colunistas" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/poder360_feed.xml" />
             <outline type="rss" text="Valor Econômico - 5 colunistas" title="Valor Econômico - 5 colunistas" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/valor_feed.xml" />
@@ -65,7 +65,6 @@
                 <outline type="rss" text="Fabio Alperovitch" title="Fabio Alperovitch" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/fabio_alperovitch_feed.xml" />
                 <outline type="rss" text="Flávio Moreira" title="Flávio Moreira" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/flavio_moreira_feed.xml" />
                 <outline type="rss" text="Guilherme Ravache (LinkedIn)" title="Guilherme Ravache (LinkedIn)" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/ravache_linkedin_feed.xml" />
-                <outline type="rss" text="O Essencial" title="O Essencial" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/o_essencial_feed.xml" />
                 <outline type="rss" text="Por dentro do agro" title="Por dentro do agro" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/mariana_grilli_feed.xml" />
                 </outline>
             <outline text="O Globo" title="O Globo">
