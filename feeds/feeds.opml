@@ -1,12 +1,12 @@
 <opml version="2.0">
     <head>
         <title>RSS de Colunistas</title>
-        <dateCreated>Mon, 02 Feb 2026 12:57:33 GMT</dateCreated>
+        <dateCreated>Mon, 02 Feb 2026 18:41:42 GMT</dateCreated>
         <ownerName>RSS Scraper</ownerName>
         </head>
     <body>
         <outline text="📚 Feeds Agrupados por Veículo" title="📚 Feeds Agrupados por Veículo">
-            <outline type="rss" text="Estadão - 16 colunistas" title="Estadão - 16 colunistas" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/estadao_feed.xml" />
+            <outline type="rss" text="Estadão - 17 colunistas" title="Estadão - 17 colunistas" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/estadao_feed.xml" />
             <outline type="rss" text="Folha de S.Paulo - 25 colunistas" title="Folha de S.Paulo - 25 colunistas" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/folha_feed.xml" />
             <outline type="rss" text="LinkedIn Newsletters - 6 colunistas" title="LinkedIn Newsletters - 6 colunistas" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/linkedin_feed.xml" />
             <outline type="rss" text="O Globo - 9 colunistas" title="O Globo - 9 colunistas" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/oglobo_feed.xml" />
@@ -19,6 +19,7 @@
                 <outline type="rss" text="Babel" title="Babel" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/babel_feed.xml" />
                 <outline type="rss" text="Demi Getschko" title="Demi Getschko" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/demi_getschko_feed.xml" />
                 <outline type="rss" text="Duquesa de Tax" title="Duquesa de Tax" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/duquesa_feed.xml" />
+                <outline type="rss" text="Elena Landau" title="Elena Landau" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/landau_feed.xml" />
                 <outline type="rss" text="Eugenio Bucci" title="Eugenio Bucci" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/estadao_bucci_feed.xml" />
                 <outline type="rss" text="Felipe Salto" title="Felipe Salto" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/estadao_felipesalto_feed.xml" />
                 <outline type="rss" text="Fernando Reinach" title="Fernando Reinach" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/fernando_reinach_feed.xml" />
