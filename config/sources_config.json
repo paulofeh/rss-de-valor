@@ -313,6 +313,14 @@
       "group": "estadao"
     },
     {
+      "name": "Elena Landau",
+      "url": "https://www.estadao.com.br/economia/elena-landau/",
+      "feed_file": "landau_feed.xml",
+      "history_file": "landau_history.json",
+      "scraper": "EstadaoColumnistScraper",
+      "group": "estadao"
+    },
+    {
       "name": "Bernardo Guimarães",
       "url": "https://www1.folha.uol.com.br/colunas/bernardo-guimaraes/",
       "scraper": "FolhaScraper",
