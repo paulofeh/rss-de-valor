@@ -265,18 +265,18 @@
       "group": "oglobo"
     },
     {
+      "name": "Daniel Becker",
+      "url": "https://oglobo.globo.com/blogs/daniel-becker/",
+      "feed_file": "danielbecker_feed.xml",
+      "history_file": "danielbecker_history.json",
+      "scraper": "ValorOGloboScraper",
+      "group": "oglobo"
+    },
+    {
       "name": "Duquesa de Tax",
       "url": "https://www.estadao.com.br/economia/duquesa-de-tax/",
       "feed_file": "duquesa_feed.xml",
       "history_file": "duquesa_history.json",
-      "scraper": "EstadaoColumnistScraper",
-      "group": "estadao"
-    },
-    {
-      "name": "Alice Ferraz",
-      "url": "https://www.estadao.com.br/cultura/alice-ferraz/",
-      "feed_file": "alice_ferraz_feed.xml",
-      "history_file": "alice_ferraz_history.json",
       "scraper": "EstadaoColumnistScraper",
       "group": "estadao"
     },
