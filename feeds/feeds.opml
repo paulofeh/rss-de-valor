@@ -1,21 +1,20 @@
 <opml version="2.0">
     <head>
         <title>RSS de Colunistas</title>
-        <dateCreated>Thu, 12 Feb 2026 19:01:01 GMT</dateCreated>
+        <dateCreated>Fri, 13 Feb 2026 02:07:42 GMT</dateCreated>
         <ownerName>RSS Scraper</ownerName>
         </head>
     <body>
         <outline text="📚 Feeds Agrupados por Veículo" title="📚 Feeds Agrupados por Veículo">
-            <outline type="rss" text="Estadão - 17 colunistas" title="Estadão - 17 colunistas" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/estadao_feed.xml" />
+            <outline type="rss" text="Estadão - 16 colunistas" title="Estadão - 16 colunistas" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/estadao_feed.xml" />
             <outline type="rss" text="Folha de S.Paulo - 25 colunistas" title="Folha de S.Paulo - 25 colunistas" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/folha_feed.xml" />
             <outline type="rss" text="LinkedIn Newsletters - 6 colunistas" title="LinkedIn Newsletters - 6 colunistas" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/linkedin_feed.xml" />
-            <outline type="rss" text="O Globo - 9 colunistas" title="O Globo - 9 colunistas" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/oglobo_feed.xml" />
+            <outline type="rss" text="O Globo - 10 colunistas" title="O Globo - 10 colunistas" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/oglobo_feed.xml" />
             <outline type="rss" text="Poder360 - 1 colunistas" title="Poder360 - 1 colunistas" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/poder360_feed.xml" />
             <outline type="rss" text="Valor Econômico - 5 colunistas" title="Valor Econômico - 5 colunistas" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/valor_feed.xml" />
             </outline>
         <outline text="📄 Feeds Individuais" title="📄 Feeds Individuais">
             <outline text="Estadão" title="Estadão">
-                <outline type="rss" text="Alice Ferraz" title="Alice Ferraz" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/alice_ferraz_feed.xml" />
                 <outline type="rss" text="Babel" title="Babel" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/babel_feed.xml" />
                 <outline type="rss" text="Demi Getschko" title="Demi Getschko" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/demi_getschko_feed.xml" />
                 <outline type="rss" text="Duquesa de Tax" title="Duquesa de Tax" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/duquesa_feed.xml" />
@@ -70,6 +69,7 @@
                 </outline>
             <outline text="O Globo" title="O Globo">
                 <outline type="rss" text="Bernardo Mello Franco" title="Bernardo Mello Franco" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/bernardo_mello_franco_feed.xml" />
+                <outline type="rss" text="Daniel Becker" title="Daniel Becker" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/danielbecker_feed.xml" />
                 <outline type="rss" text="Dorrit Harazim" title="Dorrit Harazim" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/dorrit_harazim_feed.xml" />
                 <outline type="rss" text="José Eduardo Agualusa" title="José Eduardo Agualusa" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/jose_eduardo_agualusa_feed.xml" />
                 <outline type="rss" text="Martha Batalha" title="Martha Batalha" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/martha_batalha_feed.xml" />
