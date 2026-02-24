@@ -1,3 +1,4 @@
+import re
 import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
@@ -467,6 +468,119 @@ class LinkedInNewsletterScraper(BaseScraper):
         return datetime.datetime.now(pytz.UTC)
 
 
+class PaulGrahamScraper(BaseScraper):
+    """Scraper for Paul Graham essays from paulgraham.com/articles.html."""
+    BASE_URL = "https://paulgraham.com"
+
+    MONTHS = {
+        'January': 1, 'February': 2, 'March': 3, 'April': 4,
+        'May': 5, 'June': 6, 'July': 7, 'August': 8,
+        'September': 9, 'October': 10, 'November': 11, 'December': 12
+    }
+
+    def get_latest_article(self):
+        """Fetch the articles listing and return the most recent essay with full content."""
+        try:
+            response = requests_retry_session().get(self.url, timeout=30)
+            response.raise_for_status()
+            soup = BeautifulSoup(response.content, 'html.parser')
+
+            # Page structure: table[0]=nav, table[1]=recommended intro,
+            # table[2]=full article listing (newest first), table[3]=footer.
+            # We want the first article link from table[2].
+            tables = soup.find_all('table')
+            if len(tables) < 3:
+                print(f"Estrutura inesperada da página {self.url}")
+                return None
+
+            article_listing_table = tables[2]
+            article_links = [
+                a for a in article_listing_table.find_all('a', href=True)
+                if a['href'].endswith('.html')
+                and not a['href'].startswith('http')
+                and a.text.strip()
+            ]
+
+            if not article_links:
+                print(f"Nenhum artigo encontrado em {self.url}")
+                return None
+
+            # First link is the most recent essay
+            first_link = article_links[0]
+            title = first_link.text.strip()
+            article_url = f"{self.BASE_URL}/{first_link['href']}"
+
+            return self._fetch_article(title, article_url)
+        except requests.exceptions.RequestException as e:
+            print(f"Erro ao acessar {self.url}: {str(e)}")
+            return None
+
+    def _fetch_article(self, title, url):
+        """Fetch a Paul Graham essay page and extract its full content."""
+        try:
+            response = requests_retry_session().get(url, timeout=30)
+            response.raise_for_status()
+            # Pages are ISO-8859-1 encoded
+            soup = BeautifulSoup(response.content, 'html.parser', from_encoding='ISO-8859-1')
+
+            # Content is inside <font face="verdana"> in the second table
+            tables = soup.find_all('table')
+            font = tables[1].find('font', {'face': 'verdana'}) if len(tables) >= 2 else None
+            if not font:
+                print(f"Conteúdo não encontrado em {url}")
+                return None
+
+            date = self._extract_date(font)
+            content_html = self._extract_content(font)
+
+            return {
+                'title': title,
+                'link': url,
+                'pubdate': date,
+                'author': 'Paul Graham',
+                'description': content_html,
+            }
+        except requests.exceptions.RequestException as e:
+            print(f"Erro ao acessar artigo {url}: {str(e)}")
+            return None
+
+    def _extract_date(self, font_tag):
+        """Extract publication date from the font tag's opening text (e.g. 'June 2025')."""
+        pattern = re.compile(
+            r'^(' + '|'.join(self.MONTHS.keys()) + r')\s+(\d{4})$'
+        )
+        for text in font_tag.stripped_strings:
+            match = pattern.match(text.strip())
+            if match:
+                month = self.MONTHS[match.group(1)]
+                year = int(match.group(2))
+                return datetime.datetime(year, month, 1, tzinfo=pytz.UTC)
+            break  # Date is always the first text node; stop after first check
+        return datetime.datetime.now(pytz.UTC)
+
+    def _extract_content(self, font_tag):
+        """Convert <br/><br/>-separated content to HTML paragraphs, skipping the date."""
+        html = font_tag.decode_contents()
+
+        # Remove leading date text (before the first <br/>)
+        html = re.sub(r'^[^<]*', '', html).lstrip()
+
+        # Normalise <br> variants
+        html = re.sub(r'<br\s*/?>', '<br/>', html, flags=re.IGNORECASE)
+
+        # Split on double line breaks (paragraph separators)
+        paragraphs = re.split(r'<br/>\s*<br/>', html)
+
+        return '\n'.join(
+            f'<p>{para.strip()}</p>'
+            for para in paragraphs
+            if para.strip()
+        )
+
+    def _extract_article_data(self, soup):
+        pass  # Logic is handled in get_latest_article
+
+
 def get_scraper_class(scraper_name):
     """Get the scraper class by name."""
     scrapers = {
@@ -477,5 +591,6 @@ def get_scraper_class(scraper_name):
         'FolhaScraper': FolhaScraper,
         'EstadaoColumnistScraper': EstadaoColumnistScraper,
         'Poder360Scraper': Poder360Scraper,
+        'PaulGrahamScraper': PaulGrahamScraper,
     }
     return scrapers.get(scraper_name)

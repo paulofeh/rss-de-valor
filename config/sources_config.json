@@ -1,6 +1,14 @@
 {
   "sources": [
     {
+      "name": "Paul Graham",
+      "url": "https://paulgraham.com/articles.html",
+      "feed_file": "paulgraham_feed.xml",
+      "history_file": "paulgraham_history.json",
+      "scraper": "PaulGrahamScraper",
+      "group": "paulgraham"
+    },
+    {
       "name": "Guilherme Ravache",
       "url": "https://valor.globo.com/autores/guilherme-ravache/",
       "feed_file": "guilherme_ravache_feed.xml",
