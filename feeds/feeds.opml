@@ -1,7 +1,7 @@
 <opml version="2.0">
     <head>
         <title>RSS de Colunistas</title>
-        <dateCreated>Tue, 24 Feb 2026 19:00:38 GMT</dateCreated>
+        <dateCreated>Tue, 24 Feb 2026 21:53:48 GMT</dateCreated>
         <ownerName>RSS Scraper</ownerName>
         </head>
     <body>
@@ -10,6 +10,7 @@
             <outline type="rss" text="Folha de S.Paulo - 25 colunistas" title="Folha de S.Paulo - 25 colunistas" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/folha_feed.xml" />
             <outline type="rss" text="LinkedIn Newsletters - 6 colunistas" title="LinkedIn Newsletters - 6 colunistas" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/linkedin_feed.xml" />
             <outline type="rss" text="O Globo - 10 colunistas" title="O Globo - 10 colunistas" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/oglobo_feed.xml" />
+            <outline type="rss" text="Paulgraham - 1 colunistas" title="Paulgraham - 1 colunistas" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/paulgraham_feed.xml" />
             <outline type="rss" text="Poder360 - 1 colunistas" title="Poder360 - 1 colunistas" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/poder360_feed.xml" />
             <outline type="rss" text="Valor Econômico - 5 colunistas" title="Valor Econômico - 5 colunistas" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/valor_feed.xml" />
             </outline>
@@ -78,6 +79,9 @@
                 <outline type="rss" text="Pablo Ortellado" title="Pablo Ortellado" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/pablo_ortellado_feed.xml" />
                 <outline type="rss" text="Pedro Doria" title="Pedro Doria" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/pedro_doria_feed.xml" />
                 <outline type="rss" text="Pedro Pacífico" title="Pedro Pacífico" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/pedro_pacifico_feed.xml" />
+                </outline>
+            <outline text="Paulgraham" title="Paulgraham">
+                <outline type="rss" text="Paul Graham" title="Paul Graham" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/paulgraham_feed.xml" />
                 </outline>
             <outline text="Poder360" title="Poder360">
                 <outline type="rss" text="Silvio Meira" title="Silvio Meira" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/silvio_meira_feed.xml" />
