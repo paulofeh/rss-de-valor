@@ -345,7 +345,8 @@ class EstadaoColumnistScraper(BaseScraper):
             title_element = article.select_one('h2.headline')
             title = title_element.text.strip() if title_element else "No title found"
             
-            link_element = article.select_one('a')
+            headline_elem = article.select_one('h2.headline')
+            link_element = headline_elem.find_parent('a') if headline_elem else None
             link = link_element['href'] if link_element else ""
             
             description_element = article.select_one('p.subheadline')

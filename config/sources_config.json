@@ -6,7 +6,7 @@
       "feed_file": "paulgraham_feed.xml",
       "history_file": "paulgraham_history.json",
       "scraper": "PaulGrahamScraper",
-      "group": "paulgraham"
+      "group": "outros"
     },
     {
       "name": "Guilherme Ravache",
@@ -177,14 +177,6 @@
       "group": "linkedin"
     },
     {
-      "name": "André Derviche",
-      "url": "https://www.linkedin.com/newsletters/7157735697066471424/",
-      "feed_file": "andre_derviche_feed.xml",
-      "history_file": "andre_derviche_history.json",
-      "scraper": "LinkedInNewsletterScraper",
-      "group": "linkedin"
-    },
-    {
       "name": "Flávio Moreira",
       "url": "https://www.linkedin.com/newsletters/7082534632725823488/",
       "feed_file": "flavio_moreira_feed.xml",
@@ -214,7 +206,7 @@
       "feed_file": "silvio_meira_feed.xml",
       "history_file": "silvio_meira_history.json",
       "scraper": "Poder360Scraper",
-      "group": "poder360"
+      "group": "outros"
     },
     {
       "name": "Pedro Fernando Nery",

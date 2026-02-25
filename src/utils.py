@@ -88,7 +88,7 @@ def generate_grouped_feed(group_name, articles):
         'valor': 'Valor Econômico',
         'folha': 'Folha de S.Paulo',
         'linkedin': 'LinkedIn Newsletters',
-        'poder360': 'Poder360'
+        'outros': 'Outros'
     }
 
     display_name = group_display_names.get(group_name, group_name.title())
@@ -194,7 +194,7 @@ def generate_opml(sources):
         'valor': 'Valor Econômico',
         'folha': 'Folha de S.Paulo',
         'linkedin': 'LinkedIn Newsletters',
-        'poder360': 'Poder360'
+        'outros': 'Outros'
     }
 
     # ============================================
@@ -332,7 +332,7 @@ def generate_html_index(sources):
         'valor': 'Valor Econômico',
         'folha': 'Folha de S.Paulo',
         'linkedin': 'LinkedIn Newsletters',
-        'poder360': 'Poder360'
+        'outros': 'Outros'
     }
 
     sources_by_group = {}
