@@ -1,7 +1,7 @@
 <opml version="2.0">
     <head>
         <title>RSS de Colunistas</title>
-        <dateCreated>Tue, 31 Mar 2026 20:05:58 GMT</dateCreated>
+        <dateCreated>Tue, 31 Mar 2026 20:11:27 GMT</dateCreated>
         <ownerName>RSS Scraper</ownerName>
         </head>
     <body>
@@ -10,7 +10,7 @@
             <outline type="rss" text="Folha de S.Paulo - 25 colunistas" title="Folha de S.Paulo - 25 colunistas" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/folha_feed.xml" />
             <outline type="rss" text="LinkedIn Newsletters - 5 colunistas" title="LinkedIn Newsletters - 5 colunistas" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/linkedin_feed.xml" />
             <outline type="rss" text="O Globo - 11 colunistas" title="O Globo - 11 colunistas" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/oglobo_feed.xml" />
-            <outline type="rss" text="Outros - 10 colunistas" title="Outros - 10 colunistas" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/outros_feed.xml" />
+            <outline type="rss" text="Outros - 11 colunistas" title="Outros - 11 colunistas" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/outros_feed.xml" />
             <outline type="rss" text="Valor Econômico - 6 colunistas" title="Valor Econômico - 6 colunistas" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/valor_feed.xml" />
             </outline>
         <outline text="📄 Feeds Individuais" title="📄 Feeds Individuais">
@@ -83,6 +83,7 @@
             <outline text="Outros" title="Outros">
                 <outline type="rss" text="Bloomberg Green" title="Bloomberg Green" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/bloomberg_green_feed.xml" />
                 <outline type="rss" text="CNN Agro" title="CNN Agro" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/cnn_agro_feed.xml" />
+                <outline type="rss" text="Climate Risk (Google Alerts)" title="Climate Risk (Google Alerts)" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/google_alerts_climate_risk_feed.xml" />
                 <outline type="rss" text="FAPESP Sustentabilidade" title="FAPESP Sustentabilidade" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/fapesp_sustentabilidade_feed.xml" />
                 <outline type="rss" text="FT Climate Capital" title="FT Climate Capital" xmlUrl="https://www.ft.com/climate-capital?format=rss" />
                 <outline type="rss" text="Mudanças Climáticas (BBC)" title="Mudanças Climáticas (BBC)" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/bbc_clima_feed.xml" />
