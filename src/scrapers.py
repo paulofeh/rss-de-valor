@@ -166,6 +166,35 @@ class ExistingRssScraper(BaseScraper):
             print(f"Erro ao processar feed RSS {self.url}: {str(e)}")
             return []
 
+class GoogleAlertsScraper(ExistingRssScraper):
+    """Scraper for Google Alerts RSS feeds.
+
+    Extends ExistingRssScraper to clean up Google Alerts quirks:
+    - Resolves google.com/url redirects to the real article URL
+    - Strips HTML tags from titles (Google Alerts bolds the search terms)
+    """
+
+    def _parse_item(self, item):
+        article = super()._parse_item(item)
+
+        # Clean HTML from title
+        article['title'] = BeautifulSoup(article['title'], 'html.parser').text
+
+        # Resolve google.com/url redirect to real URL
+        from urllib.parse import urlparse, parse_qs
+        parsed = urlparse(article['link'])
+        if parsed.netloc.endswith('google.com') and parsed.path == '/url':
+            real_url = parse_qs(parsed.query).get('url', [''])[0]
+            if real_url:
+                article['link'] = real_url
+
+        # Clean HTML from description too
+        if article['description']:
+            article['description'] = BeautifulSoup(article['description'], 'html.parser').text
+
+        return article
+
+
 class Poder360Scraper(BaseScraper):
     """Scraper for Poder360 columnist articles."""
     
@@ -1250,5 +1279,6 @@ def get_scraper_class(scraper_name):
         'SustainableViewsScraper': SustainableViewsScraper,
         'BBCTopicScraper': BBCTopicScraper,
         'WordPressApiScraper': WordPressApiScraper,
+        'GoogleAlertsScraper': GoogleAlertsScraper,
     }
     return scrapers.get(scraper_name)
