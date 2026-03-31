@@ -81,6 +81,14 @@
       "group": "outros"
     },
     {
+      "name": "Climate Risk (Google Alerts)",
+      "url": "https://www.google.com.br/alerts/feeds/18411936457231074134/2558723363510171474",
+      "feed_file": "google_alerts_climate_risk_feed.xml",
+      "history_file": "google_alerts_climate_risk_history.json",
+      "scraper": "GoogleAlertsScraper",
+      "group": "outros"
+    },
+    {
       "name": "Clima Extremo",
       "url": "https://oglobo.globo.com/blogs/clima-extremo/",
       "feed_file": "clima_extremo_feed.xml",
