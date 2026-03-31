@@ -1,7 +1,7 @@
 <opml version="2.0">
     <head>
         <title>RSS de Colunistas</title>
-        <dateCreated>Tue, 31 Mar 2026 12:39:22 GMT</dateCreated>
+        <dateCreated>Tue, 31 Mar 2026 13:02:23 GMT</dateCreated>
         <ownerName>RSS Scraper</ownerName>
         </head>
     <body>
@@ -34,31 +34,31 @@
                 <outline type="rss" text="William Waack" title="William Waack" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/william_waack_feed.xml" />
                 </outline>
             <outline text="Folha de S.Paulo" title="Folha de S.Paulo">
-                <outline type="rss" text="Antonio Prata" title="Antonio Prata" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/antonio_prata_feed.xml" />
-                <outline type="rss" text="Bernardo Carvalho" title="Bernardo Carvalho" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/bernardo_carvalho_feed.xml" />
+                <outline type="rss" text="Antonio Prata" title="Antonio Prata" xmlUrl="https://feeds.folha.uol.com.br/colunas/antonioprata/rss091.xml" />
+                <outline type="rss" text="Bernardo Carvalho" title="Bernardo Carvalho" xmlUrl="https://feeds.folha.uol.com.br/colunas/bernardo-carvalho/rss091.xml" />
                 <outline type="rss" text="Bernardo Guimarães" title="Bernardo Guimarães" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/bernardo_guimaraes_feed.xml" />
-                <outline type="rss" text="Caos Planejado" title="Caos Planejado" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/caos_planejado_feed.xml" />
-                <outline type="rss" text="Celso Rocha de Barros" title="Celso Rocha de Barros" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/celso_rocha_barros_feed.xml" />
-                <outline type="rss" text="Conrado Hubner Mendes" title="Conrado Hubner Mendes" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/conrado_hubner_feed.xml" />
-                <outline type="rss" text="De Grão em Grão" title="De Grão em Grão" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/de_grao_em_grao_feed.xml" />
-                <outline type="rss" text="Dráuzio Varella" title="Dráuzio Varella" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/drauzio_feed.xml" />
+                <outline type="rss" text="Caos Planejado" title="Caos Planejado" xmlUrl="https://feeds.folha.uol.com.br/colunas/caos-planejado/rss091.xml" />
+                <outline type="rss" text="Celso Rocha de Barros" title="Celso Rocha de Barros" xmlUrl="https://feeds.folha.uol.com.br/colunas/celso-rocha-de-barros/rss091.xml" />
+                <outline type="rss" text="Conrado Hubner Mendes" title="Conrado Hubner Mendes" xmlUrl="https://feeds.folha.uol.com.br/colunas/conrado-hubner-mendes/rss091.xml" />
+                <outline type="rss" text="De Grão em Grão" title="De Grão em Grão" xmlUrl="https://feeds.folha.uol.com.br/blogs/de-grao-em-grao/rss091.xml" />
+                <outline type="rss" text="Dráuzio Varella" title="Dráuzio Varella" xmlUrl="https://feeds.folha.uol.com.br/colunas/drauziovarella/rss091.xml" />
                 <outline type="rss" text="Giovana Madalosso" title="Giovana Madalosso" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/giovana_madalosso_feed.xml" />
-                <outline type="rss" text="Ilona Szabó" title="Ilona Szabó" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/ilona_szabo_feed.xml" />
-                <outline type="rss" text="João Pereira Coutinho" title="João Pereira Coutinho" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/joao_pereira_coutinho_feed.xml" />
-                <outline type="rss" text="Juliano Spyer" title="Juliano Spyer" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/juliano_spyer_feed.xml" />
-                <outline type="rss" text="Marcelo Viana" title="Marcelo Viana" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/marcelo_viana_feed.xml" />
-                <outline type="rss" text="Marcos Lisboa" title="Marcos Lisboa" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/marcos_lisboa_feed.xml" />
-                <outline type="rss" text="Marcos Mendes" title="Marcos Mendes" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/marcos_mendes_feed.xml" />
-                <outline type="rss" text="Maria Hermínia Tavares" title="Maria Hermínia Tavares" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/maria_herminia_feed.xml" />
-                <outline type="rss" text="Mariliz Pereira Jorge" title="Mariliz Pereira Jorge" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/mariliz_pereira_feed.xml" />
+                <outline type="rss" text="Ilona Szabó" title="Ilona Szabó" xmlUrl="https://feeds.folha.uol.com.br/colunas/ilona-szabo/rss091.xml" />
+                <outline type="rss" text="João Pereira Coutinho" title="João Pereira Coutinho" xmlUrl="https://feeds.folha.uol.com.br/colunas/joaopereiracoutinho/rss091.xml" />
+                <outline type="rss" text="Juliano Spyer" title="Juliano Spyer" xmlUrl="https://feeds.folha.uol.com.br/colunas/juliano-spyer/rss091.xml" />
+                <outline type="rss" text="Marcelo Viana" title="Marcelo Viana" xmlUrl="https://feeds.folha.uol.com.br/colunas/marceloviana/rss091.xml" />
+                <outline type="rss" text="Marcos Lisboa" title="Marcos Lisboa" xmlUrl="https://feeds.folha.uol.com.br/colunas/marcos-lisboa/rss091.xml" />
+                <outline type="rss" text="Marcos Mendes" title="Marcos Mendes" xmlUrl="https://feeds.folha.uol.com.br/colunas/marcos-mendes/rss091.xml" />
+                <outline type="rss" text="Maria Hermínia Tavares" title="Maria Hermínia Tavares" xmlUrl="https://feeds.folha.uol.com.br/colunas/maria-herminia-tavares/rss091.xml" />
+                <outline type="rss" text="Mariliz Pereira Jorge" title="Mariliz Pereira Jorge" xmlUrl="https://feeds.folha.uol.com.br/colunas/marilizpereirajorge/rss091.xml" />
                 <outline type="rss" text="Martin Wolf" title="Martin Wolf" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/martin_wolf_feed.xml" />
                 <outline type="rss" text="Rodrigo Zeidan" title="Rodrigo Zeidan" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/rodrigo_zeidan_feed.xml" />
-                <outline type="rss" text="Ronaldo Lemos" title="Ronaldo Lemos" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/ronaldo_lemos_feed.xml" />
-                <outline type="rss" text="Samuel Pessoa" title="Samuel Pessoa" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/samuel_pessoa_feed.xml" />
-                <outline type="rss" text="Tati Bernardi" title="Tati Bernardi" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/tati_bernardi_feed.xml" />
-                <outline type="rss" text="Vera Iaconelli" title="Vera Iaconelli" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/vera_iaconelli_feed.xml" />
-                <outline type="rss" text="Wilson Gomes" title="Wilson Gomes" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/wilson_gomes_feed.xml" />
-                <outline type="rss" text="Zeca Camargo" title="Zeca Camargo" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/zeca_camargo_feed.xml" />
+                <outline type="rss" text="Ronaldo Lemos" title="Ronaldo Lemos" xmlUrl="https://feeds.folha.uol.com.br/colunas/ronaldolemos/rss091.xml" />
+                <outline type="rss" text="Samuel Pessoa" title="Samuel Pessoa" xmlUrl="https://feeds.folha.uol.com.br/colunas/samuelpessoa/rss091.xml" />
+                <outline type="rss" text="Tati Bernardi" title="Tati Bernardi" xmlUrl="https://feeds.folha.uol.com.br/colunas/tatibernardi/rss091.xml" />
+                <outline type="rss" text="Vera Iaconelli" title="Vera Iaconelli" xmlUrl="https://feeds.folha.uol.com.br/colunas/vera-iaconelli/rss091.xml" />
+                <outline type="rss" text="Wilson Gomes" title="Wilson Gomes" xmlUrl="https://feeds.folha.uol.com.br/colunas/wilson-gomes/rss091.xml" />
+                <outline type="rss" text="Zeca Camargo" title="Zeca Camargo" xmlUrl="https://feeds.folha.uol.com.br/colunas/zecacamargo/rss091.xml" />
                 </outline>
             <outline text="LinkedIn Newsletters" title="LinkedIn Newsletters">
                 <outline type="rss" text="AI in the news" title="AI in the news" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/ai_news_feed.xml" />
@@ -84,7 +84,7 @@
                 <outline type="rss" text="Bloomberg Green" title="Bloomberg Green" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/bloomberg_green_feed.xml" />
                 <outline type="rss" text="CNN Agro" title="CNN Agro" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/cnn_agro_feed.xml" />
                 <outline type="rss" text="FAPESP Sustentabilidade" title="FAPESP Sustentabilidade" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/fapesp_sustentabilidade_feed.xml" />
-                <outline type="rss" text="FT Climate Capital" title="FT Climate Capital" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/ft_climate_capital_feed.xml" />
+                <outline type="rss" text="FT Climate Capital" title="FT Climate Capital" xmlUrl="https://www.ft.com/climate-capital?format=rss" />
                 <outline type="rss" text="Mudanças Climáticas (BBC)" title="Mudanças Climáticas (BBC)" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/bbc_clima_feed.xml" />
                 <outline type="rss" text="Nottus Meteorologia" title="Nottus Meteorologia" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/nottus_feed.xml" />
                 <outline type="rss" text="Paul Graham" title="Paul Graham" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/paulgraham_feed.xml" />
