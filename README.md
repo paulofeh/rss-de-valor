@@ -12,34 +12,22 @@ Este projeto transforma artigos de colunistas brasileiros em feeds RSS padroniza
 
 ## 📊 Status Atual
 
-- **63 colunistas** monitorados
-- **6 feeds agrupados** por veículo
-- **21 feeds RSS oficiais** (mais confiáveis)
+- **73 fontes** monitoradas (colunistas, seções e portais)
+- **22 feeds RSS nativos** (link direto ao feed original)
+- **51 feeds gerados** via scraping/APIs
 - **Atualização automática** a cada 6 horas
 - **100% gratuito** via GitHub Actions
 
-## 🗂️ Veículos Cobertos
+## 🗂️ Fontes Cobertas
 
-### Feeds Agrupados Disponíveis
-
-| Veículo | Colunistas | Feed Agrupado |
-|---------|------------|---------------|
-| **Estadão** | 16 | [estadao_feed.xml](https://paulofeh.github.io/rss-de-valor/feeds/estadao_feed.xml) |
-| **Folha de S.Paulo** | 25 | [folha_feed.xml](https://paulofeh.github.io/rss-de-valor/feeds/folha_feed.xml) |
-| **O Globo** | 9 | [oglobo_feed.xml](https://paulofeh.github.io/rss-de-valor/feeds/oglobo_feed.xml) |
-| **Valor Econômico** | 5 | [valor_feed.xml](https://paulofeh.github.io/rss-de-valor/feeds/valor_feed.xml) |
-| **LinkedIn Newsletters** | 7 | [linkedin_feed.xml](https://paulofeh.github.io/rss-de-valor/feeds/linkedin_feed.xml) |
-| **Poder360** | 1 | [poder360_feed.xml](https://paulofeh.github.io/rss-de-valor/feeds/poder360_feed.xml) |
-
-### Alguns Colunistas Incluídos
-
-**Folha:** Antonio Prata, Dráuzio Varella, Tati Bernardi, Celso Rocha de Barros, Conrado Hubner Mendes, Marcos Mendes, Ronaldo Lemos...
-
-**Estadão:** Leandro Karnal, Fernando Reinach, Eugenio Bucci, Felipe Salto, Oliver Stuenkel...
-
-**O Globo:** Martha Batalha, Bernardo Mello Franco, Dorrit Harazim, Pedro Doria...
-
-**Valor:** Guilherme Ravache, Bruno Carazza, Maria Cristina Fernandes...
+| Veículo | Fontes |
+|---------|--------|
+| **Folha de S.Paulo** | 25 colunistas |
+| **Estadão** | 17 (colunistas + seção Sustentabilidade) |
+| **O Globo** | 11 (colunistas + Clima Extremo) |
+| **Valor Econômico** | 6 (colunistas + ESG) |
+| **LinkedIn Newsletters** | 5 |
+| **Outros** | 9 (BBC, Bloomberg Green, FT Climate Capital, FAPESP, CNN Agro, Sustainable Views, Nottus, Paul Graham, Poder360) |
 
 [Ver lista completa na página de feeds →](https://paulofeh.github.io/rss-de-valor/feeds/)
 
@@ -70,34 +58,32 @@ https://paulofeh.github.io/rss-de-valor/feeds/oglobo_feed.xml
 
 ## ✨ Funcionalidades
 
-### Feeds Agrupados
-- Um feed por veículo contendo todos os colunistas
-- Títulos no formato: **"Nome do Autor: Título do Artigo"**
-- Ordenados por data de publicação
-- Atualizados automaticamente
+### Feeds com Conteúdo Completo
+- Quando possível, o scraper extrai o conteúdo completo dos artigos (Estadão, BBC, Bloomberg Línea, WordPress)
+- Feeds gerados com múltiplos artigos por fonte (não apenas o mais recente)
 
-### Feeds Individuais
-- Um feed exclusivo para cada colunista
-- Permite acompanhamento personalizado
-- Mantém histórico individual
+### Feeds RSS Nativos
+- Quando a fonte já fornece RSS oficial (22 fontes), o sistema linka diretamente ao feed original
+- Sem redundância: o feed original é sempre mais completo e atualizado
+
+### Feeds Individuais Gerados
+- Para fontes sem RSS nativo, gera feeds via scraping de HTML ou APIs internas
+- Mantém histórico individual para detectar novos artigos
 
 ### Página HTML Interativa
 - Interface visual moderna
 - Organização por veículo
-- Links para todos os feeds
+- Links para todos os feeds (originais ou gerados)
 - Estatísticas atualizadas
 - Design responsivo (mobile-friendly)
 
-### Suporte a Feeds RSS Existentes
-- Quando o veículo já fornece RSS oficial, usamos esse feed
-- Mais confiável e rápido
-- 21 feeds da Folha utilizam RSS oficial
-
 ## 🛠️ Tecnologias
 
-- **Python 3.11** - Linguagem principal
+- **Python 3** - Linguagem principal
 - **BeautifulSoup4** - Scraping de HTML
 - **feedgenerator** - Geração de feeds RSS
+- **WordPress REST API** - Extração de conteúdo de sites WordPress
+- **Arc/Fusion CMS** - APIs internas do Estadão e Bloomberg Línea
 - **GitHub Actions** - Automação (executa a cada 6 horas)
 - **GitHub Pages** - Hospedagem dos feeds
 
@@ -123,37 +109,41 @@ rss-de-valor/
     └── workflow.yml             # Automação GitHub Actions
 ```
 
-## 🔧 Como Adicionar Novos Colunistas
+## 🔧 Como Adicionar Novas Fontes
 
-### 1. Colunista com Feed RSS Existente
+### 1. Fonte com Feed RSS Existente
 
-Se o colunista já tem um feed RSS oficial:
+Se a fonte já tem um feed RSS oficial, use `ExistingRssScraper`. O sistema não raspará o feed — apenas linka diretamente ao original no HTML e OPML:
 
 ```json
 {
-  "name": "Nome do Colunista",
+  "name": "Nome da Fonte",
   "url": "https://site.com/feed.xml",
   "scraper": "ExistingRssScraper",
-  "feed_file": "colunista_feed.xml",
-  "history_file": "colunista_history.json",
+  "feed_file": "fonte_feed.xml",
+  "history_file": "fonte_history.json",
   "group": "nome_veiculo"
 }
 ```
 
-### 2. Colunista que Precisa de Scraping
+### 2. Site WordPress com REST API
 
-Para sites sem feed RSS:
+Se o site é WordPress e tem a API habilitada (`/wp-json/wp/v2/posts`), use `WordPressApiScraper`. Suporta filtro automático por tag/categoria a partir da URL:
 
 ```json
 {
-  "name": "Nome do Colunista",
-  "url": "https://site.com/coluna/",
-  "scraper": "NomeDoScraper",
-  "feed_file": "colunista_feed.xml",
-  "history_file": "colunista_history.json",
+  "name": "Nome da Fonte",
+  "url": "https://site.com/categoria/",
+  "scraper": "WordPressApiScraper",
+  "feed_file": "fonte_feed.xml",
+  "history_file": "fonte_history.json",
   "group": "nome_veiculo"
 }
 ```
+
+### 3. Fonte que Precisa de Scraper Customizado
+
+Para sites com estrutura própria, crie uma classe em `src/scrapers.py` herdando `BaseScraper`, implemente `get_articles(limit)` para retornar múltiplos artigos, registre em `get_scraper_class()`, e adicione a entrada no config.
 
 Adicione a entrada em `config/sources_config.json` e faça commit. O GitHub Actions processará automaticamente.
 
@@ -163,32 +153,23 @@ O sistema é executado automaticamente via GitHub Actions:
 
 - **Frequência:** A cada 6 horas (00:00, 06:00, 12:00, 18:00 UTC)
 - **Processo:**
-  1. Coleta artigos mais recentes de cada colunista
-  2. Compara com histórico para detectar novos artigos
-  3. Gera feeds individuais e agrupados
-  4. Atualiza OPML e página HTML
-  5. Faz commit automático das mudanças
-  6. Publica no GitHub Pages
+  1. Coleta artigos de cada fonte que precisa de scraping (51 fontes)
+  2. Fontes com RSS nativo (22) são ignoradas no scraping — linkam direto ao original
+  3. Compara com histórico para detectar novos artigos
+  4. Gera feeds individuais com múltiplos artigos
+  5. Atualiza OPML e página HTML
+  6. Faz commit automático das mudanças
+  7. Publica no GitHub Pages
 
 ## 📝 Formato dos Feeds
 
-### Feed Agrupado
-```xml
-<item>
-  <title>Leandro Karnal: A importância da filosofia na educação</title>
-  <link>https://...</link>
-  <description>Texto do artigo...</description>
-  <author>Leandro Karnal</author>
-  <pubDate>Mon, 19 Jan 2026 10:00:00 GMT</pubDate>
-</item>
-```
+Os feeds gerados contêm múltiplos artigos por fonte (quando suportado pelo scraper), com conteúdo completo quando disponível:
 
-### Feed Individual
 ```xml
 <item>
   <title>A importância da filosofia na educação</title>
   <link>https://...</link>
-  <description>Texto do artigo...</description>
+  <description>Conteúdo completo do artigo em HTML...</description>
   <author>Leandro Karnal</author>
   <pubDate>Mon, 19 Jan 2026 10:00:00 GMT</pubDate>
 </item>
@@ -198,11 +179,17 @@ O sistema é executado automaticamente via GitHub Actions:
 
 | Scraper | Descrição | Uso |
 |---------|-----------|-----|
-| `ExistingRssScraper` | Processa feeds RSS existentes | Folha (21 feeds) |
-| `FolhaScraper` | Scraping de páginas da Folha | Folha (alguns) |
-| `EstadaoColumnistScraper` | Scraping do Estadão | Estadão |
-| `ValorOGloboScraper` | Scraping de Valor e O Globo | Valor, O Globo |
-| `LinkedInNewsletterScraper` | Scraping de newsletters do LinkedIn | LinkedIn |
+| `ExistingRssScraper` | Link direto a feeds RSS nativos | Folha (22 feeds), FT Climate Capital |
+| `FolhaScraper` | Scraping de páginas da Folha | Folha (4 colunistas) |
+| `EstadaoColumnistScraper` | Scraping de colunistas do Estadão | Estadão (16 colunistas) |
+| `EstadaoSectionScraper` | Seções do Estadão via Fusion/Arc CMS | Estadão Sustentabilidade |
+| `ValorOGloboScraper` | Scraping de Valor e O Globo | Valor, O Globo (17 fontes) |
+| `BloombergLineaScraper` | API Arc/Fusion da Bloomberg Línea | Bloomberg Green |
+| `BBCTopicScraper` | Páginas de tópico da BBC (conteúdo completo) | BBC Mudanças Climáticas |
+| `WordPressApiScraper` | WP REST API com filtro por tag/categoria | CNN Agro, FAPESP, Nottus |
+| `SustainableViewsScraper` | Categorias do Sustainable Views (FT) | Sustainable Views Risk |
+| `LinkedInNewsletterScraper` | Scraping de newsletters do LinkedIn | LinkedIn (5 fontes) |
+| `PaulGrahamScraper` | Essays do paulgraham.com (conteúdo completo) | Paul Graham |
 | `Poder360Scraper` | Scraping do Poder360 | Poder360 |
 
 ## 🤝 Contribuindo

@@ -35,7 +35,14 @@ def main():
     print("Coletando artigos e gerando feeds individuais...")
     print("=" * 70)
 
-    for source in sources:
+    # Separate sources that need scraping from those with existing RSS
+    scrape_sources = [s for s in sources if s['scraper'] != 'ExistingRssScraper']
+    rss_sources = [s for s in sources if s['scraper'] == 'ExistingRssScraper']
+
+    if rss_sources:
+        print(f"ℹ️  {len(rss_sources)} fontes com RSS nativo (não serão raspadas)")
+
+    for source in scrape_sources:
         scraper_class = get_scraper_class(source['scraper'])
         if not scraper_class:
             print(f"❌ Scraper não encontrado: {source['scraper']}")
@@ -48,8 +55,9 @@ def main():
         max_retries = 3
         for attempt in range(max_retries):
             try:
-                latest_article = scraper.get_latest_article()
-                if latest_article:
+                articles = scraper.get_articles()
+                if articles:
+                    latest_article = articles[0]
                     history = load_history(source['history_file'])
 
                     # Check if this is a new article for logging/statistics
@@ -67,7 +75,7 @@ def main():
 
                     # ALWAYS generate individual feed (whether new or not)
                     try:
-                        individual_feed = generate_feed(source['name'], source['url'], latest_article)
+                        individual_feed = generate_feed(source['name'], source['url'], articles)
                         save_feed(individual_feed, source['feed_file'])
                         individual_feeds_generated += 1
                     except Exception as e:
@@ -75,10 +83,11 @@ def main():
 
                     # Add to grouped articles ONLY if group is specified and not empty
                     if group and group.strip():
-                        grouped_articles[group].append({
-                            'author_name': source['name'],
-                            'article': latest_article
-                        })
+                        for article in articles:
+                            grouped_articles[group].append({
+                                'author_name': source['name'],
+                                'article': article
+                            })
                 else:
                     print(f"⚠️  Não foi possível obter artigo: {source['name']}")
                     error_count += 1

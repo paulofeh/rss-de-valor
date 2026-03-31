@@ -43,8 +43,24 @@ def get_feed_url(filename):
     """Get the full GitHub Pages URL for a feed file."""
     return f"{GITHUB_PAGES_BASE_URL}/feeds/{filename}"
 
-def generate_feed(source_name, url, article):
-    """Generate RSS feed for an article."""
+def get_source_feed_url(source):
+    """Get the feed URL for a source.
+
+    For ExistingRssScraper sources, returns the original feed URL directly.
+    For all others, returns the GitHub Pages URL for the generated feed file.
+    """
+    if source.get('scraper') == 'ExistingRssScraper':
+        return source['url']
+    return f"{GITHUB_PAGES_BASE_URL}/feeds/{source['feed_file']}"
+
+def generate_feed(source_name, url, articles):
+    """Generate RSS feed for one or more articles.
+
+    *articles* may be a single article dict (legacy) or a list of dicts.
+    """
+    if isinstance(articles, dict):
+        articles = [articles]
+
     feed_filename = f"{source_name.lower().replace(' ', '_')}_feed.xml"
     feed_url = get_feed_url(feed_filename)
 
@@ -58,16 +74,17 @@ def generate_feed(source_name, url, article):
         ttl="60"
     )
 
-    feed.add_item(
-        title=article['title'],
-        link=article['link'],
-        description=article['description'],
-        author_name=article['author'],
-        author_email="",
-        pubdate=article['pubdate'],
-        unique_id=article['link'],
-        updateddate=article['pubdate'],
-    )
+    for article in articles:
+        feed.add_item(
+            title=article['title'],
+            link=article['link'],
+            description=article['description'],
+            author_name=article['author'],
+            author_email="",
+            pubdate=article['pubdate'],
+            unique_id=article['link'],
+            updateddate=article['pubdate'],
+        )
 
     return feed
 
@@ -252,7 +269,7 @@ def generate_opml(sources):
                                       title=display_name)
 
         for source in sorted(sources_by_group[group], key=lambda x: x['name']):
-            feed_url = f"{GITHUB_PAGES_BASE_URL}/feeds/{source['feed_file']}"
+            feed_url = get_source_feed_url(source)
             ET.SubElement(group_outline, 'outline',
                         type="rss",
                         text=source['name'],
@@ -627,7 +644,7 @@ def generate_html_index(sources):
 """
 
         for source in columnists:
-            individual_feed_url = f"{GITHUB_PAGES_BASE_URL}/feeds/{source['feed_file']}"
+            individual_feed_url = get_source_feed_url(source)
             html += f"""
                 <div class="columnist-item">
                     <span class="columnist-name">{source['name']}</span>
@@ -649,7 +666,7 @@ def generate_html_index(sources):
             <div class="columnists-list">
 """
         for source in sorted(ungrouped_sources, key=lambda x: x['name']):
-            individual_feed_url = f"{GITHUB_PAGES_BASE_URL}/feeds/{source['feed_file']}"
+            individual_feed_url = get_source_feed_url(source)
             html += f"""
                 <div class="columnist-item">
                     <span class="columnist-name">{source['name']}</span>
