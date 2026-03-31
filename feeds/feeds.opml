@@ -1,7 +1,7 @@
 <opml version="2.0">
     <head>
         <title>RSS de Colunistas</title>
-        <dateCreated>Tue, 31 Mar 2026 19:01:17 GMT</dateCreated>
+        <dateCreated>Tue, 31 Mar 2026 19:41:44 GMT</dateCreated>
         <ownerName>RSS Scraper</ownerName>
         </head>
     <body>
@@ -10,7 +10,7 @@
             <outline type="rss" text="Folha de S.Paulo - 25 colunistas" title="Folha de S.Paulo - 25 colunistas" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/folha_feed.xml" />
             <outline type="rss" text="LinkedIn Newsletters - 5 colunistas" title="LinkedIn Newsletters - 5 colunistas" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/linkedin_feed.xml" />
             <outline type="rss" text="O Globo - 11 colunistas" title="O Globo - 11 colunistas" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/oglobo_feed.xml" />
-            <outline type="rss" text="Outros - 9 colunistas" title="Outros - 9 colunistas" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/outros_feed.xml" />
+            <outline type="rss" text="Outros - 10 colunistas" title="Outros - 10 colunistas" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/outros_feed.xml" />
             <outline type="rss" text="Valor Econômico - 6 colunistas" title="Valor Econômico - 6 colunistas" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/valor_feed.xml" />
             </outline>
         <outline text="📄 Feeds Individuais" title="📄 Feeds Individuais">
@@ -88,6 +88,7 @@
                 <outline type="rss" text="Mudanças Climáticas (BBC)" title="Mudanças Climáticas (BBC)" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/bbc_clima_feed.xml" />
                 <outline type="rss" text="Nottus Meteorologia" title="Nottus Meteorologia" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/nottus_feed.xml" />
                 <outline type="rss" text="Paul Graham" title="Paul Graham" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/paulgraham_feed.xml" />
+                <outline type="rss" text="Risco Climático (Google Alerts)" title="Risco Climático (Google Alerts)" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/google_alerts_risco_climatico_feed.xml" />
                 <outline type="rss" text="Silvio Meira" title="Silvio Meira" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/silvio_meira_feed.xml" />
                 <outline type="rss" text="Sustainable Views" title="Sustainable Views" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/sustainable_views_feed.xml" />
                 </outline>
