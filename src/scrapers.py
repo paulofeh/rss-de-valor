@@ -172,6 +172,7 @@ class GoogleAlertsScraper(ExistingRssScraper):
     Extends ExistingRssScraper to clean up Google Alerts quirks:
     - Resolves google.com/url redirects to the real article URL
     - Strips HTML tags from titles (Google Alerts bolds the search terms)
+    - Fetches full article content via trafilatura
     """
 
     def _parse_item(self, item):
@@ -188,11 +189,28 @@ class GoogleAlertsScraper(ExistingRssScraper):
             if real_url:
                 article['link'] = real_url
 
-        # Clean HTML from description too
-        if article['description']:
+        # Fetch full article content via trafilatura
+        content = self._fetch_content(article['link'])
+        if content:
+            article['description'] = content
+        elif article['description']:
+            # Fallback: clean the Google Alerts snippet
             article['description'] = BeautifulSoup(article['description'], 'html.parser').text
 
         return article
+
+    @staticmethod
+    def _fetch_content(url):
+        """Fetch and extract article content using trafilatura."""
+        import trafilatura
+
+        try:
+            downloaded = trafilatura.fetch_url(url)
+            if downloaded:
+                return trafilatura.extract(downloaded, output_format='html', include_links=True)
+        except Exception as e:
+            print(f"Erro ao extrair conteúdo de {url}: {str(e)}")
+        return None
 
 
 class Poder360Scraper(BaseScraper):
