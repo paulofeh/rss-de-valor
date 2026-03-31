@@ -79,12 +79,20 @@ class ExistingRssScraper(BaseScraper):
             # Get the first (most recent) item
             item = items[0]
 
+            def _find_elem(parent, *tags):
+                """Find the first matching element, avoiding the XML element bool() pitfall."""
+                for tag in tags:
+                    elem = parent.find(tag)
+                    if elem is not None:
+                        return elem
+                return None
+
             # Extract title
-            title_elem = item.find('title') or item.find('{http://www.w3.org/2005/Atom}title')
+            title_elem = _find_elem(item, 'title', '{http://www.w3.org/2005/Atom}title')
             title = title_elem.text if title_elem is not None and title_elem.text else 'Título não encontrado'
 
             # Extract link
-            link_elem = item.find('link') or item.find('{http://www.w3.org/2005/Atom}link')
+            link_elem = _find_elem(item, 'link', '{http://www.w3.org/2005/Atom}link')
             if link_elem is not None:
                 # Atom feeds use link as an attribute
                 link = link_elem.get('href', link_elem.text if link_elem.text else '')
@@ -92,24 +100,27 @@ class ExistingRssScraper(BaseScraper):
                 link = ''
 
             # Extract description
-            desc_elem = (item.find('description') or
-                        item.find('{http://purl.org/rss/1.0/modules/content/}encoded') or
-                        item.find('{http://www.w3.org/2005/Atom}summary') or
-                        item.find('{http://www.w3.org/2005/Atom}content'))
+            desc_elem = _find_elem(item,
+                        'description',
+                        '{http://purl.org/rss/1.0/modules/content/}encoded',
+                        '{http://www.w3.org/2005/Atom}summary',
+                        '{http://www.w3.org/2005/Atom}content')
             description = desc_elem.text if desc_elem is not None and desc_elem.text else ''
 
             # Extract author
-            author_elem = (item.find('author') or
-                          item.find('{http://purl.org/dc/elements/1.1/}creator') or
-                          item.find('{http://www.w3.org/2005/Atom}author/{http://www.w3.org/2005/Atom}name'))
+            author_elem = _find_elem(item,
+                          'author',
+                          '{http://purl.org/dc/elements/1.1/}creator',
+                          '{http://www.w3.org/2005/Atom}author/{http://www.w3.org/2005/Atom}name')
             author = author_elem.text if author_elem is not None and author_elem.text else 'Autor não encontrado'
 
             # Extract publication date
             pubdate = None
-            date_elem = (item.find('pubDate') or
-                        item.find('{http://purl.org/dc/elements/1.1/}date') or
-                        item.find('{http://www.w3.org/2005/Atom}published') or
-                        item.find('{http://www.w3.org/2005/Atom}updated'))
+            date_elem = _find_elem(item,
+                        'pubDate',
+                        '{http://purl.org/dc/elements/1.1/}date',
+                        '{http://www.w3.org/2005/Atom}published',
+                        '{http://www.w3.org/2005/Atom}updated')
 
             if date_elem is not None and date_elem.text:
                 try:
@@ -582,6 +593,562 @@ class PaulGrahamScraper(BaseScraper):
         pass  # Logic is handled in get_latest_article
 
 
+class EstadaoSectionScraper(BaseScraper):
+    """Scraper for Estadão section pages (e.g. /sustentabilidade/).
+
+    Uses the Fusion/Arc CMS JSON embedded in the page to find the latest
+    article, then fetches the article page to extract full content from
+    its own Fusion.globalContent.content_elements.
+    """
+    BASE_URL = "https://www.estadao.com.br"
+
+    def get_latest_article(self):
+        """Fetch the section listing page and return the most recent article with full content."""
+        try:
+            response = requests_retry_session().get(self.url, timeout=30)
+            response.raise_for_status()
+            soup = BeautifulSoup(response.content, 'html.parser')
+
+            article_meta = self._find_latest_from_cache(soup)
+            if not article_meta:
+                return None
+
+            # Build full URL and fetch the article page for content
+            canonical = article_meta['canonical_url']
+            article_url = canonical if canonical.startswith('http') else f"{self.BASE_URL}{canonical}"
+            content_html = self._fetch_article_content(article_url)
+
+            credits = article_meta.get('credits', {})
+            authors = [a.get('name', '') for a in credits.get('by', [])]
+
+            return {
+                'title': article_meta.get('headlines', {}).get('basic', ''),
+                'link': article_url,
+                'pubdate': self._parse_date(article_meta.get('first_publish_date', '')),
+                'author': ', '.join(authors) if authors else 'Estadão',
+                'description': content_html or article_meta.get('subheadlines', {}).get('basic', ''),
+            }
+        except Exception as e:
+            print(f"Erro ao processar seção {self.url}: {str(e)}")
+            return None
+
+    def _find_latest_from_cache(self, soup):
+        """Extract the most recent article metadata from Fusion.contentCache."""
+        import json as _json
+
+        for script in soup.find_all('script'):
+            text = script.string or ''
+            if 'Fusion.contentCache' not in text:
+                continue
+
+            start = text.index('Fusion.contentCache=') + len('Fusion.contentCache=')
+            end = text.index(';Fusion.', start)
+            cache = _json.loads(text[start:end])
+
+            story_feed = cache.get('story-feed-query', {})
+
+            # Collect all articles from every query in the cache
+            all_articles = []
+            for query_val in story_feed.values():
+                data = query_val.get('data', {}) if isinstance(query_val, dict) else {}
+                elements = data.get('content_elements', [])
+                all_articles.extend(elements)
+
+            if not all_articles:
+                return None
+
+            # Sort by publish date descending and return the newest
+            all_articles.sort(
+                key=lambda a: a.get('first_publish_date', ''),
+                reverse=True,
+            )
+            return all_articles[0]
+
+        return None
+
+    def _fetch_article_content(self, url):
+        """Fetch an article page and build HTML from its Fusion content_elements."""
+        import json as _json
+
+        try:
+            response = requests_retry_session().get(url, timeout=30)
+            response.raise_for_status()
+            soup = BeautifulSoup(response.content, 'html.parser')
+
+            for script in soup.find_all('script'):
+                text = script.string or ''
+                if 'Fusion.globalContent' not in text:
+                    continue
+
+                start = text.index('Fusion.globalContent=') + len('Fusion.globalContent=')
+                end = text.index(';Fusion.', start)
+                data = _json.loads(text[start:end])
+
+                elements = data.get('content_elements', [])
+                if not elements:
+                    return None
+
+                parts = []
+                for el in elements:
+                    el_type = el.get('type')
+                    if el_type == 'text':
+                        parts.append(el.get('content', ''))
+                    elif el_type == 'header':
+                        level = el.get('level', 2)
+                        parts.append(f"<h{level}>{el.get('content', '')}</h{level}>")
+                return '\n'.join(parts) if parts else None
+
+        except Exception as e:
+            print(f"Erro ao buscar conteúdo de {url}: {str(e)}")
+            return None
+
+    def _parse_date(self, date_str):
+        """Parse ISO 8601 date string."""
+        if not date_str:
+            return datetime.datetime.now(pytz.UTC)
+        try:
+            dt = datetime.datetime.fromisoformat(date_str.replace('Z', '+00:00'))
+            return dt.astimezone(pytz.UTC)
+        except (ValueError, TypeError):
+            return datetime.datetime.now(pytz.UTC)
+
+    def _extract_article_data(self, soup):
+        pass  # Logic is handled in get_latest_article
+
+
+class BloombergLineaScraper(BaseScraper):
+    """Scraper for Bloomberg Línea Brasil sections via Arc/Fusion API.
+
+    The URL should be in the format:
+        https://www.bloomberglinea.com.br/<section-path>/
+    e.g. https://www.bloomberglinea.com.br/esg/bloomberg-linea-green/
+    """
+    BASE_URL = "https://www.bloomberglinea.com.br"
+    API_PATH = "/pf/api/v3/content/fetch/story-feed-sections"
+    FILTER = (
+        "{content_elements{_id,canonical_url,description{basic},"
+        "display_date,headlines{basic},last_updated_date,subtype,"
+        "taxonomy{primary_section{_id,name,path}},type,"
+        "websites{bloomberg-linea-brasil{website_section{_id,name},website_url}}}}"
+    )
+
+    def get_latest_article(self):
+        try:
+            article_meta = self._fetch_listing()
+            if not article_meta:
+                return None
+
+            canonical = article_meta.get('canonical_url', '')
+            article_url = canonical if canonical.startswith('http') else f"{self.BASE_URL}{canonical}"
+
+            content_html, author = self._fetch_article_content(article_url)
+
+            return {
+                'title': article_meta.get('headlines', {}).get('basic', ''),
+                'link': article_url,
+                'pubdate': self._parse_date(article_meta.get('display_date', '')),
+                'author': author or 'Bloomberg Línea',
+                'description': content_html or article_meta.get('description', {}).get('basic', ''),
+            }
+        except Exception as e:
+            print(f"Erro ao processar Bloomberg Línea {self.url}: {str(e)}")
+            return None
+
+    def _section_path(self):
+        """Derive the Arc section path from the page URL (e.g. '/esg/bloomberg-linea-green')."""
+        from urllib.parse import urlparse
+        path = urlparse(self.url).path.strip('/')
+        return f"/{path}"
+
+    def _fetch_listing(self):
+        """Fetch the latest article metadata from the Arc API."""
+        import json as _json
+        from urllib.parse import quote
+
+        query = _json.dumps({
+            "excludeSections": "/videos",
+            "feature": "medium-card-promo-bullet",
+            "feedOffset": 0,
+            "feedSize": 1,
+            "includeSections": self._section_path(),
+        })
+
+        api_url = (
+            f"{self.BASE_URL}{self.API_PATH}"
+            f"?query={quote(query)}"
+            f"&filter={quote(self.FILTER)}"
+            f"&_website=bloomberg-linea-brasil"
+        )
+
+        response = requests_retry_session().get(api_url, timeout=30, headers={
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
+        })
+        response.raise_for_status()
+        data = response.json()
+
+        elements = data.get('content_elements', [])
+        return elements[0] if elements else None
+
+    def _fetch_article_content(self, url):
+        """Fetch an article page and extract full content + author from Fusion.globalContent."""
+        import json as _json
+
+        try:
+            response = requests_retry_session().get(url, timeout=30, headers={
+                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
+            })
+            response.raise_for_status()
+            soup = BeautifulSoup(response.content, 'html.parser')
+
+            for script in soup.find_all('script'):
+                text = script.string or ''
+                if 'Fusion.globalContent' not in text:
+                    continue
+
+                start = text.index('Fusion.globalContent=') + len('Fusion.globalContent=')
+                end = text.index(';Fusion.', start)
+                data = _json.loads(text[start:end])
+
+                # Extract author
+                credits = data.get('credits', {})
+                authors = [a.get('name', '') for a in credits.get('by', [])]
+                author = ', '.join(a for a in authors if a)
+
+                # Extract content
+                elements = data.get('content_elements', [])
+                parts = []
+                for el in elements:
+                    el_type = el.get('type')
+                    if el_type == 'text':
+                        parts.append(el.get('content', ''))
+                    elif el_type == 'header':
+                        level = el.get('level', 2)
+                        parts.append(f"<h{level}>{el.get('content', '')}</h{level}>")
+
+                content_html = '\n'.join(parts) if parts else None
+                return content_html, author
+
+        except Exception as e:
+            print(f"Erro ao buscar conteúdo de {url}: {str(e)}")
+
+        return None, None
+
+    def _parse_date(self, date_str):
+        """Parse ISO 8601 date string."""
+        if not date_str:
+            return datetime.datetime.now(pytz.UTC)
+        try:
+            dt = datetime.datetime.fromisoformat(date_str.replace('Z', '+00:00'))
+            return dt.astimezone(pytz.UTC)
+        except (ValueError, TypeError):
+            return datetime.datetime.now(pytz.UTC)
+
+    def _extract_article_data(self, soup):
+        pass  # Logic is handled in get_latest_article
+
+
+class SustainableViewsScraper(BaseScraper):
+    """Scraper for Sustainable Views (FT specialist service) category pages.
+
+    The URL should be a category listing, e.g.:
+        https://www.sustainableviews.com/category/daily-briefing/
+
+    Listing pages are server-rendered and contain <aside> cards with
+    category, date, title, and description.  Author is extracted from
+    the article page's dataLayer script.
+    """
+
+    def get_latest_article(self):
+        try:
+            response = requests_retry_session().get(self.url, timeout=30, headers={
+                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
+            })
+            response.raise_for_status()
+            soup = BeautifulSoup(response.content, 'html.parser')
+
+            asides = soup.select('aside')
+            if not asides:
+                print(f"Nenhum artigo encontrado em {self.url}")
+                return None
+
+            aside = asides[0]
+            texts = list(aside.stripped_strings)
+            # texts layout: [category, date, title, description]
+            if len(texts) < 3:
+                return None
+
+            date_str = texts[1] if len(texts) > 1 else ''
+            title = texts[2] if len(texts) > 2 else ''
+            description = texts[3] if len(texts) > 3 else ''
+
+            # Find the article link (not category, not homepage)
+            article_link = None
+            for a in aside.select('a[href]'):
+                href = a.get('href', '')
+                if (href.startswith('https://www.sustainableviews.com/')
+                        and href != 'https://www.sustainableviews.com/'
+                        and '/category/' not in href):
+                    article_link = href
+                    break
+
+            if not article_link:
+                return None
+
+            author = self._fetch_author(article_link)
+
+            return {
+                'title': title,
+                'link': article_link,
+                'pubdate': self._parse_date(date_str),
+                'author': author or 'Sustainable Views',
+                'description': description,
+            }
+        except Exception as e:
+            print(f"Erro ao processar Sustainable Views {self.url}: {str(e)}")
+            return None
+
+    def _fetch_author(self, url):
+        """Fetch the article page and extract author from the dataLayer script."""
+        import json as _json
+
+        try:
+            response = requests_retry_session().get(url, timeout=30, headers={
+                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
+            })
+            response.raise_for_status()
+            soup = BeautifulSoup(response.content, 'html.parser')
+
+            for script in soup.find_all('script'):
+                text = script.string or ''
+                if 'Article Entity Loaded' not in text:
+                    continue
+
+                start = text.index('data: {') + 6
+                brace_count = 0
+                for i, c in enumerate(text[start:], start):
+                    if c == '{':
+                        brace_count += 1
+                    elif c == '}':
+                        brace_count -= 1
+                    if brace_count == 0:
+                        data = _json.loads(text[start:i + 1])
+                        return data.get('author_name', '')
+        except Exception as e:
+            print(f"Erro ao buscar autor de {url}: {str(e)}")
+
+        return None
+
+    def _parse_date(self, date_str):
+        """Parse English date string like 'March 31, 2026'."""
+        if not date_str:
+            return datetime.datetime.now(pytz.UTC)
+        try:
+            dt = datetime.datetime.strptime(date_str.strip(), "%B %d, %Y")
+            return dt.replace(tzinfo=pytz.UTC)
+        except ValueError:
+            return datetime.datetime.now(pytz.UTC)
+
+    def _extract_article_data(self, soup):
+        pass  # Logic is handled in get_latest_article
+
+
+class BBCTopicScraper(BaseScraper):
+    """Scraper for BBC News topic pages (e.g. /portuguese/topics/<id>).
+
+    The listing page has server-rendered promo cards with title, link and date.
+    The article page provides full content (no paywall) and author info.
+    """
+
+    def get_latest_article(self):
+        try:
+            response = requests_retry_session().get(self.url, timeout=30, headers={
+                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
+            })
+            response.raise_for_status()
+            soup = BeautifulSoup(response.content, 'html.parser')
+
+            # Find the first promo card that links to an article
+            for promo in soup.select('div.promo-text'):
+                h = promo.select_one('h2, h3')
+                link = promo.select_one('a[href*="/articles/"]')
+                if not (h and link):
+                    continue
+
+                title = h.text.strip()
+                article_url = link.get('href', '')
+                if not article_url.startswith('http'):
+                    article_url = f"https://www.bbc.com{article_url}"
+
+                time_el = promo.select_one('time')
+                date_str = time_el.get('datetime', '') if time_el else ''
+
+                author, content_html = self._fetch_article(article_url)
+
+                return {
+                    'title': title,
+                    'link': article_url,
+                    'pubdate': self._parse_date(date_str),
+                    'author': author or 'BBC News Brasil',
+                    'description': content_html or '',
+                }
+
+            print(f"Nenhum artigo encontrado em {self.url}")
+            return None
+        except Exception as e:
+            print(f"Erro ao processar BBC topic {self.url}: {str(e)}")
+            return None
+
+    def _fetch_article(self, url):
+        """Fetch article page to extract author and full content."""
+        try:
+            response = requests_retry_session().get(url, timeout=30, headers={
+                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
+            })
+            response.raise_for_status()
+            soup = BeautifulSoup(response.content, 'html.parser')
+
+            main = soup.select_one('main')
+            if not main:
+                return None, None
+
+            # Extract author from byline section
+            author = None
+            for section in main.select('section'):
+                text = section.text.strip()
+                if 'Author' in text and len(text) < 300:
+                    spans = section.select('span')
+                    for i, span in enumerate(spans):
+                        if span.string and span.string.strip().startswith('Author'):
+                            # The name is in the next sibling span
+                            if i + 1 < len(spans) and spans[i + 1].string:
+                                author = spans[i + 1].string.strip()
+                                break
+                    break
+
+            # Extract content paragraphs
+            parts = []
+            for p in main.select('p'):
+                text = p.text.strip()
+                if (len(text) > 40
+                        and not text.startswith('Crédito')
+                        and not text.startswith('Legenda')
+                        and 'Getty Images' not in text):
+                    parts.append(f'<p>{text}</p>')
+
+            content_html = '\n'.join(parts) if parts else None
+            return author, content_html
+
+        except Exception as e:
+            print(f"Erro ao buscar artigo BBC {url}: {str(e)}")
+            return None, None
+
+    def _parse_date(self, date_str):
+        """Parse ISO date string like '2026-03-23'."""
+        if not date_str:
+            return datetime.datetime.now(pytz.UTC)
+        try:
+            dt = datetime.datetime.fromisoformat(date_str.replace('Z', '+00:00'))
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=pytz.UTC)
+            return dt
+        except (ValueError, TypeError):
+            return datetime.datetime.now(pytz.UTC)
+
+    def _extract_article_data(self, soup):
+        pass  # Logic is handled in get_latest_article
+
+
+class WordPressApiScraper(BaseScraper):
+    """Scraper for WordPress sites via the WP REST API (/wp-json/wp/v2/posts).
+
+    The URL should be the site root or a category/tag page, e.g.:
+        https://nottus.com.br/noticias/
+        https://revistapesquisa.fapesp.br/sustentabilidade/
+    When a path segment is present (e.g. /sustentabilidade/), the scraper
+    automatically resolves it as a tag or category slug to filter posts.
+    """
+
+    def _resolve_filter(self, parsed):
+        """Resolve the URL path into a WP API filter (tags=<id> or categories=<id>)."""
+        slug = parsed.path.strip('/').split('/')[-1] if parsed.path.strip('/') else ''
+        if not slug or slug in ('noticias', 'blog', 'posts', 'news'):
+            return ''
+
+        base = f"{parsed.scheme}://{parsed.netloc}/wp-json/wp/v2"
+        # Try tags first, then categories
+        for endpoint in ('tags', 'categories'):
+            try:
+                r = requests_retry_session().get(
+                    f"{base}/{endpoint}?slug={slug}", timeout=15)
+                if r.status_code == 200:
+                    items = r.json()
+                    if items:
+                        return f"&{endpoint}={items[0]['id']}"
+            except Exception:
+                pass
+        return ''
+
+    def get_latest_article(self):
+        import json as _json
+        from urllib.parse import urlparse
+
+        try:
+            parsed = urlparse(self.url)
+            filter_param = self._resolve_filter(parsed)
+            api_url = f"{parsed.scheme}://{parsed.netloc}/wp-json/wp/v2/posts?per_page=1&_embed{filter_param}"
+
+            response = requests_retry_session().get(api_url, timeout=30, headers={
+                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
+            })
+            response.raise_for_status()
+            posts = response.json()
+
+            if not posts:
+                print(f"Nenhum post encontrado em {api_url}")
+                return None
+
+            post = posts[0]
+
+            # Title (strip HTML)
+            title_html = post.get('title', {}).get('rendered', '')
+            title = BeautifulSoup(title_html, 'html.parser').text.strip()
+
+            # Author from _embedded
+            embedded = post.get('_embedded', {})
+            authors = embedded.get('author', [])
+            author = authors[0].get('name', '') if authors else ''
+
+            # Date
+            date_str = post.get('date_gmt', '')
+
+            # Full content HTML
+            content = post.get('content', {}).get('rendered', '')
+
+            return {
+                'title': title,
+                'link': post.get('link', ''),
+                'pubdate': self._parse_date(date_str),
+                'author': author or 'Autor não encontrado',
+                'description': content,
+            }
+        except Exception as e:
+            print(f"Erro ao processar WordPress API {self.url}: {str(e)}")
+            return None
+
+    def _parse_date(self, date_str):
+        """Parse WordPress GMT date (ISO 8601 without timezone)."""
+        if not date_str:
+            return datetime.datetime.now(pytz.UTC)
+        try:
+            dt = datetime.datetime.fromisoformat(date_str)
+            return dt.replace(tzinfo=pytz.UTC)
+        except (ValueError, TypeError):
+            return datetime.datetime.now(pytz.UTC)
+
+    def _extract_article_data(self, soup):
+        pass  # Logic is handled in get_latest_article
+
+
 def get_scraper_class(scraper_name):
     """Get the scraper class by name."""
     scrapers = {
@@ -593,5 +1160,10 @@ def get_scraper_class(scraper_name):
         'EstadaoColumnistScraper': EstadaoColumnistScraper,
         'Poder360Scraper': Poder360Scraper,
         'PaulGrahamScraper': PaulGrahamScraper,
+        'EstadaoSectionScraper': EstadaoSectionScraper,
+        'BloombergLineaScraper': BloombergLineaScraper,
+        'SustainableViewsScraper': SustainableViewsScraper,
+        'BBCTopicScraper': BBCTopicScraper,
+        'WordPressApiScraper': WordPressApiScraper,
     }
     return scrapers.get(scraper_name)

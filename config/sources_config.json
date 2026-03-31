@@ -1,6 +1,86 @@
 {
   "sources": [
     {
+      "name": "Sustentabilidade",
+      "url": "https://www.estadao.com.br/sustentabilidade/",
+      "feed_file": "estadao_sustentabilidade_feed.xml",
+      "history_file": "estadao_sustentabilidade_history.json",
+      "scraper": "EstadaoSectionScraper",
+      "group": "estadao"
+    },
+    {
+      "name": "ESG",
+      "url": "https://valor.globo.com/esg/",
+      "feed_file": "valor_esg_feed.xml",
+      "history_file": "valor_esg_history.json",
+      "scraper": "ValorOGloboScraper",
+      "group": "valor"
+    },
+    {
+      "name": "Bloomberg Green",
+      "url": "https://www.bloomberglinea.com.br/esg/bloomberg-linea-green/",
+      "feed_file": "bloomberg_green_feed.xml",
+      "history_file": "bloomberg_green_history.json",
+      "scraper": "BloombergLineaScraper",
+      "group": "outros"
+    },
+    {
+      "name": "Sustainable Views",
+      "url": "https://www.sustainableviews.com/category/risk/",
+      "feed_file": "sustainable_views_feed.xml",
+      "history_file": "sustainable_views_history.json",
+      "scraper": "SustainableViewsScraper",
+      "group": "outros"
+    },
+    {
+      "name": "FT Climate Capital",
+      "url": "https://www.ft.com/climate-capital?format=rss",
+      "feed_file": "ft_climate_capital_feed.xml",
+      "history_file": "ft_climate_capital_history.json",
+      "scraper": "ExistingRssScraper",
+      "group": "outros"
+    },
+    {
+      "name": "Mudanças Climáticas (BBC)",
+      "url": "https://www.bbc.com/portuguese/topics/cdr56rdy40rt",
+      "feed_file": "bbc_clima_feed.xml",
+      "history_file": "bbc_clima_history.json",
+      "scraper": "BBCTopicScraper",
+      "group": "outros"
+    },
+    {
+      "name": "Nottus Meteorologia",
+      "url": "https://nottus.com.br/noticias/",
+      "feed_file": "nottus_feed.xml",
+      "history_file": "nottus_history.json",
+      "scraper": "WordPressApiScraper",
+      "group": "outros"
+    },
+    {
+      "name": "FAPESP Sustentabilidade",
+      "url": "https://revistapesquisa.fapesp.br/sustentabilidade/",
+      "feed_file": "fapesp_sustentabilidade_feed.xml",
+      "history_file": "fapesp_sustentabilidade_history.json",
+      "scraper": "WordPressApiScraper",
+      "group": "outros"
+    },
+    {
+      "name": "CNN Agro",
+      "url": "https://www.cnnbrasil.com.br/agro/",
+      "feed_file": "cnn_agro_feed.xml",
+      "history_file": "cnn_agro_history.json",
+      "scraper": "WordPressApiScraper",
+      "group": "outros"
+    },
+    {
+      "name": "Clima Extremo",
+      "url": "https://oglobo.globo.com/blogs/clima-extremo/",
+      "feed_file": "clima_extremo_feed.xml",
+      "history_file": "clima_extremo_history.json",
+      "scraper": "ValorOGloboScraper",
+      "group": "oglobo"
+    },
+    {
       "name": "Paul Graham",
       "url": "https://paulgraham.com/articles.html",
       "feed_file": "paulgraham_feed.xml",
