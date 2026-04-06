@@ -313,6 +313,31 @@ class ValorOGloboScraper(BaseScraper):
             return self._parse_feed_item(article)
         return None
 
+    def _fetch_article_content(self, url):
+        """Fetch full article content from individual article page.
+
+        Returns HTML string with article body paragraphs, or None on failure.
+        Filters out inline recommendation blocks (data-block-type="raw").
+        """
+        try:
+            response = requests_retry_session().get(url, timeout=30)
+            response.raise_for_status()
+            soup = BeautifulSoup(response.content, 'html.parser')
+            body = soup.select_one('div.mc-article-body')
+            if not body:
+                return None
+            paragraphs = []
+            for div in body.select('div.content-text'):
+                if div.get('data-block-type') == 'raw':
+                    continue
+                p = div.select_one('p.content-text__container')
+                if p:
+                    paragraphs.append(str(p))
+            return '\n'.join(paragraphs) if paragraphs else None
+        except Exception as e:
+            print(f"   ⚠️  Erro ao buscar conteúdo de {url}: {str(e)}")
+            return None
+
     def get_articles(self, limit=10):
         try:
             response = requests_retry_session().get(self.url, timeout=30)
@@ -323,6 +348,9 @@ class ValorOGloboScraper(BaseScraper):
             for item in items[:limit]:
                 article = self._parse_feed_item(item)
                 if article:
+                    content = self._fetch_article_content(article['link'])
+                    if content:
+                        article['description'] = content
                     articles.append(article)
             return articles
         except Exception as e:
@@ -1281,6 +1309,188 @@ class WordPressApiScraper(BaseScraper):
         pass  # Logic is handled in get_latest_article
 
 
+class NatureRdfScraper(BaseScraper):
+    """Scraper for Nature journals that use RDF/RSS 1.0 feeds.
+
+    Parses the RDF feed for article links, then fetches each article page
+    to extract the abstract from #Abs1-content.
+    """
+
+    RDF_NS = 'http://purl.org/rss/1.0/'
+    DC_NS = 'http://purl.org/dc/elements/1.1/'
+
+    def get_articles(self, limit=10):
+        try:
+            response = requests_retry_session().get(self.url, timeout=30)
+            response.raise_for_status()
+            root = ET.fromstring(response.content)
+            items = root.findall(f'{{{self.RDF_NS}}}item')
+            articles = []
+            for item in items[:limit]:
+                article = self._parse_rdf_item(item)
+                if article:
+                    articles.append(article)
+            return articles
+        except Exception as e:
+            print(f"Erro ao processar feed Nature {self.url}: {str(e)}")
+            return []
+
+    def _parse_rdf_item(self, item):
+        title_el = item.find(f'{{{self.RDF_NS}}}title')
+        link_el = item.find(f'{{{self.RDF_NS}}}link')
+        date_el = item.find(f'{{{self.DC_NS}}}date')
+        creator_el = item.find(f'{{{self.DC_NS}}}creator')
+
+        if title_el is None or link_el is None:
+            return None
+
+        title = title_el.text or ''
+        link = link_el.text or ''
+        author = creator_el.text if creator_el is not None else ''
+        pubdate = self._parse_date(date_el.text if date_el is not None else '')
+
+        abstract = self._fetch_abstract(link)
+
+        return {
+            'title': title,
+            'link': link,
+            'pubdate': pubdate,
+            'author': author,
+            'description': abstract or title,
+        }
+
+    def _fetch_abstract(self, url):
+        """Fetch the article page and extract the abstract."""
+        try:
+            response = requests_retry_session().get(url, timeout=30, headers={
+                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
+            })
+            response.raise_for_status()
+            soup = BeautifulSoup(response.content, 'html.parser')
+            abstract = soup.select_one('#Abs1-content')
+            if abstract:
+                return str(abstract)
+            return None
+        except Exception as e:
+            print(f"   ⚠️  Erro ao buscar abstract de {url}: {str(e)}")
+            return None
+
+    def _parse_date(self, date_str):
+        if not date_str:
+            return datetime.datetime.now(pytz.UTC)
+        try:
+            dt = datetime.datetime.fromisoformat(date_str)
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=pytz.UTC)
+            return dt
+        except (ValueError, TypeError):
+            return datetime.datetime.now(pytz.UTC)
+
+    def _extract_article_data(self, soup):
+        pass  # Logic is handled in get_articles
+
+
+class YouTubeTranscriptScraper(BaseScraper):
+    """Scraper for YouTube channels that fetches video transcripts.
+
+    Expects the channel's Atom feed URL as input:
+      https://www.youtube.com/feeds/videos.xml?channel_id=CHANNEL_ID
+
+    For each video, fetches the auto-generated or manual transcript
+    via youtube-transcript-api. Shorts are skipped.
+    """
+
+    ATOM_NS = 'http://www.w3.org/2005/Atom'
+    YT_NS = 'http://www.youtube.com/xml/schemas/2015'
+    MEDIA_NS = 'http://search.yahoo.com/mrss/'
+
+    def get_articles(self, limit=10):
+        try:
+            response = requests_retry_session().get(self.url, timeout=30)
+            response.raise_for_status()
+            root = ET.fromstring(response.content)
+            entries = root.findall(f'{{{self.ATOM_NS}}}entry')
+
+            articles = []
+            for entry in entries:
+                if len(articles) >= limit:
+                    break
+                video_id = entry.find(f'{{{self.YT_NS}}}videoId').text
+                if self._is_short(video_id):
+                    continue
+                article = self._parse_entry(entry, video_id)
+                if article:
+                    articles.append(article)
+            return articles
+        except Exception as e:
+            print(f"Erro ao processar feed YouTube {self.url}: {str(e)}")
+            return []
+
+    def _is_short(self, video_id):
+        """Check if a video is a YouTube Short."""
+        try:
+            resp = requests_retry_session().get(
+                f'https://www.youtube.com/shorts/{video_id}',
+                timeout=15,
+                headers={'User-Agent': 'Mozilla/5.0'},
+                allow_redirects=False,
+            )
+            # Shorts return 200; regular videos redirect (303)
+            return resp.status_code == 200
+        except Exception:
+            return False
+
+    def _parse_entry(self, entry, video_id):
+        title = entry.find(f'{{{self.ATOM_NS}}}title').text or ''
+        published = entry.find(f'{{{self.ATOM_NS}}}published').text or ''
+        media_group = entry.find(f'{{{self.MEDIA_NS}}}group')
+        description = ''
+        if media_group is not None:
+            desc_el = media_group.find(f'{{{self.MEDIA_NS}}}description')
+            if desc_el is not None and desc_el.text:
+                description = desc_el.text
+
+        link = f'https://www.youtube.com/watch?v={video_id}'
+        pubdate = self._parse_date(published)
+
+        transcript = self._fetch_transcript(video_id)
+
+        return {
+            'title': title,
+            'link': link,
+            'pubdate': pubdate,
+            'author': '',
+            'description': transcript or description,
+        }
+
+    def _fetch_transcript(self, video_id):
+        """Fetch transcript for a video, preferring Portuguese."""
+        from youtube_transcript_api import YouTubeTranscriptApi
+
+        try:
+            ytt = YouTubeTranscriptApi()
+            transcript = ytt.fetch(video_id, languages=['pt', 'pt-BR', 'en'])
+            text = ' '.join(snippet.text for snippet in transcript)
+            return text if text else None
+        except Exception as e:
+            print(f"   ⚠️  Sem transcrição para {video_id}: {str(e)}")
+            return None
+
+    def _parse_date(self, date_str):
+        if not date_str:
+            return datetime.datetime.now(pytz.UTC)
+        try:
+            dt = datetime.datetime.fromisoformat(date_str)
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=pytz.UTC)
+            return dt
+        except (ValueError, TypeError):
+            return datetime.datetime.now(pytz.UTC)
+
+    def _extract_article_data(self, soup):
+        pass  # Logic is handled in get_articles
+
+
 def get_scraper_class(scraper_name):
     """Get the scraper class by name."""
     scrapers = {
@@ -1298,5 +1508,7 @@ def get_scraper_class(scraper_name):
         'BBCTopicScraper': BBCTopicScraper,
         'WordPressApiScraper': WordPressApiScraper,
         'GoogleAlertsScraper': GoogleAlertsScraper,
+        'NatureRdfScraper': NatureRdfScraper,
+        'YouTubeTranscriptScraper': YouTubeTranscriptScraper,
     }
     return scrapers.get(scraper_name)

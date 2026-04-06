@@ -1,5 +1,4 @@
 import time
-from collections import defaultdict
 from src.scrapers import get_scraper_class
 from src.utils import (
     ensure_directories,
@@ -7,7 +6,6 @@ from src.utils import (
     load_history,
     save_history,
     generate_feed,
-    generate_grouped_feed,
     save_feed,
     generate_opml,
     save_opml,
@@ -21,9 +19,6 @@ def main():
 
     # Carrega a configuração dos sources
     sources = load_sources_config()
-
-    # Dictionary to group ALL articles by group (vehicle)
-    grouped_articles = defaultdict(list)
 
     # Statistics
     new_articles_count = 0
@@ -50,7 +45,6 @@ def main():
             continue
 
         scraper = scraper_class(source['url'])
-        group = source.get('group', '')  # Empty string if no group
 
         max_retries = 3
         for attempt in range(max_retries):
@@ -81,13 +75,6 @@ def main():
                     except Exception as e:
                         print(f"   ⚠️  Erro ao gerar feed individual de {source['name']}: {str(e)}")
 
-                    # Add to grouped articles ONLY if group is specified and not empty
-                    if group and group.strip():
-                        for article in articles:
-                            grouped_articles[group].append({
-                                'author_name': source['name'],
-                                'article': article
-                            })
                 else:
                     print(f"⚠️  Não foi possível obter artigo: {source['name']}")
                     error_count += 1
@@ -102,25 +89,6 @@ def main():
                     print(f"   Falha após {max_retries} tentativas.")
                     error_count += 1
 
-    # Generate grouped feeds
-    print("\n" + "=" * 70)
-    print("Gerando feeds agrupados por veículo...")
-    print("=" * 70)
-
-    grouped_feeds_generated = 0
-    if not grouped_articles:
-        print("ℹ️  Nenhum grupo configurado ou nenhum artigo coletado para agrupamento.")
-    else:
-        for group, articles in grouped_articles.items():
-            try:
-                feed = generate_grouped_feed(group, articles)
-                feed_filename = f"{group}_feed.xml"
-                save_feed(feed, feed_filename)
-                print(f"✅ Feed do {group.title()} gerado com {len(articles)} artigo(s)")
-                grouped_feeds_generated += 1
-            except Exception as e:
-                print(f"❌ Erro ao gerar feed do {group}: {str(e)}")
-
     # Print summary
     print("\n" + "=" * 70)
     print("RESUMO DA EXECUÇÃO")
@@ -130,7 +98,6 @@ def main():
     print(f"❌ Erros: {error_count}")
     print(f"📊 Total processado: {new_articles_count + no_change_count + error_count}")
     print(f"\n📄 Feeds individuais gerados: {individual_feeds_generated}")
-    print(f"📚 Feeds agrupados gerados: {grouped_feeds_generated}")
 
     # Gera o arquivo OPML atualizado
     print("\n" + "=" * 70)

@@ -1,33 +1,34 @@
 # 📰 RSS de Colunistas
 
-Agregador automatizado de feeds RSS de colunistas brasileiros, com atualizações a cada 6 horas via GitHub Actions.
+Agregador automatizado de feeds RSS de colunistas brasileiros e fontes de risco climático, com atualizações a cada 6 horas via GitHub Actions.
 
 [![Update Feeds](https://github.com/paulofeh/rss-de-valor/actions/workflows/workflow.yml/badge.svg)](https://github.com/paulofeh/rss-de-valor/actions/workflows/workflow.yml)
 
 ## 🎯 O que é este projeto?
 
-Este projeto transforma artigos de colunistas brasileiros em feeds RSS padronizados, permitindo que você acompanhe seus colunistas favoritos através de qualquer leitor RSS (Feedly, Inoreader, NetNewsWire, etc.).
+Este projeto transforma artigos de colunistas brasileiros e fontes sobre risco climático em feeds RSS padronizados, permitindo que você acompanhe seus colunistas e temas favoritos através de qualquer leitor RSS (Feedly, Inoreader, NetNewsWire, etc.).
 
 **✨ Acesse a página de feeds:** [https://paulofeh.github.io/rss-de-valor/feeds/](https://paulofeh.github.io/rss-de-valor/feeds/)
 
 ## 📊 Status Atual
 
-- **73 fontes** monitoradas (colunistas, seções e portais)
+- **80 fontes** monitoradas (colunistas, seções, portais e canais do YouTube)
 - **22 feeds RSS nativos** (link direto ao feed original)
-- **51 feeds gerados** via scraping/APIs
+- **58 feeds gerados** via scraping/APIs
 - **Atualização automática** a cada 6 horas
 - **100% gratuito** via GitHub Actions
 
 ## 🗂️ Fontes Cobertas
 
-| Veículo | Fontes |
-|---------|--------|
+| Grupo | Fontes |
+|-------|--------|
 | **Folha de S.Paulo** | 25 colunistas |
-| **Estadão** | 17 (colunistas + seção Sustentabilidade) |
-| **O Globo** | 11 (colunistas + Clima Extremo) |
-| **Valor Econômico** | 6 (colunistas + ESG) |
+| **Risco Climático** | 18 (BBC, Bloomberg Green, FT, Nature, Google Alerts, YouTube e mais) |
+| **Estadão** | 16 colunistas |
+| **O Globo** | 10 colunistas |
 | **LinkedIn Newsletters** | 5 |
-| **Outros** | 9 (BBC, Bloomberg Green, FT Climate Capital, FAPESP, CNN Agro, Sustainable Views, Nottus, Paul Graham, Poder360) |
+| **Valor Econômico** | 4 colunistas |
+| **Outros** | 2 (Paul Graham, Poder360) |
 
 [Ver lista completa na página de feeds →](https://paulofeh.github.io/rss-de-valor/feeds/)
 
@@ -59,7 +60,9 @@ https://paulofeh.github.io/rss-de-valor/feeds/oglobo_feed.xml
 ## ✨ Funcionalidades
 
 ### Feeds com Conteúdo Completo
-- Quando possível, o scraper extrai o conteúdo completo dos artigos (Estadão, BBC, Bloomberg Línea, WordPress)
+- Quando possível, o scraper extrai o conteúdo completo dos artigos (Estadão, BBC, Bloomberg Línea, Valor/O Globo, WordPress)
+- Transcrições automáticas de vídeos do YouTube via legendas
+- Abstracts de periódicos acadêmicos (Nature)
 - Feeds gerados com múltiplos artigos por fonte (não apenas o mais recente)
 
 ### Feeds RSS Nativos
@@ -82,6 +85,8 @@ https://paulofeh.github.io/rss-de-valor/feeds/oglobo_feed.xml
 - **Python 3** - Linguagem principal
 - **BeautifulSoup4** - Scraping de HTML
 - **feedgenerator** - Geração de feeds RSS
+- **trafilatura** - Extração de conteúdo de artigos (Google Alerts)
+- **youtube-transcript-api** - Transcrições de vídeos do YouTube
 - **WordPress REST API** - Extração de conteúdo de sites WordPress
 - **Arc/Fusion CMS** - APIs internas do Estadão e Bloomberg Línea
 - **GitHub Actions** - Automação (executa a cada 6 horas)
@@ -96,9 +101,8 @@ rss-de-valor/
 ├── feeds/
 │   ├── index.html               # Página web dos feeds
 │   ├── feeds.opml               # Arquivo OPML para importação
-│   ├── estadao_feed.xml         # Feed agrupado do Estadão
-│   ├── folha_feed.xml           # Feed agrupado da Folha
-│   └── ...                      # Outros feeds
+│   ├── *_feed.xml               # Feeds individuais por fonte
+│   └── ...                      
 ├── history/
 │   └── *.json                   # Histórico de artigos processados
 ├── src/
@@ -153,7 +157,7 @@ O sistema é executado automaticamente via GitHub Actions:
 
 - **Frequência:** A cada 6 horas (00:00, 06:00, 12:00, 18:00 UTC)
 - **Processo:**
-  1. Coleta artigos de cada fonte que precisa de scraping (51 fontes)
+  1. Coleta artigos de cada fonte que precisa de scraping (58 fontes)
   2. Fontes com RSS nativo (22) são ignoradas no scraping — linkam direto ao original
   3. Compara com histórico para detectar novos artigos
   4. Gera feeds individuais com múltiplos artigos
@@ -183,10 +187,13 @@ Os feeds gerados contêm múltiplos artigos por fonte (quando suportado pelo scr
 | `FolhaScraper` | Scraping de páginas da Folha | Folha (4 colunistas) |
 | `EstadaoColumnistScraper` | Scraping de colunistas do Estadão | Estadão (16 colunistas) |
 | `EstadaoSectionScraper` | Seções do Estadão via Fusion/Arc CMS | Estadão Sustentabilidade |
-| `ValorOGloboScraper` | Scraping de Valor e O Globo | Valor, O Globo (17 fontes) |
+| `ValorOGloboScraper` | Scraping de Valor e O Globo (com conteúdo completo) | Valor, O Globo (17 fontes) |
 | `BloombergLineaScraper` | API Arc/Fusion da Bloomberg Línea | Bloomberg Green |
 | `BBCTopicScraper` | Páginas de tópico da BBC (conteúdo completo) | BBC Mudanças Climáticas |
-| `WordPressApiScraper` | WP REST API com filtro por tag/categoria | CNN Agro, FAPESP, Nottus |
+| `WordPressApiScraper` | WP REST API com filtro por tag/categoria | CNN Agro, FAPESP, Nottus, O Eco, Yale Climate |
+| `GoogleAlertsScraper` | Google Alerts RSS com conteúdo via trafilatura | Risco Climático, Climate Risk |
+| `NatureRdfScraper` | Feeds RDF/RSS 1.0 da Nature com abstracts | npj Climate Action, npj Urban Sustainability |
+| `YouTubeTranscriptScraper` | Transcrições de canais do YouTube (filtra Shorts) | Arroz, Feijão & Clima |
 | `SustainableViewsScraper` | Categorias do Sustainable Views (FT) | Sustainable Views Risk |
 | `LinkedInNewsletterScraper` | Scraping de newsletters do LinkedIn | LinkedIn (5 fontes) |
 | `PaulGrahamScraper` | Essays do paulgraham.com (conteúdo completo) | Paul Graham |
