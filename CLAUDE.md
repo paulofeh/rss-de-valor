@@ -46,3 +46,5 @@ The pipeline flows: `main.py` → scrapers → feed/OPML/HTML generation → `fe
 - `requests_retry_session()` is used for all HTTP requests (3 retries, 30s timeout).
 - GitHub Actions workflow commits `feeds/` and `history/` changes automatically with `[skip ci]` in the message.
 - The `.venv` directory is not in `.gitignore` but should not be committed (it's local only).
+- `YouTubeTranscriptScraper` transcripts are blocked by YouTube on cloud provider IPs (GitHub Actions); falls back to video description in CI — works locally.
+- `ValorOGloboScraper` fetches full article content from individual pages; free articles get complete text, paywalled ones get the first paragraph.

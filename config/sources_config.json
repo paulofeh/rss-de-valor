@@ -97,11 +97,27 @@
       "group": "clima"
     },
     {
+      "name": "DW Climate",
+      "url": "https://www.dw.com/en/climate/s-59752983",
+      "feed_file": "dw_climate_feed.xml",
+      "history_file": "dw_climate_history.json",
+      "scraper": "DWTopicScraper",
+      "group": "clima"
+    },
+    {
       "name": "Arroz, Feijão & Clima",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC6fP4AN5W838NuPeMCT7DcA",
       "feed_file": "arroz_feijao_clima_feed.xml",
       "history_file": "arroz_feijao_clima_history.json",
       "scraper": "YouTubeTranscriptScraper",
+      "group": "clima"
+    },
+    {
+      "name": "Repórter Brasil Socioambiental",
+      "url": "https://reporterbrasil.org.br/jornalismo/socioambiental/",
+      "feed_file": "reporter_brasil_socioambiental_feed.xml",
+      "history_file": "reporter_brasil_socioambiental_history.json",
+      "scraper": "WordPressApiScraper",
       "group": "clima"
     },
     {

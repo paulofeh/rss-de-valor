@@ -12,9 +12,9 @@ Este projeto transforma artigos de colunistas brasileiros e fontes sobre risco c
 
 ## 📊 Status Atual
 
-- **80 fontes** monitoradas (colunistas, seções, portais e canais do YouTube)
+- **82 fontes** monitoradas (colunistas, seções, portais e canais do YouTube)
 - **22 feeds RSS nativos** (link direto ao feed original)
-- **58 feeds gerados** via scraping/APIs
+- **60 feeds gerados** via scraping/APIs
 - **Atualização automática** a cada 6 horas
 - **100% gratuito** via GitHub Actions
 
@@ -23,7 +23,7 @@ Este projeto transforma artigos de colunistas brasileiros e fontes sobre risco c
 | Grupo | Fontes |
 |-------|--------|
 | **Folha de S.Paulo** | 25 colunistas |
-| **Risco Climático** | 18 (BBC, Bloomberg Green, FT, Nature, Google Alerts, YouTube e mais) |
+| **Risco Climático** | 20 (BBC, Bloomberg Green, DW, FT, Nature, Google Alerts, YouTube e mais) |
 | **Estadão** | 16 colunistas |
 | **O Globo** | 10 colunistas |
 | **LinkedIn Newsletters** | 5 |
@@ -157,7 +157,7 @@ O sistema é executado automaticamente via GitHub Actions:
 
 - **Frequência:** A cada 6 horas (00:00, 06:00, 12:00, 18:00 UTC)
 - **Processo:**
-  1. Coleta artigos de cada fonte que precisa de scraping (58 fontes)
+  1. Coleta artigos de cada fonte que precisa de scraping (60 fontes)
   2. Fontes com RSS nativo (22) são ignoradas no scraping — linkam direto ao original
   3. Compara com histórico para detectar novos artigos
   4. Gera feeds individuais com múltiplos artigos
@@ -190,9 +190,10 @@ Os feeds gerados contêm múltiplos artigos por fonte (quando suportado pelo scr
 | `ValorOGloboScraper` | Scraping de Valor e O Globo (com conteúdo completo) | Valor, O Globo (17 fontes) |
 | `BloombergLineaScraper` | API Arc/Fusion da Bloomberg Línea | Bloomberg Green |
 | `BBCTopicScraper` | Páginas de tópico da BBC (conteúdo completo) | BBC Mudanças Climáticas |
-| `WordPressApiScraper` | WP REST API com filtro por tag/categoria | CNN Agro, FAPESP, Nottus, O Eco, Yale Climate |
+| `WordPressApiScraper` | WP REST API com filtro por tag/categoria/taxonomia | CNN Agro, FAPESP, Nottus, O Eco, Yale Climate, Repórter Brasil |
 | `GoogleAlertsScraper` | Google Alerts RSS com conteúdo via trafilatura | Risco Climático, Climate Risk |
 | `NatureRdfScraper` | Feeds RDF/RSS 1.0 da Nature com abstracts | npj Climate Action, npj Urban Sustainability |
+| `DWTopicScraper` | Tópicos da Deutsche Welle via GraphQL (conteúdo completo) | DW Climate |
 | `YouTubeTranscriptScraper` | Transcrições de canais do YouTube (filtra Shorts) | Arroz, Feijão & Clima |
 | `SustainableViewsScraper` | Categorias do Sustainable Views (FT) | Sustainable Views Risk |
 | `LinkedInNewsletterScraper` | Scraping de newsletters do LinkedIn | LinkedIn (5 fontes) |

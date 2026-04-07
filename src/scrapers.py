@@ -1226,7 +1226,11 @@ class WordPressApiScraper(BaseScraper):
     """
 
     def _resolve_filter(self, parsed):
-        """Resolve the URL path into a WP API filter (tags=<id> or categories=<id>)."""
+        """Resolve the URL path into a WP API filter (tags=<id>, categories=<id>, or custom taxonomy).
+
+        Tries tags and categories first, then discovers custom taxonomies
+        via /wp-json/wp/v2/taxonomies and searches each for a matching slug.
+        """
         slug = parsed.path.strip('/').split('/')[-1] if parsed.path.strip('/') else ''
         if not slug or slug in ('noticias', 'blog', 'posts', 'news'):
             return ''
@@ -1243,6 +1247,27 @@ class WordPressApiScraper(BaseScraper):
                         return f"&{endpoint}={items[0]['id']}"
             except Exception:
                 pass
+
+        # Try custom taxonomies
+        try:
+            r = requests_retry_session().get(f"{base}/taxonomies", timeout=15)
+            if r.status_code == 200:
+                taxonomies = r.json()
+                for tax_key, tax_info in taxonomies.items():
+                    if tax_key in ('category', 'post_tag', 'nav_menu'):
+                        continue
+                    rest_base = tax_info.get('rest_base', tax_key)
+                    try:
+                        r2 = requests_retry_session().get(
+                            f"{base}/{rest_base}?slug={slug}", timeout=15)
+                        if r2.status_code == 200:
+                            items = r2.json()
+                            if items:
+                                return f"&{rest_base}={items[0]['id']}"
+                    except Exception:
+                        pass
+        except Exception:
+            pass
         return ''
 
     def _parse_post(self, post):
@@ -1390,6 +1415,102 @@ class NatureRdfScraper(BaseScraper):
         pass  # Logic is handled in get_articles
 
 
+class DWTopicScraper(BaseScraper):
+    """Scraper for DW (Deutsche Welle) topic pages via their GraphQL API.
+
+    Expects a topic/navigation URL like:
+      https://www.dw.com/en/climate/s-59752983
+    Extracts the section ID from the URL and queries the GraphQL API
+    for articles with full text.
+    """
+
+    GRAPHQL_URL = 'https://www.dw.com/graphql'
+
+    def _extract_section_id(self):
+        """Extract the numeric section ID from a DW URL like /en/climate/s-59752983."""
+        import re
+        match = re.search(r's-(\d+)', self.url)
+        return int(match.group(1)) if match else None
+
+    def get_articles(self, limit=10):
+        try:
+            section_id = self._extract_section_id()
+            if not section_id:
+                print(f"Erro: não foi possível extrair section ID de {self.url}")
+                return []
+
+            query = '''
+            {
+              content(id: %d) {
+                ... on Navigation {
+                  name
+                  contentComposition {
+                    informationSpaces {
+                      compositionComponents {
+                        contents {
+                          ... on Article {
+                            name
+                            teaser
+                            text
+                            canonicalUrl
+                            contentDate
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            ''' % section_id
+
+            response = requests_retry_session().post(
+                self.GRAPHQL_URL,
+                json={'query': query},
+                timeout=30,
+                headers={'Content-Type': 'application/json', 'User-Agent': 'Mozilla/5.0'},
+            )
+            response.raise_for_status()
+            data = response.json()
+
+            nav = data.get('data', {}).get('content', {})
+            comp = nav.get('contentComposition', {})
+            spaces = comp.get('informationSpaces', [])
+
+            articles = []
+            for space in spaces:
+                for cc in space.get('compositionComponents', []):
+                    for content in cc.get('contents', []):
+                        if content and content.get('name') and content.get('canonicalUrl'):
+                            articles.append({
+                                'title': content['name'],
+                                'link': content['canonicalUrl'],
+                                'pubdate': self._parse_date(content.get('contentDate', '')),
+                                'author': 'DW',
+                                'description': content.get('text', '') or content.get('teaser', ''),
+                            })
+                            if len(articles) >= limit:
+                                return articles
+            return articles
+        except Exception as e:
+            print(f"Erro ao processar DW {self.url}: {str(e)}")
+            return []
+
+    def _parse_date(self, date_str):
+        if not date_str:
+            return datetime.datetime.now(pytz.UTC)
+        try:
+            dt = datetime.datetime.fromisoformat(date_str)
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=pytz.UTC)
+            return dt
+        except (ValueError, TypeError):
+            return datetime.datetime.now(pytz.UTC)
+
+    def _extract_article_data(self, soup):
+        pass  # Logic is handled in get_articles
+
+
 class YouTubeTranscriptScraper(BaseScraper):
     """Scraper for YouTube channels that fetches video transcripts.
 
@@ -1509,6 +1630,7 @@ def get_scraper_class(scraper_name):
         'WordPressApiScraper': WordPressApiScraper,
         'GoogleAlertsScraper': GoogleAlertsScraper,
         'NatureRdfScraper': NatureRdfScraper,
+        'DWTopicScraper': DWTopicScraper,
         'YouTubeTranscriptScraper': YouTubeTranscriptScraper,
     }
     return scrapers.get(scraper_name)
