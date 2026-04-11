@@ -21,13 +21,13 @@
 
 
 		&lt;div data-elementor-type="section" data-elementor-id="77670" class="elementor elementor-77670" data-elementor-post-type="elementor_library"&gt;
-			&lt;div class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}"&gt;
+			&lt;div class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-e-type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}"&gt;
 					&lt;div class="e-con-inner"&gt;
-				&lt;div class="elementor-element elementor-element-386385d elementor-widget elementor-widget-heading" data-id="386385d" data-element_type="widget" data-widget_type="heading.default"&gt;
+				&lt;div class="elementor-element elementor-element-386385d elementor-widget elementor-widget-heading" data-id="386385d" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 					&lt;h2 class="elementor-heading-title elementor-size-default"&gt;ASSINE NOSSA NEWSLETTER&lt;/h2&gt;				&lt;/div&gt;
 				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-6546917 elementor-widget elementor-widget-html" data-id="6546917" data-element_type="widget" data-widget_type="html.default"&gt;
+				&lt;div class="elementor-element elementor-element-6546917 elementor-widget elementor-widget-html" data-id="6546917" data-element_type="widget" data-e-type="widget" data-widget_type="html.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 					&lt;script&gt;
 document.addEventListener("DOMContentLoaded", function() {
@@ -37,14 +37,14 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 &lt;/script&gt;				&lt;/div&gt;
 				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-8c2e333 form-news elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="8c2e333" data-element_type="widget" data-settings="{&amp;quot;button_width&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_next_label&amp;quot;:&amp;quot;Next&amp;quot;,&amp;quot;step_previous_label&amp;quot;:&amp;quot;Previous&amp;quot;,&amp;quot;button_width_mobile&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_type&amp;quot;:&amp;quot;number_text&amp;quot;,&amp;quot;step_icon_shape&amp;quot;:&amp;quot;circle&amp;quot;}" data-widget_type="form.default"&gt;
+				&lt;div class="elementor-element elementor-element-8c2e333 form-news elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="8c2e333" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;button_width&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_next_label&amp;quot;:&amp;quot;Next&amp;quot;,&amp;quot;step_previous_label&amp;quot;:&amp;quot;Previous&amp;quot;,&amp;quot;button_width_mobile&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_type&amp;quot;:&amp;quot;number_text&amp;quot;,&amp;quot;step_icon_shape&amp;quot;:&amp;quot;circle&amp;quot;}" data-widget_type="form.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Amado Batista e BYD entram na Lista Suja do Trabalho Escravo" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Cortina verde e mais: as soluções contra calor extremo nas escolas" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="128995"/&gt;
+							&lt;input type="hidden" name="queried_id" value="95515"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -153,12 +153,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 		&lt;div data-elementor-type="container" data-elementor-id="75228" class="elementor elementor-75228" data-elementor-post-type="elementor_library"&gt;
-				&lt;div class="elementor-element elementor-element-5e8db1e6 e-flex e-con-boxed e-con e-parent" data-id="5e8db1e6" data-element_type="container"&gt;
+				&lt;div class="elementor-element elementor-element-5e8db1e6 e-flex e-con-boxed e-con e-parent" data-id="5e8db1e6" data-element_type="container" data-e-type="container"&gt;
 					&lt;div class="e-con-inner"&gt;
-		&lt;div class="elementor-element elementor-element-36eb6c91 e-flex e-con-boxed e-con e-child" data-id="36eb6c91" data-element_type="container"&gt;
+		&lt;div class="elementor-element elementor-element-36eb6c91 e-flex e-con-boxed e-con e-child" data-id="36eb6c91" data-element_type="container" data-e-type="container"&gt;
 					&lt;div class="e-con-inner"&gt;
-		&lt;div class="elementor-element elementor-element-6f52f515 e-con-full e-flex e-con e-child" data-id="6f52f515" data-element_type="container"&gt;
-				&lt;div class="elementor-element elementor-element-65d9f401 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="65d9f401" data-element_type="widget" data-widget_type="divider.default"&gt;
+		&lt;div class="elementor-element elementor-element-6f52f515 e-con-full e-flex e-con e-child" data-id="6f52f515" data-element_type="container" data-e-type="container"&gt;
+				&lt;div class="elementor-element elementor-element-65d9f401 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="65d9f401" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 							&lt;div class="elementor-divider"&gt;
 			&lt;span class="elementor-divider-separator"&gt;
@@ -167,9 +167,9 @@ document.addEventListener("DOMContentLoaded", function() {
 						&lt;/div&gt;
 				&lt;/div&gt;
 				&lt;/div&gt;
-		&lt;div class="elementor-element elementor-element-134a1245 e-flex e-con-boxed e-con e-child" data-id="134a1245" data-element_type="container"&gt;
+		&lt;div class="elementor-element elementor-element-134a1245 e-flex e-con-boxed e-con e-child" data-id="134a1245" data-element_type="container" data-e-type="container"&gt;
 					&lt;div class="e-con-inner"&gt;
-				&lt;div class="elementor-element elementor-element-10fe55fe elementor-widget elementor-widget-text-editor" data-id="10fe55fe" data-element_type="widget" data-widget_type="text-editor.default"&gt;
+				&lt;div class="elementor-element elementor-element-10fe55fe elementor-widget elementor-widget-text-editor" data-id="10fe55fe" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 									&lt;p&gt;Leia também&lt;/p&gt;								&lt;/div&gt;
 				&lt;/div&gt;
@@ -177,7 +177,7 @@ document.addEventListener("DOMContentLoaded", function() {
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-3c9495ae elementor-grid-1 leia-tambem elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid" data-id="3c9495ae" data-element_type="widget" data-settings="{&amp;quot;template_id&amp;quot;:&amp;quot;75221&amp;quot;,&amp;quot;columns&amp;quot;:1,&amp;quot;row_gap&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:10,&amp;quot;sizes&amp;quot;:[]},&amp;quot;_skin&amp;quot;:&amp;quot;post&amp;quot;,&amp;quot;columns_tablet&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;columns_mobile&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;edit_handle_selector&amp;quot;:&amp;quot;[data-elementor-type=\&amp;quot;loop-item\&amp;quot;]&amp;quot;,&amp;quot;row_gap_tablet&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]},&amp;quot;row_gap_mobile&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]}}" data-widget_type="loop-grid.post"&gt;
+				&lt;div class="elementor-element elementor-element-3c9495ae elementor-grid-1 leia-tambem elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid" data-id="3c9495ae" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;template_id&amp;quot;:&amp;quot;75221&amp;quot;,&amp;quot;columns&amp;quot;:1,&amp;quot;row_gap&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:10,&amp;quot;sizes&amp;quot;:[]},&amp;quot;_skin&amp;quot;:&amp;quot;post&amp;quot;,&amp;quot;columns_tablet&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;columns_mobile&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;edit_handle_selector&amp;quot;:&amp;quot;[data-elementor-type=\&amp;quot;loop-item\&amp;quot;]&amp;quot;,&amp;quot;row_gap_tablet&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]},&amp;quot;row_gap_mobile&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]}}" data-widget_type="loop-grid.post"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 							&lt;div class="e-loop-nothing-found-message"&gt;
 		&lt;/div&gt;
@@ -201,13 +201,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 		&lt;div data-elementor-type="section" data-elementor-id="77670" class="elementor elementor-77670" data-elementor-post-type="elementor_library"&gt;
-			&lt;div class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}"&gt;
+			&lt;div class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-e-type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}"&gt;
 					&lt;div class="e-con-inner"&gt;
-				&lt;div class="elementor-element elementor-element-386385d elementor-widget elementor-widget-heading" data-id="386385d" data-element_type="widget" data-widget_type="heading.default"&gt;
+				&lt;div class="elementor-element elementor-element-386385d elementor-widget elementor-widget-heading" data-id="386385d" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 					&lt;h2 class="elementor-heading-title elementor-size-default"&gt;ASSINE NOSSA NEWSLETTER&lt;/h2&gt;				&lt;/div&gt;
 				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-6546917 elementor-widget elementor-widget-html" data-id="6546917" data-element_type="widget" data-widget_type="html.default"&gt;
+				&lt;div class="elementor-element elementor-element-6546917 elementor-widget elementor-widget-html" data-id="6546917" data-element_type="widget" data-e-type="widget" data-widget_type="html.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 					&lt;script&gt;
 document.addEventListener("DOMContentLoaded", function() {
@@ -217,14 +217,14 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 &lt;/script&gt;				&lt;/div&gt;
 				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-8c2e333 form-news elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="8c2e333" data-element_type="widget" data-settings="{&amp;quot;button_width&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_next_label&amp;quot;:&amp;quot;Next&amp;quot;,&amp;quot;step_previous_label&amp;quot;:&amp;quot;Previous&amp;quot;,&amp;quot;button_width_mobile&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_type&amp;quot;:&amp;quot;number_text&amp;quot;,&amp;quot;step_icon_shape&amp;quot;:&amp;quot;circle&amp;quot;}" data-widget_type="form.default"&gt;
+				&lt;div class="elementor-element elementor-element-8c2e333 form-news elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="8c2e333" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;button_width&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_next_label&amp;quot;:&amp;quot;Next&amp;quot;,&amp;quot;step_previous_label&amp;quot;:&amp;quot;Previous&amp;quot;,&amp;quot;button_width_mobile&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_type&amp;quot;:&amp;quot;number_text&amp;quot;,&amp;quot;step_icon_shape&amp;quot;:&amp;quot;circle&amp;quot;}" data-widget_type="form.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Amado Batista e BYD entram na Lista Suja do Trabalho Escravo" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Cortina verde e mais: as soluções contra calor extremo nas escolas" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="128995"/&gt;
+							&lt;input type="hidden" name="queried_id" value="95515"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -321,12 +321,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 		&lt;div data-elementor-type="container" data-elementor-id="75228" class="elementor elementor-75228" data-elementor-post-type="elementor_library"&gt;
-				&lt;div class="elementor-element elementor-element-5e8db1e6 e-flex e-con-boxed e-con e-parent" data-id="5e8db1e6" data-element_type="container"&gt;
+				&lt;div class="elementor-element elementor-element-5e8db1e6 e-flex e-con-boxed e-con e-parent" data-id="5e8db1e6" data-element_type="container" data-e-type="container"&gt;
 					&lt;div class="e-con-inner"&gt;
-		&lt;div class="elementor-element elementor-element-36eb6c91 e-flex e-con-boxed e-con e-child" data-id="36eb6c91" data-element_type="container"&gt;
+		&lt;div class="elementor-element elementor-element-36eb6c91 e-flex e-con-boxed e-con e-child" data-id="36eb6c91" data-element_type="container" data-e-type="container"&gt;
 					&lt;div class="e-con-inner"&gt;
-		&lt;div class="elementor-element elementor-element-6f52f515 e-con-full e-flex e-con e-child" data-id="6f52f515" data-element_type="container"&gt;
-				&lt;div class="elementor-element elementor-element-65d9f401 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="65d9f401" data-element_type="widget" data-widget_type="divider.default"&gt;
+		&lt;div class="elementor-element elementor-element-6f52f515 e-con-full e-flex e-con e-child" data-id="6f52f515" data-element_type="container" data-e-type="container"&gt;
+				&lt;div class="elementor-element elementor-element-65d9f401 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="65d9f401" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 							&lt;div class="elementor-divider"&gt;
 			&lt;span class="elementor-divider-separator"&gt;
@@ -335,9 +335,9 @@ document.addEventListener("DOMContentLoaded", function() {
 						&lt;/div&gt;
 				&lt;/div&gt;
 				&lt;/div&gt;
-		&lt;div class="elementor-element elementor-element-134a1245 e-flex e-con-boxed e-con e-child" data-id="134a1245" data-element_type="container"&gt;
+		&lt;div class="elementor-element elementor-element-134a1245 e-flex e-con-boxed e-con e-child" data-id="134a1245" data-element_type="container" data-e-type="container"&gt;
 					&lt;div class="e-con-inner"&gt;
-				&lt;div class="elementor-element elementor-element-10fe55fe elementor-widget elementor-widget-text-editor" data-id="10fe55fe" data-element_type="widget" data-widget_type="text-editor.default"&gt;
+				&lt;div class="elementor-element elementor-element-10fe55fe elementor-widget elementor-widget-text-editor" data-id="10fe55fe" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 									&lt;p&gt;Leia também&lt;/p&gt;								&lt;/div&gt;
 				&lt;/div&gt;
@@ -345,7 +345,7 @@ document.addEventListener("DOMContentLoaded", function() {
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-3c9495ae elementor-grid-1 leia-tambem elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid" data-id="3c9495ae" data-element_type="widget" data-settings="{&amp;quot;template_id&amp;quot;:&amp;quot;75221&amp;quot;,&amp;quot;columns&amp;quot;:1,&amp;quot;row_gap&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:10,&amp;quot;sizes&amp;quot;:[]},&amp;quot;_skin&amp;quot;:&amp;quot;post&amp;quot;,&amp;quot;columns_tablet&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;columns_mobile&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;edit_handle_selector&amp;quot;:&amp;quot;[data-elementor-type=\&amp;quot;loop-item\&amp;quot;]&amp;quot;,&amp;quot;row_gap_tablet&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]},&amp;quot;row_gap_mobile&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]}}" data-widget_type="loop-grid.post"&gt;
+				&lt;div class="elementor-element elementor-element-3c9495ae elementor-grid-1 leia-tambem elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid" data-id="3c9495ae" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;template_id&amp;quot;:&amp;quot;75221&amp;quot;,&amp;quot;columns&amp;quot;:1,&amp;quot;row_gap&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:10,&amp;quot;sizes&amp;quot;:[]},&amp;quot;_skin&amp;quot;:&amp;quot;post&amp;quot;,&amp;quot;columns_tablet&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;columns_mobile&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;edit_handle_selector&amp;quot;:&amp;quot;[data-elementor-type=\&amp;quot;loop-item\&amp;quot;]&amp;quot;,&amp;quot;row_gap_tablet&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]},&amp;quot;row_gap_mobile&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]}}" data-widget_type="loop-grid.post"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 							&lt;div class="e-loop-nothing-found-message"&gt;
 		&lt;/div&gt;
@@ -368,13 +368,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 		&lt;div data-elementor-type="section" data-elementor-id="77670" class="elementor elementor-77670" data-elementor-post-type="elementor_library"&gt;
-			&lt;div class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}"&gt;
+			&lt;div class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-e-type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}"&gt;
 					&lt;div class="e-con-inner"&gt;
-				&lt;div class="elementor-element elementor-element-386385d elementor-widget elementor-widget-heading" data-id="386385d" data-element_type="widget" data-widget_type="heading.default"&gt;
+				&lt;div class="elementor-element elementor-element-386385d elementor-widget elementor-widget-heading" data-id="386385d" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 					&lt;h2 class="elementor-heading-title elementor-size-default"&gt;ASSINE NOSSA NEWSLETTER&lt;/h2&gt;				&lt;/div&gt;
 				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-6546917 elementor-widget elementor-widget-html" data-id="6546917" data-element_type="widget" data-widget_type="html.default"&gt;
+				&lt;div class="elementor-element elementor-element-6546917 elementor-widget elementor-widget-html" data-id="6546917" data-element_type="widget" data-e-type="widget" data-widget_type="html.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 					&lt;script&gt;
 document.addEventListener("DOMContentLoaded", function() {
@@ -384,14 +384,14 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 &lt;/script&gt;				&lt;/div&gt;
 				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-8c2e333 form-news elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="8c2e333" data-element_type="widget" data-settings="{&amp;quot;button_width&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_next_label&amp;quot;:&amp;quot;Next&amp;quot;,&amp;quot;step_previous_label&amp;quot;:&amp;quot;Previous&amp;quot;,&amp;quot;button_width_mobile&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_type&amp;quot;:&amp;quot;number_text&amp;quot;,&amp;quot;step_icon_shape&amp;quot;:&amp;quot;circle&amp;quot;}" data-widget_type="form.default"&gt;
+				&lt;div class="elementor-element elementor-element-8c2e333 form-news elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="8c2e333" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;button_width&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_next_label&amp;quot;:&amp;quot;Next&amp;quot;,&amp;quot;step_previous_label&amp;quot;:&amp;quot;Previous&amp;quot;,&amp;quot;button_width_mobile&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_type&amp;quot;:&amp;quot;number_text&amp;quot;,&amp;quot;step_icon_shape&amp;quot;:&amp;quot;circle&amp;quot;}" data-widget_type="form.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Amado Batista e BYD entram na Lista Suja do Trabalho Escravo" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Cortina verde e mais: as soluções contra calor extremo nas escolas" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="128995"/&gt;
+							&lt;input type="hidden" name="queried_id" value="95515"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -555,12 +555,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 		&lt;div data-elementor-type="container" data-elementor-id="75228" class="elementor elementor-75228" data-elementor-post-type="elementor_library"&gt;
-				&lt;div class="elementor-element elementor-element-5e8db1e6 e-flex e-con-boxed e-con e-parent" data-id="5e8db1e6" data-element_type="container"&gt;
+				&lt;div class="elementor-element elementor-element-5e8db1e6 e-flex e-con-boxed e-con e-parent" data-id="5e8db1e6" data-element_type="container" data-e-type="container"&gt;
 					&lt;div class="e-con-inner"&gt;
-		&lt;div class="elementor-element elementor-element-36eb6c91 e-flex e-con-boxed e-con e-child" data-id="36eb6c91" data-element_type="container"&gt;
+		&lt;div class="elementor-element elementor-element-36eb6c91 e-flex e-con-boxed e-con e-child" data-id="36eb6c91" data-element_type="container" data-e-type="container"&gt;
 					&lt;div class="e-con-inner"&gt;
-		&lt;div class="elementor-element elementor-element-6f52f515 e-con-full e-flex e-con e-child" data-id="6f52f515" data-element_type="container"&gt;
-				&lt;div class="elementor-element elementor-element-65d9f401 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="65d9f401" data-element_type="widget" data-widget_type="divider.default"&gt;
+		&lt;div class="elementor-element elementor-element-6f52f515 e-con-full e-flex e-con e-child" data-id="6f52f515" data-element_type="container" data-e-type="container"&gt;
+				&lt;div class="elementor-element elementor-element-65d9f401 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="65d9f401" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 							&lt;div class="elementor-divider"&gt;
 			&lt;span class="elementor-divider-separator"&gt;
@@ -569,9 +569,9 @@ document.addEventListener("DOMContentLoaded", function() {
 						&lt;/div&gt;
 				&lt;/div&gt;
 				&lt;/div&gt;
-		&lt;div class="elementor-element elementor-element-134a1245 e-flex e-con-boxed e-con e-child" data-id="134a1245" data-element_type="container"&gt;
+		&lt;div class="elementor-element elementor-element-134a1245 e-flex e-con-boxed e-con e-child" data-id="134a1245" data-element_type="container" data-e-type="container"&gt;
 					&lt;div class="e-con-inner"&gt;
-				&lt;div class="elementor-element elementor-element-10fe55fe elementor-widget elementor-widget-text-editor" data-id="10fe55fe" data-element_type="widget" data-widget_type="text-editor.default"&gt;
+				&lt;div class="elementor-element elementor-element-10fe55fe elementor-widget elementor-widget-text-editor" data-id="10fe55fe" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 									&lt;p&gt;Leia também&lt;/p&gt;								&lt;/div&gt;
 				&lt;/div&gt;
@@ -579,7 +579,7 @@ document.addEventListener("DOMContentLoaded", function() {
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-3c9495ae elementor-grid-1 leia-tambem elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid" data-id="3c9495ae" data-element_type="widget" data-settings="{&amp;quot;template_id&amp;quot;:&amp;quot;75221&amp;quot;,&amp;quot;columns&amp;quot;:1,&amp;quot;row_gap&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:10,&amp;quot;sizes&amp;quot;:[]},&amp;quot;_skin&amp;quot;:&amp;quot;post&amp;quot;,&amp;quot;columns_tablet&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;columns_mobile&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;edit_handle_selector&amp;quot;:&amp;quot;[data-elementor-type=\&amp;quot;loop-item\&amp;quot;]&amp;quot;,&amp;quot;row_gap_tablet&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]},&amp;quot;row_gap_mobile&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]}}" data-widget_type="loop-grid.post"&gt;
+				&lt;div class="elementor-element elementor-element-3c9495ae elementor-grid-1 leia-tambem elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid" data-id="3c9495ae" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;template_id&amp;quot;:&amp;quot;75221&amp;quot;,&amp;quot;columns&amp;quot;:1,&amp;quot;row_gap&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:10,&amp;quot;sizes&amp;quot;:[]},&amp;quot;_skin&amp;quot;:&amp;quot;post&amp;quot;,&amp;quot;columns_tablet&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;columns_mobile&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;edit_handle_selector&amp;quot;:&amp;quot;[data-elementor-type=\&amp;quot;loop-item\&amp;quot;]&amp;quot;,&amp;quot;row_gap_tablet&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]},&amp;quot;row_gap_mobile&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]}}" data-widget_type="loop-grid.post"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 							&lt;div class="e-loop-nothing-found-message"&gt;
 		&lt;/div&gt;
@@ -610,13 +610,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 		&lt;div data-elementor-type="section" data-elementor-id="77670" class="elementor elementor-77670" data-elementor-post-type="elementor_library"&gt;
-			&lt;div class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}"&gt;
+			&lt;div class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-e-type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}"&gt;
 					&lt;div class="e-con-inner"&gt;
-				&lt;div class="elementor-element elementor-element-386385d elementor-widget elementor-widget-heading" data-id="386385d" data-element_type="widget" data-widget_type="heading.default"&gt;
+				&lt;div class="elementor-element elementor-element-386385d elementor-widget elementor-widget-heading" data-id="386385d" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 					&lt;h2 class="elementor-heading-title elementor-size-default"&gt;ASSINE NOSSA NEWSLETTER&lt;/h2&gt;				&lt;/div&gt;
 				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-6546917 elementor-widget elementor-widget-html" data-id="6546917" data-element_type="widget" data-widget_type="html.default"&gt;
+				&lt;div class="elementor-element elementor-element-6546917 elementor-widget elementor-widget-html" data-id="6546917" data-element_type="widget" data-e-type="widget" data-widget_type="html.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 					&lt;script&gt;
 document.addEventListener("DOMContentLoaded", function() {
@@ -626,14 +626,14 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 &lt;/script&gt;				&lt;/div&gt;
 				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-8c2e333 form-news elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="8c2e333" data-element_type="widget" data-settings="{&amp;quot;button_width&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_next_label&amp;quot;:&amp;quot;Next&amp;quot;,&amp;quot;step_previous_label&amp;quot;:&amp;quot;Previous&amp;quot;,&amp;quot;button_width_mobile&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_type&amp;quot;:&amp;quot;number_text&amp;quot;,&amp;quot;step_icon_shape&amp;quot;:&amp;quot;circle&amp;quot;}" data-widget_type="form.default"&gt;
+				&lt;div class="elementor-element elementor-element-8c2e333 form-news elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="8c2e333" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;button_width&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_next_label&amp;quot;:&amp;quot;Next&amp;quot;,&amp;quot;step_previous_label&amp;quot;:&amp;quot;Previous&amp;quot;,&amp;quot;button_width_mobile&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_type&amp;quot;:&amp;quot;number_text&amp;quot;,&amp;quot;step_icon_shape&amp;quot;:&amp;quot;circle&amp;quot;}" data-widget_type="form.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Amado Batista e BYD entram na Lista Suja do Trabalho Escravo" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Cortina verde e mais: as soluções contra calor extremo nas escolas" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="128995"/&gt;
+							&lt;input type="hidden" name="queried_id" value="95515"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -689,12 +689,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 		&lt;div data-elementor-type="container" data-elementor-id="75228" class="elementor elementor-75228" data-elementor-post-type="elementor_library"&gt;
-				&lt;div class="elementor-element elementor-element-5e8db1e6 e-flex e-con-boxed e-con e-parent" data-id="5e8db1e6" data-element_type="container"&gt;
+				&lt;div class="elementor-element elementor-element-5e8db1e6 e-flex e-con-boxed e-con e-parent" data-id="5e8db1e6" data-element_type="container" data-e-type="container"&gt;
 					&lt;div class="e-con-inner"&gt;
-		&lt;div class="elementor-element elementor-element-36eb6c91 e-flex e-con-boxed e-con e-child" data-id="36eb6c91" data-element_type="container"&gt;
+		&lt;div class="elementor-element elementor-element-36eb6c91 e-flex e-con-boxed e-con e-child" data-id="36eb6c91" data-element_type="container" data-e-type="container"&gt;
 					&lt;div class="e-con-inner"&gt;
-		&lt;div class="elementor-element elementor-element-6f52f515 e-con-full e-flex e-con e-child" data-id="6f52f515" data-element_type="container"&gt;
-				&lt;div class="elementor-element elementor-element-65d9f401 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="65d9f401" data-element_type="widget" data-widget_type="divider.default"&gt;
+		&lt;div class="elementor-element elementor-element-6f52f515 e-con-full e-flex e-con e-child" data-id="6f52f515" data-element_type="container" data-e-type="container"&gt;
+				&lt;div class="elementor-element elementor-element-65d9f401 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="65d9f401" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 							&lt;div class="elementor-divider"&gt;
 			&lt;span class="elementor-divider-separator"&gt;
@@ -703,9 +703,9 @@ document.addEventListener("DOMContentLoaded", function() {
 						&lt;/div&gt;
 				&lt;/div&gt;
 				&lt;/div&gt;
-		&lt;div class="elementor-element elementor-element-134a1245 e-flex e-con-boxed e-con e-child" data-id="134a1245" data-element_type="container"&gt;
+		&lt;div class="elementor-element elementor-element-134a1245 e-flex e-con-boxed e-con e-child" data-id="134a1245" data-element_type="container" data-e-type="container"&gt;
 					&lt;div class="e-con-inner"&gt;
-				&lt;div class="elementor-element elementor-element-10fe55fe elementor-widget elementor-widget-text-editor" data-id="10fe55fe" data-element_type="widget" data-widget_type="text-editor.default"&gt;
+				&lt;div class="elementor-element elementor-element-10fe55fe elementor-widget elementor-widget-text-editor" data-id="10fe55fe" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 									&lt;p&gt;Leia também&lt;/p&gt;								&lt;/div&gt;
 				&lt;/div&gt;
@@ -713,7 +713,7 @@ document.addEventListener("DOMContentLoaded", function() {
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-3c9495ae elementor-grid-1 leia-tambem elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid" data-id="3c9495ae" data-element_type="widget" data-settings="{&amp;quot;template_id&amp;quot;:&amp;quot;75221&amp;quot;,&amp;quot;columns&amp;quot;:1,&amp;quot;row_gap&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:10,&amp;quot;sizes&amp;quot;:[]},&amp;quot;_skin&amp;quot;:&amp;quot;post&amp;quot;,&amp;quot;columns_tablet&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;columns_mobile&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;edit_handle_selector&amp;quot;:&amp;quot;[data-elementor-type=\&amp;quot;loop-item\&amp;quot;]&amp;quot;,&amp;quot;row_gap_tablet&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]},&amp;quot;row_gap_mobile&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]}}" data-widget_type="loop-grid.post"&gt;
+				&lt;div class="elementor-element elementor-element-3c9495ae elementor-grid-1 leia-tambem elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid" data-id="3c9495ae" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;template_id&amp;quot;:&amp;quot;75221&amp;quot;,&amp;quot;columns&amp;quot;:1,&amp;quot;row_gap&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:10,&amp;quot;sizes&amp;quot;:[]},&amp;quot;_skin&amp;quot;:&amp;quot;post&amp;quot;,&amp;quot;columns_tablet&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;columns_mobile&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;edit_handle_selector&amp;quot;:&amp;quot;[data-elementor-type=\&amp;quot;loop-item\&amp;quot;]&amp;quot;,&amp;quot;row_gap_tablet&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]},&amp;quot;row_gap_mobile&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]}}" data-widget_type="loop-grid.post"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 							&lt;div class="e-loop-nothing-found-message"&gt;
 		&lt;/div&gt;
@@ -737,13 +737,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 		&lt;div data-elementor-type="section" data-elementor-id="77670" class="elementor elementor-77670" data-elementor-post-type="elementor_library"&gt;
-			&lt;div class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}"&gt;
+			&lt;div class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-e-type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}"&gt;
 					&lt;div class="e-con-inner"&gt;
-				&lt;div class="elementor-element elementor-element-386385d elementor-widget elementor-widget-heading" data-id="386385d" data-element_type="widget" data-widget_type="heading.default"&gt;
+				&lt;div class="elementor-element elementor-element-386385d elementor-widget elementor-widget-heading" data-id="386385d" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 					&lt;h2 class="elementor-heading-title elementor-size-default"&gt;ASSINE NOSSA NEWSLETTER&lt;/h2&gt;				&lt;/div&gt;
 				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-6546917 elementor-widget elementor-widget-html" data-id="6546917" data-element_type="widget" data-widget_type="html.default"&gt;
+				&lt;div class="elementor-element elementor-element-6546917 elementor-widget elementor-widget-html" data-id="6546917" data-element_type="widget" data-e-type="widget" data-widget_type="html.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 					&lt;script&gt;
 document.addEventListener("DOMContentLoaded", function() {
@@ -753,14 +753,14 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 &lt;/script&gt;				&lt;/div&gt;
 				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-8c2e333 form-news elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="8c2e333" data-element_type="widget" data-settings="{&amp;quot;button_width&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_next_label&amp;quot;:&amp;quot;Next&amp;quot;,&amp;quot;step_previous_label&amp;quot;:&amp;quot;Previous&amp;quot;,&amp;quot;button_width_mobile&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_type&amp;quot;:&amp;quot;number_text&amp;quot;,&amp;quot;step_icon_shape&amp;quot;:&amp;quot;circle&amp;quot;}" data-widget_type="form.default"&gt;
+				&lt;div class="elementor-element elementor-element-8c2e333 form-news elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="8c2e333" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;button_width&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_next_label&amp;quot;:&amp;quot;Next&amp;quot;,&amp;quot;step_previous_label&amp;quot;:&amp;quot;Previous&amp;quot;,&amp;quot;button_width_mobile&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_type&amp;quot;:&amp;quot;number_text&amp;quot;,&amp;quot;step_icon_shape&amp;quot;:&amp;quot;circle&amp;quot;}" data-widget_type="form.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Amado Batista e BYD entram na Lista Suja do Trabalho Escravo" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Cortina verde e mais: as soluções contra calor extremo nas escolas" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="128995"/&gt;
+							&lt;input type="hidden" name="queried_id" value="95515"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -965,12 +965,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 		&lt;div data-elementor-type="container" data-elementor-id="75228" class="elementor elementor-75228" data-elementor-post-type="elementor_library"&gt;
-				&lt;div class="elementor-element elementor-element-5e8db1e6 e-flex e-con-boxed e-con e-parent" data-id="5e8db1e6" data-element_type="container"&gt;
+				&lt;div class="elementor-element elementor-element-5e8db1e6 e-flex e-con-boxed e-con e-parent" data-id="5e8db1e6" data-element_type="container" data-e-type="container"&gt;
 					&lt;div class="e-con-inner"&gt;
-		&lt;div class="elementor-element elementor-element-36eb6c91 e-flex e-con-boxed e-con e-child" data-id="36eb6c91" data-element_type="container"&gt;
+		&lt;div class="elementor-element elementor-element-36eb6c91 e-flex e-con-boxed e-con e-child" data-id="36eb6c91" data-element_type="container" data-e-type="container"&gt;
 					&lt;div class="e-con-inner"&gt;
-		&lt;div class="elementor-element elementor-element-6f52f515 e-con-full e-flex e-con e-child" data-id="6f52f515" data-element_type="container"&gt;
-				&lt;div class="elementor-element elementor-element-65d9f401 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="65d9f401" data-element_type="widget" data-widget_type="divider.default"&gt;
+		&lt;div class="elementor-element elementor-element-6f52f515 e-con-full e-flex e-con e-child" data-id="6f52f515" data-element_type="container" data-e-type="container"&gt;
+				&lt;div class="elementor-element elementor-element-65d9f401 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="65d9f401" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 							&lt;div class="elementor-divider"&gt;
 			&lt;span class="elementor-divider-separator"&gt;
@@ -979,9 +979,9 @@ document.addEventListener("DOMContentLoaded", function() {
 						&lt;/div&gt;
 				&lt;/div&gt;
 				&lt;/div&gt;
-		&lt;div class="elementor-element elementor-element-134a1245 e-flex e-con-boxed e-con e-child" data-id="134a1245" data-element_type="container"&gt;
+		&lt;div class="elementor-element elementor-element-134a1245 e-flex e-con-boxed e-con e-child" data-id="134a1245" data-element_type="container" data-e-type="container"&gt;
 					&lt;div class="e-con-inner"&gt;
-				&lt;div class="elementor-element elementor-element-10fe55fe elementor-widget elementor-widget-text-editor" data-id="10fe55fe" data-element_type="widget" data-widget_type="text-editor.default"&gt;
+				&lt;div class="elementor-element elementor-element-10fe55fe elementor-widget elementor-widget-text-editor" data-id="10fe55fe" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 									&lt;p&gt;Leia também&lt;/p&gt;								&lt;/div&gt;
 				&lt;/div&gt;
@@ -989,7 +989,7 @@ document.addEventListener("DOMContentLoaded", function() {
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-3c9495ae elementor-grid-1 leia-tambem elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid" data-id="3c9495ae" data-element_type="widget" data-settings="{&amp;quot;template_id&amp;quot;:&amp;quot;75221&amp;quot;,&amp;quot;columns&amp;quot;:1,&amp;quot;row_gap&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:10,&amp;quot;sizes&amp;quot;:[]},&amp;quot;_skin&amp;quot;:&amp;quot;post&amp;quot;,&amp;quot;columns_tablet&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;columns_mobile&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;edit_handle_selector&amp;quot;:&amp;quot;[data-elementor-type=\&amp;quot;loop-item\&amp;quot;]&amp;quot;,&amp;quot;row_gap_tablet&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]},&amp;quot;row_gap_mobile&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]}}" data-widget_type="loop-grid.post"&gt;
+				&lt;div class="elementor-element elementor-element-3c9495ae elementor-grid-1 leia-tambem elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid" data-id="3c9495ae" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;template_id&amp;quot;:&amp;quot;75221&amp;quot;,&amp;quot;columns&amp;quot;:1,&amp;quot;row_gap&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:10,&amp;quot;sizes&amp;quot;:[]},&amp;quot;_skin&amp;quot;:&amp;quot;post&amp;quot;,&amp;quot;columns_tablet&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;columns_mobile&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;edit_handle_selector&amp;quot;:&amp;quot;[data-elementor-type=\&amp;quot;loop-item\&amp;quot;]&amp;quot;,&amp;quot;row_gap_tablet&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]},&amp;quot;row_gap_mobile&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]}}" data-widget_type="loop-grid.post"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 							&lt;div class="e-loop-nothing-found-message"&gt;
 		&lt;/div&gt;
@@ -1013,13 +1013,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 		&lt;div data-elementor-type="section" data-elementor-id="77670" class="elementor elementor-77670" data-elementor-post-type="elementor_library"&gt;
-			&lt;div class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}"&gt;
+			&lt;div class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-e-type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}"&gt;
 					&lt;div class="e-con-inner"&gt;
-				&lt;div class="elementor-element elementor-element-386385d elementor-widget elementor-widget-heading" data-id="386385d" data-element_type="widget" data-widget_type="heading.default"&gt;
+				&lt;div class="elementor-element elementor-element-386385d elementor-widget elementor-widget-heading" data-id="386385d" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 					&lt;h2 class="elementor-heading-title elementor-size-default"&gt;ASSINE NOSSA NEWSLETTER&lt;/h2&gt;				&lt;/div&gt;
 				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-6546917 elementor-widget elementor-widget-html" data-id="6546917" data-element_type="widget" data-widget_type="html.default"&gt;
+				&lt;div class="elementor-element elementor-element-6546917 elementor-widget elementor-widget-html" data-id="6546917" data-element_type="widget" data-e-type="widget" data-widget_type="html.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 					&lt;script&gt;
 document.addEventListener("DOMContentLoaded", function() {
@@ -1029,14 +1029,14 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 &lt;/script&gt;				&lt;/div&gt;
 				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-8c2e333 form-news elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="8c2e333" data-element_type="widget" data-settings="{&amp;quot;button_width&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_next_label&amp;quot;:&amp;quot;Next&amp;quot;,&amp;quot;step_previous_label&amp;quot;:&amp;quot;Previous&amp;quot;,&amp;quot;button_width_mobile&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_type&amp;quot;:&amp;quot;number_text&amp;quot;,&amp;quot;step_icon_shape&amp;quot;:&amp;quot;circle&amp;quot;}" data-widget_type="form.default"&gt;
+				&lt;div class="elementor-element elementor-element-8c2e333 form-news elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="8c2e333" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;button_width&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_next_label&amp;quot;:&amp;quot;Next&amp;quot;,&amp;quot;step_previous_label&amp;quot;:&amp;quot;Previous&amp;quot;,&amp;quot;button_width_mobile&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_type&amp;quot;:&amp;quot;number_text&amp;quot;,&amp;quot;step_icon_shape&amp;quot;:&amp;quot;circle&amp;quot;}" data-widget_type="form.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Amado Batista e BYD entram na Lista Suja do Trabalho Escravo" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Cortina verde e mais: as soluções contra calor extremo nas escolas" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="128995"/&gt;
+							&lt;input type="hidden" name="queried_id" value="95515"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -1237,12 +1237,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 		&lt;div data-elementor-type="container" data-elementor-id="75228" class="elementor elementor-75228" data-elementor-post-type="elementor_library"&gt;
-				&lt;div class="elementor-element elementor-element-5e8db1e6 e-flex e-con-boxed e-con e-parent" data-id="5e8db1e6" data-element_type="container"&gt;
+				&lt;div class="elementor-element elementor-element-5e8db1e6 e-flex e-con-boxed e-con e-parent" data-id="5e8db1e6" data-element_type="container" data-e-type="container"&gt;
 					&lt;div class="e-con-inner"&gt;
-		&lt;div class="elementor-element elementor-element-36eb6c91 e-flex e-con-boxed e-con e-child" data-id="36eb6c91" data-element_type="container"&gt;
+		&lt;div class="elementor-element elementor-element-36eb6c91 e-flex e-con-boxed e-con e-child" data-id="36eb6c91" data-element_type="container" data-e-type="container"&gt;
 					&lt;div class="e-con-inner"&gt;
-		&lt;div class="elementor-element elementor-element-6f52f515 e-con-full e-flex e-con e-child" data-id="6f52f515" data-element_type="container"&gt;
-				&lt;div class="elementor-element elementor-element-65d9f401 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="65d9f401" data-element_type="widget" data-widget_type="divider.default"&gt;
+		&lt;div class="elementor-element elementor-element-6f52f515 e-con-full e-flex e-con e-child" data-id="6f52f515" data-element_type="container" data-e-type="container"&gt;
+				&lt;div class="elementor-element elementor-element-65d9f401 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="65d9f401" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 							&lt;div class="elementor-divider"&gt;
 			&lt;span class="elementor-divider-separator"&gt;
@@ -1251,9 +1251,9 @@ document.addEventListener("DOMContentLoaded", function() {
 						&lt;/div&gt;
 				&lt;/div&gt;
 				&lt;/div&gt;
-		&lt;div class="elementor-element elementor-element-134a1245 e-flex e-con-boxed e-con e-child" data-id="134a1245" data-element_type="container"&gt;
+		&lt;div class="elementor-element elementor-element-134a1245 e-flex e-con-boxed e-con e-child" data-id="134a1245" data-element_type="container" data-e-type="container"&gt;
 					&lt;div class="e-con-inner"&gt;
-				&lt;div class="elementor-element elementor-element-10fe55fe elementor-widget elementor-widget-text-editor" data-id="10fe55fe" data-element_type="widget" data-widget_type="text-editor.default"&gt;
+				&lt;div class="elementor-element elementor-element-10fe55fe elementor-widget elementor-widget-text-editor" data-id="10fe55fe" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 									&lt;p&gt;Leia também&lt;/p&gt;								&lt;/div&gt;
 				&lt;/div&gt;
@@ -1261,7 +1261,7 @@ document.addEventListener("DOMContentLoaded", function() {
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-3c9495ae elementor-grid-1 leia-tambem elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid" data-id="3c9495ae" data-element_type="widget" data-settings="{&amp;quot;template_id&amp;quot;:&amp;quot;75221&amp;quot;,&amp;quot;columns&amp;quot;:1,&amp;quot;row_gap&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:10,&amp;quot;sizes&amp;quot;:[]},&amp;quot;_skin&amp;quot;:&amp;quot;post&amp;quot;,&amp;quot;columns_tablet&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;columns_mobile&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;edit_handle_selector&amp;quot;:&amp;quot;[data-elementor-type=\&amp;quot;loop-item\&amp;quot;]&amp;quot;,&amp;quot;row_gap_tablet&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]},&amp;quot;row_gap_mobile&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]}}" data-widget_type="loop-grid.post"&gt;
+				&lt;div class="elementor-element elementor-element-3c9495ae elementor-grid-1 leia-tambem elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid" data-id="3c9495ae" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;template_id&amp;quot;:&amp;quot;75221&amp;quot;,&amp;quot;columns&amp;quot;:1,&amp;quot;row_gap&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:10,&amp;quot;sizes&amp;quot;:[]},&amp;quot;_skin&amp;quot;:&amp;quot;post&amp;quot;,&amp;quot;columns_tablet&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;columns_mobile&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;edit_handle_selector&amp;quot;:&amp;quot;[data-elementor-type=\&amp;quot;loop-item\&amp;quot;]&amp;quot;,&amp;quot;row_gap_tablet&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]},&amp;quot;row_gap_mobile&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]}}" data-widget_type="loop-grid.post"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 							&lt;div class="e-loop-nothing-found-message"&gt;
 		&lt;/div&gt;
@@ -1288,13 +1288,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 		&lt;div data-elementor-type="section" data-elementor-id="77670" class="elementor elementor-77670" data-elementor-post-type="elementor_library"&gt;
-			&lt;div class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}"&gt;
+			&lt;div class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-e-type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}"&gt;
 					&lt;div class="e-con-inner"&gt;
-				&lt;div class="elementor-element elementor-element-386385d elementor-widget elementor-widget-heading" data-id="386385d" data-element_type="widget" data-widget_type="heading.default"&gt;
+				&lt;div class="elementor-element elementor-element-386385d elementor-widget elementor-widget-heading" data-id="386385d" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 					&lt;h2 class="elementor-heading-title elementor-size-default"&gt;ASSINE NOSSA NEWSLETTER&lt;/h2&gt;				&lt;/div&gt;
 				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-6546917 elementor-widget elementor-widget-html" data-id="6546917" data-element_type="widget" data-widget_type="html.default"&gt;
+				&lt;div class="elementor-element elementor-element-6546917 elementor-widget elementor-widget-html" data-id="6546917" data-element_type="widget" data-e-type="widget" data-widget_type="html.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 					&lt;script&gt;
 document.addEventListener("DOMContentLoaded", function() {
@@ -1304,14 +1304,14 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 &lt;/script&gt;				&lt;/div&gt;
 				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-8c2e333 form-news elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="8c2e333" data-element_type="widget" data-settings="{&amp;quot;button_width&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_next_label&amp;quot;:&amp;quot;Next&amp;quot;,&amp;quot;step_previous_label&amp;quot;:&amp;quot;Previous&amp;quot;,&amp;quot;button_width_mobile&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_type&amp;quot;:&amp;quot;number_text&amp;quot;,&amp;quot;step_icon_shape&amp;quot;:&amp;quot;circle&amp;quot;}" data-widget_type="form.default"&gt;
+				&lt;div class="elementor-element elementor-element-8c2e333 form-news elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="8c2e333" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;button_width&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_next_label&amp;quot;:&amp;quot;Next&amp;quot;,&amp;quot;step_previous_label&amp;quot;:&amp;quot;Previous&amp;quot;,&amp;quot;button_width_mobile&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_type&amp;quot;:&amp;quot;number_text&amp;quot;,&amp;quot;step_icon_shape&amp;quot;:&amp;quot;circle&amp;quot;}" data-widget_type="form.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Amado Batista e BYD entram na Lista Suja do Trabalho Escravo" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Cortina verde e mais: as soluções contra calor extremo nas escolas" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="128995"/&gt;
+							&lt;input type="hidden" name="queried_id" value="95515"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -1413,12 +1413,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 		&lt;div data-elementor-type="container" data-elementor-id="75228" class="elementor elementor-75228" data-elementor-post-type="elementor_library"&gt;
-				&lt;div class="elementor-element elementor-element-5e8db1e6 e-flex e-con-boxed e-con e-parent" data-id="5e8db1e6" data-element_type="container"&gt;
+				&lt;div class="elementor-element elementor-element-5e8db1e6 e-flex e-con-boxed e-con e-parent" data-id="5e8db1e6" data-element_type="container" data-e-type="container"&gt;
 					&lt;div class="e-con-inner"&gt;
-		&lt;div class="elementor-element elementor-element-36eb6c91 e-flex e-con-boxed e-con e-child" data-id="36eb6c91" data-element_type="container"&gt;
+		&lt;div class="elementor-element elementor-element-36eb6c91 e-flex e-con-boxed e-con e-child" data-id="36eb6c91" data-element_type="container" data-e-type="container"&gt;
 					&lt;div class="e-con-inner"&gt;
-		&lt;div class="elementor-element elementor-element-6f52f515 e-con-full e-flex e-con e-child" data-id="6f52f515" data-element_type="container"&gt;
-				&lt;div class="elementor-element elementor-element-65d9f401 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="65d9f401" data-element_type="widget" data-widget_type="divider.default"&gt;
+		&lt;div class="elementor-element elementor-element-6f52f515 e-con-full e-flex e-con e-child" data-id="6f52f515" data-element_type="container" data-e-type="container"&gt;
+				&lt;div class="elementor-element elementor-element-65d9f401 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="65d9f401" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 							&lt;div class="elementor-divider"&gt;
 			&lt;span class="elementor-divider-separator"&gt;
@@ -1427,9 +1427,9 @@ document.addEventListener("DOMContentLoaded", function() {
 						&lt;/div&gt;
 				&lt;/div&gt;
 				&lt;/div&gt;
-		&lt;div class="elementor-element elementor-element-134a1245 e-flex e-con-boxed e-con e-child" data-id="134a1245" data-element_type="container"&gt;
+		&lt;div class="elementor-element elementor-element-134a1245 e-flex e-con-boxed e-con e-child" data-id="134a1245" data-element_type="container" data-e-type="container"&gt;
 					&lt;div class="e-con-inner"&gt;
-				&lt;div class="elementor-element elementor-element-10fe55fe elementor-widget elementor-widget-text-editor" data-id="10fe55fe" data-element_type="widget" data-widget_type="text-editor.default"&gt;
+				&lt;div class="elementor-element elementor-element-10fe55fe elementor-widget elementor-widget-text-editor" data-id="10fe55fe" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 									&lt;p&gt;Leia também&lt;/p&gt;								&lt;/div&gt;
 				&lt;/div&gt;
@@ -1437,7 +1437,7 @@ document.addEventListener("DOMContentLoaded", function() {
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-3c9495ae elementor-grid-1 leia-tambem elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid" data-id="3c9495ae" data-element_type="widget" data-settings="{&amp;quot;template_id&amp;quot;:&amp;quot;75221&amp;quot;,&amp;quot;columns&amp;quot;:1,&amp;quot;row_gap&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:10,&amp;quot;sizes&amp;quot;:[]},&amp;quot;_skin&amp;quot;:&amp;quot;post&amp;quot;,&amp;quot;columns_tablet&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;columns_mobile&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;edit_handle_selector&amp;quot;:&amp;quot;[data-elementor-type=\&amp;quot;loop-item\&amp;quot;]&amp;quot;,&amp;quot;row_gap_tablet&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]},&amp;quot;row_gap_mobile&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]}}" data-widget_type="loop-grid.post"&gt;
+				&lt;div class="elementor-element elementor-element-3c9495ae elementor-grid-1 leia-tambem elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid" data-id="3c9495ae" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;template_id&amp;quot;:&amp;quot;75221&amp;quot;,&amp;quot;columns&amp;quot;:1,&amp;quot;row_gap&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:10,&amp;quot;sizes&amp;quot;:[]},&amp;quot;_skin&amp;quot;:&amp;quot;post&amp;quot;,&amp;quot;columns_tablet&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;columns_mobile&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;edit_handle_selector&amp;quot;:&amp;quot;[data-elementor-type=\&amp;quot;loop-item\&amp;quot;]&amp;quot;,&amp;quot;row_gap_tablet&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]},&amp;quot;row_gap_mobile&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]}}" data-widget_type="loop-grid.post"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 							&lt;div class="e-loop-nothing-found-message"&gt;
 		&lt;/div&gt;
@@ -1460,13 +1460,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 		&lt;div data-elementor-type="section" data-elementor-id="77670" class="elementor elementor-77670" data-elementor-post-type="elementor_library"&gt;
-			&lt;div class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}"&gt;
+			&lt;div class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-e-type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}"&gt;
 					&lt;div class="e-con-inner"&gt;
-				&lt;div class="elementor-element elementor-element-386385d elementor-widget elementor-widget-heading" data-id="386385d" data-element_type="widget" data-widget_type="heading.default"&gt;
+				&lt;div class="elementor-element elementor-element-386385d elementor-widget elementor-widget-heading" data-id="386385d" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 					&lt;h2 class="elementor-heading-title elementor-size-default"&gt;ASSINE NOSSA NEWSLETTER&lt;/h2&gt;				&lt;/div&gt;
 				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-6546917 elementor-widget elementor-widget-html" data-id="6546917" data-element_type="widget" data-widget_type="html.default"&gt;
+				&lt;div class="elementor-element elementor-element-6546917 elementor-widget elementor-widget-html" data-id="6546917" data-element_type="widget" data-e-type="widget" data-widget_type="html.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 					&lt;script&gt;
 document.addEventListener("DOMContentLoaded", function() {
@@ -1476,14 +1476,14 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 &lt;/script&gt;				&lt;/div&gt;
 				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-8c2e333 form-news elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="8c2e333" data-element_type="widget" data-settings="{&amp;quot;button_width&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_next_label&amp;quot;:&amp;quot;Next&amp;quot;,&amp;quot;step_previous_label&amp;quot;:&amp;quot;Previous&amp;quot;,&amp;quot;button_width_mobile&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_type&amp;quot;:&amp;quot;number_text&amp;quot;,&amp;quot;step_icon_shape&amp;quot;:&amp;quot;circle&amp;quot;}" data-widget_type="form.default"&gt;
+				&lt;div class="elementor-element elementor-element-8c2e333 form-news elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="8c2e333" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;button_width&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_next_label&amp;quot;:&amp;quot;Next&amp;quot;,&amp;quot;step_previous_label&amp;quot;:&amp;quot;Previous&amp;quot;,&amp;quot;button_width_mobile&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_type&amp;quot;:&amp;quot;number_text&amp;quot;,&amp;quot;step_icon_shape&amp;quot;:&amp;quot;circle&amp;quot;}" data-widget_type="form.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Amado Batista e BYD entram na Lista Suja do Trabalho Escravo" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Cortina verde e mais: as soluções contra calor extremo nas escolas" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="128995"/&gt;
+							&lt;input type="hidden" name="queried_id" value="95515"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -1587,12 +1587,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 		&lt;div data-elementor-type="container" data-elementor-id="75228" class="elementor elementor-75228" data-elementor-post-type="elementor_library"&gt;
-				&lt;div class="elementor-element elementor-element-5e8db1e6 e-flex e-con-boxed e-con e-parent" data-id="5e8db1e6" data-element_type="container"&gt;
+				&lt;div class="elementor-element elementor-element-5e8db1e6 e-flex e-con-boxed e-con e-parent" data-id="5e8db1e6" data-element_type="container" data-e-type="container"&gt;
 					&lt;div class="e-con-inner"&gt;
-		&lt;div class="elementor-element elementor-element-36eb6c91 e-flex e-con-boxed e-con e-child" data-id="36eb6c91" data-element_type="container"&gt;
+		&lt;div class="elementor-element elementor-element-36eb6c91 e-flex e-con-boxed e-con e-child" data-id="36eb6c91" data-element_type="container" data-e-type="container"&gt;
 					&lt;div class="e-con-inner"&gt;
-		&lt;div class="elementor-element elementor-element-6f52f515 e-con-full e-flex e-con e-child" data-id="6f52f515" data-element_type="container"&gt;
-				&lt;div class="elementor-element elementor-element-65d9f401 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="65d9f401" data-element_type="widget" data-widget_type="divider.default"&gt;
+		&lt;div class="elementor-element elementor-element-6f52f515 e-con-full e-flex e-con e-child" data-id="6f52f515" data-element_type="container" data-e-type="container"&gt;
+				&lt;div class="elementor-element elementor-element-65d9f401 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="65d9f401" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 							&lt;div class="elementor-divider"&gt;
 			&lt;span class="elementor-divider-separator"&gt;
@@ -1601,9 +1601,9 @@ document.addEventListener("DOMContentLoaded", function() {
 						&lt;/div&gt;
 				&lt;/div&gt;
 				&lt;/div&gt;
-		&lt;div class="elementor-element elementor-element-134a1245 e-flex e-con-boxed e-con e-child" data-id="134a1245" data-element_type="container"&gt;
+		&lt;div class="elementor-element elementor-element-134a1245 e-flex e-con-boxed e-con e-child" data-id="134a1245" data-element_type="container" data-e-type="container"&gt;
 					&lt;div class="e-con-inner"&gt;
-				&lt;div class="elementor-element elementor-element-10fe55fe elementor-widget elementor-widget-text-editor" data-id="10fe55fe" data-element_type="widget" data-widget_type="text-editor.default"&gt;
+				&lt;div class="elementor-element elementor-element-10fe55fe elementor-widget elementor-widget-text-editor" data-id="10fe55fe" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 									&lt;p&gt;Leia também&lt;/p&gt;								&lt;/div&gt;
 				&lt;/div&gt;
@@ -1611,7 +1611,7 @@ document.addEventListener("DOMContentLoaded", function() {
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-3c9495ae elementor-grid-1 leia-tambem elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid" data-id="3c9495ae" data-element_type="widget" data-settings="{&amp;quot;template_id&amp;quot;:&amp;quot;75221&amp;quot;,&amp;quot;columns&amp;quot;:1,&amp;quot;row_gap&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:10,&amp;quot;sizes&amp;quot;:[]},&amp;quot;_skin&amp;quot;:&amp;quot;post&amp;quot;,&amp;quot;columns_tablet&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;columns_mobile&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;edit_handle_selector&amp;quot;:&amp;quot;[data-elementor-type=\&amp;quot;loop-item\&amp;quot;]&amp;quot;,&amp;quot;row_gap_tablet&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]},&amp;quot;row_gap_mobile&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]}}" data-widget_type="loop-grid.post"&gt;
+				&lt;div class="elementor-element elementor-element-3c9495ae elementor-grid-1 leia-tambem elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid" data-id="3c9495ae" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;template_id&amp;quot;:&amp;quot;75221&amp;quot;,&amp;quot;columns&amp;quot;:1,&amp;quot;row_gap&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:10,&amp;quot;sizes&amp;quot;:[]},&amp;quot;_skin&amp;quot;:&amp;quot;post&amp;quot;,&amp;quot;columns_tablet&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;columns_mobile&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;edit_handle_selector&amp;quot;:&amp;quot;[data-elementor-type=\&amp;quot;loop-item\&amp;quot;]&amp;quot;,&amp;quot;row_gap_tablet&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]},&amp;quot;row_gap_mobile&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]}}" data-widget_type="loop-grid.post"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 							&lt;div class="e-loop-nothing-found-message"&gt;
 		&lt;/div&gt;
@@ -1634,13 +1634,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 		&lt;div data-elementor-type="section" data-elementor-id="77670" class="elementor elementor-77670" data-elementor-post-type="elementor_library"&gt;
-			&lt;div class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}"&gt;
+			&lt;div class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-e-type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}"&gt;
 					&lt;div class="e-con-inner"&gt;
-				&lt;div class="elementor-element elementor-element-386385d elementor-widget elementor-widget-heading" data-id="386385d" data-element_type="widget" data-widget_type="heading.default"&gt;
+				&lt;div class="elementor-element elementor-element-386385d elementor-widget elementor-widget-heading" data-id="386385d" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 					&lt;h2 class="elementor-heading-title elementor-size-default"&gt;ASSINE NOSSA NEWSLETTER&lt;/h2&gt;				&lt;/div&gt;
 				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-6546917 elementor-widget elementor-widget-html" data-id="6546917" data-element_type="widget" data-widget_type="html.default"&gt;
+				&lt;div class="elementor-element elementor-element-6546917 elementor-widget elementor-widget-html" data-id="6546917" data-element_type="widget" data-e-type="widget" data-widget_type="html.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 					&lt;script&gt;
 document.addEventListener("DOMContentLoaded", function() {
@@ -1650,14 +1650,14 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 &lt;/script&gt;				&lt;/div&gt;
 				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-8c2e333 form-news elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="8c2e333" data-element_type="widget" data-settings="{&amp;quot;button_width&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_next_label&amp;quot;:&amp;quot;Next&amp;quot;,&amp;quot;step_previous_label&amp;quot;:&amp;quot;Previous&amp;quot;,&amp;quot;button_width_mobile&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_type&amp;quot;:&amp;quot;number_text&amp;quot;,&amp;quot;step_icon_shape&amp;quot;:&amp;quot;circle&amp;quot;}" data-widget_type="form.default"&gt;
+				&lt;div class="elementor-element elementor-element-8c2e333 form-news elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="8c2e333" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;button_width&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_next_label&amp;quot;:&amp;quot;Next&amp;quot;,&amp;quot;step_previous_label&amp;quot;:&amp;quot;Previous&amp;quot;,&amp;quot;button_width_mobile&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_type&amp;quot;:&amp;quot;number_text&amp;quot;,&amp;quot;step_icon_shape&amp;quot;:&amp;quot;circle&amp;quot;}" data-widget_type="form.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Amado Batista e BYD entram na Lista Suja do Trabalho Escravo" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Cortina verde e mais: as soluções contra calor extremo nas escolas" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="128995"/&gt;
+							&lt;input type="hidden" name="queried_id" value="95515"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -1805,12 +1805,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 		&lt;div data-elementor-type="container" data-elementor-id="75228" class="elementor elementor-75228" data-elementor-post-type="elementor_library"&gt;
-				&lt;div class="elementor-element elementor-element-5e8db1e6 e-flex e-con-boxed e-con e-parent" data-id="5e8db1e6" data-element_type="container"&gt;
+				&lt;div class="elementor-element elementor-element-5e8db1e6 e-flex e-con-boxed e-con e-parent" data-id="5e8db1e6" data-element_type="container" data-e-type="container"&gt;
 					&lt;div class="e-con-inner"&gt;
-		&lt;div class="elementor-element elementor-element-36eb6c91 e-flex e-con-boxed e-con e-child" data-id="36eb6c91" data-element_type="container"&gt;
+		&lt;div class="elementor-element elementor-element-36eb6c91 e-flex e-con-boxed e-con e-child" data-id="36eb6c91" data-element_type="container" data-e-type="container"&gt;
 					&lt;div class="e-con-inner"&gt;
-		&lt;div class="elementor-element elementor-element-6f52f515 e-con-full e-flex e-con e-child" data-id="6f52f515" data-element_type="container"&gt;
-				&lt;div class="elementor-element elementor-element-65d9f401 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="65d9f401" data-element_type="widget" data-widget_type="divider.default"&gt;
+		&lt;div class="elementor-element elementor-element-6f52f515 e-con-full e-flex e-con e-child" data-id="6f52f515" data-element_type="container" data-e-type="container"&gt;
+				&lt;div class="elementor-element elementor-element-65d9f401 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="65d9f401" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 							&lt;div class="elementor-divider"&gt;
 			&lt;span class="elementor-divider-separator"&gt;
@@ -1819,9 +1819,9 @@ document.addEventListener("DOMContentLoaded", function() {
 						&lt;/div&gt;
 				&lt;/div&gt;
 				&lt;/div&gt;
-		&lt;div class="elementor-element elementor-element-134a1245 e-flex e-con-boxed e-con e-child" data-id="134a1245" data-element_type="container"&gt;
+		&lt;div class="elementor-element elementor-element-134a1245 e-flex e-con-boxed e-con e-child" data-id="134a1245" data-element_type="container" data-e-type="container"&gt;
 					&lt;div class="e-con-inner"&gt;
-				&lt;div class="elementor-element elementor-element-10fe55fe elementor-widget elementor-widget-text-editor" data-id="10fe55fe" data-element_type="widget" data-widget_type="text-editor.default"&gt;
+				&lt;div class="elementor-element elementor-element-10fe55fe elementor-widget elementor-widget-text-editor" data-id="10fe55fe" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 									&lt;p&gt;Leia também&lt;/p&gt;								&lt;/div&gt;
 				&lt;/div&gt;
@@ -1829,7 +1829,7 @@ document.addEventListener("DOMContentLoaded", function() {
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-3c9495ae elementor-grid-1 leia-tambem elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid" data-id="3c9495ae" data-element_type="widget" data-settings="{&amp;quot;template_id&amp;quot;:&amp;quot;75221&amp;quot;,&amp;quot;columns&amp;quot;:1,&amp;quot;row_gap&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:10,&amp;quot;sizes&amp;quot;:[]},&amp;quot;_skin&amp;quot;:&amp;quot;post&amp;quot;,&amp;quot;columns_tablet&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;columns_mobile&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;edit_handle_selector&amp;quot;:&amp;quot;[data-elementor-type=\&amp;quot;loop-item\&amp;quot;]&amp;quot;,&amp;quot;row_gap_tablet&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]},&amp;quot;row_gap_mobile&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]}}" data-widget_type="loop-grid.post"&gt;
+				&lt;div class="elementor-element elementor-element-3c9495ae elementor-grid-1 leia-tambem elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid" data-id="3c9495ae" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;template_id&amp;quot;:&amp;quot;75221&amp;quot;,&amp;quot;columns&amp;quot;:1,&amp;quot;row_gap&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:10,&amp;quot;sizes&amp;quot;:[]},&amp;quot;_skin&amp;quot;:&amp;quot;post&amp;quot;,&amp;quot;columns_tablet&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;columns_mobile&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;edit_handle_selector&amp;quot;:&amp;quot;[data-elementor-type=\&amp;quot;loop-item\&amp;quot;]&amp;quot;,&amp;quot;row_gap_tablet&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]},&amp;quot;row_gap_mobile&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]}}" data-widget_type="loop-grid.post"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 							&lt;div class="e-loop-nothing-found-message"&gt;
 		&lt;/div&gt;
@@ -1924,13 +1924,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 		&lt;div data-elementor-type="section" data-elementor-id="77670" class="elementor elementor-77670" data-elementor-post-type="elementor_library"&gt;
-			&lt;div class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}"&gt;
+			&lt;div class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-e-type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}"&gt;
 					&lt;div class="e-con-inner"&gt;
-				&lt;div class="elementor-element elementor-element-386385d elementor-widget elementor-widget-heading" data-id="386385d" data-element_type="widget" data-widget_type="heading.default"&gt;
+				&lt;div class="elementor-element elementor-element-386385d elementor-widget elementor-widget-heading" data-id="386385d" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 					&lt;h2 class="elementor-heading-title elementor-size-default"&gt;ASSINE NOSSA NEWSLETTER&lt;/h2&gt;				&lt;/div&gt;
 				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-6546917 elementor-widget elementor-widget-html" data-id="6546917" data-element_type="widget" data-widget_type="html.default"&gt;
+				&lt;div class="elementor-element elementor-element-6546917 elementor-widget elementor-widget-html" data-id="6546917" data-element_type="widget" data-e-type="widget" data-widget_type="html.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 					&lt;script&gt;
 document.addEventListener("DOMContentLoaded", function() {
@@ -1940,14 +1940,14 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 &lt;/script&gt;				&lt;/div&gt;
 				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-8c2e333 form-news elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="8c2e333" data-element_type="widget" data-settings="{&amp;quot;button_width&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_next_label&amp;quot;:&amp;quot;Next&amp;quot;,&amp;quot;step_previous_label&amp;quot;:&amp;quot;Previous&amp;quot;,&amp;quot;button_width_mobile&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_type&amp;quot;:&amp;quot;number_text&amp;quot;,&amp;quot;step_icon_shape&amp;quot;:&amp;quot;circle&amp;quot;}" data-widget_type="form.default"&gt;
+				&lt;div class="elementor-element elementor-element-8c2e333 form-news elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="8c2e333" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;button_width&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_next_label&amp;quot;:&amp;quot;Next&amp;quot;,&amp;quot;step_previous_label&amp;quot;:&amp;quot;Previous&amp;quot;,&amp;quot;button_width_mobile&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_type&amp;quot;:&amp;quot;number_text&amp;quot;,&amp;quot;step_icon_shape&amp;quot;:&amp;quot;circle&amp;quot;}" data-widget_type="form.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Amado Batista e BYD entram na Lista Suja do Trabalho Escravo" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Cortina verde e mais: as soluções contra calor extremo nas escolas" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="128995"/&gt;
+							&lt;input type="hidden" name="queried_id" value="95515"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -2019,12 +2019,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 		&lt;div data-elementor-type="container" data-elementor-id="75228" class="elementor elementor-75228" data-elementor-post-type="elementor_library"&gt;
-				&lt;div class="elementor-element elementor-element-5e8db1e6 e-flex e-con-boxed e-con e-parent" data-id="5e8db1e6" data-element_type="container"&gt;
+				&lt;div class="elementor-element elementor-element-5e8db1e6 e-flex e-con-boxed e-con e-parent" data-id="5e8db1e6" data-element_type="container" data-e-type="container"&gt;
 					&lt;div class="e-con-inner"&gt;
-		&lt;div class="elementor-element elementor-element-36eb6c91 e-flex e-con-boxed e-con e-child" data-id="36eb6c91" data-element_type="container"&gt;
+		&lt;div class="elementor-element elementor-element-36eb6c91 e-flex e-con-boxed e-con e-child" data-id="36eb6c91" data-element_type="container" data-e-type="container"&gt;
 					&lt;div class="e-con-inner"&gt;
-		&lt;div class="elementor-element elementor-element-6f52f515 e-con-full e-flex e-con e-child" data-id="6f52f515" data-element_type="container"&gt;
-				&lt;div class="elementor-element elementor-element-65d9f401 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="65d9f401" data-element_type="widget" data-widget_type="divider.default"&gt;
+		&lt;div class="elementor-element elementor-element-6f52f515 e-con-full e-flex e-con e-child" data-id="6f52f515" data-element_type="container" data-e-type="container"&gt;
+				&lt;div class="elementor-element elementor-element-65d9f401 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="65d9f401" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 							&lt;div class="elementor-divider"&gt;
 			&lt;span class="elementor-divider-separator"&gt;
@@ -2033,9 +2033,9 @@ document.addEventListener("DOMContentLoaded", function() {
 						&lt;/div&gt;
 				&lt;/div&gt;
 				&lt;/div&gt;
-		&lt;div class="elementor-element elementor-element-134a1245 e-flex e-con-boxed e-con e-child" data-id="134a1245" data-element_type="container"&gt;
+		&lt;div class="elementor-element elementor-element-134a1245 e-flex e-con-boxed e-con e-child" data-id="134a1245" data-element_type="container" data-e-type="container"&gt;
 					&lt;div class="e-con-inner"&gt;
-				&lt;div class="elementor-element elementor-element-10fe55fe elementor-widget elementor-widget-text-editor" data-id="10fe55fe" data-element_type="widget" data-widget_type="text-editor.default"&gt;
+				&lt;div class="elementor-element elementor-element-10fe55fe elementor-widget elementor-widget-text-editor" data-id="10fe55fe" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 									&lt;p&gt;Leia também&lt;/p&gt;								&lt;/div&gt;
 				&lt;/div&gt;
@@ -2043,7 +2043,7 @@ document.addEventListener("DOMContentLoaded", function() {
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-3c9495ae elementor-grid-1 leia-tambem elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid" data-id="3c9495ae" data-element_type="widget" data-settings="{&amp;quot;template_id&amp;quot;:&amp;quot;75221&amp;quot;,&amp;quot;columns&amp;quot;:1,&amp;quot;row_gap&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:10,&amp;quot;sizes&amp;quot;:[]},&amp;quot;_skin&amp;quot;:&amp;quot;post&amp;quot;,&amp;quot;columns_tablet&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;columns_mobile&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;edit_handle_selector&amp;quot;:&amp;quot;[data-elementor-type=\&amp;quot;loop-item\&amp;quot;]&amp;quot;,&amp;quot;row_gap_tablet&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]},&amp;quot;row_gap_mobile&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]}}" data-widget_type="loop-grid.post"&gt;
+				&lt;div class="elementor-element elementor-element-3c9495ae elementor-grid-1 leia-tambem elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid" data-id="3c9495ae" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;template_id&amp;quot;:&amp;quot;75221&amp;quot;,&amp;quot;columns&amp;quot;:1,&amp;quot;row_gap&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:10,&amp;quot;sizes&amp;quot;:[]},&amp;quot;_skin&amp;quot;:&amp;quot;post&amp;quot;,&amp;quot;columns_tablet&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;columns_mobile&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;edit_handle_selector&amp;quot;:&amp;quot;[data-elementor-type=\&amp;quot;loop-item\&amp;quot;]&amp;quot;,&amp;quot;row_gap_tablet&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]},&amp;quot;row_gap_mobile&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]}}" data-widget_type="loop-grid.post"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 							&lt;div class="e-loop-nothing-found-message"&gt;
 		&lt;/div&gt;
