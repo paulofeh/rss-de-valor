@@ -1,5 +1,189 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel xmlns:atom="http://www.w3.org/2005/Atom"><title>Repórter Brasil Socioambiental</title><link>https://reporterbrasil.org.br/jornalismo/socioambiental/</link><description>Últimos artigos de Repórter Brasil Socioambiental</description><atom:link href="https://paulofeh.github.io/rss-de-valor/feeds/rep%C3%B3rter_brasil_socioambiental_feed.xml" rel="self"/><language>pt-br</language><lastBuildDate>Mon, 13 Apr 2026 08:00:00 +0000</lastBuildDate><ttl>60</ttl><item><title>‘Brecha regulatória’ da ANM permite minerar ouro perto de garimpos interditados</title><link>https://reporterbrasil.org.br/2026/04/anm-permite-minerar-ouro-perto-garimpos-embargados/</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel xmlns:atom="http://www.w3.org/2005/Atom"><title>Repórter Brasil Socioambiental</title><link>https://reporterbrasil.org.br/jornalismo/socioambiental/</link><description>Últimos artigos de Repórter Brasil Socioambiental</description><atom:link href="https://paulofeh.github.io/rss-de-valor/feeds/rep%C3%B3rter_brasil_socioambiental_feed.xml" rel="self"/><language>pt-br</language><lastBuildDate>Mon, 13 Apr 2026 18:46:56 +0000</lastBuildDate><ttl>60</ttl><item><title>Diesel ‘verde’ feito nos EUA tem elo com empresa condenada em caso de desmate</title><link>https://reporterbrasil.org.br/2026/04/diesel-verde-eua-tem-elo-empresa-condenada-em-caso-de-desmate/</link><description>
+&lt;p&gt;&lt;strong&gt;A DGD &lt;/strong&gt;(Diamond Green Diesel), fabricante de biocombustíveis dos Estados Unidos que exporta diesel “verde” e combustível sustentável de aviação (SAF) para a Europa, comprou sebo bovino de um fornecedor abastecido por um frigorífico diretamente implicado em um caso de criação clandestina de gado dentro da Resex (Reserva Extrativista) Jaci Paraná, em Rondônia.&lt;/p&gt;
+
+
+
+&lt;p&gt;Em 2022, num documento judicial acessado pela reportagem, a exportadora de gordura animal Pacífico informou que o frigorífico Distriboi era o seu principal fornecedor de matérias-primas. Dois anos depois, o &lt;a href="https://infoamazonia.org/2024/09/09/justica-de-rondonia-condena-frigorificos-por-desmatamento-e-criacao-de-gado-em-reserva-extrativista/" target="_blank" rel="noreferrer noopener"&gt;frigorífico foi condenado&lt;/a&gt; ao pagamento de danos materiais e morais por adquirir, entre agosto de 2020 e janeiro de 2022 , animais oriundos da Resex Jaci Paraná. Segundo autoridades ambientais de Rondônia, a instalação de pastagens na reserva está ligada ao desmatamento de uma área equivalente à do município de São Paulo.&lt;/p&gt;
+
+
+
+&lt;p&gt;A Pacífico está localizada em Cacoal, Rondônia, e exportou para a DGD, entre 2023 e 2025, quase 15 mil toneladas de sebo bovino, insumo usado na produção de combustível classificado pela empresa como “sustentável”. A informação foi obtida em documentos alfandegários acessados em investigação realizada com o apoio do &lt;a href="https://www.journalismfund.eu/" target="_blank" rel="noreferrer noopener"&gt;Journalismfund Europe&lt;/a&gt;, e conduzida em parceria com a &lt;a href="https://unearthed.greenpeace.org/" target="_blank" rel="noreferrer noopener"&gt;Unearthed&lt;/a&gt;.&lt;/p&gt;
+
+
+
+&lt;p&gt;Neste mesmo período, ainda segundo dados alfandegários, a companhia norte-americana exportou milhares de toneladas de biodiesel e SAF (combustível sustentável de aviação, em inglês) para a Europa. Foram 176 mil toneladas destinadas ao Reino Unido em 2024 e 2025, além de 261 mil toneladas exportadas para Holanda, Noruega e Bélgica apenas em 2025.&lt;/p&gt;
+
+
+
+&lt;p&gt;Em setembro de 2025, outra &lt;a href="https://reporterbrasil.org.br/2025/09/refinaria-texas-sebo-gado-amazonico-desmatamento-diesel-verde/" target="_blank" rel="noreferrer noopener"&gt;investigação da Repórter Brasil já havia mostrado que a DGD comprou sebo de graxarias &lt;/a&gt;com histórico de aquisição de resíduos do abate oriundos  de frigoríficos abastecidos por fazendas autuadas por desmatamento ilegal. &lt;/p&gt;
+
+
+		&lt;div data-elementor-type="section" data-elementor-id="77670" class="elementor elementor-77670" data-elementor-post-type="elementor_library"&gt;
+			&lt;div class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-e-type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}"&gt;
+					&lt;div class="e-con-inner"&gt;
+				&lt;div class="elementor-element elementor-element-386385d elementor-widget elementor-widget-heading" data-id="386385d" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+					&lt;h2 class="elementor-heading-title elementor-size-default"&gt;ASSINE NOSSA NEWSLETTER&lt;/h2&gt;				&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class="elementor-element elementor-element-6546917 elementor-widget elementor-widget-html" data-id="6546917" data-element_type="widget" data-e-type="widget" data-widget_type="html.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+					&lt;script&gt;
+document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll('.form-news button[type="submit"]').forEach(function(botao) {
+        botao.classList.add("envio_newsletter_materia");
+    });
+});
+&lt;/script&gt;				&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class="elementor-element elementor-element-8c2e333 form-news elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="8c2e333" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;button_width&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_next_label&amp;quot;:&amp;quot;Next&amp;quot;,&amp;quot;step_previous_label&amp;quot;:&amp;quot;Previous&amp;quot;,&amp;quot;button_width_mobile&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_type&amp;quot;:&amp;quot;number_text&amp;quot;,&amp;quot;step_icon_shape&amp;quot;:&amp;quot;circle&amp;quot;}" data-widget_type="form.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
+			&lt;input type="hidden" name="post_id" value="77670"/&gt;
+			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
+			&lt;input type="hidden" name="referer_title" value="Medo de contaminação por mineradora assombra indígenas no AM" /&gt;
+
+							&lt;input type="hidden" name="queried_id" value="128211"/&gt;
+			
+			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
+								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
+												&lt;label for="form-field-email" class="elementor-field-label elementor-screen-only"&gt;
+								Email							&lt;/label&gt;
+														&lt;input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="email" required="required"&gt;
+											&lt;/div&gt;
+								&lt;div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-20 e-form__buttons elementor-sm-20"&gt;
+					&lt;button class="elementor-button elementor-size-sm" type="submit"&gt;
+						&lt;span class="elementor-button-content-wrapper"&gt;
+															&lt;span class="elementor-button-icon"&gt;
+									&lt;i aria-hidden="true" class="fas fa-long-arrow-alt-right"&gt;&lt;/i&gt;																			&lt;span class="elementor-screen-only"&gt;Submit&lt;/span&gt;
+																	&lt;/span&gt;
+																				&lt;/span&gt;
+					&lt;/button&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/form&gt;
+						&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;/div&gt;
+		
+
+
+
+&lt;p&gt;A Pacífico é subsidiária do Grupo Fasa, uma empresa brasileira de processamento de subprodutos da indústria do abate. A Fasa pertence desde 2022 à multinacional norte-americana Darling Ingredients, que, por sua vez, também é uma das donas da DGD por meio de uma joint venture com a Valero Energy. A Valero Energy é uma das maiores refinarias de petróleo dos Estados Unidos.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;figure class="wp-block-image size-large"&gt;&lt;img fetchpriority="high" decoding="async" width="1024" height="683" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/diamond-green-diesel-reuters-1024x683.jpg" alt="" class="wp-image-129350" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/diamond-green-diesel-reuters-1024x683.jpg 1024w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/diamond-green-diesel-reuters-300x200.jpg 300w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/diamond-green-diesel-reuters-768x512.jpg 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/diamond-green-diesel-reuters.jpg 1350w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Planta industrial da Diamond Green Diesel, em Port Arthur (Texas); a empresa compra sebo bovino do Brasil (Foto: REUTERS/Adrees Latif)&lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+&lt;p&gt;Procuramos todas as empresas desse grupo econômico para comentar a conexão de fornecimento indicadas no processo judicial, na ação que gerou a condenação da Distriboi e nos dados aduaneiros.&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;br&gt;A Darling Ingredients afirmou que está comprometida em garantir que suas matérias-primas “sejam livres de desmatamento.” Também disse que “a Pacífico não recebe matéria-prima do frigorífico Distriboi, em Ji-Paraná”, mas não esclareceu se recebe insumos da outra planta abate da empresa, em Rolim de Moura, ou se já recebeu no passado da unidade de Ji-Paraná — a planta diretamente implicada no caso que deu origem à condenação judicial do Distriboi.&lt;/p&gt;
+
+
+
+&lt;p&gt;“Estamos em processo de exigir que todos os fornecedores de matérias-primas atestem que seus produtos são livres de desmatamento”, afirmou a empresa em nota, que pode ser lida na íntegra &lt;a href="https://reporterbrasil.org.br/2026/04/integra-diesel-sustentavel-desmate-amazonia/" target="_blank" rel="noreferrer noopener"&gt;aqui&lt;/a&gt;.&lt;br&gt;&lt;br&gt;A DGD, a Valero e a Pacífico não responderam até a publicação desta reportagem. O texto será atualizado caso haja manifestação delas.&lt;/p&gt;
+
+
+
+&lt;p&gt;Por meio de seus advogados, a Distriboi disse que não se pronunciaria sobre os processos em curso, “em respeito ao Código de Ética da OAB (Ordem dos Advogados do Brasil), à legislação pertinente e às cláusulas contratuais de confidencialidade”. A íntegra da resposta pode ser &lt;a href="https://reporterbrasil.org.br/2026/04/integra-diesel-sustentavel-desmate-amazonia/" type="link" id="https://reporterbrasil.org.br/2026/04/integra-diesel-sustentavel-desmate-amazonia/" target="_blank" rel="noreferrer noopener"&gt;lida aqui.&lt;/a&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;a href="https://uc.socioambiental.org/arp/1319" target="_blank" rel="noreferrer noopener"&gt;Criada em 1996, Jaci-Paraná é uma unidade de conservação estadual&lt;/a&gt; onde só são permitidas atividades de subsistência de comunidades tradicionais que ajudam a preservar a Amazônia, como seringueiros e catadores de castanha e açaí. Nas últimas duas décadas, porém, extrativistas deixaram seus territórios e abandonaram suas casas após sofrerem ameaças de morte, de acordo com a PGE (Procuradoria Geral do Estado) de Rondônia.&lt;/p&gt;
+
+
+
+
+
+&lt;p&gt;Em 2024, a Procuradoria estadual constatou que existiam 778 fazendas ilegais de criação de gado em áreas que deveriam ter a floresta preservada. O órgão move 52 ações civis públicas para responsabilizar grileiros e empresas que teriam se beneficiado da ocupação ilegal. A PGE de Rondônia cobra mais de R$ 538 milhões em indenizações, multas e valores para recuperação florestal nas ações.&lt;/p&gt;
+
+
+
+&lt;p&gt;“Se é gado oriundo do crime, da grilagem, do desmatamento ilegal, esse combustível não é verde. É combustível oriundo do crime ambiental. E é assim que tem que ser tratado”, critica Neidinha Suruí, liderança indígena da região que atua na preservação da Amazônia e recebeu um Prêmio Emmy em 2025 pelo documentário &lt;a href="https://films.nationalgeographic.com/the-territory" target="_blank" rel="noreferrer noopener"&gt;O Território&lt;/a&gt;. “Os prejuízos para a biodiversidade foram terríveis!”, lamenta.&lt;/p&gt;
+
+
+
+&lt;p&gt;Segundo a Sedam (Secretaria de Estado do Desenvolvimento Ambiental) de Rondônia, os danos ambientais na resex alcançam R$ 5,2 bilhões. Pelos cálculos do órgão de 2024, dos 197 mil hectares de floresta originais de Jaci-Paraná, cerca de 151 mil viraram pasto e, no momento da avaliação dos danos, havia mais de 200 mil cabeças de gado ilegal no local. Ao menos duas das ações civis públicas &lt;a href="https://apublica.org/nota/resex-jaci-parana-gigante-da-carne-condenada-em-r-24-mi-por-usar-reserva-para-criar-gado/" target="_blank" rel="noreferrer noopener"&gt;resultaram em condenações&lt;/a&gt;, &lt;a href="https://infoamazonia.org/2024/09/09/justica-de-rondonia-condena-frigorificos-por-desmatamento-e-criacao-de-gado-em-reserva-extrativista/" target="_blank" rel="noreferrer noopener"&gt;uma delas contra o frigorífico Distriboi&lt;/a&gt;, como já mencionado.&lt;/p&gt;
+
+
+
+&lt;p&gt;“Essas descobertas são muito frustrantes do ponto de vista climático, mas, infelizmente, não muito surpreendentes”, lamenta Cian Delaney, que é um dos coordenadores da organização europeia &lt;a href="http://transportenvironment.org/" target="_blank" rel="noreferrer noopener"&gt;Transport &amp;amp; Environment&lt;/a&gt;. “Há anos estamos alertando que o sebo animal e o óleo de cozinha usado são particularmente suscetíveis a fraudes [na produção de biocombustíveis]”, completa.&lt;/p&gt;
+
+
+
+&lt;h2 class="wp-block-heading"&gt;Produto com selo sustentável&lt;/h2&gt;
+
+
+
+&lt;p&gt;O combustível “verde” vendido na Europa pela DGD tem a certificação &lt;a href="https://www.iscc-system.org/" target="_blank" rel="noreferrer noopener"&gt;ISCC&lt;/a&gt; (International Sustainability Carbon Certification), que atesta critérios de sustentabilidade. Segundo a entidade, o certificado verifica as etapas da cadeia produtiva desde a origem da matéria-prima, para avaliar se ela atende aos requisitos exigidos.&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;br&gt;Mas o sebo bovino é tratado como resíduo do abate, e por conta disso o ponto de origem considerado para a certificação não é a fazenda, e sim a unidade que processa os subprodutos animais — neste caso, a Pacífico.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Em nota, o ISCC esclareceu que não é a certificação que define se o sebo é ou não um resíduo. A instituição disse que apenas “aplica as definições e regras estabelecidas pela legislação pertinente”.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Segundo a entidade, classificar o sebo como resíduo baseia-se no princípio de que o objetivo principal da pecuária e dos matadouros não é a produção do insumo, e que, portanto, o  subproduto é tratado de forma diferente na contabilização de gases de efeito estufa. Seu posicionamento completo pode ser &lt;a href="https://reporterbrasil.org.br/2026/04/integra-diesel-sustentavel-desmate-amazonia/" target="_blank" rel="noreferrer noopener"&gt;lido aqui&lt;/a&gt;.&lt;/p&gt;
+
+
+
+&lt;p&gt;Heron Martins, pesquisador do Instituto Dados, organização brasileira que acompanha cadeias de produção para analisar seus impactos, salienta que a localização das unidades de produção de sebo ligadas à Darling Ingredients na Amazônia suscita preocupações. “Como recebem subprodutos do abate de gado, podemos identificar uma área provável de abastecimento. E essa área coincide exatamente com o arco de desmatamento da floresta”, comenta.&lt;/p&gt;
+
+
+
+&lt;p&gt;“Se o gado que fornece a gordura para o combustível tiver sido criado em florestas desmatadas ilegalmente, o sebo resultante provavelmente tornaria o biocombustível inelegível sob rigorosos critérios de sustentabilidade, independentemente do cálculo de suas emissões”, afirma Haniyeh Hajatnia, doutoranda especializada em avaliação do ciclo de vida para sustentabilidade na Universidade de Bath, do Reino Unido.&lt;/p&gt;
+
+
+		&lt;div data-elementor-type="container" data-elementor-id="75228" class="elementor elementor-75228" data-elementor-post-type="elementor_library"&gt;
+				&lt;div class="elementor-element elementor-element-5e8db1e6 e-flex e-con-boxed e-con e-parent" data-id="5e8db1e6" data-element_type="container" data-e-type="container"&gt;
+					&lt;div class="e-con-inner"&gt;
+		&lt;div class="elementor-element elementor-element-36eb6c91 e-flex e-con-boxed e-con e-child" data-id="36eb6c91" data-element_type="container" data-e-type="container"&gt;
+					&lt;div class="e-con-inner"&gt;
+		&lt;div class="elementor-element elementor-element-6f52f515 e-con-full e-flex e-con e-child" data-id="6f52f515" data-element_type="container" data-e-type="container"&gt;
+				&lt;div class="elementor-element elementor-element-65d9f401 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="65d9f401" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+							&lt;div class="elementor-divider"&gt;
+			&lt;span class="elementor-divider-separator"&gt;
+						&lt;/span&gt;
+		&lt;/div&gt;
+						&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;/div&gt;
+		&lt;div class="elementor-element elementor-element-134a1245 e-flex e-con-boxed e-con e-child" data-id="134a1245" data-element_type="container" data-e-type="container"&gt;
+					&lt;div class="e-con-inner"&gt;
+				&lt;div class="elementor-element elementor-element-10fe55fe elementor-widget elementor-widget-text-editor" data-id="10fe55fe" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+									&lt;p&gt;Leia também&lt;/p&gt;								&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class="elementor-element elementor-element-3c9495ae elementor-grid-1 leia-tambem elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid" data-id="3c9495ae" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;template_id&amp;quot;:&amp;quot;75221&amp;quot;,&amp;quot;columns&amp;quot;:1,&amp;quot;row_gap&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:10,&amp;quot;sizes&amp;quot;:[]},&amp;quot;_skin&amp;quot;:&amp;quot;post&amp;quot;,&amp;quot;columns_tablet&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;columns_mobile&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;edit_handle_selector&amp;quot;:&amp;quot;[data-elementor-type=\&amp;quot;loop-item\&amp;quot;]&amp;quot;,&amp;quot;row_gap_tablet&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]},&amp;quot;row_gap_mobile&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]}}" data-widget_type="loop-grid.post"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+							&lt;div class="e-loop-nothing-found-message"&gt;
+		&lt;/div&gt;
+						&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;/div&gt;
+		
+
+
+
+&lt;p&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Bruna Borges</dc:creator><pubDate>Mon, 13 Apr 2026 18:46:56 +0000</pubDate><guid>https://reporterbrasil.org.br/2026/04/diesel-verde-eua-tem-elo-empresa-condenada-em-caso-de-desmate/</guid><guid isPermaLink="true">https://reporterbrasil.org.br/2026/04/diesel-verde-eua-tem-elo-empresa-condenada-em-caso-de-desmate/</guid></item><item><title>‘Brecha regulatória’ da ANM permite minerar ouro perto de garimpos interditados</title><link>https://reporterbrasil.org.br/2026/04/anm-permite-minerar-ouro-perto-garimpos-embargados/</link><description>
 &lt;p&gt;&lt;strong&gt;A ANM&lt;/strong&gt; (Agência Nacional de Mineração) concedeu autorizações excepcionais de pesquisa e extração de ouro em áreas limítrofes ou próximas a &lt;a href="https://reporterbrasil.org.br/tags/garimpo/" target="_blank" rel="noreferrer noopener"&gt;garimpos&lt;/a&gt; embargados (interditados) na Amazônia após a constatação de extração mineral não autorizada, mostra levantamento exclusivo da &lt;strong&gt;Repórter Brasil.&lt;/strong&gt; As permissões foram dadas aos mesmos empreendedores implicados por órgãos de controle nas irregularidades que deram origem aos embargos.&lt;/p&gt;
 
 
@@ -28,7 +212,7 @@
 
 
 
-&lt;figure class="wp-block-image size-large"&gt;&lt;img fetchpriority="high" decoding="async" width="819" height="1024" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/MAPA1_ReporterBrasil_Rodrigo_Bento-819x1024.jpg" alt="(Mapa: Rodrigo Bento/Repórter Brasil)" class="wp-image-129312" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/MAPA1_ReporterBrasil_Rodrigo_Bento-819x1024.jpg 819w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/MAPA1_ReporterBrasil_Rodrigo_Bento-240x300.jpg 240w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/MAPA1_ReporterBrasil_Rodrigo_Bento-768x960.jpg 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/MAPA1_ReporterBrasil_Rodrigo_Bento.jpg 1200w" sizes="(max-width: 819px) 100vw, 819px" /&gt;&lt;figcaption class="wp-element-caption"&gt;(Mapa: Rodrigo Bento/Repórter Brasil)&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure class="wp-block-image size-large"&gt;&lt;img decoding="async" width="819" height="1024" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/MAPA1_ReporterBrasil_Rodrigo_Bento-819x1024.jpg" alt="(Mapa: Rodrigo Bento/Repórter Brasil)" class="wp-image-129312" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/MAPA1_ReporterBrasil_Rodrigo_Bento-819x1024.jpg 819w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/MAPA1_ReporterBrasil_Rodrigo_Bento-240x300.jpg 240w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/MAPA1_ReporterBrasil_Rodrigo_Bento-768x960.jpg 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/MAPA1_ReporterBrasil_Rodrigo_Bento.jpg 1200w" sizes="(max-width: 819px) 100vw, 819px" /&gt;&lt;figcaption class="wp-element-caption"&gt;(Mapa: Rodrigo Bento/Repórter Brasil)&lt;/figcaption&gt;&lt;/figure&gt;
 
 
 
@@ -66,9 +250,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Reforma Agrária: em 3 anos, Lula 3 desapropria menos que Temer" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Medo de contaminação por mineradora assombra indígenas no AM" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="127948"/&gt;
+							&lt;input type="hidden" name="queried_id" value="128211"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -310,9 +494,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Reforma Agrária: em 3 anos, Lula 3 desapropria menos que Temer" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Medo de contaminação por mineradora assombra indígenas no AM" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="127948"/&gt;
+							&lt;input type="hidden" name="queried_id" value="128211"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -344,7 +528,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-&lt;figure class="wp-block-image size-large"&gt;&lt;img decoding="async" width="1024" height="682" src="https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-1024x682.jpg" alt="Aerial view of gold mining in Itaituba, Pará. The current mayor of the municipality has stated in an interview that he has never monitored environmental licenses granted by his administration (Photo: Fernando Martinho/Repórter Brasil)" class="wp-image-93368" srcset="https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-1024x682.jpg 1024w, https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-300x200.jpg 300w, https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-768x512.jpg 768w, https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-1536x1023.jpg 1536w, https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1.jpg 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Vista área de garimpo no município de Itaituba, no sudoeste do Pará (Foto: Fernando Martinho/Repórter Brasil)&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure class="wp-block-image size-large"&gt;&lt;img loading="lazy" decoding="async" width="1024" height="682" src="https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-1024x682.jpg" alt="Aerial view of gold mining in Itaituba, Pará. The current mayor of the municipality has stated in an interview that he has never monitored environmental licenses granted by his administration (Photo: Fernando Martinho/Repórter Brasil)" class="wp-image-93368" srcset="https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-1024x682.jpg 1024w, https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-300x200.jpg 300w, https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-768x512.jpg 768w, https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-1536x1023.jpg 1536w, https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1.jpg 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Vista área de garimpo no município de Itaituba, no sudoeste do Pará (Foto: Fernando Martinho/Repórter Brasil)&lt;/figcaption&gt;&lt;/figure&gt;
 
 
 
@@ -490,9 +674,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Reforma Agrária: em 3 anos, Lula 3 desapropria menos que Temer" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Medo de contaminação por mineradora assombra indígenas no AM" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="127948"/&gt;
+							&lt;input type="hidden" name="queried_id" value="128211"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -657,9 +841,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Reforma Agrária: em 3 anos, Lula 3 desapropria menos que Temer" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Medo de contaminação por mineradora assombra indígenas no AM" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="127948"/&gt;
+							&lt;input type="hidden" name="queried_id" value="128211"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -899,9 +1083,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Reforma Agrária: em 3 anos, Lula 3 desapropria menos que Temer" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Medo de contaminação por mineradora assombra indígenas no AM" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="127948"/&gt;
+							&lt;input type="hidden" name="queried_id" value="128211"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -1026,9 +1210,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Reforma Agrária: em 3 anos, Lula 3 desapropria menos que Temer" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Medo de contaminação por mineradora assombra indígenas no AM" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="127948"/&gt;
+							&lt;input type="hidden" name="queried_id" value="128211"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -1302,9 +1486,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Reforma Agrária: em 3 anos, Lula 3 desapropria menos que Temer" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Medo de contaminação por mineradora assombra indígenas no AM" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="127948"/&gt;
+							&lt;input type="hidden" name="queried_id" value="128211"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -1577,9 +1761,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Reforma Agrária: em 3 anos, Lula 3 desapropria menos que Temer" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Medo de contaminação por mineradora assombra indígenas no AM" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="127948"/&gt;
+							&lt;input type="hidden" name="queried_id" value="128211"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -1749,9 +1933,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Reforma Agrária: em 3 anos, Lula 3 desapropria menos que Temer" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Medo de contaminação por mineradora assombra indígenas no AM" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="127948"/&gt;
+							&lt;input type="hidden" name="queried_id" value="128211"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -1889,222 +2073,4 @@ document.addEventListener("DOMContentLoaded", function() {
 				&lt;/div&gt;
 				&lt;/div&gt;
 		
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Igor Ojeda</dc:creator><pubDate>Mon, 02 Mar 2026 16:02:31 +0000</pubDate><guid>https://reporterbrasil.org.br/2026/03/ministerio-trabalho-trabalhadores-agrotoxicos/</guid><guid isPermaLink="true">https://reporterbrasil.org.br/2026/03/ministerio-trabalho-trabalhadores-agrotoxicos/</guid></item><item><title>Brasil bate recorde de intoxicados por agrotóxico em 2025: 27 por dia</title><link>https://reporterbrasil.org.br/2026/03/brasil-recorde-intoxicacao-agrotoxico/</link><description>
-&lt;p&gt;&lt;strong&gt;O BRASIL &lt;/strong&gt;viveu em 2025 o pior ano em &lt;a href="https://reporterbrasil.org.br/?s=intoxica%C3%A7%C3%B5es" target="_blank" rel="noreferrer noopener"&gt;intoxicações&lt;/a&gt; por &lt;a href="https://reporterbrasil.org.br/?s=agrot%C3%B3xico" target="_blank" rel="noreferrer noopener"&gt;agrotóxicos&lt;/a&gt; dos últimos 11 anos, revelam dados do Ministério da Saúde analisados pela &lt;strong&gt;Repórter Brasil&lt;/strong&gt;. Foram 9.729 casos registrados — alta de 84% em comparação a 2015. Em média, 27 pessoas por dia se intoxicaram no ano passado.&lt;/p&gt;
-
-
-
-&lt;p&gt;Entre 2015 e 2025, um quarto das vítimas foram crianças de 1 a 4 anos, a segunda faixa etária com mais casos (17.476). A primeira é entre 20 e 39 anos, com 23.045 notificações de intoxicação, cerca de um terço do total. Nessa faixa etária, 54% dos incidentes no ano passado tiveram relação com o trabalho, dos quais 80% estavam relacionados a agrotóxicos de uso agrícola.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;Os números, compilados pelo Sinan (Sistema de Informação de Agravos de Notificação), mostram ainda que, desde 2015, o país somou 73.391 intoxicações por agrotóxicos. A série teve queda em 2020, mas voltou a subir a partir do ano seguinte. A análise considera apenas os chamados “casos não intencionais”, excluindo suicídios, abortos, homicídios e outros episódios em que a contaminação foi deliberada.&lt;/p&gt;
-
-
-		&lt;div data-elementor-type="section" data-elementor-id="77670" class="elementor elementor-77670" data-elementor-post-type="elementor_library"&gt;
-			&lt;div class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-e-type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}"&gt;
-					&lt;div class="e-con-inner"&gt;
-				&lt;div class="elementor-element elementor-element-386385d elementor-widget elementor-widget-heading" data-id="386385d" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-					&lt;h2 class="elementor-heading-title elementor-size-default"&gt;ASSINE NOSSA NEWSLETTER&lt;/h2&gt;				&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-6546917 elementor-widget elementor-widget-html" data-id="6546917" data-element_type="widget" data-e-type="widget" data-widget_type="html.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-					&lt;script&gt;
-document.addEventListener("DOMContentLoaded", function() {
-    document.querySelectorAll('.form-news button[type="submit"]').forEach(function(botao) {
-        botao.classList.add("envio_newsletter_materia");
-    });
-});
-&lt;/script&gt;				&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-8c2e333 form-news elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="8c2e333" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;button_width&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_next_label&amp;quot;:&amp;quot;Next&amp;quot;,&amp;quot;step_previous_label&amp;quot;:&amp;quot;Previous&amp;quot;,&amp;quot;button_width_mobile&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_type&amp;quot;:&amp;quot;number_text&amp;quot;,&amp;quot;step_icon_shape&amp;quot;:&amp;quot;circle&amp;quot;}" data-widget_type="form.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
-			&lt;input type="hidden" name="post_id" value="77670"/&gt;
-			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Reforma Agrária: em 3 anos, Lula 3 desapropria menos que Temer" /&gt;
-
-							&lt;input type="hidden" name="queried_id" value="127948"/&gt;
-			
-			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
-								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
-												&lt;label for="form-field-email" class="elementor-field-label elementor-screen-only"&gt;
-								Email							&lt;/label&gt;
-														&lt;input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="email" required="required"&gt;
-											&lt;/div&gt;
-								&lt;div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-20 e-form__buttons elementor-sm-20"&gt;
-					&lt;button class="elementor-button elementor-size-sm" type="submit"&gt;
-						&lt;span class="elementor-button-content-wrapper"&gt;
-															&lt;span class="elementor-button-icon"&gt;
-									&lt;i aria-hidden="true" class="fas fa-long-arrow-alt-right"&gt;&lt;/i&gt;																			&lt;span class="elementor-screen-only"&gt;Submit&lt;/span&gt;
-																	&lt;/span&gt;
-																				&lt;/span&gt;
-					&lt;/button&gt;
-				&lt;/div&gt;
-			&lt;/div&gt;
-		&lt;/form&gt;
-						&lt;/div&gt;
-				&lt;/div&gt;
-					&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;/div&gt;
-		
-
-
-
-&lt;p&gt;No mesmo período, o Brasil bateu recordes de aprovação e comercialização de pesticidas. Apenas em 2025, foram 914 novos registros, um aumento de 38% em relação ao ano anterior, segundo dados do Mapa (Ministério da Agricultura e Pecuária) publicados no Diário Oficial da União.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;Já as vendas chegaram a 825,8 mil toneladas em 2024, crescimento de 9,3% em comparação a 2023, de acordo com dados do Ibama (Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis).&lt;/p&gt;
-
-
-
-&lt;p&gt;Para especialistas ouvidos pela reportagem, o aumento das intoxicações está diretamente ligado à ampliação da oferta e do consumo dessas substâncias. “De modo geral, quanto mais agrotóxicos disponíveis, isso tende a fazer com que o preço se reduza, fazendo com que o consumo aumente. Se o consumo aumentar, a população vai estar mais exposta e isso pode fazer com que as intoxicações aumentem”, afirma Loredany Rodrigues, professora de economia aplicada da Universidade Federal de Viçosa.&lt;/p&gt;
-
-
-
-&lt;figure class="wp-block-image aligncenter size-large"&gt;&lt;img loading="lazy" decoding="async" width="434" height="1024" src="https://reporterbrasil.org.br/wp-content/uploads/2026/03/1@1.5x-1-434x1024.png" alt="Infográfico: Rodrigo Bento/Repórter Brasil" class="wp-image-126557" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/03/1@1.5x-1-434x1024.png 434w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/1@1.5x-1-127x300.png 127w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/1@1.5x-1-768x1813.png 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/1@1.5x-1-651x1536.png 651w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/1@1.5x-1-867x2048.png 867w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/1@1.5x-1-scaled.png 1084w" sizes="(max-width: 434px) 100vw, 434px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Infográfico: Rodrigo Bento/Repórter Brasil&lt;/figcaption&gt;&lt;/figure&gt;
-
-
-
-&lt;h2 class="wp-block-heading"&gt;Agrotóxicos agrícolas são os principais causadores das intoxicações no trabalho&lt;/h2&gt;
-
-
-
-&lt;p&gt;O Espírito Santo foi o estado com maior índice de intoxicações em 2025, seja em números absolutos ou proporcionais. Foram 941 registros — quase um em cada dez casos do país — e uma taxa de 23 casos por 100 mil habitantes. Em seguida, proporcionalmente, aparecem Tocantins (16 por 100 mil) e Rondônia, Acre e Roraima (com 11 casos por 100 mil habitantes cada), todos estados da região Norte, marcada pela expansão do agronegócio e pressão sobre áreas de floresta.&lt;/p&gt;
-
-
-
-&lt;p&gt;As principais vítimas das intoxicações não intencionais são homens de 20 a 39 anos: das 3.059 pessoas dessa faixa etária afetadas em 2025, 73% eram do sexo masculino. Especialistas apontam que a concentração de intoxicações entre adultos jovens e de meia-idade está ligada à predominância masculina no trabalho rural e à alta demanda por trabalhadores nesse período da vida.&amp;nbsp;&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;figure class="wp-block-image aligncenter size-large"&gt;&lt;img loading="lazy" decoding="async" width="582" height="1024" src="https://reporterbrasil.org.br/wp-content/uploads/2026/03/3@1.5x-1-582x1024.png" alt="Infográfico: Rodrigo Bento/Repórter Brasil" class="wp-image-126558" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/03/3@1.5x-1-582x1024.png 582w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/3@1.5x-1-171x300.png 171w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/3@1.5x-1-768x1351.png 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/3@1.5x-1-873x1536.png 873w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/3@1.5x-1-1164x2048.png 1164w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/3@1.5x-1-scaled.png 1455w" sizes="(max-width: 582px) 100vw, 582px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Infográfico: Rodrigo Bento/Repórter Brasil&lt;/figcaption&gt;&lt;/figure&gt;
-
-
-
-&lt;p&gt;O Ministério do Trabalho e Emprego &lt;a href="https://reporterbrasil.org.br/2026/03/ministerio-trabalho-trabalhadores-agrotoxicos/" target="_blank" rel="noreferrer noopener"&gt;criticou&lt;/a&gt; o alto número de casos relacionados a lavradores no campo. “Não é admissível que interesses econômicos se sobreponham à proteção da saúde dos trabalhadores”, diz nota enviada à &lt;strong&gt;Repórter Brasil&lt;/strong&gt;.&lt;/p&gt;
-
-
-
-&lt;p&gt;:: &lt;strong&gt;Leia também:&lt;/strong&gt; &lt;a href="https://reporterbrasil.org.br/2026/03/ministerio-trabalho-trabalhadores-agrotoxicos/" target="_blank" rel="noreferrer noopener"&gt;Ministério do Trabalho critica alto número de trabalhadores intoxicados por agrotóxicos&lt;/a&gt; ::&lt;/p&gt;
-
-
-
-&lt;p&gt;A reportagem&lt;strong&gt; &lt;/strong&gt;questionou o Ministério da Agricultura e Pecuária sobre o recorde de registros de agrotóxicos, a relação entre o aumento da oferta e o crescimento das intoxicações, além de medidas de fiscalização no campo.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;A pasta, responsável por autorizar e reavaliar agrotóxicos segundo a nova Lei de Agrotóxicos, sancionada em 2024, não respondeu às perguntas e orientou apenas que a apuração fosse direcionada à Anvisa (Agência Nacional de Vigilância Sanitária).&lt;/p&gt;
-
-
-
-&lt;p&gt;A Anvisa afirma que as notificações de intoxicação humana são um dos elementos usados para orientar a reavaliação de produtos já registrados e para embasar tecnicamente as análises toxicológicas. “As intoxicações são avaliadas e consideradas nos pareceres de exposição humana elaborados para subsidiar o processo decisório da reanálise”, cita nota enviada à reportagem.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;Diz, ainda, que suas decisões dependem de uma análise mais ampla de risco. “As decisões regulatórias da Anvisa incorporam predominantemente evidências experimentais, epidemiológicas e modelagens de exposição capazes de prever efeitos crônicos antes que eles se manifestem na população”.&lt;/p&gt;
-
-
-
-&lt;p&gt;Já o Ministério da Saúde pontua que monitora as intoxicações pelo Sinan, de notificação obrigatória, e atribui parte do aumento das notificações ao reforço das ações de vigilância. “No ano passado, o Ciclo de Webinários da VSPEA [Vigilância em Saúde de Populações Expostas a Agrotóxicos, programa dos SUS] tratou de temas como diagnóstico, tratamento e notificação de intoxicações exógenas, visando aprimorar a atuação de equipes da vigilância, atenção primária e especializada. Parte do aumento dos registros deve-se a esse incremento na vigilância”, diz o texto. &lt;a href="https://reporterbrasil.org.br/2026/03/posicionamentos-enviados-para-reportagens-sobre-recorde-de-intoxicacoes-por-agrotoxicos/" target="_blank" rel="noreferrer noopener"&gt;Confira aqui as respostas completas do Ministério do Trabalho, da Anvisa e do Ministério da Saúde&lt;/a&gt;.&lt;/p&gt;
-
-
-
-&lt;h2 class="wp-block-heading"&gt;Crianças pequenas podem se intoxicar até dentro de casa e através do leite materno&lt;/h2&gt;
-
-
-
-&lt;p&gt;O número de intoxicações em crianças de 1 a 4 anos — um quarto das notificações desde 2015 — preocupa os especialistas ouvidos pela reportagem. Segundo Wanderlei Pignati, professor da UFMT (Universidade Federal de Mato Grosso) e pesquisador referência no país sobre os impactos dos agrotóxicos na saúde humana, diversos fatores fazem com que esse grupo esteja entre os mais expostos. Um deles é que o sistema imunológico ainda não está completamente formado nessa fase.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;Pesquisa orientada por Pignati no Mato Grosso, além disso, já confirmou a&lt;a href="https://pdfdocumento.com/contaminaao-do-leite-materno-ufmt_59f4cf861723dda00825f17e.html" target="_blank" rel="noreferrer noopener"&gt; presença de resíduos de agrotóxicos no leite materno&lt;/a&gt;. Muitos pesticidas são lipofílicos, ou seja, tendem a se acumular em tecidos gordurosos, como as glândulas mamárias.&lt;/p&gt;
-
-
-
-&lt;p&gt;Já a agrônoma Fernanda Savicki, pesquisadora da Fiocruz (Fundação Oswaldo Cruz) Ceará, ressalta que os limites de tolerância a resíduos químicos são calculados para adultos de cerca de 70 kg, o que torna qualquer exposição proporcionalmente muito mais grave para uma criança pequena.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;Ela destaca também que crianças dessa faixa etária aparecem com frequência nos dados porque são o grupo mais monitorado pelo SUS (Sistema Único de Saúde). Com vacinas frequentes e consultas pediátricas regulares, qualquer alteração de saúde é mais facilmente percebida e notificada do que em adultos. Além disso, diz, sintomas como diarreia, vômito ou manchas na pele em bebês geram preocupação imediata nos pais, que procuram o serviço de saúde com mais frequência.&lt;/p&gt;
-
-
-
-&lt;p&gt;“Qualquer tipo de variação na saúde dessas crianças vai ser muito mais verificada e notificada do que, por exemplo, em crianças maiores, adolescentes e adultos”, afirma a pesquisadora da Fiocruz.&lt;/p&gt;
-
-
-
-&lt;figure class="wp-block-image aligncenter size-large"&gt;&lt;img loading="lazy" decoding="async" width="819" height="1024" src="https://reporterbrasil.org.br/wp-content/uploads/2026/03/2@1.5x-819x1024.png" alt="Infográfico: Rodrigo Bento/Repórter Brasil" class="wp-image-126526" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/03/2@1.5x-819x1024.png 819w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/2@1.5x-240x300.png 240w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/2@1.5x-768x960.png 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/2@1.5x-1229x1536.png 1229w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/2@1.5x.png 1620w" sizes="(max-width: 819px) 100vw, 819px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Infográfico: Rodrigo Bento/Repórter Brasil&lt;/figcaption&gt;&lt;/figure&gt;
-
-
-
-&lt;h2 class="wp-block-heading"&gt;Agrotóxicos são um problema de saúde pública, defende pesquisadora da Fiocruz&lt;/h2&gt;
-
-
-
-&lt;p&gt;Especialistas ouvidos pela &lt;strong&gt;Repórter Brasil &lt;/strong&gt;afirmam que o Brasil lida com os agrotóxicos sob uma lógica de mercado que ignora seus impactos na sociedade. Para eles, a nova Lei de Agrotóxicos, sancionada em 2024, agrava esse cenário e representa um retrocesso regulatório.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;Ao baratear e facilitar o acesso a essas substâncias, a medida pode intensificar o ciclo de “envenenamento” da população brasileira, alertam. “Já faz tempo que as intoxicações por agrotóxicos não deveriam ser mais vistas como casos isolados, mas como um problema de saúde pública”, afirma Fernanda Savicki, da Fiocruz.&lt;/p&gt;
-
-
-
-&lt;p&gt;A intoxicação aguda — aquela que aparece logo após a exposição — representa 89% de todos os casos desde 2015, revelam os dados analisados pela &lt;strong&gt;Repórter Brasil&lt;/strong&gt;. Doenças crônicas associadas ao uso prolongado, como câncer e desregulação endócrina, levam anos para surgir e são mais difíceis de relacionar diretamente à exposição.&lt;/p&gt;
-
-
-
-&lt;p&gt;Os números podem ser muito maiores. A Organização Mundial da Saúde estima que apenas uma em cada 50 intoxicações por agrotóxicos seja registrada no mundo. Sintomas como tontura, febre, náusea e diarreia muitas vezes são anotados como viroses ou indisposições alimentares, sem investigação de uma possível causa tóxica.&lt;/p&gt;
-
-
-
-&lt;p&gt;Jaqueline Andrade, assessora jurídica da organização Terra de Direitos, afirma que, no caso dos povos indígenas, a subnotificação é alimentada por desinformação e preconceito. Ela conta que, ao questionar oficialmente secretarias municipais de saúde sobre intoxicações do povo Avá-Guarani, no Paraná, ouviu respostas como: “eles fumam cachimbo o dia inteiro” ou “vivem sem saneamento, então não dá para dizer que é agrotóxico”. Ela relata, ainda, que trabalhadores evitam denunciar casos por medo de sofrer retaliações ou perder o emprego.&lt;/p&gt;
-
-
-
-&lt;p&gt;Na avaliação de Wanderlei Pignati, professor da UFMT, o registro de intoxicações por pesticidas esbarra na precariedade da estrutura de saúde do trabalhador pelo país, na pressão de empregadores para que episódios do tipo não sejam notificados oficialmente e na falta de interesse do poder público, que estaria priorizando os retornos econômicos gerados pela comercialização desses produtos.&lt;/p&gt;
-
-
-
-&lt;p&gt;Savicki ressalta que a subnotificação impede o Estado de medir o impacto real dos agrotóxicos no SUS. A Abrasco (Associação Brasileira de Saúde Coletiva) estima que, somente considerando casos agudos, cada dólar gasto com agrotóxicos gera um custo de 1,29 dólar para o sistema de saúde.&lt;/p&gt;
-
-
-		&lt;div data-elementor-type="container" data-elementor-id="75228" class="elementor elementor-75228" data-elementor-post-type="elementor_library"&gt;
-				&lt;div class="elementor-element elementor-element-5e8db1e6 e-flex e-con-boxed e-con e-parent" data-id="5e8db1e6" data-element_type="container" data-e-type="container"&gt;
-					&lt;div class="e-con-inner"&gt;
-		&lt;div class="elementor-element elementor-element-36eb6c91 e-flex e-con-boxed e-con e-child" data-id="36eb6c91" data-element_type="container" data-e-type="container"&gt;
-					&lt;div class="e-con-inner"&gt;
-		&lt;div class="elementor-element elementor-element-6f52f515 e-con-full e-flex e-con e-child" data-id="6f52f515" data-element_type="container" data-e-type="container"&gt;
-				&lt;div class="elementor-element elementor-element-65d9f401 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="65d9f401" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-							&lt;div class="elementor-divider"&gt;
-			&lt;span class="elementor-divider-separator"&gt;
-						&lt;/span&gt;
-		&lt;/div&gt;
-						&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;/div&gt;
-		&lt;div class="elementor-element elementor-element-134a1245 e-flex e-con-boxed e-con e-child" data-id="134a1245" data-element_type="container" data-e-type="container"&gt;
-					&lt;div class="e-con-inner"&gt;
-				&lt;div class="elementor-element elementor-element-10fe55fe elementor-widget elementor-widget-text-editor" data-id="10fe55fe" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-									&lt;p&gt;Leia também&lt;/p&gt;								&lt;/div&gt;
-				&lt;/div&gt;
-					&lt;/div&gt;
-				&lt;/div&gt;
-					&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-3c9495ae elementor-grid-1 leia-tambem elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid" data-id="3c9495ae" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;template_id&amp;quot;:&amp;quot;75221&amp;quot;,&amp;quot;columns&amp;quot;:1,&amp;quot;row_gap&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:10,&amp;quot;sizes&amp;quot;:[]},&amp;quot;_skin&amp;quot;:&amp;quot;post&amp;quot;,&amp;quot;columns_tablet&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;columns_mobile&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;edit_handle_selector&amp;quot;:&amp;quot;[data-elementor-type=\&amp;quot;loop-item\&amp;quot;]&amp;quot;,&amp;quot;row_gap_tablet&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]},&amp;quot;row_gap_mobile&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]}}" data-widget_type="loop-grid.post"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-							&lt;div class="e-loop-nothing-found-message"&gt;
-		&lt;/div&gt;
-						&lt;/div&gt;
-				&lt;/div&gt;
-					&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;/div&gt;
-		
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Igor Ojeda</dc:creator><pubDate>Mon, 02 Mar 2026 16:02:26 +0000</pubDate><guid>https://reporterbrasil.org.br/2026/03/brasil-recorde-intoxicacao-agrotoxico/</guid><guid isPermaLink="true">https://reporterbrasil.org.br/2026/03/brasil-recorde-intoxicacao-agrotoxico/</guid></item></channel></rss>
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Igor Ojeda</dc:creator><pubDate>Mon, 02 Mar 2026 16:02:31 +0000</pubDate><guid>https://reporterbrasil.org.br/2026/03/ministerio-trabalho-trabalhadores-agrotoxicos/</guid><guid isPermaLink="true">https://reporterbrasil.org.br/2026/03/ministerio-trabalho-trabalhadores-agrotoxicos/</guid></item></channel></rss>
