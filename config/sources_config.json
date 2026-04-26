@@ -73,6 +73,14 @@
       "group": "clima"
     },
     {
+      "name": "Pedro Côrtes (CNN Brasil)",
+      "url": "https://www.cnnbrasil.com.br/blogs/pedro-cortes/",
+      "feed_file": "pedro_cortes_feed.xml",
+      "history_file": "pedro_cortes_history.json",
+      "scraper": "CNNBrasilBlogScraper",
+      "group": "clima"
+    },
+    {
       "name": "Risco Climático (Google Alerts)",
       "url": "https://www.google.com.br/alerts/feeds/18411936457231074134/9861482400399462080",
       "feed_file": "google_alerts_risco_climatico_feed.xml",

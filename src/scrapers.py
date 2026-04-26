@@ -1334,6 +1334,103 @@ class WordPressApiScraper(BaseScraper):
         pass  # Logic is handled in get_latest_article
 
 
+class CNNBrasilBlogScraper(BaseScraper):
+    """Scraper for CNN Brasil blogs (custom post type) via their internal resolver API.
+
+    CNN Brasil's blogs are a custom post type not exposed by /wp/v2/posts, and
+    the per-blog tag has only a single post. The site exposes a custom endpoint
+    /wp-json/content/v1/resolver/<url-encoded URL> that returns the full list of
+    posts for any archive page, including blog/columnist pages such as
+    https://www.cnnbrasil.com.br/blogs/pedro-cortes/.
+
+    For each post, full body HTML is fetched from /wp-json/content/v1/posts/<slug>.
+    """
+
+    def _resolver_url(self):
+        from urllib.parse import quote
+        return f"https://www.cnnbrasil.com.br/wp-json/content/v1/resolver/{quote(self.url, safe='')}"
+
+    def _post_detail_url(self, slug):
+        return f"https://www.cnnbrasil.com.br/wp-json/content/v1/posts/{slug}"
+
+    def _parse_date(self, date_str):
+        """CNN publish_date comes as 'YYYY-MM-DD HH:MM:SS' in São Paulo time."""
+        tz = pytz.timezone('America/Sao_Paulo')
+        if not date_str:
+            return datetime.datetime.now(tz)
+        try:
+            dt = datetime.datetime.strptime(date_str, "%Y-%m-%d %H:%M:%S")
+            return tz.localize(dt)
+        except (ValueError, TypeError):
+            return datetime.datetime.now(tz)
+
+    def _author_name(self, post):
+        author = post.get('author') or {}
+        authors = author.get('list') or []
+        if authors:
+            return authors[0].get('name', '') or 'Autor não encontrado'
+        return 'Autor não encontrado'
+
+    def _fetch_full_content(self, slug):
+        try:
+            r = requests_retry_session().get(self._post_detail_url(slug), timeout=30, headers={
+                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
+            })
+            r.raise_for_status()
+            data = r.json()
+            content = data.get('content')
+            if isinstance(content, dict):
+                return content.get('raw') or content.get('rendered') or ''
+            if isinstance(content, str):
+                return content
+            return ''
+        except Exception as e:
+            print(f"   ⚠️  Erro ao buscar conteúdo do post {slug}: {str(e)}")
+            return ''
+
+    def _parse_post(self, post, fetch_body=True):
+        slug = post.get('slug', '')
+        body = self._fetch_full_content(slug) if fetch_body else ''
+        description = body or post.get('excerpt', '') or ''
+        return {
+            'title': post.get('title', '').strip(),
+            'link': post.get('permalink', ''),
+            'pubdate': self._parse_date(post.get('publish_date', '')),
+            'author': self._author_name(post),
+            'description': description,
+        }
+
+    def _fetch_posts(self):
+        response = requests_retry_session().get(self._resolver_url(), timeout=30, headers={
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
+        })
+        response.raise_for_status()
+        data = response.json()
+        return data.get('data', {}).get('posts', []) or []
+
+    def get_latest_article(self):
+        try:
+            posts = self._fetch_posts()
+            if not posts:
+                print(f"Nenhum post encontrado para {self.url}")
+                return None
+            return self._parse_post(posts[0])
+        except Exception as e:
+            print(f"Erro ao processar CNN Brasil blog {self.url}: {str(e)}")
+            return None
+
+    def get_articles(self, limit=10):
+        try:
+            posts = self._fetch_posts()
+            return [self._parse_post(p) for p in posts[:limit]]
+        except Exception as e:
+            print(f"Erro ao processar CNN Brasil blog {self.url}: {str(e)}")
+            return []
+
+    def _extract_article_data(self, soup):
+        pass  # Logic is handled in get_latest_article
+
+
 class NatureRdfScraper(BaseScraper):
     """Scraper for Nature journals that use RDF/RSS 1.0 feeds.
 
@@ -1628,6 +1725,7 @@ def get_scraper_class(scraper_name):
         'SustainableViewsScraper': SustainableViewsScraper,
         'BBCTopicScraper': BBCTopicScraper,
         'WordPressApiScraper': WordPressApiScraper,
+        'CNNBrasilBlogScraper': CNNBrasilBlogScraper,
         'GoogleAlertsScraper': GoogleAlertsScraper,
         'NatureRdfScraper': NatureRdfScraper,
         'DWTopicScraper': DWTopicScraper,

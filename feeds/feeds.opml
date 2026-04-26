@@ -1,7 +1,7 @@
 <opml version="2.0">
     <head>
         <title>RSS de Colunistas</title>
-        <dateCreated>Sun, 26 Apr 2026 02:42:49 GMT</dateCreated>
+        <dateCreated>Sun, 26 Apr 2026 03:20:09 GMT</dateCreated>
         <ownerName>RSS Scraper</ownerName>
         </head>
     <body>
@@ -20,6 +20,7 @@
                 <outline type="rss" text="Mudanças Climáticas (BBC)" title="Mudanças Climáticas (BBC)" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/bbc_clima_feed.xml" />
                 <outline type="rss" text="Nottus Meteorologia" title="Nottus Meteorologia" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/nottus_feed.xml" />
                 <outline type="rss" text="O Eco" title="O Eco" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/oeco_feed.xml" />
+                <outline type="rss" text="Pedro Côrtes (CNN Brasil)" title="Pedro Côrtes (CNN Brasil)" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/pedro_cortes_feed.xml" />
                 <outline type="rss" text="Repórter Brasil Socioambiental" title="Repórter Brasil Socioambiental" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/reporter_brasil_socioambiental_feed.xml" />
                 <outline type="rss" text="Risco Climático (Google Alerts)" title="Risco Climático (Google Alerts)" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/google_alerts_risco_climatico_feed.xml" />
                 <outline type="rss" text="Sustainable Views" title="Sustainable Views" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/sustainable_views_feed.xml" />
