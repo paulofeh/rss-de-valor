@@ -1,5 +1,261 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel xmlns:atom="http://www.w3.org/2005/Atom"><title>Repórter Brasil Socioambiental</title><link>https://reporterbrasil.org.br/jornalismo/socioambiental/</link><description>Últimos artigos de Repórter Brasil Socioambiental</description><atom:link href="https://paulofeh.github.io/rss-de-valor/feeds/rep%C3%B3rter_brasil_socioambiental_feed.xml" rel="self"/><language>pt-br</language><lastBuildDate>Thu, 23 Apr 2026 14:14:15 +0000</lastBuildDate><ttl>60</ttl><item><title>Do petróleo ao ‘verde’: soluções do mapa da transição energética podem esconder violações socioambientais</title><link>https://reporterbrasil.org.br/2026/04/mapa-transicao-energetica-podem-esconder-violacoes-socioambientais/</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel xmlns:atom="http://www.w3.org/2005/Atom"><title>Repórter Brasil Socioambiental</title><link>https://reporterbrasil.org.br/jornalismo/socioambiental/</link><description>Últimos artigos de Repórter Brasil Socioambiental</description><atom:link href="https://paulofeh.github.io/rss-de-valor/feeds/rep%C3%B3rter_brasil_socioambiental_feed.xml" rel="self"/><language>pt-br</language><lastBuildDate>Mon, 27 Apr 2026 15:34:56 +0000</lastBuildDate><ttl>60</ttl><item><title>Mineradoras alvos de ações e multas ambientais receberam R$ 90 mi em isenções fiscais</title><link>https://reporterbrasil.org.br/2026/04/mineradoras-multas-ambientais-90-mi-isencoes-fiscais/</link><description>
+&lt;p&gt;&lt;strong&gt;MINERADORAS DE OURO&lt;/strong&gt; com histórico recente de infrações ambientais, implicadas por órgãos de controle em irregularidades e em conflito com comunidades obtiveram R$ 90,1 milhões em isenções de impostos federais entre 2024 e 2025, mostra levantamento exclusivo da &lt;strong&gt;Repórter Brasil&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+&lt;p&gt;Em Cuiabá, capital do Mato Grosso, a Mineração Aricá obteve isenções fiscais mesmo após um embargo (interdição) registrado pelo Ibama (Instituto Brasileiro do Meio Ambiente e dos Recursos Renováveis) no âmbito de uma operação da Polícia Federal que investiga o uso ilegal de mercúrio. &lt;/p&gt;
+
+
+
+&lt;p&gt;Outra companhia com embargo ativo aplicado pelo órgão ambiental é a Mineração Aurizona S.A., que recebeu os benefícios depois de a empresa deixar 4 mil pessoas sem acesso à água potável em decorrência do rompimento de uma lagoa usada como barragem de mineração, em março de 2021, no município maranhense de Godofredo Viana. &lt;/p&gt;
+
+
+
+&lt;p&gt;Já a Aura Almas Mineração S.A., que opera em Almas, no Tocantins, &lt;a href="https://reporterbrasil.org.br/2024/05/mineradora-estudo-ambiental-antigo-ignora-quilombolas-to/" target="_blank" rel="noreferrer noopener"&gt;ignorou a existência de comunidades quilombolas&lt;/a&gt; em seu projeto de licenciamento ambiental, segundo ação movida pela Defensoria Pública do Estado.&amp;nbsp;&lt;/p&gt;
+
+
+
+		&lt;div data-elementor-type="section" data-elementor-id="77670" class="elementor elementor-77670" data-elementor-post-type="elementor_library"&gt;
+			&lt;div class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-e-type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}"&gt;
+					&lt;div class="e-con-inner"&gt;
+				&lt;div class="elementor-element elementor-element-386385d elementor-widget elementor-widget-heading" data-id="386385d" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+					&lt;h2 class="elementor-heading-title elementor-size-default"&gt;ASSINE NOSSA NEWSLETTER&lt;/h2&gt;				&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class="elementor-element elementor-element-6546917 elementor-widget elementor-widget-html" data-id="6546917" data-element_type="widget" data-e-type="widget" data-widget_type="html.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+					&lt;script&gt;
+document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll('.form-news button[type="submit"]').forEach(function(botao) {
+        botao.classList.add("envio_newsletter_materia");
+    });
+});
+&lt;/script&gt;				&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class="elementor-element elementor-element-8c2e333 form-news elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="8c2e333" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;button_width&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_next_label&amp;quot;:&amp;quot;Next&amp;quot;,&amp;quot;step_previous_label&amp;quot;:&amp;quot;Previous&amp;quot;,&amp;quot;button_width_mobile&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_type&amp;quot;:&amp;quot;number_text&amp;quot;,&amp;quot;step_icon_shape&amp;quot;:&amp;quot;circle&amp;quot;}" data-widget_type="form.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
+			&lt;input type="hidden" name="post_id" value="77670"/&gt;
+			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
+			&lt;input type="hidden" name="referer_title" value="Entre barragens e minas, quilombos do Pará vivem sob pressão da bauxita" /&gt;
+
+							&lt;input type="hidden" name="queried_id" value="128185"/&gt;
+			
+			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
+								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
+												&lt;label for="form-field-email" class="elementor-field-label elementor-screen-only"&gt;
+								Email							&lt;/label&gt;
+														&lt;input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="email" required="required"&gt;
+											&lt;/div&gt;
+								&lt;div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-20 e-form__buttons elementor-sm-20"&gt;
+					&lt;button class="elementor-button elementor-size-sm" type="submit"&gt;
+						&lt;span class="elementor-button-content-wrapper"&gt;
+															&lt;span class="elementor-button-icon"&gt;
+									&lt;i aria-hidden="true" class="fas fa-long-arrow-alt-right"&gt;&lt;/i&gt;																			&lt;span class="elementor-screen-only"&gt;Submit&lt;/span&gt;
+																	&lt;/span&gt;
+																				&lt;/span&gt;
+					&lt;/button&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/form&gt;
+						&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;/div&gt;
+		
+
+
+
+&lt;p&gt;Em 2024, a soma das renúncias fiscais das três empresas foi de R$ 51 milhões. Em 2025, de R$ 39,1 milhões. Os dados sobre benefícios e renúncias fiscais de tributos federais são de &lt;a href="https://dados.gov.br/dados/conjuntos-dados/renuncias-fiscais-de-tributos-federais" target="_blank" rel="noreferrer noopener"&gt;acesso público&lt;/a&gt;, disponibilizados pelo Ministério da Fazenda.&lt;/p&gt;
+
+
+
+&lt;h2 class="wp-block-heading"&gt;Leis sobre benefícios não incluem critérios socioambientais&lt;/h2&gt;
+
+
+
+&lt;p&gt;No caso da mineradora Aurizona, o benefício foi garantido por meio da Superintendência do Desenvolvimento da Amazônia (Sudam), a partir de uma lei criada no início dos anos de 1960 com a proposta de incentivar a expansão de setores de extração de matéria-prima na região.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Ao longo dos mais de 60 anos de vigência, a Lei 4.216, que regulamenta o benefício, teve poucas alterações, graças ao lobby dos setores beneficiados, avalia Alessandra Cardoso, assessora política do Inesc (Instituto de Estudos Socioeconômicos). &lt;/p&gt;
+
+
+
+&lt;p&gt;“Essas leis normalmente têm dez anos de duração. Quando vai chegando esse prazo, eles [empresários] se articulam no Congresso Nacional e renovam sem nenhuma mudança”, explica Cardoso. Ela é autora da nota técnica “&lt;a href="https://inesc.org.br/wp-content/uploads/2023/06/nt-incentivos-fiscais-amazonia_0626.pdf?x96134" target="_blank" rel="noreferrer noopener"&gt;Incentivos Fiscais na Amazônia&lt;/a&gt;”, publicada em 2023 pelo Inesc, onde aponta os “questionáveis efeitos econômicos e sociais e negativos impactos ambientais” desse tipo de isenção fiscal.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Além do benefício da Sudam, as três mineradoras foram contempladas pelo Regime Especial de Aquisição de Bens de Capital para Empresas Exportadoras (Recap), que garante a suspensão de impostos na aquisição de máquinas e equipamentos.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;As legislações que regem ambos os benefícios não estabelecem critérios socioambientais para a sua concessão. “É um absurdo [que esses benefícios] sejam renovados sem que haja critérios ambientais, sociais, climáticos, de responsabilidade socioambiental dessas empresas”, critica Cartório.&lt;/p&gt;
+
+
+
+&lt;figure class="wp-block-image size-large"&gt;&lt;img fetchpriority="high" decoding="async" width="1024" height="682" src="https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-1024x682.jpg" alt="Aerial view of gold mining in Itaituba, Pará. The current mayor of the municipality has stated in an interview that he has never monitored environmental licenses granted by his administration (Photo: Fernando Martinho/Repórter Brasil)" class="wp-image-93368" srcset="https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-1024x682.jpg 1024w, https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-300x200.jpg 300w, https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-768x512.jpg 768w, https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-1536x1023.jpg 1536w, https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1.jpg 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Sem critérios socioambientais, legislações sobre benefícios fiscais permitem isenções de impostos a mineradoras de ouro com passivos ambientais. Na imagem, vista área de um garimpo em Itaituba, no sudoeste do Pará (Foto: Fernando Martinho/Repórter Brasil)&lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+&lt;p&gt;Para a assessora do Inesc, as lacunas na legislação sobre benefícios fiscais acabam por financiar atividades de empresas com problemas socioambientais. “Não tem contrapartida para as comunidades, não tem vedação sequer de coisas que já são muito usuais no setor financeiro, como lista de trabalho escravo e desmatamento”, diz Cardoso.&lt;/p&gt;
+
+
+
+&lt;p&gt;Em nota enviada à &lt;strong&gt;Repórter Brasil&lt;/strong&gt;, a Receita Federal afirmou que a avaliação da reputação ambiental das empresas contempladas por incentivos fiscais é realizada somente quando está expressa na lei que criou o benefício, o que não acontece nos casos apresentados nesta reportagem. “Todo benefício fiscal é determinado por lei, que irá conter os critérios objetivos para sua concessão. À Receita Federal cabe analisar se o postulante a aquele benefício cumpre os requisitos para recebê-lo”, informou.&lt;/p&gt;
+
+
+
+&lt;h2 class="wp-block-heading"&gt;Beneficiária tem área interditada por uso ilegal de mercúrio&amp;nbsp;&lt;/h2&gt;
+
+
+
+&lt;p&gt;Uma das beneficiárias pelo Recap é a Mineração Aricá que, em 2025, recebeu R$ 677,8 mil em incentivos. Em 2024, o valor foi de R$ 30,8 mil.&lt;/p&gt;
+
+
+
+&lt;p&gt;Em novembro de 2023, a mineradora teve uma área embargada e foi multada em R$ 1,5 milhão por apresentar informações falsas no sistema oficial de controle de compra e venda de mercúrio e por manter a substância em desacordo com a legislação.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;A autuação do Ibama ocorreu no âmbito de um desdobramento da Operação Hermes II, deflagrada em 2023 pela Polícia Federal com o objetivo de &lt;a href="https://reporterbrasil.org.br/2023/11/trafico-mercurio-garimpo/" target="_blank" rel="noreferrer noopener"&gt;apurar o comércio e uso ilegal de mercúrio e outros crimes&lt;/a&gt;, como organização e associação criminosa.&lt;/p&gt;
+
+
+
+&lt;p&gt;Altamente tóxico e com potencial de contaminação de ecossistemas aquáticos, o mercúrio pode &lt;a href="https://reporterbrasil.org.br/2023/04/a-floresta-doente-as-criancas-munduruku-que-nao-brincam-e-podem-estar-contaminadas-por-mercurio/" target="_blank" rel="noreferrer noopener"&gt;causar danos neurológicos, reprodutivos e imunológicos em humanos&lt;/a&gt;. Por lei, todo mercúrio de origem legal precisa ser declarado e informado no sistema do Relatório de Mercúrio do Ibama, assim como as transações de compra e venda.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;O embargo, registrado no distrito do Coxipó do Ouro, na zona rural de Cuiabá (MT), permanece ativo. Apesar disso, a empresa registrou recolhimento de CFEM (Compensação Financeira pela Exploração de Recursos Minerais) em 2024 pela comercialização de 211,2 kg de ouro naquele ano.&lt;/p&gt;
+
+
+
+&lt;p&gt;Segundo o Ibama, a mineradora contesta os autos de infração e as multas aplicadas pelo órgão ambiental ainda não foram pagas. À &lt;strong&gt;Repórter Brasil&lt;/strong&gt;, o MPF em São Paulo confirmou que recebeu o relatório da Polícia Federal com o resultado das investigações da Operação Hermes II, mas alegou que o procedimento está sob sigilo e não poderia confirmar se a Mineração Aricá ou seus sócios estão sendo investigados.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;A reportagem procurou a Mineração Aricá por meio de telefones, correio eletrônico e de um advogado que já atuou na defesa da empresa, mas não conseguiu fazer contato com representantes da companhia. O espaço segue aberto para manifestações futuras.&lt;/p&gt;
+
+
+
+&lt;h2 class="wp-block-heading"&gt;Rompimento de barragem deixou 4 mil sem água potável&amp;nbsp;&lt;/h2&gt;
+
+
+
+&lt;p&gt;Ainda hoje, os 4 mil moradores da comunidade de Aurizona, distrito da zona rural de Godofredo Viana, no norte do Maranhão, sofrem as consequências da contaminação das águas do rio Tromaí, que abastece a cidade. A poluição chegou em março de 2021, com o rompimento da barragem Lagoa do Pirocaua, controlada pela Mineração Aurizona S.A.&lt;/p&gt;
+
+
+
+&lt;p&gt;Mesmo com um embargo registrado pelo Ibama desde abril de 2021 em decorrência do rompimento, a mineradora lidera a lista dos valores de renúncias fiscais entre as três empresas citadas nesta reportagem.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Em 2025, a empresa recebeu de R$ 38,1 milhões em isenções, sendo a maior parte – R$ 35,9 milhões – acessada via Sudam. Em 2024, o benefício foi ainda mais robusto, totalizando R$ 47,2 milhões. Novamente, a legislação criada no âmbito da Sudam garantiu a maior parcela, de R$ 44,5 milhões, que também teve acesso ao Recap.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;O rompimento afetou os poços do distrito, que ficaram inutilizados. Agora, a comunidade consome água mineral dos galões fornecidos pela Aurizona, afirmam moradores atingidos ouvidos pela &lt;strong&gt;Repórter Brasil.&lt;/strong&gt; &lt;/p&gt;
+
+
+
+&lt;p&gt;“O prejuízo maior foi na nossa ETA, que é a nossa Estação de Abastecimento de Água”, conta a professora Daiane Lima Sousa, 37. “Devido às nossas lutas, com o MAB [Movimento dos Atingidos por Barragens], eles [Mineradora Aurizona] revitalizaram a ETA. Só que a gente sabe que nunca vai ficar 100%”, diz.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;A professora afirma que a empresa realizou ações de reparos materiais aos moradores prejudicados pelo vazamento. Já os danos ambientais seguem em análise.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Desde setembro de 2021, a Aurizona, bem como o Estado do Maranhão, são alvos de uma Ação Civil Pública ajuizada pelo MPF, que pede a reparação dos prejuízos ambientais.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Em novembro de 2025, a Justiça autorizou uma perícia para apurar se as medidas de remediação adotadas pela empresa foram tecnicamente suficientes e se ainda há prejuízos na área. “A situação atual das famílias, no que diz respeito ao abastecimento de água e à qualidade ambiental da região, é uma das questões que a perícia judicial deverá responder”, informou à reportagem a DPU (Defensoria Pública da União), que atua como assistente do MPF na ação.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Enquanto a ação tramita, a empresa segue em operação. A Mineração Aurizona não respondeu os questionamentos enviados pela &lt;strong&gt;Repórter Brasil &lt;/strong&gt;até a publicação da reportagem. O espaço segue aberto para manifestações futuras.&lt;/p&gt;
+
+
+
+&lt;h2 class="wp-block-heading"&gt;Territórios quilombolas ignorados&lt;/h2&gt;
+
+
+
+&lt;p&gt;Em 2024, ano em que a Aura Almas Mineração S.A. conseguiu isenções fiscais no valor de R$ 3,7 milhões pelo Recap, as operações da empresa no município de Almas (TO) já haviam mudado a rotina dos moradores da comunidade quilombola de Baião.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;O ruído das explosões das rochas incomoda quem vive na zona de impacto do empreendimento. O tráfego intenso de caminhões por uma via antes pacata preocupa os moradores, que temem acidentes, relata Maryellen Crisóstomo, nascida e criada na comunidade Baião e hoje coordenadora da Coordenação Estadual das Comunidades Quilombolas do Tocantins (COEQTO).&lt;/p&gt;
+
+
+
+&lt;p&gt;A comunidade de Baião não teve o processo de regularização fundiária concluído pelo Incra (Instituto Nacional de Colonização e Reforma Agrária). Quando isso acontecer, a barragem usada pela mineradora – distante apenas 5 quilômetros da área habitada – fará limite direto com o quilombo.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;“Nunca ninguém nos procurou para falar sobre rota de fuga, programa de segurança, nem nada”, disse Benvinda Fernandes Cardoso, 54, moradora do Baião, em &lt;a href="https://reporterbrasil.org.br/2024/05/mineradora-estudo-ambiental-antigo-ignora-quilombolas-to/" target="_blank" rel="noreferrer noopener"&gt;entrevista à &lt;strong&gt;Repórter Brasil&lt;/strong&gt;, em maio de 2024&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;No fim de 2023, a Defensoria Pública do Tocantins, em conjunto com a COEQTO, entrou com uma Ação Civil Pública pedindo a suspensão das atividades da mineradora. A ação cita a falta de consulta prévia às comunidades quilombolas diretamente afetadas, como determina a Convenção 169 da OIT, além de supostas falhas no processo de licenciamento ambiental da mina.&lt;/p&gt;
+
+
+
+&lt;figure class="wp-block-image size-large"&gt;&lt;img decoding="async" width="1024" height="683" src="https://reporterbrasil.org.br/wp-content/uploads/2024/05/FM43080-1024x683.jpg" alt="" class="wp-image-84557" srcset="https://reporterbrasil.org.br/wp-content/uploads/2024/05/FM43080-1024x683.jpg 1024w, https://reporterbrasil.org.br/wp-content/uploads/2024/05/FM43080-300x200.jpg 300w, https://reporterbrasil.org.br/wp-content/uploads/2024/05/FM43080-768x512.jpg 768w, https://reporterbrasil.org.br/wp-content/uploads/2024/05/FM43080.jpg 1152w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Eliene Crisóstomo, presidente da Associação de Remanescentes Quilombolas: &amp;#8220;Nós já estávamos aqui e não fomos consultados&amp;#8221; (Foto: Fernando Martinho/ Repórter Brasil)&lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+&lt;p&gt;“A gente questionou não só a inexistência do processo de consulta, mas também o fato de que essa exploração estava acontecendo com base num estudo simplificado de impacto ao meio ambiente e não no EIA/RIMA [Estudo de Impacto Ambiental e Relatório de Impacto Ambiental] completo”, diz a defensora pública Kenia Martins Pimenta Fernandes, coordenadora do Núcleo da Defensoria Pública Agrária e Ambiental do Tocantins.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Em 2025, a Justiça do Estado do Tocantins se posicionou contrária à liminar que pedia pela suspensão das atividades da Aura Almas até que as comunidades impactadas fossem ouvidas. Naquele ano, a mineradora foi novamente beneficiada pelo Recap, com isenções no valor de R$ 269,6 mil. “A liminar nós perdemos. Por outro lado, a ação segue para julgamento de mérito”, explica Fernandes.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Ainda no ano passado, a Defensoria realizou uma audiência de conciliação, onde estabeleceu as exigências para que a empresa siga em operação. O pedido inclui a elaboração de um novo Estudo de Impacto Ambiental e a realização da consulta de acordo com o protocolo definido pelas comunidades. Segundo Fernandes, a Aura Almas concordou com a proposta.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Agora, o acordo está em fase de formalização. Enquanto isso, a mineradora segue expandindo sua área de exploração entre as comunidades. São sete novas lavras em processo de abertura, segundo a Defensoria Pública. Além do Baião, outras quatro comunidades quilombolas ficam na zona de impacto: Poço Dantas, no município de Almas; São Joaquim e Laginha, ambas em Porto Alegre do Tocantins; e Lajeado, em Dianópolis. Esses territórios aguardam os estudos técnicos para a identificação das áreas de uso comum das comunidades.&lt;/p&gt;
+
+
+
+&lt;p&gt;Maryellen Crisóstomo confirma o contato da empresa com os quilombolas. Os resultados do diálogo, no entanto, nem sempre são favoráveis aos habitantes daquelas áreas. “A mineradora foi a Lajeado informar que, com consentimento ou não, vai ter um ponto de extração no território”, diz.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Em resposta à &lt;strong&gt;Repórter Brasil&lt;/strong&gt;, a Aura Almas Mineração afirmou que a sua unidade em Almas mantém as operações regulares, em conformidade com a legislação brasileira. A companhia disse que “prioriza o desenvolvimento socioeconômico regional por meio da contratação de mão de obra local e do fortalecimento da cadeia de fornecedores da região” e que promove iniciativas “de qualificação e integração que contribuem para uma convivência pautada no respeito mútuo e no crescimento compartilhado”. &lt;/p&gt;
+
+
+
+&lt;p&gt;Após a publicação da reportagem, a Aura Almas enviou um posicionamento adicional. Em relação a Ação Civil Pública movida pela Defensoria Pública do Estado, a empresa acrescentou que &amp;#8220;colabora integralmente com as autoridades e que o processo segue o rito judicial regular&amp;#8221;.&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;em&gt;NOTA DA REDAÇÃO: Matéria alterada dia 27/04 às 13h45 para incluir posicionamento adicional enviado pela Aura Almas Mineração.&lt;/em&gt;&lt;/p&gt;
+
+
+
+		&lt;div data-elementor-type="section" data-elementor-id="129686" class="elementor elementor-129686" data-elementor-post-type="elementor_library"&gt;
+			&lt;a class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-e-type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}" href="https://reporterbrasil.org.br/apoie/"&gt;
+					&lt;div class="e-con-inner"&gt;
+				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+															&lt;img decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/a&gt;
+				&lt;/div&gt;
+		
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Poliana Dallabrida Wisentainer</dc:creator><pubDate>Mon, 27 Apr 2026 15:34:56 +0000</pubDate><guid>https://reporterbrasil.org.br/2026/04/mineradoras-multas-ambientais-90-mi-isencoes-fiscais/</guid><guid isPermaLink="true">https://reporterbrasil.org.br/2026/04/mineradoras-multas-ambientais-90-mi-isencoes-fiscais/</guid></item><item><title>Do petróleo ao ‘verde’: soluções do mapa da transição energética podem esconder violações socioambientais</title><link>https://reporterbrasil.org.br/2026/04/mapa-transicao-energetica-podem-esconder-violacoes-socioambientais/</link><description>
 &lt;p&gt;A &lt;strong&gt;Repórter Brasil&lt;/strong&gt; lançou um relatório que analisa medidas de descabonização a partir da proposta chamada “Mapa do Caminho para uma Transição Energética Justa e Planejada”, uma iniciativa adotada pelo governo brasileiro após a COP 30, em Belém. O estudo mostra como o país se apresenta como liderança global na construção de uma rota para superar o uso de petróleo, carvão e gás, ao mesmo tempo em que expande internamente a exploração de combustíveis fósseis, biocombustíveis, a mineração voltada à eletrificação e megaprojetos de energia renovável.&amp;nbsp;&lt;/p&gt;
 
 
@@ -9,15 +265,15 @@
 
 
 &lt;div class="wp-block-group is-layout-grid wp-container-core-group-is-layout-478b6e6b wp-block-group-is-layout-grid"&gt;
-&lt;figure class="wp-block-image size-full"&gt;&lt;a href="https://reporterbrasil.org.br/wp-content/uploads/2026/04/ReporterBrasil_FACTSHEET_Transicao-Energetica_Portugues.pdf" target="_blank" rel=" noreferrer noopener"&gt;&lt;img fetchpriority="high" decoding="async" width="629" height="890" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/capinha-pt-transicao.jpg" alt="" class="wp-image-129608" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/capinha-pt-transicao.jpg 629w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/capinha-pt-transicao-212x300.jpg 212w" sizes="(max-width: 629px) 100vw, 629px" /&gt;&lt;/a&gt;&lt;/figure&gt;
+&lt;figure class="wp-block-image size-full"&gt;&lt;a href="https://reporterbrasil.org.br/wp-content/uploads/2026/04/ReporterBrasil_FACTSHEET_Transicao-Energetica_Portugues.pdf" target="_blank" rel=" noreferrer noopener"&gt;&lt;img loading="lazy" decoding="async" width="629" height="890" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/capinha-pt-transicao.jpg" alt="" class="wp-image-129608" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/capinha-pt-transicao.jpg 629w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/capinha-pt-transicao-212x300.jpg 212w" sizes="(max-width: 629px) 100vw, 629px" /&gt;&lt;/a&gt;&lt;/figure&gt;
 
 
 
-&lt;figure class="wp-block-image size-full"&gt;&lt;a href="https://reporterbrasil.org.br/wp-content/uploads/2026/04/ReporterBrasil_FACTSHEET_Transicao-Energetica_English.pdf" target="_blank" rel=" noreferrer noopener"&gt;&lt;img decoding="async" width="629" height="892" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/capinha-en-transicao.jpg" alt="" class="wp-image-129624" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/capinha-en-transicao.jpg 629w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/capinha-en-transicao-212x300.jpg 212w" sizes="(max-width: 629px) 100vw, 629px" /&gt;&lt;/a&gt;&lt;/figure&gt;
+&lt;figure class="wp-block-image size-full"&gt;&lt;a href="https://reporterbrasil.org.br/wp-content/uploads/2026/04/ReporterBrasil_FACTSHEET_Transicao-Energetica_English.pdf" target="_blank" rel=" noreferrer noopener"&gt;&lt;img loading="lazy" decoding="async" width="629" height="892" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/capinha-en-transicao.jpg" alt="" class="wp-image-129624" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/capinha-en-transicao.jpg 629w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/capinha-en-transicao-212x300.jpg 212w" sizes="(max-width: 629px) 100vw, 629px" /&gt;&lt;/a&gt;&lt;/figure&gt;
 
 
 
-&lt;figure class="wp-block-image size-full"&gt;&lt;a href="https://reporterbrasil.org.br/wp-content/uploads/2026/04/ReporterBrasil_FACTSHEET_Transicao-Energetica_Espanol.pdf" target="_blank" rel=" noreferrer noopener"&gt;&lt;img decoding="async" width="630" height="895" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/capinha-es-transicao.jpg" alt="" class="wp-image-129627" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/capinha-es-transicao.jpg 630w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/capinha-es-transicao-211x300.jpg 211w" sizes="(max-width: 630px) 100vw, 630px" /&gt;&lt;/a&gt;&lt;/figure&gt;
+&lt;figure class="wp-block-image size-full"&gt;&lt;a href="https://reporterbrasil.org.br/wp-content/uploads/2026/04/ReporterBrasil_FACTSHEET_Transicao-Energetica_Espanol.pdf" target="_blank" rel=" noreferrer noopener"&gt;&lt;img loading="lazy" decoding="async" width="630" height="895" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/capinha-es-transicao.jpg" alt="" class="wp-image-129627" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/capinha-es-transicao.jpg 630w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/capinha-es-transicao-211x300.jpg 211w" sizes="(max-width: 630px) 100vw, 630px" /&gt;&lt;/a&gt;&lt;/figure&gt;
 &lt;/div&gt;
 
 
@@ -51,9 +307,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Casal é condenado a mais de 14 anos por escravizar doméstica" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Entre barragens e minas, quilombos do Pará vivem sob pressão da bauxita" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="83413"/&gt;
+							&lt;input type="hidden" name="queried_id" value="128185"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -165,9 +421,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Casal é condenado a mais de 14 anos por escravizar doméstica" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Entre barragens e minas, quilombos do Pará vivem sob pressão da bauxita" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="83413"/&gt;
+							&lt;input type="hidden" name="queried_id" value="128185"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -492,9 +748,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Casal é condenado a mais de 14 anos por escravizar doméstica" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Entre barragens e minas, quilombos do Pará vivem sob pressão da bauxita" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="83413"/&gt;
+							&lt;input type="hidden" name="queried_id" value="128185"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -671,9 +927,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Casal é condenado a mais de 14 anos por escravizar doméstica" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Entre barragens e minas, quilombos do Pará vivem sob pressão da bauxita" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="83413"/&gt;
+							&lt;input type="hidden" name="queried_id" value="128185"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -896,9 +1152,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Casal é condenado a mais de 14 anos por escravizar doméstica" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Entre barragens e minas, quilombos do Pará vivem sob pressão da bauxita" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="83413"/&gt;
+							&lt;input type="hidden" name="queried_id" value="128185"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -1140,9 +1396,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Casal é condenado a mais de 14 anos por escravizar doméstica" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Entre barragens e minas, quilombos do Pará vivem sob pressão da bauxita" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="83413"/&gt;
+							&lt;input type="hidden" name="queried_id" value="128185"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -1174,7 +1430,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-&lt;figure class="wp-block-image size-large"&gt;&lt;img loading="lazy" decoding="async" width="1024" height="682" src="https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-1024x682.jpg" alt="Aerial view of gold mining in Itaituba, Pará. The current mayor of the municipality has stated in an interview that he has never monitored environmental licenses granted by his administration (Photo: Fernando Martinho/Repórter Brasil)" class="wp-image-93368" srcset="https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-1024x682.jpg 1024w, https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-300x200.jpg 300w, https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-768x512.jpg 768w, https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-1536x1023.jpg 1536w, https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1.jpg 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Vista área de garimpo no município de Itaituba, no sudoeste do Pará (Foto: Fernando Martinho/Repórter Brasil)&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure class="wp-block-image size-large"&gt;&lt;img fetchpriority="high" decoding="async" width="1024" height="682" src="https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-1024x682.jpg" alt="Aerial view of gold mining in Itaituba, Pará. The current mayor of the municipality has stated in an interview that he has never monitored environmental licenses granted by his administration (Photo: Fernando Martinho/Repórter Brasil)" class="wp-image-93368" srcset="https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-1024x682.jpg 1024w, https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-300x200.jpg 300w, https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-768x512.jpg 768w, https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-1536x1023.jpg 1536w, https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1.jpg 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Vista área de garimpo no município de Itaituba, no sudoeste do Pará (Foto: Fernando Martinho/Repórter Brasil)&lt;/figcaption&gt;&lt;/figure&gt;
 
 
 
@@ -1320,9 +1576,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Casal é condenado a mais de 14 anos por escravizar doméstica" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Entre barragens e minas, quilombos do Pará vivem sob pressão da bauxita" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="83413"/&gt;
+							&lt;input type="hidden" name="queried_id" value="128185"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -1487,9 +1743,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Casal é condenado a mais de 14 anos por escravizar doméstica" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Entre barragens e minas, quilombos do Pará vivem sob pressão da bauxita" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="83413"/&gt;
+							&lt;input type="hidden" name="queried_id" value="128185"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -1729,9 +1985,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Casal é condenado a mais de 14 anos por escravizar doméstica" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Entre barragens e minas, quilombos do Pará vivem sob pressão da bauxita" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="83413"/&gt;
+							&lt;input type="hidden" name="queried_id" value="128185"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -1821,280 +2077,4 @@ document.addEventListener("DOMContentLoaded", function() {
 				&lt;/div&gt;
 				&lt;/div&gt;
 		
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Carlos Juliano Barros</dc:creator><pubDate>Wed, 18 Mar 2026 11:58:19 +0000</pubDate><guid>https://reporterbrasil.org.br/2026/03/stf-moratoria-soja-desmatamento-amazonia/</guid><guid isPermaLink="true">https://reporterbrasil.org.br/2026/03/stf-moratoria-soja-desmatamento-amazonia/</guid></item><item><title>Global banks stay silent on ties to Indigenous-opposed project in the Amazon</title><link>https://reporterbrasil.org.br/2026/03/global-banks-ties-indigenous-opposed-project-i-amazon/</link><description>
-&lt;p&gt;&lt;strong&gt;GLOBAL FINANCIAL INSTITUTIONS&lt;/strong&gt; such as Swiss bank UBS (Union Bank of Switzerland) and the U.S. firms Morgan Stanley, Rockefeller Capital Management and Goldman Sachs have disclosed holding or managing shares in Brazil Potash, the Canadian company behind a mining project in Autazes, in Brazil’s Amazonas state, that is being challenged by Indigenous communities and Brazil’s Federal Prosecutor’s Office (MPF).&lt;/p&gt;
-
-
-
-&lt;p&gt;The &lt;a href="https://fintel.io/so/us/gro" target="_blank" rel="noreferrer noopener"&gt;data was reviewed by &lt;strong&gt;Repórter Brasil &lt;/strong&gt;on market intelligence platform Fintel&lt;/a&gt;, which compiles information filed with the U.S. Securities and Exchange Commission (SEC). These records show equity stakes disclosed by banks and asset managers and may reflect both the institutions’ own investments and client assets under their management. According to data from February 2026, covering the last quarter of 2025, at least 28 financial institutions held or managed shares in Brazil Potash.&lt;/p&gt;
-
-
-
-&lt;p&gt;In Autazes, Brazil Potash hopes &lt;a href="https://potassiodobrasil.com.br/brazil-potash-anuncia-marcos-de-2025-e-prioridades-estrategicas-para-2026/" target="_blank" rel="noreferrer noopener"&gt;to secure this year the financing needed to build a potash extraction complex&lt;/a&gt;. Potash is a mineral used in fertilizer production. In addition to an underground mine, the project includes an industrial plant, an access road, power transmission lines and a port on the Madeira River. The &lt;a href="https://ir.brazilpotash.com/news-events/press-releases/detail/46/brazil-potash-presells-91-of-future-production-catalyzing-construction-financing-phase" target="_blank" rel="noreferrer noopener"&gt;company estimates initial output of up to 2.4 million tons per year&lt;/a&gt;, potentially supplying 20% of Brazil’s potash demand. Brazil is currently the &lt;a href="https://oglobo.globo.com/economia/noticia/2024/09/19/maior-importador-mundial-de-fertilizantes-brasil-tem-meta-de-produzir-ate-2050-de-45percent-a-50percent-da-demanda.ghtml"&gt;world’s largest fertilizer importer&lt;/a&gt;.&lt;/p&gt;
-
-
-
-		&lt;div data-elementor-type="section" data-elementor-id="77670" class="elementor elementor-77670" data-elementor-post-type="elementor_library"&gt;
-			&lt;div class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-e-type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}"&gt;
-					&lt;div class="e-con-inner"&gt;
-				&lt;div class="elementor-element elementor-element-386385d elementor-widget elementor-widget-heading" data-id="386385d" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-					&lt;h2 class="elementor-heading-title elementor-size-default"&gt;ASSINE NOSSA NEWSLETTER&lt;/h2&gt;				&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-6546917 elementor-widget elementor-widget-html" data-id="6546917" data-element_type="widget" data-e-type="widget" data-widget_type="html.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-					&lt;script&gt;
-document.addEventListener("DOMContentLoaded", function() {
-    document.querySelectorAll('.form-news button[type="submit"]').forEach(function(botao) {
-        botao.classList.add("envio_newsletter_materia");
-    });
-});
-&lt;/script&gt;				&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-8c2e333 form-news elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="8c2e333" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;button_width&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_next_label&amp;quot;:&amp;quot;Next&amp;quot;,&amp;quot;step_previous_label&amp;quot;:&amp;quot;Previous&amp;quot;,&amp;quot;button_width_mobile&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_type&amp;quot;:&amp;quot;number_text&amp;quot;,&amp;quot;step_icon_shape&amp;quot;:&amp;quot;circle&amp;quot;}" data-widget_type="form.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
-			&lt;input type="hidden" name="post_id" value="77670"/&gt;
-			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Casal é condenado a mais de 14 anos por escravizar doméstica" /&gt;
-
-							&lt;input type="hidden" name="queried_id" value="83413"/&gt;
-			
-			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
-								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
-												&lt;label for="form-field-email" class="elementor-field-label elementor-screen-only"&gt;
-								Email							&lt;/label&gt;
-														&lt;input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="email" required="required"&gt;
-											&lt;/div&gt;
-								&lt;div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-20 e-form__buttons elementor-sm-20"&gt;
-					&lt;button class="elementor-button elementor-size-sm" type="submit"&gt;
-						&lt;span class="elementor-button-content-wrapper"&gt;
-															&lt;span class="elementor-button-icon"&gt;
-									&lt;i aria-hidden="true" class="fas fa-long-arrow-alt-right"&gt;&lt;/i&gt;																			&lt;span class="elementor-screen-only"&gt;Submit&lt;/span&gt;
-																	&lt;/span&gt;
-																				&lt;/span&gt;
-					&lt;/button&gt;
-				&lt;/div&gt;
-			&lt;/div&gt;
-		&lt;/form&gt;
-						&lt;/div&gt;
-				&lt;/div&gt;
-					&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;/div&gt;
-		
-
-
-
-&lt;p&gt;The entrance to the future Brazil Potash mine is about 2 kilometers from Soares village, an Indigenous Mura community. Since 2003, the &lt;a href="https://amazoniareal.com.br/grupo-tecnico-autazes/" target="_blank" rel="noreferrer noopener"&gt;Mura have been seeking formal recognition of the territory by Funai&lt;/a&gt; (Brazil’s National Foundation for Indigenous Peoples). Other Mura Indigenous lands that have been demarcated or are in the demarcation process — such as Jauary and Paracuhuba Indigenous Territories — lie less than 8 kilometers from the project area and could be affected by underground mining operations, according to the MPF.&lt;/p&gt;
-
-
-
-&lt;figure class="wp-block-image size-large"&gt;&lt;img loading="lazy" decoding="async" width="1024" height="1024" src="https://reporterbrasil.org.br/wp-content/uploads/2026/03/Potash-Rush-1024x1024.jpg" alt="" class="wp-image-127630" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/03/Potash-Rush-1024x1024.jpg 1024w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/Potash-Rush-300x300.jpg 300w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/Potash-Rush-150x150.jpg 150w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/Potash-Rush-768x768.jpg 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/Potash-Rush-1536x1536.jpg 1536w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/Potash-Rush.jpg 1800w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;/figure&gt;
-
-
-
-&lt;p&gt;Since 2016, federal prosecutors have filed lawsuits against Potássio do Brasil, Brazil Potash’s local subsidiary. The MPF questions the legality of the project’s environmental licensing and of the Free, Prior and Informed Consultation (FPIC) with Indigenous communities, as required under International Labour Organization Convention 169, which has been in force in Brazilian law since 2003. In October 2025, the Brazilian Federal Regional Court of the 1st Region (TRF-1) &lt;a href="https://amazonasatual.com.br/trf1-confirma-decisao-que-autorizou-projeto-potassio-autazes-no-amazonas/" target="_blank" rel="noreferrer noopener"&gt;rejected appeals filed by the MPF&lt;/a&gt;, effectively clearing the way for construction to begin in Autazes. The MPF is appealing that ruling.&lt;/p&gt;
-
-
-
-&lt;p&gt;“If the companies hold shares in BrasilPotlash, they have a business relationship. By holding shares, they make the project/ business possible and also provide for legitimacy and reputation of the project/business,” said Julia Büsser, Amazon program manager at Voices, a Swiss organization that advocates for the rights of Indigenous peoples and minorities. In Büsser’s view, even if responsibility is not the same as legal liability and even without a majority control, “there is an obligation to use opportunities to exert influence. If influence is not possible, divestment must be considered as a last resort.”&lt;/p&gt;
-
-
-
-&lt;h2 class="wp-block-heading"&gt;Understanding the case&lt;/h2&gt;
-
-
-
-&lt;p&gt;The race for potash in Autazes began in 2009, when Brazil’s federal government granted the first mineral exploration licenses to Potássio do Brasil. In 2010, the company began its first exploratory drilling in Autazes.&lt;/p&gt;
-
-
-
-&lt;figure class="wp-block-image size-large"&gt;&lt;img loading="lazy" decoding="async" width="1024" height="683" src="https://reporterbrasil.org.br/wp-content/uploads/2026/03/comunidade_aldeiasoares_autazes_reporterbrasil_marianagreif-1-1024x683.jpg" alt="Mura residents of Soares village say a consultation carried out by Potássio do Brasil excluded members of the community closest to the project (Photo: Mariana Greif/Repórter Brasil)" class="wp-image-127577" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/03/comunidade_aldeiasoares_autazes_reporterbrasil_marianagreif-1-1024x683.jpg 1024w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/comunidade_aldeiasoares_autazes_reporterbrasil_marianagreif-1-300x200.jpg 300w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/comunidade_aldeiasoares_autazes_reporterbrasil_marianagreif-1-768x512.jpg 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/comunidade_aldeiasoares_autazes_reporterbrasil_marianagreif-1.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Mura residents of Soares village say a consultation carried out by Potássio do Brasil excluded members of the community closest to the project (Photo: Mariana Greif/Repórter Brasil)&lt;/figcaption&gt;&lt;/figure&gt;
-
-
-
-&lt;p&gt;The dispute entered the courts in 2016, when the MPF filed a civil public action against Potássio do Brasil, Ipaam (the Amazonas State Institute for Environmental Protection), the National Department of Mineral Production (extinguished in 2017 and replaced by the National Mining Agency) and Funai. In the lawsuit, federal prosecutors say Potássio do Brasil began conducting studies in the area without consulting Mura communities.&lt;/p&gt;
-
-
-
-&lt;p&gt;The MPF also argues that because the project affects Indigenous communities, the authority responsible for environmental licensing should be Ibama — Brazil’s federal environmental agency — not the state agency. In 2017, the project’s licensing was suspended until consultation with the Mura communities potentially affected by the project was carried out.&lt;/p&gt;
-
-
-
-&lt;p&gt;The consultation process was marked by delays due to Covid-19, as well as accusations by the MPF and part of the Mura communities of “bad faith, harassment, psychological harm, moral damages, coercion, manipulation and intimidation against Mura Indigenous people” by Potássio do Brasil, according to a November 2023 ruling by the Federal Court in Amazonas that suspended the consultation process. The MPF also raised &lt;a href="https://infoamazonia.org/2023/11/29/mineradora-canadense-e-acusada-de-subornar-indigenas-para-desistirem-da-demarcacao-do-territorio-e-explorar-potassio-na-area/" target="_blank" rel="noreferrer noopener"&gt;suspicions of bribery payments aimed at convincing Indigenous residents of Soares village&lt;/a&gt; to abandon their claim to formal land recognition.&lt;/p&gt;
-
-
-
-&lt;p&gt;The demarcation process for Soares and Urucurituba Indigenous Territory, which includes the area of Soares village, was opened by Funai in 2023 after two decades. The territory is currently listed as “under study” by the agency. This is the first stage in the formal recognition of an Indigenous territory in Brazil.&lt;/p&gt;
-
-
-
-&lt;figure class="wp-block-image size-large"&gt;&lt;img loading="lazy" decoding="async" width="1024" height="683" src="https://reporterbrasil.org.br/wp-content/uploads/2026/03/aldeiasoares_potassiodobrasil_reporterbrasil_marianagreif-1-1024x683.jpg" alt="“They are violating our rights,” says Filipe Gabriel Mura, indigenous leader of Soares village (Photo: Mariana Greif/Repórter Brasil)" class="wp-image-127578" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/03/aldeiasoares_potassiodobrasil_reporterbrasil_marianagreif-1-1024x683.jpg 1024w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/aldeiasoares_potassiodobrasil_reporterbrasil_marianagreif-1-300x200.jpg 300w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/aldeiasoares_potassiodobrasil_reporterbrasil_marianagreif-1-768x512.jpg 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/aldeiasoares_potassiodobrasil_reporterbrasil_marianagreif-1-1536x1024.jpg 1536w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/aldeiasoares_potassiodobrasil_reporterbrasil_marianagreif-1.jpg 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;figcaption class="wp-element-caption"&gt;“They are violating our rights,” says Filipe Gabriel Mura, indigenous leader of Soares village (Photo: Mariana Greif/Repórter Brasil)&lt;/figcaption&gt;&lt;/figure&gt;
-
-
-
-&lt;p&gt;A year earlier, in 2022, the MPF had filed another civil public action seeking completion of the demarcation process for the Indigenous land. Funai, however, has yet to submit to the courts a timetable for completing the studies on Soares and Urucurituba Indigenous Territory, according to the latest case update, issued in January this year.&lt;/p&gt;
-
-
-
-&lt;p&gt;Despite the legal challenges, Potássio do Brasil obtained an environmental license from the state environmental agency, which was &lt;a href="https://infoamazonia.org/2024/05/17/mina-de-potassio-comeca-a-ser-construida-em-territorio-mura-e-mpf-entra-com-acao-judicial/" target="_blank" rel="noreferrer noopener"&gt;personally handed over by Amazonas Governor Wilson Lima in April 2024&lt;/a&gt;. A month later, the MPF filed a new lawsuit against the company, urgently seeking suspension of the license.&lt;/p&gt;
-
-
-
-&lt;p&gt;In that suit, prosecutors argue that the consultation process carried out by Potássio do Brasil with some Mura Indigenous people who approved the project did not include representatives from the MPF, Funai or members of Soares village, an as-yet-undemarcated territory that overlaps the project area. “Not even the Mura from the territory Potássio intends to drill in (the Soares Indigenous community) were present — in other words, it is as if they were negotiating other people’s assets, a pure fraud,” the lawsuit states.&lt;/p&gt;
-
-
-
-&lt;p&gt;According to prosecutor Fernando Merloto, who has followed the dispute between the Mura and Potássio do Brasil, despite the urgent request, the MPF’s case has not yet been ruled on.&lt;/p&gt;
-
-
-
-&lt;p&gt;When contacted, Potássio do Brasil did not respond to questions sent by&lt;strong&gt; Repórter Brasil&lt;/strong&gt; by the time this article was published.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;h2 class="wp-block-heading"&gt;Project fuels internal tensions&lt;/h2&gt;
-
-
-
-&lt;p&gt;During a visit to Soares village, the Mura community closest to the proposed mine site, &lt;strong&gt;Repórter Brasil &lt;/strong&gt;spoke with tuxaua — a term meaning “leader” — Filipe Gabriel Mura. He said the project has deepened internal tensions and that families opposed to the mine report pressure and threats. He also described drilling and surveys on residents’ land, followed by &lt;a href="https://amazoniareal.com.br/especiais/projeto-autazes/" target="_blank" rel="noreferrer noopener"&gt;pressure to sell plots to the company&lt;/a&gt;.&lt;/p&gt;
-
-
-
-&lt;p&gt;“They are violating our rights. They do not respect us as peoples who have cared for this land since we first came to these areas,” the Mura leader said.&lt;/p&gt;
-
-
-
-&lt;figure class="wp-block-image size-large"&gt;&lt;img loading="lazy" decoding="async" width="1024" height="683" src="https://reporterbrasil.org.br/wp-content/uploads/2026/03/lagodosoares_autazes_reporterbrasil_marianagreif-1024x683.jpg" alt="During a visit to Soares village, Repórter Brasil heard from Indigenous residents that the project has deepened internal tensions and that families opposed to the mine have reported pressure and threats (Photo: Mariana Greif/Repórter Brasil)" class="wp-image-127632" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/03/lagodosoares_autazes_reporterbrasil_marianagreif-1024x683.jpg 1024w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/lagodosoares_autazes_reporterbrasil_marianagreif-300x200.jpg 300w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/lagodosoares_autazes_reporterbrasil_marianagreif-768x512.jpg 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/lagodosoares_autazes_reporterbrasil_marianagreif.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;figcaption class="wp-element-caption"&gt;During a visit to Soares village, Repórter Brasil heard from Indigenous residents that the project has deepened internal tensions and that families opposed to the mine have reported pressure and threats (Photo: Mariana Greif/Repórter Brasil)&lt;/figcaption&gt;&lt;/figure&gt;
-
-
-
-&lt;p&gt;Milena Mura, coordinator of the Organization of Indigenous Mura Women (OMIM), also criticized Potássio do Brasil’s consultation process, calling it “pro forma,” and denounced the exclusion of part of the community from decision-making. “The consultation was held only with tuxauas and commissions, and with the company present inside the territory, which the courts had already prohibited. Not everyone was heard,” she said.&lt;/p&gt;
-
-
-
-&lt;h2 class="wp-block-heading"&gt;Canadians in the Amazon&lt;/h2&gt;
-
-
-
-&lt;p&gt;Brazil Potash Corp. has been &lt;a href="https://ir.brazilpotash.com/resources-media/investor-faqs" target="_blank" rel="noreferrer noopener"&gt;listed on the New York Stock Exchange since 2024&lt;/a&gt;. Goldman Sachs, one of the world’s biggest investment banks, reported positions in 13,624 shares of the Canadian company during the period. Morgan Stanley, UBS and Rockefeller managed, respectively, 12,500, 9,941 and 6,500 shares. These institutions, however, are not Brazil Potash’s largest shareholders.&lt;/p&gt;
-
-
-
-&lt;p&gt;According to a document filed by &lt;a href="https://ir.brazilpotash.com/financials/sec-filings/content/0001193125-25-179936/d26115dex991.htm" target="_blank" rel="noreferrer noopener"&gt;Brazil Potash with the SEC in August 2025&lt;/a&gt;, the company’s main shareholders are two mining-focused investment firms: UK-based CD Capital, with 11.1 million shares (equivalent to 27.7% of Brazil Potash’s shares), and Sentient, registered in the Cayman Islands, with 7.3 million shares (18.3%). Canadian billionaire Stan Bharti, &lt;a href="https://www.forbesmanhattan.com/about-us/" target="_blank" rel="noreferrer noopener"&gt;founder of merchant bank Forbes &amp;amp; Manhattan&lt;/a&gt; and former executive chairman and former director of Brazil Potash, holds 4 million shares, or 10% of the Canadian company.&lt;/p&gt;
-
-
-
-&lt;h2 class="wp-block-heading"&gt;Banks’ policies&lt;/h2&gt;
-
-
-
-&lt;p&gt;In public documents reviewed by &lt;strong&gt;Repórter Brasil&lt;/strong&gt;, the banks and asset managers say their business decisions must take human rights risks into account and that cases involving Indigenous peoples require special attention.&lt;/p&gt;
-
-
-
-&lt;p&gt;UBS, for example, says it does not do business when a transaction is associated with severe environmental or social harm, including violations of Indigenous rights, and that cases raising “concern” should trigger enhanced review and an internal approval process. According to documents from the Zurich-based bank, these guidelines apply to decisions involving product development, investments, financing and supply-chain management.&lt;/p&gt;
-
-
-
-&lt;p&gt;Morgan Stanley, in turn, states in public documents that potential human rights violations are assessed through its due diligence process — the process of identifying, preventing, mitigating and responding to human rights harms and environmental violations that a company may have caused or contributed to. The institution says it expects operations affecting Indigenous peoples to follow international standards, including proper consultation. The bank’s policy applies to transactions carried out directly by Morgan Stanley and by its suppliers.&lt;/p&gt;
-
-
-
-&lt;figure class="wp-block-image size-large"&gt;&lt;img loading="lazy" decoding="async" width="1024" height="683" src="https://reporterbrasil.org.br/wp-content/uploads/2026/03/casas_aldeiasoares_autazes_reporterbrasil_marianagreif-1-1024x683.jpg" alt="Since 2022, a public civil action filed by federal prosecutors has pressed for progress in the demarcation of the Soares and Urucurituba Indigenous Territory, which includes Soares village (Photo: Mariana Greif/Repórter Brasil)" class="wp-image-127579" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/03/casas_aldeiasoares_autazes_reporterbrasil_marianagreif-1-1024x683.jpg 1024w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/casas_aldeiasoares_autazes_reporterbrasil_marianagreif-1-300x200.jpg 300w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/casas_aldeiasoares_autazes_reporterbrasil_marianagreif-1-768x512.jpg 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/casas_aldeiasoares_autazes_reporterbrasil_marianagreif-1.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Since 2022, a public civil action filed by federal prosecutors has pressed for progress in the demarcation of the Soares and Urucurituba Indigenous Territory, which includes Soares village (Photo: Mariana Greif/Repórter Brasil)&lt;/figcaption&gt;&lt;/figure&gt;
-
-
-
-&lt;p&gt;Goldman Sachs’ policies also require a due diligence process before any business is carried out by the bank, including identifying possible violations of Indigenous rights.&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;Repórter Brasil&lt;/strong&gt; reviewed the human rights and Indigenous rights policies of the financial institutions cited in this report and asked whether the Potássio do Brasil case violates any of those guidelines. None of the institutions responded by the time this article was completed. &lt;strong&gt;Repórter Brasil&lt;/strong&gt; was unable to find contact information for Sentient. The companies remain welcome to comment in the future.&lt;/p&gt;
-
-
-
-&lt;p&gt;In response to the report, Stan Bharti, one of the founders of Brazil Potash, said the company “conducts its activities in Brazil with respect for the country’s institutions and regulatory framework.” He said the company carried out a Free, Prior and Informed Consultation process with representatives from dozens of Mura Indigenous communities in Autazes, and that the project received support from more than 90% of participants. “As with any major development initiative, differing views may exist within communities, and those perspectives remain part of an ongoing dialogue,” Bharti said. He also stressed that the consultation process, “as well as its validity and legitimacy,” was later reviewed and confirmed by TRF-1 in multiple court decisions.&lt;/p&gt;
-
-
-
-&lt;p&gt;“It would be much easier if the investors in Potássio do Brasil respected us. Because in the end it is disrespectful to our essence, our history, who we are and who we want to be,” said tuxaua Filipe Gabriel, from Soares village.&lt;/p&gt;
-
-
-
-&lt;h2 class="wp-block-heading"&gt;Supply agreement with Swiss trader&lt;/h2&gt;
-
-
-
-&lt;p&gt;Beyond stock market dealings on the New York Stock Exchange, Brazil Potash has also advanced future potash sales agreements. Some of those investments come from Switzerland.&lt;/p&gt;
-
-
-
-&lt;p&gt;Swiss fertilizer company &lt;a href="https://ir.brazilpotash.com/news-events/press-releases/detail/43/brazil-potash-executes-definitive-offtake-agreement-with-keytrade-fertilizantes-brasil-for-~900000-tons-of-fertilizer" target="_blank" rel="noreferrer noopener"&gt;Keytrade signed a contract in August 2025 committing to buy up to 900,000 tons of potassium chloride&lt;/a&gt; annually from the Autazes mine over a 10-year period. The commercial agreement was signed between the Brazilian subsidiaries of the two companies. In 2022, Potássio do Brasil had announced a &lt;a href="https://brazilpotash.com/brazil-potash-announces-multiple-agreements-with-amaggi-including-an-offtake-agreement/" target="_blank" rel="noreferrer noopener"&gt;similar commitment with trading company Amaggi&lt;/a&gt;.&lt;/p&gt;
-
-
-
-&lt;p&gt;The Swiss Coalition for Corporate Justice warns that Switzerland may soon become the only country in Europe without binding legal due diligence requirements. According to the organization, the lack of regulation means sustainability commitments remain limited to voluntary initiatives, which often fail to produce concrete results.&lt;/p&gt;
-
-
-
-&lt;p&gt;In response to &lt;strong&gt;Repórter Brasil&lt;/strong&gt;, Amaggi sent a statement it had released to the press in 2023, after signing its contracts with Potássio do Brasil. In the document, the company said the agreement with the mining company “provides for obligations on both parties to follow best environmental, social, sustainability and governance practices” and that all of its contracts are conducted based on “criteria guided by the socio-environmental commitments and policies adopted by the company and in accordance with applicable legislation and the rules of the competent environmental authorities.”&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;Repórter Brasil&lt;/strong&gt; also contacted Keytrade, but the company did not respond to the questions sent before publication.&lt;/p&gt;
-
-
-
-&lt;h2 class="wp-block-heading"&gt;Project carries risk of water salinization&lt;/h2&gt;
-
-
-
-&lt;p&gt;In the project’s Environmental Impact Study and Report, submitted in 2015, Potássio do Brasil acknowledges the risk that the project could salinize the water used by surrounding communities. The document points to the “possibility of water with a high salt content infiltrating shallow aquifers near the plant area, altering the quality of these waters.”&lt;/p&gt;
-
-
-
-&lt;p&gt;In the same document, Potássio do Brasil also acknowledges that deforestation and earthmoving may increase water turbidity and silt up drainage channels and rivers in the region, including Lake Soares, by leaving the soil exposed. The study says siltation could bury animals and reduce fish diversity, affecting subsistence fishing, a pillar of local food supply and the local economy.&lt;/p&gt;
-
-
-
-&lt;p&gt;Facing these threats, the tuxaua of Soares village fears the community where he was born could disappear once the mine begins operating. “[If the project goes ahead] there will be no way for anyone to keep living here. [This place] will become deserted, abandoned houses,” Gabriel Mura told &lt;strong&gt;Repórter Brasil&lt;/strong&gt;.&lt;/p&gt;
-
-
-
-		&lt;div data-elementor-type="container" data-elementor-id="75228" class="elementor elementor-75228" data-elementor-post-type="elementor_library"&gt;
-				&lt;div class="elementor-element elementor-element-5e8db1e6 e-flex e-con-boxed e-con e-parent" data-id="5e8db1e6" data-element_type="container" data-e-type="container"&gt;
-					&lt;div class="e-con-inner"&gt;
-		&lt;div class="elementor-element elementor-element-36eb6c91 e-flex e-con-boxed e-con e-child" data-id="36eb6c91" data-element_type="container" data-e-type="container"&gt;
-					&lt;div class="e-con-inner"&gt;
-		&lt;div class="elementor-element elementor-element-6f52f515 e-con-full e-flex e-con e-child" data-id="6f52f515" data-element_type="container" data-e-type="container"&gt;
-				&lt;div class="elementor-element elementor-element-65d9f401 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="65d9f401" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-							&lt;div class="elementor-divider"&gt;
-			&lt;span class="elementor-divider-separator"&gt;
-						&lt;/span&gt;
-		&lt;/div&gt;
-						&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;/div&gt;
-		&lt;div class="elementor-element elementor-element-134a1245 e-flex e-con-boxed e-con e-child" data-id="134a1245" data-element_type="container" data-e-type="container"&gt;
-					&lt;div class="e-con-inner"&gt;
-				&lt;div class="elementor-element elementor-element-10fe55fe elementor-widget elementor-widget-text-editor" data-id="10fe55fe" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-									&lt;p&gt;Leia também&lt;/p&gt;								&lt;/div&gt;
-				&lt;/div&gt;
-					&lt;/div&gt;
-				&lt;/div&gt;
-					&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-3c9495ae elementor-grid-1 leia-tambem elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid" data-id="3c9495ae" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;template_id&amp;quot;:&amp;quot;75221&amp;quot;,&amp;quot;columns&amp;quot;:1,&amp;quot;row_gap&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:10,&amp;quot;sizes&amp;quot;:[]},&amp;quot;_skin&amp;quot;:&amp;quot;post&amp;quot;,&amp;quot;columns_tablet&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;columns_mobile&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;edit_handle_selector&amp;quot;:&amp;quot;[data-elementor-type=\&amp;quot;loop-item\&amp;quot;]&amp;quot;,&amp;quot;row_gap_tablet&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]},&amp;quot;row_gap_mobile&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]}}" data-widget_type="loop-grid.post"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-							&lt;div class="e-loop-nothing-found-message"&gt;
-		&lt;/div&gt;
-						&lt;/div&gt;
-				&lt;/div&gt;
-					&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;/div&gt;
-		
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Poliana Dallabrida Wisentainer</dc:creator><pubDate>Tue, 10 Mar 2026 13:33:26 +0000</pubDate><guid>https://reporterbrasil.org.br/2026/03/global-banks-ties-indigenous-opposed-project-i-amazon/</guid><guid isPermaLink="true">https://reporterbrasil.org.br/2026/03/global-banks-ties-indigenous-opposed-project-i-amazon/</guid></item></channel></rss>
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Carlos Juliano Barros</dc:creator><pubDate>Wed, 18 Mar 2026 11:58:19 +0000</pubDate><guid>https://reporterbrasil.org.br/2026/03/stf-moratoria-soja-desmatamento-amazonia/</guid><guid isPermaLink="true">https://reporterbrasil.org.br/2026/03/stf-moratoria-soja-desmatamento-amazonia/</guid></item></channel></rss>
