@@ -7,6 +7,7 @@ import datetime
 import pytz
 import xml.etree.ElementTree as ET
 from email.utils import parsedate_to_datetime
+from html import escape as html_escape
 
 def requests_retry_session(
     retries=3,
@@ -1380,13 +1381,26 @@ class CNNBrasilBlogScraper(BaseScraper):
             data = r.json()
             content = data.get('content')
             if isinstance(content, dict):
-                return content.get('raw') or content.get('rendered') or ''
-            if isinstance(content, str):
-                return content
-            return ''
+                # Prefer 'content' (rendered HTML, shortcodes expanded) over
+                # 'raw' (which contains unprocessed [read_too] shortcodes).
+                html = content.get('content') or content.get('rendered') or content.get('raw') or ''
+            elif isinstance(content, str):
+                html = content
+            else:
+                return ''
+            return self._clean_content(html)
         except Exception as e:
             print(f"   ⚠️  Erro ao buscar conteúdo do post {slug}: {str(e)}")
             return ''
+
+    def _clean_content(self, html):
+        """Strip the 'Leia mais' recommendation aside, which is navigation, not body."""
+        if not html or '<aside' not in html:
+            return html
+        soup = BeautifulSoup(html, 'html.parser')
+        for aside in soup.select('aside.read-too'):
+            aside.decompose()
+        return str(soup)
 
     def _parse_post(self, post, fetch_body=True):
         slug = post.get('slug', '')
@@ -1608,6 +1622,178 @@ class DWTopicScraper(BaseScraper):
         pass  # Logic is handled in get_articles
 
 
+class BBCFutureScraper(BaseScraper):
+    """Scraper for BBC Future (https://www.bbc.com/future).
+
+    BBC Future has no official RSS feed. The hub page is server-rendered and
+    exposes /future/article/YYYYMMDD-slug links. Each article page embeds a
+    Next.js __NEXT_DATA__ JSON blob with structured content blocks, which we
+    convert to HTML.
+    """
+    BASE_URL = "https://www.bbc.com"
+    HEADERS = {
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
+    }
+    NEXT_DATA_RE = re.compile(
+        r'<script id="__NEXT_DATA__" type="application/json"[^>]*>(.+?)</script>',
+        re.DOTALL,
+    )
+
+    def get_latest_article(self):
+        articles = self.get_articles(limit=1)
+        return articles[0] if articles else None
+
+    def get_articles(self, limit=10):
+        try:
+            response = requests_retry_session().get(self.url, timeout=30, headers=self.HEADERS)
+            response.raise_for_status()
+            soup = BeautifulSoup(response.content, 'html.parser')
+
+            seen = set()
+            article_urls = []
+            for a in soup.select('a[href*="/future/article/"]'):
+                href = (a.get('href') or '').split('?')[0].rstrip('/')
+                if not href:
+                    continue
+                if not href.startswith('http'):
+                    href = f"{self.BASE_URL}{href}"
+                if href not in seen:
+                    seen.add(href)
+                    article_urls.append(href)
+
+            if not article_urls:
+                print(f"Nenhum artigo encontrado em {self.url}")
+                return []
+
+            articles = []
+            for url in article_urls[:limit]:
+                article = self._fetch_article(url)
+                if article:
+                    articles.append(article)
+            return articles
+        except Exception as e:
+            print(f"Erro ao processar BBC Future {self.url}: {str(e)}")
+            return []
+
+    def _fetch_article(self, url):
+        import json as _json
+
+        try:
+            r = requests_retry_session().get(url, timeout=30, headers=self.HEADERS)
+            r.raise_for_status()
+
+            match = self.NEXT_DATA_RE.search(r.text)
+            if not match:
+                return None
+
+            data = _json.loads(match.group(1))
+            pp = data.get('props', {}).get('pageProps', {})
+            md = pp.get('metadata', {})
+            page = pp.get('page', {})
+            if not isinstance(page, dict) or not page:
+                return None
+
+            article_data = next(iter(page.values()))
+            contents = article_data.get('contents', []) if isinstance(article_data, dict) else []
+
+            title = self._extract_title(contents) or md.get('seoHeadline') or md.get('promoHeadline') or ''
+            author = self._clean_author(md.get('contributor', ''))
+            pubdate = self._parse_timestamp(md.get('firstPublished'))
+            description = self._render_contents(contents) or md.get('description', '')
+
+            return {
+                'title': title,
+                'link': url,
+                'pubdate': pubdate,
+                'author': author or 'BBC Future',
+                'description': description,
+            }
+        except Exception as e:
+            print(f"   ⚠️  Erro ao buscar artigo BBC Future {url}: {str(e)}")
+            return None
+
+    def _extract_title(self, contents):
+        for blk in contents:
+            if isinstance(blk, dict) and blk.get('type') == 'headline':
+                return self._collect_text(blk).strip()
+        return ''
+
+    def _clean_author(self, text):
+        if not text:
+            return ''
+        text = text.strip()
+        if text.lower().startswith('by '):
+            text = text[3:].strip()
+        return text
+
+    def _parse_timestamp(self, ts_ms):
+        if not ts_ms:
+            return datetime.datetime.now(pytz.UTC)
+        try:
+            return datetime.datetime.fromtimestamp(int(ts_ms) / 1000, tz=pytz.UTC)
+        except (ValueError, TypeError):
+            return datetime.datetime.now(pytz.UTC)
+
+    def _render_contents(self, contents):
+        """Render the structured contents list to an HTML string."""
+        parts = []
+        for blk in contents:
+            if not isinstance(blk, dict):
+                continue
+            t = blk.get('type')
+            if t == 'text':
+                for para in blk.get('model', {}).get('blocks', []):
+                    if isinstance(para, dict) and para.get('type') == 'paragraph':
+                        rendered = self._render_paragraph(para)
+                        if rendered:
+                            parts.append(f'<p>{rendered}</p>')
+            elif t == 'subheadline':
+                rendered = html_escape(self._collect_text(blk).strip())
+                if rendered:
+                    parts.append(f'<h2>{rendered}</h2>')
+        return '\n'.join(parts)
+
+    def _render_paragraph(self, para):
+        """Render a paragraph block to inline HTML, preserving links and emphasis."""
+        out = []
+        for f in para.get('model', {}).get('blocks', []):
+            if not isinstance(f, dict):
+                continue
+            ft = f.get('type')
+            model = f.get('model', {})
+            if ft == 'fragment':
+                text = html_escape(model.get('text', ''))
+                attrs = model.get('attributes', []) or []
+                if 'bold' in attrs:
+                    text = f'<strong>{text}</strong>'
+                if 'italic' in attrs:
+                    text = f'<em>{text}</em>'
+                out.append(text)
+            elif ft == 'urlLink':
+                href = html_escape(model.get('locator', ''), quote=True)
+                inner = html_escape(self._collect_text(f))
+                out.append(f'<a href="{href}">{inner}</a>')
+            else:
+                out.append(html_escape(self._collect_text(f)))
+        return ''.join(out)
+
+    def _collect_text(self, blk):
+        """Recursively collect plain text from any nested block."""
+        if not isinstance(blk, dict):
+            return ''
+        model = blk.get('model', {})
+        if isinstance(model, dict):
+            text = model.get('text')
+            if text and not model.get('blocks'):
+                return text
+            inner = model.get('blocks', []) or []
+            return ''.join(self._collect_text(b) for b in inner)
+        return ''
+
+    def _extract_article_data(self, soup):
+        pass  # Logic is handled in get_articles
+
+
 class YouTubeTranscriptScraper(BaseScraper):
     """Scraper for YouTube channels that fetches video transcripts.
 
@@ -1729,6 +1915,7 @@ def get_scraper_class(scraper_name):
         'GoogleAlertsScraper': GoogleAlertsScraper,
         'NatureRdfScraper': NatureRdfScraper,
         'DWTopicScraper': DWTopicScraper,
+        'BBCFutureScraper': BBCFutureScraper,
         'YouTubeTranscriptScraper': YouTubeTranscriptScraper,
     }
     return scrapers.get(scraper_name)

@@ -1,7 +1,7 @@
 <opml version="2.0">
     <head>
         <title>RSS de Colunistas</title>
-        <dateCreated>Wed, 29 Apr 2026 08:19:50 GMT</dateCreated>
+        <dateCreated>Wed, 29 Apr 2026 12:55:14 GMT</dateCreated>
         <ownerName>RSS Scraper</ownerName>
         </head>
     <body>
@@ -94,6 +94,7 @@
                 <outline type="rss" text="Pedro Pacífico" title="Pedro Pacífico" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/pedro_pacifico_feed.xml" />
                 </outline>
             <outline text="Outros" title="Outros">
+                <outline type="rss" text="BBC Future" title="BBC Future" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/bbc_future_feed.xml" />
                 <outline type="rss" text="Paul Graham" title="Paul Graham" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/paulgraham_feed.xml" />
                 <outline type="rss" text="Silvio Meira" title="Silvio Meira" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/silvio_meira_feed.xml" />
                 </outline>

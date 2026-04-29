@@ -169,6 +169,14 @@
       "group": "outros"
     },
     {
+      "name": "BBC Future",
+      "url": "https://www.bbc.com/future",
+      "feed_file": "bbc_future_feed.xml",
+      "history_file": "bbc_future_history.json",
+      "scraper": "BBCFutureScraper",
+      "group": "outros"
+    },
+    {
       "name": "Guilherme Ravache",
       "url": "https://valor.globo.com/autores/guilherme-ravache/",
       "feed_file": "guilherme_ravache_feed.xml",
