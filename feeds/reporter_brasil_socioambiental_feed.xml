@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-&lt;p&gt;Por aqui, até o momento, o uso da OTC só é autorizado na medicina veterinária — no tratamento de bovinos de corte, por exemplo. O país seria o segundo a autorizar o medicamento no combate à citros, após os Estados Unidos. Na União Europeia, a OTC &lt;a href="https://questions-statements.parliament.uk/written-questions/detail/2019-03-20/234720"&gt;está proibido para uso agrícola&lt;/a&gt; desde 2002, por preocupações com a saúde pública.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Por aqui, até o momento, o uso da OTC só é autorizado na medicina veterinária — no tratamento de bovinos de corte, por exemplo. O país seria o segundo a autorizar o medicamento no combate à citros, após os Estados Unidos. Na União Europeia, a OTC &lt;a href="https://questions-statements.parliament.uk/written-questions/detail/2019-03-20/234720"&gt;está proibida para uso agrícola&lt;/a&gt; desde 2002, por preocupações com a saúde pública. &lt;/p&gt;
 
 
 
@@ -130,7 +130,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-&lt;p&gt;“Hoje, aproximadamente 47,6% das 200 milhões de laranjeiras do cinturão citrícola de São Paulo e Triângulo/Sudoeste Mineiro estão infectadas pela doença, e o cenário está se agravando ano após ano”, afirma Olavo Bianchi, engenheiro agrônomo do Fundecitrus. A maior parte da produção se concentra em São Paulo e no Triângulo Mineiro, as duas regiões mais afetadas pela bactéria. &lt;/p&gt;
+&lt;p&gt;“Hoje, aproximadamente 47,6% das 200 milhões de laranjeiras do cinturão citrícola de São Paulo e Triângulo/Sudoeste Mineiro estão infectadas pela doença, e o cenário está se agravando ano após ano”, afirma Olavo Bianchi, engenheiro agrônomo do Fundecitrus. A maior parte da produção se concentra em São Paulo e no Triângulo Mineiro, as duas regiões mais afetadas pela bactéria.&amp;nbsp;&lt;/p&gt;
 
 
 
@@ -796,8 +796,41 @@ document.addEventListener("DOMContentLoaded", function() {
 &lt;p&gt;&lt;strong&gt;Em 2026, fazemos 25 anos — e vem muito mais por aí!&lt;/strong&gt;&lt;/p&gt;
 
 
-
-&lt;p&gt;&lt;/p&gt;
+		&lt;div data-elementor-type="container" data-elementor-id="75228" class="elementor elementor-75228" data-elementor-post-type="elementor_library"&gt;
+				&lt;div class="elementor-element elementor-element-5e8db1e6 e-flex e-con-boxed e-con e-parent" data-id="5e8db1e6" data-element_type="container" data-e-type="container"&gt;
+					&lt;div class="e-con-inner"&gt;
+		&lt;div class="elementor-element elementor-element-36eb6c91 e-flex e-con-boxed e-con e-child" data-id="36eb6c91" data-element_type="container" data-e-type="container"&gt;
+					&lt;div class="e-con-inner"&gt;
+		&lt;div class="elementor-element elementor-element-6f52f515 e-con-full e-flex e-con e-child" data-id="6f52f515" data-element_type="container" data-e-type="container"&gt;
+				&lt;div class="elementor-element elementor-element-65d9f401 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="65d9f401" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+							&lt;div class="elementor-divider"&gt;
+			&lt;span class="elementor-divider-separator"&gt;
+						&lt;/span&gt;
+		&lt;/div&gt;
+						&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;/div&gt;
+		&lt;div class="elementor-element elementor-element-134a1245 e-flex e-con-boxed e-con e-child" data-id="134a1245" data-element_type="container" data-e-type="container"&gt;
+					&lt;div class="e-con-inner"&gt;
+				&lt;div class="elementor-element elementor-element-10fe55fe elementor-widget elementor-widget-text-editor" data-id="10fe55fe" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+									&lt;p&gt;Leia também&lt;/p&gt;								&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class="elementor-element elementor-element-3c9495ae elementor-grid-1 leia-tambem elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid" data-id="3c9495ae" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;template_id&amp;quot;:&amp;quot;75221&amp;quot;,&amp;quot;columns&amp;quot;:1,&amp;quot;row_gap&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:10,&amp;quot;sizes&amp;quot;:[]},&amp;quot;_skin&amp;quot;:&amp;quot;post&amp;quot;,&amp;quot;columns_tablet&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;columns_mobile&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;edit_handle_selector&amp;quot;:&amp;quot;[data-elementor-type=\&amp;quot;loop-item\&amp;quot;]&amp;quot;,&amp;quot;row_gap_tablet&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]},&amp;quot;row_gap_mobile&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]}}" data-widget_type="loop-grid.post"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+							&lt;div class="e-loop-nothing-found-message"&gt;
+		&lt;/div&gt;
+						&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;/div&gt;
+		
 
 
 
