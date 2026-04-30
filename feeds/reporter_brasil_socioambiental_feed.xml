@@ -1,5 +1,359 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel xmlns:atom="http://www.w3.org/2005/Atom"><title>Repórter Brasil Socioambiental</title><link>https://reporterbrasil.org.br/jornalismo/socioambiental/</link><description>Últimos artigos de Repórter Brasil Socioambiental</description><atom:link href="https://paulofeh.github.io/rss-de-valor/feeds/rep%C3%B3rter_brasil_socioambiental_feed.xml" rel="self"/><language>pt-br</language><lastBuildDate>Tue, 28 Apr 2026 17:40:15 +0000</lastBuildDate><ttl>60</ttl><item><title>Gold mining companies facing environmental lawsuits and fines got R$90 million in tax breaks</title><link>https://reporterbrasil.org.br/2026/04/gold-mining-companies-facing-environmental-lawsuits-and-fines-got-r90-million-in-tax-breaks/</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel xmlns:atom="http://www.w3.org/2005/Atom"><title>Repórter Brasil Socioambiental</title><link>https://reporterbrasil.org.br/jornalismo/socioambiental/</link><description>Últimos artigos de Repórter Brasil Socioambiental</description><atom:link href="https://paulofeh.github.io/rss-de-valor/feeds/rep%C3%B3rter_brasil_socioambiental_feed.xml" rel="self"/><language>pt-br</language><lastBuildDate>Thu, 30 Apr 2026 08:30:00 +0000</lastBuildDate><ttl>60</ttl><item><title>Startup americana tenta trazer ao Brasil antibiótico para laranja proibido na União Europeia</title><link>https://reporterbrasil.org.br/2026/04/startup-americana-antibiotico-brasil-proibido-uniao-europeia/</link><description>
+&lt;p&gt;&lt;strong&gt;EM DEZEMBRO DE 2023&lt;/strong&gt;, três funcionários do Mapa (Ministério da Agricultura e da Pecuária) fizeram uma viagem a Orlando, nos Estados Unidos, junto com representantes do Fundecitrus, uma fundação privada mantida por citricultores de São Paulo. Na ocasião, realizaram uma visita a pomares da região afetados pela doença chamada “greening dos citros” – o principal vilão da produção de laranja no Brasil e no mundo.&lt;/p&gt;
+
+
+
+&lt;p&gt;Durante a missão, a comitiva foi apresentada a um novo tratamento para a praga: uma injeção à base da substância cloridrato de oxitetraciclina, conhecida pela sigla OTC. Aplicado diretamente no tronco da árvore, o antibiótico busca salvar as plantas do corte definitivo, a solução mais eficaz para combater a doença.&lt;/p&gt;
+
+
+
+&lt;p&gt;Na época da visita à Flórida, a Invaio Sciences — uma startup norte-americana de biotecnologia — já se articulava para levar o produto ao Brasil, maior produtor mundial da fruta. A companhia tem como chefe global de desenvolvimento um executivo brasileiro com passagens por Bayer, Syngenta e Monsanto. Desde 2019,&amp;nbsp; mantém um escritório em São Paulo, por meio do qual tem realizado parcerias com instituições de pesquisa e entidades do agronegócio.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Animada com a viagem dos técnicos do Mapa e com a aparente receptividade dos agricultores em feiras do setor, a Invaio protocolou um pedido de testes experimentais do antibiótico na Anvisa (Agência Nacional de Vigilância Sanitária) no final de 2023, de acordo com o Diário Oficial. Um ano depois, solicitou o registro da OTC no Mapa para uso em citros.&lt;/p&gt;
+
+
+		&lt;div data-elementor-type="section" data-elementor-id="77670" class="elementor elementor-77670" data-elementor-post-type="elementor_library"&gt;
+			&lt;div class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-e-type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}"&gt;
+					&lt;div class="e-con-inner"&gt;
+				&lt;div class="elementor-element elementor-element-386385d elementor-widget elementor-widget-heading" data-id="386385d" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+					&lt;h2 class="elementor-heading-title elementor-size-default"&gt;ASSINE NOSSA NEWSLETTER&lt;/h2&gt;				&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class="elementor-element elementor-element-6546917 elementor-widget elementor-widget-html" data-id="6546917" data-element_type="widget" data-e-type="widget" data-widget_type="html.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+					&lt;script&gt;
+document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll('.form-news button[type="submit"]').forEach(function(botao) {
+        botao.classList.add("envio_newsletter_materia");
+    });
+});
+&lt;/script&gt;				&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class="elementor-element elementor-element-8c2e333 form-news elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="8c2e333" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;button_width&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_next_label&amp;quot;:&amp;quot;Next&amp;quot;,&amp;quot;step_previous_label&amp;quot;:&amp;quot;Previous&amp;quot;,&amp;quot;button_width_mobile&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_type&amp;quot;:&amp;quot;number_text&amp;quot;,&amp;quot;step_icon_shape&amp;quot;:&amp;quot;circle&amp;quot;}" data-widget_type="form.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
+			&lt;input type="hidden" name="post_id" value="77670"/&gt;
+			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
+			&lt;input type="hidden" name="referer_title" value="Repórter Brasil" /&gt;
+
+			
+			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
+								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
+												&lt;label for="form-field-email" class="elementor-field-label elementor-screen-only"&gt;
+								Email							&lt;/label&gt;
+														&lt;input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="email" required="required"&gt;
+											&lt;/div&gt;
+								&lt;div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-20 e-form__buttons elementor-sm-20"&gt;
+					&lt;button class="elementor-button elementor-size-sm" type="submit"&gt;
+						&lt;span class="elementor-button-content-wrapper"&gt;
+															&lt;span class="elementor-button-icon"&gt;
+									&lt;i aria-hidden="true" class="fas fa-long-arrow-alt-right"&gt;&lt;/i&gt;																			&lt;span class="elementor-screen-only"&gt;Submit&lt;/span&gt;
+																	&lt;/span&gt;
+																				&lt;/span&gt;
+					&lt;/button&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/form&gt;
+						&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;/div&gt;
+		
+
+
+
+&lt;p&gt;A Invaio afirma ter realizado testes com 6 mil árvores no cinturão citrícola entre São Paulo e Minas Gerais, &lt;a href="https://invaiocitros.com.br/noticias/newsletter-invaio-brasil-outubro-2024/"&gt;segundo sua newsletter&lt;/a&gt;. Mesmo em fase experimental, começou a divulgar o pacote tecnológico, sob o nome de Trecise, aos participantes na ExpoCritros, em Cordeirópolis (SP).&lt;/p&gt;
+
+
+
+&lt;p&gt;“Estamos trabalhando duro para disponibilizar nossa solução aos produtores brasileiros, e as expectativas do setor estão aumentando rapidamente”&lt;em&gt;, &lt;/em&gt;disseAvram Slovic, diretor-geral da Invaio no Brasil, em release publicado no site da empresa.&lt;/p&gt;
+
+
+
+&lt;p&gt;Por aqui, até o momento, o uso da OTC só é autorizado na medicina veterinária — no tratamento de bovinos de corte, por exemplo. O país seria o segundo a autorizar o medicamento no combate à citros, após os Estados Unidos. Na União Europeia, a OTC &lt;a href="https://questions-statements.parliament.uk/written-questions/detail/2019-03-20/234720"&gt;está proibido para uso agrícola&lt;/a&gt; desde 2002, por preocupações com a saúde pública.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Ainda em 2024, menos de um ano após a viagem e o início dos testes, a companhia solicitou o registro da OTC no Mapa contra o greening nos citros. O bactericida, usado no método Trecise, receberia o nome comercial Stryva.&lt;/p&gt;
+
+
+
+&lt;p&gt;O pedido, no entanto, foi negado pelo Mapa e pela Anvisa (Agência Nacional de Vigilância Sanitária). A justificativa oficial foi a de que a empresa tentou registrar o Stryva como equivalente a um produto já existente no mercado nacional, estratégia que acelera o processo e reduz a necessidade de estudos adicionais. Falando sob condição de anonimato, uma fonte especializada em vigilância resumiu: a Invaio Sciences tentou um “atalho” – e se deu mal.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Atualmente, a oxitetraciclina não é aprovada para uso em plantas, de acordo com a base oficial de agrotóxicos do governo, a Agrofit. Segundo a &lt;a href="https://www.gov.br/agricultura/pt-br/assuntos/inspecao/produtos-vegetal/legislacao-programas-nacionais-e-seguranca-dos-alimentos-1/legislacao/legislacao-vinhos-e-bebidas/guia-para-comprovacao-da-seguranca-de-alimentos-e-ingredientes_2013.pdf"&gt;legislação brasileira&lt;/a&gt;, a equivalência só é possível quando a empresa comprova a mesma “finalidade e condições de uso” do ingrediente ativo.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Questionada pela &lt;strong&gt;Repórter Brasil&lt;/strong&gt;, a empresa não respondeu se pretende apresentar um novo pedido, seguindo o processo completo de registro de agrotóxicos no país. Mas, na rede social Linkedin, segue apresentando o antibiótico como uma das soluções para as lavouras de laranja e informa que o produto estaria em “processo de registro” – informação que, segundo o Ministério da Agricultura, não corresponde à realidade.&lt;/p&gt;
+
+
+
+&lt;p&gt;“Se houver interesse do registrante, este deverá realizar novo protocolo em todos os órgãos como um pedido de registro de produto técnico novo. Neste momento, não há pedido de registro em andamento”, informou o Mapa à reportagem por e-mail em 14 de abril.&lt;/p&gt;
+
+
+
+&lt;p&gt;A despeito da negativa do Mapa e da Anvisa, as redes da empresa no Linkedin seguem incensando os resultados de testes realizados no país. A Invaio sustenta que os achados &lt;a href="http://www.linkedin.com/posts/invaio_citrushealth-hlb-trecise-activity-7439317083881938944-8N-8/"&gt;mostrariam&lt;/a&gt; reduções de até 99,9% na carga bacteriana dos pomares, além de uma diminuição significativa no número de plantas doentes. A companhia também afirma ter realizado 12 ensaios de campo em diferentes regiões do cinturão citrícola brasileiro, nos quais o tratamento teria reduzido a queda de frutos em até 31%.&lt;/p&gt;
+
+
+
+&lt;p&gt;Olavo Bianchi, engenheiro agrônomo do Fundecitrus, afirma que os citricultores precisam de uma solução para a bactéria, mas devem ter cautela com o uso de antibióticos, já que as pesquisas ainda são incipientes. A entidade tem uma parceria estratégica com a Invaio para desenvolver soluções contra o greening, e chegou a testar o produto, mas preferiu não dar detalhes.&lt;/p&gt;
+
+
+
+&lt;p&gt;“Os estudos com antibióticos ainda se encontram em fase inicial, não havendo, até o momento, resultados práticos consistentes de sua aplicação em campo. Portanto, o manejo do greening deve continuar baseado na erradicação de plantas doentes e no controle eficiente do psilídeo, inseto vetor da doença”, diz Bianchi.&lt;/p&gt;
+
+
+
+&lt;p&gt;Eduardo Augusto Girardi, engenheiro agrônomo e pesquisador da Embrapa (Empresa Brasileira de Pesquisa Agropecuária), afirma não haver cura ou tratamento eficaz para a greening dos citros.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;“Não existe nenhuma molécula, nenhum remédio, nenhuma droga, nenhum produto químico ou natural até hoje que tenha capaz de curar a planta de citros que tem a bactéria. Não existe, infelizmente”, disse. “A ciência investiu milhões de dólares no mundo todo, mas não encontrou nenhuma cura. Isso não existe, não é uma verdade. As plantas continuam doentes”, resume.&lt;/p&gt;
+
+
+
+&lt;figure class="wp-block-image size-full"&gt;&lt;img fetchpriority="high" decoding="async" width="627" height="800" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/Captura-de-tela-2026-04-29-111604.png" alt="A startup norte-americana Invaio divulga o método de aplicação de antibiótico sob o nome comercial Trecise (Imagem: Reprodução/Redes Sociais)" class="wp-image-129811" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/Captura-de-tela-2026-04-29-111604.png 627w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/Captura-de-tela-2026-04-29-111604-235x300.png 235w" sizes="(max-width: 627px) 100vw, 627px" /&gt;&lt;figcaption class="wp-element-caption"&gt;A startup norte-americana Invaio divulga o método de aplicação de antibiótico sob o nome comercial Trecise (Imagem: Reprodução/Redes Sociais)&lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+&lt;h2 class="wp-block-heading"&gt;Sem cura, por enquanto&lt;/h2&gt;
+
+
+
+&lt;p&gt;Erradicar o greening é o principal desafio da citricultura. Segundo dados do Fundecitrus, que presta assessoria técnica a produtores rurais paulistas, a bactéria que se aloja na planta foi a principal causa das 49,6 milhões de caixas perdidas da fruta em todo o Brasil durante a safra 2025-2026, superando a quebra causada pela falta de chuvas.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;“Hoje, aproximadamente 47,6% das 200 milhões de laranjeiras do cinturão citrícola de São Paulo e Triângulo/Sudoeste Mineiro estão infectadas pela doença, e o cenário está se agravando ano após ano”, afirma Olavo Bianchi, engenheiro agrônomo do Fundecitrus. A maior parte da produção se concentra em São Paulo e no Triângulo Mineiro, as duas regiões mais afetadas pela bactéria. &lt;/p&gt;
+
+
+
+&lt;p&gt;Segundo dados da Embrapa, a doença alcança até 30% dos pomares em algumas regiões de São Paulo e é quase impossível erradicá-la. A solução tem sido exterminar as plantações e migrar o cultivo para áreas livres da doença, como o Norte e Nordeste do país.&lt;/p&gt;
+
+
+
+&lt;p&gt;A transmissão ocorre por meio de um pequeno inseto conhecido como psilídio, que espalha o patógeno ao se alimentar dos brotos de árvores doentes. “Atualmente, o manejo da doença baseia-se no controle do inseto vetor por meio do uso de inseticidas, aliado à eliminação das fontes de inóculo da bactéria&amp;#8221;, afirma Bianchi.&lt;/p&gt;
+
+
+
+&lt;p&gt;Mas, nos últimos anos, até mesmo esse método vem se mostrando ineficaz, já que os insetos vetores estariam ficando resilientes aos principais inseticidas utilizados no campo. “A resistência a determinados grupos químicos já está presente em grande parte do cinturão citrícola. Dessa forma, os citricultores devem realizar a rotação dos grupos químicos utilizados nas aplicações”, explica Bianchi. As pulverizações são feitas rotineiramente.&lt;/p&gt;
+
+
+
+&lt;p&gt;Outra estratégia é investir em prevenção, que começa com a produção de mudas saudáveis. “Começar um plantio com uma muda doente é igual a começar um jogo de futebol perdendo de 5 a 0. É quase impossível conseguir reverter. Quanto menos plantas doentes, menos chance do psilídio se infectar”, descreve Girardi, responsável pela Unidade Mista de Pesquisa e Transferência de Tecnologia do Cinturão Citrícola da Embrapa.&lt;/p&gt;
+
+
+
+&lt;h2 class="wp-block-heading"&gt;Risco de gerar &amp;#8216;superbactérias&amp;#8217;&lt;/h2&gt;
+
+
+
+&lt;p&gt;Conhecido na medicina humana desde os anos 1950, o antibiótico oxitetraciclina também ganhou espaço na pecuária. É utilizado há décadas para tratar infecções respiratórias e feridas em bovinos, suínos, aves e peixes.&lt;/p&gt;
+
+
+
+&lt;p&gt;Especialistas, contudo, veem com preocupação o uso expandido para plantas porque algumas bactérias têm desenvolvido &lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8546800/"&gt;resistência ao &lt;/a&gt;grupo de substâncias ao qual pertence a oxitetraciclina.&lt;/p&gt;
+
+
+
+&lt;p&gt;“O uso de antibióticos na agricultura, apesar de representar uma fração relativamente pequena do seu consumo global, pode contribuir para a seleção de bactérias resistentes no ambiente, que podem se disseminar pelo solo, água e até cadeia alimentar”, afirma a professora Adriana Pavesi Arisseto Bragotto, da Faculdade de Engenharia de Alimentos da Unicamp.&lt;/p&gt;
+
+
+
+&lt;p&gt;Um &lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8569832/"&gt;levantamento nacional&lt;/a&gt; da cadeia de frango no Brasil, publicado em 2021 no periódico Epidemiology &amp;amp; Infection, mostrou como bactérias resistentes se multiplicam. Em 2014, os pesquisadores constataram que 60,3% das amostras de Salmonella coletadas em carne de frango eram resistentes às tetraciclinas. Em 2017, esse percentual já havia aumentado para 82,8%.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Esse processo pode favorecer o surgimento de “superbactérias” em humanos, cujos organismos já não respondem a nenhum tratamento. É o caso da MRSA (Staphylococcus aureus resistente à meticilina), famosa por se alastrar em hospitais e por ser resistente a diversos tipos de antibióticos.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Em um caso ocorrido em 2009, um único bebê contaminado &lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3715836/"&gt;deu origem a um surto&lt;/a&gt; que atingiu outros 11 recém-nascidos em uma UTI neonatal no Reino Unido. Outro estudo, que acompanhou o comportamento da infecção ao longo de uma década na região metropolitana de São Paulo, mostra que cresce a disseminação da MRSA de forma comunitária, fora do ambiente hospitalar.&lt;/p&gt;
+
+
+
+&lt;p&gt;Em resposta ao avanço da “resistência antimicrobiana”, como é conhecido o processo de criação das superbactérias, a Assembleia Geral da ONU lançou em 2024 uma declaração política que incentiva os países a seguir a abordagem de “Saúde Única” (“One Health”).&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Ao assinar o documento, os países participantes, incluindo o Brasil, reconhecem que o problema de saúde pública não se limita à medicina humana, mas também está vinculado ao uso de antibióticos na agricultura e à contaminação ambiental.&lt;/p&gt;
+
+
+
+&lt;p&gt;“Embora o risco direto para o consumidor por meio da ingestão de frutas ainda não esteja totalmente caracterizado, há um consenso crescente de que o uso de antibióticos deve ser cuidadosamente avaliado dentro do conceito de Saúde Única (One Health), justamente para evitar a amplificação da resistência antimicrobiana”, afirma a professora.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;No combate à resistência microbiana, já na década de 1990, o Brasil proibiu o uso de tetraciclinas em animais para promover o crescimento. Hoje, existem regras específicas para o uso no tratamento de doenças animais, incluindo a obrigatoriedade de acompanhamento veterinário.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Em 2021, o Mapa também implementou o programa de vigilância da resistência antimicrobiana (AMR), que monitora a presença de bactérias resistentes em animais e na produção de alimentos no Brasil.&lt;/p&gt;
+
+
+
+&lt;p&gt;A especialista da Unicamp afirma que seria difícil avaliar o impacto da ampliação do uso de oxitetraciclina em árvores cítricas. “Não há dados de monitoramento no Brasil sobre oxitetraciclina em produtos de origem vegetal. Não existe um limite máximo de resíduo definido para produtos agrícolas, pois a Anvisa não possui monografia vigente para oxitetraciclina em alimentos vegetais”, explica. Ou seja, a depender do que a ciência sabe hoje, a aprovação da OTC para cítricos precisa percorrer um longo caminho de testes até se provar viável.&lt;/p&gt;
+
+
+
+&lt;figure class="wp-block-image size-large"&gt;&lt;img decoding="async" width="768" height="1024" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/Fundecitros_2-768x1024.jpeg" alt="Especialistas veem com preocupação o uso da OTC em plantas porque algumas bactérias têm desenvolvido resistência ao grupo de substâncias ao qual pertence a oxitetraciclina (Foto: Divulgação/Fundecitrus)" class="wp-image-129810" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/Fundecitros_2-768x1024.jpeg 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/Fundecitros_2-225x300.jpeg 225w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/Fundecitros_2.jpeg 960w" sizes="(max-width: 768px) 100vw, 768px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Especialistas veem com preocupação o uso da OTC em plantas porque algumas bactérias têm desenvolvido resistência ao grupo de substâncias ao qual pertence a oxitetraciclina (Foto: Divulgação/Fundecitrus)&lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+&lt;h2 class="wp-block-heading"&gt;Alertas sobre riscos à saúde pública&lt;/h2&gt;
+
+
+
+&lt;p&gt;Nos Estados Unidos, a aprovação da OTC para citros em 2018 pela agência ambiental dos Estados Unidos (EPA) enfrentou resistência de médicos, ambientalistas e até de membros do Congresso.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Na época, a Flórida havia sido devastada pela bactéria, perdendo mais de 70% da produção de laranja e o lugar de liderança na indústria, e o desespero levou a EPA autorizar, inicialmente, o uso emergencial do antibiótico em forma de spray para aplicação nas folhas. Mais tarde, como injeção, como é o caso do Trecise-Stryvia.&lt;/p&gt;
+
+
+
+&lt;p&gt;Em 2019, três senadores e quatro deputados americanos &lt;a href="https://oversightdemocrats.house.gov/imo/media/doc/2019-08-28%20Letter%20to%20EPA%20re%20Antibiotics%20and%20Citrus.pdf"&gt;enviaram uma carta&lt;/a&gt; à agência, expressando apreensão com as decisões da agência de aprovar o uso de OTC em citros.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Apesar do prejuízo econômico na região, os legisladores pediram que a agência reavaliasse a sua decisão devido aos riscos à saúde pública. Questionaram a falta de uma avaliação mais cuidadosa e exigiram provas de que os produtos agrícolas à base de OTC eram seguros para consumo.&lt;/p&gt;
+
+
+
+&lt;p&gt;Na mesma época, o CBD (Centro para a Diversidade Biológica), uma organização ambiental nos Estados Unidos, coletou &lt;a href="https://www.biologicaldiversity.org/news/press_releases/2019/antibiotics-on-citrus-03-13-2019.php"&gt;45 mil assinaturas&lt;/a&gt; em um abaixo-assinado contra o uso do antibiótico no campo.&lt;/p&gt;
+
+
+
+&lt;p&gt;À &lt;strong&gt;Repórter Brasil&lt;/strong&gt;, Nathan Donley, diretor de Ciências da Saúde Ambiental da CBD, afirmou que a principal preocupação da organização era a disseminação de bactérias resistentes. “O uso excessivo desses medicamentos nas plantas pode levar ao desenvolvimento de resistência em patógenos. E as pessoas podem entrar em contato com esses patógenos nos alimentos que compram no supermercado”, explica.&lt;/p&gt;
+
+
+
+&lt;p&gt;Para Donley, os trabalhadores rurais que atuam nos pomares seriam os mais atingidos. “Se você sofre um corte no trabalho ou desenvolve uma infecção enquanto trabalha, pode entrar em contato com bactérias mais difíceis de tratar. Isso é um problema enorme para uma população que, em muitos casos aqui, nem tem seguro de saúde”, alerta.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Através da Lei de Acesso à Informação nos Estados Unidos (FOIA), a organização descobriu que até mesmo o CDC (Centro de Controle e Prevenção de Doenças), agência de saúde pública dos Estados Unidos, já havia alertado sobre essa ameaça. Em 2017, a agência &lt;a href="https://www.biologicaldiversity.org/campaigns/pesticides_reduction/pdfs/CDC-study-from-FOIA.pdf"&gt;enviou um documento&lt;/a&gt; para a EPA afirmando que o uso extensivo de oxitetraciclina poderia levar à resistência microbiana.&lt;/p&gt;
+
+
+
+&lt;figure class="wp-block-image size-large"&gt;&lt;img decoding="async" width="1024" height="682" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/Fundecitros_1-1024x682.jpeg" alt="A transmissão do &amp;quot;greening do citros&amp;quot; ocorre por meio de um pequeno inseto conhecido como psilídio (Foto: Divulgação/Fundecitrus)" class="wp-image-129809" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/Fundecitros_1-1024x682.jpeg 1024w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/Fundecitros_1-300x200.jpeg 300w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/Fundecitros_1-768x512.jpeg 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/Fundecitros_1-1536x1023.jpeg 1536w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/Fundecitros_1.jpeg 1600w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;figcaption class="wp-element-caption"&gt;A transmissão do &amp;#8220;greening do citros&amp;#8221; ocorre por meio de um pequeno inseto conhecido como psilídio (Foto: Divulgação/Fundecitrus)&lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+&lt;p&gt;Em 2021, o CBD e outras organizações ambientais conseguiram, na Justiça, anular a aprovação do uso da estreptomicina, outro antibiótico usado no tratamento para o greening. Os tribunais entenderam que a agência reguladora não teria avaliado adequadamente os riscos do antibiótico para a saúde humana, nem os seus impactos ambientais.&lt;/p&gt;
+
+
+
+&lt;p&gt;A ONG, no entanto, não chegou a contestar o registro da OTC no prazo previsto pela legislação americana. “Esse processo foi mais confuso porque passou por várias etapas de aprovação emergencial. Mas os argumentos seriam os mesmos e acredito que venceríamos no tribunal”, disse.&lt;/p&gt;
+
+
+
+&lt;p&gt;Hoje, ele acompanha de perto uma revisão de rotina da EPA sobre o uso de oxitetraciclina em culturas agrícolas. Em 2019, uma decisão inicial indicou que a oxitetraciclina poderia continuar sendo usada, mas com ajustes na bula para mitigar riscos, incluindo a obrigatoriedade de medidas de proteção ao trabalhador e limites na frequência e na dose de aplicação. Uma decisão final está prevista para os próximos dois anos.&lt;/p&gt;
+
+
+
+&lt;h2 class="wp-block-heading"&gt;Risco a exportações&lt;/h2&gt;
+
+
+
+&lt;p&gt;Na Flórida, os produtores de laranja que têm utilizado injeções de outros produtos registrados têm visto resultados positivos. &lt;a href="https://www.sciencedirect.com/science/article/pii/S0261219425001425"&gt;Um estudo&lt;/a&gt; publicado no ano passado encontrou que, em dois anos, a produção de frutos das árvores mais do que dobrou com o medicamento.&lt;/p&gt;
+
+
+
+&lt;p&gt;A autora principal da pesquisa, Ute Albrecht, afirma que a injeção também é mais segura do que o spray.&amp;nbsp; “Como não há pulverização, o produto não se dispersa pelo ar nem afeta outros organismos ao redor. Não há escoamento para o solo, o que é importante na Flórida, porque existe um sistema de aquíferos que liga todos os cursos d’água”, explica.&lt;/p&gt;
+
+
+
+&lt;p&gt;Mesmo assim, a pesquisadora da IFAS (Universidade da Flórida) alerta que, caso a injeção seja mal administrada, há risco do antibiótico deixar resíduos na fruta, o que também contribui para a resistência microbiana. Em &lt;a href="https://www.mdpi.com/2311-7524/11/8/976"&gt;um estudo recente&lt;/a&gt;, ela constatou que a simples aplicação fora da época indicada pode resultar em níveis acima do permitido pela agência ambiental dos Estados Unidos (EPA).&lt;/p&gt;
+
+
+
+&lt;p&gt;“Por isso, esse produto é rigorosamente regulamentado na Flórida. Os produtores precisam esperar pelo menos seis meses entre a injeção e a colheita. Quando os frutos já estão grandes, qualquer material que você injete pode acabar indo para eles, o que precisa ser evitado”, exemplifica.&lt;/p&gt;
+
+
+
+&lt;p&gt;Não está claro quais seriam as diretrizes de uso no Brasil, caso o produto fosse aprovado. Resíduos do antibiótico na fruta ou no suco de laranja podem prejudicar as exportações para a União Europeia (UE), devido às restrições do bloco econômico aos antibióticos em culturas agrícolas.&lt;/p&gt;
+
+
+
+&lt;p&gt;Questionada pela Repórter Brasil, a CitrusBR, que representa o setor exportador de suco de laranja, afirmou que “a eventual autorização regulatória [do produto] no país não implica a adoção automática na cadeia exportadora.” Também disse que “o setor exportador de suco de laranja adota protocolos públicos e próprios de governança e conformidade, com critérios restritivos para o uso de produtos no campo, em função das exigências dos mercados de destino, especialmente a Europa e os Estados Unidos.”&lt;/p&gt;
+
+
+
+&lt;p&gt;Outra preocupação é a possibilidade de a própria bactéria que causa o greening desenvolver resistência aos antibióticos. “Todos os produtores aqui na Flórida reconhecem que isso é apenas uma solução temporária e estão aguardando uma solução genética, como uma variedade de laranjeira resistente ao greening. Acho que o consenso é que essa não é uma solução para todo o sempre”, afirma Albrecht.&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;em&gt;*** Colaborou Valentina Bressan&lt;/em&gt;&lt;/p&gt;
+
+
+		&lt;div data-elementor-type="section" data-elementor-id="129686" class="elementor elementor-129686" data-elementor-post-type="elementor_library"&gt;
+			&lt;a class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-e-type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}" href="https://reporterbrasil.org.br/apoie/"&gt;
+					&lt;div class="e-con-inner"&gt;
+				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+															&lt;img loading="lazy" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/a&gt;
+				&lt;/div&gt;
+		
+
+
+
+&lt;p&gt;&lt;strong&gt;25 anos investigando para mudar.&lt;/strong&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;A Repórter Brasil já ajudou a impulsionar leis, fortalecer direitos e combater o trabalho escravo.&lt;/strong&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Em 2026, fazemos 25 anos — e vem muito mais por aí!&lt;/strong&gt;&lt;/p&gt;
+
+
+		&lt;div data-elementor-type="container" data-elementor-id="75228" class="elementor elementor-75228" data-elementor-post-type="elementor_library"&gt;
+				&lt;div class="elementor-element elementor-element-5e8db1e6 e-flex e-con-boxed e-con e-parent" data-id="5e8db1e6" data-element_type="container" data-e-type="container"&gt;
+					&lt;div class="e-con-inner"&gt;
+		&lt;div class="elementor-element elementor-element-36eb6c91 e-flex e-con-boxed e-con e-child" data-id="36eb6c91" data-element_type="container" data-e-type="container"&gt;
+					&lt;div class="e-con-inner"&gt;
+		&lt;div class="elementor-element elementor-element-6f52f515 e-con-full e-flex e-con e-child" data-id="6f52f515" data-element_type="container" data-e-type="container"&gt;
+				&lt;div class="elementor-element elementor-element-65d9f401 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="65d9f401" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+							&lt;div class="elementor-divider"&gt;
+			&lt;span class="elementor-divider-separator"&gt;
+						&lt;/span&gt;
+		&lt;/div&gt;
+						&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;/div&gt;
+		&lt;div class="elementor-element elementor-element-134a1245 e-flex e-con-boxed e-con e-child" data-id="134a1245" data-element_type="container" data-e-type="container"&gt;
+					&lt;div class="e-con-inner"&gt;
+				&lt;div class="elementor-element elementor-element-10fe55fe elementor-widget elementor-widget-text-editor" data-id="10fe55fe" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+									&lt;p&gt;Leia também&lt;/p&gt;								&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class="elementor-element elementor-element-3c9495ae elementor-grid-1 leia-tambem elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid" data-id="3c9495ae" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;template_id&amp;quot;:&amp;quot;75221&amp;quot;,&amp;quot;columns&amp;quot;:1,&amp;quot;row_gap&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:10,&amp;quot;sizes&amp;quot;:[]},&amp;quot;_skin&amp;quot;:&amp;quot;post&amp;quot;,&amp;quot;columns_tablet&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;columns_mobile&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;edit_handle_selector&amp;quot;:&amp;quot;[data-elementor-type=\&amp;quot;loop-item\&amp;quot;]&amp;quot;,&amp;quot;row_gap_tablet&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]},&amp;quot;row_gap_mobile&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]}}" data-widget_type="loop-grid.post"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+							&lt;div class="e-loop-nothing-found-message"&gt;
+		&lt;/div&gt;
+						&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;/div&gt;
+		
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Carlos Juliano Barros</dc:creator><pubDate>Thu, 30 Apr 2026 08:30:00 +0000</pubDate><guid>https://reporterbrasil.org.br/2026/04/startup-americana-antibiotico-brasil-proibido-uniao-europeia/</guid><guid isPermaLink="true">https://reporterbrasil.org.br/2026/04/startup-americana-antibiotico-brasil-proibido-uniao-europeia/</guid></item><item><title>Gold mining companies facing environmental lawsuits and fines got R$90 million in tax breaks</title><link>https://reporterbrasil.org.br/2026/04/gold-mining-companies-facing-environmental-lawsuits-and-fines-got-r90-million-in-tax-breaks/</link><description>
 &lt;p&gt;&lt;strong&gt;GOLD MINING COMPANIES&lt;/strong&gt; with a recent history of environmental violations, implicated by oversight bodies in irregularities and in conflict with communities, received R$90.1 million in federal tax exemptions between 2024 and 2025, according to an exclusive survey by &lt;strong&gt;Repórter Brasil&lt;/strong&gt;.&lt;/p&gt;
 
 
@@ -44,7 +398,7 @@
 
 
 
-&lt;figure class="wp-block-image size-large"&gt;&lt;img fetchpriority="high" decoding="async" width="1024" height="682" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/vista_garimpo_itaituba_fernando_martinho-1-1536x1023-1-1-1024x682.jpg" alt="Without socio-environmental criterias, tax incentive laws allow tax exemptions for gold mining companies with environmental liabilities. Pictured: aerial view of a garimpo in Itaituba, southwest Pará (Photo: Fernando Martinho/Repórter Brasil)" class="wp-image-129760" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/vista_garimpo_itaituba_fernando_martinho-1-1536x1023-1-1-1024x682.jpg 1024w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/vista_garimpo_itaituba_fernando_martinho-1-1536x1023-1-1-300x200.jpg 300w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/vista_garimpo_itaituba_fernando_martinho-1-1536x1023-1-1-768x512.jpg 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/vista_garimpo_itaituba_fernando_martinho-1-1536x1023-1-1.jpg 1536w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Without socio-environmental criteria, tax incentive laws allow tax exemptions for gold mining companies with environmental liabilities. Pictured: aerial view of a garimpo in Itaituba, southwest Pará (Photo: Fernando Martinho/Repórter Brasil)&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure class="wp-block-image size-large"&gt;&lt;img loading="lazy" decoding="async" width="1024" height="682" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/vista_garimpo_itaituba_fernando_martinho-1-1536x1023-1-1-1024x682.jpg" alt="Without socio-environmental criterias, tax incentive laws allow tax exemptions for gold mining companies with environmental liabilities. Pictured: aerial view of a garimpo in Itaituba, southwest Pará (Photo: Fernando Martinho/Repórter Brasil)" class="wp-image-129760" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/vista_garimpo_itaituba_fernando_martinho-1-1536x1023-1-1-1024x682.jpg 1024w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/vista_garimpo_itaituba_fernando_martinho-1-1536x1023-1-1-300x200.jpg 300w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/vista_garimpo_itaituba_fernando_martinho-1-1536x1023-1-1-768x512.jpg 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/vista_garimpo_itaituba_fernando_martinho-1-1536x1023-1-1.jpg 1536w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Without socio-environmental criteria, tax incentive laws allow tax exemptions for gold mining companies with environmental liabilities. Pictured: aerial view of a garimpo in Itaituba, southwest Pará (Photo: Fernando Martinho/Repórter Brasil)&lt;/figcaption&gt;&lt;/figure&gt;
 
 
 
@@ -156,7 +510,7 @@
 
 
 
-&lt;figure class="wp-block-image size-large"&gt;&lt;img decoding="async" width="1024" height="683" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/baiao_auraalmas_fernandomartinho_reporterbrasil-1024x683.jpg" alt="Eliene Crisóstomo, president of the Association of Quilombola Remnants: “We were already here and we were not consulted” (Photo: Fernando Martinho/Repórter Brasil)" class="wp-image-129762" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/baiao_auraalmas_fernandomartinho_reporterbrasil-1024x683.jpg 1024w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/baiao_auraalmas_fernandomartinho_reporterbrasil-300x200.jpg 300w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/baiao_auraalmas_fernandomartinho_reporterbrasil-768x512.jpg 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/baiao_auraalmas_fernandomartinho_reporterbrasil.jpg 1152w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Eliene Crisóstomo, president of the Association of Quilombola Remnants: “We were already here and we were not consulted” (Photo: Fernando Martinho/Repórter Brasil)&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure class="wp-block-image size-large"&gt;&lt;img loading="lazy" decoding="async" width="1024" height="683" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/baiao_auraalmas_fernandomartinho_reporterbrasil-1024x683.jpg" alt="Eliene Crisóstomo, president of the Association of Quilombola Remnants: “We were already here and we were not consulted” (Photo: Fernando Martinho/Repórter Brasil)" class="wp-image-129762" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/baiao_auraalmas_fernandomartinho_reporterbrasil-1024x683.jpg 1024w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/baiao_auraalmas_fernandomartinho_reporterbrasil-300x200.jpg 300w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/baiao_auraalmas_fernandomartinho_reporterbrasil-768x512.jpg 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/baiao_auraalmas_fernandomartinho_reporterbrasil.jpg 1152w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Eliene Crisóstomo, president of the Association of Quilombola Remnants: “We were already here and we were not consulted” (Photo: Fernando Martinho/Repórter Brasil)&lt;/figcaption&gt;&lt;/figure&gt;
 
 
 
@@ -273,7 +627,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-&lt;figure class="wp-block-image size-large"&gt;&lt;img decoding="async" width="1024" height="682" src="https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-1024x682.jpg" alt="Aerial view of gold mining in Itaituba, Pará. The current mayor of the municipality has stated in an interview that he has never monitored environmental licenses granted by his administration (Photo: Fernando Martinho/Repórter Brasil)" class="wp-image-93368" srcset="https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-1024x682.jpg 1024w, https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-300x200.jpg 300w, https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-768x512.jpg 768w, https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-1536x1023.jpg 1536w, https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1.jpg 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Sem critérios socioambientais, legislações sobre benefícios fiscais permitem isenções de impostos a mineradoras de ouro com passivos ambientais. Na imagem, vista área de um garimpo em Itaituba, no sudoeste do Pará (Foto: Fernando Martinho/Repórter Brasil)&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure class="wp-block-image size-large"&gt;&lt;img loading="lazy" decoding="async" width="1024" height="682" src="https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-1024x682.jpg" alt="Aerial view of gold mining in Itaituba, Pará. The current mayor of the municipality has stated in an interview that he has never monitored environmental licenses granted by his administration (Photo: Fernando Martinho/Repórter Brasil)" class="wp-image-93368" srcset="https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-1024x682.jpg 1024w, https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-300x200.jpg 300w, https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-768x512.jpg 768w, https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-1536x1023.jpg 1536w, https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1.jpg 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Sem critérios socioambientais, legislações sobre benefícios fiscais permitem isenções de impostos a mineradoras de ouro com passivos ambientais. Na imagem, vista área de um garimpo em Itaituba, no sudoeste do Pará (Foto: Fernando Martinho/Repórter Brasil)&lt;/figcaption&gt;&lt;/figure&gt;
 
 
 
@@ -1617,7 +1971,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-&lt;figure class="wp-block-image size-large"&gt;&lt;img decoding="async" width="1024" height="682" src="https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-1024x682.jpg" alt="Aerial view of gold mining in Itaituba, Pará. The current mayor of the municipality has stated in an interview that he has never monitored environmental licenses granted by his administration (Photo: Fernando Martinho/Repórter Brasil)" class="wp-image-93368" srcset="https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-1024x682.jpg 1024w, https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-300x200.jpg 300w, https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-768x512.jpg 768w, https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-1536x1023.jpg 1536w, https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1.jpg 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Vista área de garimpo no município de Itaituba, no sudoeste do Pará (Foto: Fernando Martinho/Repórter Brasil)&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure class="wp-block-image size-large"&gt;&lt;img loading="lazy" decoding="async" width="1024" height="682" src="https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-1024x682.jpg" alt="Aerial view of gold mining in Itaituba, Pará. The current mayor of the municipality has stated in an interview that he has never monitored environmental licenses granted by his administration (Photo: Fernando Martinho/Repórter Brasil)" class="wp-image-93368" srcset="https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-1024x682.jpg 1024w, https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-300x200.jpg 300w, https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-768x512.jpg 768w, https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1-1536x1023.jpg 1536w, https://reporterbrasil.org.br/wp-content/uploads/2024/12/vista_garimpo_itaituba_fernando_martinho-1.jpg 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Vista área de garimpo no município de Itaituba, no sudoeste do Pará (Foto: Fernando Martinho/Repórter Brasil)&lt;/figcaption&gt;&lt;/figure&gt;
 
 
 
@@ -1895,241 +2249,4 @@ document.addEventListener("DOMContentLoaded", function() {
 				&lt;/div&gt;
 				&lt;/div&gt;
 		
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Paula Bianchi</dc:creator><pubDate>Thu, 26 Mar 2026 08:00:00 +0000</pubDate><guid>https://reporterbrasil.org.br/2026/03/reporter-brasil-inesc-poemas-lancam-observatorio-transicao-energetica/</guid><guid isPermaLink="true">https://reporterbrasil.org.br/2026/03/reporter-brasil-inesc-poemas-lancam-observatorio-transicao-energetica/</guid></item><item><title>Agro usa estudo sem base científica para tentar aprovar marco temporal no STF</title><link>https://reporterbrasil.org.br/2026/03/agro-estudo-stf-marco-temporal/</link><description>
-&lt;p&gt;&lt;strong&gt;UM ESTUDO&lt;/strong&gt; usado por entidades do &lt;a href="https://reporterbrasil.org.br/?s=agroneg%C3%B3cio" target="_blank" rel="noreferrer noopener"&gt;agronegócio&lt;/a&gt; para reforçar os argumentos favoráveis à tese do &lt;a href="https://reporterbrasil.org.br/?s=%22marco+temporal%22"&gt;mar&lt;/a&gt;&lt;a href="https://reporterbrasil.org.br/?s=%22marco+temporal%22" target="_blank" rel="noreferrer noopener"&gt;c&lt;/a&gt;&lt;a href="https://reporterbrasil.org.br/?s=%22marco+temporal%22"&gt;o temporal&lt;/a&gt; no julgamento sobre o tema pelo &lt;a href="https://reporterbrasil.org.br/?s=STF" target="_blank" rel="noreferrer noopener"&gt;STF&lt;/a&gt; (Supremo Tribunal Federal) em 2025, e que estima em cerca de R$ 170 milhões o impacto anual da demarcação de novas &lt;a href="https://reporterbrasil.org.br/?s=%22terras+ind%C3%ADgenas%22" target="_blank" rel="noreferrer noopener"&gt;terras indígenas&lt;/a&gt; no &lt;a href="https://reporterbrasil.org.br/?s=%22Mato+Grosso%22" target="_blank" rel="noreferrer noopener"&gt;Mato Grosso&lt;/a&gt;, apresenta falhas importantes que comprometem sua credibilidade, apontam especialistas ouvidos pela &lt;strong&gt;Repórter Brasil&lt;/strong&gt;.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;O marco temporal determina que &lt;a href="https://reporterbrasil.org.br/?s=ind%C3%ADgenas" target="_blank" rel="noreferrer noopener"&gt;indígenas&lt;/a&gt; só teriam direito à demarcação das áreas que estivessem sob sua posse ou em disputa judicial na data da promulgação da Constituição Federal, em 5 de outubro de 1988. O argumento é usado por ruralistas para impedir a destinação de novos territórios a povos originários e para contestar territórios já delimitados.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;Encontrado pela reportagem entre as peças anexadas ao processo que tramitava na mais alta corte do país, o levantamento foi elaborado pelo Imea (Instituto Mato-grossense de Economia Agropecuária) e apresentado ao STF em 24 de novembro, nos momentos finais do julgamento.&amp;nbsp;&lt;/p&gt;
-
-
-		&lt;div data-elementor-type="section" data-elementor-id="77670" class="elementor elementor-77670" data-elementor-post-type="elementor_library"&gt;
-			&lt;div class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-e-type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}"&gt;
-					&lt;div class="e-con-inner"&gt;
-				&lt;div class="elementor-element elementor-element-386385d elementor-widget elementor-widget-heading" data-id="386385d" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-					&lt;h2 class="elementor-heading-title elementor-size-default"&gt;ASSINE NOSSA NEWSLETTER&lt;/h2&gt;				&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-6546917 elementor-widget elementor-widget-html" data-id="6546917" data-element_type="widget" data-e-type="widget" data-widget_type="html.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-					&lt;script&gt;
-document.addEventListener("DOMContentLoaded", function() {
-    document.querySelectorAll('.form-news button[type="submit"]').forEach(function(botao) {
-        botao.classList.add("envio_newsletter_materia");
-    });
-});
-&lt;/script&gt;				&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-8c2e333 form-news elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="8c2e333" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;button_width&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_next_label&amp;quot;:&amp;quot;Next&amp;quot;,&amp;quot;step_previous_label&amp;quot;:&amp;quot;Previous&amp;quot;,&amp;quot;button_width_mobile&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_type&amp;quot;:&amp;quot;number_text&amp;quot;,&amp;quot;step_icon_shape&amp;quot;:&amp;quot;circle&amp;quot;}" data-widget_type="form.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
-			&lt;input type="hidden" name="post_id" value="77670"/&gt;
-			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Repórter Brasil" /&gt;
-
-			
-			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
-								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
-												&lt;label for="form-field-email" class="elementor-field-label elementor-screen-only"&gt;
-								Email							&lt;/label&gt;
-														&lt;input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="email" required="required"&gt;
-											&lt;/div&gt;
-								&lt;div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-20 e-form__buttons elementor-sm-20"&gt;
-					&lt;button class="elementor-button elementor-size-sm" type="submit"&gt;
-						&lt;span class="elementor-button-content-wrapper"&gt;
-															&lt;span class="elementor-button-icon"&gt;
-									&lt;i aria-hidden="true" class="fas fa-long-arrow-alt-right"&gt;&lt;/i&gt;																			&lt;span class="elementor-screen-only"&gt;Submit&lt;/span&gt;
-																	&lt;/span&gt;
-																				&lt;/span&gt;
-					&lt;/button&gt;
-				&lt;/div&gt;
-			&lt;/div&gt;
-		&lt;/form&gt;
-						&lt;/div&gt;
-				&lt;/div&gt;
-					&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;/div&gt;
-		
-
-
-
-&lt;p&gt;A repercussão foi imediata. A ALMT (Assembleia Legislativa de Mato Grosso) citou o estudo em outro documento protocolado no processo: “Segundo o Imea, os decretos federais que homologaram novas Terras Indígenas em Mato Grosso retiram do uso agropecuário mais de 291 mil hectares, produzindo efeitos econômicos imediatos e significativos”, diz o texto. Os números apresentados pelo Imea, além disso, ganharam divulgação em meios de comunicação como &lt;a href="https://agro.estadao.com.br/economia/agro-projeta-perda-de-r-173-milhoes-com-novas-demarcacoes-indigenas-em-mt" target="_blank" rel="noreferrer noopener"&gt;O Estado de S. Paulo&lt;/a&gt; e &lt;a href="https://www.youtube.com/watch?v=JuvrRNG6vsY" target="_blank" rel="noreferrer noopener"&gt;Canal Rural&lt;/a&gt;.&lt;/p&gt;
-
-
-
-&lt;p&gt;Menos de um mês depois, em 18 de dezembro, a Corte declarou pela segunda vez a inconstitucionalidade da tese do marco temporal. Mesmo com a derrota no STF, a pauta continua sendo uma das prioridades do agronegócio. Na última quarta-feira (11), a CNA (Confederação da Agricultura e Pecuária do Brasil) incluiu a aprovação da PEC 48 — proposta que tenta inserir a tese diretamente na Constituição — entre as prioridades da Agenda Legislativa do Agro para 2026.&lt;/p&gt;
-
-
-
-&lt;h2 class="wp-block-heading"&gt;Para especialistas, credibilidade do estudo fica comprometida com falta de informações básicas&lt;/h2&gt;
-
-
-
-&lt;p&gt;O documento do Imea sustenta que as homologações das Terras Indígenas Manoki, Uirapuru e Estação Parecis, e a criação da reserva indígena Kanela do Araguaia, medidas anunciadas pelo governo federal em novembro do ano passado, provocariam perdas anuais de R$ 170,58 milhões e a eliminação de 498 empregos no setor agropecuário. As áreas mapeadas abrangem sete municípios mato-grossenses e, segundo o instituto, estão sobrepostas a 112 propriedades rurais.&lt;/p&gt;
-
-
-
-&lt;p&gt;Para a pesquisadora Germana Barata, professora da Unicamp (Universidade Estadual de Campinas) e especialista em comunicação científica, a falta de clareza sobre autoria e metodologia compromete a credibilidade do estudo.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;“Um relatório que pretende subsidiar um debate público precisa ter transparência sobre esses pontos. Aqui [no estudo do Imea] não sabemos quem produziu os dados, de onde vieram exatamente as bases utilizadas ou como elas podem ser verificadas por outros pesquisadores”, afirma. “É um nível de transparência que seria importante ter, ainda mais quando um documento como esse está anexado ao STF para ajudar a sustentar um argumento no debate sobre o marco temporal.”&lt;/p&gt;
-
-
-
-&lt;p&gt;Segundo ela, quando os dados ou procedimentos não são plenamente acessíveis, o trabalho perde valor acadêmico. “Se esses dados não podem ser contestados ou comparados, você já está criando uma barreira para verificar se estão corretos”.&lt;/p&gt;
-
-
-
-&lt;figure class="wp-block-image size-large"&gt;&lt;img loading="lazy" decoding="async" width="1024" height="613" src="https://reporterbrasil.org.br/wp-content/uploads/2026/03/marco-temporal-stf-Carlos-Moura-STF-1024x613.webp" alt="Em dezembro de 2025, o STF declarou pela segunda vez a inconstitucionalidade da tese do marco temporal (Foto: Carlos Moura/STF)" class="wp-image-127872" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/03/marco-temporal-stf-Carlos-Moura-STF-1024x613.webp 1024w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/marco-temporal-stf-Carlos-Moura-STF-300x179.webp 300w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/marco-temporal-stf-Carlos-Moura-STF-768x459.webp 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/marco-temporal-stf-Carlos-Moura-STF.webp 1170w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Em dezembro de 2025, o STF declarou pela segunda vez a inconstitucionalidade da tese do marco temporal (Foto: Carlos Moura/STF)&lt;/figcaption&gt;&lt;/figure&gt;
-
-
-
-&lt;p&gt;Esse entendimento é compartilhado por instituições de fomento à pesquisa. “A ciência é construída a partir do debate de ideias e confronto de teses sobre determinado assunto. Portanto, a metodologia utilizada deve ser bem descrita e livre de vieses”, afirma a Capes (Coordenação de Aperfeiçoamento de Pessoal de Nível Superior) à reportagem. Segundo o órgão, vinculado ao Ministério da Educação, a produção científica depende de transparência metodológica e da possibilidade de verificação independente.&lt;/p&gt;
-
-
-
-&lt;p&gt;Na avaliação de Ricardo Terena, coordenador jurídico da Apib (Articulação dos Povos Indígenas do Brasil), o alcance desse tipo de levantamento vai além do processo judicial. “O efeito não se encerra no STF. Esses estudos ajudam a moldar o ambiente político contra a demarcação”, afirma.&lt;/p&gt;
-
-
-
-&lt;p&gt;Para Claudio Angelo, coordenador de política internacional do Observatório do Clima, a circulação de levantamentos desse tipo faz parte de uma estratégia recorrente para influenciar o debate público. “Apresentam PDFs com aparência técnica, dados que não podem ser auditados e sem revisão por pares. Isso é consultoria de agro disfarçada de instituição séria”, afirma. “Não é ciência, é lobby”, define.&lt;/p&gt;
-
-
-
-&lt;h2 class="wp-block-heading"&gt;Imea e Famato dizem que estudo tem ‘lastro técnico’&lt;/h2&gt;
-
-
-
-&lt;p&gt;Entidade privada sem fins lucrativos, o Imea é mantido por cinco associações do agronegócio mato-grossenses: Famato (Federação da Agricultura e Pecuária de Mato Grosso), Aprosoja-MT (Associação dos Produtores de Soja e Milho de Mato Grosso), Ampa (Associação Mato-grossense dos Produtores de Algodão), Acrimat (Associação dos Criadores de Mato Grosso) e Aprosmat (Associação dos Produtores de Sementes de Mato Grosso).&lt;/p&gt;
-
-
-
-&lt;p&gt;Em nota enviada à &lt;strong&gt;Repórter Brasil&lt;/strong&gt;, o instituto afirma que suas análises possuem “total lastro técnico” e são baseadas em dados públicos e rastreáveis, como informações do IBGE e do Indea. A entidade diz também que mantém autonomia científica. “A autonomia científica do Imea é preservada por um corpo técnico multidisciplinar de especialistas cuja produção institucional independe de interesses externos.”&lt;/p&gt;
-
-
-
-&lt;figure class="wp-block-image size-full"&gt;&lt;img loading="lazy" decoding="async" width="1024" height="768" src="https://reporterbrasil.org.br/wp-content/uploads/2026/03/marco-temporal-stf-famato-divulgacao.jpg" alt="Entidade privada sem fins lucrativos, o Imea é é mantido por cinco associações do agronegócio mato-grossenses, entre elas, a Famato (Federação da Agricultura e Pecuária de Mato Grosso). Foto: Famato/Divulgação" class="wp-image-127875" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/03/marco-temporal-stf-famato-divulgacao.jpg 1024w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/marco-temporal-stf-famato-divulgacao-300x225.jpg 300w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/marco-temporal-stf-famato-divulgacao-768x576.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Entidade privada sem fins lucrativos, o Imea é  é mantido por cinco associações do agronegócio mato-grossenses, entre elas, a Famato (Federação da Agricultura e Pecuária de Mato Grosso). Foto: Famato/Divulgação&lt;/figcaption&gt;&lt;/figure&gt;
-
-
-
-&lt;p&gt;Já a Famato, que exerce a Presidência do Imea, declara que a utilização de estudos do instituto em debates judiciais busca oferecer “elementos técnicos objetivos” sobre impactos socioeconômicos relacionados ao setor rural. “Subsidiar o Estado com dados rastreáveis não compromete a independência judicial, mas oferece o lastro necessário para que o juízo jurídico seja exercido com base em fatos”, afirma a federação, também em nota à reportagem.&lt;/p&gt;
-
-
-
-&lt;p&gt;A &lt;strong&gt;Repórter Brasil&lt;/strong&gt; questionou o Imea e a Famato sobre a falta de autoria do estudo apresentado ao STF, a possibilidade de acesso público aos dados, modelos e premissas utilizados e se o levantamento passou por revisão externa ou validação independente. Nenhuma das organizações respondeu diretamente a esses questionamentos (&lt;a href="https://reporterbrasil.org.br/2026/03/posicionamentos-enviados-a-reportagem-sobre-estudo-do-agronegocio-favoravel-ao-marco-temporal/" target="_blank" rel="noreferrer noopener"&gt;leia os posicionamentos na íntegra&lt;/a&gt;).&lt;/p&gt;
-
-
-
-&lt;h2 class="wp-block-heading"&gt;Problemas metodológicos&lt;/h2&gt;
-
-
-
-&lt;p&gt;O uso de estudos do Imea para pressionar decisões políticas e judiciais não é novo. Desde 2009, durante as discussões do &lt;a href="https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-temporarias/especiais/53a-legislatura-encerradas/pl187699/controle-tramitacao-e-notas-taquigraficas/pl187699nt081209.pdf" target="_blank" rel="noreferrer noopener"&gt;Código Florestal&lt;/a&gt;, números produzidos pelo instituto aparecem em debates no Congresso e no STF, como em 2021, durante &lt;a href="https://youtu.be/tLiEcfz6Smc?t=2205" target="_blank" rel="noreferrer noopener"&gt;outro julgamento do marco temporal&lt;/a&gt; na Corte.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;No levantamento protocolado no STF no ano passado, parte dos dados utilizados não pode ser checada externamente. Embora cite fontes públicas — como o IBGE (Instituto Brasileiro de Geografia e Estatística), o Indea (Instituto de Defesa Agropecuária de Mato Grosso) e o Sigef (Sistema de Gestão Fundiária) —, o documento recorre também a bases próprias do instituto, que não estão disponíveis para consulta pública.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;“O método científico pressupõe transparência e possibilidade de reprodução. Outros pesquisadores precisam conseguir chegar aos mesmos resultados usando os mesmos dados e procedimentos”, explica o economista Dante Mendes Aldrighi, professor titular da Universidade de São Paulo (USP) e editor da revista “Estudos Econômicos”.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;Aldrighi não teve acesso ao relatório completo apresentado pelo Imea ao STF, mas fez comentários a partir da descrição da reportagem sobre o conteúdo. Em relação à identificação da autoria, ele aponta que esse procedimento “indispensável” permite responsabilização em caso de erro ou interpretação inadequada dos dados.&lt;/p&gt;
-
-
-
-&lt;figure class="wp-block-image size-large"&gt;&lt;img loading="lazy" decoding="async" width="1024" height="613" src="https://reporterbrasil.org.br/wp-content/uploads/2026/03/marco-temporal-stf-Antonio-Cruz-Agencia-Brasil-1024x613.webp" alt="Indígenas protestam em Brasília (DF) contra a tese do marco temporal (Foto: Antônio Cruz/Agência Brasil)" class="wp-image-127871" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/03/marco-temporal-stf-Antonio-Cruz-Agencia-Brasil-1024x613.webp 1024w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/marco-temporal-stf-Antonio-Cruz-Agencia-Brasil-300x179.webp 300w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/marco-temporal-stf-Antonio-Cruz-Agencia-Brasil-768x459.webp 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/marco-temporal-stf-Antonio-Cruz-Agencia-Brasil.webp 1170w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Indígenas protestam em Brasília (DF) contra a tese do marco temporal (Foto: Antônio Cruz/Agência Brasil)&lt;/figcaption&gt;&lt;/figure&gt;
-
-
-
-&lt;p&gt;Os critérios elencados pelos pesquisadores ouvidos pela &lt;strong&gt;Repórter Brasil &lt;/strong&gt;orientam também a avaliação de propostas de pesquisas científicas no país. À reportagem, Monica Felts, diretora científica do CNPq (Conselho Nacional de Desenvolvimento Científico e Tecnológico), diz que projetos científicos submetidos ao órgão precisam identificar claramente seus responsáveis e apresentar metodologia detalhada.&lt;/p&gt;
-
-
-
-&lt;p&gt;Segundo Felts, cada proposta deve indicar o pesquisador responsável e seu currículo na Plataforma Lattes, permitindo avaliar sua experiência e produção científica. Os projetos também passam por avaliação de especialistas independentes e comitês científicos responsáveis por analisar seu mérito e rigor metodológico.&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;De acordo com a Capes, a consistência dos dados e a possibilidade de reprodução dos resultados são centrais para a validade científica. “O conjunto de dados mostrado deve ser consistente para que outros pesquisadores testem as hipóteses ou elaborem outras. A pesquisa se torna robusta quando outros grupos são capazes de reproduzir os resultados obtidos.”&lt;/p&gt;
-
-
-
-&lt;h2 class="wp-block-heading"&gt;O que os cálculos deixam de fora&lt;/h2&gt;
-
-
-
-&lt;p&gt;Os números apresentados pelo estudo do Imea também são contestados por organizações socioambientais, que apontam problemas nas premissas adotadas e nas dimensões consideradas na análise.&lt;/p&gt;
-
-
-
-&lt;p&gt;Segundo o Observa-MT (Observatório Socioambiental de Mato Grosso), “o estudo considera apenas perdas econômicas associadas à produção agropecuária e ignora serviços ecossistêmicos e o valor da floresta em pé”, afirma a organização. Esses fatores incluem a conservação da biodiversidade, a proteção de recursos hídricos e o papel das terras indígenas na mitigação das mudanças climáticas.&lt;/p&gt;
-
-
-
-&lt;p&gt;Além do impacto ambiental positivo, &lt;a href="https://serrapilheira.org/chuvas-das-terras-indigenas-da-amazonia-contribuem-para-57-da-renda-agropecuaria-do-brasil/" target="_blank" rel="noreferrer noopener"&gt;estudos recentes indicam&lt;/a&gt; que terras indígenas da Amazônia ajudam a regular o regime de chuvas que abastece cerca de 80% das áreas agropecuárias do país.&lt;/p&gt;
-
-
-
-&lt;figure class="wp-block-image size-large"&gt;&lt;img loading="lazy" decoding="async" width="1024" height="683" src="https://reporterbrasil.org.br/wp-content/uploads/2026/03/TI-Apyterewa-Bruno-Peres-Agencia-Brasil-1024x683.jpg" alt="Crianças na Terra Indígena Apyterewa (PA). Estudos indicam que terras indígenas da Amazônia ajudam a regular o regime de chuvas (Foto: Bruno Peres/Agência Brasil)" class="wp-image-127874" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/03/TI-Apyterewa-Bruno-Peres-Agencia-Brasil-1024x683.jpg 1024w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/TI-Apyterewa-Bruno-Peres-Agencia-Brasil-300x200.jpg 300w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/TI-Apyterewa-Bruno-Peres-Agencia-Brasil-768x512.jpg 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/TI-Apyterewa-Bruno-Peres-Agencia-Brasil.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Crianças na Terra Indígena Apyterewa (PA). Estudos indicam que terras indígenas da Amazônia ajudam a regular o regime de chuvas (Foto: Bruno Peres/Agência Brasil)&lt;/figcaption&gt;&lt;/figure&gt;
-
-
-
-&lt;p&gt;Para Dante Mendes Aldrighi, da USP, ignorar esses benefícios ambientais pode distorcer a análise econômica. “Eles estão imputando valor social apenas ao número de empregos, mas a preservação da mata e do ambiente original também são valores sociais muito importantes”, afirma. “Se ignoram esse outro benefício de se preservar o meio ambiente, a metodologia fica bastante enviesada”.&lt;/p&gt;
-
-
-
-&lt;p&gt;Mesmo considerando as premissas adotadas no estudo, especialistas afirmam que os impactos econômicos apresentados são desproporcionais quando comparados à dimensão da economia de Mato Grosso. “O valor da produção nessas áreas é ínfimo em relação ao total do estado”, pontua Moreno Saraiva Martins, coordenador do programa Povos Indígenas no Brasil do ISA (Instituto Socioambiental).&lt;/p&gt;
-
-
-
-&lt;p&gt;Cálculos baseados em dados do próprio Imea e do Indea corroboram essa avaliação. Segundo eles, a produção agropecuária nas terras que seriam afetadas pelas homologações de terras indígenas representa menos de 0,25% da produção estadual total.&lt;/p&gt;
-
-
-		&lt;div data-elementor-type="container" data-elementor-id="75228" class="elementor elementor-75228" data-elementor-post-type="elementor_library"&gt;
-				&lt;div class="elementor-element elementor-element-5e8db1e6 e-flex e-con-boxed e-con e-parent" data-id="5e8db1e6" data-element_type="container" data-e-type="container"&gt;
-					&lt;div class="e-con-inner"&gt;
-		&lt;div class="elementor-element elementor-element-36eb6c91 e-flex e-con-boxed e-con e-child" data-id="36eb6c91" data-element_type="container" data-e-type="container"&gt;
-					&lt;div class="e-con-inner"&gt;
-		&lt;div class="elementor-element elementor-element-6f52f515 e-con-full e-flex e-con e-child" data-id="6f52f515" data-element_type="container" data-e-type="container"&gt;
-				&lt;div class="elementor-element elementor-element-65d9f401 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="65d9f401" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-							&lt;div class="elementor-divider"&gt;
-			&lt;span class="elementor-divider-separator"&gt;
-						&lt;/span&gt;
-		&lt;/div&gt;
-						&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;/div&gt;
-		&lt;div class="elementor-element elementor-element-134a1245 e-flex e-con-boxed e-con e-child" data-id="134a1245" data-element_type="container" data-e-type="container"&gt;
-					&lt;div class="e-con-inner"&gt;
-				&lt;div class="elementor-element elementor-element-10fe55fe elementor-widget elementor-widget-text-editor" data-id="10fe55fe" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-									&lt;p&gt;Leia também&lt;/p&gt;								&lt;/div&gt;
-				&lt;/div&gt;
-					&lt;/div&gt;
-				&lt;/div&gt;
-					&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-3c9495ae elementor-grid-1 leia-tambem elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid" data-id="3c9495ae" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;template_id&amp;quot;:&amp;quot;75221&amp;quot;,&amp;quot;columns&amp;quot;:1,&amp;quot;row_gap&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:10,&amp;quot;sizes&amp;quot;:[]},&amp;quot;_skin&amp;quot;:&amp;quot;post&amp;quot;,&amp;quot;columns_tablet&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;columns_mobile&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;edit_handle_selector&amp;quot;:&amp;quot;[data-elementor-type=\&amp;quot;loop-item\&amp;quot;]&amp;quot;,&amp;quot;row_gap_tablet&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]},&amp;quot;row_gap_mobile&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]}}" data-widget_type="loop-grid.post"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-							&lt;div class="e-loop-nothing-found-message"&gt;
-		&lt;/div&gt;
-						&lt;/div&gt;
-				&lt;/div&gt;
-					&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;/div&gt;
-		
-
-
-
-&lt;p&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Igor Ojeda</dc:creator><pubDate>Thu, 19 Mar 2026 08:30:00 +0000</pubDate><guid>https://reporterbrasil.org.br/2026/03/agro-estudo-stf-marco-temporal/</guid><guid isPermaLink="true">https://reporterbrasil.org.br/2026/03/agro-estudo-stf-marco-temporal/</guid></item></channel></rss>
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Paula Bianchi</dc:creator><pubDate>Thu, 26 Mar 2026 08:00:00 +0000</pubDate><guid>https://reporterbrasil.org.br/2026/03/reporter-brasil-inesc-poemas-lancam-observatorio-transicao-energetica/</guid><guid isPermaLink="true">https://reporterbrasil.org.br/2026/03/reporter-brasil-inesc-poemas-lancam-observatorio-transicao-energetica/</guid></item></channel></rss>
