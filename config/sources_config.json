@@ -489,6 +489,22 @@
       "group": "estadao"
     },
     {
+      "name": "Marcos Jank",
+      "url": "https://www.estadao.com.br/economia/marcos-jank/",
+      "feed_file": "estadao_jank_feed.xml",
+      "history_file": "estadao_jank_history.json",
+      "scraper": "EstadaoColumnistScraper",
+      "group": "estadao"
+    },
+    {
+      "name": "Fabio Giambiagi",
+      "url": "https://www.estadao.com.br/economia/fabio-giambiagi/",
+      "feed_file": "estadao_giambiagi_feed.xml",
+      "history_file": "estadao_giambiagi_history.json",
+      "scraper": "EstadaoColumnistScraper",
+      "group": "estadao"
+    },
+    {
       "name": "Bernardo Guimarães",
       "url": "https://www1.folha.uol.com.br/colunas/bernardo-guimaraes/",
       "scraper": "FolhaScraper",

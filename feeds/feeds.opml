@@ -1,7 +1,7 @@
 <opml version="2.0">
     <head>
         <title>RSS de Colunistas</title>
-        <dateCreated>Fri, 01 May 2026 13:24:13 GMT</dateCreated>
+        <dateCreated>Fri, 01 May 2026 18:15:37 GMT</dateCreated>
         <ownerName>RSS Scraper</ownerName>
         </head>
     <body>
@@ -35,11 +35,13 @@
                 <outline type="rss" text="Duquesa de Tax" title="Duquesa de Tax" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/duquesa_feed.xml" />
                 <outline type="rss" text="Elena Landau" title="Elena Landau" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/landau_feed.xml" />
                 <outline type="rss" text="Eugenio Bucci" title="Eugenio Bucci" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/estadao_bucci_feed.xml" />
+                <outline type="rss" text="Fabio Giambiagi" title="Fabio Giambiagi" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/estadao_giambiagi_feed.xml" />
                 <outline type="rss" text="Felipe Salto" title="Felipe Salto" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/estadao_felipesalto_feed.xml" />
                 <outline type="rss" text="Fernando Reinach" title="Fernando Reinach" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/fernando_reinach_feed.xml" />
                 <outline type="rss" text="Frankito, o Curioso" title="Frankito, o Curioso" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/frankito_feed.xml" />
                 <outline type="rss" text="Ignácio de Loyola Brandão" title="Ignácio de Loyola Brandão" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/estadao_loyola_feed.xml" />
                 <outline type="rss" text="Leandro Karnal" title="Leandro Karnal" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/estadao_karnal_feed.xml" />
+                <outline type="rss" text="Marcos Jank" title="Marcos Jank" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/estadao_jank_feed.xml" />
                 <outline type="rss" text="Nicolau da Rocha Cavalcanti" title="Nicolau da Rocha Cavalcanti" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/nicolau_feed.xml" />
                 <outline type="rss" text="Oliver Stuenkel" title="Oliver Stuenkel" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/estadao_oliver_feed.xml" />
                 <outline type="rss" text="Pedro Fernando Nery" title="Pedro Fernando Nery" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/pfnery_feed.xml" />
