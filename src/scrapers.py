@@ -459,17 +459,17 @@ class EstadaoColumnistScraper(BaseScraper):
         if article:
             title_element = article.select_one('h2.headline')
             title = title_element.text.strip() if title_element else "No title found"
-            
+
             headline_elem = article.select_one('h2.headline')
             link_element = headline_elem.find_parent('a') if headline_elem else None
             link = link_element['href'] if link_element else ""
-            
+
             description_element = article.select_one('p.subheadline')
             description = description_element.text.strip() if description_element else ""
-            
+
             author_element = article.select_one('div.chapeu span')
             author = author_element.text.strip() if author_element else "Autor Desconhecido"
-            
+
             latest_article = soup.select_one('div.noticias-mais-recenter--item')
             if latest_article:
                 date_element = latest_article.select_one('span.date')
@@ -477,7 +477,12 @@ class EstadaoColumnistScraper(BaseScraper):
                 date = self._parse_date(date_str)
             else:
                 date = datetime.datetime.now(pytz.timezone('America/Sao_Paulo'))
-            
+
+            if link:
+                content = self._fetch_content(link)
+                if content:
+                    description = content
+
             return {
                 'title': title,
                 'link': link,
@@ -485,6 +490,22 @@ class EstadaoColumnistScraper(BaseScraper):
                 'author': author,
                 'description': description,
             }
+        return None
+
+    @staticmethod
+    def _fetch_content(url):
+        """Fetch and extract article content using trafilatura.
+
+        Estadão article pages use styled-components with dynamic class names,
+        so trafilatura's heuristic extraction is more robust than CSS selectors.
+        """
+        import trafilatura
+        try:
+            downloaded = trafilatura.fetch_url(url)
+            if downloaded:
+                return trafilatura.extract(downloaded, output_format='html', include_links=True)
+        except Exception as e:
+            print(f"   ⚠️  Erro ao buscar conteúdo de {url}: {str(e)}")
         return None
 
     def _parse_date(self, date_str):
