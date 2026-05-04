@@ -1916,6 +1916,106 @@ class YouTubeTranscriptScraper(BaseScraper):
         pass  # Logic is handled in get_articles
 
 
+class FiocruzClimaSaudeScraper(BaseScraper):
+    """Scraper for the Observatório Clima e Saúde (Fiocruz) publications listing.
+
+    Page lists publications grouped by year (h3) inside div.view-content. Each item
+    is a div.views-row with title/link, theme and publication type. Links typically
+    point to PDFs hosted elsewhere; only year-level dates are available.
+    """
+
+    BASE_URL = "https://climaesaude.icict.fiocruz.br"
+
+    def get_latest_article(self):
+        articles = self.get_articles(limit=1)
+        return articles[0] if articles else None
+
+    def get_articles(self, limit=10):
+        try:
+            response = requests_retry_session().get(self.url, timeout=30)
+            response.raise_for_status()
+            soup = BeautifulSoup(response.content, 'html.parser', from_encoding='utf-8')
+
+            container = soup.select_one('div.view-content')
+            if not container:
+                print(f"Container .view-content não encontrado em {self.url}")
+                return []
+
+            sp_tz = pytz.timezone('America/Sao_Paulo')
+            articles = []
+            current_year = None
+            year_index = 0
+
+            for el in container.children:
+                if getattr(el, 'name', None) == 'h3':
+                    try:
+                        current_year = int(el.get_text(strip=True))
+                    except (ValueError, TypeError):
+                        current_year = None
+                    year_index = 0
+                    continue
+
+                if getattr(el, 'name', None) != 'div' or 'views-row' not in (el.get('class') or []):
+                    continue
+                if current_year is None:
+                    continue
+
+                article = self._parse_row(el, current_year, year_index, sp_tz)
+                if article:
+                    articles.append(article)
+                    year_index += 1
+                    if len(articles) >= limit:
+                        break
+
+            if not articles:
+                print(f"Nenhuma publicação encontrada em {self.url}")
+            return articles
+        except Exception as e:
+            print(f"Erro ao processar Fiocruz Clima e Saúde {self.url}: {str(e)}")
+            return []
+
+    def _parse_row(self, row, year, year_index, tz):
+        link_el = row.select_one('.views-field-title a')
+        if not link_el:
+            return None
+
+        title = link_el.get_text(strip=True)
+        href = link_el.get('href', '').strip()
+        if not (title and href):
+            return None
+        if href.startswith('/'):
+            href = f"{self.BASE_URL}{href}"
+
+        tema_el = row.select_one('.views-field-field-tema .field-content')
+        tipo_el = row.select_one('.views-field-field-tipo-de-publica-o .field-content')
+        tema = tema_el.get_text(strip=True) if tema_el else ''
+        tipo = tipo_el.get_text(strip=True) if tipo_el else ''
+
+        meta_parts = []
+        if tipo:
+            meta_parts.append(f"<strong>Tipo:</strong> {html_escape(tipo)}")
+        if tema:
+            meta_parts.append(f"<strong>Tema:</strong> {html_escape(tema)}")
+        meta_parts.append(f"<strong>Ano:</strong> {year}")
+        description = '<p>' + ' &middot; '.join(meta_parts) + '</p>'
+
+        # Year-only date: anchor at Dec 31 of the year and decrement by minute per
+        # position within the year, so the page's most-recent-first order is preserved
+        # in the RSS feed.
+        pubdate = tz.localize(datetime.datetime(year, 12, 31, 23, 59)) - datetime.timedelta(minutes=year_index)
+
+        return {
+            'title': title,
+            'link': href,
+            'pubdate': pubdate,
+            'author': 'Observatório Clima e Saúde / Fiocruz',
+            'description': description,
+        }
+
+    def _extract_article_data(self, soup):
+        pass  # Logic is handled in get_articles
+
+
 def get_scraper_class(scraper_name):
     """Get the scraper class by name."""
     scrapers = {
@@ -1938,5 +2038,6 @@ def get_scraper_class(scraper_name):
         'DWTopicScraper': DWTopicScraper,
         'BBCFutureScraper': BBCFutureScraper,
         'YouTubeTranscriptScraper': YouTubeTranscriptScraper,
+        'FiocruzClimaSaudeScraper': FiocruzClimaSaudeScraper,
     }
     return scrapers.get(scraper_name)

@@ -161,6 +161,14 @@
       "group": "clima"
     },
     {
+      "name": "Observatório Clima e Saúde (Fiocruz)",
+      "url": "https://climaesaude.icict.fiocruz.br/pagina/buscar-por-publicacoes",
+      "feed_file": "fiocruz_clima_saude_feed.xml",
+      "history_file": "fiocruz_clima_saude_history.json",
+      "scraper": "FiocruzClimaSaudeScraper",
+      "group": "clima"
+    },
+    {
       "name": "Paul Graham",
       "url": "https://paulgraham.com/articles.html",
       "feed_file": "paulgraham_feed.xml",
