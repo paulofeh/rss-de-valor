@@ -140,6 +140,7 @@ def generate_opml(sources):
         'folha': 'Folha de S.Paulo',
         'linkedin': 'LinkedIn Newsletters',
         'clima': 'Risco Climático',
+        'banco-mundial': 'World Bank Blogs',
         'outros': 'Outros'
     }
 
@@ -248,6 +249,7 @@ def generate_html_index(sources):
         'folha': 'Folha de S.Paulo',
         'linkedin': 'LinkedIn Newsletters',
         'clima': 'Risco Climático',
+        'banco-mundial': 'World Bank Blogs',
         'outros': 'Outros'
     }
 

@@ -169,6 +169,22 @@
       "group": "clima"
     },
     {
+      "name": "World Bank Climate Change",
+      "url": "https://blogs.worldbank.org/en/climatechange",
+      "feed_file": "worldbank_climatechange_feed.xml",
+      "history_file": "worldbank_climatechange_history.json",
+      "scraper": "WorldBankBlogScraper",
+      "group": "clima"
+    },
+    {
+      "name": "World Bank Data Blog",
+      "url": "https://blogs.worldbank.org/en/opendata",
+      "feed_file": "worldbank_opendata_feed.xml",
+      "history_file": "worldbank_opendata_history.json",
+      "scraper": "WorldBankBlogScraper",
+      "group": "banco-mundial"
+    },
+    {
       "name": "Paul Graham",
       "url": "https://paulgraham.com/articles.html",
       "feed_file": "paulgraham_feed.xml",

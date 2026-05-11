@@ -1,11 +1,14 @@
 <opml version="2.0">
     <head>
         <title>RSS de Colunistas</title>
-        <dateCreated>Mon, 11 May 2026 19:49:06 GMT</dateCreated>
+        <dateCreated>Mon, 11 May 2026 22:19:34 GMT</dateCreated>
         <ownerName>RSS Scraper</ownerName>
         </head>
     <body>
         <outline text="Feeds Individuais" title="Feeds Individuais">
+            <outline text="World Bank Blogs" title="World Bank Blogs">
+                <outline type="rss" text="World Bank Data Blog" title="World Bank Data Blog" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/worldbank_opendata_feed.xml" />
+                </outline>
             <outline text="Risco Climático" title="Risco Climático">
                 <outline type="rss" text="Arroz, Feijão &amp; Clima" title="Arroz, Feijão &amp; Clima" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/arroz_feijao_clima_feed.xml" />
                 <outline type="rss" text="Bloomberg Green" title="Bloomberg Green" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/bloomberg_green_feed.xml" />
@@ -26,6 +29,7 @@
                 <outline type="rss" text="Risco Climático (Google Alerts)" title="Risco Climático (Google Alerts)" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/google_alerts_risco_climatico_feed.xml" />
                 <outline type="rss" text="Sustainable Views" title="Sustainable Views" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/sustainable_views_feed.xml" />
                 <outline type="rss" text="Sustentabilidade" title="Sustentabilidade" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/estadao_sustentabilidade_feed.xml" />
+                <outline type="rss" text="World Bank Climate Change" title="World Bank Climate Change" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/worldbank_climatechange_feed.xml" />
                 <outline type="rss" text="Yale Climate Connections" title="Yale Climate Connections" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/yale_climate_feed.xml" />
                 <outline type="rss" text="npj Climate Action" title="npj Climate Action" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/npj_climate_action_feed.xml" />
                 <outline type="rss" text="npj Urban Sustainability" title="npj Urban Sustainability" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/npj_urban_sustain_feed.xml" />

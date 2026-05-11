@@ -2016,6 +2016,141 @@ class FiocruzClimaSaudeScraper(BaseScraper):
         pass  # Logic is handled in get_articles
 
 
+class WorldBankBlogScraper(BaseScraper):
+    """Scraper for World Bank blog sections (e.g. /en/opendata, /en/climatechange).
+
+    The listing page renders article cards as div.blog_teaser. Each card has the
+    title, a relative link, a <time> element with a "Month DD, YYYY" date, and
+    one or more author links pointing to /en/team/.... The article page itself
+    has full content extractable via trafilatura.
+    """
+
+    BASE_URL = "https://blogs.worldbank.org"
+
+    def get_latest_article(self):
+        articles = self.get_articles(limit=1)
+        return articles[0] if articles else None
+
+    def get_articles(self, limit=10):
+        try:
+            response = requests_retry_session().get(self.url, timeout=30, headers={
+                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
+            })
+            response.raise_for_status()
+            soup = BeautifulSoup(response.content, 'html.parser')
+
+            articles = []
+            seen_links = set()
+            for teaser in soup.select('div.blog_teaser'):
+                article = self._parse_teaser(teaser)
+                if not article or article['link'] in seen_links:
+                    continue
+                seen_links.add(article['link'])
+
+                content_html = self._fetch_article_content(article['link'])
+                if content_html:
+                    article['description'] = content_html
+
+                articles.append(article)
+                if len(articles) >= limit:
+                    break
+
+            if not articles:
+                print(f"Nenhum artigo encontrado em {self.url}")
+            return articles
+        except Exception as e:
+            print(f"Erro ao processar World Bank blog {self.url}: {str(e)}")
+            return []
+
+    def _parse_teaser(self, teaser):
+        title_link = teaser.select_one('h3.blog_teaser__title a, h3 a')
+        if not title_link:
+            return None
+        title = title_link.get_text(strip=True)
+        href = title_link.get('href', '').strip()
+        if not (title and href):
+            return None
+        if href.startswith('/'):
+            href = f"{self.BASE_URL}{href}"
+
+        time_el = teaser.select_one('time')
+        pubdate = self._parse_date(time_el.get_text(strip=True) if time_el else '')
+
+        author_links = teaser.select('a[href*="/team/"]')
+        authors = [a.get_text(strip=True) for a in author_links if a.get_text(strip=True)]
+        author = ', '.join(authors) if authors else 'World Bank Blogs'
+
+        return {
+            'title': title,
+            'link': href,
+            'pubdate': pubdate,
+            'author': author,
+            'description': '',
+        }
+
+    def _fetch_article_content(self, url):
+        """Fetch article page and extract full body content.
+
+        World Bank blog articles render the authored body inside
+        `.tui_container_col_10_offset_1`, with rich-text in `.cmp-text`,
+        images in `.cmp-image`, embeds in `.cmp-embed`, and a topics/regions
+        list at the bottom. We take the wrapper, strip boilerplate, and
+        rewrite relative URLs. Falls back to trafilatura, then og:description.
+        """
+        try:
+            response = requests_retry_session().get(url, timeout=30, headers={
+                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
+            })
+            response.raise_for_status()
+            html = response.text
+            soup = BeautifulSoup(html, 'html.parser')
+
+            wrapper = soup.select_one('.tui_container_col_10_offset_1')
+            if wrapper:
+                # Remove scripts, styles, and the trailing topics/regions list
+                for tag in wrapper.find_all(['script', 'style']):
+                    tag.decompose()
+                for nav in wrapper.select('.listnavigation, .cmp-list'):
+                    nav.decompose()
+                # Rewrite relative hrefs/src to absolute
+                for a in wrapper.find_all('a', href=True):
+                    if a['href'].startswith('/'):
+                        a['href'] = f"{self.BASE_URL}{a['href']}"
+                for img in wrapper.find_all('img', src=True):
+                    if img['src'].startswith('/'):
+                        img['src'] = f"{self.BASE_URL}{img['src']}"
+                content_html = wrapper.decode_contents().strip()
+                if content_html:
+                    return content_html
+
+            # Fallback: trafilatura heuristic extraction
+            import trafilatura
+            content = trafilatura.extract(html, output_format='html', include_links=True)
+            if content:
+                return content
+
+            og = soup.find('meta', property='og:description')
+            if og and og.get('content'):
+                return f"<p>{html_escape(og['content'].strip())}</p>"
+            return None
+        except Exception as e:
+            print(f"Erro ao buscar artigo World Bank {url}: {str(e)}")
+            return None
+
+    def _parse_date(self, date_str):
+        """Parse 'May 05, 2026' into a UTC datetime."""
+        if not date_str:
+            return datetime.datetime.now(pytz.UTC)
+        try:
+            dt = datetime.datetime.strptime(date_str, '%B %d, %Y')
+            return pytz.UTC.localize(dt)
+        except (ValueError, TypeError):
+            return datetime.datetime.now(pytz.UTC)
+
+    def _extract_article_data(self, soup):
+        pass  # Logic is handled in get_articles
+
+
 def get_scraper_class(scraper_name):
     """Get the scraper class by name."""
     scrapers = {
@@ -2039,5 +2174,6 @@ def get_scraper_class(scraper_name):
         'BBCFutureScraper': BBCFutureScraper,
         'YouTubeTranscriptScraper': YouTubeTranscriptScraper,
         'FiocruzClimaSaudeScraper': FiocruzClimaSaudeScraper,
+        'WorldBankBlogScraper': WorldBankBlogScraper,
     }
     return scrapers.get(scraper_name)
