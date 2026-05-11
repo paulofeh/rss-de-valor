@@ -1,5 +1,328 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel xmlns:atom="http://www.w3.org/2005/Atom"><title>Repórter Brasil Socioambiental</title><link>https://reporterbrasil.org.br/jornalismo/socioambiental/</link><description>Últimos artigos de Repórter Brasil Socioambiental</description><atom:link href="https://paulofeh.github.io/rss-de-valor/feeds/rep%C3%B3rter_brasil_socioambiental_feed.xml" rel="self"/><language>pt-br</language><lastBuildDate>Tue, 05 May 2026 16:56:43 +0000</lastBuildDate><ttl>60</ttl><item><title>Caruru gigante, a planta super-resistente a agrotóxicos que ameaça produção de soja</title><link>https://reporterbrasil.org.br/2026/05/super-resistente-glifosato-caruru-gigante-avanca-soja/</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel xmlns:atom="http://www.w3.org/2005/Atom"><title>Repórter Brasil Socioambiental</title><link>https://reporterbrasil.org.br/jornalismo/socioambiental/</link><description>Últimos artigos de Repórter Brasil Socioambiental</description><atom:link href="https://paulofeh.github.io/rss-de-valor/feeds/rep%C3%B3rter_brasil_socioambiental_feed.xml" rel="self"/><language>pt-br</language><lastBuildDate>Mon, 11 May 2026 08:30:00 +0000</lastBuildDate><ttl>60</ttl><item><title>Bayer escolhe Brasil para estrear complemento a agrotóxico mais polêmico do mundo</title><link>https://reporterbrasil.org.br/2026/05/bayer-brasil-complemento-agrotoxico-polemico-glifosato-icafolin/</link><description>
+&lt;p&gt;&lt;strong&gt;LÍDER MUNDIAL &lt;/strong&gt;do mercado de agrotóxicos, a Bayer prepara o lançamento de um novo herbicida que será vendido primeiro no Brasil.&lt;/p&gt;
+
+
+
+&lt;p&gt;Com estreia prevista para 2028, o icafolin-metil é, antes de tudo, uma aposta contra &lt;a href="https://reporterbrasil.org.br/2026/05/super-resistente-glifosato-caruru-gigante-avanca-soja/" target="_blank" rel="noreferrer noopener"&gt;a crescente resistência de pragas aos pesticidas disponíveis no mercado&lt;/a&gt;. Mas também representa uma resposta às acusações de que o Roundup — um dos principais insumos agrícolas comercializados pela gigante alemã da biotecnologia — &lt;a href="https://reporterbrasil.org.br/2025/12/estudo-atestava-seguranca-glifosato-despublicado-apos-25-anos/"&gt;estaria associado ao desenvolvimento de &lt;/a&gt;&lt;a href="https://reporterbrasil.org.br/2025/12/estudo-atestava-seguranca-glifosato-despublicado-apos-25-anos/" target="_blank" rel="noreferrer noopener"&gt;c&lt;/a&gt;&lt;a href="https://reporterbrasil.org.br/2025/12/estudo-atestava-seguranca-glifosato-despublicado-apos-25-anos/"&gt;âncer&lt;/a&gt; em seres humanos.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;a href="https://reporterbrasil.org.br/2025/11/bayer-processos-agrotoxico-glifosato-intoxicacao-brasil/" target="_blank" rel="noreferrer noopener"&gt;Alvo de 192 mil processos&lt;/a&gt; apenas nos Estados Unidos, que já consumiram ao menos US$ 11 bilhões da companhia em acordos judiciais, o Roundup tem como princípio ativo o glifosato e é um dos agrotóxicos mais populares do mundo, largamente utilizado contra plantas daninhas em lavouras de grãos.&lt;/p&gt;
+
+
+
+&lt;p&gt;Segundo a própria Bayer, o icafolin surgiu para complementar o Roundup, cada vez menos eficaz. Mesmo antes de ser vendido, porém, o novo herbicida da Bayer já vem ligando o alerta entre ambientalistas e especialistas ouvidos pela &lt;strong&gt;Repórter Brasil&lt;/strong&gt;. Assim como acontece com o glifosato, as preocupações sobre o icafolin giram em torno dos potenciais impactos sobre o meio ambiente e a saúde pública. &lt;/p&gt;
+
+
+
+&lt;p&gt;“Até agora, a empresa revelou muito pouco, o que é preocupante. Antes de utilizar novos produtos químicos, precisamos ter certeza absoluta de que são seguros”, afirma Dina Akhmetshina, especialista em políticas públicas da ONG americana U.S. PIRG.&lt;/p&gt;
+
+
+
+&lt;p&gt;Procurada, a assessoria de imprensa da Bayer no Brasil informou que a empresa não se manifestaria sobre o novo produto.&lt;/p&gt;
+
+
+		&lt;div data-elementor-type="section" data-elementor-id="77670" class="elementor elementor-77670" data-elementor-post-type="elementor_library"&gt;
+			&lt;div class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-e-type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}"&gt;
+					&lt;div class="e-con-inner"&gt;
+				&lt;div class="elementor-element elementor-element-386385d elementor-widget elementor-widget-heading" data-id="386385d" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+					&lt;h2 class="elementor-heading-title elementor-size-default"&gt;ASSINE NOSSA NEWSLETTER&lt;/h2&gt;				&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class="elementor-element elementor-element-6546917 elementor-widget elementor-widget-html" data-id="6546917" data-element_type="widget" data-e-type="widget" data-widget_type="html.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+					&lt;script&gt;
+document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll('.form-news button[type="submit"]').forEach(function(botao) {
+        botao.classList.add("envio_newsletter_materia");
+    });
+});
+&lt;/script&gt;				&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class="elementor-element elementor-element-8c2e333 form-news elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="8c2e333" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;button_width&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_next_label&amp;quot;:&amp;quot;Next&amp;quot;,&amp;quot;step_previous_label&amp;quot;:&amp;quot;Previous&amp;quot;,&amp;quot;button_width_mobile&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_type&amp;quot;:&amp;quot;number_text&amp;quot;,&amp;quot;step_icon_shape&amp;quot;:&amp;quot;circle&amp;quot;}" data-widget_type="form.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
+			&lt;input type="hidden" name="post_id" value="77670"/&gt;
+			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
+			&lt;input type="hidden" name="referer_title" value="Como funciona o tráfico de mercúrio descoberto pela PF e Ibama" /&gt;
+
+							&lt;input type="hidden" name="queried_id" value="75682"/&gt;
+			
+			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
+								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
+												&lt;label for="form-field-email" class="elementor-field-label elementor-screen-only"&gt;
+								Email							&lt;/label&gt;
+														&lt;input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="email" required="required"&gt;
+											&lt;/div&gt;
+								&lt;div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-20 e-form__buttons elementor-sm-20"&gt;
+					&lt;button class="elementor-button elementor-size-sm" type="submit"&gt;
+						&lt;span class="elementor-button-content-wrapper"&gt;
+															&lt;span class="elementor-button-icon"&gt;
+									&lt;i aria-hidden="true" class="fas fa-long-arrow-alt-right"&gt;&lt;/i&gt;																			&lt;span class="elementor-screen-only"&gt;Submit&lt;/span&gt;
+																	&lt;/span&gt;
+																				&lt;/span&gt;
+					&lt;/button&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/form&gt;
+						&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;/div&gt;
+		
+
+
+
+&lt;h2 class="wp-block-heading"&gt;Registro de novo herbicida corre como prioridade em órgãos competentes do Brasil&lt;/h2&gt;
+
+
+
+&lt;p&gt;O icafolin-metil já recebeu o aval toxicológico da Anvisa (Agência Nacional de Vigilância Sanitária). Para o seu uso técnico e comercial, no entanto, faltam as aprovações do Mapa (Ministério da Agricultura) e do Ibama (Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis). Esses processos tramitam com prioridade no governo federal.&lt;/p&gt;
+
+
+
+&lt;p&gt;A autorização do agrotóxico também tem pendências no Canadá, União Europeia e Estados Unidos.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;“É muito problemático a Anvisa ter aprovado antes de outras agências regulatórias, porque mostra que o princípio ativo ainda não foi devidamente analisado”, afirma Luiz Claudio Meirelles, ex-gerente da agência e pesquisador da Escola Nacional de Saúde Pública da Fiocruz. “É claro que precisamos substituir imediatamente o glifosato, que já se provou perigoso para a saúde humana, mas é preciso ter cautela na avaliação de novos agrotóxicos”, complementa.&lt;/p&gt;
+
+
+
+&lt;p&gt;Em 6 de maio, membros da diretoria colegiada da Anvisa aprovaram de forma unânime o princípio ativo do icafolin, abrindo caminho para o uso do ingrediente no país. A agência estabeleceu limites de ingestão diária de resíduos da substância semelhantes aos do glifosato. Já o valor aceitável para a exposição de trabalhadores no campo será três vezes maior. Não houve comentários na consulta pública, feita antes da reunião.&lt;/p&gt;
+
+
+
+&lt;p&gt;Por email, a Anvisa afirmou que ainda fará uma avaliação dos produtos formulados com a substância, “ocasião em que são considerados, adicionalmente, os demais componentes da formulação e os cenários reais de uso”.&lt;/p&gt;
+
+
+
+&lt;figure class="wp-block-image size-full"&gt;&lt;img fetchpriority="high" decoding="async" width="770" height="513" src="https://reporterbrasil.org.br/wp-content/uploads/2025/08/Plantacao-de-soja-em-Alto-Paraiso-GO.-Foto_-Marcelo-Camargo_Agencia-Brasil.jpg" alt="Agrotóxicos à base de glifosato são largamento utilizados em lavouras de graõs (Foto: Marcelo Camargo/Agência Brasil)" class="wp-image-112295" srcset="https://reporterbrasil.org.br/wp-content/uploads/2025/08/Plantacao-de-soja-em-Alto-Paraiso-GO.-Foto_-Marcelo-Camargo_Agencia-Brasil.jpg 770w, https://reporterbrasil.org.br/wp-content/uploads/2025/08/Plantacao-de-soja-em-Alto-Paraiso-GO.-Foto_-Marcelo-Camargo_Agencia-Brasil-300x200.jpg 300w, https://reporterbrasil.org.br/wp-content/uploads/2025/08/Plantacao-de-soja-em-Alto-Paraiso-GO.-Foto_-Marcelo-Camargo_Agencia-Brasil-768x512.jpg 768w" sizes="(max-width: 770px) 100vw, 770px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Agrotóxicos à base de glifosato são largamento utilizados em lavouras de graõs (Foto: Marcelo Camargo/Agência Brasil)&lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+&lt;p&gt;O Ministério da Agricultura já anunciou que o agrotóxico &lt;a href="https://www.gov.br/agricultura/pt-br/assuntos/insumos-agropecuarios/insumos-agricolas/agrotoxicos/OfcioPriorizao.pdf"&gt;terá prioridade&lt;/a&gt; no processo de registro, passando à frente de centenas de outros produtos que aguardam aprovação. Em ofício, a pasta justificou a prioridade dizendo se tratar de um novo mecanismo de ação contra planas daninhas.&lt;/p&gt;
+
+
+
+&lt;p&gt;O Ibama afirmou por e-mail que ainda não iniciou a avaliação técnica do icafolin. Segundo o site da agência, existem 1.308 processos à frente na fila – embora isso possa mudar. No final de abril, segundo informações da Agenda Transparente, executivos da Bayer se reuniram com o setor de avaliação e controle da agência ambiental para discutir o icafolin. Desde que solicitou o registro, a Bayer teve 62 agendas com órgãos do governo federal — uma média de 3 por mês.&lt;/p&gt;
+
+
+
+&lt;p&gt;Em &lt;a href="https://pubmed.ncbi.nlm.nih.gov/39297346/"&gt;artigo científico&lt;/a&gt; publicado no ano passado, cientistas da Bayer explicam que o novo agrotóxico atua bloqueando as funções fisiológicas de plantas invasoras de lavouras.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Ao inibir o desenvolvimento de fios de tubulina, uma espécie de esqueleto das plantas, a planta para de crescer e fica “congelada” no campo. É um mecanismo de ação distinto do glifosato, que bloqueia enzimas responsáveis pela produção de aminoácidos essenciais à vida das plantas.&lt;/p&gt;
+
+
+
+&lt;p&gt;Em &lt;a href="https://www.bayer.com/media/en-us/bayer-submits-registration-applications-for-novel-herbicide-in-four-major-markets/"&gt;seu site&lt;/a&gt;, a Bayer afirma ter usado inteligência artificial para desenvolver a tecnologia, uma nova classe química para o controle de ervas daninhas em crescimento. De acordo com a empresa, esse é o primeiro novo modo de ação para combater ervas daninhas já brotadas em mais de três décadas.&lt;/p&gt;
+
+
+
+&lt;p&gt;Enquanto aguarda a aprovação do registro, a Bayer também protocolou no INPI (Instituto Nacional da Propriedade Industrial) uma patente para desenvolver sementes e plantas resistentes ao icafolin. &lt;/p&gt;
+
+
+
+&lt;p&gt;A estratégia é a mesma do Roundup: criar um “pacote tecnológico”, em que a empresa comercializa tanto o herbicida quanto as sementes resistentes ao agrotóxico. Nos últimos anos, a venda deste tipo de pacote aos produtores rurais transformou a Bayer em uma das maiores empresas de sementes do mundo.&lt;/p&gt;
+
+
+
+&lt;p&gt;Após o lançamento do produto no Brasil, líder no consumo de agrotóxicos, a Bayer pretende lançar o icafolin no mercado global. A empresa já pediu registro do princípio ativo e de patentes de sementes resistentes ao novo herbicida em uma dúzia de países, inclusive nos Estados Unidos e na União Europeia.&lt;/p&gt;
+
+
+
+&lt;figure class="wp-block-image size-large"&gt;&lt;img decoding="async" width="819" height="1024" src="https://reporterbrasil.org.br/wp-content/uploads/2024/11/Graficos-CCAS_Brasil-e-o-que-mais-aplica-agrotoxicos-819x1024.png" alt="" class="wp-image-91671" srcset="https://reporterbrasil.org.br/wp-content/uploads/2024/11/Graficos-CCAS_Brasil-e-o-que-mais-aplica-agrotoxicos-819x1024.png 819w, https://reporterbrasil.org.br/wp-content/uploads/2024/11/Graficos-CCAS_Brasil-e-o-que-mais-aplica-agrotoxicos-240x300.png 240w, https://reporterbrasil.org.br/wp-content/uploads/2024/11/Graficos-CCAS_Brasil-e-o-que-mais-aplica-agrotoxicos-768x960.png 768w, https://reporterbrasil.org.br/wp-content/uploads/2024/11/Graficos-CCAS_Brasil-e-o-que-mais-aplica-agrotoxicos.png 1080w" sizes="(max-width: 819px) 100vw, 819px" /&gt;&lt;figcaption class="wp-element-caption"&gt;(Gráfico: Rodrigo Bento/Repórter Brasil)&lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+&lt;h2 class="wp-block-heading"&gt;OMS classifica glifosato como provavelmente cancerígeno&lt;/h2&gt;
+
+
+
+&lt;p&gt;Dina Akhmetshina, da U.S. PIRG, diz estar preocupada por se tratar de um insumo que deverá ser utilizado em grande escala. A própria Bayer afirmou que, “&lt;a href="https://agfundernews.com/icafolin-methyl-a-completion-of-glyphosate-not-a-replacement-in-conversation-with-bayer"&gt;na maioria dos casos&lt;/a&gt;”, o icafolin-metil será aplicado em combinação com glifosato no pulverizador. No Brasil, uma área superior a 50 milhões de hectares de soja — quase o equivalente ao território de Minas Gerais — é manejada com glifosato, na sua maioria Roundup.&lt;/p&gt;
+
+
+
+&lt;p&gt;Ao anunciar os pedidos de registro do icafolin no Brasil e em outros países, a empresa afirmou que o herbicida tem um “perfil excepcional” de segurança e se enquadra na categoria regulatória de “risco reduzido.”&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Porém, o único estudo publicado até agora sobre a segurança do insumo &lt;a href="https://www.sciencedirect.com/science/article/pii/S0048357525006406?via%3Dihub"&gt;foi realizado&lt;/a&gt; por cientistas da Bayer, o que levanta dúvidas sobre as conclusões.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;A pesquisa afirma que o icafolin-metil se degrada rapidamente no solo e que parte da substância se transforma em gás carbônico (CO₂). Os testes foram realizados em condições controladas de laboratório e, segundo especialistas consultados pela &lt;strong&gt;Repórter Brasil&lt;/strong&gt;, não refletem o real comportamento da substância em campo.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Akhmetshina lembra que, no caso do Roundup, um dos herbicidas mais usados da história, estudos independentes &lt;a href="https://www.sciencedirect.com/science/article/abs/pii/S2152265025042855"&gt;levaram décadas para associar &lt;/a&gt;o produto ao risco de câncer. Em 2015, a IARC, uma agência da OMS (Organização Mundial de Saúde), avaliou o glifosato como provavelmente cancerígeno para humanos.&lt;/p&gt;
+
+
+
+&lt;p&gt;“A IARC nunca retrocedeu nesta classificação, mesmo com todas as pressões. E é um órgão muito conservador”, observa Luiz Claudio Meirelles, pesquisador da Escola Nacional de Saúde Pública da Fiocruz.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Em dezembro do ano passado, um artigo científico que defendia o glifosato &lt;a href="https://reporterbrasil.org.br/2025/12/estudo-atestava-seguranca-glifosato-despublicado-apos-25-anos/"&gt;foi “despublicado”&lt;/a&gt; pela revista norte-americana Regulatory Toxicology and Pharmacology. Entre os motivos alegados estavam questões éticas, falta de integridade científica e desconfiança sobre os resultados da pesquisa. &lt;/p&gt;
+
+
+
+&lt;p&gt;Em março, um painel de cientistas americanos escreveu &lt;a href="https://www.thenewlede.org/2026/03/scientists-link-glyphosate-to-cancer/"&gt;uma carta&lt;/a&gt; pedindo que autoridades limitem ou eliminem o uso de glifosato urgentemente, devido aos riscos à saúde humana. “Nós já vivemos as consequências da falta de transparência da Bayer. A empresa dizia que o glifosato era seguro, mas, após décadas de pesquisa, hoje temos fundamentos científicos que apontam para um sério risco associado ao seu uso”, diz o documento.&lt;/p&gt;
+
+
+
+&lt;p&gt;Até agora, nenhum estudo independente foi publicado sobre o icafolin, segundo o banco de dados &lt;a href="https://sitem.herts.ac.uk/aeru/ppdb/en/Reports/2459.htm"&gt;PPDB (Pesticide Properties DataBase)&lt;/a&gt;, desenvolvido pela Universidade de Hertfordshire, no Reino Unido. Uma das principais bases de dados técnicas sobre pesticidas no mundo, o site mostra uma planilha praticamente em branco, indicando&lt;a href="https://sitem.herts.ac.uk/aeru/ppdb/en/Reports/3550.htm"&gt;a ausência de informações sobre riscos do icafolin.&lt;/a&gt;&lt;/p&gt;
+
+
+
+&lt;figure class="wp-block-image size-large"&gt;&lt;img decoding="async" width="1024" height="678" src="https://reporterbrasil.org.br/wp-content/uploads/2026/03/grass-field-lawn-wind-green-agriculture-765968-pxhere.com-1-1024x678.jpg" alt="Trabalhadores entre 20 e 59 são as maiores vítimas de intoxicação por agrotóxicos (Foto: PxHere)" class="wp-image-126534" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/03/grass-field-lawn-wind-green-agriculture-765968-pxhere.com-1-1024x678.jpg 1024w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/grass-field-lawn-wind-green-agriculture-765968-pxhere.com-1-300x199.jpg 300w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/grass-field-lawn-wind-green-agriculture-765968-pxhere.com-1-768x509.jpg 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/grass-field-lawn-wind-green-agriculture-765968-pxhere.com-1-1536x1018.jpg 1536w, https://reporterbrasil.org.br/wp-content/uploads/2026/03/grass-field-lawn-wind-green-agriculture-765968-pxhere.com-1.jpg 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Apesar de ainda não estar disponível no mercado, o novo herbicida da Bayer já preocupa ativistas e especialistas (Foto: PxHere)&lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+&lt;h2 class="wp-block-heading"&gt;Cresce resistência de pragas ao Roundup&lt;/h2&gt;
+
+
+
+&lt;p&gt;De acordo com a base de dados internacional &lt;a href="https://www.weedscience.org/summary/MOA.aspx?MOAID=12"&gt;Weed Science&lt;/a&gt;, 62 espécies de plantas invasoras já estariam imunes ao Roundup, sendo 11 no Brasil, incluindo as que mais atrapalham as lavouras, como a Amaranthus palmeri. Conhecido como &lt;a href="https://reporterbrasil.org.br/2026/05/super-resistente-glifosato-caruru-gigante-avanca-soja/"&gt;caruru-gigante, a erva daninha já é responsável por perdas milionárias na soja e no milho&lt;/a&gt;. &lt;/p&gt;
+
+
+
+&lt;p&gt;Para Steve Powles, especialista em culturas agrícolas e professor emérito da University of Western Australia, a resistência de ervas daninhas ao glifosato não surpreende. “Se você usar repetidamente o mesmo produto químico para controlar uma população variada de plantas daninhas, em algum momento surgirão plantas resistentes. É simples assim”, afirma. O glifosato é usado de forma incessante há três décadas.&lt;/p&gt;
+
+
+
+&lt;p&gt;Powles presidiu a Weed Science Society of America (WSSA), associação científica internacional dedicada ao estudo de plantas daninhas. Em 1998, publicou um dos primeiros estudos documentando a resistência ao glifosato, principal ingrediente do Roundup.&lt;/p&gt;
+
+
+
+&lt;p&gt;“Na época, eu previ que, se o glifosato continuasse a ser amplamente usado no milho e na soja – primeiro nos Estados Unidos, depois no Brasil e na Argentina –, o herbicida perderia eficácia. E não precisava ser nenhum Einstein para concluir isso”, disse.&lt;/p&gt;
+
+
+
+&lt;p&gt;Mesmo assim, o pesquisador acredita que a Monsanto &amp;#8212; fabricante inicial do Roundup, posteriormente adquirida pela Bayer &amp;#8212; foi pega de surpresa. “Eles não achavam que a resistência iria evoluir porque o glifosato havia sido usado por muito tempo sem problemas”, disse.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Hoje, 30 anos após o lançamento, o Roundup já não pode mais ser utilizado sozinho. A Bayer inclusive já comercializa produtos à base de dicamba para complementar o herbicida e desenvolve sementes capazes de resistir a múltiplos agrotóxicos.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Segundo Bill Freese, diretor científico do Center for Food Safety (CFS), a introdução do icafolin e de novas sementes resistentes ao herbicida geram um alerta. Sua organização, sediada em Washington, D.C., atua na defesa de sistemas alimentares e agrícolas sustentáveis, com foco em pesticidas.&lt;/p&gt;
+
+
+
+&lt;p&gt;Freese compara o icafolin ao dicamba, herbicida utilizado como complemento ao glifosato em lavouras geneticamente modificadas. Nos Estados Unidos, a deriva do produto causou danos a milhares de hectares de plantações vizinhas e, com o tempo, também contribuiu para o surgimento de plantas daninhas resistentes. “Ou seja, gerou outros problemas”, afirma.&lt;/p&gt;
+
+
+
+&lt;p&gt;Para ele, a Bayer segue uma lógica comercial. “Em vez de buscar soluções reais, eles desenvolvem culturas geneticamente modificadas que ampliam as vendas de herbicidas e geram ainda mais resistência em plantas daninhas — um ciclo vicioso altamente lucrativo para eles, mas totalmente insustentável”, avalia.&lt;/p&gt;
+
+
+
+&lt;h2 class="wp-block-heading"&gt;Bayer já gastou mais de US$ 50 bi em ações judiciais nos EUA&lt;/h2&gt;
+
+
+
+&lt;p&gt;O lançamento do icafolin também ocorre em meio à pressão de investidores sobre a Bayer, que enfrenta custos bilionários relacionados aos processos judiciais contra o Roundup.&lt;/p&gt;
+
+
+
+&lt;p&gt;Há dez anos, a empresa responde a alegações nas cortes americanas de que o herbicida causa câncer. Até hoje, a empresa já desembolsou mais de R$ 50 bilhões em indenizações. Para 2026, a empresa projeta mais R$ 29 bilhões para custear as 60 mil ações judiciais que continuam pendentes.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Em uma &lt;a href="https://www.bayer.com/en/2026-03-04-financial-news-conference"&gt;teleconferência com investidores em março&lt;/a&gt;, o CEO da Bayer, Bill Anderson, sinalizou que a empresa passa por um momento difícil. “Estamos esperando um fluxo de caixa livre negativo este ano devido a pagamentos relacionados a litígios”, afirmou. A empresa chegou a dizer que poderia interromper as vendas do Roundup por causa dos riscos jurídicos.&lt;/p&gt;
+
+
+
+&lt;p&gt;Para sobreviver à crise, a Bayer criou uma estratégia que inclui o lançamento do icafolin, que deve gerar R$ 4 bilhões de vendas iniciais. Também retirou glifosato de produtos comerciais nos Estados Unidos, embora &lt;a href="https://foe.org/wp-content/uploads/2024/10/Roundup_Report_2025_final.pdf"&gt;um relatório recente&lt;/a&gt; da organização Friends of the Earth US aponte que os produtos reformulados continuam tóxicos.&lt;/p&gt;
+
+
+
+&lt;p&gt;Em outra frente, a Bayer apelou à Suprema Corte dos Estados Unidos para limitar os litígios. A empresa pede que não seja responsabilizada no âmbito estadual pela falta de alerta de câncer nos rótulos do Roundup. O argumento é que a Agência de Proteção Ambiental dos Estados Unidos (EPA) já aprovou o produto sem essa advertência.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Para Kendra Klein, diretora adjunta de ciência da Friends of the Earth, a decisão dos juízes será crítica para definir o futuro da Bayer/Monsanto. “Ao buscar imunidade jurídica, a Bayer tenta fechar a única via em que teve de responder pelos danos causados por seus produtos. Os tribunais são o único lugar onde corporações de pesticidas têm sido responsabilizadas”, afirma Klein.&lt;/p&gt;
+
+
+
+&lt;p&gt;Ao mesmo tempo, a companhia tem tentado mudar legislações estaduais nos EUA com o objetivo de proteger fabricantes de pesticidas de novas acusações. Os estados da Geórgia e Dakota do Norte já aprovaram mudanças na lei que impede usuários de processar a empresa por falta de aviso de segurança.&lt;/p&gt;
+
+
+
+&lt;p&gt;A Bayer também tem realizado forte lobby com resultados na Casa Branca, segundo &lt;a href="https://usrtk.org/pesticides/tracing-bayers-ties-to-power-in-trumps-washington/"&gt;relatório da organização não governamental US Right to Know.&lt;/a&gt; Em fevereiro, o presidente Donald Trump usou poderes especiais de guerra para emitir uma medida executiva que protegeu a produção de glifosato nos Estados Unidos. A medida chegou a irritar os apoiadores do presidente que defendem a saúde pública, integrantes do movimento MAHA (Make America Health Again).&lt;/p&gt;
+
+
+		&lt;div data-elementor-type="section" data-elementor-id="129686" class="elementor elementor-129686" data-elementor-post-type="elementor_library"&gt;
+			&lt;a class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-e-type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}" href="https://reporterbrasil.org.br/apoie/"&gt;
+					&lt;div class="e-con-inner"&gt;
+				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+															&lt;img loading="lazy" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/a&gt;
+				&lt;/div&gt;
+		
+
+
+
+&lt;p&gt;&lt;strong&gt;25 anos investigando para mudar.&lt;/strong&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;A Repórter Brasil já ajudou a impulsionar leis, fortalecer direitos e combater o trabalho escravo.&lt;/strong&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Em 2026, fazemos 25 anos — e vem muito mais por aí!&lt;/strong&gt;&lt;/p&gt;
+
+
+		&lt;div data-elementor-type="container" data-elementor-id="75228" class="elementor elementor-75228" data-elementor-post-type="elementor_library"&gt;
+				&lt;div class="elementor-element elementor-element-5e8db1e6 e-flex e-con-boxed e-con e-parent" data-id="5e8db1e6" data-element_type="container" data-e-type="container"&gt;
+					&lt;div class="e-con-inner"&gt;
+		&lt;div class="elementor-element elementor-element-36eb6c91 e-flex e-con-boxed e-con e-child" data-id="36eb6c91" data-element_type="container" data-e-type="container"&gt;
+					&lt;div class="e-con-inner"&gt;
+		&lt;div class="elementor-element elementor-element-6f52f515 e-con-full e-flex e-con e-child" data-id="6f52f515" data-element_type="container" data-e-type="container"&gt;
+				&lt;div class="elementor-element elementor-element-65d9f401 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="65d9f401" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+							&lt;div class="elementor-divider"&gt;
+			&lt;span class="elementor-divider-separator"&gt;
+						&lt;/span&gt;
+		&lt;/div&gt;
+						&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;/div&gt;
+		&lt;div class="elementor-element elementor-element-134a1245 e-flex e-con-boxed e-con e-child" data-id="134a1245" data-element_type="container" data-e-type="container"&gt;
+					&lt;div class="e-con-inner"&gt;
+				&lt;div class="elementor-element elementor-element-10fe55fe elementor-widget elementor-widget-text-editor" data-id="10fe55fe" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+									&lt;p&gt;Leia também&lt;/p&gt;								&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class="elementor-element elementor-element-3c9495ae elementor-grid-1 leia-tambem elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid" data-id="3c9495ae" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;template_id&amp;quot;:&amp;quot;75221&amp;quot;,&amp;quot;columns&amp;quot;:1,&amp;quot;row_gap&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:10,&amp;quot;sizes&amp;quot;:[]},&amp;quot;_skin&amp;quot;:&amp;quot;post&amp;quot;,&amp;quot;columns_tablet&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;columns_mobile&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;edit_handle_selector&amp;quot;:&amp;quot;[data-elementor-type=\&amp;quot;loop-item\&amp;quot;]&amp;quot;,&amp;quot;row_gap_tablet&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]},&amp;quot;row_gap_mobile&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]}}" data-widget_type="loop-grid.post"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+							&lt;div class="e-loop-nothing-found-message"&gt;
+		&lt;/div&gt;
+						&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;/div&gt;
+		
+
+
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Carlos Juliano Barros</dc:creator><pubDate>Mon, 11 May 2026 08:30:00 +0000</pubDate><guid>https://reporterbrasil.org.br/2026/05/bayer-brasil-complemento-agrotoxico-polemico-glifosato-icafolin/</guid><guid isPermaLink="true">https://reporterbrasil.org.br/2026/05/bayer-brasil-complemento-agrotoxico-polemico-glifosato-icafolin/</guid></item><item><title>Caruru gigante, a planta super-resistente a agrotóxicos que ameaça produção de soja</title><link>https://reporterbrasil.org.br/2026/05/super-resistente-glifosato-caruru-gigante-avanca-soja/</link><description>
 &lt;p&gt;&lt;strong&gt;CAPAZ DE REDUZIR&lt;/strong&gt; em até 90% a produtividade da &lt;a href="https://reporterbrasil.org.br/tags/soja/" target="_blank" rel="noreferrer noopener"&gt;soja&lt;/a&gt; e do milho, o “caruru gigante” acendeu um alerta no campo. A planta invasora tem variedades resistentes a &lt;a href="https://reporterbrasil.org.br/tags/agrotoxicos" target="_blank" rel="noreferrer noopener"&gt;agrotóxicos&lt;/a&gt; e estava restrita a Mato Grosso e Mato Grosso do Sul. Neste ano, porém, já foi encontrada nos estados de São Paulo e Santa Catarina.&amp;nbsp;&lt;/p&gt;
 
 
@@ -139,7 +462,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-&lt;figure class="wp-block-image aligncenter size-full"&gt;&lt;img fetchpriority="high" decoding="async" width="768" height="467" src="https://reporterbrasil.org.br/wp-content/uploads/2026/05/caruru-gigante-mapa.png" alt="Governo federal instituiu em 2024 programa nacional de controle ao caruru-palmeri, tambémconhecido como caruru gigante (Foto: Divugação/MAPA)" class="wp-image-130012" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/05/caruru-gigante-mapa.png 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/caruru-gigante-mapa-300x182.png 300w" sizes="(max-width: 768px) 100vw, 768px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Governo federal instituiu em 2024 programa nacional de controle ao caruru-palmeri, tambémconhecido como caruru gigante (Foto: Divugação/MAPA)&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure class="wp-block-image aligncenter size-full"&gt;&lt;img loading="lazy" decoding="async" width="768" height="467" src="https://reporterbrasil.org.br/wp-content/uploads/2026/05/caruru-gigante-mapa.png" alt="Governo federal instituiu em 2024 programa nacional de controle ao caruru-palmeri, tambémconhecido como caruru gigante (Foto: Divugação/MAPA)" class="wp-image-130012" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/05/caruru-gigante-mapa.png 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/caruru-gigante-mapa-300x182.png 300w" sizes="(max-width: 768px) 100vw, 768px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Governo federal instituiu em 2024 programa nacional de controle ao caruru-palmeri, tambémconhecido como caruru gigante (Foto: Divugação/MAPA)&lt;/figcaption&gt;&lt;/figure&gt;
 
 
 
@@ -183,7 +506,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-&lt;figure class="wp-block-image aligncenter size-full"&gt;&lt;img decoding="async" width="800" height="450" src="https://reporterbrasil.org.br/wp-content/uploads/2026/05/caruru-gigante-embrapa-rs.jpg" alt="O caruru gigante é uma planta de rápido crescimento, podem atingir 2 metros de altura e tem alta capacidade de produção de sementes, que são pequenas e podem se espalhar pelo vento ou infestar máquinas agrícolas (Foto: Reprodução/Marlon Bastini/Embrapa/Seapi/Governo do RS)" class="wp-image-130010" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/05/caruru-gigante-embrapa-rs.jpg 800w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/caruru-gigante-embrapa-rs-300x169.jpg 300w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/caruru-gigante-embrapa-rs-768x432.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" /&gt;&lt;figcaption class="wp-element-caption"&gt;O caruru gigante é uma planta de rápido crescimento, podem atingir 2 metros de altura e tem alta capacidade de produção de sementes, que são pequenas e podem se espalhar pelo vento ou infestar máquinas agrícolas (Foto: Reprodução/Marlon Bastini/Embrapa/Seapi/Governo do RS)&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure class="wp-block-image aligncenter size-full"&gt;&lt;img loading="lazy" decoding="async" width="800" height="450" src="https://reporterbrasil.org.br/wp-content/uploads/2026/05/caruru-gigante-embrapa-rs.jpg" alt="O caruru gigante é uma planta de rápido crescimento, podem atingir 2 metros de altura e tem alta capacidade de produção de sementes, que são pequenas e podem se espalhar pelo vento ou infestar máquinas agrícolas (Foto: Reprodução/Marlon Bastini/Embrapa/Seapi/Governo do RS)" class="wp-image-130010" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/05/caruru-gigante-embrapa-rs.jpg 800w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/caruru-gigante-embrapa-rs-300x169.jpg 300w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/caruru-gigante-embrapa-rs-768x432.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" /&gt;&lt;figcaption class="wp-element-caption"&gt;O caruru gigante é uma planta de rápido crescimento, podem atingir 2 metros de altura e tem alta capacidade de produção de sementes, que são pequenas e podem se espalhar pelo vento ou infestar máquinas agrícolas (Foto: Reprodução/Marlon Bastini/Embrapa/Seapi/Governo do RS)&lt;/figcaption&gt;&lt;/figure&gt;
 
 
 
@@ -207,7 +530,7 @@ document.addEventListener("DOMContentLoaded", function() {
 					&lt;div class="e-con-inner"&gt;
 				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
-															&lt;img decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
+															&lt;img loading="lazy" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/a&gt;
@@ -418,7 +741,7 @@ document.addEventListener("DOMContentLoaded", function() {
 					&lt;div class="e-con-inner"&gt;
 				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
-															&lt;img decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
+															&lt;img loading="lazy" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/a&gt;
@@ -773,7 +1096,7 @@ document.addEventListener("DOMContentLoaded", function() {
 					&lt;div class="e-con-inner"&gt;
 				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
-															&lt;img decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
+															&lt;img loading="lazy" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/a&gt;
@@ -1252,7 +1575,7 @@ document.addEventListener("DOMContentLoaded", function() {
 					&lt;div class="e-con-inner"&gt;
 				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
-															&lt;img decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
+															&lt;img loading="lazy" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/a&gt;
@@ -2141,272 +2464,4 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 &lt;p&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Bruna Borges</dc:creator><pubDate>Mon, 13 Apr 2026 18:46:56 +0000</pubDate><guid>https://reporterbrasil.org.br/2026/04/diesel-verde-eua-tem-elo-empresa-condenada-em-caso-de-desmate/</guid><guid isPermaLink="true">https://reporterbrasil.org.br/2026/04/diesel-verde-eua-tem-elo-empresa-condenada-em-caso-de-desmate/</guid></item><item><title>‘Brecha regulatória’ da ANM permite minerar ouro perto de garimpos interditados</title><link>https://reporterbrasil.org.br/2026/04/anm-permite-minerar-ouro-perto-garimpos-embargados/</link><description>
-&lt;p&gt;&lt;strong&gt;A ANM&lt;/strong&gt; (Agência Nacional de Mineração) concedeu autorizações excepcionais de pesquisa e extração de ouro em áreas limítrofes ou próximas a &lt;a href="https://reporterbrasil.org.br/tags/garimpo/" target="_blank" rel="noreferrer noopener"&gt;garimpos&lt;/a&gt; embargados (interditados) na Amazônia após a constatação de extração mineral não autorizada, mostra levantamento exclusivo da &lt;strong&gt;Repórter Brasil.&lt;/strong&gt; As permissões foram dadas aos mesmos empreendedores implicados por órgãos de controle nas irregularidades que deram origem aos embargos.&lt;/p&gt;
-
-
-
-&lt;p&gt;Uma dessas autorizações está em uma área contígua a um embargo aplicado pelo Ibama (Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis) na borda da Terra Indígena Sararé, no Mato Grosso, uma das &lt;a href="https://g1.globo.com/mt/mato-grosso/noticia/2026/03/31/devastacao-do-garimpo-ilegal-na-terra-indigena-sarare-mt-equivale-a-4-mil-campos-de-futebol.ghtml" target="_blank" rel="noreferrer noopener"&gt;mais devastadas pela mineração ilegal de ouro&lt;/a&gt;. A interdição, que segue vigente, proíbe a continuidade de atividades garimpeiras no perímetro embargado.&lt;/p&gt;
-
-
-
-&lt;p&gt;Outra área de extração foi autorizada em um processo minerário sobreposto a uma área embargada pelo órgão ambiental estadual em Pacajá, no Pará. A mineradora que obteve a autorização é acusada de crime ambiental pelo MMPA (Ministério Público do Estado do Pará).&lt;/p&gt;
-
-
-
-&lt;p&gt;Os episódios envolvem a chamada Guia de Utilização, instrumento que permite, em caráter excepcional, a extração mineral antes da concessão definitiva da lavra garimpeira. Os casos foram identificados pela &lt;strong&gt;Repórter Brasil &lt;/strong&gt;a partir do cruzamento de dados sobre áreas que obtiveram Guias de Utilização desde 2023, obtidos via Lei de Acesso à Informação, com registros públicos de embargos do Ibama e de órgãos ambientais estaduais.&lt;/p&gt;
-
-
-
-&lt;p&gt;Para órgãos de controle e especialistas ouvidos pela reportagem, os casos reforçam falhas na fiscalização e no controle sobre atividades de alto risco pela ANM.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;h2 class="wp-block-heading"&gt;&lt;strong&gt;Guia de Utilização contorna área embargada&lt;/strong&gt;&lt;/h2&gt;
-
-
-
-&lt;p&gt;Em outubro do ano passado, a ANM concedeu uma Guia de Utilização à Cooperlima, a Cooperativa de Extração de Metais e Pedras Preciosas de Pontes e Lacerda, no Mato Grosso. A autorização&amp;nbsp; permite a extração de ouro e engloba quatro áreas que contornam um garimpo da Cooperlima embargado pelo Ibama. O embargo havia sido registrado dois meses antes, em agosto de 2025, por realizar extração mineral sem autorização em 32 hectares.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;figure class="wp-block-image size-large"&gt;&lt;img loading="lazy" decoding="async" width="819" height="1024" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/MAPA1_ReporterBrasil_Rodrigo_Bento-819x1024.jpg" alt="(Mapa: Rodrigo Bento/Repórter Brasil)" class="wp-image-129312" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/MAPA1_ReporterBrasil_Rodrigo_Bento-819x1024.jpg 819w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/MAPA1_ReporterBrasil_Rodrigo_Bento-240x300.jpg 240w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/MAPA1_ReporterBrasil_Rodrigo_Bento-768x960.jpg 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/MAPA1_ReporterBrasil_Rodrigo_Bento.jpg 1200w" sizes="(max-width: 819px) 100vw, 819px" /&gt;&lt;figcaption class="wp-element-caption"&gt;(Mapa: Rodrigo Bento/Repórter Brasil)&lt;/figcaption&gt;&lt;/figure&gt;
-
-
-
-&lt;p&gt;A área embargada está a 50 metros da borda da Terra Indígena Sararé, que passou no final de março por uma operação de &lt;a href="https://www.gov.br/ibama/pt-br/assuntos/noticias/2026/governo-federal-realiza-desintrusao-na-terra-indigena-sarare-mt-contra-garimpo-ilegal" target="_blank" rel="noreferrer noopener"&gt;expulsão de invasores e desmantelamento de estruturas para exploração ilegal de ouro&lt;/a&gt;. A ação de retirada de garimpeiros ilegais contou com forças do Exército e levou à prisão de 51 pessoas, segundo informações divulgadas pelo Governo Federal no dia 30 de março. Dos 67 mil hectares do território, 4,2 mil já foram impactados pelo garimpo, de acordo com o Ibama. Estudo &lt;a href="https://storage.googleapis.com/gpbr-public/toxic-gold/Greenpeace_Relato%CC%81rio_Ouro_To%CC%81xico.pdf" target="_blank" rel="noreferrer noopener"&gt;publicado em 2025 pela organização Greenpeace&lt;/a&gt; mostrou que, no ano anterior, a &lt;a href="https://apublica.org/2025/04/garimpo-ilegal-migra-na-amazonia-e-dispara-na-ti-sarare-mt-alerta-greenpeace/" target="_blank" rel="noreferrer noopener"&gt;Terra Indígena Sararé foi a mais desmatada da Amazônia Legal&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;A justificativa formal da ANM para dar autorização à Cooperlima menciona a existência de alvará de pesquisa vigente, licença ambiental expedida pela Sema-MT (Secretaria de Estado de Meio Ambiente de Mato Grosso) e uma fiscalização prévia do órgão. Essas informações estão descritas em um relatório acessado pela reportagem sobre uma inspeção realizada pela ANM na área após concessão da autorização.&lt;/p&gt;
-
-
-
-&lt;p&gt;Durante a vistoria, servidores da ANM identificaram que a cooperativa retirava areia e cascalho de uma faixa de terra às margens do rio Sararé, dentro da área autorizada pelo órgão. Segundo a fiscalização, o material era levado para lavagem e separação das partículas menores que contêm ouro, “que podem ser ‘repassados’ posteriormente em outras etapas de concentração, porém fora da área de lavra, na sede da Cooperativa”, segundo trecho do relatório.&amp;nbsp;&lt;/p&gt;
-
-
-
-		&lt;div data-elementor-type="section" data-elementor-id="77670" class="elementor elementor-77670" data-elementor-post-type="elementor_library"&gt;
-			&lt;div class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-e-type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}"&gt;
-					&lt;div class="e-con-inner"&gt;
-				&lt;div class="elementor-element elementor-element-386385d elementor-widget elementor-widget-heading" data-id="386385d" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-					&lt;h2 class="elementor-heading-title elementor-size-default"&gt;ASSINE NOSSA NEWSLETTER&lt;/h2&gt;				&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-6546917 elementor-widget elementor-widget-html" data-id="6546917" data-element_type="widget" data-e-type="widget" data-widget_type="html.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-					&lt;script&gt;
-document.addEventListener("DOMContentLoaded", function() {
-    document.querySelectorAll('.form-news button[type="submit"]').forEach(function(botao) {
-        botao.classList.add("envio_newsletter_materia");
-    });
-});
-&lt;/script&gt;				&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-8c2e333 form-news elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="8c2e333" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;button_width&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_next_label&amp;quot;:&amp;quot;Next&amp;quot;,&amp;quot;step_previous_label&amp;quot;:&amp;quot;Previous&amp;quot;,&amp;quot;button_width_mobile&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_type&amp;quot;:&amp;quot;number_text&amp;quot;,&amp;quot;step_icon_shape&amp;quot;:&amp;quot;circle&amp;quot;}" data-widget_type="form.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
-			&lt;input type="hidden" name="post_id" value="77670"/&gt;
-			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Como funciona o tráfico de mercúrio descoberto pela PF e Ibama" /&gt;
-
-							&lt;input type="hidden" name="queried_id" value="75682"/&gt;
-			
-			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
-								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
-												&lt;label for="form-field-email" class="elementor-field-label elementor-screen-only"&gt;
-								Email							&lt;/label&gt;
-														&lt;input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="email" required="required"&gt;
-											&lt;/div&gt;
-								&lt;div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-20 e-form__buttons elementor-sm-20"&gt;
-					&lt;button class="elementor-button elementor-size-sm" type="submit"&gt;
-						&lt;span class="elementor-button-content-wrapper"&gt;
-															&lt;span class="elementor-button-icon"&gt;
-									&lt;i aria-hidden="true" class="fas fa-long-arrow-alt-right"&gt;&lt;/i&gt;																			&lt;span class="elementor-screen-only"&gt;Submit&lt;/span&gt;
-																	&lt;/span&gt;
-																				&lt;/span&gt;
-					&lt;/button&gt;
-				&lt;/div&gt;
-			&lt;/div&gt;
-		&lt;/form&gt;
-						&lt;/div&gt;
-				&lt;/div&gt;
-					&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;/div&gt;
-		
-
-
-
-&lt;p&gt;O embargo do Ibama no meio da área da Guia de Utilização não é citado pela ANM. No documento, o órgão recomenda fiscalizações frequentes na área autorizada, reconhecendo tratar-se de uma localidade “sensível ambientalmente e socialmente”, e registra o monitoramento da Ação Civil Pública sobre a desintrusão – termo técnico usado para descrever a retirada de invasores – da TI Sararé.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;A &lt;strong&gt;Repórter Brasil &lt;/strong&gt;apresentou à ANM os casos descritos nesta reportagem e questionou se essas situações violavam os critérios da Agência para a concessão de Guias de Utilização. Também perguntou se o órgão tem capacidade para garantir a conformidade ambiental de novas áreas concedidas a detentores já embargados anteriormente por garimpo ilegal. A Agência, porém, não respondeu.&lt;/p&gt;
-
-
-
-&lt;p&gt;A reportagem não conseguiu contato com representantes da Cooperlima. O espaço segue aberto para manifestações futuras.&lt;/p&gt;
-
-
-
-&lt;h2 class="wp-block-heading"&gt;&lt;strong&gt;Exceção que virou rotina, aponta TCU&lt;/strong&gt;&lt;/h2&gt;
-
-
-
-&lt;p&gt;Prevista no Código de Mineração e regulamentada pela ANM, a Guia de Utilização permite, em caráter excepcional, a extração mineral antes da concessão de lavra, desde que haja autorização da Agência e observância da legislação ambiental.&lt;/p&gt;
-
-
-
-&lt;p&gt;A ANM trata como excepcionais três situações: extração para análises e ensaios industriais antes concessão de lavra, aferição de viabilidade técnico-econômica do projeto e comercialização de substâncias minerais “a critério da ANM”, vinculada a políticas públicas.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;Em dezembro do ano passado, as autorizações excepcionais entraram na mira do TCU (Tribunal de Contas da União). O órgão fez questionamentos sobre uma mudança normativa feita pela ANM em 2020. Antes dela, a licença ambiental precisava ser apresentada previamente à emissão da Guia. Depois, a ANM passou a admitir a emissão sem a licença, exigida apenas mais tarde.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;Pelo padrão apontado pelo TCU, a Guia de Utilização, concebida para situações excepcionais, passou a ser usada como rotina. O órgão de controle concluiu que 72% das GUs haviam sido emitidas para fins comerciais, sem vínculo real com testes, ensaios ou comprovação de viabilidade. O TCU também apontou falta de justificativa individualizada para explicar por que cada caso era excepcional.&lt;/p&gt;
-
-
-
-&lt;p&gt;No fim de janeiro, o TCU deu 30 dias para que a ANM comprovasse o restabelecimento da exigência de licenciamento ambiental prévio e apresentasse um plano de ação para conter o que chamou de “esvaziamento” do controle externo. Segundo o Tribunal informou à &lt;strong&gt;Repórter Brasil&lt;/strong&gt;, a ANM já entregou os documentos e a unidade técnica do órgão ainda não concluiu a análise. Só depois disso o relator do processo decidirá se as providências da Agência foram suficientes.&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;Falta de diligências e possível ilegalidade&lt;/strong&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;Na avaliação do procurador do MPF (Ministério Público Federal) no Amazonas André Porreca, que assina uma ação protocolada em fevereiro de 2025 contra o modelo atual das Guias de Utilização, o caso da Cooperlima traz indícios de ilegalidade por sugerir o uso da fase de pesquisa para viabilizar extração em moldes mais próximos da lavra comercial. “Se fosse aqui na minha área de atribuição e essa situação chegasse para mim, eu compreenderia sim como uma situação de ilegalidade”.&lt;/p&gt;
-
-
-
-&lt;p&gt;Para Maurício Angelo, diretor do Observatório da Mineração, o caso da Cooperlima revela uma falha básica de controle. “Vai contra a mínima devida diligência, contra uma troca de informação razoável e esperada com o Ibama e outros órgãos”, afirmou à &lt;strong&gt;Repórter Brasil&lt;/strong&gt;. Segundo ele, conceder e manter uma autorização excepcional em nome de uma cooperativa ligada a uma área já embargada, em polígonos contíguos ao embargo, mostra que “não há critério nenhum, não há verificação mínima”.&lt;/p&gt;
-
-
-
-&lt;p&gt;A ANM não lista a certidão negativa de embargos ambientais entre os documentos exigidos para solicitar uma Guia de Utilização. Nas &lt;a href="https://www.gov.br/anm/pt-br/acesso-a-informacao/perguntas-frequentes/guia-de-utilizacao"&gt;perguntas frequentes sobre o tema&lt;/a&gt;, o órgão informa que a emissão da guia pode ser impedida apenas quando o requerente tiver sido identificado como autor de lavra ilegal. Nesses casos, a restrição se limita à área pleiteada.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;h2 class="wp-block-heading"&gt;&lt;strong&gt;Mineradora responde na Justiça por crime ambiental&lt;/strong&gt;&lt;/h2&gt;
-
-
-
-&lt;p&gt;Outra autorização excepcional para exploração de ouro concedida pela ANM em outubro de 2024 beneficiou a Brasil Marabá Mineradora, localizada em Pacajá, no Pará. A Guia de Utilização está situada dentro de um processo minerário, registrado em nome da mineradora, sobreposto a duas áreas embargadas em junho de 2021 pela secretaria do meio ambiente do Pará.&lt;/p&gt;
-
-
-
-&lt;figure class="wp-block-image size-large"&gt;&lt;img loading="lazy" decoding="async" width="614" height="1024" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/MAPA2_ReporterBrasil_Rodrigo_Bento-614x1024.jpg" alt="(Mapa: Rodrigo Bento/Repórter Brasil)" class="wp-image-129314" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/MAPA2_ReporterBrasil_Rodrigo_Bento-614x1024.jpg 614w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/MAPA2_ReporterBrasil_Rodrigo_Bento-180x300.jpg 180w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/MAPA2_ReporterBrasil_Rodrigo_Bento-768x1280.jpg 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/MAPA2_ReporterBrasil_Rodrigo_Bento-922x1536.jpg 922w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/MAPA2_ReporterBrasil_Rodrigo_Bento.jpg 1200w" sizes="(max-width: 614px) 100vw, 614px" /&gt;&lt;figcaption class="wp-element-caption"&gt;(Mapa: Rodrigo Bento/Repórter Brasil)&lt;/figcaption&gt;&lt;/figure&gt;
-
-
-
-&lt;p&gt;O embargo e a multa correspondente por manter atividade de mineração sem licença foi registrado em nome da proprietária da área, Jeanne Farias de Brito. Em contestação apresentada contra a atuação, ela negou envolvimento com a lavra ilegal. No documento, de maio de 2022, Brito afirmou que a propriedade, denominada Fazenda Scorpião, sofre há décadas com invasões de garimpeiros.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;Para tentar afastar os invasores, ela afirma ter concedido uma autorização para que a mineradora Brasil Marabá realizasse pesquisas minerais na propriedade. Nesse cenário, a defesa de Jeanne de Brito argumentou que ela é “apenas uma terceira proprietária sem responsabilidade pela lavra, que é de inteira responsabilidade da empresa citada, quem deveria proceder com a licença ambiental, portanto a verdadeira responsável”.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;Um ano após a autuação, Jeanne de Brito e a Brasil Marabá se tornaram réus em uma ação penal movida pelo MPPA (Ministério Público do Estado do Pará), que caracterizou como crime ambiental a mineração ilegal e o desmatamento de 5,6 hectares na área. Em defesa apresentada à Justiça, a Brasil Marabá alegou que passou a operar na área apenas três meses depois da fiscalização. Para o MPPA, a proximidade entre a autuação e a formalização dos direitos minerários concedidos por Jeanne de Brito para a Brasil Marabá “sugere que já havia tratativas e possível atuação da empresa na área”. O processo segue em tramitação na Justiça do Pará.&lt;/p&gt;
-
-
-
-&lt;p&gt;A &lt;strong&gt;Repórter Brasil&lt;/strong&gt; não conseguiu contato com Jeanne de Brito e com a Brasil Marabá. O espaço está aberto a futuras manifestações.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;h2 class="wp-block-heading"&gt;&lt;strong&gt;ANM recusou recomendação do MPF&lt;/strong&gt;&lt;/h2&gt;
-
-
-
-&lt;p&gt;O problema das Guias de Utilização também foi levado à ANM pelo MPF do Amazonas. Em uma recomendação feita pelo procurador André Porreca em 2024, o órgão pediu critérios objetivos para separar pesquisa mineral de lavra comercial. O MPF disse existir uma “zona cinzenta” que permitia o uso de alvarás de pesquisa para mascarar extrações comerciais ilegais em larga escala, inclusive na mineração de ouro.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;“Muitos estavam usando esses títulos e essas autorizações de pesquisa para efetivamente lavrar com propósito comercial e sem se submeter a todas as exigências ambientais que a lei prevê para a lavra”, afirmou Porreca à reportagem.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;Entre as medidas recomendadas pelo MPF estavam a definição técnica do maquinário permitido, limites quantitativos de extração e comprovação periódica de que a atividade segue o plano aprovado.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;A ANM, entretanto, recusou as providências em janeiro de 2025, sob o argumento de que a regulamentação já era suficiente para diferenciar lavra de pesquisa mineral. A Agência argumentou ainda que a definição do maquinário era de responsabilidade do empreendedor.&amp;nbsp;&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;Depois da negativa, o MPF levou o caso à Justiça. Em dezembro do ano passado, a Justiça Federal deu à ANM seis meses para apresentar estudos técnicos voltados à criação dessas regras.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;h2 class="wp-block-heading"&gt;&lt;strong&gt;Especialistas pedem maior controle&lt;/strong&gt;&lt;/h2&gt;
-
-
-
-&lt;p&gt;Giorgi Nogueira, da DPU (Defensoria Pública da União) e integrante do Observatório do Garimpo e seus Efeitos Socioambientais, afirma que o problema começa antes do ato formal de concessão da Guia de Utilização. “Não se faz uma verificação nem&lt;em&gt; in loco&lt;/em&gt;, nem geoespacial, nem uma consulta ao órgão ambiental”, disse à &lt;strong&gt;Repórter Brasil&lt;/strong&gt;.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;Segundo Nogueira, a análise continua presa à lógica documental, embora já seja possível cruzar bancos de dados públicos, imagens de satélite e alertas automáticos sobre sobreposição ou proximidade entre polígonos minerários, embargos e áreas sensíveis.&lt;/p&gt;
-
-
-
-&lt;p&gt;Luiz Jardim, do projeto De Olho na CFEM (Compensação Financeira pela Exploração de Recursos Minerais), afirmou que o problema demonstra falha de fiscalização da ANM. “A GU se tornou uma brecha regulatória para legalizar garimpos sem o devido trâmite ambiental, em alguns casos lavando um ouro que era ilegal”, afirmou.&lt;/p&gt;
-
-
-
-&lt;p&gt;Jardim defende controle antes da emissão da guia e ao longo de toda a extração, além de plano de recuperação obrigatório para áreas já garimpadas e fiscalização mais rigorosa da relação entre volume extraído e volume comercializado.&lt;/p&gt;
-
-
-
-&lt;p&gt;O Observatório da Mineração, a DPU e outras fontes ouvidas pela reportagem defendem que a ANM passe a cruzar seus dados com bases públicas de embargos ambientais e com informações já disponíveis em outros órgãos. A proposta inclui comunicação permanente com Ibama, ICMBio (Instituto Chico Mendes de Conservação da Biodiversidade), Polícia Federal, MPF e outras instituições que já produzem alertas, autos de infração, dados geoespaciais e informações de campo sobre áreas sob pressão do garimpo.&lt;/p&gt;
-
-
-
-&lt;p&gt;As organizações propõem um sistema capaz de identificar, antes da concessão da guia e durante sua vigência, sobreposições e proximidades críticas entre títulos minerários, áreas embargadas, terras indígenas e outros territórios sensíveis.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;“É preciso ter um nível de transparência muito maior em relação a essas guias (&amp;#8230;) para que esses tipos de episódios mais ou menos escandalosos deixem de acontecer”, afirmou Maurício Angelo, do Observatório da Mineração.&lt;/p&gt;
-
-
-
-		&lt;div data-elementor-type="container" data-elementor-id="75228" class="elementor elementor-75228" data-elementor-post-type="elementor_library"&gt;
-				&lt;div class="elementor-element elementor-element-5e8db1e6 e-flex e-con-boxed e-con e-parent" data-id="5e8db1e6" data-element_type="container" data-e-type="container"&gt;
-					&lt;div class="e-con-inner"&gt;
-		&lt;div class="elementor-element elementor-element-36eb6c91 e-flex e-con-boxed e-con e-child" data-id="36eb6c91" data-element_type="container" data-e-type="container"&gt;
-					&lt;div class="e-con-inner"&gt;
-		&lt;div class="elementor-element elementor-element-6f52f515 e-con-full e-flex e-con e-child" data-id="6f52f515" data-element_type="container" data-e-type="container"&gt;
-				&lt;div class="elementor-element elementor-element-65d9f401 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="65d9f401" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-							&lt;div class="elementor-divider"&gt;
-			&lt;span class="elementor-divider-separator"&gt;
-						&lt;/span&gt;
-		&lt;/div&gt;
-						&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;/div&gt;
-		&lt;div class="elementor-element elementor-element-134a1245 e-flex e-con-boxed e-con e-child" data-id="134a1245" data-element_type="container" data-e-type="container"&gt;
-					&lt;div class="e-con-inner"&gt;
-				&lt;div class="elementor-element elementor-element-10fe55fe elementor-widget elementor-widget-text-editor" data-id="10fe55fe" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-									&lt;p&gt;Leia também&lt;/p&gt;								&lt;/div&gt;
-				&lt;/div&gt;
-					&lt;/div&gt;
-				&lt;/div&gt;
-					&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-3c9495ae elementor-grid-1 leia-tambem elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid" data-id="3c9495ae" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;template_id&amp;quot;:&amp;quot;75221&amp;quot;,&amp;quot;columns&amp;quot;:1,&amp;quot;row_gap&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:10,&amp;quot;sizes&amp;quot;:[]},&amp;quot;_skin&amp;quot;:&amp;quot;post&amp;quot;,&amp;quot;columns_tablet&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;columns_mobile&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;edit_handle_selector&amp;quot;:&amp;quot;[data-elementor-type=\&amp;quot;loop-item\&amp;quot;]&amp;quot;,&amp;quot;row_gap_tablet&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]},&amp;quot;row_gap_mobile&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]}}" data-widget_type="loop-grid.post"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-							&lt;div class="e-loop-nothing-found-message"&gt;
-		&lt;/div&gt;
-						&lt;/div&gt;
-				&lt;/div&gt;
-					&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;/div&gt;
-		
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Poliana Dallabrida Wisentainer</dc:creator><pubDate>Mon, 13 Apr 2026 08:00:00 +0000</pubDate><guid>https://reporterbrasil.org.br/2026/04/anm-permite-minerar-ouro-perto-garimpos-embargados/</guid><guid isPermaLink="true">https://reporterbrasil.org.br/2026/04/anm-permite-minerar-ouro-perto-garimpos-embargados/</guid></item></channel></rss>
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Bruna Borges</dc:creator><pubDate>Mon, 13 Apr 2026 18:46:56 +0000</pubDate><guid>https://reporterbrasil.org.br/2026/04/diesel-verde-eua-tem-elo-empresa-condenada-em-caso-de-desmate/</guid><guid isPermaLink="true">https://reporterbrasil.org.br/2026/04/diesel-verde-eua-tem-elo-empresa-condenada-em-caso-de-desmate/</guid></item></channel></rss>
