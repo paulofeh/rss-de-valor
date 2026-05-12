@@ -8,7 +8,7 @@
 
 
 
-&lt;p&gt;A análise do ministério ocorreu em 2022 e encontrou 17,73 mg/kg de glifosato, herbicida amplamente usado em lavouras. O limite permitido de resíduo deste agrotóxico pela Anvisa (Agência Nacional de Vigilância Sanitária) é de 0,05 mg/kg. Quando essa marca é ultrapassada, o alimento é considerado&lt;a href="https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/d12709.htm#art240"&gt; &amp;#8220;impróprio para uso ou consumo&amp;#8221;&lt;/a&gt; pela legislação brasileira. O glifosato é classificado como “provavelmente cancerígeno para humanos” pela OMS (Organização Mundial da Saúde).&lt;/p&gt;
+&lt;p&gt;A análise do ministério ocorreu em 2022 e encontrou 17,73 mg/kg de glifosato, herbicida amplamente usado em lavouras. O limite permitido de resíduo deste agrotóxico pela Anvisa (Agência Nacional de Vigilância Sanitária) é de 0,05 mg/kg. Quando essa marca é ultrapassada, o alimento é considerado &lt;a href="https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/d12709.htm#art240"&gt;&amp;#8220;impróprio para uso ou consumo&amp;#8221;&lt;/a&gt; pela legislação brasileira. O glifosato é classificado como “provavelmente cancerígeno para humanos” pela OMS (Organização Mundial da Saúde).&lt;/p&gt;
 
 
 
@@ -41,9 +41,8 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Brasil bate recorde de intoxicados por agrotóxico: 27 por dia" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Repórter Brasil" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="126495"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -75,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-&lt;p&gt;Foram identificadas 13 multas que somam mais de R$ 1,2 milhão para NJF no período, além de quatro autos de infração que ainda aguardam decisão final ou não tiveram punição financeira aplicada até o momento.&lt;br&gt;&lt;br&gt;Em resposta à &lt;strong&gt;Repórter Brasil&lt;/strong&gt;, a NJF afirmou que discorda das autuações e que os processos ainda estão sendo contestados tanto no Ministério da Agricultura quanto na Justiça. A companhia sustenta que não utiliza os agrotóxicos citados nas autuações e que atua apenas no beneficiamento e empacotamento dos grãos, sem participação na aplicação das substâncias no campo. Em nota, declarou que os casos seriam “isolados e pontuais”, representando “quantidade ínfima de produtos” comercializados ao longo de cinco anos.&lt;/p&gt;
+&lt;p&gt;Foram identificadas 13 multas que somam mais de R$ 1,2 milhão para NJF no período, além de quatro autos de infração que ainda aguardam decisão final ou não tiveram punição financeira aplicada até o momento.&lt;br&gt;&lt;br&gt;Em resposta à &lt;strong&gt;Repórter Brasil&lt;/strong&gt;, a NJF afirmou que discorda das autuações e que os processos estão sendo contestados tanto no Ministério da Agricultura quanto na Justiça. A companhia sustenta que não utiliza os agrotóxicos citados nas autuações e que atua apenas no beneficiamento e empacotamento dos grãos, sem participação na aplicação das substâncias no campo. Em nota, declarou que os casos seriam “isolados e pontuais”, representando “quantidade ínfima de produtos” comercializados ao longo de cinco anos.&lt;/p&gt;
 
 
 
@@ -83,7 +82,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-&lt;p&gt;Para o Mapa, contudo, os argumentos não afastam a responsabilidade legal da empacotadora. De acordo com os autos dos processos, a infração administrativa estaria relacionada ao fato de o produto ter sido destinado ao consumo fora dos padrões, independentemente de onde ocorreu a contaminação.&lt;/p&gt;
+&lt;p&gt;O Mapa também foi procurado pela reportagem, mas não se manifestou. Nos autos dos processos, o ministério avaliou que a empacotadora tem responsabilidade legal pelas irregularidades. Segundo os documentos, a infração administrativa estaria relacionada ao fato de o produto ter sido destinado ao consumo fora dos padrões, independentemente de onde ocorreu a contaminação.&lt;/p&gt;
 
 
 
@@ -127,7 +126,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-&lt;p&gt;Procurados, o Mapa e a Abifeijão não se manifestaram até a publicação desta reportagem. O espaço continua disponível para futuras manifestações.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Procurada, a Abifeijão não se manifestou até a publicação desta reportagem. O espaço continua disponível para futuras manifestações. &lt;/p&gt;
 
 
 
@@ -163,7 +162,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-&lt;p&gt;O PNCRC permite rastrear irregularidades até empresas específicas. Mas as informações são&amp;nbsp; pouco acessíveis ao consumidor, pois as autuações só ficam disponíveis em sistemas administrativos do Ministério da Agricultura e não há divulgação consolidada das marcas ou empresas autuadas.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;O PNCRC permite rastrear irregularidades até empresas específicas. Mas as informações são pouco acessíveis ao consumidor, pois as autuações só ficam disponíveis em sistemas administrativos do Ministério da Agricultura e não há divulgação consolidada das marcas ou empresas autuadas. &lt;/p&gt;
 
 
 
@@ -312,9 +311,8 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Brasil bate recorde de intoxicados por agrotóxico: 27 por dia" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Repórter Brasil" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="126495"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -663,9 +661,8 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Brasil bate recorde de intoxicados por agrotóxico: 27 por dia" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Repórter Brasil" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="126495"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -918,9 +915,8 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Brasil bate recorde de intoxicados por agrotóxico: 27 por dia" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Repórter Brasil" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="126495"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -1101,9 +1097,8 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Brasil bate recorde de intoxicados por agrotóxico: 27 por dia" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Repórter Brasil" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="126495"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -1635,9 +1630,8 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Brasil bate recorde de intoxicados por agrotóxico: 27 por dia" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Repórter Brasil" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="126495"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -1953,9 +1947,8 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Brasil bate recorde de intoxicados por agrotóxico: 27 por dia" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Repórter Brasil" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="126495"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -2067,9 +2060,8 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Brasil bate recorde de intoxicados por agrotóxico: 27 por dia" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Repórter Brasil" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="126495"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -2394,9 +2386,8 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Brasil bate recorde de intoxicados por agrotóxico: 27 por dia" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Repórter Brasil" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="126495"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
