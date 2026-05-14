@@ -41,8 +41,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Repórter Brasil" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Governo expulsa garimpeiros, mas não desmonta rede ilegal do ouro" /&gt;
 
+							&lt;input type="hidden" name="queried_id" value="130192"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -78,7 +79,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-&lt;p&gt;A companhia também afirmou que não há relatos de danos à saúde de consumidores relacionados aos lotes autuados. Disse ainda que mantém laboratório interno para testes rápidos de agrotóxicos, além de enviar amostras para análises externas. &amp;#8220;A empresa recolheu todos os lotes, mesmo que os casos restem pendentes de conclusão da discussão administrativa e/ou judicial&amp;#8221;, garantiu. &lt;a href="https://reporterbrasil.org.br/2026/05/posicionamento-da-njf-industria-e-comercio-para-reportagem-sobre-feijao-com-agrotoxico/" type="link" id="https://reporterbrasil.org.br/2026/05/posicionamento-da-njf-industria-e-comercio-para-reportagem-sobre-feijao-com-agrotoxico/" target="_blank" rel="noreferrer noopener"&gt;Leia a resposta completa.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.A companhia também afirmou que não há relatos de danos à saúde de consumidores relacionados aos lotes autuados. Disse ainda que mantém laboratório interno para testes rápidos de agrotóxicos, além de enviar amostras para análises externas. &amp;#8220;A empresa recolheu todos os lotes, mesmo que os casos restem pendentes de conclusão da discussão administrativa e/ou judicial&amp;#8221;, garantiu. &lt;a href="https://reporterbrasil.org.br/2026/05/posicionamento-da-njf-industria-e-comercio-para-reportagem-sobre-feijao-com-agrotoxico/" type="link" id="https://reporterbrasil.org.br/2026/05/posicionamento-da-njf-industria-e-comercio-para-reportagem-sobre-feijao-com-agrotoxico/" target="_blank" rel="noreferrer noopener"&gt;Leia a resposta completa.&lt;/a&gt;&lt;/p&gt;
 
 
 
@@ -126,7 +127,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-&lt;p&gt;Procurada, a Abifeijão não se manifestou até a publicação desta reportagem. O espaço continua disponível para futuras manifestações. &lt;/p&gt;
+&lt;p&gt;Procurada, a Abifeijão não se manifestou até a publicação desta reportagem. O espaço continua disponível para futuras manifestações.&amp;nbsp;&lt;/p&gt;
 
 
 
@@ -162,7 +163,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-&lt;p&gt;O PNCRC permite rastrear irregularidades até empresas específicas. Mas as informações são pouco acessíveis ao consumidor, pois as autuações só ficam disponíveis em sistemas administrativos do Ministério da Agricultura e não há divulgação consolidada das marcas ou empresas autuadas. &lt;/p&gt;
+&lt;p&gt;O PNCRC permite rastrear irregularidades até empresas específicas. Mas as informações são pouco acessíveis ao consumidor, pois as autuações só ficam disponíveis em sistemas administrativos do Ministério da Agricultura e não há divulgação consolidada das marcas ou empresas autuadas.&amp;nbsp;&lt;/p&gt;
 
 
 
@@ -190,6 +191,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
+&lt;p&gt;Por meio de nota, a Anvisa afirmou que não recebeu comunicação oficial do Mapa sobre o caso envolvendo os lotes de feijão analisados, mas avaliou que os níveis identificados pela Repórter Brasil “demandam atenção dos órgãos competentes”, por excederem de forma significativa o limite máximo de resíduos permitido para a cultura. “Em uma abordagem conservadora de avaliação, a exposição decorrente do consumo contínuo de alimentos contendo resíduos nos níveis mais elevados identificados, especialmente para grupos mais vulneráveis, poderia resultar em estimativas acima da Ingestão Diária Aceitável (IDA) estabelecida para o ingrediente ativo”, afirma o órgão.&lt;/p&gt;
+
+
+
+&lt;p&gt;A Anvisa ponderou que as análises foram feitas com as amostras na forma como foram coletadas, sem considerar etapas comuns do preparo do feijão, como lavagem e cocção, que podem reduzir a concentração de resíduos de agrotóxicos nos alimentos. A agência ressaltou, porém, que alguns tipos de processamento também podem concentrar essas substâncias ou gerar compostos com relevância toxicológica. &lt;a href="https://reporterbrasil.org.br/2026/05/posicionamento-da-njf-industria-e-comercio-para-reportagem-sobre-feijao-com-agrotoxico/"&gt;Leia a resposta na íntegra&lt;/a&gt;.&lt;/p&gt;
+
+
+
 &lt;p&gt;Para a pesquisadora da Fiocruz, níveis tão altos de resíduos nos alimentos que chegam ao supermercado podem indicar justamente um uso cada vez mais intenso no campo, inclusive diante da &lt;a href="https://reporterbrasil.org.br/2026/05/super-resistente-glifosato-caruru-gigante-avanca-soja/"&gt;crescente resistência de plantas daninhas ao herbicida&lt;/a&gt;. “Na agronomia sempre se induz muito esse uso”, afirma.&lt;/p&gt;
 
 
@@ -199,6 +208,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 &lt;p&gt;Dias, membro do comitê de assessoramento do Pronara, também levanta preocupações sobre a exposição de trabalhadores rurais e moradores próximos às áreas de cultivo. “Como está a água do entorno? O lençol freático, a água do rio próximo? Se uma quantidade tão alta chega ao alimento, essa população que está no início da cadeia produtiva também pode estar exposta a níveis elevados de contaminação”, afirma.&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;em&gt;* NOTA DA REDAÇÃO: Esta reportagem foi atualizada em 14 de maio para incluir o posicionamento da Anvisa.&lt;/em&gt;&lt;/p&gt;
 
 
 		&lt;div data-elementor-type="section" data-elementor-id="129686" class="elementor elementor-129686" data-elementor-post-type="elementor_library"&gt;
@@ -311,8 +324,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Repórter Brasil" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Governo expulsa garimpeiros, mas não desmonta rede ilegal do ouro" /&gt;
 
+							&lt;input type="hidden" name="queried_id" value="130192"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -661,8 +675,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Repórter Brasil" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Governo expulsa garimpeiros, mas não desmonta rede ilegal do ouro" /&gt;
 
+							&lt;input type="hidden" name="queried_id" value="130192"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -915,8 +930,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Repórter Brasil" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Governo expulsa garimpeiros, mas não desmonta rede ilegal do ouro" /&gt;
 
+							&lt;input type="hidden" name="queried_id" value="130192"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -1097,8 +1113,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Repórter Brasil" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Governo expulsa garimpeiros, mas não desmonta rede ilegal do ouro" /&gt;
 
+							&lt;input type="hidden" name="queried_id" value="130192"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -1630,8 +1647,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Repórter Brasil" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Governo expulsa garimpeiros, mas não desmonta rede ilegal do ouro" /&gt;
 
+							&lt;input type="hidden" name="queried_id" value="130192"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -1947,8 +1965,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Repórter Brasil" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Governo expulsa garimpeiros, mas não desmonta rede ilegal do ouro" /&gt;
 
+							&lt;input type="hidden" name="queried_id" value="130192"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -2060,8 +2079,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Repórter Brasil" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Governo expulsa garimpeiros, mas não desmonta rede ilegal do ouro" /&gt;
 
+							&lt;input type="hidden" name="queried_id" value="130192"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -2386,8 +2406,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Repórter Brasil" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Governo expulsa garimpeiros, mas não desmonta rede ilegal do ouro" /&gt;
 
+							&lt;input type="hidden" name="queried_id" value="130192"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
