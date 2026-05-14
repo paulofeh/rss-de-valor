@@ -1,7 +1,7 @@
 <opml version="2.0">
     <head>
         <title>RSS de Colunistas</title>
-        <dateCreated>Thu, 14 May 2026 08:41:12 GMT</dateCreated>
+        <dateCreated>Thu, 14 May 2026 13:12:21 GMT</dateCreated>
         <ownerName>RSS Scraper</ownerName>
         </head>
     <body>
@@ -93,6 +93,7 @@
                 <outline type="rss" text="Daniel Becker" title="Daniel Becker" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/danielbecker_feed.xml" />
                 <outline type="rss" text="Dorrit Harazim" title="Dorrit Harazim" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/dorrit_harazim_feed.xml" />
                 <outline type="rss" text="José Eduardo Agualusa" title="José Eduardo Agualusa" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/jose_eduardo_agualusa_feed.xml" />
+                <outline type="rss" text="Malu Gaspar" title="Malu Gaspar" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/malu_gaspar_feed.xml" />
                 <outline type="rss" text="Martha Batalha" title="Martha Batalha" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/martha_batalha_feed.xml" />
                 <outline type="rss" text="Michel Alcoforado" title="Michel Alcoforado" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/michel_alcoforado_feed.xml" />
                 <outline type="rss" text="Nelson Motta" title="Nelson Motta" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/nelson_motta_feed.xml" />

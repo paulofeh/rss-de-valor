@@ -425,6 +425,14 @@
       "group": "oglobo"
     },
     {
+      "name": "Malu Gaspar",
+      "url": "https://oglobo.globo.com/blogs/malu-gaspar/",
+      "scraper": "ValorOGloboScraper",
+      "feed_file": "malu_gaspar_feed.xml",
+      "history_file": "malu_gaspar_history.json",
+      "group": "oglobo"
+    },
+    {
       "name": "Michel Alcoforado",
       "url": "https://oglobo.globo.com/cultura/michel-alcoforado/",
       "feed_file": "michel_alcoforado_feed.xml",
