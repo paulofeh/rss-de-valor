@@ -177,6 +177,14 @@
       "group": "clima"
     },
     {
+      "name": "WMO News",
+      "url": "https://wmo.int/news",
+      "feed_file": "wmo_news_feed.xml",
+      "history_file": "wmo_news_history.json",
+      "scraper": "WMONewsScraper",
+      "group": "clima"
+    },
+    {
       "name": "World Bank Data Blog",
       "url": "https://blogs.worldbank.org/en/opendata",
       "feed_file": "worldbank_opendata_feed.xml",

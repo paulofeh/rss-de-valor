@@ -8,6 +8,7 @@ import pytz
 import xml.etree.ElementTree as ET
 from email.utils import parsedate_to_datetime
 from html import escape as html_escape
+from urllib.parse import urljoin
 
 def requests_retry_session(
     retries=3,
@@ -2151,6 +2152,148 @@ class WorldBankBlogScraper(BaseScraper):
         pass  # Logic is handled in get_articles
 
 
+class WMONewsScraper(BaseScraper):
+    """Scraper for the WMO News Portal."""
+
+    BASE_URL = "https://wmo.int"
+
+    def get_latest_article(self):
+        articles = self.get_articles(limit=1)
+        return articles[0] if articles else None
+
+    def get_articles(self, limit=10):
+        try:
+            response = requests_retry_session().get(self.url, timeout=30, headers={
+                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
+            })
+            response.raise_for_status()
+            soup = BeautifulSoup(response.content, 'html.parser')
+
+            articles = []
+            seen_links = set()
+            for row in soup.select('.view-news .views-row'):
+                article = self._parse_news_card(row)
+                if not article or article['link'] in seen_links:
+                    continue
+                seen_links.add(article['link'])
+
+                content_html = self._fetch_article_content(article['link'])
+                if content_html:
+                    article['description'] = content_html
+
+                articles.append(article)
+                if len(articles) >= limit:
+                    break
+
+            if not articles:
+                print(f"Nenhuma notícia encontrada em {self.url}")
+            return articles
+        except Exception as e:
+            print(f"Erro ao processar WMO News {self.url}: {str(e)}")
+            return []
+
+    def _parse_news_card(self, row):
+        link_el = row.select_one('a[href]')
+        title_el = row.select_one('h2')
+        if not link_el or not title_el:
+            return None
+
+        title = title_el.get_text(' ', strip=True)
+        link = urljoin(self.BASE_URL, link_el.get('href', '').strip())
+        if not title or not link:
+            return None
+
+        category_el = row.select_one('.uppercase')
+        category = category_el.get_text(' ', strip=True) if category_el else ''
+
+        date_el = row.select_one('span.text-sm, span.md\\:text-base')
+        date_text = date_el.get_text(' ', strip=True) if date_el else ''
+        pubdate = self._parse_date(date_text)
+
+        image_el = row.select_one('img')
+        description_parts = []
+        if category:
+            description_parts.append(f"<p><strong>{html_escape(category)}</strong></p>")
+        if image_el and image_el.get('alt'):
+            description_parts.append(f"<p>{html_escape(image_el['alt'].strip())}</p>")
+
+        return {
+            'title': title,
+            'link': link,
+            'pubdate': pubdate,
+            'author': 'World Meteorological Organization',
+            'description': ''.join(description_parts),
+        }
+
+    def _fetch_article_content(self, url):
+        try:
+            response = requests_retry_session().get(url, timeout=30, headers={
+                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
+            })
+            response.raise_for_status()
+            html = response.text
+            soup = BeautifulSoup(html, 'html.parser')
+
+            parts = []
+            summary = soup.select_one('.field--name-field-summary')
+            body = soup.select_one('.field--name-body')
+            for section in (summary, body):
+                if not section:
+                    continue
+                self._clean_content(section)
+                content = section.decode_contents().strip()
+                if content:
+                    parts.append(content)
+
+            if parts:
+                return ''.join(parts)
+
+            og_description = soup.find('meta', property='og:description')
+            if og_description and og_description.get('content'):
+                return f"<p>{html_escape(og_description['content'].strip())}</p>"
+
+            import trafilatura
+            content = trafilatura.extract(html, output_format='html', include_links=True)
+            return content
+        except Exception as e:
+            print(f"Erro ao buscar notícia WMO {url}: {str(e)}")
+            return None
+
+    def _clean_content(self, section):
+        for tag in section.find_all(['script', 'style']):
+            tag.decompose()
+        for a in section.find_all('a', href=True):
+            a['href'] = urljoin(self.BASE_URL, a['href'])
+        for img in section.find_all('img', src=True):
+            img['src'] = urljoin(self.BASE_URL, img['src'])
+        for img in section.find_all('img', srcset=True):
+            img['srcset'] = self._absolutize_srcset(img['srcset'])
+
+    def _absolutize_srcset(self, srcset):
+        entries = []
+        for entry in srcset.split(','):
+            parts = entry.strip().split()
+            if not parts:
+                continue
+            parts[0] = urljoin(self.BASE_URL, parts[0])
+            entries.append(' '.join(parts))
+        return ', '.join(entries)
+
+    def _parse_date(self, date_str):
+        if not date_str:
+            return datetime.datetime.now(pytz.UTC)
+        for date_format in ('%d %B %Y', '%d %b %Y'):
+            try:
+                dt = datetime.datetime.strptime(date_str, date_format)
+                return pytz.UTC.localize(dt)
+            except (ValueError, TypeError):
+                continue
+        return datetime.datetime.now(pytz.UTC)
+
+    def _extract_article_data(self, soup):
+        pass  # Logic is handled in get_articles
+
+
 def get_scraper_class(scraper_name):
     """Get the scraper class by name."""
     scrapers = {
@@ -2175,5 +2318,6 @@ def get_scraper_class(scraper_name):
         'YouTubeTranscriptScraper': YouTubeTranscriptScraper,
         'FiocruzClimaSaudeScraper': FiocruzClimaSaudeScraper,
         'WorldBankBlogScraper': WorldBankBlogScraper,
+        'WMONewsScraper': WMONewsScraper,
     }
     return scrapers.get(scraper_name)

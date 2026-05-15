@@ -1,7 +1,7 @@
 <opml version="2.0">
     <head>
         <title>RSS de Colunistas</title>
-        <dateCreated>Fri, 15 May 2026 08:52:17 GMT</dateCreated>
+        <dateCreated>Fri, 15 May 2026 13:40:11 GMT</dateCreated>
         <ownerName>RSS Scraper</ownerName>
         </head>
     <body>
@@ -29,6 +29,7 @@
                 <outline type="rss" text="Risco Climático (Google Alerts)" title="Risco Climático (Google Alerts)" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/google_alerts_risco_climatico_feed.xml" />
                 <outline type="rss" text="Sustainable Views" title="Sustainable Views" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/sustainable_views_feed.xml" />
                 <outline type="rss" text="Sustentabilidade" title="Sustentabilidade" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/estadao_sustentabilidade_feed.xml" />
+                <outline type="rss" text="WMO News" title="WMO News" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/wmo_news_feed.xml" />
                 <outline type="rss" text="World Bank Climate Change" title="World Bank Climate Change" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/worldbank_climatechange_feed.xml" />
                 <outline type="rss" text="Yale Climate Connections" title="Yale Climate Connections" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/yale_climate_feed.xml" />
                 <outline type="rss" text="npj Climate Action" title="npj Climate Action" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/npj_climate_action_feed.xml" />
