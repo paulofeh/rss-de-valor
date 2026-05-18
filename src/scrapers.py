@@ -8,7 +8,7 @@ import pytz
 import xml.etree.ElementTree as ET
 from email.utils import parsedate_to_datetime
 from html import escape as html_escape
-from urllib.parse import urljoin
+from urllib.parse import urljoin, unquote
 
 def requests_retry_session(
     retries=3,
@@ -167,6 +167,54 @@ class ExistingRssScraper(BaseScraper):
         except Exception as e:
             print(f"Erro ao processar feed RSS {self.url}: {str(e)}")
             return []
+
+class FolhaRssFullContentScraper(ExistingRssScraper):
+    """Scraper for Folha RSS feeds that enriches items with full article content."""
+
+    @staticmethod
+    def _resolve_folha_redirect(url):
+        """Return the article URL hidden behind Folha's RSS redirection URL."""
+        if not url:
+            return url
+        if 'redir.folha.com.br/redir/' in url and '*' in url:
+            return unquote(url.split('*', 1)[1])
+        return url
+
+    def _parse_item(self, item):
+        article = super()._parse_item(item)
+        article['link'] = self._resolve_folha_redirect(article['link'])
+
+        content = self._fetch_article_content(article['link'])
+        if content:
+            article['description'] = content
+
+        return article
+
+    @staticmethod
+    def _fetch_article_content(url):
+        """Fetch and extract full Folha article content using trafilatura."""
+        import trafilatura
+
+        try:
+            response = requests_retry_session().get(url, timeout=30, headers={
+                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
+            })
+            response.raise_for_status()
+            html = response.content.decode('utf-8', errors='replace')
+            content = trafilatura.extract(
+                html,
+                output_format='html',
+                include_links=True,
+            )
+            if not content:
+                return None
+
+            soup = BeautifulSoup(content, 'html.parser')
+            body = soup.body
+            return body.decode_contents().strip() if body else content
+        except Exception as e:
+            print(f"   ⚠️  Erro ao buscar conteúdo da Folha em {url}: {str(e)}")
+            return None
 
 class GoogleAlertsScraper(ExistingRssScraper):
     """Scraper for Google Alerts RSS feeds.
@@ -2298,6 +2346,7 @@ def get_scraper_class(scraper_name):
     """Get the scraper class by name."""
     scrapers = {
         'ExistingRssScraper': ExistingRssScraper,
+        'FolhaRssFullContentScraper': FolhaRssFullContentScraper,
         'LinkedInNewsletterScraper': LinkedInNewsletterScraper,
         'ValorOGloboScraper': ValorOGloboScraper,
         'WashingtonPostScraper': WashingtonPostScraper,

@@ -1,7 +1,7 @@
 <opml version="2.0">
     <head>
         <title>RSS de Colunistas</title>
-        <dateCreated>Mon, 18 May 2026 10:06:40 GMT</dateCreated>
+        <dateCreated>Mon, 18 May 2026 12:51:24 GMT</dateCreated>
         <ownerName>RSS Scraper</ownerName>
         </head>
     <body>
@@ -19,6 +19,7 @@
                 <outline type="rss" text="ESG" title="ESG" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/valor_esg_feed.xml" />
                 <outline type="rss" text="FAPESP Sustentabilidade" title="FAPESP Sustentabilidade" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/fapesp_sustentabilidade_feed.xml" />
                 <outline type="rss" text="FT Climate Capital" title="FT Climate Capital" xmlUrl="https://www.ft.com/climate-capital?format=rss" />
+                <outline type="rss" text="Folha Ambiente" title="Folha Ambiente" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/folha_ambiente_feed.xml" />
                 <outline type="rss" text="José Eli da Veiga" title="José Eli da Veiga" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/jose_eli_da_veiga_feed.xml" />
                 <outline type="rss" text="Mudanças Climáticas (BBC)" title="Mudanças Climáticas (BBC)" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/bbc_clima_feed.xml" />
                 <outline type="rss" text="Nottus Meteorologia" title="Nottus Meteorologia" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/nottus_feed.xml" />

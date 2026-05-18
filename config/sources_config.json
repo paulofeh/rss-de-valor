@@ -17,6 +17,14 @@
       "group": "clima"
     },
     {
+      "name": "Folha Ambiente",
+      "url": "https://feeds.folha.uol.com.br/ambiente/rss091.xml",
+      "feed_file": "folha_ambiente_feed.xml",
+      "history_file": "folha_ambiente_history.json",
+      "scraper": "FolhaRssFullContentScraper",
+      "group": "clima"
+    },
+    {
       "name": "Bloomberg Green",
       "url": "https://www.bloomberglinea.com.br/esg/bloomberg-linea-green/",
       "feed_file": "bloomberg_green_feed.xml",
