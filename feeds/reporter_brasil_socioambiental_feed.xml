@@ -1,5 +1,232 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel xmlns:atom="http://www.w3.org/2005/Atom"><title>Repórter Brasil Socioambiental</title><link>https://reporterbrasil.org.br/jornalismo/socioambiental/</link><description>Últimos artigos de Repórter Brasil Socioambiental</description><atom:link href="https://paulofeh.github.io/rss-de-valor/feeds/rep%C3%B3rter_brasil_socioambiental_feed.xml" rel="self"/><language>pt-br</language><lastBuildDate>Tue, 12 May 2026 08:00:00 +0000</lastBuildDate><ttl>60</ttl><item><title>Governo leva um ano para recolher feijão com agrotóxico 355 vezes acima do limite</title><link>https://reporterbrasil.org.br/2026/05/feijao-agrotoxicos-acima-limite-expoe-falhas-fiscalizacao/</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel xmlns:atom="http://www.w3.org/2005/Atom"><title>Repórter Brasil Socioambiental</title><link>https://reporterbrasil.org.br/jornalismo/socioambiental/</link><description>Últimos artigos de Repórter Brasil Socioambiental</description><atom:link href="https://paulofeh.github.io/rss-de-valor/feeds/rep%C3%B3rter_brasil_socioambiental_feed.xml" rel="self"/><language>pt-br</language><lastBuildDate>Fri, 22 May 2026 19:03:30 +0000</lastBuildDate><ttl>60</ttl><item><title>Câmara pauta projetos que enfraquecem regras ambientais; entenda os impactos</title><link>https://reporterbrasil.org.br/2026/05/camara-projetos-enfraquecem-regras-ambientais-entenda-impactos/</link><description>
+&lt;p&gt;&lt;strong&gt;AO LONGO DESTA SEMANA,&lt;/strong&gt; com o aval do presidente da Câmara dos Deputados, Hugo Motta (Republicanos-PB), parlamentares ligados ao agronegócio vêm pautando projetos de lei que enfraquecem as políticas de proteção ao meio ambiente no Brasil. Apelidado de “Semana do Agro”, o período marca a tramitação de pelo menos quatro propostas.&lt;/p&gt;
+
+
+
+&lt;p&gt;O PL 2564/2025 impede que órgãos ambientais adotem medidas administrativas, como multas, com base em imagens de satélite e proíbe a destruição de equipamentos usados em infrações, como tratores em garimpos ilegais.&lt;/p&gt;
+
+
+
+&lt;p&gt;Já o PL 364/2019 flexibiliza os Campos de Altitude associados ao bioma Mata Atlântica, permitindo a conversão dessas áreas para usos como agricultura, pecuária e mineração.&lt;/p&gt;
+
+
+
+&lt;p&gt;Outra proposta, o PL 5900/2025, dá ao Ministério da Agricultura o poder de vetar regulações ambientais relacionadas a “espécies de interesse produtivo”.&lt;/p&gt;
+
+
+
+&lt;p&gt;Por fim, o PL 2486/2026 reduz a área da Flona do Jamanxim, no Pará, e transforma essa parcela em uma Área de Proteção Ambiental (APA), permitindo que parte da floresta seja convertida para uso agropecuário.&lt;/p&gt;
+
+
+		&lt;div data-elementor-type="section" data-elementor-id="77670" class="elementor elementor-77670" data-elementor-post-type="elementor_library"&gt;
+			&lt;div class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-e-type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}"&gt;
+					&lt;div class="e-con-inner"&gt;
+				&lt;div class="elementor-element elementor-element-386385d elementor-widget elementor-widget-heading" data-id="386385d" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+					&lt;h2 class="elementor-heading-title elementor-size-default"&gt;ASSINE NOSSA NEWSLETTER&lt;/h2&gt;				&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class="elementor-element elementor-element-6546917 elementor-widget elementor-widget-html" data-id="6546917" data-element_type="widget" data-e-type="widget" data-widget_type="html.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+					&lt;script&gt;
+document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll('.form-news button[type="submit"]').forEach(function(botao) {
+        botao.classList.add("envio_newsletter_materia");
+    });
+});
+&lt;/script&gt;				&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class="elementor-element elementor-element-8c2e333 form-news elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="8c2e333" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;button_width&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_next_label&amp;quot;:&amp;quot;Next&amp;quot;,&amp;quot;step_previous_label&amp;quot;:&amp;quot;Previous&amp;quot;,&amp;quot;button_width_mobile&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_type&amp;quot;:&amp;quot;number_text&amp;quot;,&amp;quot;step_icon_shape&amp;quot;:&amp;quot;circle&amp;quot;}" data-widget_type="form.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
+			&lt;input type="hidden" name="post_id" value="77670"/&gt;
+			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
+			&lt;input type="hidden" name="referer_title" value="Leonardo, cantor sertanejo, entra na lista suja do trabalho escravo" /&gt;
+
+							&lt;input type="hidden" name="queried_id" value="90479"/&gt;
+			
+			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
+								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
+												&lt;label for="form-field-email" class="elementor-field-label elementor-screen-only"&gt;
+								Email							&lt;/label&gt;
+														&lt;input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="email" required="required"&gt;
+											&lt;/div&gt;
+								&lt;div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-20 e-form__buttons elementor-sm-20"&gt;
+					&lt;button class="elementor-button elementor-size-sm" type="submit"&gt;
+						&lt;span class="elementor-button-content-wrapper"&gt;
+															&lt;span class="elementor-button-icon"&gt;
+									&lt;i aria-hidden="true" class="fas fa-long-arrow-alt-right"&gt;&lt;/i&gt;																			&lt;span class="elementor-screen-only"&gt;Submit&lt;/span&gt;
+																	&lt;/span&gt;
+																				&lt;/span&gt;
+					&lt;/button&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/form&gt;
+						&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;/div&gt;
+		
+
+
+
+&lt;p&gt;Segundo especialistas, os projetos podem provocar impactos ambientais graves e representam mais um avanço de propostas que enfraquecem a legislação ambiental, como ocorreu com a tentativa de aprovar a tese do marco temporal das terras indígenas — que também é objeto de discussões no STF (Supremo Tribunal Federal) — e com a aprovação da Lei Geral do Licenciamento Ambiental, apelidada por críticos de “PL da Devastação”.&lt;/p&gt;
+
+
+
+&lt;p&gt;Para acelerar as votações, a bancada ruralista utilizou requerimentos de urgência, mecanismo que permite levar propostas diretamente ao plenário, sem debate aprofundado em comissões especializadas. A possibilidade de votações remotas também vem sendo usada para acelerar a tramitação.&lt;/p&gt;
+
+
+
+&lt;p&gt;“A escolha das proposições legislativas a serem votadas na Câmara dos Deputados deixa totalmente claro que a intenção é implodir a política ambiental e a legislação que a fundamenta. Pacote da Destruição em pauta, mais uma vez”, afirma Suely Araújo, coordenadora de Políticas Públicas do Observatório do Clima, em nota publicada pela organização.&lt;/p&gt;
+
+
+
+&lt;p&gt;A &lt;strong&gt;Repórter Brasil &lt;/strong&gt;preparou um resumo dos projetos e dos possíveis impactos ambientais e sociais das propostas.&lt;/p&gt;
+
+
+
+&lt;h2 class="wp-block-heading"&gt;1. PL 2564/2025: restrições à fiscalização remota&lt;/h2&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;O que é: &lt;/strong&gt;Altera a Lei de Crimes Ambientais para impedir que órgãos ambientais adotem medidas cautelares administrativas com base em imagens de satélite. Na prática, o projeto impede a aplicação imediata de medidas como embargo (interdição) de áreas, suspensão de atividades e apreensão de equipamentos após a identificação da infração. O texto também exige a notificação prévia do autuado antes da punição.&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Por que isso importa:&lt;/strong&gt; O projeto limita duas ferramentas consideradas fundamentais no combate aos crimes ambientais: o embargo remoto e a destruição de equipamentos usados em infrações ambientais, como máquinas em garimpos ilegais. A restrição ao uso de tecnologias de monitoramento pode reduzir a capacidade de fiscalização em larga escala, elevar custos operacionais e comprometer a cobertura territorial dos órgãos ambientais.&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Status da proposta: &lt;/strong&gt;Aprovado na Câmara em 20/05/2026 e aguardando envio ao Senado. &lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Autoria:&lt;/strong&gt; Lucio Mosquini (MDB-RO) e Zé Adriano (PP-AC)&lt;/p&gt;
+
+
+
+&lt;h2 class="wp-block-heading"&gt;2. PL 364/2019: flexibilização nos Campos de Altitude&lt;/h2&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;O que é:&lt;/strong&gt; Cria um regime jurídico específico para os Campos de Altitude associados ao bioma Mata Atlântica, retirando a proteção de campos nativos e outras formações não florestais. Com isso, o texto permite a conversão dessas áreas para usos como agricultura, pecuária e mineração.&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Por que isso importa:&lt;/strong&gt; Os Campos de Altitude são ecossistemas frágeis e de alta biodiversidade. Ao retirar essas áreas da proteção prevista na Lei da Mata Atlântica, o projeto facilita sua conversão em áreas produtivas, o que pode levar à perda definitiva desses habitats. Segundo nota do Observatório do Clima, a proposta pode desproteger cerca de 48 milhões de hectares de campos nativos em diferentes biomas, incluindo Pantanal, Pampa, Cerrado e Amazônia.&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Status da proposta:&lt;/strong&gt; Aguarda votação no plenário da Câmara. &lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Autoria:&lt;/strong&gt; Alceu Moreira (MDB-RS)&lt;/p&gt;
+
+
+
+&lt;h2 class="wp-block-heading"&gt;3. PL 5900/2025: subordinação do meio ambiente à agricultura&lt;/h2&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;O que é:&lt;/strong&gt; Concede ao Ministério da Agricultura poder para vetar regulações ambientais relacionadas a “espécies de interesse produtivo”, incluindo vegetais, animais e espécies florestais. Na prática, o ministério poderia barrar normas ambientais, listas de espécies ameaçadas, classificações de risco biológico e restrições de licenciamento.&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Por que isso importa: &lt;/strong&gt;O projeto subordina decisões ambientais a interesses econômicos imediatos. Na prática, medidas de proteção a espécies ameaçadas ou de controle de espécies invasoras poderiam ser barradas sob justificativa de impacto econômico. Especialistas alertam que isso compromete a autonomia técnica de órgãos ambientais, como Ministério do Meio Ambiente, Ibama, ICMBio e Conama, além de abrir espaço para interferência em decisões ligadas à biossegurança, recursos hídricos, pesca, vigilância sanitária e pesquisa científica.&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Status da proposta: &lt;/strong&gt;Aguarda votação no plenário da Câmara. &lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Autoria:&lt;/strong&gt; Pedro Lupion (PP-PR), Pezenti (MDB-SC), Tião Medeiros (PP-PR), Evair Vieira de Melo (PP-ES) e Luiz Nishimori (PSD-PR)&lt;/p&gt;
+
+
+
+&lt;h2 class="wp-block-heading"&gt;4. PL 2486/2026: redução da Flona do Jamanxim&lt;/h2&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;O que é:&lt;/strong&gt; Reduz em cerca de 486 mil hectares a área da Floresta Nacional (Flona) do Jamanxim, no Pará, e transforma essa parcela em uma Área de Proteção Ambiental (APA). O texto permite a regularização fundiária de ocupações anteriores a 13 de fevereiro de 2006 dentro da nova APA e estabelece que até 20% da floresta poderá ser convertida para uso agropecuário. O projeto também autoriza mineração na Flona e na APA, desde que prevista nos planos de manejo.&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Por que isso importa: &lt;/strong&gt;A Flona do Jamanxim foi criada em 2006 para conter o avanço da grilagem e do desmatamento na região da BR-163, marcada por conflitos ligados à pecuária, exploração madeireira e garimpo ilegal. Ao transformar parte de uma Floresta Nacional — unidade de conservação de domínio público — em uma Área de Proteção Ambiental, que admite propriedades privadas, o projeto amplia as possibilidades de exploração econômica e ocupação em áreas destinadas à conservação ambiental.&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Status da proposta: &lt;/strong&gt;Aprovado na Câmara em 20/05/2026 e aguardando envio ao Senado. &lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Autoria:&lt;/strong&gt; Isnaldo Bulhões Jr. (MDB-AL).&lt;/p&gt;
+
+
+		&lt;div data-elementor-type="section" data-elementor-id="129686" class="elementor elementor-129686" data-elementor-post-type="elementor_library"&gt;
+			&lt;a class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-e-type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}" href="https://reporterbrasil.org.br/apoie/"&gt;
+					&lt;div class="e-con-inner"&gt;
+				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+															&lt;img fetchpriority="high" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/a&gt;
+				&lt;/div&gt;
+		
+
+
+
+&lt;p&gt;&lt;strong&gt;25 anos investigando para mudar.&lt;/strong&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;A Repórter Brasil já ajudou a impulsionar leis, fortalecer direitos e combater o trabalho escravo.&lt;/strong&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Em 2026, fazemos 25 anos — e vem muito mais por aí!&lt;/strong&gt;&lt;/p&gt;
+
+
+		&lt;div data-elementor-type="container" data-elementor-id="75228" class="elementor elementor-75228" data-elementor-post-type="elementor_library"&gt;
+				&lt;div class="elementor-element elementor-element-5e8db1e6 e-flex e-con-boxed e-con e-parent" data-id="5e8db1e6" data-element_type="container" data-e-type="container"&gt;
+					&lt;div class="e-con-inner"&gt;
+		&lt;div class="elementor-element elementor-element-36eb6c91 e-flex e-con-boxed e-con e-child" data-id="36eb6c91" data-element_type="container" data-e-type="container"&gt;
+					&lt;div class="e-con-inner"&gt;
+		&lt;div class="elementor-element elementor-element-6f52f515 e-con-full e-flex e-con e-child" data-id="6f52f515" data-element_type="container" data-e-type="container"&gt;
+				&lt;div class="elementor-element elementor-element-65d9f401 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="65d9f401" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+							&lt;div class="elementor-divider"&gt;
+			&lt;span class="elementor-divider-separator"&gt;
+						&lt;/span&gt;
+		&lt;/div&gt;
+						&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;/div&gt;
+		&lt;div class="elementor-element elementor-element-134a1245 e-flex e-con-boxed e-con e-child" data-id="134a1245" data-element_type="container" data-e-type="container"&gt;
+					&lt;div class="e-con-inner"&gt;
+				&lt;div class="elementor-element elementor-element-10fe55fe elementor-widget elementor-widget-text-editor" data-id="10fe55fe" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+									&lt;p&gt;Leia também&lt;/p&gt;								&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class="elementor-element elementor-element-3c9495ae elementor-grid-1 leia-tambem elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid" data-id="3c9495ae" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;template_id&amp;quot;:&amp;quot;75221&amp;quot;,&amp;quot;columns&amp;quot;:1,&amp;quot;row_gap&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:10,&amp;quot;sizes&amp;quot;:[]},&amp;quot;_skin&amp;quot;:&amp;quot;post&amp;quot;,&amp;quot;columns_tablet&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;columns_mobile&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;edit_handle_selector&amp;quot;:&amp;quot;[data-elementor-type=\&amp;quot;loop-item\&amp;quot;]&amp;quot;,&amp;quot;row_gap_tablet&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]},&amp;quot;row_gap_mobile&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]}}" data-widget_type="loop-grid.post"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+							&lt;div class="e-loop-nothing-found-message"&gt;
+		&lt;/div&gt;
+						&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;/div&gt;
+		
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Beatriz Souza</dc:creator><pubDate>Fri, 22 May 2026 19:03:30 +0000</pubDate><guid>https://reporterbrasil.org.br/2026/05/camara-projetos-enfraquecem-regras-ambientais-entenda-impactos/</guid><guid isPermaLink="true">https://reporterbrasil.org.br/2026/05/camara-projetos-enfraquecem-regras-ambientais-entenda-impactos/</guid></item><item><title>Governo leva um ano para recolher feijão com agrotóxico 355 vezes acima do limite</title><link>https://reporterbrasil.org.br/2026/05/feijao-agrotoxicos-acima-limite-expoe-falhas-fiscalizacao/</link><description>
 &lt;p&gt;&lt;strong&gt;FEIJÃO-FRADINHO REPROVADO &lt;/strong&gt;por excesso de agrotóxico — em níveis até 355 vezes acima do limite permitido — ficou mais de um ano sem ordem de recolhimento do Mapa (Ministério da Agricultura e Pecuária), período em que pode ter sido comercializado e consumido.&amp;nbsp;&lt;/p&gt;
 
 
@@ -12,7 +239,7 @@
 
 
 
-&lt;figure class="wp-block-image size-large"&gt;&lt;img fetchpriority="high" decoding="async" width="1005" height="1024" src="https://reporterbrasil.org.br/wp-content/uploads/2026/05/INFOGRAFICOS-2-Feijao-com-agrotoxicoFiscalizacao-mostra-feijao-com-agrotoxico@1.5x-1005x1024.png" alt="" class="wp-image-130157" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/05/INFOGRAFICOS-2-Feijao-com-agrotoxicoFiscalizacao-mostra-feijao-com-agrotoxico@1.5x-1005x1024.png 1005w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/INFOGRAFICOS-2-Feijao-com-agrotoxicoFiscalizacao-mostra-feijao-com-agrotoxico@1.5x-295x300.png 295w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/INFOGRAFICOS-2-Feijao-com-agrotoxicoFiscalizacao-mostra-feijao-com-agrotoxico@1.5x-768x782.png 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/INFOGRAFICOS-2-Feijao-com-agrotoxicoFiscalizacao-mostra-feijao-com-agrotoxico@1.5x-1508x1536.png 1508w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/INFOGRAFICOS-2-Feijao-com-agrotoxicoFiscalizacao-mostra-feijao-com-agrotoxico@1.5x.png 1620w" sizes="(max-width: 1005px) 100vw, 1005px" /&gt;&lt;figcaption class="wp-element-caption"&gt;(Arte: Rodrigo Bento/Repórter Brasil)&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure class="wp-block-image size-large"&gt;&lt;img decoding="async" width="1005" height="1024" src="https://reporterbrasil.org.br/wp-content/uploads/2026/05/INFOGRAFICOS-2-Feijao-com-agrotoxicoFiscalizacao-mostra-feijao-com-agrotoxico@1.5x-1005x1024.png" alt="" class="wp-image-130157" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/05/INFOGRAFICOS-2-Feijao-com-agrotoxicoFiscalizacao-mostra-feijao-com-agrotoxico@1.5x-1005x1024.png 1005w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/INFOGRAFICOS-2-Feijao-com-agrotoxicoFiscalizacao-mostra-feijao-com-agrotoxico@1.5x-295x300.png 295w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/INFOGRAFICOS-2-Feijao-com-agrotoxicoFiscalizacao-mostra-feijao-com-agrotoxico@1.5x-768x782.png 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/INFOGRAFICOS-2-Feijao-com-agrotoxicoFiscalizacao-mostra-feijao-com-agrotoxico@1.5x-1508x1536.png 1508w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/INFOGRAFICOS-2-Feijao-com-agrotoxicoFiscalizacao-mostra-feijao-com-agrotoxico@1.5x.png 1620w" sizes="(max-width: 1005px) 100vw, 1005px" /&gt;&lt;figcaption class="wp-element-caption"&gt;(Arte: Rodrigo Bento/Repórter Brasil)&lt;/figcaption&gt;&lt;/figure&gt;
 
 
 
@@ -41,9 +268,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Minerais críticos avançam em Carajás e pressionam áreas de reforma agrária" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Leonardo, cantor sertanejo, entra na lista suja do trabalho escravo" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="126332"/&gt;
+							&lt;input type="hidden" name="queried_id" value="90479"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -219,7 +446,7 @@ document.addEventListener("DOMContentLoaded", function() {
 					&lt;div class="e-con-inner"&gt;
 				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
-															&lt;img decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
+															&lt;img fetchpriority="high" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/a&gt;
@@ -324,9 +551,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Minerais críticos avançam em Carajás e pressionam áreas de reforma agrária" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Leonardo, cantor sertanejo, entra na lista suja do trabalho escravo" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="126332"/&gt;
+							&lt;input type="hidden" name="queried_id" value="90479"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -542,7 +769,7 @@ document.addEventListener("DOMContentLoaded", function() {
 					&lt;div class="e-con-inner"&gt;
 				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
-															&lt;img decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
+															&lt;img fetchpriority="high" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/a&gt;
@@ -675,9 +902,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Minerais críticos avançam em Carajás e pressionam áreas de reforma agrária" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Leonardo, cantor sertanejo, entra na lista suja do trabalho escravo" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="126332"/&gt;
+							&lt;input type="hidden" name="queried_id" value="90479"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -809,7 +1036,7 @@ document.addEventListener("DOMContentLoaded", function() {
 					&lt;div class="e-con-inner"&gt;
 				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
-															&lt;img decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
+															&lt;img fetchpriority="high" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/a&gt;
@@ -930,9 +1157,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Minerais críticos avançam em Carajás e pressionam áreas de reforma agrária" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Leonardo, cantor sertanejo, entra na lista suja do trabalho escravo" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="126332"/&gt;
+							&lt;input type="hidden" name="queried_id" value="90479"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -1020,7 +1247,7 @@ document.addEventListener("DOMContentLoaded", function() {
 					&lt;div class="e-con-inner"&gt;
 				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
-															&lt;img decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
+															&lt;img fetchpriority="high" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/a&gt;
@@ -1113,9 +1340,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Minerais críticos avançam em Carajás e pressionam áreas de reforma agrária" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Leonardo, cantor sertanejo, entra na lista suja do trabalho escravo" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="126332"/&gt;
+							&lt;input type="hidden" name="queried_id" value="90479"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -1375,7 +1602,7 @@ document.addEventListener("DOMContentLoaded", function() {
 					&lt;div class="e-con-inner"&gt;
 				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
-															&lt;img decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
+															&lt;img fetchpriority="high" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/a&gt;
@@ -1647,9 +1874,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Minerais críticos avançam em Carajás e pressionam áreas de reforma agrária" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Leonardo, cantor sertanejo, entra na lista suja do trabalho escravo" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="126332"/&gt;
+							&lt;input type="hidden" name="queried_id" value="90479"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -1854,7 +2081,7 @@ document.addEventListener("DOMContentLoaded", function() {
 					&lt;div class="e-con-inner"&gt;
 				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
-															&lt;img decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
+															&lt;img fetchpriority="high" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/a&gt;
@@ -1965,9 +2192,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Minerais críticos avançam em Carajás e pressionam áreas de reforma agrária" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Leonardo, cantor sertanejo, entra na lista suja do trabalho escravo" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="126332"/&gt;
+							&lt;input type="hidden" name="queried_id" value="90479"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -2079,9 +2306,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Minerais críticos avançam em Carajás e pressionam áreas de reforma agrária" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Leonardo, cantor sertanejo, entra na lista suja do trabalho escravo" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="126332"/&gt;
+							&lt;input type="hidden" name="queried_id" value="90479"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -2363,184 +2590,4 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Carlos Juliano Barros</dc:creator><pubDate>Wed, 15 Apr 2026 17:31:22 +0000</pubDate><guid>https://reporterbrasil.org.br/2026/04/estudo-ruralistas-stf-moratoria-soja/</guid><guid isPermaLink="true">https://reporterbrasil.org.br/2026/04/estudo-ruralistas-stf-moratoria-soja/</guid></item><item><title>Italy pressed over signs of illegal gold imports from Brazil</title><link>https://reporterbrasil.org.br/2026/04/italy-pressed-over-signs-of-illegal-gold-imports-from-brazil/</link><description>
-&lt;p&gt;&lt;strong&gt;ITALIAN LAWMAKERS&lt;/strong&gt; have asked Prime Minister Giorgia Meloni’s government to explain what measures the country has taken to combat imports of gold from Brazil that show signs of illegality. The request cites reports published by Repórter Brasil on how Italian refineries purchased gold from companies investigated for links to illegal mining operations in the Amazon.&lt;/p&gt;
-
-
-
-&lt;p&gt;The &lt;a href="https://reporterbrasil.org.br/wp-content/uploads/2026/04/interrogazione_italia_ouro.pdf" target="_blank" rel="noreferrer noopener"&gt;Parliamentary Question&lt;/a&gt; – the technical term for this type of request – was submitted on March 31 by MP Angelo Bonelli, of the Alleanza Verdi e Sinistra (Greens and Left Alliance) coalition. It was also signed by seven other lawmakers from the coalition and addressed to the ministers of the Interior, Economy and Finance, Environment and Energy Security, and Foreign Affairs.&lt;/p&gt;
-
-
-
-&lt;p&gt;The lawmakers want to know whether Italy’s current traceability and verification tools are adequate to address the risk of gold imports linked to environmental crimes, document forgery, and violations of Indigenous peoples’ rights. The parliamentary question also asks what initiatives the government intends to take, including through diplomatic channels, to prevent Italy from becoming a destination for gold illegally extracted from the Amazon.&lt;/p&gt;
-
-
-
-&lt;h2 class="wp-block-heading"&gt;Investigated suppliers&lt;/h2&gt;
-
-
-
-&lt;p&gt;In June 2025, a report showed that the Italian refinery &lt;a href="https://reporterbrasil.org.br/2025/06/refinaria-lista-fornecedores-apple-comprou-ouro-reus-contrabando/" target="_blank" rel="noreferrer noopener"&gt;Italpreziosi had purchased the mineral from an importer under investigation&lt;/a&gt; in a scheme involving illegal gold extraction in Itaituba, in southwestern Pará state. According to police investigations, the criminal scheme involved Brazilian companies issuing false invoices — including in the names of deceased individuals — to conceal the true origin of the gold. Investigators say part of the product was extracted from illegal mining sites in the Munduruku Indigenous Territory.&lt;/p&gt;
-
-
-
-		&lt;div data-elementor-type="section" data-elementor-id="77670" class="elementor elementor-77670" data-elementor-post-type="elementor_library"&gt;
-			&lt;div class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-e-type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}"&gt;
-					&lt;div class="e-con-inner"&gt;
-				&lt;div class="elementor-element elementor-element-386385d elementor-widget elementor-widget-heading" data-id="386385d" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-					&lt;h2 class="elementor-heading-title elementor-size-default"&gt;ASSINE NOSSA NEWSLETTER&lt;/h2&gt;				&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-6546917 elementor-widget elementor-widget-html" data-id="6546917" data-element_type="widget" data-e-type="widget" data-widget_type="html.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-					&lt;script&gt;
-document.addEventListener("DOMContentLoaded", function() {
-    document.querySelectorAll('.form-news button[type="submit"]').forEach(function(botao) {
-        botao.classList.add("envio_newsletter_materia");
-    });
-});
-&lt;/script&gt;				&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-8c2e333 form-news elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="8c2e333" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;button_width&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_next_label&amp;quot;:&amp;quot;Next&amp;quot;,&amp;quot;step_previous_label&amp;quot;:&amp;quot;Previous&amp;quot;,&amp;quot;button_width_mobile&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_type&amp;quot;:&amp;quot;number_text&amp;quot;,&amp;quot;step_icon_shape&amp;quot;:&amp;quot;circle&amp;quot;}" data-widget_type="form.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
-			&lt;input type="hidden" name="post_id" value="77670"/&gt;
-			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Minerais críticos avançam em Carajás e pressionam áreas de reforma agrária" /&gt;
-
-							&lt;input type="hidden" name="queried_id" value="126332"/&gt;
-			
-			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
-								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
-												&lt;label for="form-field-email" class="elementor-field-label elementor-screen-only"&gt;
-								Email							&lt;/label&gt;
-														&lt;input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="email" required="required"&gt;
-											&lt;/div&gt;
-								&lt;div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-20 e-form__buttons elementor-sm-20"&gt;
-					&lt;button class="elementor-button elementor-size-sm" type="submit"&gt;
-						&lt;span class="elementor-button-content-wrapper"&gt;
-															&lt;span class="elementor-button-icon"&gt;
-									&lt;i aria-hidden="true" class="fas fa-long-arrow-alt-right"&gt;&lt;/i&gt;																			&lt;span class="elementor-screen-only"&gt;Submit&lt;/span&gt;
-																	&lt;/span&gt;
-																				&lt;/span&gt;
-					&lt;/button&gt;
-				&lt;/div&gt;
-			&lt;/div&gt;
-		&lt;/form&gt;
-						&lt;/div&gt;
-				&lt;/div&gt;
-					&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;/div&gt;
-		
-
-
-
-&lt;p&gt;In May 2024, Repórter Brasil had already shown that a shipment of &lt;a href="https://reporterbrasil.org.br/2024/05/customs-holds-gold-hidden-activated-charcoal-purchased-big-techs-supplier/" target="_blank" rel="noreferrer noopener"&gt;5 kilograms of gold powder mixed into 15 tonnes of charcoal&lt;/a&gt; had been purchased by another Italian refinery, Safimet, which specializes in precious metals refining. After finding the undeclared gold in the cargo, Brazil’s Federal Revenue Service at the Port of Santos blocked the export to Italy. Although the gold accounted for only 0.03% of the shipment’s total volume, it could have yielded BRL 1.9 million – nearly three times the value of the charcoal declared on the invoice.&lt;/p&gt;
-
-
-
-&lt;figure class="wp-block-image size-large"&gt;&lt;img loading="lazy" decoding="async" width="1024" height="682" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/vista_garimpo_itaituba_fernando_martinho-1-1536x1023-1-1024x682.jpg" alt="Aerial view of a gold mining area in the municipality of Itaituba, in southwestern Pará, in the Brazilian Amazon (Photo: Fernando Martinho/Repórter Brasil)" class="wp-image-129427" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/vista_garimpo_itaituba_fernando_martinho-1-1536x1023-1-1024x682.jpg 1024w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/vista_garimpo_itaituba_fernando_martinho-1-1536x1023-1-300x200.jpg 300w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/vista_garimpo_itaituba_fernando_martinho-1-1536x1023-1-768x512.jpg 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/vista_garimpo_itaituba_fernando_martinho-1-1536x1023-1.jpg 1536w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Aerial view of a gold mining area in the municipality of Itaituba, in southwestern Pará, in the Brazilian Amazon (Photo: Fernando Martinho/Repórter Brasil)&lt;/figcaption&gt;&lt;/figure&gt;
-
-
-
-&lt;p&gt;Three years earlier, Chimet, a major Italian precious metals refinery based in Arezzo, Tuscany, was identified in police investigations as a &lt;a href="https://reporterbrasil.org.br/2022/02/ouro-ilegal-da-terra-indigena-kayapo-termina-em-gigante-italiana-que-fatura-18-bi-de-reais/" target="_blank" rel="noreferrer noopener"&gt;buyer of gold illegally extracted from the Kayapó Indigenous Territory&lt;/a&gt; in southern Pará. The scheme was uncovered in Operation Terra Desolata, carried out by Brazil’s Federal Police. Repórter Brasil showed that Chimet appeared in the supplier &lt;a href="https://reporterbrasil.org.br/2022/07/exclusivo-apple-google-microsoft-e-amazon-usaram-ouro-ilegal-de-terras-indigenas-brasileiras/" target="_blank" rel="noreferrer noopener"&gt;network of companies such as Apple, Google, and Microsoft&lt;/a&gt;.&lt;/p&gt;
-
-
-
-&lt;p&gt;All three companies were contacted by Repórter Brasil at the time the reports were published. Italpreziosi said it had found &lt;a href="https://reporterbrasil.org.br/2025/06/integra-dos-posicionamentos-enviados-para-reportagem-sobre-refinaria-italiana-que-comprou-ouro-de-acusados-de-contrabando/" target="_blank" rel="noreferrer noopener"&gt;no indication of illegality in the gold purchased from the importer under investigation&lt;/a&gt;. Safimet said it had made &lt;a href="https://reporterbrasil.org.br/2024/05/integra-manifestacoes-apreensao-ouro-misturado-carvao-ativado/" target="_blank" rel="noreferrer noopener"&gt;a single purchase from the Brazilian company&lt;/a&gt; targeted by customs authorities at the Port of Santos and that it cancelled the deal after the material was seized by the Federal Revenue Service. Chimet, in turn, said that &lt;a href="https://reporterbrasil.org.br/2022/02/integra-das-respostas-da-chm-do-brasil-e-da-chimet/" target="_blank" rel="noreferrer noopener"&gt;its gold purchases are accompanied by documentation&lt;/a&gt; certifying the metal’s lawful origin, but acknowledged “the risk that negative impacts may be associated with the trade and export of minerals from high-risk areas.”&lt;/p&gt;
-
-
-
-&lt;h2 class="wp-block-heading"&gt;Federal prosecutors opened an investigation&lt;/h2&gt;
-
-
-
-&lt;p&gt;In December 2025, Brazil’s Federal Public Prosecutor’s Office in Amazonas state (MPF) opened an inquiry to investigate the actions of the Brazilian state, the National Mining Agency (ANM), and other public bodies and entities in combating the irregular export of gold.&lt;/p&gt;
-
-
-
-&lt;p&gt;The Italian refineries are not targets of the investigation. Still, the accumulation of allegations led prosecutors to seek explanations in order to understand what countries such as Italy and Switzerland are doing to prevent gold illegally extracted from the Amazon from entering their territories.&lt;/p&gt;
-
-
-
-&lt;p&gt;In March this year, the MPF sent a request for clarification to the Italian embassy in Brasília. The same request was also sent to the embassies of Switzerland, Belgium, and the United Kingdom. In the parliamentary question, lawmakers ask whether the Italian government is aware of that request.&lt;/p&gt;
-
-
-
-&lt;h2 class="wp-block-heading"&gt;Response may take time – or never come&lt;/h2&gt;
-
-
-
-&lt;p&gt;Ministers have 20 days to respond to the Parliamentary Question. But that does not always happen. In some cases, parliamentary questions remain unanswered for years. That is what happened when the same issue first reached the Italian parliament, in 2022.&lt;/p&gt;
-
-
-
-&lt;p&gt;In September 2021, when Operation Terra Desolata became public and revealed the scheme linking clandestine Amazon miners to Chimet, the scandal reached Italy not only through the press, but also through official channels.&lt;/p&gt;
-
-
-
-&lt;p&gt;In February 2022, MP Devis Dori – who also signed this year’s parliamentary question – and three other lawmakers, all from the Greens and Left Alliance coalition, submitted a parliamentary question addressed to the same ministries. At the time, they wanted to know whether the government was aware of the facts revealed by the operation and what initiatives it intended to adopt to combat the illegal trade in precious metals.&lt;/p&gt;
-
-
-
-&lt;p&gt;Four years later, that parliamentary question still has not been answered. Contacted by the reporter, Dori said he had never received any reply from the government. He noted that the prime minister at the time, Mario Draghi, remained in office for only five months.&lt;/p&gt;
-
-
-
-&lt;p&gt;His colleague Cristian Romaniello, who signed the 2022 parliamentary question, also never received a response. “It was the Draghi government, but that does not mean the question could not have been answered by the governments that followed,” the lawmaker said.&lt;/p&gt;
-
-
-
-&lt;h2 class="wp-block-heading"&gt;Complaint against Chimet was shelved&lt;/h2&gt;
-
-
-
-&lt;p&gt;At the same time, MP Angelo Bonelli –&amp;nbsp; the same lawmaker now leading this year’s Parliamentary Question – formally filed a complaint in February 2022 with the Public Prosecutor’s Office in Arezzo, where Chimet is based. The complaint requested the opening of an investigation to determine whether the accusations raised by Brazil’s Federal Police had grounds under Italian law.&lt;/p&gt;
-
-
-
-&lt;p&gt;In response to Repórter Brasil, the Arezzo prosecutor’s office said the complaint had been registered “as fatti non costituenti reato” (“facts not constituting a crime”) and shelved in May 2022.&lt;/p&gt;
-
-
-
-&lt;p&gt;Bonelli himself was unaware that the complaint had been shelved. When informed by &lt;strong&gt;Repórter Brasil&lt;/strong&gt;, he said that the main obstacle to investigating the purchase of illegal gold in Italy lies in traceability. According to him, when gold enters the country accompanied by formal Brazilian documentation, challenging its origin becomes difficult.“If those responsible are not identified, the cycle continues,” he said. In the lawmaker’s view, Europe is &lt;a href="https://reporterbrasil.org.br/2025/09/italian-jewellery-sector-blames-brazil-for-illegal-gold-entering-the-country/" target="_blank" rel="noreferrer noopener"&gt;still falling short by failing to impose stricter controls&lt;/a&gt; on raw materials coming from areas marked by exploitation and deforestation.&lt;/p&gt;
-
-
-
-		&lt;div data-elementor-type="container" data-elementor-id="75228" class="elementor elementor-75228" data-elementor-post-type="elementor_library"&gt;
-				&lt;div class="elementor-element elementor-element-5e8db1e6 e-flex e-con-boxed e-con e-parent" data-id="5e8db1e6" data-element_type="container" data-e-type="container"&gt;
-					&lt;div class="e-con-inner"&gt;
-		&lt;div class="elementor-element elementor-element-36eb6c91 e-flex e-con-boxed e-con e-child" data-id="36eb6c91" data-element_type="container" data-e-type="container"&gt;
-					&lt;div class="e-con-inner"&gt;
-		&lt;div class="elementor-element elementor-element-6f52f515 e-con-full e-flex e-con e-child" data-id="6f52f515" data-element_type="container" data-e-type="container"&gt;
-				&lt;div class="elementor-element elementor-element-65d9f401 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="65d9f401" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-							&lt;div class="elementor-divider"&gt;
-			&lt;span class="elementor-divider-separator"&gt;
-						&lt;/span&gt;
-		&lt;/div&gt;
-						&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;/div&gt;
-		&lt;div class="elementor-element elementor-element-134a1245 e-flex e-con-boxed e-con e-child" data-id="134a1245" data-element_type="container" data-e-type="container"&gt;
-					&lt;div class="e-con-inner"&gt;
-				&lt;div class="elementor-element elementor-element-10fe55fe elementor-widget elementor-widget-text-editor" data-id="10fe55fe" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-									&lt;p&gt;Leia também&lt;/p&gt;								&lt;/div&gt;
-				&lt;/div&gt;
-					&lt;/div&gt;
-				&lt;/div&gt;
-					&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-3c9495ae elementor-grid-1 leia-tambem elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid" data-id="3c9495ae" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;template_id&amp;quot;:&amp;quot;75221&amp;quot;,&amp;quot;columns&amp;quot;:1,&amp;quot;row_gap&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:10,&amp;quot;sizes&amp;quot;:[]},&amp;quot;_skin&amp;quot;:&amp;quot;post&amp;quot;,&amp;quot;columns_tablet&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;columns_mobile&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;edit_handle_selector&amp;quot;:&amp;quot;[data-elementor-type=\&amp;quot;loop-item\&amp;quot;]&amp;quot;,&amp;quot;row_gap_tablet&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]},&amp;quot;row_gap_mobile&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]}}" data-widget_type="loop-grid.post"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-							&lt;div class="e-loop-nothing-found-message"&gt;
-		&lt;/div&gt;
-						&lt;/div&gt;
-				&lt;/div&gt;
-					&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;/div&gt;
-		
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Poliana Dallabrida Wisentainer</dc:creator><pubDate>Tue, 14 Apr 2026 17:40:49 +0000</pubDate><guid>https://reporterbrasil.org.br/2026/04/italy-pressed-over-signs-of-illegal-gold-imports-from-brazil/</guid><guid isPermaLink="true">https://reporterbrasil.org.br/2026/04/italy-pressed-over-signs-of-illegal-gold-imports-from-brazil/</guid></item></channel></rss>
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Carlos Juliano Barros</dc:creator><pubDate>Wed, 15 Apr 2026 17:31:22 +0000</pubDate><guid>https://reporterbrasil.org.br/2026/04/estudo-ruralistas-stf-moratoria-soja/</guid><guid isPermaLink="true">https://reporterbrasil.org.br/2026/04/estudo-ruralistas-stf-moratoria-soja/</guid></item></channel></rss>
