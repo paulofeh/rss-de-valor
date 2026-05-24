@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel xmlns:atom="http://www.w3.org/2005/Atom"><title>Repórter Brasil Socioambiental</title><link>https://reporterbrasil.org.br/jornalismo/socioambiental/</link><description>Últimos artigos de Repórter Brasil Socioambiental</description><atom:link href="https://paulofeh.github.io/rss-de-valor/feeds/rep%C3%B3rter_brasil_socioambiental_feed.xml" rel="self"/><language>pt-br</language><lastBuildDate>Fri, 22 May 2026 19:03:30 +0000</lastBuildDate><ttl>60</ttl><item><title>Câmara pauta projetos que enfraquecem regras ambientais; entenda os impactos</title><link>https://reporterbrasil.org.br/2026/05/camara-projetos-enfraquecem-regras-ambientais-entenda-impactos/</link><description>
-&lt;p&gt;&lt;strong&gt;AO LONGO DESTA SEMANA,&lt;/strong&gt; com o aval do presidente da Câmara dos Deputados, Hugo Motta (Republicanos-PB), parlamentares ligados ao agronegócio vêm pautando projetos de lei que enfraquecem as políticas de proteção ao meio ambiente no Brasil. Apelidado de “Semana do Agro”, o período marca a tramitação de pelo menos quatro propostas.&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel xmlns:atom="http://www.w3.org/2005/Atom"><title>Repórter Brasil Socioambiental</title><link>https://reporterbrasil.org.br/jornalismo/socioambiental/</link><description>Últimos artigos de Repórter Brasil Socioambiental</description><atom:link href="https://paulofeh.github.io/rss-de-valor/feeds/rep%C3%B3rter_brasil_socioambiental_feed.xml" rel="self"/><language>pt-br</language><lastBuildDate>Fri, 22 May 2026 19:03:30 +0000</lastBuildDate><ttl>60</ttl><item><title>Câmara agiliza projetos que enfraquecem regras ambientais; entenda os impactos</title><link>https://reporterbrasil.org.br/2026/05/camara-projetos-enfraquecem-regras-ambientais-entenda-impactos/</link><description>
+&lt;p&gt;&lt;strong&gt;AO LONGO DESTA SEMANA,&lt;/strong&gt; com o aval do presidente da Câmara dos Deputados, Hugo Motta (Republicanos-PB), parlamentares ligados ao agronegócio vêm pautando projetos de lei que enfraquecem as políticas de proteção ao meio ambiente no Brasil. &lt;/p&gt;
 
 
 
-&lt;p&gt;O PL 2564/2025 impede que órgãos ambientais adotem medidas administrativas, como multas, com base em imagens de satélite e proíbe a destruição de equipamentos usados em infrações, como tratores em garimpos ilegais.&lt;/p&gt;
+&lt;p&gt;Apelidado de “Semana do Agro”, o período marca a tramitação de pelo menos quatro propostas. Duas delas já foram aprovadas pelos deputados e agora seguem para o Senado. Confira abaixo o status de cada uma.&lt;/p&gt;
+
+
+
+&lt;p&gt;O PL 2564/2025 impede que órgãos ambientais adotem medidas administrativas, como multas, com base em imagens de satélite e proíbe a destruição de equipamentos usados em infrações, como tratores em garimpos ilegais. &lt;/p&gt;
 
 
 
@@ -41,8 +45,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Repórter Brasil" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Lista de ‘donos’ da SLC tem fundo de pensão da ONU" /&gt;
 
+							&lt;input type="hidden" name="queried_id" value="123432"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -267,8 +272,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Repórter Brasil" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Lista de ‘donos’ da SLC tem fundo de pensão da ONU" /&gt;
 
+							&lt;input type="hidden" name="queried_id" value="123432"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -549,8 +555,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Repórter Brasil" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Lista de ‘donos’ da SLC tem fundo de pensão da ONU" /&gt;
 
+							&lt;input type="hidden" name="queried_id" value="123432"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -899,8 +906,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Repórter Brasil" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Lista de ‘donos’ da SLC tem fundo de pensão da ONU" /&gt;
 
+							&lt;input type="hidden" name="queried_id" value="123432"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -1153,8 +1161,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Repórter Brasil" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Lista de ‘donos’ da SLC tem fundo de pensão da ONU" /&gt;
 
+							&lt;input type="hidden" name="queried_id" value="123432"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -1335,8 +1344,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Repórter Brasil" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Lista de ‘donos’ da SLC tem fundo de pensão da ONU" /&gt;
 
+							&lt;input type="hidden" name="queried_id" value="123432"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -1868,8 +1878,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Repórter Brasil" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Lista de ‘donos’ da SLC tem fundo de pensão da ONU" /&gt;
 
+							&lt;input type="hidden" name="queried_id" value="123432"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -2185,8 +2196,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Repórter Brasil" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Lista de ‘donos’ da SLC tem fundo de pensão da ONU" /&gt;
 
+							&lt;input type="hidden" name="queried_id" value="123432"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -2298,8 +2310,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Repórter Brasil" /&gt;
+			&lt;input type="hidden" name="referer_title" value="Lista de ‘donos’ da SLC tem fundo de pensão da ONU" /&gt;
 
+							&lt;input type="hidden" name="queried_id" value="123432"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
