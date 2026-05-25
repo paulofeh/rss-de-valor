@@ -1,5 +1,268 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel xmlns:atom="http://www.w3.org/2005/Atom"><title>Repórter Brasil Socioambiental</title><link>https://reporterbrasil.org.br/jornalismo/socioambiental/</link><description>Últimos artigos de Repórter Brasil Socioambiental</description><atom:link href="https://paulofeh.github.io/rss-de-valor/feeds/rep%C3%B3rter_brasil_socioambiental_feed.xml" rel="self"/><language>pt-br</language><lastBuildDate>Fri, 22 May 2026 19:03:30 +0000</lastBuildDate><ttl>60</ttl><item><title>Câmara agiliza projetos que enfraquecem regras ambientais; entenda os impactos</title><link>https://reporterbrasil.org.br/2026/05/camara-projetos-enfraquecem-regras-ambientais-entenda-impactos/</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel xmlns:atom="http://www.w3.org/2005/Atom"><title>Repórter Brasil Socioambiental</title><link>https://reporterbrasil.org.br/jornalismo/socioambiental/</link><description>Últimos artigos de Repórter Brasil Socioambiental</description><atom:link href="https://paulofeh.github.io/rss-de-valor/feeds/rep%C3%B3rter_brasil_socioambiental_feed.xml" rel="self"/><language>pt-br</language><lastBuildDate>Mon, 25 May 2026 08:00:00 +0000</lastBuildDate><ttl>60</ttl><item><title>Donos de fornecedora de batata frita para Assaí e Madero têm histórico de multas ambientais</title><link>https://reporterbrasil.org.br/2026/05/fornecedora-assai-madero-multas-ambientais/</link><description>
+&lt;p&gt;&lt;strong&gt;A BEM BRASIL&lt;/strong&gt;, gigante brasileira do ramo de batata congelada pré-frita, tem entre seus fornecedores produtores rurais alvos de multas e embargos ambientais — incluindo dois de seus donos.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;A empresa vende para grandes varejistas do país como Assaí e Atacadão e abastece grandes redes de fast food, como Madero, Bob’s e Johnny Rockets. A lista de fornecedores da Bem Brasil consta em uma oferta pública, de outubro de 2025, de um CRA (Certificado de Recebíveis do Agronegócio), título financeiro negociado no mercado de capitais.&lt;br&gt;&lt;br&gt;Segundo o documento que explica a oferta do CRA, o dinheiro obtido com a emissão do título seria usado “integral e exclusivamente” para comprar batatas inglesas dos produtores citados.&lt;/p&gt;
+
+
+
+&lt;p&gt;Entre eles, estão os acionistas da empresa João Emílio Rocheto e José Paulo Rocheto, dois dos três donos do Grupo Rocheto, controlador da Bem Brasil e fornecedor de 70% das compras de batata in natura, de acordo com a oferta pública.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Segundo informações do site da Bem Brasil, ambos integram o Conselho Administrativo da empresa — João Emílio ocupa o cargo de presidente.&amp;nbsp;&lt;/p&gt;
+
+
+		&lt;div data-elementor-type="section" data-elementor-id="77670" class="elementor elementor-77670" data-elementor-post-type="elementor_library"&gt;
+			&lt;div class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-e-type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}"&gt;
+					&lt;div class="e-con-inner"&gt;
+				&lt;div class="elementor-element elementor-element-386385d elementor-widget elementor-widget-heading" data-id="386385d" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+					&lt;h2 class="elementor-heading-title elementor-size-default"&gt;ASSINE NOSSA NEWSLETTER&lt;/h2&gt;				&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class="elementor-element elementor-element-6546917 elementor-widget elementor-widget-html" data-id="6546917" data-element_type="widget" data-e-type="widget" data-widget_type="html.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+					&lt;script&gt;
+document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll('.form-news button[type="submit"]').forEach(function(botao) {
+        botao.classList.add("envio_newsletter_materia");
+    });
+});
+&lt;/script&gt;				&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class="elementor-element elementor-element-8c2e333 form-news elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="8c2e333" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;button_width&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_next_label&amp;quot;:&amp;quot;Next&amp;quot;,&amp;quot;step_previous_label&amp;quot;:&amp;quot;Previous&amp;quot;,&amp;quot;button_width_mobile&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_type&amp;quot;:&amp;quot;number_text&amp;quot;,&amp;quot;step_icon_shape&amp;quot;:&amp;quot;circle&amp;quot;}" data-widget_type="form.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
+			&lt;input type="hidden" name="post_id" value="77670"/&gt;
+			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
+			&lt;input type="hidden" name="referer_title" value="Lista de ‘donos’ da SLC tem fundo de pensão da ONU" /&gt;
+
+							&lt;input type="hidden" name="queried_id" value="123432"/&gt;
+			
+			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
+								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
+												&lt;label for="form-field-email" class="elementor-field-label elementor-screen-only"&gt;
+								Email							&lt;/label&gt;
+														&lt;input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="email" required="required"&gt;
+											&lt;/div&gt;
+								&lt;div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-20 e-form__buttons elementor-sm-20"&gt;
+					&lt;button class="elementor-button elementor-size-sm" type="submit"&gt;
+						&lt;span class="elementor-button-content-wrapper"&gt;
+															&lt;span class="elementor-button-icon"&gt;
+									&lt;i aria-hidden="true" class="fas fa-long-arrow-alt-right"&gt;&lt;/i&gt;																			&lt;span class="elementor-screen-only"&gt;Submit&lt;/span&gt;
+																	&lt;/span&gt;
+																				&lt;/span&gt;
+					&lt;/button&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/form&gt;
+						&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;/div&gt;
+		
+
+
+
+&lt;p&gt;Em 2024 e 2025, eles receberam multas ambientais que somam mais de R$ 200 mil, segundo informações públicas do Sisema (Sistema Estadual de Meio Ambiente e Recursos Hídricos de Minas Gerais) consultadas até a publicação desta reportagem.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;As sanções foram motivadas, no caso de João Emílio, por operar atividade rural “potencialmente poluidora” sem licenciamento. José Paulo, por sua vez, foi multado por suprimir vegetação sem autorização do órgão ambiental — inclusive em APP (Área de Preservação Permanente).&lt;/p&gt;
+
+
+
+&lt;p&gt;Ainda segundo o Sisema, João Emílio foi alvo de outras seis autuações ambientais entre 2007 e 2026. Já José Paulo recebeu outras três multas entre 2020 e 2022.&lt;br&gt;&lt;br&gt;Procurados, a Bem Brasil e os irmãos Rocheto afirmaram que a companhia tem um sistema estruturado de rastreabilidade que “garante o monitoramento das matérias-primas desde a origem até a unidade industrial, com total visibilidade sobre fornecedores e práticas adotadas”.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Também disseram que seus fornecedores passam por “rigoroso processo de homologação, incluindo verificação de conformidade e regularidade junto aos órgãos ambientais”.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Ainda segundo a nota da Bem Brasil, a companhia afirmou que, ao identificar “qualquer potencial de não conformidade, a empresa atua de forma diligente junto aos fornecedores para a devida apuração dos fatos, adoção de medidas corretivas e regularização das situações perante os órgãos competentes”.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;A companhia e os irmãos Rocheto não esclareceram se as propriedades autuadas pelo órgão ambiental de Minas Gerais fornecem batata à Bem Brasil. &lt;a href="https://reporterbrasil.org.br/2026/05/posicionamentos-para-reportagem-sobre-fornecedores-da-bem-brasil-com-multas-ambientais/" target="_blank" rel="noreferrer noopener"&gt;O posicionamento completo pode ser lido aqui&lt;/a&gt;.&lt;/p&gt;
+
+
+
+&lt;h2 class="wp-block-heading"&gt;Mais sanções ambientais&lt;/h2&gt;
+
+
+
+&lt;p&gt;Também de acordo com informações do Sisema, outro fornecedor da Bem Brasil sancionado por danos ambientais é Antonio Roberto Bergamasco, ex-prefeito de Perdizes (2021-2024), município mineiro onde a empresa tem fábrica. &lt;/p&gt;
+
+
+
+&lt;p&gt;Em 2024, Bergamasco foi multado em R$ 118 mil por operar “atividade potencialmente poluidora ou degradadora do meio ambiente sem autorização”. Em 2023, ele recebeu duas multas — nos valores de R$ 1,9 milhão e R$ 200 mil — e teve áreas embargadas (proibidas para uso).&lt;/p&gt;
+
+
+
+&lt;p&gt;Ainda segundo consultas ao Sisema realizadas até a publicação desta reportagem, o produtor foi alvo de outras 20 autuações ambientais entre 2013 e 2023.&lt;/p&gt;
+
+
+
+&lt;p&gt;Procurado pela &lt;strong&gt;Repórter Brasil&lt;/strong&gt;, Bergamasco afirmou, por meio de seus advogados, que firmou um TAC (Termo de Ajustamento de Conduta) com a Feam (Fundação Estadual de Meio Ambiente), órgão do governo mineiro responsável por executar a política de regularização e licenciamento ambiental no estado. &lt;/p&gt;
+
+
+
+&lt;p&gt;De acordo com a defesa do produtor, o acordo teria autorizado a continuidade das atividades concomitantemente ao processo de regularização ambiental. Ainda segundo o posicionamento, atualmente não haveria mais embargos em nome de Bergamasco.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Procurada, a assessoria da Feam não respondeu até o fechamento desta reportagem.&lt;/p&gt;
+
+
+
+&lt;p&gt;Sobre o cultivo de batata, os advogados de Bergamasco afirmaram que o plantio teria se iniciado em abril de 2025, “em momento posterior a todas as autuações mencionadas e já inteiramente sob o amparo do TAC vigente, que permite a continuidade adequada de plantio deste gênero”. &lt;a href="https://reporterbrasil.org.br/2026/05/posicionamentos-para-reportagem-sobre-fornecedores-da-bem-brasil-com-multas-ambientais/" target="_blank" rel="noreferrer noopener"&gt;A resposta completa pode ser lida aqui&lt;/a&gt;.&lt;/p&gt;
+
+
+
+&lt;figure class="wp-block-image size-large"&gt;&lt;img fetchpriority="high" decoding="async" width="1024" height="613" src="https://reporterbrasil.org.br/wp-content/uploads/2026/05/batata-valter-Campanato-Agencia-Brasil-1024x613.webp" alt="Dinheiro obtido com a venda do título oferecido pela Bem Brasil seria usado para comprar batatas inglesas dos produtores com histórico de multas ambientais (Foto: Valter Campanato/Agência Brasil)" class="wp-image-130436" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/05/batata-valter-Campanato-Agencia-Brasil-1024x613.webp 1024w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/batata-valter-Campanato-Agencia-Brasil-300x179.webp 300w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/batata-valter-Campanato-Agencia-Brasil-768x459.webp 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/batata-valter-Campanato-Agencia-Brasil.webp 1170w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Dinheiro obtido com a venda do título oferecido pela Bem Brasil seria usado para comprar batatas inglesas dos produtores com histórico de multas ambientais (Foto: Valter Campanato/Agência Brasil)&lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+&lt;p&gt;Também listado na oferta pública de CRA da Bem Brasil como fornecedor de batata, o produtor rural Vicente Roxo Nobre Dias teve duas áreas embargadas em 2024.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;De acordo com o sistema de consulta pública do Ibama (Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis), ele desmatou, sem autorização, um total de 4,1 hectares em uma fazenda na zona rural de Perdizes.&lt;/p&gt;
+
+
+
+&lt;p&gt;Já Gustavo Guimaraes Vasconcelos, cujo nome também consta no documento, foi multado em R$ 178 mil e teve uma área de sua propriedade embargada por desmatar 24 hectares de mata nativa em 2025, segundo base de dados do Sisema. De acordo com a mesma base, em 2026 ele teria desmatado 24 hectares, recebendo, por esse motivo, uma multa de R$ 20 mil e a determinação de embargo até a regularização. Há, ainda, informações sobre outras cinco autuações, aplicadas entre 2013 e 2022.&lt;/p&gt;
+
+
+
+&lt;p&gt;Procurados pela &lt;strong&gt;Repórter Brasil&lt;/strong&gt;, Dias e Vasconcelos não responderam até a publicação desta reportagem. O texto será atualizado em caso de manifestação futura.&lt;/p&gt;
+
+
+
+&lt;h2 class="wp-block-heading"&gt;Ao ‘vendedor’, as batatas&lt;/h2&gt;
+
+
+
+&lt;p&gt;Na oferta pública do título financeiro, a Bem Brasil afirma que é responsável por metade do mercado de batata pré-frita do país. Entre seus principais clientes, estão as grandes redes varejistas Assaí e Atacadão e as redes de fast food Madero, Bob’s e Johnny Rockets.&lt;/p&gt;
+
+
+
+&lt;p&gt;Procurado pela reportagem, o Assaí informou que solicitou à Bem Brasil esclarecimentos sobre as sanções ambientais de seus fornecedores e que está avaliando as informações “à luz dos critérios internos de responsabilidade socioambiental”. Também afirmou que seus fornecedores passam por processos de “homologação e monitoramento contínuo”.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Dono do Atacadão, o Grupo Carrefour Brasil também afirmou que notificou a Bem Brasil e “iniciou processo de apuração para verificar a conformidade de suas operações com suas políticas e com a legislação vigente”. O grupo também disse que exige de seus fornecedores a adesão à sua Carta Ética de Fornecedores e às suas políticas de compras responsáveis.&lt;br&gt;&lt;br&gt;Já o Bob’s respondeu que iniciou uma análise interna sobre possíveis irregularidades ambientais relacionadas à Bem Brasil. E destacou “seu compromisso com a ética, a transparência e a sustentabilidade, conduzindo a análise com a seriedade que o tema exige”.&lt;/p&gt;
+
+
+
+&lt;p&gt;As redes Johnny Rockets e Madero não se pronunciaram até a publicação desta reportagem. O texto será atualizado caso se manifestem.&lt;br&gt;&lt;br&gt;&lt;a href="https://reporterbrasil.org.br/2026/05/posicionamentos-para-reportagem-sobre-fornecedores-da-bem-brasil-com-multas-ambientais/" target="_blank" rel="noreferrer noopener"&gt;As respostas completas do Assaí, Atacadão e Bob’s podem ser lidas aqui&lt;/a&gt;.&lt;/p&gt;
+
+
+
+&lt;h2 class="wp-block-heading"&gt;Financiando o agronegócio&lt;/h2&gt;
+
+
+
+&lt;p&gt;Os recursos financeiros obtidos com o título emitido pela Bem Brasil serão destinados para a compra de batata in natura, segundo o documento de oferta do CRA aos investidores. &lt;/p&gt;
+
+
+
+&lt;p&gt;O título tem a Ecoagro como securitizadora, responsável por estruturar a operação e emitir o CRA, e o Banco Safra como instituição financeira líder da oferta.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;À &lt;strong&gt;Repórter Brasil&lt;/strong&gt;, a EcoAgro disse que atuou “exclusivamente como prestadora de serviços de securitização, não tendo exercido a função de estruturadora da oferta”. A securitizadora também afirmou que “se pautou nas diligências conduzidas pelos assessores legais da oferta”. &lt;a href="https://reporterbrasil.org.br/2026/05/posicionamentos-para-reportagem-sobre-fornecedores-da-bem-brasil-com-multas-ambientais/" target="_blank" rel="noreferrer noopener"&gt;A íntegra da nota pode ser lida aqui&lt;/a&gt;.&lt;br&gt;&lt;br&gt;O escritório Mattos Filho foi o assessor jurídico do Banco Safra na operação. Procurado, preferiu não se pronunciar. &lt;/p&gt;
+
+
+
+&lt;p&gt;Ao Banco Safra, a &lt;strong&gt;Repórter Brasil&lt;/strong&gt; perguntou como é feita a análise de riscos da operação e se a avaliação da regularidade ambiental da cadeia de fornecedores faz parte do processo.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Também foi questionado se a instituição financeira avalia que os investidores tinham conhecimento sobre os riscos reputacionais associados à existência de autuações ambientais na cadeia produtiva da devedora do título. A instituição financeira não quis  se manifestar.&lt;/p&gt;
+
+
+
+&lt;figure class="wp-block-image size-large"&gt;&lt;img decoding="async" width="1024" height="536" src="https://reporterbrasil.org.br/wp-content/uploads/2026/05/bem-brasil-01-edit-1024x536.jpg" alt="Matriz da Bem Brasil, em Araxá, Minas Gerais. Empresa é fornecedora de Assaí, Madero e Bob's, entre outros (Foto: Reprodução/Bem Brasil)" class="wp-image-130437" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/05/bem-brasil-01-edit-1024x536.jpg 1024w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/bem-brasil-01-edit-300x157.jpg 300w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/bem-brasil-01-edit-768x402.jpg 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/bem-brasil-01-edit.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Matriz da Bem Brasil, em Araxá, Minas Gerais. Empresa é fornecedora de Assaí, Madero e Bob&amp;#8217;s, entre outros (Foto: Reprodução/Bem Brasil)&lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+&lt;p&gt;A emissão de CRAs e outros títulos financeiros voltados à produção agropecuária no Brasil tem crescido nos últimos anos. Para Merel van der Mark, coordenadora da Florestas &amp;amp; Finanças, o banco e a securitizadora têm a obrigação de realizar a devida diligência sobre a operação — análise prévia dos créditos, garantias, lastro, riscos jurídicos, financeiros e socioambientais para verificar se o título é consistente e seguro para investidores.&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;a href="https://forestsandfinance.org/pt/" target="_blank" rel="noreferrer noopener"&gt;Florestas &amp;amp; Finanças&lt;/a&gt; é uma coalizão internacional que monitora financiamentos e avalia as possíveis conexões dessas operações com desmatamento.&lt;/p&gt;
+
+
+
+&lt;p&gt;“A existência de multas ambientais altas, não só por parte do devedor [a Bem Brasil], mas também por parte dos fornecedores que serão beneficiados pelo CRA, além de criar risco reputacional para o banco e a securitizadora, pode ter impacto na capacidade da devedora de honrar financeiramente as obrigações contidas no CRA, e como tal, cria risco financeiro”, explica van der Mark. “Esse risco é uma informação crucial para investidores e no mínimo deve ser publicado no prospecto [documento de oferta pública do título].”&lt;/p&gt;
+
+
+		&lt;div data-elementor-type="section" data-elementor-id="129686" class="elementor elementor-129686" data-elementor-post-type="elementor_library"&gt;
+			&lt;a class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-e-type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}" href="https://reporterbrasil.org.br/apoie/"&gt;
+					&lt;div class="e-con-inner"&gt;
+				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+															&lt;img decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/a&gt;
+				&lt;/div&gt;
+		
+
+
+
+&lt;p&gt;&lt;strong&gt;25 anos investigando para mudar.&lt;/strong&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;A Repórter Brasil já ajudou a impulsionar leis, fortalecer direitos e combater o trabalho escravo.&lt;/strong&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Em 2026, fazemos 25 anos — e vem muito mais por aí!&lt;/strong&gt;&lt;/p&gt;
+
+
+		&lt;div data-elementor-type="container" data-elementor-id="75228" class="elementor elementor-75228" data-elementor-post-type="elementor_library"&gt;
+				&lt;div class="elementor-element elementor-element-5e8db1e6 e-flex e-con-boxed e-con e-parent" data-id="5e8db1e6" data-element_type="container" data-e-type="container"&gt;
+					&lt;div class="e-con-inner"&gt;
+		&lt;div class="elementor-element elementor-element-36eb6c91 e-flex e-con-boxed e-con e-child" data-id="36eb6c91" data-element_type="container" data-e-type="container"&gt;
+					&lt;div class="e-con-inner"&gt;
+		&lt;div class="elementor-element elementor-element-6f52f515 e-con-full e-flex e-con e-child" data-id="6f52f515" data-element_type="container" data-e-type="container"&gt;
+				&lt;div class="elementor-element elementor-element-65d9f401 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="65d9f401" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+							&lt;div class="elementor-divider"&gt;
+			&lt;span class="elementor-divider-separator"&gt;
+						&lt;/span&gt;
+		&lt;/div&gt;
+						&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;/div&gt;
+		&lt;div class="elementor-element elementor-element-134a1245 e-flex e-con-boxed e-con e-child" data-id="134a1245" data-element_type="container" data-e-type="container"&gt;
+					&lt;div class="e-con-inner"&gt;
+				&lt;div class="elementor-element elementor-element-10fe55fe elementor-widget elementor-widget-text-editor" data-id="10fe55fe" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+									&lt;p&gt;Leia também&lt;/p&gt;								&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class="elementor-element elementor-element-3c9495ae elementor-grid-1 leia-tambem elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid" data-id="3c9495ae" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;template_id&amp;quot;:&amp;quot;75221&amp;quot;,&amp;quot;columns&amp;quot;:1,&amp;quot;row_gap&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:10,&amp;quot;sizes&amp;quot;:[]},&amp;quot;_skin&amp;quot;:&amp;quot;post&amp;quot;,&amp;quot;columns_tablet&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;columns_mobile&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;edit_handle_selector&amp;quot;:&amp;quot;[data-elementor-type=\&amp;quot;loop-item\&amp;quot;]&amp;quot;,&amp;quot;row_gap_tablet&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]},&amp;quot;row_gap_mobile&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]}}" data-widget_type="loop-grid.post"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+							&lt;div class="e-loop-nothing-found-message"&gt;
+		&lt;/div&gt;
+						&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;/div&gt;
+		
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Igor Ojeda</dc:creator><pubDate>Mon, 25 May 2026 08:00:00 +0000</pubDate><guid>https://reporterbrasil.org.br/2026/05/fornecedora-assai-madero-multas-ambientais/</guid><guid isPermaLink="true">https://reporterbrasil.org.br/2026/05/fornecedora-assai-madero-multas-ambientais/</guid></item><item><title>Câmara agiliza projetos que enfraquecem regras ambientais; entenda os impactos</title><link>https://reporterbrasil.org.br/2026/05/camara-projetos-enfraquecem-regras-ambientais-entenda-impactos/</link><description>
 &lt;p&gt;&lt;strong&gt;AO LONGO DESTA SEMANA,&lt;/strong&gt; com o aval do presidente da Câmara dos Deputados, Hugo Motta (Republicanos-PB), parlamentares ligados ao agronegócio vêm pautando projetos de lei que enfraquecem as políticas de proteção ao meio ambiente no Brasil. &lt;/p&gt;
 
 
@@ -175,7 +438,7 @@ document.addEventListener("DOMContentLoaded", function() {
 					&lt;div class="e-con-inner"&gt;
 				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
-															&lt;img fetchpriority="high" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
+															&lt;img decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/a&gt;
@@ -243,7 +506,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-&lt;figure class="wp-block-image size-large"&gt;&lt;img decoding="async" width="1005" height="1024" src="https://reporterbrasil.org.br/wp-content/uploads/2026/05/INFOGRAFICOS-2-Feijao-com-agrotoxicoFiscalizacao-mostra-feijao-com-agrotoxico@1.5x-1005x1024.png" alt="" class="wp-image-130157" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/05/INFOGRAFICOS-2-Feijao-com-agrotoxicoFiscalizacao-mostra-feijao-com-agrotoxico@1.5x-1005x1024.png 1005w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/INFOGRAFICOS-2-Feijao-com-agrotoxicoFiscalizacao-mostra-feijao-com-agrotoxico@1.5x-295x300.png 295w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/INFOGRAFICOS-2-Feijao-com-agrotoxicoFiscalizacao-mostra-feijao-com-agrotoxico@1.5x-768x782.png 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/INFOGRAFICOS-2-Feijao-com-agrotoxicoFiscalizacao-mostra-feijao-com-agrotoxico@1.5x-1508x1536.png 1508w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/INFOGRAFICOS-2-Feijao-com-agrotoxicoFiscalizacao-mostra-feijao-com-agrotoxico@1.5x.png 1620w" sizes="(max-width: 1005px) 100vw, 1005px" /&gt;&lt;figcaption class="wp-element-caption"&gt;(Arte: Rodrigo Bento/Repórter Brasil)&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure class="wp-block-image size-large"&gt;&lt;img loading="lazy" decoding="async" width="1005" height="1024" src="https://reporterbrasil.org.br/wp-content/uploads/2026/05/INFOGRAFICOS-2-Feijao-com-agrotoxicoFiscalizacao-mostra-feijao-com-agrotoxico@1.5x-1005x1024.png" alt="" class="wp-image-130157" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/05/INFOGRAFICOS-2-Feijao-com-agrotoxicoFiscalizacao-mostra-feijao-com-agrotoxico@1.5x-1005x1024.png 1005w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/INFOGRAFICOS-2-Feijao-com-agrotoxicoFiscalizacao-mostra-feijao-com-agrotoxico@1.5x-295x300.png 295w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/INFOGRAFICOS-2-Feijao-com-agrotoxicoFiscalizacao-mostra-feijao-com-agrotoxico@1.5x-768x782.png 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/INFOGRAFICOS-2-Feijao-com-agrotoxicoFiscalizacao-mostra-feijao-com-agrotoxico@1.5x-1508x1536.png 1508w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/INFOGRAFICOS-2-Feijao-com-agrotoxicoFiscalizacao-mostra-feijao-com-agrotoxico@1.5x.png 1620w" sizes="(max-width: 1005px) 100vw, 1005px" /&gt;&lt;figcaption class="wp-element-caption"&gt;(Arte: Rodrigo Bento/Repórter Brasil)&lt;/figcaption&gt;&lt;/figure&gt;
 
 
 
@@ -346,7 +609,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-&lt;figure class="wp-block-image size-large"&gt;&lt;img decoding="async" width="922" height="1024" src="https://reporterbrasil.org.br/wp-content/uploads/2026/05/INFOGRAFICOS-2-Feijao-com-agrotoxico-RecuperadoFeijao-acumula-anos-de-irregularidades-por-agrotoxicos@1.5x-922x1024.png" alt="" class="wp-image-130159" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/05/INFOGRAFICOS-2-Feijao-com-agrotoxico-RecuperadoFeijao-acumula-anos-de-irregularidades-por-agrotoxicos@1.5x-922x1024.png 922w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/INFOGRAFICOS-2-Feijao-com-agrotoxico-RecuperadoFeijao-acumula-anos-de-irregularidades-por-agrotoxicos@1.5x-270x300.png 270w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/INFOGRAFICOS-2-Feijao-com-agrotoxico-RecuperadoFeijao-acumula-anos-de-irregularidades-por-agrotoxicos@1.5x-768x853.png 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/INFOGRAFICOS-2-Feijao-com-agrotoxico-RecuperadoFeijao-acumula-anos-de-irregularidades-por-agrotoxicos@1.5x-1382x1536.png 1382w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/INFOGRAFICOS-2-Feijao-com-agrotoxico-RecuperadoFeijao-acumula-anos-de-irregularidades-por-agrotoxicos@1.5x.png 1620w" sizes="(max-width: 922px) 100vw, 922px" /&gt;&lt;figcaption class="wp-element-caption"&gt;(Arte: Rodrigo Bento/Repórter Brasil)&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure class="wp-block-image size-large"&gt;&lt;img loading="lazy" decoding="async" width="922" height="1024" src="https://reporterbrasil.org.br/wp-content/uploads/2026/05/INFOGRAFICOS-2-Feijao-com-agrotoxico-RecuperadoFeijao-acumula-anos-de-irregularidades-por-agrotoxicos@1.5x-922x1024.png" alt="" class="wp-image-130159" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/05/INFOGRAFICOS-2-Feijao-com-agrotoxico-RecuperadoFeijao-acumula-anos-de-irregularidades-por-agrotoxicos@1.5x-922x1024.png 922w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/INFOGRAFICOS-2-Feijao-com-agrotoxico-RecuperadoFeijao-acumula-anos-de-irregularidades-por-agrotoxicos@1.5x-270x300.png 270w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/INFOGRAFICOS-2-Feijao-com-agrotoxico-RecuperadoFeijao-acumula-anos-de-irregularidades-por-agrotoxicos@1.5x-768x853.png 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/INFOGRAFICOS-2-Feijao-com-agrotoxico-RecuperadoFeijao-acumula-anos-de-irregularidades-por-agrotoxicos@1.5x-1382x1536.png 1382w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/INFOGRAFICOS-2-Feijao-com-agrotoxico-RecuperadoFeijao-acumula-anos-de-irregularidades-por-agrotoxicos@1.5x.png 1620w" sizes="(max-width: 922px) 100vw, 922px" /&gt;&lt;figcaption class="wp-element-caption"&gt;(Arte: Rodrigo Bento/Repórter Brasil)&lt;/figcaption&gt;&lt;/figure&gt;
 
 
 
@@ -450,7 +713,7 @@ document.addEventListener("DOMContentLoaded", function() {
 					&lt;div class="e-con-inner"&gt;
 				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
-															&lt;img fetchpriority="high" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
+															&lt;img decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/a&gt;
@@ -773,7 +1036,7 @@ document.addEventListener("DOMContentLoaded", function() {
 					&lt;div class="e-con-inner"&gt;
 				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
-															&lt;img fetchpriority="high" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
+															&lt;img decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/a&gt;
@@ -1040,7 +1303,7 @@ document.addEventListener("DOMContentLoaded", function() {
 					&lt;div class="e-con-inner"&gt;
 				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
-															&lt;img fetchpriority="high" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
+															&lt;img decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/a&gt;
@@ -1251,7 +1514,7 @@ document.addEventListener("DOMContentLoaded", function() {
 					&lt;div class="e-con-inner"&gt;
 				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
-															&lt;img fetchpriority="high" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
+															&lt;img decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/a&gt;
@@ -1606,7 +1869,7 @@ document.addEventListener("DOMContentLoaded", function() {
 					&lt;div class="e-con-inner"&gt;
 				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
-															&lt;img fetchpriority="high" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
+															&lt;img decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/a&gt;
@@ -2085,7 +2348,7 @@ document.addEventListener("DOMContentLoaded", function() {
 					&lt;div class="e-con-inner"&gt;
 				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
-															&lt;img fetchpriority="high" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
+															&lt;img decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/a&gt;
@@ -2272,326 +2535,4 @@ document.addEventListener("DOMContentLoaded", function() {
 				&lt;/div&gt;
 				&lt;/div&gt;
 		
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Bruna Borges</dc:creator><pubDate>Thu, 23 Apr 2026 14:14:15 +0000</pubDate><guid>https://reporterbrasil.org.br/2026/04/mapa-transicao-energetica-podem-esconder-violacoes-socioambientais/</guid><guid isPermaLink="true">https://reporterbrasil.org.br/2026/04/mapa-transicao-energetica-podem-esconder-violacoes-socioambientais/</guid></item><item><title>Estudo usado no STF por ruralistas contra a moratória da soja é contestado por ambientalistas</title><link>https://reporterbrasil.org.br/2026/04/estudo-ruralistas-stf-moratoria-soja/</link><description>
-&lt;p&gt;&lt;strong&gt;UM ESTUDO&lt;/strong&gt; defendido pela Aprosoja (Associação Brasileira dos Produtores de Soja), mas questionado por acadêmicos e ambientalistas, vai estar no centro do debate sobre a chamada “moratória da soja”, durante audiência marcada pelo ministro Flávio Dino para a quinta-feira (16), no STF (Supremo Tribunal Federal).&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;Usado como argumento técnico pela entidade do agronegócio contra a moratória, o documento sustenta que o pacto empresarial criado há quase duas décadas — e que proíbe a compra de grãos produzidos em áreas desmatadas na Amazônia depois de julho de 2008 — não teria reduzido o desmatamento no bioma. Especialistas ouvidos pela reportagem, no entanto, contestam a análise e apontam falhas metodológicas.&lt;/p&gt;
-
-
-
-&lt;p&gt;Elaborado pelo IBCI (Instituto Brasileiro de Concorrência e Inovação), o documento está&amp;nbsp; anexado a um julgamento em curso no STF sobre leis estaduais do Mato Grosso e de Rondônia que retiram benefícios fiscais das tradings (comercializadoras) de grãos que aderirem a compromissos voluntários de sustentabilidade. Por causa dessas legislações, defendidas por sojicultores, multinacionais como ADM, Bunge e Cargill abandonaram a moratória, &lt;a href="https://reporterbrasil.org.br/2026/03/stf-moratoria-soja-desmatamento-amazonia/"&gt;por receio de perderem incentivos estaduais bilionários&lt;/a&gt;.&lt;/p&gt;
-
-
-
-&lt;p&gt;A audiência de conciliação prevista para quinta-feira foi convocada pelo relator do caso, ministro Flávio Dino. O objetivo do encontro é tentar aproximar produtores rurais, empresas processadoras dos grãos e organizações ambientalistas.&lt;/p&gt;
-
-
-		&lt;div data-elementor-type="section" data-elementor-id="77670" class="elementor elementor-77670" data-elementor-post-type="elementor_library"&gt;
-			&lt;div class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-e-type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}"&gt;
-					&lt;div class="e-con-inner"&gt;
-				&lt;div class="elementor-element elementor-element-386385d elementor-widget elementor-widget-heading" data-id="386385d" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-					&lt;h2 class="elementor-heading-title elementor-size-default"&gt;ASSINE NOSSA NEWSLETTER&lt;/h2&gt;				&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-6546917 elementor-widget elementor-widget-html" data-id="6546917" data-element_type="widget" data-e-type="widget" data-widget_type="html.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-					&lt;script&gt;
-document.addEventListener("DOMContentLoaded", function() {
-    document.querySelectorAll('.form-news button[type="submit"]').forEach(function(botao) {
-        botao.classList.add("envio_newsletter_materia");
-    });
-});
-&lt;/script&gt;				&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-8c2e333 form-news elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="8c2e333" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;button_width&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_next_label&amp;quot;:&amp;quot;Next&amp;quot;,&amp;quot;step_previous_label&amp;quot;:&amp;quot;Previous&amp;quot;,&amp;quot;button_width_mobile&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_type&amp;quot;:&amp;quot;number_text&amp;quot;,&amp;quot;step_icon_shape&amp;quot;:&amp;quot;circle&amp;quot;}" data-widget_type="form.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
-			&lt;input type="hidden" name="post_id" value="77670"/&gt;
-			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Lista de ‘donos’ da SLC tem fundo de pensão da ONU" /&gt;
-
-							&lt;input type="hidden" name="queried_id" value="123432"/&gt;
-			
-			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
-								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
-												&lt;label for="form-field-email" class="elementor-field-label elementor-screen-only"&gt;
-								Email							&lt;/label&gt;
-														&lt;input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="email" required="required"&gt;
-											&lt;/div&gt;
-								&lt;div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-20 e-form__buttons elementor-sm-20"&gt;
-					&lt;button class="elementor-button elementor-size-sm" type="submit"&gt;
-						&lt;span class="elementor-button-content-wrapper"&gt;
-															&lt;span class="elementor-button-icon"&gt;
-									&lt;i aria-hidden="true" class="fas fa-long-arrow-alt-right"&gt;&lt;/i&gt;																			&lt;span class="elementor-screen-only"&gt;Submit&lt;/span&gt;
-																	&lt;/span&gt;
-																				&lt;/span&gt;
-					&lt;/button&gt;
-				&lt;/div&gt;
-			&lt;/div&gt;
-		&lt;/form&gt;
-						&lt;/div&gt;
-				&lt;/div&gt;
-					&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;/div&gt;
-		
-
-
-
-&lt;h2 class="wp-block-heading"&gt;O que diz o estudo do IBCI&lt;/h2&gt;
-
-
-
-&lt;p&gt;O documento tem três pontos centrais. Primeiro, sustenta que a moratória não teria  efeito ambiental comprovado. Em segundo lugar, diz que o acordo trouxe prejuízos econômicos aos produtores de soja. Por fim, afirma que impor restrições além das previstas na legislação ambiental brasileira seria ilegal.&lt;/p&gt;
-
-
-
-&lt;p&gt;Argumentos semelhantes já haviam aparecido na audiência realizada pelo STF em 19 de março. Na ocasião, representantes da Aprosoja e da CNA (Confederação da Agricultura e Pecuária do Brasil) defenderam teses alinhadas ao estudo.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;Durante a audiência, o advogado da Aprosoja afirmou, por exemplo, que a moratória “atropela o nosso Código Florestal” e disse que cerca de “95% do desmatamento na região monitorada não estariam relacionados à soja”. Já a advogada da CNA classificou a política como um “cartel clássico” e “à margem da lei”.&lt;/p&gt;
-
-
-
-&lt;p&gt;Organizações da sociedade civil, por outro lado, defendem o legado da moratória da soja. Estudo do Ipam (Instituto de Pesquisa Ambiental da Amazônia) aponta que o fim do pacto pode elevar em até 30% a área desmatada na Amazônia até 2045, com emissões acumuladas da ordem de 20 bilhões de toneladas de dióxido de carbono decorrentes da conversão de floresta em áreas de exploração agrícola.&lt;/p&gt;
-
-
-
-&lt;figure class="wp-block-image size-full"&gt;&lt;img loading="lazy" decoding="async" width="800" height="533" src="https://reporterbrasil.org.br/wp-content/uploads/2025/10/desmatamento-labrea-greenpeace-christian.jpg" alt="Sobrevoo do Greenpeace área de desmatamento no município de Lábrea, Amazonas, em março de 2022 (Foto: Christian Braga/Greenpeace)" class="wp-image-121799" srcset="https://reporterbrasil.org.br/wp-content/uploads/2025/10/desmatamento-labrea-greenpeace-christian.jpg 800w, https://reporterbrasil.org.br/wp-content/uploads/2025/10/desmatamento-labrea-greenpeace-christian-300x200.jpg 300w, https://reporterbrasil.org.br/wp-content/uploads/2025/10/desmatamento-labrea-greenpeace-christian-768x512.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Sobrevoo do Greenpeace área de desmatamento no município de Lábrea, Amazonas, em março de 2022 (Foto: Christian Braga/Greenpeace)&lt;/figcaption&gt;&lt;/figure&gt;
-
-
-
-&lt;p&gt;Em quase duas décadas, a moratória teria se consolidado como referência para dissociar a expansão da soja do desmatamento na Amazônia, segundo porta-vozes de diferentes entidades ambientalistas, como Greenpeace, WWF-Brasil, Imaflora e Ipam.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;Dados do próprio setor indicam que a área média desmatada nos municípios monitorados caiu 69%, de 11.424 km²/ano entre 2002 e 2008 para 3.526 km²/ano de 2009 a 2022. A área plantada com soja no bioma, por sua vez, aumentou 344% no período. Ou seja: a expansão das lavouras foi acompanhada da redução do desmatamento — e a moratória também contribuiu para esse cenário, defendem ambientalistas.&lt;/p&gt;
-
-
-
-&lt;p&gt;Em entrevista por e-mail à &lt;strong&gt;Repórter Brasil&lt;/strong&gt;, os autores do estudo do IBCI, Cristiano Oliveira e Eduardo Gaban, afirmam que a análise foi feita de forma independente, sem interferência de associações do agronegócio.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;“A convergência de conclusões entre um estudo acadêmico e outros atores não diz nada sobre a origem ou a integridade do estudo. Diz apenas que diferentes pessoas, partindo de pontos distintos, chegaram ao mesmo lugar”, dizem os autores. Oliveira é professor de economia da FURG (Universidade Federal do Rio Grande). Já Gaban é advogado e professor da USP (Universidade de São Paulo). Leia as &lt;a href="https://reporterbrasil.org.br/2026/04/integra-das-respostas-moratoria-da-soja/"&gt;respostas na íntegra&lt;/a&gt;.&lt;/p&gt;
-
-
-
-&lt;p&gt;Registros públicos levantados pela reportagem mostram que Oliveira e Gaban já estiveram em reuniões no Cade (Conselho Administrativo de Defesa Econômica), onde também tramita um processo administrativo sobre a moratória, com participação de representantes da Aprosoja e da CNA. Segundo ambientalistas, a proximidade levanta dúvidas sobre possível conflito de interesses.&lt;/p&gt;
-
-
-
-&lt;h2 class="wp-block-heading"&gt;Autores atribuem queda do desmatamento a ‘políticas estatais’&lt;/h2&gt;
-
-
-
-&lt;p&gt;De acordo com os autores do estudo apresentado pela Aprosoja, o efeito da moratória sobre o desmatamento seria “estatisticamente indistinguível de zero”.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;“Os resultados demonstram que as reduções dramáticas no desmatamento amazônico entre 2004 e 2012 (queda de 83,5%, de 27.772 km² para 4.571 km²) decorrem primordialmente de políticas estatais”, afirmam os autores.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;Dentre essas políticas, estariam o aumento da fiscalização ambiental, as restrições de crédito rural, o monitoramento por satélite e a criação da “Lista de Municípios Prioritários”, instrumento do governo federal que identifica cidades com altos índices de desmatamento na Amazônia.&lt;/p&gt;
-
-
-
-&lt;p&gt;Os autores também argumentam que apenas 2,4% da supressão de vegetação na Amazônia estaria diretamente associada à expansão da soja, enquanto 97,6% decorreriam de outras atividades econômicas, especialmente pecuária e especulação fundiária.&lt;/p&gt;
-
-
-
-&lt;p&gt;“Se medíssemos apenas aqueles 2,4%, poderíamos concluir que a política funcionou, mas estaríamos ignorando o que acontece na floresta como um todo. Nossa pergunta de pesquisa é mais ambiciosa e mais honesta: a Amazônia foi efetivamente protegida? Para isso, só o desmatamento total responde”, afirmam os autores à reportagem.&lt;/p&gt;
-
-
-
-&lt;h2 class="wp-block-heading"&gt;Ambientalistas apontam erro de abordagem&lt;/h2&gt;
-
-
-
-&lt;p&gt;Segundo especialistas ouvidos pela reportagem, o estudo falha ao mensurar os efeitos da moratória da soja. Ao se debruçar sobre o desmatamento total na Amazônia, a análise deixaria de capturar o efeito específico do pacto, que atua sobre a expansão da soja nas áreas recém-desmatadas.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;“Apesar de frear o desmatamento total, a moratória tem o objetivo [particular] de reduzir o desmatamento causado pela expansão da soja”, afirma Tiago Reis, especialista em conservação do WWF-Brasil.&lt;/p&gt;
-
-
-
-&lt;p&gt;Fontes ouvidas pela reportagem também contestam uma das principais hipóteses do estudo: a de que o efeito da moratória não poderia ser isolado de outras políticas públicas e que, por essa razão, seria irrelevante.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;Segundo eles, essa dificuldade já é reconhecida na literatura científica, mas não invalida resultados já produzidos. “Ninguém nunca afirmou que a moratória da soja é a principal causa da redução do desmatamento, tornando irrelevantes a fiscalização ou a criação de unidades de conservação”, rebate Raoni Rajão, professor da UFMG (Universidade Federal de Minas Gerais) e ex-diretor do Ministério do Meio Ambiente.&lt;/p&gt;
-
-
-
-&lt;p&gt;Pesquisas que comparam diferentes regiões mostram que, após a implementação da moratória, a conversão direta de vegetação nativa para lavouras de soja caiu de cerca de 30% para até 2% na Amazônia. Já no Cerrado — especialmente no Matopiba, que reúne partes de Maranhão, Tocantins, Piauí e Bahia — essa taxa varia de 25% a 30%.&lt;/p&gt;
-
-
-
-&lt;p&gt;Para Rajão, a diferença entre as regiões indica o efeito da moratória sobre a dinâmica de desmatamento, ainda que combinado a outras políticas públicas. “Não tem como não atribuir isso como resultado positivo do ponto de vista ambiental”, afirma o professor da UFMG.&lt;/p&gt;
-
-
-
-&lt;figure class="wp-block-image size-large"&gt;&lt;img loading="lazy" decoding="async" width="1024" height="682" src="https://reporterbrasil.org.br/wp-content/uploads/2024/08/arvore-solitaria-campo-soja-ogronegocio-1024x682.jpg" alt="Altamira, Pará, Brasil 22-09-2023 Vista da propriedade da Fazenda Talismã na borda do Rio Xingu em Altamira. Série de reportagens do projeto Pulitzer Center sobre violência no campo. Percorremos assentamentos e acampamentos em várias cidades do Mato Grosso e Pará, mostrando como a política do governo do ex–presidente Jair Bolsonaro amplificou a violência na Amazônia. ©Foto: Fernando Martinho" class="wp-image-87977" srcset="https://reporterbrasil.org.br/wp-content/uploads/2024/08/arvore-solitaria-campo-soja-ogronegocio-1024x682.jpg 1024w, https://reporterbrasil.org.br/wp-content/uploads/2024/08/arvore-solitaria-campo-soja-ogronegocio-300x200.jpg 300w, https://reporterbrasil.org.br/wp-content/uploads/2024/08/arvore-solitaria-campo-soja-ogronegocio-768x511.jpg 768w, https://reporterbrasil.org.br/wp-content/uploads/2024/08/arvore-solitaria-campo-soja-ogronegocio.jpg 1500w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Vista aérea da fazenda em Altamira (PA), vizinha à rodovia Transamazônica. Ambientalistas defendem legado de moratória da soja no combate ao desmatamento (Fernando Martinho/Repórter Brasil)&lt;br&gt;&lt;/figcaption&gt;&lt;/figure&gt;
-
-
-
-&lt;h2 class="wp-block-heading"&gt;Recorte do estudo exclui as áreas mais desmatadas&lt;/h2&gt;
-
-
-
-&lt;p&gt;A metodologia do estudo também é questionada por excluir da análise os municípios prioritários para o combate ao desmatamento, onde a pressão sobre a Amazônia é maior.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;Os autores do documento defendido pela Aprosoja afirmam que a decisão é necessária para separar os efeitos da moratória de outras políticas públicas direcionadas a esses territórios.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;“Se mantivéssemos esses municípios na análise, seria matematicamente impossível separar o que foi resultado da pressão do Estado do que foi resultado do acordo privado das tradings”, dizem os autores do estudo em resposta por escrito à &lt;strong&gt;Repórter Brasil&lt;/strong&gt;.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;Fontes ouvidas pela reportagem, no entanto, contestam a escolha. “Eles falam assim: vamos tirar os municípios que estão desmatando muito, porque só vamos analisar os municípios que estão desmatando pouco. Não faz sentido”, afirma Rajão, professor da UFMG.&lt;/p&gt;
-
-
-
-&lt;p&gt;Para Tiago Reis, da WWF, o estudo apresenta problemas estruturais. “O estudo é metodologicamente falho. A todo momento, a evidência [de dados] vai sendo moldada ao argumento”, resume.&lt;/p&gt;
-
-
-
-&lt;h2 class="wp-block-heading"&gt;Estudo aponta prejuízo no preço da soja; ambientalistas contestam&lt;/h2&gt;
-
-
-
-&lt;p&gt;A análise econômica do estudo do IBCI sustenta que produtores rurais de áreas atingidas pela moratória receberiam menos pelo grão do que aqueles fora dessas regiões. A conclusão se baseia em informações declaradas pelos sojicultores, posteriormente cruzadas com bases oficiais.&lt;/p&gt;
-
-
-
-&lt;p&gt;Ana Clis Ferreira, porta-voz da frente de desmatamento zero do Greenpeace Brasil, contesta a interpretação e diz que diferenças de preço estão mais relacionadas a fatores como acesso a rotas de escoamento e condições climáticas do que à moratória em si.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;“A soja acaba sendo mais barata ou mais lucrativa em municípios que estão mais perto de zonas de escoamento. E a gente tem uma questão climática que a cada ano que passa está condicionando mais o plantio”, explica..&lt;/p&gt;
-
-
-
-&lt;p&gt;As informações sobre os preços da soja analisadas no estudo do IBCI foram coletadas por uma consultoria independente, sem envolvimento dos pesquisadores. No total, 1.091 produtores de 94 municípios de Mato Grosso teriam participado voluntariamente do levantamento — o que, segundo o próprio estudo, “pode gerar viés de autosseleção”. Embora os autores afirmem ter cruzado as informações com bases oficiais, a principal fonte continua sendo autodeclarada.&lt;/p&gt;
-
-
-
-&lt;p&gt;“Fomos convidados a analisar os dados já coletados, e nossa contribuição foi estritamente técnica e não remunerada”, afirmam. Para especialistas, a falta de transparência sobre a origem e o recorte da amostra pode comprometer a interpretação dos resultados.&lt;/p&gt;
-
-
-
-&lt;h2 class="wp-block-heading"&gt;Autores já participaram de reuniões no Cade com entidades do agro&lt;/h2&gt;
-
-
-
-&lt;p&gt;A disputa sobre a moratória da soja se intensificou no segundo semestre de 2025, com o avanço de ações no Cade (Conselho Administrativo de Defesa Econômica). O órgão vinculado ao Ministério da Justiça analisa se o acordo poderia ser caracterizado como prática anticoncorrencial.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;A Aprosoja e a CNA argumentam que a iniciativa funcionaria como uma coordenação entre multinacionais para restringir a compra de soja e controlar preços, o que poderia configurar uma espécie de cartel. Ambientalistas, no entanto, rejeitam essa interpretação.&lt;/p&gt;
-
-
-
-&lt;p&gt;“Cartel é um acordo entre empresas para eliminar ou restringir a concorrência. No caso da moratória, as tradings se uniram para limitar o desmatamento na cadeia, não para excluir competidores”, afirma Tiago Reis, do WWF-Brasil.&lt;/p&gt;
-
-
-
-&lt;p&gt;Em de setembro do ano passado, o Cade suspendeu a moratória por avaliar que o acordo poderia configurar prática anticoncorrencial. Em novembro, o ministro do STF Flávio Dino suspendeu os processos em curso no país, incluindo o do Cade, e centralizou a discussão na suprema corte.&lt;/p&gt;
-
-
-
-&lt;p&gt;Registros públicos indicam que Eduardo Gaban e Cristiano Oliveira, autores do estudo do IBCI, já estiveram em reuniões na sede do Cade, em Brasília, que também contaram com representantes de entidades ruralistas críticas à moratória.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;No caso de Gaban, a pauta do encontro menciona especificamente a Aprosoja. Já nas três reuniões com a presença de Oliveira, os registros também indicam a presença da advogada da CNA, Amanda Oliveira.&lt;/p&gt;
-
-
-
-&lt;p&gt;Segundo Oliveira, as reuniões estariam ligadas a um parecer técnico elaborado para a CNA, durante sua licença acadêmica. Ele afirma que não recebeu remuneração pela participação no Cade, embora suas despesas de viagem tenham sido parcialmente custeadas pela entidade. Já Gaban diz ter atuado, também sem remuneração, a convite de um escritório envolvido no processo em discussão no Cade.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;O Cade informou que reuniões com partes envolvidas são práticas comuns e que a lista de participantes é pública, mas não comentou o conteúdo discutido. A reportagem também procurou Aprosoja e CNA, mas não obteve resposta até a publicação desta reportagem.&lt;/p&gt;
-
-
-
-&lt;h2 class="wp-block-heading"&gt;‘Avanço do desmatamento compromete soberania nacional’&lt;/h2&gt;
-
-
-
-&lt;p&gt;Na avaliação de Ana Paula Valdiones, coordenadora do programa de conservação e clima do ICV (Instituto Centro de Vida), o combate ao desmatamento está diretamente ligado à soberania nacional. “É uma discussão de interesse nosso, sobre como a gente quer preservar ou não nossas florestas”.&lt;/p&gt;
-
-
-
-&lt;p&gt;Na mesma linha, Ana Clis Ferreira, do Greenpeace, contesta a leitura de que a moratória, por ser um acordo privado, configuraria prática anticoncorrencial ou afronta à soberania. “O que efetivamente compromete a soberania nacional é o avanço do desmatamento”, afirma.&lt;/p&gt;
-
-
-
-&lt;p&gt;O embate ocorre em meio a incertezas sobre o futuro da moratória. Após mudanças legais em Mato Grosso, &lt;a href="https://reporterbrasil.org.br/2026/01/esvaziamento-moratoria-soja-risco-reputacao-ambientalistas/"&gt;empresas deixaram o acordo&lt;/a&gt;, enquanto &lt;a href="https://www.theguardian.com/environment/2026/jan/26/uk-supermarkets-push-for-amazon-soy-safeguards-after-brazil-scraps-ban"&gt;compradores europeus&lt;/a&gt; sinalizaram preocupação. Estudo da UFMG indica que o enfraquecimento da política pode ampliar o risco de desmatamento e comprometer o acesso a mercados mais exigentes.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;“É um enfraquecimento grande desse acordo, uma sinalização negativa e um retrocesso no aspecto dos compromissos de combate ao desmatamento”, afirma Valdiones.&lt;/p&gt;
-
-
-
-&lt;p&gt;A &lt;strong&gt;Repórter Brasil &lt;/strong&gt;também procurou a Abiove (Associação Brasileira das Indústrias de Óleos Vegetais), entidade que representa as principais compradoras de soja em operação no país, , mas não recebeu posicionamento até a conclusão desta reportagem. O espaço segue aberto a manifestações.&lt;/p&gt;
-
-
-		&lt;div data-elementor-type="container" data-elementor-id="75228" class="elementor elementor-75228" data-elementor-post-type="elementor_library"&gt;
-				&lt;div class="elementor-element elementor-element-5e8db1e6 e-flex e-con-boxed e-con e-parent" data-id="5e8db1e6" data-element_type="container" data-e-type="container"&gt;
-					&lt;div class="e-con-inner"&gt;
-		&lt;div class="elementor-element elementor-element-36eb6c91 e-flex e-con-boxed e-con e-child" data-id="36eb6c91" data-element_type="container" data-e-type="container"&gt;
-					&lt;div class="e-con-inner"&gt;
-		&lt;div class="elementor-element elementor-element-6f52f515 e-con-full e-flex e-con e-child" data-id="6f52f515" data-element_type="container" data-e-type="container"&gt;
-				&lt;div class="elementor-element elementor-element-65d9f401 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="65d9f401" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-							&lt;div class="elementor-divider"&gt;
-			&lt;span class="elementor-divider-separator"&gt;
-						&lt;/span&gt;
-		&lt;/div&gt;
-						&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;/div&gt;
-		&lt;div class="elementor-element elementor-element-134a1245 e-flex e-con-boxed e-con e-child" data-id="134a1245" data-element_type="container" data-e-type="container"&gt;
-					&lt;div class="e-con-inner"&gt;
-				&lt;div class="elementor-element elementor-element-10fe55fe elementor-widget elementor-widget-text-editor" data-id="10fe55fe" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-									&lt;p&gt;Leia também&lt;/p&gt;								&lt;/div&gt;
-				&lt;/div&gt;
-					&lt;/div&gt;
-				&lt;/div&gt;
-					&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-3c9495ae elementor-grid-1 leia-tambem elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid" data-id="3c9495ae" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;template_id&amp;quot;:&amp;quot;75221&amp;quot;,&amp;quot;columns&amp;quot;:1,&amp;quot;row_gap&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:10,&amp;quot;sizes&amp;quot;:[]},&amp;quot;_skin&amp;quot;:&amp;quot;post&amp;quot;,&amp;quot;columns_tablet&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;columns_mobile&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;edit_handle_selector&amp;quot;:&amp;quot;[data-elementor-type=\&amp;quot;loop-item\&amp;quot;]&amp;quot;,&amp;quot;row_gap_tablet&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]},&amp;quot;row_gap_mobile&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]}}" data-widget_type="loop-grid.post"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-							&lt;div class="e-loop-nothing-found-message"&gt;
-		&lt;/div&gt;
-						&lt;/div&gt;
-				&lt;/div&gt;
-					&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;/div&gt;
-		
-
-
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Carlos Juliano Barros</dc:creator><pubDate>Wed, 15 Apr 2026 17:31:22 +0000</pubDate><guid>https://reporterbrasil.org.br/2026/04/estudo-ruralistas-stf-moratoria-soja/</guid><guid isPermaLink="true">https://reporterbrasil.org.br/2026/04/estudo-ruralistas-stf-moratoria-soja/</guid></item></channel></rss>
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Bruna Borges</dc:creator><pubDate>Thu, 23 Apr 2026 14:14:15 +0000</pubDate><guid>https://reporterbrasil.org.br/2026/04/mapa-transicao-energetica-podem-esconder-violacoes-socioambientais/</guid><guid isPermaLink="true">https://reporterbrasil.org.br/2026/04/mapa-transicao-energetica-podem-esconder-violacoes-socioambientais/</guid></item></channel></rss>
