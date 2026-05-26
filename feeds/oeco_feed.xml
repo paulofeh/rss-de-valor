@@ -22,7 +22,13 @@
 
 
 
-&lt;figure class="wp-block-gallery alignwide has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex"&gt;&lt;/figure&gt;
+&lt;figure class="wp-block-gallery alignwide has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex"&gt;
+&lt;figure class="wp-block-image size-large"&gt;&lt;img loading="lazy" decoding="async" width="1920" height="1080" data-id="198196" src="https://oeco.org.br/wp-content/uploads/2026/05/resize_podcast-ventre-das-aguas_aerea-APA-Piraquara-1920x1080.jpg" alt="" class="wp-image-198196" srcset="https://oeco.org.br/wp-content/uploads/2026/05/resize_podcast-ventre-das-aguas_aerea-APA-Piraquara-1920x1080.jpg 1920w, https://oeco.org.br/wp-content/uploads/2026/05/resize_podcast-ventre-das-aguas_aerea-APA-Piraquara-300x169.jpg 300w, https://oeco.org.br/wp-content/uploads/2026/05/resize_podcast-ventre-das-aguas_aerea-APA-Piraquara-1536x864.jpg 1536w, https://oeco.org.br/wp-content/uploads/2026/05/resize_podcast-ventre-das-aguas_aerea-APA-Piraquara-640x360.jpg 640w, https://oeco.org.br/wp-content/uploads/2026/05/resize_podcast-ventre-das-aguas_aerea-APA-Piraquara-500x281.jpg 500w, https://oeco.org.br/wp-content/uploads/2026/05/resize_podcast-ventre-das-aguas_aerea-APA-Piraquara-800x450.jpg 800w, https://oeco.org.br/wp-content/uploads/2026/05/resize_podcast-ventre-das-aguas_aerea-APA-Piraquara-1280x720.jpg 1280w, https://oeco.org.br/wp-content/uploads/2026/05/resize_podcast-ventre-das-aguas_aerea-APA-Piraquara-150x84.jpg 150w, https://oeco.org.br/wp-content/uploads/2026/05/resize_podcast-ventre-das-aguas_aerea-APA-Piraquara.jpg 1980w" sizes="auto, (max-width: 1920px) 100vw, 1920px" /&gt;&lt;/figure&gt;
+
+
+
+&lt;figure class="wp-block-image size-large"&gt;&lt;img loading="lazy" decoding="async" width="1920" height="1080" data-id="198197" src="https://oeco.org.br/wp-content/uploads/2026/05/resize_podcast-ventre-das-aguas_aerea-APA-Piraquara-2-1920x1080.jpg" alt="" class="wp-image-198197" srcset="https://oeco.org.br/wp-content/uploads/2026/05/resize_podcast-ventre-das-aguas_aerea-APA-Piraquara-2-1920x1080.jpg 1920w, https://oeco.org.br/wp-content/uploads/2026/05/resize_podcast-ventre-das-aguas_aerea-APA-Piraquara-2-300x169.jpg 300w, https://oeco.org.br/wp-content/uploads/2026/05/resize_podcast-ventre-das-aguas_aerea-APA-Piraquara-2-1536x864.jpg 1536w, https://oeco.org.br/wp-content/uploads/2026/05/resize_podcast-ventre-das-aguas_aerea-APA-Piraquara-2-640x360.jpg 640w, https://oeco.org.br/wp-content/uploads/2026/05/resize_podcast-ventre-das-aguas_aerea-APA-Piraquara-2-500x281.jpg 500w, https://oeco.org.br/wp-content/uploads/2026/05/resize_podcast-ventre-das-aguas_aerea-APA-Piraquara-2-800x450.jpg 800w, https://oeco.org.br/wp-content/uploads/2026/05/resize_podcast-ventre-das-aguas_aerea-APA-Piraquara-2-1280x720.jpg 1280w, https://oeco.org.br/wp-content/uploads/2026/05/resize_podcast-ventre-das-aguas_aerea-APA-Piraquara-2-150x84.jpg 150w, https://oeco.org.br/wp-content/uploads/2026/05/resize_podcast-ventre-das-aguas_aerea-APA-Piraquara-2.jpg 1980w" sizes="auto, (max-width: 1920px) 100vw, 1920px" /&gt;&lt;/figure&gt;
+&lt;figcaption class="blocks-gallery-caption wp-element-caption"&gt;&lt;em&gt;Imagens aéreas da represa e manancial protegidos pela APA de Piraquara. Fotos: Giovani Sella&lt;/em&gt;&lt;/figcaption&gt;&lt;/figure&gt;
 
 
 
@@ -35,7 +41,7 @@
 
 
 &lt;div class="wp-block-group p-5 has-central-palette-4-background-color has-background"&gt;&lt;div class="wp-block-group__inner-container is-layout-constrained wp-block-group-is-layout-constrained"&gt;
-&lt;p class="has-text-align-center"&gt;&lt;strong&gt;Ventre das Águas&lt;/strong&gt; é um podcast produzido através da Bolsa Vandré Fonseca de Jornalismo Ambiental, concedida pelo ((o))eco com apoio da Fundação Amazônia Sustentável e Fundação Grupo Boticário de Proteção à Natureza.&lt;/p&gt;
+&lt;p class="has-text-align-center"&gt;&lt;em&gt;&lt;strong&gt;Ventre das Águas&lt;/strong&gt; é um podcast produzido através da Bolsa Vandré Fonseca de Jornalismo Ambiental, concedida pelo ((o))eco com apoio da Fundação Amazônia Sustentável e Fundação Grupo Boticário de Proteção à Natureza.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;/div&gt;
 
 
