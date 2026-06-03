@@ -1047,6 +1047,631 @@ class BloombergLineaScraper(BaseScraper):
         pass  # Logic is handled in get_latest_article
 
 
+class BloombergGreenScraper(ExistingRssScraper):
+    """Scraper for Bloomberg Green global articles.
+
+    Uses Bloomberg's public Green RSS feed as the article index, then fetches
+    each article page to extract the richer story body embedded in Next.js
+    page data.
+    """
+    FEED_URL = "https://feeds.bloomberg.com/green/news.rss"
+    HEADERS = {
+        'User-Agent': (
+            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) '
+            'AppleWebKit/537.36'
+        ),
+    }
+    CURL_USER_AGENT = "Mozilla/5.0"
+    SKIP_BLOCK_TYPES = {
+        'ad',
+        'inline-newsletter',
+        'inline-recirc',
+        'media',
+        'tabularData',
+    }
+    PROMOTIONAL_PATTERNS = (
+        re.compile(r'^sign up here for\b', re.I),
+        re.compile(r'^subscribe to bloomberg\b', re.I),
+        re.compile(r'^explore all bloomberg newsletters\b', re.I),
+        re.compile(r'^read more$', re.I),
+    )
+
+    def _fetch_items(self):
+        """Fetch Bloomberg Green RSS items regardless of the configured page URL."""
+        feed_url = self.url if self.url.endswith('.rss') else self.FEED_URL
+        response = requests_retry_session().get(feed_url, timeout=30, headers=self.HEADERS)
+        response.raise_for_status()
+        root = ET.fromstring(response.content)
+        return root.findall('.//item') or root.findall('.//{http://www.w3.org/2005/Atom}entry')
+
+    def get_latest_article(self):
+        articles = self.get_articles(limit=1)
+        return articles[0] if articles else None
+
+    def get_articles(self, limit=10):
+        try:
+            items = self._fetch_items()
+            if not items:
+                print(f"Nenhum item encontrado no feed Bloomberg Green: {self.FEED_URL}")
+                return []
+
+            articles = []
+            for item in items[:limit]:
+                article = super()._parse_item(item)
+                enriched = self._fetch_article_data(article['link'])
+                if enriched:
+                    article.update({k: v for k, v in enriched.items() if v})
+                articles.append(article)
+            return articles
+        except Exception as e:
+            print(f"Erro ao processar Bloomberg Green {self.url}: {str(e)}")
+            return []
+
+    def _fetch_article_data(self, url):
+        """Fetch an article page and extract metadata plus body from __NEXT_DATA__."""
+        import json as _json
+
+        try:
+            html = self._fetch_article_html(url)
+            soup = BeautifulSoup(html, 'html.parser')
+            script = soup.find('script', id='__NEXT_DATA__')
+            if not script or not script.string:
+                return None
+
+            data = _json.loads(script.string)
+            story = (
+                data.get('props', {})
+                    .get('pageProps', {})
+                    .get('story', {})
+            )
+            if not story:
+                return None
+
+            return {
+                'title': story.get('headline') or story.get('title'),
+                'author': self._extract_authors(story),
+                'pubdate': self._parse_story_date(story),
+                'description': self._extract_story_html(story),
+            }
+        except Exception as e:
+            print(f"Erro ao buscar conteúdo Bloomberg Green {url}: {str(e)}")
+            return None
+
+    def _fetch_article_html(self, url):
+        try:
+            response = requests_retry_session().get(url, timeout=30, headers=self.HEADERS)
+            response.raise_for_status()
+            return response.content
+        except requests.exceptions.HTTPError as e:
+            if e.response is None or e.response.status_code != 403:
+                raise
+
+        # Bloomberg article pages currently block Python requests but allow curl.
+        return self._fetch_article_html_with_curl(url)
+
+    def _fetch_article_html_with_curl(self, url):
+        import subprocess
+
+        return subprocess.check_output([
+            'curl',
+            '-L',
+            '--silent',
+            '--show-error',
+            '--max-time',
+            '30',
+            '-A',
+            self.CURL_USER_AGENT,
+            url,
+        ])
+
+    def _extract_story_html(self, story):
+        """Render the Bloomberg story body into simple feed-safe HTML."""
+        body = story.get('body', {})
+        blocks = body.get('content', [])
+        html_parts = []
+
+        for block in blocks:
+            rendered = self._render_block(block)
+            if rendered:
+                html_parts.append(rendered)
+
+        return '\n'.join(html_parts)
+
+    def _render_block(self, block):
+        block_type = block.get('type')
+        if block_type in self.SKIP_BLOCK_TYPES:
+            return None
+
+        text_html = self._render_inline(block.get('content', []))
+        plain_text = self._plain_text(text_html)
+        if not plain_text or self._is_promotional_text(plain_text):
+            return None
+
+        if block_type in ('heading', 'header'):
+            level = block.get('data', {}).get('level', 2)
+            try:
+                level = int(level)
+            except (TypeError, ValueError):
+                level = 2
+            level = min(max(level, 2), 4)
+            return f"<h{level}>{text_html}</h{level}>"
+
+        if block_type in ('blockquote', 'quote'):
+            return f"<blockquote>{text_html}</blockquote>"
+
+        if block_type == 'list':
+            items = []
+            for child in block.get('content', []):
+                item_html = self._render_inline(child.get('content', []))
+                item_text = self._plain_text(item_html)
+                if item_text and not self._is_promotional_text(item_text):
+                    items.append(f"<li>{item_html}</li>")
+            return f"<ul>{''.join(items)}</ul>" if items else None
+
+        if block_type in ('paragraph', 'div', 'byTheNumbers'):
+            return f"<p>{text_html}</p>"
+
+        return None
+
+    def _render_inline(self, nodes):
+        if isinstance(nodes, dict):
+            nodes = [nodes]
+        if not isinstance(nodes, list):
+            return ''
+
+        rendered = []
+        for node in nodes:
+            if not isinstance(node, dict):
+                continue
+            node_type = node.get('type')
+
+            if node_type == 'text':
+                rendered.append(html_escape(node.get('value', '')))
+                continue
+
+            child_html = self._render_inline(node.get('content', []))
+            if not child_html:
+                continue
+
+            if node_type == 'link':
+                href = self._web_href(node)
+                if href:
+                    rendered.append(f'<a href="{html_escape(href)}">{child_html}</a>')
+                else:
+                    rendered.append(child_html)
+            elif node_type in ('bold', 'strong'):
+                rendered.append(f"<strong>{child_html}</strong>")
+            elif node_type in ('italic', 'emphasis'):
+                rendered.append(f"<em>{child_html}</em>")
+            else:
+                rendered.append(child_html)
+
+        return ''.join(rendered)
+
+    def _web_href(self, node):
+        data = node.get('data', {})
+        href = (
+            data.get('href')
+            or data.get('webUrl')
+            or data.get('destination', {}).get('web')
+            or data.get('data-web-url')
+        )
+        return href if href and href.startswith(('http://', 'https://')) else None
+
+    def _plain_text(self, html):
+        soup = BeautifulSoup(html, 'html.parser')
+        return ' '.join(soup.get_text(' ', strip=True).split())
+
+    def _is_promotional_text(self, text):
+        return any(pattern.search(text) for pattern in self.PROMOTIONAL_PATTERNS)
+
+    def _extract_authors(self, story):
+        authors = []
+        for author in story.get('authors', []):
+            if isinstance(author, dict):
+                name = author.get('name')
+                if name:
+                    authors.append(name)
+        return ', '.join(authors)
+
+    def _parse_story_date(self, story):
+        date_str = (
+            story.get('publishedAt')
+            or story.get('publishedDate')
+            or story.get('published')
+            or story.get('updatedAt')
+        )
+        if not date_str:
+            return None
+        try:
+            dt = datetime.datetime.fromisoformat(date_str.replace('Z', '+00:00'))
+            return dt.astimezone(pytz.UTC)
+        except (ValueError, TypeError):
+            return None
+
+
+class CDPInsightsScraper(BaseScraper):
+    """Scraper for CDP Insights.
+
+    CDP does not expose a real RSS feed for /en/insights, but the page ships
+    its initial Contentful entries inside Next.js RSC payloads. This parser
+    reads those entries directly and renders the embedded rich text.
+    """
+    BASE_URL = "https://www.cdp.net"
+    HEADERS = {
+        'User-Agent': (
+            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) '
+            'AppleWebKit/537.36'
+        ),
+    }
+
+    def get_latest_article(self):
+        articles = self.get_articles(limit=1)
+        return articles[0] if articles else None
+
+    def get_articles(self, limit=10):
+        try:
+            response = requests_retry_session().get(self.url, timeout=30, headers=self.HEADERS)
+            response.raise_for_status()
+            html = response.content.decode('utf-8', errors='replace')
+            items = self._extract_initial_insights(html)
+            articles = [self._parse_insight(item) for item in items]
+            articles.sort(key=lambda article: article['pubdate'], reverse=True)
+            return articles[:limit]
+        except Exception as e:
+            print(f"Erro ao processar CDP Insights {self.url}: {str(e)}")
+            return []
+
+    def _extract_initial_insights(self, html):
+        import json as _json
+
+        soup = BeautifulSoup(html, 'html.parser')
+        payload_parts = []
+
+        for script in soup.find_all('script'):
+            text = script.string or script.get_text() or ''
+            match = re.search(r'self\.__next_f\.push\(\[1,(".*")\]\)', text, re.S)
+            if not match:
+                continue
+            try:
+                payload_parts.append(_json.loads(match.group(1)))
+            except Exception:
+                continue
+
+        payload = '\n'.join(payload_parts)
+        initial_insights = self._extract_json_array_after_key(payload, '"initialInsights":')
+        if not initial_insights:
+            return []
+
+        entries = _json.loads(initial_insights)
+        return [
+            item for item in entries
+            if isinstance(item, dict)
+            and not item.get('fields', {}).get('hideInsight')
+        ]
+
+    @staticmethod
+    def _extract_json_array_after_key(text, key):
+        key_index = text.find(key)
+        if key_index == -1:
+            return None
+
+        start = text.find('[', key_index + len(key))
+        if start == -1:
+            return None
+
+        depth = 0
+        in_string = False
+        escaped = False
+
+        for index in range(start, len(text)):
+            char = text[index]
+
+            if in_string:
+                if escaped:
+                    escaped = False
+                elif char == '\\':
+                    escaped = True
+                elif char == '"':
+                    in_string = False
+                continue
+
+            if char == '"':
+                in_string = True
+            elif char == '[':
+                depth += 1
+            elif char == ']':
+                depth -= 1
+                if depth == 0:
+                    return text[start:index + 1]
+
+        return None
+
+    def _parse_insight(self, item):
+        fields = item.get('fields', {})
+        slug = fields.get('slug', '')
+        link = urljoin(f"{self.BASE_URL}/en/insights/", slug)
+
+        return {
+            'title': fields.get('title') or self._title_from_slug(slug),
+            'link': link,
+            'pubdate': self._parse_date(
+                fields.get('date') or item.get('sys', {}).get('updatedAt')
+            ),
+            'author': 'CDP',
+            'description': self._extract_description(fields),
+        }
+
+    def _extract_description(self, fields):
+        content = self._render_page_layout(fields.get('pageLayout'))
+        if content:
+            return content
+
+        description = self._render_rich_text(fields.get('description'))
+        if description:
+            return description
+
+        seo_description = (
+            fields.get('seoMetadata', {})
+                  .get('fields', {})
+                  .get('metaDescription', '')
+        )
+        return f"<p>{html_escape(seo_description)}</p>" if seo_description else ''
+
+    def _render_page_layout(self, page_layout):
+        if not isinstance(page_layout, list):
+            return ''
+
+        html_parts = []
+        for section in page_layout:
+            if not isinstance(section, dict):
+                continue
+
+            fields = section.get('fields', {})
+            rendered = self._render_rich_text(fields.get('content'))
+            if rendered:
+                html_parts.append(rendered)
+
+        return '\n'.join(html_parts)
+
+    def _render_rich_text(self, node):
+        if isinstance(node, str) or node is None:
+            return ''
+        if isinstance(node, list):
+            return ''.join(self._render_rich_text(child) for child in node)
+        if not isinstance(node, dict):
+            return ''
+
+        node_type = node.get('nodeType')
+        children = ''.join(self._render_rich_text(child) for child in node.get('content', []))
+
+        if node_type == 'document':
+            return children
+        if node_type == 'text':
+            return self._render_text_node(node)
+        if node_type == 'paragraph':
+            return f"<p>{children}</p>" if self._strip_html_text(children) else ''
+        if node_type and node_type.startswith('heading-'):
+            level = node_type.rsplit('-', 1)[-1]
+            if level not in {'1', '2', '3', '4', '5', '6'}:
+                level = '2'
+            return f"<h{level}>{children}</h{level}>" if self._strip_html_text(children) else ''
+        if node_type == 'unordered-list':
+            return f"<ul>{children}</ul>" if children else ''
+        if node_type == 'ordered-list':
+            return f"<ol>{children}</ol>" if children else ''
+        if node_type == 'list-item':
+            return f"<li>{children}</li>" if self._strip_html_text(children) else ''
+        if node_type == 'blockquote':
+            return f"<blockquote>{children}</blockquote>" if children else ''
+        if node_type == 'hyperlink':
+            uri = node.get('data', {}).get('uri', '')
+            return self._wrap_link(uri, children)
+        if node_type in {'entry-hyperlink', 'asset-hyperlink'}:
+            uri = self._extract_target_uri(node.get('data', {}).get('target'))
+            return self._wrap_link(uri, children)
+        if node_type == 'embedded-asset-block':
+            return self._render_asset(node.get('data', {}).get('target'))
+
+        return children
+
+    @staticmethod
+    def _render_text_node(node):
+        text = html_escape(node.get('value', '')).replace('\n', '<br/>')
+        for mark in node.get('marks', []):
+            mark_type = mark.get('type')
+            if mark_type == 'bold':
+                text = f"<strong>{text}</strong>"
+            elif mark_type == 'italic':
+                text = f"<em>{text}</em>"
+            elif mark_type == 'underline':
+                text = f"<u>{text}</u>"
+            elif mark_type == 'code':
+                text = f"<code>{text}</code>"
+        return text
+
+    def _wrap_link(self, uri, children):
+        if not uri:
+            return children
+        return f'<a href="{html_escape(uri)}">{children}</a>'
+
+    def _extract_target_uri(self, target):
+        if not isinstance(target, dict):
+            return ''
+
+        fields = target.get('fields', {})
+        if fields.get('slug'):
+            return urljoin(f"{self.BASE_URL}/en/", fields['slug'])
+
+        file_url = fields.get('file', {}).get('url', '')
+        if file_url.startswith('//'):
+            return f"https:{file_url}"
+        return file_url
+
+    def _render_asset(self, asset):
+        if not isinstance(asset, dict):
+            return ''
+
+        fields = asset.get('fields', {})
+        file_info = fields.get('file', {})
+        url = file_info.get('url', '')
+        if not url:
+            return ''
+        if url.startswith('//'):
+            url = f"https:{url}"
+
+        title = fields.get('title', '')
+        description = fields.get('description', '')
+        content_type = file_info.get('contentType', '')
+
+        if content_type.startswith('image/'):
+            image = f'<img src="{html_escape(url)}" alt="{html_escape(title)}"/>'
+            caption = f"<figcaption>{html_escape(description)}</figcaption>" if description else ''
+            return f"<figure>{image}{caption}</figure>"
+
+        label = title or file_info.get('fileName') or url
+        return f'<p><a href="{html_escape(url)}">{html_escape(label)}</a></p>'
+
+    @staticmethod
+    def _strip_html_text(value):
+        return BeautifulSoup(value, 'html.parser').get_text(' ', strip=True)
+
+    @staticmethod
+    def _title_from_slug(slug):
+        return slug.replace('-', ' ').strip().title() if slug else 'CDP Insight'
+
+    @staticmethod
+    def _parse_date(date_str):
+        if not date_str:
+            return datetime.datetime.now(pytz.UTC)
+        try:
+            dt = datetime.datetime.fromisoformat(date_str.replace('Z', '+00:00'))
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=pytz.UTC)
+            return dt.astimezone(pytz.UTC)
+        except (ValueError, TypeError):
+            return datetime.datetime.now(pytz.UTC)
+
+    def _extract_article_data(self, soup):
+        pass  # Logic is handled in get_articles
+
+
+class ReutersSustainabilityScraper(BaseScraper):
+    """Scraper for Reuters Sustainability via Reuters' public sitemap."""
+    SITEMAP_URL = "https://www.reuters.com/arc/outboundfeeds/sitemap/?outputType=xml"
+    SECTION_PREFIX = "https://www.reuters.com/sustainability/"
+    HEADERS = {
+        'User-Agent': (
+            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) '
+            'AppleWebKit/537.36'
+        ),
+    }
+    SITEMAP_NAMESPACES = {
+        'sm': 'http://www.sitemaps.org/schemas/sitemap/0.9',
+        'news': 'http://www.google.com/schemas/sitemap-news/0.9',
+        'image': 'http://www.google.com/schemas/sitemap-image/1.1',
+    }
+
+    def get_latest_article(self):
+        articles = self.get_articles(limit=1)
+        return articles[0] if articles else None
+
+    def get_articles(self, limit=10):
+        try:
+            articles = []
+            seen_links = set()
+
+            for offset in self._sitemap_offsets():
+                for article in self._fetch_sitemap_articles(offset):
+                    if article['link'] in seen_links:
+                        continue
+                    seen_links.add(article['link'])
+                    articles.append(article)
+
+            articles.sort(key=lambda article: article['pubdate'], reverse=True)
+            return articles[:limit]
+        except Exception as e:
+            print(f"Erro ao processar Reuters Sustainability {self.url}: {str(e)}")
+            return []
+
+    def _sitemap_offsets(self):
+        # The sitemap is sorted newest-first in 100-item pages. Sustainability
+        # is mixed into the global feed, so scan a bounded window to keep
+        # scheduled runs light.
+        return [None] + list(range(100, 1100, 100))
+
+    def _fetch_sitemap_articles(self, offset):
+        url = self.SITEMAP_URL
+        if offset:
+            url = f"{url}&from={offset}"
+
+        response = requests_retry_session().get(url, timeout=30, headers=self.HEADERS)
+        response.raise_for_status()
+        root = ET.fromstring(response.content)
+
+        articles = []
+        for url_elem in root.findall('sm:url', self.SITEMAP_NAMESPACES):
+            loc = self._find_text(url_elem, 'sm:loc')
+            if not loc or not loc.startswith(self.SECTION_PREFIX):
+                continue
+
+            title = self._find_text(url_elem, 'news:news/news:title') or self._title_from_url(loc)
+            pubdate = self._parse_date(
+                self._find_text(url_elem, 'news:news/news:publication_date')
+                or self._find_text(url_elem, 'sm:lastmod')
+            )
+            image_url = self._find_text(url_elem, 'image:image/image:loc')
+            image_caption = self._find_text(url_elem, 'image:image/image:caption')
+
+            articles.append({
+                'title': title,
+                'link': loc,
+                'pubdate': pubdate,
+                'author': 'Reuters',
+                'description': self._build_description(image_url, image_caption),
+            })
+
+        return articles
+
+    def _find_text(self, element, path):
+        found = element.find(path, self.SITEMAP_NAMESPACES)
+        return found.text.strip() if found is not None and found.text else ''
+
+    @staticmethod
+    def _build_description(image_url, image_caption):
+        parts = []
+        if image_url:
+            parts.append(f'<p><img src="{html_escape(image_url)}"/></p>')
+        if image_caption:
+            parts.append(f"<p>{html_escape(image_caption)}</p>")
+        return '\n'.join(parts)
+
+    @staticmethod
+    def _title_from_url(url):
+        slug = url.rstrip('/').split('/')[-1]
+        slug = re.sub(r'-\d{4}-\d{2}-\d{2}$', '', slug)
+        slug = re.sub(r'--[a-z0-9]+$', '', slug)
+        title = slug.replace('-', ' ').strip().title()
+        for acronym in ('Ai', 'Ceo', 'Cfo', 'Cop', 'Eu', 'Esg', 'Un', 'Us'):
+            title = re.sub(rf'\b{acronym}\b', acronym.upper(), title)
+        return title or 'Reuters Sustainability'
+
+    @staticmethod
+    def _parse_date(date_str):
+        if not date_str:
+            return datetime.datetime.now(pytz.UTC)
+        try:
+            dt = datetime.datetime.fromisoformat(date_str.replace('Z', '+00:00'))
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=pytz.UTC)
+            return dt.astimezone(pytz.UTC)
+        except (ValueError, TypeError):
+            return datetime.datetime.now(pytz.UTC)
+
+    def _extract_article_data(self, soup):
+        pass  # Logic is handled in get_articles
+
+
 class SustainableViewsScraper(BaseScraper):
     """Scraper for Sustainable Views (FT specialist service) category pages.
 
@@ -2356,6 +2981,9 @@ def get_scraper_class(scraper_name):
         'PaulGrahamScraper': PaulGrahamScraper,
         'EstadaoSectionScraper': EstadaoSectionScraper,
         'BloombergLineaScraper': BloombergLineaScraper,
+        'BloombergGreenScraper': BloombergGreenScraper,
+        'CDPInsightsScraper': CDPInsightsScraper,
+        'ReutersSustainabilityScraper': ReutersSustainabilityScraper,
         'SustainableViewsScraper': SustainableViewsScraper,
         'BBCTopicScraper': BBCTopicScraper,
         'WordPressApiScraper': WordPressApiScraper,

@@ -1,7 +1,7 @@
 <opml version="2.0">
     <head>
         <title>RSS de Colunistas</title>
-        <dateCreated>Wed, 03 Jun 2026 11:06:08 GMT</dateCreated>
+        <dateCreated>Wed, 03 Jun 2026 11:42:02 GMT</dateCreated>
         <ownerName>RSS Scraper</ownerName>
         </head>
     <body>
@@ -12,6 +12,8 @@
             <outline text="Risco Climático" title="Risco Climático">
                 <outline type="rss" text="Arroz, Feijão &amp; Clima" title="Arroz, Feijão &amp; Clima" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/arroz_feijao_clima_feed.xml" />
                 <outline type="rss" text="Bloomberg Green" title="Bloomberg Green" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/bloomberg_green_feed.xml" />
+                <outline type="rss" text="Bloomberg Green Global" title="Bloomberg Green Global" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/bloomberg_green_global_feed.xml" />
+                <outline type="rss" text="CDP Insights" title="CDP Insights" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/cdp_insights_feed.xml" />
                 <outline type="rss" text="CNN Agro" title="CNN Agro" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/cnn_agro_feed.xml" />
                 <outline type="rss" text="Clima Extremo" title="Clima Extremo" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/clima_extremo_feed.xml" />
                 <outline type="rss" text="Climate Risk (Google Alerts)" title="Climate Risk (Google Alerts)" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/google_alerts_climate_risk_feed.xml" />
@@ -27,6 +29,7 @@
                 <outline type="rss" text="Observatório Clima e Saúde (Fiocruz)" title="Observatório Clima e Saúde (Fiocruz)" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/fiocruz_clima_saude_feed.xml" />
                 <outline type="rss" text="Pedro Côrtes (CNN Brasil)" title="Pedro Côrtes (CNN Brasil)" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/pedro_cortes_feed.xml" />
                 <outline type="rss" text="Repórter Brasil Socioambiental" title="Repórter Brasil Socioambiental" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/reporter_brasil_socioambiental_feed.xml" />
+                <outline type="rss" text="Reuters Sustainability" title="Reuters Sustainability" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/reuters_sustainability_feed.xml" />
                 <outline type="rss" text="Risco Climático (Google Alerts)" title="Risco Climático (Google Alerts)" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/google_alerts_risco_climatico_feed.xml" />
                 <outline type="rss" text="Sustainable Views" title="Sustainable Views" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/sustainable_views_feed.xml" />
                 <outline type="rss" text="Sustentabilidade" title="Sustentabilidade" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/estadao_sustentabilidade_feed.xml" />

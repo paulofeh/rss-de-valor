@@ -33,6 +33,30 @@
       "group": "clima"
     },
     {
+      "name": "Bloomberg Green Global",
+      "url": "https://www.bloomberg.com/green",
+      "feed_file": "bloomberg_green_global_feed.xml",
+      "history_file": "bloomberg_green_global_history.json",
+      "scraper": "BloombergGreenScraper",
+      "group": "clima"
+    },
+    {
+      "name": "CDP Insights",
+      "url": "https://www.cdp.net/en/insights",
+      "feed_file": "cdp_insights_feed.xml",
+      "history_file": "cdp_insights_history.json",
+      "scraper": "CDPInsightsScraper",
+      "group": "clima"
+    },
+    {
+      "name": "Reuters Sustainability",
+      "url": "https://www.reuters.com/sustainability/",
+      "feed_file": "reuters_sustainability_feed.xml",
+      "history_file": "reuters_sustainability_history.json",
+      "scraper": "ReutersSustainabilityScraper",
+      "group": "clima"
+    },
+    {
       "name": "Sustainable Views",
       "url": "https://www.sustainableviews.com/category/risk/",
       "feed_file": "sustainable_views_feed.xml",
