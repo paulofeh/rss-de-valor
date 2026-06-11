@@ -1,514 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel xmlns:atom="http://www.w3.org/2005/Atom"><title>CNN Agro</title><link>https://www.cnnbrasil.com.br/agro/</link><description>Últimos artigos de CNN Agro</description><atom:link href="https://paulofeh.github.io/rss-de-valor/feeds/cnn_agro_feed.xml" rel="self"/><language>pt-br</language><lastBuildDate>Thu, 11 Jun 2026 10:18:15 +0000</lastBuildDate><ttl>60</ttl><item><title>A dança dos índices</title><link>https://www.cnnbrasil.com.br/infra/a-danca-dos-indices/</link><description>&lt;p&gt;Em 5 de maio de 1989, o jornal &lt;em&gt;O Estado de S. Paulo&lt;/em&gt; publicava reportagem com mesmo título deste artigo, na qual descria &lt;strong&gt;o malabarismo heterodoxo com que o governo brasileiro&lt;/strong&gt; alterava sucessivamente os indicadores oficiais de inflação (IGP, IPC, IPCA) na tentativa de maquiar uma realidade que já escapava ao controle. A inflação tornara-se uma crise de credibilidade institucional. &lt;strong&gt;Era mais fácil culpar o índice do que as causas estruturais&lt;/strong&gt;.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;O Plano Real quebrou esse ciclo por compreender a natureza inercial e institucional do fenômeno. Ao introduzir a Unidade Real de Valor (URV), alinhar expectativas, abrir o mercado e impor disciplina fiscal, &lt;strong&gt;o plano reconstituiu a confiança do ambiente de negócios brasileiro&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Três décadas depois, o setor elétrico nacional enfrenta uma crise de idêntica natureza institucional&lt;/strong&gt;. Sob a narrativa da transição energética, o país assiste à exaustão de um modelo de governança setorial. A proliferação de subsídios cruzados, a expansão assimétrica da MMGD (Micro e Minigeração Distribuída) sem a devida alocação de custos sistêmicos e medidas de centralização regulatória, &lt;a href="https://www.cnnbrasil.com.br/infra/leilao-contrata-19-gw-de-termicas-e-hidreletricas-e-movimenta-r-645-bi/"&gt;como o LRCap (Leilão de Reserva de Capacidade na forma de Potência)&lt;/a&gt;, &lt;strong&gt;transformaram o mercado em um emaranhado de distorções econômicas sob um modelo exaurido&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;A matriz elétrica mudou em 25 anos, com usinas eólicas e solares respondendo por um quarto da capacidade instalada, a custo marginal zero e não despacháveis. A variabilidade das fontes e a descentralização da geração alteraram estruturalmente as premissas do atual modelo do setor elétrico brasileiro, baseado nas reformas dos anos 1990 e depois reorientado em 2002.&lt;/p&gt;
-&lt;p&gt;O núcleo do problema reside no descompasso entre a física e a contabilidade. &lt;strong&gt;A formação de preços no mercado de curto prazo (PLD) permanece umbilicalmente atrelada a modelos computacionais&lt;/strong&gt; concebidos para uma matriz hidrotérmica centralizada e previsível. Ocorre que a realidade atual é marcada pela volatilidade intrínseca das fontes eólica e solar, pela descentralização da oferta e pela exigência premente de flexibilidade operativa.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;Diante disso, o debate técnico refugiou-se em uma nova “dança dos índices”. Se nos anos 1980 eram de inflação, hoje o setor elétrico consome-se em discussões sobre a calibração de parâmetros de aversão ao risco que definem o PLD, fatores alfa e lambda. Há um risco de se acreditar que refinamentos algorítmicos e ajustes de parâmetros computacionais serão capazes de remediar anomalias que são, fundamentalmente, de arquitetura de mercado.&lt;/p&gt;
-&lt;p&gt;Os sinais de estresse financeiro já são visíveis. &lt;a href="https://www.cnnbrasil.com.br/infra/quebra-de-comercializadoras-de-energia-acumula-rombo-que-passa-r-10-bi/"&gt;Mudanças metodológicas na formação de preços expuseram comercializadoras a descasamentos severos&lt;/a&gt;, transformando o risco regulatório no próprio risco de mercado. Diferentemente do mercado financeiro tradicional, o setor elétrico brasileiro carece de mecanismos robustos de mitigação de risco, por exemplo, não há chamadas de margem diárias &amp;#8211; o alicerce do gerenciamento de risco em mercados futuros, as quais são capazes de limitar prejuízos rapidamente e impedir o efeito dominó; e para os consumidores, não há estrutura análoga ao Fundo Garantidor de Créditos (FGC) para conter o contágio, como adotado pelo mercado britânico após recente crise das comercializadoras. O resultado é um ambiente onde choques de preço convertem-se, com perigosa velocidade, em crises sistêmicas de liquidez.&lt;/p&gt;
-&lt;p&gt;A história econômica nacional demonstra que remendos paramétricos apenas postergam o colapso. O setor elétrico não necessita de uma nova calibração algorítmica, mas de uma refundação de suas bases institucionais.&lt;strong&gt; É urgente migrar para um modelo que desmantele os subsídios cruzados&lt;/strong&gt;, separe de forma transparente os requisitos de adequabilidade do sistema do produto energia em si, precifique adequadamente todos serviços que mantem a confiabilidade da rede, com um sistema de preços aderente à realidade da operação.&lt;/p&gt;
-&lt;p&gt;O setor elétrico vive o seu crepúsculo institucional “pré-Real”. Mitigar essa assimetria exige reconhecer que a solução não emergirá da alteração de índices paramétricos dos modelos de despacho – cujas alterações têm sido feitas em maior frequência que o período pré Plano Real alterava os índices de inflação – mas de um novo pacto de previsibilidade e racionalidade econômica. Quanto antes, melhor, pois atacar o sintoma não cura a doença.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt; * Erik Rego é professor da Escola Politécnica da USP, ex-diretor de Estudos de Energia Elétrica da EPE e especialista em regulação e mercado de energia, com mais de 20 anos de experiência no setor&lt;/em&gt;&lt;/p&gt;
-&lt;div class="disclaimer__ai"&gt;
-    &lt;em&gt;Os artigos publicados pelo &lt;strong&gt;CNN Infra &lt;/strong&gt;buscam estimular o debate, a reflexão e dar luz a visões sobre os principais desafios, problemas e soluções enfrentados pelo Brasil e por outros países do mundo. Os textos publicados neste espaço não refletem, necessariamente, a opinião da CNN Brasil.&lt;/em&gt;
-
-
-&lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Thu, 11 Jun 2026 10:18:15 +0000</pubDate><guid>https://www.cnnbrasil.com.br/infra/a-danca-dos-indices/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/infra/a-danca-dos-indices/</guid></item><item><title>Estreito de Ormuz está “fechado até novo aviso”, diz Irã</title><link>https://www.cnnbrasil.com.br/internacional/estreito-de-ormuz-esta-fechado-ate-novo-aviso-diz-ira/</link><description>&lt;p&gt;Devido aos ataques dos Estados Unidos, o Estreito de Ormuz “ficará fechado até segunda ordem”, informou nesta quinta-feira (11) a nova autoridade do Irã responsável pelo estreito.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;“Devido às tensões criadas pelas forças agressoras dos EUA na região e ao anúncio feito pelas Forças Armadas iranianas na noite passada, o Estreito de Ormuz ficará fechado até segunda ordem”, declarou a &lt;a href="https://www.cnnbrasil.com.br/economia/macroeconomia/eua-incluem-autoridade-do-estreito-do-golfo-persico-em-lista-de-sancoes/"&gt;PGSA (Autoridade do Estreito do Golfo Pérsico)&lt;/a&gt;, criada no mês passado para supervisionar um novo protocolo de trânsito na hidrovia.&lt;/p&gt;
-&lt;p&gt;A autoridade acrescentou que “os requerentes que receberam uma autorização de trânsito devem ter paciência e aguardar novas orientações da PGSA”.&lt;/p&gt;
-&lt;p&gt;Após os EUA lançarem novos ataques contra o Irã na quarta-feira (10), a IRGC (Guarda Revolucionária Islâmica do Irã) afirmou que&lt;a href="https://www.cnnbrasil.com.br/internacional/ira-anuncia-fechamento-do-estreito-de-ormuz-apos-ataques-dos-eua/"&gt; o estreito estará agora “fechado a todas as embarcações”&lt;/a&gt;.&lt;/p&gt;
-&lt;aside class="read-too read-too--with-img"&gt;
-        &lt;ul class="read-too__list"&gt;
-        &lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/internacional/ira-condena-violacao-flagrante-do-cessar-fogo-pelos-eua-e-alerta-regiao/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/1_11337c.png?w=200"
-                    alt="Irã condena “violação flagrante” do cessar-fogo pelos EUA e alerta região"
-                    title="Irã condena “violação flagrante” do cessar-fogo pelos EUA e alerta região'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Irã condena “violação flagrante” do cessar-fogo pelos EUA e alerta região&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/internacional/eua-atingem-navio-com-mercadorias-do-oma-para-o-ira-diz-midia-iraniana/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/03/navios-no-Estreito-Ormuz.webp?w=200"
-                    alt="EUA atingem navio com mercadorias do Omã para o Irã, diz mídia iraniana"
-                    title="EUA atingem navio com mercadorias do Omã para o Irã, diz mídia iraniana'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;EUA atingem navio com mercadorias do Omã para o Irã, diz mídia iraniana&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/internacional/cessar-fogo-no-oriente-medio-e-mais-como-uma-reducao-de-combates-diz-onu/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/01/Antonio-Guterres-na-sede-da-ONU-em-Nova-York.jpg?w=200"
-                    alt="Cessar-fogo no Oriente Médio é mais &amp;quot;uma redução de combates&amp;quot;, diz ONU"
-                    title="Cessar-fogo no Oriente Médio é mais &amp;quot;uma redução de combates&amp;quot;, diz ONU'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Cessar-fogo no Oriente Médio é mais &amp;quot;uma redução de combates&amp;quot;, diz ONU&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;    &lt;/ul&gt;
-&lt;/aside&gt;
-
-&lt;p&gt;O Comando Central dos EUA contestou a alegação iraniana, afirmando que navios comerciais continuam a transitar pelo estreito – o que a Guarda Revolucionária Islâmica negou.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;Teerã havia insistido anteriormente que a hidrovia estava aberta, mas apenas para navios que coordenassem a passagem com as autoridades iranianas. Washington alertou os operadores de navios para não cooperarem com a PGSA (Autoridade Portuária do Irã).&lt;/p&gt;
-&lt;p&gt;A importante hidrovia está bloqueada há meses devido à guerra, com o tráfego visível pelo estreito estimado em apenas 15% dos níveis pré-guerra, segundo o JPMorgan.&lt;/p&gt;
-&lt;h2&gt;&lt;strong&gt;Segunda noite de ataques&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;Os Estados Unidos e o Irã trocaram ataques aéreos nesta quinta-feira, e o presidente Donald Trump &lt;a href="https://www.cnnbrasil.com.br/internacional/trump-diz-que-ira-demorou-para-negociar-e-irao-pagar-o-preco/"&gt;ameaçou com mais ataques caso Teerã não concorde imediatamente com um acordo de paz&lt;/a&gt;, mas fontes iranianas afirmaram que as negociações sobre um acordo preliminar se intensificaram.&lt;/p&gt;
-&lt;p&gt;Três fontes iranianas e um funcionário europeu disseram que os EUA e o Irã estavam trocando mensagens sobre os detalhes de um memorando após chegarem a um entendimento político, mas algumas questões ainda precisavam ser discutidas em detalhes, incluindo um mecanismo para a liberação de bilhões de dólares em fundos iranianos congelados.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;Esta guerra, do ponto de vista militar, é um beco sem saída. Os americanos não conseguiriam atingir seus objetivos atacando o Irã. Houve progresso nas negociações&amp;#8221;, disse uma das fontes iranianas.&lt;/p&gt;
-&lt;p&gt;Trump &lt;a href="https://www.cnnbrasil.com.br/internacional/saiba-quantas-vezes-trump-disse-que-esta-perto-de-acordo-com-o-ira/"&gt;afirmou repetidamente que um acordo está próximo&lt;/a&gt;, mas autoridades americanas não comentaram imediatamente o status atual das negociações indiretas.&lt;/p&gt;
-&lt;p&gt;&lt;strong class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt;Bases americanas sob ataque:&lt;/strong&gt; Na Jordânia , os americanos foram alertados para se abrigarem. A IRGC afirmou ter &amp;#8220;destruído instalações e um grande número de aeronaves de combate&amp;#8221; na &lt;a class="text-red-600 underline hover:text-red-500 font-medium break-words group-[.isActiveSource]:text-xl" href="https://www.cnnbrasil.com.br/internacional/ira-atinge-base-militar-dos-eua-na-jordania-diz-midia-iraniana/" target="_blank" rel="noopener noreferrer" data-textassist="true"&gt;base aérea de Al-Azraq&lt;/a&gt;, segundo a mídia estatal. O Kuwait fechou seu espaço aéreo e as defesas antiaéreas estão engajadas com &amp;#8220;objetos hostis&amp;#8221;, informou a mídia estatal, citando o exército do país. Sirenes soaram no Bahrein , de acordo com o Ministério do Interior do país.&lt;/p&gt;
-&lt;blockquote class="wp-embedded-content" data-secret="VGNi0pGR3N"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/internacional/entenda-por-que-os-eua-nao-conseguem-proteger-o-estreito-de-ormuz/"&gt;Entenda por que os EUA não conseguem proteger o Estreito de Ormuz&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Entenda por que os EUA não conseguem proteger o Estreito de Ormuz&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/internacional/entenda-por-que-os-eua-nao-conseguem-proteger-o-estreito-de-ormuz/embed/#?secret=dBFZAl8jad#?secret=VGNi0pGR3N" data-secret="VGNi0pGR3N" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Thu, 11 Jun 2026 10:12:41 +0000</pubDate><guid>https://www.cnnbrasil.com.br/internacional/estreito-de-ormuz-esta-fechado-ate-novo-aviso-diz-ira/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/internacional/estreito-de-ormuz-esta-fechado-ate-novo-aviso-diz-ira/</guid></item><item><title>Operação Torniquete mira esquema milionário de desmanche no RJ</title><link>https://www.cnnbrasil.com.br/nacional/sudeste/rj/operacao-torniquete-mira-esquema-milionario-de-desmanche-no-rj/</link><description>&lt;p&gt;A Polícia Civil deflagrou, nesta quinta-feira (11), mais uma fase da&lt;strong&gt; Operação Torniquete&lt;/strong&gt; para desarticular uma organização criminosa especializada em &lt;strong&gt;roubo de veículos, desmanche e comercialização de peças&lt;/strong&gt; automotivas de origem ilícita.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;A ação é conduzida por agentes da (Desarme) Delegacia Especializada em Armas, Munições e Explosivos, que cumprem mandados de busca e apreensão nos municípios do Rio de Janeiro e Nova Iguaçu.&lt;/p&gt;
-&lt;p&gt;As investigações, realizadas ao longo de mais de um ano, identificaram uma estrutura criminosa altamente organizada que teria movimentado &lt;strong&gt;mais de R$ 10 milhões no período.&lt;/strong&gt; Segundo a Polícia Civil, o grupo atuava de forma segmentada, dividido em três núcleos principais: roubadores, responsáveis pela subtração dos veículos mediante violência; integrantes encarregados do desmonte e transporte das peças; e receptadores, que financiavam o esquema por meio da compra e revenda dos componentes automotivos.&lt;/p&gt;
-&lt;div style="width: 1916px;" class="wp-video"&gt;&lt;!--[if lt IE 9]&gt;&lt;script&gt;document.createElement('video');&lt;/script&gt;&lt;![endif]--&gt;
-&lt;video class="wp-video-shortcode" id="video-15027529-1" width="1916" height="1080" preload="metadata" controls="controls"&gt;&lt;source type="video/mp4" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/202606110637.mp4?_=1" /&gt;&lt;a href="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/202606110637.mp4"&gt;https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/202606110637.mp4&lt;/a&gt;&lt;/video&gt;&lt;/div&gt;
-&lt;p&gt;De acordo com as apurações, &lt;strong&gt;os veículos roubados eram levados para áreas dominadas por criminosos&lt;/strong&gt;, onde eram desmontados. As peças retiradas eram então transportadas e revendidas para empresários ligados ao setor de ferros-velhos, que posteriormente comercializavam os produtos ao consumidor final.&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel xmlns:atom="http://www.w3.org/2005/Atom"><title>CNN Agro</title><link>https://www.cnnbrasil.com.br/agro/</link><description>Últimos artigos de CNN Agro</description><atom:link href="https://paulofeh.github.io/rss-de-valor/feeds/cnn_agro_feed.xml" rel="self"/><language>pt-br</language><lastBuildDate>Thu, 11 Jun 2026 20:17:03 +0000</lastBuildDate><ttl>60</ttl><item><title>Frente fria avança e vai derrubar temperatura no Sul do Brasil</title><link>https://www.cnnbrasil.com.br/nacional/brasil/frente-fria-avanca-e-vai-derrubar-temperatura-no-sul-do-brasil/</link><description>&lt;p&gt;Uma &lt;strong&gt;nova frente fria avança pelo sul do Brasil&lt;/strong&gt;, a partir desta quinta-feira (11),&lt;strong&gt; baixando as temperaturas para o final de semana&lt;/strong&gt;. A partir de &lt;strong&gt;sábado&lt;/strong&gt; (13), uma &lt;strong&gt;massa polar intensifica o frio. &lt;/strong&gt;&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;Há chance de &lt;strong&gt;geadas&lt;/strong&gt; em áreas &lt;strong&gt;das serras gaúcha e catarinense. &lt;/strong&gt;&lt;/p&gt;
 &lt;aside class="read-too read-too--with-img"&gt;
             &lt;h2 class='read-too__title'&gt;Leia Mais&lt;/h2&gt;
             &lt;ul class="read-too__list"&gt;
         &lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/nacional/sudeste/rj/operacao-na-mare-contra-o-tcp-termina-com-25-presos/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/nacional/brasil/chuva-e-ventos-intensos-de-ate-100-km-h-atingem-diversas-areas-do-brasil/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/Design-sem-nome-7.jpg?w=200"
-                    alt="Operação na Maré contra o TCP termina com 25 presos"
-                    title="Operação na Maré contra o TCP termina com 25 presos'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/INMET-2.png?w=200"
+                    alt="Chuva e ventos intensos de até 100 km/h atingem diversas áreas do Brasil"
+                    title="Chuva e ventos intensos de até 100 km/h atingem diversas áreas do Brasil'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;Operação na Maré contra o TCP termina com 25 presos&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;Chuva e ventos intensos de até 100 km/h atingem diversas áreas do Brasil&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/nacional/sudeste/rj/caminhao-com-camisas-falsas-de-times-cariocas-e-selecao-e-interceptado/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/nacional/sudeste/mg/sul-de-minas-gerais-registra-temperatura-mais-fria-do-dia-no-brasil/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/WhatsApp-Image-2026-06-10-at-15.24.37.jpeg?w=200"
-                    alt="Ônibus com camisas falsas de times cariocas e seleção é interceptado"
-                    title="Ônibus com camisas falsas de times cariocas e seleção é interceptado'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/Geada-Minas-Gerais-.png?w=200"
+                    alt="Sul de Minas Gerais registra temperatura mais fria do dia no Brasil"
+                    title="Sul de Minas Gerais registra temperatura mais fria do dia no Brasil'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;Ônibus com camisas falsas de times cariocas e seleção é interceptado&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;Sul de Minas Gerais registra temperatura mais fria do dia no Brasil&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/nacional/sudeste/rj/justica-revoga-prisao-domiciliar-de-danubia-rangel-no-rio/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/nacional/sul/sc/com-461c-cidade-de-sc-registra-temperatura-mais-fria-do-ano-no-brasil/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/07/Relembre-prisoes-e-reintegracoes-de-Danubia-Rangel-ex-de-Nem-da-Rocinha.jpg?w=200"
-                    alt="Justiça revoga prisão domiciliar de Danúbia Rangel no Rio"
-                    title="Justiça revoga prisão domiciliar de Danúbia Rangel no Rio'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/GEADA-SC.png?w=200"
+                    alt="Com - 4,61°C, cidade de SC registra temperatura mais fria do ano no Brasil"
+                    title="Com - 4,61°C, cidade de SC registra temperatura mais fria do ano no Brasil'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;Justiça revoga prisão domiciliar de Danúbia Rangel no Rio&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;Com - 4,61°C, cidade de SC registra temperatura mais fria do ano no Brasil&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;    &lt;/ul&gt;
 &lt;/aside&gt;
 
-&lt;p&gt;Durante o curso das investigações, os agentes apreenderam um automóvel e um jet ski &lt;a href="https://www.cnnbrasil.com.br/nacional/sudeste/rj/policia-prende-suspeito-de-operar-financas-e-lavar-r-5-milhoes-para-o-tcp/"&gt;&lt;strong&gt;avaliados em mais de R$ 200 mil&lt;/strong&gt; &lt;/a&gt;com um dos investigados. Desde o início da operação, cinco integrantes da organização já foram presos. Entre eles está o apontado como principal responsável pelo corte de veículos para a &lt;a href="https://www.cnnbrasil.com.br/nacional/sudeste/rj/operacao-na-mare-contra-o-tcp-termina-com-25-presos/"&gt;&lt;strong&gt;facção criminosa TCP (Terceiro Comando Puro&lt;/strong&gt;)&lt;/a&gt;, capturado em flagrante enquanto transportava peças retiradas de dois carros recém-desmanchados para revenda em Nova Iguaçu.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;Outro preso é considerado um dos maiores receptadores de peças automotivas roubadas do estado. Além dele, outros três suspeitos de participação em diversos roubos de veículos também permanecem detidos.&lt;/p&gt;
-&lt;p&gt;Nesta etapa da operação, o objetivo é aprofundar as investigações sobre a estrutura financeira e operacional da quadrilha, reunindo novas provas e identificando outros envolvidos na cadeia criminosa. Os policiais buscam ampliar o mapeamento da rede de receptação e responsabilizar todos os participantes do esquema, desde os executores dos roubos até os responsáveis pela comercialização das peças.&lt;/p&gt;
-&lt;p&gt;A ofensiva integra a segunda fase da Operação Torniquete, criada para combater roubos, furtos e receptação de cargas e veículos, crimes que, segundo as autoridades, contribuem para o financiamento de facções criminosas e suas atividades. Desde setembro de 2024, a operação já resultou em mais de 1.050 prisões, além da recuperação de cargas e veículos avaliados em mais de R$ 56 milhões. As ações também ultrapassaram R$ 70 milhões em pedidos de bloqueio de bens e valores.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Thu, 11 Jun 2026 10:12:41 +0000</pubDate><guid>https://www.cnnbrasil.com.br/nacional/sudeste/rj/operacao-torniquete-mira-esquema-milionario-de-desmanche-no-rj/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/nacional/sudeste/rj/operacao-torniquete-mira-esquema-milionario-de-desmanche-no-rj/</guid></item><item><title>Real Time Big Data: Marília e Miguel lideram corrida ao Senado por PE</title><link>https://www.cnnbrasil.com.br/eleicoes/real-time-big-data-marilia-e-miguel-lideram-corrida-ao-senado-por-pe/</link><description>&lt;p&gt;O Instituto &lt;strong&gt;Real Time Big Data&lt;/strong&gt; divulgou nesta quinta-feira (11) um novo levantamento com três cenários sobre a corrida ao &lt;strong&gt;Senado&lt;/strong&gt; por &lt;strong&gt;Pernambuco&lt;/strong&gt;. A ex-deputada federal &lt;strong&gt;Marília Arraes&lt;/strong&gt; (PDT) lidera dois deles e tem empate técnico com &lt;strong&gt;Miguel Coelho&lt;/strong&gt; (União Brasil).&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;No primeiro cenário simulado pelo instituto, Marília lidera com &lt;strong&gt;26%&lt;/strong&gt; das intenções de voto e é seguida pelo senador&lt;strong&gt; Humberto Costa&lt;/strong&gt; (PT), que tem &lt;strong&gt;19%&lt;/strong&gt; pela segunda vaga à Casa Alta. Empatado tecnicamente com Costa, aparece &lt;strong&gt;Mendonça Filho&lt;/strong&gt; (PL), que soma &lt;strong&gt;16%&lt;/strong&gt; e também está empatado pela margem de erro com&lt;strong&gt; Túlio Gadelha&lt;/strong&gt; (PSD) e &lt;strong&gt;Eduardo da Fonte&lt;/strong&gt; (PP), que têm respectivamente &lt;strong&gt;13%&lt;/strong&gt; e &lt;strong&gt;12%&lt;/strong&gt;. &lt;strong&gt;Paulo Rubem&lt;/strong&gt; (Rede) fecha a lista com&lt;strong&gt; 4%&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Aqueles que votariam em&lt;strong&gt; branco ou nulo&lt;/strong&gt; somam&lt;strong&gt; 4%&lt;/strong&gt;, enquanto os &lt;strong&gt;indecisos&lt;/strong&gt;, &lt;strong&gt;6%&lt;/strong&gt;.&lt;/p&gt;
-&lt;div class="flourish-embed flourish-hierarchy" data-src="visualisation/29330439"&gt;&lt;script src="https://public.flourish.studio/resources/embed.js"&gt;&lt;/script&gt;&lt;noscript&gt;&lt;img decoding="async" src="https://public.flourish.studio/visualisation/29330439/thumbnail" width="100%" alt="hierarchy visualization" /&gt;&lt;/noscript&gt;&lt;/div&gt;
-&lt;p&gt;No segundo cenário testado,&lt;strong&gt; Marília&lt;/strong&gt; aparece com &lt;strong&gt;25%&lt;/strong&gt;, numericamente à frente, mas tecnicamente empatada com &lt;strong&gt;Miguel Coelho&lt;/strong&gt; (União Brasil), que soma &lt;strong&gt;21&lt;/strong&gt;%. Na sequência, vêm &lt;strong&gt;Mendonça Filho&lt;/strong&gt;, com &lt;strong&gt;16%&lt;/strong&gt;, &lt;strong&gt;Humberto Costa&lt;/strong&gt;, com &lt;strong&gt;15%&lt;/strong&gt;, e &lt;strong&gt;Tulio Gadelha&lt;/strong&gt;, com &lt;strong&gt;12%,&lt;/strong&gt; todos tecnicamente empatados pela terceira vaga. &lt;strong&gt;Paulo Rubem&lt;/strong&gt; fecha novamente a lista com &lt;strong&gt;4%&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Aqueles que votariam em &lt;strong&gt;branco ou nulo&lt;/strong&gt; somam&lt;strong&gt; 3%&lt;/strong&gt;, enquanto os&lt;strong&gt; indecisos&lt;/strong&gt;, &lt;strong&gt;4%&lt;/strong&gt;.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;div class="flourish-embed flourish-hierarchy" data-src="visualisation/29330469"&gt;&lt;script src="https://public.flourish.studio/resources/embed.js"&gt;&lt;/script&gt;&lt;noscript&gt;&lt;img decoding="async" src="https://public.flourish.studio/visualisation/29330469/thumbnail" width="100%" alt="hierarchy visualization" /&gt;&lt;/noscript&gt;&lt;/div&gt;
-&lt;p&gt;No último cenário simulado, &lt;strong&gt;Marília&lt;/strong&gt; pontua &lt;strong&gt;28%&lt;/strong&gt;, maior vantagem entre os cenários. Em seguida, vêm &lt;strong&gt;Humberto Costa&lt;/strong&gt;, com &lt;strong&gt;19%&lt;/strong&gt;, &lt;strong&gt;Mendonça Filho&lt;/strong&gt;, com &lt;strong&gt;18%&lt;/strong&gt;, e &lt;strong&gt;Tulio Gadelha&lt;/strong&gt;, com &lt;strong&gt;15%&lt;/strong&gt;, todos tecnicamente empatados. &lt;strong&gt;Fernando Dueire&lt;/strong&gt; (PSD), com &lt;strong&gt;5%&lt;/strong&gt;, e&lt;strong&gt; Paulo Rubem&lt;/strong&gt;, com &lt;strong&gt;4%&lt;/strong&gt;, fecham a lista.&lt;/p&gt;
-&lt;p&gt;Os eleitores que votariam em &lt;strong&gt;branco ou nulo&lt;/strong&gt; somam &lt;strong&gt;4%&lt;/strong&gt;, enquanto os &lt;strong&gt;indecisos&lt;/strong&gt;, &lt;strong&gt;7%&lt;/strong&gt;.&lt;/p&gt;
-&lt;div class="flourish-embed flourish-hierarchy" data-src="visualisation/29330484"&gt;&lt;script src="https://public.flourish.studio/resources/embed.js"&gt;&lt;/script&gt;&lt;noscript&gt;&lt;img decoding="async" src="https://public.flourish.studio/visualisation/29330484/thumbnail" width="100%" alt="hierarchy visualization" /&gt;&lt;/noscript&gt;&lt;/div&gt;
-&lt;h3&gt;Metodologia&lt;/h3&gt;
-&lt;p&gt;A &lt;strong class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt;pesquisa Real Time Big Data&lt;/strong&gt; entrevistou &lt;strong class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt;1.600 eleitores&lt;/strong&gt; de Pernambuco, entre os dias&lt;strong class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt; 9 e 10 de junho&lt;/strong&gt;. A margem de erro do levantamento é de &lt;strong class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt;dois pontos percentuais&lt;/strong&gt;, para mais ou para menos, com intervalo de confiança de &lt;strong class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt;95%&lt;/strong&gt;. A pesquisa foi realizada com recursos do próprio instituto e está registrada no &lt;strong&gt;TSE&lt;/strong&gt; (Tribunal Superior Eleitoral) sob o protocolo &lt;strong&gt;PE-09426/2026&lt;/strong&gt;&lt;strong class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt;.&lt;/strong&gt;&lt;/p&gt;
-&lt;h3&gt;Confira a íntegra da pesquisa&lt;/h3&gt;
-&lt;h3&gt;&lt;iframe data-src="https://docs.google.com/viewerng/viewer?url=https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/Pernambuco-PE09426_2026_JUN26_.pdf&amp;amp;embedded=true" frameborder="0"&gt;&lt;span id="mce_marker" data-mce-type="bookmark"&gt;﻿​&lt;/span&gt;&lt;/iframe&gt;&lt;/h3&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Thu, 11 Jun 2026 10:03:54 +0000</pubDate><guid>https://www.cnnbrasil.com.br/eleicoes/real-time-big-data-marilia-e-miguel-lideram-corrida-ao-senado-por-pe/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/eleicoes/real-time-big-data-marilia-e-miguel-lideram-corrida-ao-senado-por-pe/</guid></item><item><title>Big Data: João Campos mantém liderança no 1º e 2 turnos para governo de PE</title><link>https://www.cnnbrasil.com.br/eleicoes/big-data-joao-campos-mantem-lideranca-no-1o-e-2-turnos-para-governo-de-pe/</link><description>&lt;p&gt;O ex-prefeito de Recife, &lt;strong&gt;João Campos&lt;/strong&gt; (PSB), lidera as intenções de voto em primeiro e segundo turno na disputa ao governo de &lt;strong&gt;Pernambuco&lt;/strong&gt;, conforme apontou a pesquisa do Instituto &lt;strong&gt;Real Time Big Data&lt;/strong&gt; divulgada nesta quinta-feira (11).&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;No primeiro turno, Campos aparece com 45% das intenções de voto, seguido pela atual governadora do estado, &lt;strong&gt;Raquel Lyra&lt;/strong&gt; (PSD), com 40%. Em seguida, aparece&lt;br /&gt;
-&lt;strong&gt;Ivan Moraes&lt;/strong&gt; (PSOL) com 3%. O candidato do Missão, &lt;strong&gt;Renan Hallais&lt;/strong&gt;, não pontuou na pesquisa.&lt;/p&gt;
-&lt;p&gt;Do total de entrevistados, 6% declararam votar em branco ou nulo e outros 6% não souberam ou não responderam.&lt;/p&gt;
-&lt;div class="flourish-embed flourish-hierarchy" data-src="visualisation/29330655"&gt;&lt;script src="https://public.flourish.studio/resources/embed.js"&gt;&lt;/script&gt;&lt;noscript&gt;&lt;img decoding="async" src="https://public.flourish.studio/visualisation/29330655/thumbnail" width="100%" alt="hierarchy visualization" /&gt;&lt;/noscript&gt;&lt;/div&gt;
-&lt;aside class="read-too read-too--with-img"&gt;
-            &lt;h2 class='read-too__title'&gt;Leia Mais&lt;/h2&gt;
-            &lt;ul class="read-too__list"&gt;
-        &lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/eleicoes/quaest-paes-lidera-1o-turno-ao-governo-do-rj-e-vence-ruas-em-2o-turno/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/04/eduardo-paes-e-douglas-ruas.png?w=200"
-                    alt="Quaest: Paes lidera 1º turno ao governo do RJ e vence Ruas em 2º turno"
-                    title="Quaest: Paes lidera 1º turno ao governo do RJ e vence Ruas em 2º turno'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Quaest: Paes lidera 1º turno ao governo do RJ e vence Ruas em 2º turno&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/eleicoes/parana-pesquisas-eduardo-paes-lidera-todos-os-cenarios-ao-governo-do-rj/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/02/TN220250104004-e1748874970855.jpg?w=200"
-                    alt="Paraná Pesquisas: Eduardo Paes lidera todos os cenários ao governo do RJ"
-                    title="Paraná Pesquisas: Eduardo Paes lidera todos os cenários ao governo do RJ'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Paraná Pesquisas: Eduardo Paes lidera todos os cenários ao governo do RJ&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/eleicoes/real-time-flavio-e-rejeitado-por-50-dos-eleitores-de-pe-lula-por-32/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/02/Flavio-e-Lula.png?w=200"
-                    alt="Real Time: Flávio é rejeitado por 50% dos eleitores de PE; Lula, por 32%"
-                    title="Real Time: Flávio é rejeitado por 50% dos eleitores de PE; Lula, por 32%'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Real Time: Flávio é rejeitado por 50% dos eleitores de PE; Lula, por 32%&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;    &lt;/ul&gt;
-&lt;/aside&gt;
-
-&lt;h2&gt;Segundo turno&lt;/h2&gt;
-&lt;p&gt;No único cenário de segundo turno simulado, entre João Campos e Raquel Lyra, o ex-prefeito lidera com 46%, enquanto a atual governadora tem 41%.&lt;/p&gt;
-&lt;p&gt;Dentre os entrevistados, 6% votariam em branco ou nulo, enquanto 7% não souberam ou não responderam.&lt;/p&gt;
-&lt;div class="flourish-embed flourish-hierarchy" data-src="visualisation/29330680"&gt;&lt;script src="https://public.flourish.studio/resources/embed.js"&gt;&lt;/script&gt;&lt;noscript&gt;&lt;img decoding="async" src="https://public.flourish.studio/visualisation/29330680/thumbnail" width="100%" alt="hierarchy visualization" /&gt;&lt;/noscript&gt;&lt;/div&gt;
-&lt;h2&gt;Metodologia&lt;/h2&gt;
-&lt;p&gt;O Instituto Real Time Big Data ouviu 1.600 pessoas entre os dias 9 e 10 de junho. A margem de erro é de dois pontos percentuais, para mais ou para menos, com intervalo de confiança de 95%.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;A pesquisa está cadastrada no TSE (Tribunal Superior Eleitoral) sob o protocolo PE-09426/2026.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;*Sob supervisão de João Ker&lt;/em&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Thu, 11 Jun 2026 10:02:31 +0000</pubDate><guid>https://www.cnnbrasil.com.br/eleicoes/big-data-joao-campos-mantem-lideranca-no-1o-e-2-turnos-para-governo-de-pe/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/eleicoes/big-data-joao-campos-mantem-lideranca-no-1o-e-2-turnos-para-governo-de-pe/</guid></item><item><title>Linha 4-Amarela terá sinal de internet em cinco estações até o fim do ano</title><link>https://www.cnnbrasil.com.br/infra/linha-4-amarela-tera-sinal-de-internet-em-cinco-estacoes-ate-o-fim-do-ano/</link><description>&lt;p&gt;A Linha 4-Amarela do Metrô de São Paulo &lt;strong&gt;passará a contar com cobertura móvel 4G e 5G ao longo de todas as estações e túneis da via&lt;/strong&gt;, segundo anunciou Plataforma de Trilhos da Motiva, que administra a linha, nesta quarta-feira (10).&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;Segundo a empresa, os trabalhos para implementação da tecnologia começa em julho.  Ainda este ano, a infraestrutura estará disponível em cinco estações: sendo Vila Sônia &amp;#8211; Profª Elisabeth Tenreiro, São Paulo-Morumbi, Butantã, Pinheiros e Faria Lima-Pagbank.&lt;/p&gt;
-&lt;p&gt;A previsão é de que o projeto de modernização e ampliação da conectividade na Linha 4-Amarela seja entregue ao longo do segundo semestre de 2027.&lt;/p&gt;
-&lt;aside class="read-too read-too--with-img"&gt;
-            &lt;h2 class='read-too__title'&gt;Leia Mais&lt;/h2&gt;
-            &lt;ul class="read-too__list"&gt;
-        &lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/infra/aeroportos-devem-se-transformar-em-cidades-aeroportuarias-diz-motiva/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/ChatGPT-Image-27-de-mai.-de-2026-11_40_25.png?w=200"
-                    alt="Aeroportos devem se transformar em “cidades aeroportuárias”, diz Motiva"
-                    title="Aeroportos devem se transformar em “cidades aeroportuárias”, diz Motiva'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Aeroportos devem se transformar em “cidades aeroportuárias”, diz Motiva&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/infra/aneel-homologa-leilao-de-capacidade-apesar-de-pressao-da-justica-do-ceara/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/UTE-Termomacae-RJ-da-Petrobras.jpeg?w=200"
-                    alt="Aneel homologa Leilão de capacidade, apesar de pressão da justiça do Ceará"
-                    title="Aneel homologa Leilão de capacidade, apesar de pressão da justiça do Ceará'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Aneel homologa Leilão de capacidade, apesar de pressão da justiça do Ceará&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/infra/rodovias-concedidas-tem-queda-de-1-na-movimentacao-em-maio-aponta-abcr/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/02/WhatsApp-Image-2026-02-09-at-13.22.12.jpeg?w=200"
-                    alt="Rodovias concedidas tem queda de 1% na movimentação em maio, aponta ABCR"
-                    title="Rodovias concedidas tem queda de 1% na movimentação em maio, aponta ABCR'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Rodovias concedidas tem queda de 1% na movimentação em maio, aponta ABCR&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;    &lt;/ul&gt;
-&lt;/aside&gt;
-
-&lt;p&gt;Para realização do serviço, a Motiva firmou parceria com a V.tal, empresa atuante no ramo da infraestrutura digital.&lt;/p&gt;
-&lt;p&gt;Até o momento, já existem equipamentos instalados que ampliam a conectividade para os passageiros, o que contribui para reduzir as chamadas &amp;#8220;áreas de sombra&amp;#8221;, ou seja, locais com barreiras físicas, como estações subterrâneas e túneis, que dificultam a propagação do sinal.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;Entretanto, apesar da ajuda, o sistema ainda enfrenta limitações diante do crescimento da demanda por conexão simultânea.&lt;/p&gt;
-&lt;p&gt;Para o diretor-executivo da Linha 4-Amarela, Antonio Marcio Barros Silva, a  melhoria da conectividade atende a uma demanda já recorrente dos clientes e &amp;#8220;representa um avanço importante na experiência de viagem&amp;#8221;.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;Nosso objetivo é garantir que os passageiros possam permanecer conectados durante todo o trajeto, com mais conforto e conveniência”, afirmou.&lt;/p&gt;
-&lt;p&gt;A solução técnica é robusta e evita a duplicidade de investimentos, reduzindo os custos operacionais, além de acelerar a oferta de conectividade aos clientes.&lt;/p&gt;
-&lt;p&gt;Ao todo, 223 antenas serão distribuídas pelas 11 estações da Linha 4, além de 40 unidades remotas de transmissão, conectadas por meio de 20 km de fibra óptica e mais 40 km de cabos híbridos, capazes de transmitir energia e dados de forma simultânea.&lt;/p&gt;
-&lt;p&gt;Além de ampliar a cobertura 4G, o projeto trará o 5G pela primeira vez na linha, o que eleva a capacidade de transmissão de dados e prepara a infraestrutura para demandas futuras.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Thu, 11 Jun 2026 10:00:58 +0000</pubDate><guid>https://www.cnnbrasil.com.br/infra/linha-4-amarela-tera-sinal-de-internet-em-cinco-estacoes-ate-o-fim-do-ano/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/infra/linha-4-amarela-tera-sinal-de-internet-em-cinco-estacoes-ate-o-fim-do-ano/</guid></item><item><title>O papel do licenciamento ambiental na infraestrutura brasileira</title><link>https://www.cnnbrasil.com.br/infra/o-papel-do-licenciamento-ambiental-na-infraestrutura-brasileira/</link><description>&lt;p&gt;&lt;span data-contrast="auto"&gt;O Brasil vive atualmente um momento de expansão dos investimentos em infraestrutura, impulsionado pela maior participação da iniciativa privada, pela diversificação dos mecanismos de financiamento e pela retomada de programas públicos de investimento. Nesse panorama, o licenciamento ambiental assume papel estratégico na viabilização de empreendimentos, especialmente diante da necessidade de assegurar segurança jurídica, previsibilidade e equilíbrio entre desenvolvimento econômico e proteção socioambiental.&lt;/span&gt;&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;&lt;span data-contrast="auto"&gt;Somado a isso, destaca-se o relançamento do Programa de Aceleração do Crescimento (Novo PAC), ocorrido em 2023, com o objetivo de fomentar obras e projetos estruturantes em diferentes setores da economia nacional. De acordo com o balanço divulgado pelo governo federal em 2025, até agosto do último ano já haviam sido executados R$ 944,8 bilhões, o equivalente a 70,8% do R$ 1,3 trilhão previsto para aplicação entre 2023 e 2026.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span data-contrast="auto"&gt;Na mesma linha, o Livro Azul da Infraestrutura – edição 2025, divulgado pela Associação Brasileira da Infraestrutura e Indústrias de Base (Abdib) em novembro de 2025, aponta que os investimentos em infraestrutura no país alcançaram aproximadamente R$ 280 bilhões em 2025, dos quais cerca de 83% tiveram origem na iniciativa privada.&lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;335551550&amp;quot;:6,&amp;quot;335551620&amp;quot;:6,&amp;quot;335559738&amp;quot;:240,&amp;quot;335559739&amp;quot;:240}"&gt; &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span data-contrast="auto"&gt;A publicação projeta, ainda, que o volume de investimentos poderá atingir R$ 300 bilhões em 2026, abrangendo setores estratégicos como rodovias, ferrovias, portos, aeroportos, saneamento básico, energia, telecomunicações e mobilidade urbana.&lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;335551550&amp;quot;:6,&amp;quot;335551620&amp;quot;:6,&amp;quot;335559738&amp;quot;:240,&amp;quot;335559739&amp;quot;:240}"&gt; &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span data-contrast="auto"&gt;O licenciamento ambiental impacta fundamentalmente o cronograma de implantação e operação de grandes projetos de infraestrutura, em função da necessidade de obtenção de licenças ambientais, geralmente estruturadas em modelo trifásico, ou seja: uma licença prévia para atestar a viabilidade socioambiental do empreendimento; uma licença de instalação, que autoriza o início das obras; e uma licença de operação, que autoriza o início do funcionamento do empreendimento. &lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;335551550&amp;quot;:6,&amp;quot;335551620&amp;quot;:6,&amp;quot;335559739&amp;quot;:200}"&gt; &lt;/span&gt;&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;&lt;span data-contrast="auto"&gt;Para cada etapa do licenciamento, o órgão ambiental responsável tem prazos específicos para análise, que são frequentemente descumpridos, seja pela falta de equipe técnica, seja pelo extenso debate necessário para essa viabilização, gerando grandes impactos econômicos. &lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;335551550&amp;quot;:6,&amp;quot;335551620&amp;quot;:6,&amp;quot;335559739&amp;quot;:200}"&gt; &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span data-contrast="auto"&gt;A aprovação dos grandes projetos de infraestrutura decorre de um extenso diálogo entre o órgão ambiental e o empreendedor e a consultoria ambiental. É necessário entregar estudos tecnicamente bem elaborados, que atendam de forma integral ao Termo de Referência (TR), documento que define o conteúdo mínimo a ser estudado e apresentado pelo empreendedor para conseguir a licença ambiental, e que consigam dar segurança técnica ao analista que irá emitir a licença. &lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;335551550&amp;quot;:6,&amp;quot;335551620&amp;quot;:6,&amp;quot;335559739&amp;quot;:200}"&gt; &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span data-contrast="auto"&gt;Uma boa prática é a utilização de modelagens a partir de dados geoespaciais para propiciar alternativas locacionais menos impactantes, bem como análises objetivas de área de influência de impactos, baseada em resultados estatísticos confiáveis. Além disso, alternativas tecnológicas são importantes também, tais como a adoção de processos com menor emissão de efluentes, recirculação de água em processos industriais, bem como utilização de drones, por exemplo, no processo construtivo para evitar supressão da vegetação para algumas tipologias de empreendimento, tais no lançamento de cabos de linhas de transmissão e distribuição.&lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;335551550&amp;quot;:6,&amp;quot;335551620&amp;quot;:6,&amp;quot;335559739&amp;quot;:200}"&gt; &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span data-contrast="auto"&gt;Estudos bem elaborados avaliam de forma objetiva e técnica os impactos potenciais do planejamento, implantação e operação de grandes projetos de infraestrutura, que devem ser mitigados e compensados por meio dos planos e programas socioambientais. As condicionantes impostas no licenciamento ambiental podem ajudar a calibrar estas medidas de mitigação e compensação e manter o rigor em seu cumprimento, sendo fundamentais para a prevenção da ocorrência dos impactos.&lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;335551550&amp;quot;:6,&amp;quot;335551620&amp;quot;:6,&amp;quot;335559739&amp;quot;:200}"&gt; &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span data-contrast="auto"&gt;O cumprimento adequado do licenciamento ambiental contribui desde a liberação das licenças, uma vez que certamente haverá menos questionamentos por parte do órgão ambiental sobre os estudos apresentados, bem como para a agilização da execução de obras, uma vez que evita a ocorrência de multas e embargos. &lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;335551550&amp;quot;:6,&amp;quot;335551620&amp;quot;:6,&amp;quot;335559739&amp;quot;:200}"&gt; &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span data-contrast="auto"&gt;Um ponto importante neste aspecto, trazido pela nova Lei Geral do Licenciamento Ambiental (Lei nº 15.190/2025), em vigor desde 04 de fevereiro de 2026, é que ela estabelece, em seu artigo 15º, condições para que as análises sejam priorizadas e os prazos de renovação de licenças de operação, instalação/operação e licença ambiental única (LAU) sejam dilatados.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span data-contrast="auto"&gt;Dentre estas condições, destacam-se o investimento em novas tecnologias e programas voluntários de gestão que ultrapassem o mero compliance ambiental. Empresas que internalizam inovações e métricas ESG robustas não apenas mitigam impactos, mas são recompensadas com um fast-track no licenciamento e fortalecem sua licença social para operar.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span data-contrast="auto"&gt;É exatamente essa postura proativa que responde à crescente complexidade do &lt;/span&gt;&lt;i&gt;&lt;span data-contrast="auto"&gt;pipeline&lt;/span&gt;&lt;/i&gt;&lt;span data-contrast="auto"&gt; de infraestrutura no Brasil. O licenciamento ambiental moderno deixa de ser um gargalo burocrático para atuar como a principal alavanca de mitigação estratégica de riscos dos projetos. Ao alinhar segurança jurídica, adoção tecnológica e viabilidade socioambiental, garante-se o &lt;/span&gt;&lt;i&gt;&lt;span data-contrast="auto"&gt;time-to-market&lt;/span&gt;&lt;/i&gt;&lt;span data-contrast="auto"&gt; dos empreendimentos, transformando a conformidade regulatória em diferencial competitivo para atrair o capital privado e impulsionar o desenvolvimento do país.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;span class="NormalTextRun SCXW18174879 BCX0"&gt;* Felipe &lt;/span&gt;&lt;span class="NormalTextRun SpellingErrorV2Themed SCXW18174879 BCX0"&gt;Lavorato e&lt;/span&gt;&lt;span class="NormalTextRun SCXW18174879 BCX0"&gt; Michael Goulart&lt;/span&gt;&lt;span class="NormalTextRun SCXW18174879 BCX0"&gt;, fundador e presidente, e vice-presidente, respectivamente, da &lt;/span&gt;&lt;span class="NormalTextRun SpellingErrorV2Themed SCXW18174879 BCX0"&gt;Ambientare&lt;/span&gt;&lt;span class="NormalTextRun SCXW18174879 BCX0"&gt; – Soluções em Meio Ambiente&lt;/span&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;div class="disclaimer__ai"&gt;
-    &lt;em&gt;Os artigos publicados pelo &lt;strong&gt;CNN Infra &lt;/strong&gt;buscam estimular o debate, a reflexão e dar luz a visões sobre os principais desafios, problemas e soluções enfrentados pelo Brasil e por outros países do mundo. Os textos publicados neste espaço não refletem, necessariamente, a opinião da CNN Brasil.&lt;/em&gt;
-
-
-&lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Thu, 11 Jun 2026 10:00:50 +0000</pubDate><guid>https://www.cnnbrasil.com.br/infra/o-papel-do-licenciamento-ambiental-na-infraestrutura-brasileira/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/infra/o-papel-do-licenciamento-ambiental-na-infraestrutura-brasileira/</guid></item><item><title>Copa do Mundo: Grupo A tem encontro de feridas abertas e “fantasmas”</title><link>https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/copa-do-mundo-grupo-a-tem-encontro-de-feridas-abertas-e-fantasmas/</link><description>&lt;p&gt;&lt;strong&gt;O Grupo A&lt;/strong&gt;, composto por &lt;strong&gt;México, África do Sul, Coreia do Sul e República Tcheca&lt;/strong&gt;, é o responsável por &lt;strong&gt;dar o passo inicial à Copa do Mundo de 2026&lt;/strong&gt;, nesta quinta-feira (11). Mas além da pluralidade de culturas, &lt;strong&gt;a chave carrega um encontro de feridas abertas e &amp;#8220;fantasmas&amp;#8221; em Mundiais. &lt;/strong&gt;&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;As quatro seleções&lt;/strong&gt; têm motivos suficientes para &lt;strong&gt;levarem à competição alguns traumas de &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/jogos-datas-e-horarios-veja-o-guia-completo-da-copa-do-mundo-de-2026/" target="_blank" rel="noopener"&gt;Copas&lt;/a&gt; anteriores na bagagem&lt;/strong&gt;, que tentam ser quebrados com a nova oportunidade.&lt;/p&gt;
-&lt;h2&gt;Os maiores traumas do Grupo A da Copa do Mundo 2026&lt;/h2&gt;
-&lt;h3&gt;México e a pressão do mata-mata&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;O México&lt;/strong&gt;, um dos anfitriões da Copa, &lt;strong&gt;&lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/mexico-estreia-na-copa-do-mundo-contra-a-africa-do-sul-sob-pressao/" target="_blank" rel="noopener"&gt;trazem na mala o peso de jogarem diante do próprio povo&lt;/a&gt;.&lt;/strong&gt; O que pode ser determinante para um bom desempenho, pode também &lt;strong&gt;aumentar a pressão&lt;/strong&gt; em um time que ainda mistura jovens e veteranos.&lt;/p&gt;
-&lt;p&gt;Mas além disso, os jogadores carregam a sina das oitavas de final. &lt;strong&gt;A seleção traz o trauma de ter sido eliminada em sete edições consecutivas justamente nessa fase da competição&lt;/strong&gt;, entre 1994 e 2018.&lt;/p&gt;
-&lt;p&gt;O que já era ruim, se agravou ainda mais em 2022, q&lt;strong&gt;uando os mexicanos foram eliminados ainda na fase de grupos da Copa,&lt;/strong&gt; em um grupo com &lt;strong&gt;Argentina, Arábia Saudita e Polônia.&lt;/strong&gt;&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;aside class="read-too read-too--with-img"&gt;
-            &lt;h2 class='read-too__title'&gt;Leia Mais&lt;/h2&gt;
-            &lt;ul class="read-too__list"&gt;
-        &lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/mexico-x-africa-do-sul-horario-e-onde-assistir-a-abertura-da-copa-do-mundo/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/mexicoafricadosulcnncopaondeassistir.png?w=200"
-                    alt="México x África do Sul: horário e onde assistir à abertura da Copa do Mundo"
-                    title="México x África do Sul: horário e onde assistir à abertura da Copa do Mundo'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;México x África do Sul: horário e onde assistir à abertura da Copa do Mundo&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/cerimonia-de-abertura-da-copa-do-mundo-2026-veja-horario-e-onde-assistir/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/estadio-azteca-copa-e1779901619128.jpg?w=200"
-                    alt="Cerimônia de abertura da Copa do Mundo 2026: veja horário e onde assistir"
-                    title="Cerimônia de abertura da Copa do Mundo 2026: veja horário e onde assistir'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Cerimônia de abertura da Copa do Mundo 2026: veja horário e onde assistir&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/copa-do-mundo-veja-lista-dos-maiores-artilheiros-da-historia-do-torneio/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2022/11/GettyImages-102457004-e1781110558646.jpg?w=200"
-                    alt="Copa do Mundo: veja lista dos maiores artilheiros da história do torneio"
-                    title="Copa do Mundo: veja lista dos maiores artilheiros da história do torneio'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Copa do Mundo: veja lista dos maiores artilheiros da história do torneio&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;    &lt;/ul&gt;
-&lt;/aside&gt;
-
-&lt;p&gt;No entanto, &lt;strong&gt;o México aposta no fator casa para 2026&lt;/strong&gt;, já que as &lt;strong&gt;melhores campanhas mexicanas foram jogando sob seus domínios nos Mundiais de 1970 e 1986&lt;/strong&gt;, quando a seleção &lt;strong&gt;alcançou as quartas de final. &lt;/strong&gt;&lt;/p&gt;
-&lt;h3&gt;África do Sul e o trauma dos grupos&lt;/h3&gt;
-&lt;p&gt;A &lt;strong&gt;África do Sul volta à Copa do Mundo após 16 anos de distância.&lt;/strong&gt; A última participação foi em 2010, quando sediou a competição. No entanto, a &lt;strong&gt;seleção africana carrega o trauma de nunca ter se classificado para as fases de mata-mata&lt;/strong&gt;, ou seja, jamais ter passado da &lt;strong&gt;fase de grupos.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Até hoje, os &lt;strong&gt;&amp;#8220;Bafana-Bafana&amp;#8221;&lt;/strong&gt;, &lt;strong&gt;como são conhecidos&lt;/strong&gt;, &lt;strong&gt;participaram de três edições e foram eliminados na primeira etapa em todas&lt;/strong&gt;. Da última vez, em 2010, estavam em um grupo com&lt;strong&gt; México, Uruguai e França.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Eles chegaram a vencer a seleção francesa na última rodada, mas foram desclassificados pelo &lt;strong&gt;saldo de gols&lt;/strong&gt;, empatados em números de pontos (4) com os mexicanos. &lt;strong&gt;Agora, vão buscar dar o troco nos anfitriões da Copa na estreia desta quinta-feira (11).  &lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/mexico-x-africa-do-sul-horario-e-onde-assistir-a-abertura-da-copa-do-mundo/" target="_blank" rel="noopener"&gt;&lt;strong&gt;México x África do Sul: horário e onde assistir à abertura da Copa do Mundo&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;Coreia do Sul e o quase de 2002&lt;/h3&gt;
-&lt;p&gt;A Coreia do Sul, &lt;strong&gt;embora tenha ostentado a marca de chegar a 11 Copas do Mundo consecutivas&lt;/strong&gt;, ainda vive o &lt;strong&gt;trauma do &amp;#8220;quase&amp;#8221; de 2002. &lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Em casa, &lt;strong&gt;os coreanos chegaram até a semifinais&lt;/strong&gt; da competição, &lt;strong&gt;mas encontraram a forte seleção da Alemanha&lt;/strong&gt;, que perderia para &lt;strong&gt;Ronaldo Fenômeno e companhia na final.&lt;/strong&gt; Na ocasião, a C&lt;strong&gt;oreia do Sul fez sua melhor campanha da história&lt;/strong&gt;, quando ficou em 4º lugar, desbancando seleções clássicas como &lt;strong&gt;Itália e Espanha&lt;/strong&gt; ao longo da competição.&lt;/p&gt;
-&lt;p&gt;Na última Copa,&lt;strong&gt; a seleção coreana chegou às oitavas de final,&lt;/strong&gt; &lt;strong&gt;mas foi goleada pelo Brasil.&lt;/strong&gt; Agora, a seleção tenta repetir ou superar os feitos da &lt;strong&gt;geração de 2002&lt;/strong&gt;, mas ainda em busca de ressignificar os últimos &amp;#8220;quases&amp;#8221;. E quem carrega a missão é o atacante &lt;strong&gt;Heung-min Son&lt;/strong&gt;, que pode se tornar mais ainda um &lt;strong&gt;herói nacional. &lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/son-diz-nao-se-preocupar-com-seca-de-gols-estou-guardando-para-a-copa/" target="_blank" rel="noopener"&gt;&lt;strong&gt;Son diz não se preocupar com seca de gols: &amp;#8220;Estou guardando para a Copa&amp;#8221;&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;República Tcheca e a &amp;#8220;geração de ouro&amp;#8221;&lt;/h3&gt;
-&lt;p&gt;Depois de 20 anos longe das Copas, &lt;strong&gt;a República Tcheca está de volta à competição&lt;/strong&gt;, mas ainda carrega alguns traumas. &lt;strong&gt;A última participação da seleção foi em 2006,&lt;/strong&gt; quando foi &lt;strong&gt;eliminada na fase de grupos&lt;/strong&gt; ao dividir a chave com &lt;strong&gt;Estados Unidos, Gana e Itália. &lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;O país herdou dois&lt;strong&gt; vices-campeonatos da antiga Tchecoslováquia&lt;/strong&gt;, em 1934 e 1962, &lt;strong&gt;mas até hoje não chegou perto de superar a conhecida &amp;#8220;geração de ouro&amp;#8221;. &lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Em um grupo aberto&lt;/strong&gt; como o de agora &lt;strong&gt;e com&lt;/strong&gt; outros &lt;strong&gt;adversários que carregam feridas abertas e &amp;#8220;fantasmas&amp;#8221; de Copa&lt;/strong&gt;, a República Tcheca &lt;strong&gt;busca quebrar barreiras e superar traumas antigos. &lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cnnbrasil.com.br/esportes/apostas/palpites/coreia-do-sul-x-republica-tcheca-onde-assistir-e-escalacoes/" target="_blank" rel="noopener"&gt;&lt;strong&gt;Coreia do Sul x República Tcheca: onde assistir e escalações&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;As equipes do Grupo A estreiam na Copa do Mundo de 2026 nesta quinta-feira (11)&lt;/strong&gt;. O primeiro jogo acontece entre &lt;strong&gt;México e África do Sul,&lt;/strong&gt; às 16h do horário de Brasília, &lt;strong&gt;no Estádio Azteca&lt;/strong&gt;, na Cidade do México. Já &lt;strong&gt;Coreia do Sul e República Tcheca&lt;/strong&gt; se enfrentam às 23h do horário de Brasília, &lt;strong&gt;no Estádio de Guadalajara&lt;/strong&gt;, também no México.&lt;/p&gt;
-&lt;blockquote class="wp-embedded-content" data-secret="l515lh8FnA"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/esportes/como-funciona-o-formato-da-copa-do-mundo-de-2026-grupos-fases-e-mudancas/"&gt;Como funciona o formato da Copa do Mundo de 2026: grupos, fases e mudanças&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Como funciona o formato da Copa do Mundo de 2026: grupos, fases e mudanças&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/esportes/como-funciona-o-formato-da-copa-do-mundo-de-2026-grupos-fases-e-mudancas/embed/#?secret=wGCkBdUawU#?secret=l515lh8FnA" data-secret="l515lh8FnA" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Thu, 11 Jun 2026 10:00:40 +0000</pubDate><guid>https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/copa-do-mundo-grupo-a-tem-encontro-de-feridas-abertas-e-fantasmas/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/copa-do-mundo-grupo-a-tem-encontro-de-feridas-abertas-e-fantasmas/</guid></item><item><title>Real Time Big Data: Lula lidera todos os cenários de intenção de voto em PE</title><link>https://www.cnnbrasil.com.br/eleicoes/real-time-big-data-lula-lidera-todos-os-cenarios-de-intencao-de-voto-em-pe/</link><description>&lt;p&gt;O presidente &lt;strong&gt;Luiz Inácio Lula da Silva&lt;/strong&gt; (PT) lidera todos os cenários de intenção de voto em &lt;strong&gt;Pernambuco&lt;/strong&gt;, segundo pesquisa &lt;strong&gt;Real Time Big Data&lt;/strong&gt; divulgada nesta quinta-feira (11).&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;No primeiro turno, Lula venceria com 57% dos votos, seguido de &lt;strong&gt;Flávio Bolsonaro&lt;/strong&gt;, que aparece com 22% no levantamento. O ex-governador de Goiás &lt;strong&gt;Ronaldo Caiado&lt;/strong&gt; (PSD) e &lt;strong&gt;Renan Santos&lt;/strong&gt; (Missão) aparecem empatados com 4% cada.&lt;/p&gt;
-&lt;p&gt;Na sequência, aparecem o ex-senador &lt;strong&gt;Aécio Neves&lt;/strong&gt; (PSDB), o ex-governador de Minas Gerais &lt;strong&gt;Romeu Zema&lt;/strong&gt; (Novo) e o ex-ministro do STF &lt;strong&gt;Joaquim Barbosa&lt;/strong&gt; (DC) &lt;a href="https://www.cnnbrasil.com.br/eleicoes/real-time-lula-lidera-com-56-e-flavio-aparece-com-25-no-1o-turno-em-pe/" target="_blank" rel="noopener" data-textassist="true"&gt;empatados com 2% dos votos&lt;/a&gt; cada. &lt;strong&gt;Augusto Cury&lt;/strong&gt; (Avante) e &lt;strong&gt;Cabo Daciolo&lt;/strong&gt; (Mobiliza) empataram com 1% dos votos.&lt;/p&gt;
-&lt;aside class="read-too read-too--with-img"&gt;
-            &lt;h2 class='read-too__title'&gt;Leia Mais&lt;/h2&gt;
-            &lt;ul class="read-too__list"&gt;
-        &lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/eleicoes/real-time-big-data-lula-vence-em-todos-os-cenarios-a-presidencia-em-se/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/04/WhatsApp-Image-2026-04-18-at-13.43.30.jpeg?w=200"
-                    alt="Real Time Big Data: Lula vence em todos os cenários à Presidência em SE"
-                    title="Real Time Big Data: Lula vence em todos os cenários à Presidência em SE'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Real Time Big Data: Lula vence em todos os cenários à Presidência em SE&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/eleicoes/real-time-big-data-lula-lidera-cenarios-de-primeiro-e-segundo-turno-no-ce/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/55279052678_2bc2e1efe0_o.jpg?w=200"
-                    alt="Real Time Big Data: Lula lidera cenários de primeiro e segundo turno no CE"
-                    title="Real Time Big Data: Lula lidera cenários de primeiro e segundo turno no CE'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Real Time Big Data: Lula lidera cenários de primeiro e segundo turno no CE&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/eleicoes/real-time-big-data-lula-lidera-cenarios-de-1o-turno-no-para/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/01/0d7a6178_0-e1769700347848.jpg?w=200"
-                    alt="Real Time Big Data: Lula lidera cenários de 1º turno no Pará"
-                    title="Real Time Big Data: Lula lidera cenários de 1º turno no Pará'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Real Time Big Data: Lula lidera cenários de 1º turno no Pará&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;    &lt;/ul&gt;
-&lt;/aside&gt;
-
-&lt;p&gt;O total de &lt;a href="https://www.cnnbrasil.com.br/eleicoes/verita-lula-tem-433-contra-309-de-flavio-no-1o-turno-em-pernambuco/" target="_blank" rel="noopener" data-textassist="true"&gt;votos brancos e nulos&lt;/a&gt; é de 2%, mesma porcentagem dos que não souberam ou não quiseram responder.&lt;/p&gt;
-&lt;div class="flourish-embed flourish-hierarchy" data-src="visualisation/29331060"&gt;&lt;script src="https://public.flourish.studio/resources/embed.js"&gt;&lt;/script&gt;&lt;noscript&gt;&lt;img decoding="async" src="https://public.flourish.studio/visualisation/29331060/thumbnail" width="100%" alt="hierarchy visualization"&gt;&lt;/noscript&gt;&lt;/div&gt;
-&lt;p&gt;Em um &lt;a href="https://www.cnnbrasil.com.br/eleicoes/real-time-em-pe-lula-tem-59-e-flavio-32-no-2o-turno/" target="_blank" rel="noopener" data-textassist="true"&gt;eventual segundo turno&lt;/a&gt;, Lula aparece com 60% das intenções de voto, contra 34% de Flávio Bolsonaro. Brancos e nulos somam 3%, mesmo percentual dos indecisos.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;div class="flourish-embed flourish-hierarchy" data-src="visualisation/29331105"&gt;&lt;script src="https://public.flourish.studio/resources/embed.js"&gt;&lt;/script&gt;&lt;noscript&gt;&lt;img decoding="async" src="https://public.flourish.studio/visualisation/29331105/thumbnail" width="100%" alt="hierarchy visualization"&gt;&lt;/noscript&gt;&lt;/div&gt;
-&lt;h2&gt;Metodologia&lt;/h2&gt;
-&lt;p&gt;A Real Time Big Data entrevistou 1.600 pessoas em Sergipe entre os dias 9 a 10 de junho. A margem de erro é de dois pontos percentuais, para mais ou para menos, com nível de confiança de 95%.&lt;/p&gt;
-&lt;p&gt;A pesquisa está registrada no &lt;strong&gt;TSE (Tribunal Superior Eleitoral)&lt;/strong&gt; sob o protocolo BR-02795/2026.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;*Sob supervisão de João Ker&lt;/em&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Thu, 11 Jun 2026 10:00:27 +0000</pubDate><guid>https://www.cnnbrasil.com.br/eleicoes/real-time-big-data-lula-lidera-todos-os-cenarios-de-intencao-de-voto-em-pe/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/eleicoes/real-time-big-data-lula-lidera-todos-os-cenarios-de-intencao-de-voto-em-pe/</guid></item><item><title>Irã condena “violação flagrante” do cessar-fogo pelos EUA e alerta região</title><link>https://www.cnnbrasil.com.br/internacional/ira-condena-violacao-flagrante-do-cessar-fogo-pelos-eua-e-alerta-regiao/</link><description>&lt;p&gt;O Irã condenou veementemente os recentes ataques dos Estados Unidos contra o país, classificando-os como uma “violação flagrante” do cessar-fogo de abril e atribuindo a Washington a responsabilidade por qualquer escalada futura.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;“O governo dos EUA será responsabilizado pelas perigosas consequências decorrentes dessa escalada”, afirmou o Ministério das Relações Exteriores iraniano em um comunicado divulgado pela emissora estatal iraniana IRIB.&lt;/p&gt;
-&lt;p&gt;Além disso, o uso contínuo de&lt;a href="https://www.cnnbrasil.com.br/internacional/bases-dos-eua-na-jordania-kuwait-e-bahrein-reportam-ataques-do-ira/"&gt; instalações militares dos EUA em países da região&lt;/a&gt; para “preparar e executar operações agressivas contra o Irã colocou esses países, na prática, ao lado dos agressores”, afirmou o ministério, citado pela emissora.&lt;/p&gt;
-&lt;aside class="read-too read-too--with-img"&gt;
-        &lt;ul class="read-too__list"&gt;
-        &lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/internacional/eua-atingem-navio-com-mercadorias-do-oma-para-o-ira-diz-midia-iraniana/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/03/navios-no-Estreito-Ormuz.webp?w=200"
-                    alt="EUA atingem navio com mercadorias do Omã para o Irã, diz mídia iraniana"
-                    title="EUA atingem navio com mercadorias do Omã para o Irã, diz mídia iraniana'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;EUA atingem navio com mercadorias do Omã para o Irã, diz mídia iraniana&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/internacional/bases-dos-eua-na-jordania-kuwait-e-bahrein-reportam-ataques-do-ira/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/1_11337c.png?w=200"
-                    alt="Bases dos EUA na Jordânia, Kuwait e Bahrein reportam ataques do Irã"
-                    title="Bases dos EUA na Jordânia, Kuwait e Bahrein reportam ataques do Irã'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Bases dos EUA na Jordânia, Kuwait e Bahrein reportam ataques do Irã&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/internacional/eua-concluem-mais-uma-rodada-de-ataques-no-ira-diz-comando-central/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/04/Embarcacoes-no-Estreito-de-Ormuz-29-de-abril-de-2026.jpg?w=200"
-                    alt="EUA concluem mais uma rodada de ataques no Irã, diz Comando Central"
-                    title="EUA concluem mais uma rodada de ataques no Irã, diz Comando Central'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;EUA concluem mais uma rodada de ataques no Irã, diz Comando Central&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;    &lt;/ul&gt;
-&lt;/aside&gt;
-
-&lt;p&gt;Teerã tomará “todas as medidas necessárias para neutralizar as ameaças e prevenir novas agressões, exercendo seu direito inerente à autodefesa contra a agressão militar dos EUA”, acrescentou o informe.&lt;/p&gt;
-&lt;p&gt;A Guarda Revolucionária Islâmica do Irã afirmou anteriormente ter realizado ataques retaliatórios contra bases americanas na região, em meio à &lt;a href="https://www.cnnbrasil.com.br/internacional/eua-lancam-novos-ataques-contra-o-ira/"&gt;segunda noite de ataques dos EUA&lt;/a&gt;.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;O presidente Donald Trump alertou que os &lt;a href="https://www.cnnbrasil.com.br/internacional/trump-diz-que-ira-demorou-para-negociar-e-irao-pagar-o-preco/"&gt;ataques americanos podem ser retomados&lt;/a&gt; caso um acordo de paz não seja alcançado entre as duas nações em guerra.&lt;/p&gt;
-&lt;p class="my-5 break-words group-[.isActiveSource]:text-xl my-5 break-words group-[.isActiveSource]:text-xl"&gt;Em resposta, o alto comando militar conjunto do Irã &lt;a class="text-red-600 underline hover:text-red-500 font-medium break-words group-[.isActiveSource]:text-xl" href="https://www.cnnbrasil.com.br/internacional/ira-anuncia-fechamento-do-estreito-de-ormuz-apos-ataques-dos-eua/" target="_blank" rel="noopener noreferrer"&gt;anunciou o fechamento do Estreito de Ormuz&lt;/a&gt;, impedindo o trânsito de navios incluindo petroleiros e navios comerciais, afirmando que qualquer embarcação que tentar passar será alvejada.&lt;/p&gt;
-&lt;p class="my-5 break-words group-[.isActiveSource]:text-xl my-5 break-words group-[.isActiveSource]:text-xl"&gt;Momentos após o anúncio, o Exército dos EUA afirmou que navios comerciais continuam transitando pela via navegável.&lt;/p&gt;
-&lt;p class="my-5 break-words group-[.isActiveSource]:text-xl"&gt;&lt;strong class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt;Bases americanas sob ataque:&lt;/strong&gt; Na Jordânia , os americanos foram alertados para se abrigarem. A IRGC afirmou ter &amp;#8220;destruído instalações e um grande número de aeronaves de combate&amp;#8221; na &lt;a class="text-red-600 underline hover:text-red-500 font-medium break-words group-[.isActiveSource]:text-xl" href="https://www.cnnbrasil.com.br/internacional/ira-atinge-base-militar-dos-eua-na-jordania-diz-midia-iraniana/" target="_blank" rel="noopener noreferrer" data-textassist="true"&gt;base aérea de Al-Azraq&lt;/a&gt;, segundo a mídia estatal. O Kuwait fechou seu espaço aéreo e as defesas antiaéreas estão engajadas com &amp;#8220;objetos hostis&amp;#8221;, informou a mídia estatal, citando o exército do país. Sirenes soaram no Bahrein , de acordo com o Ministério do Interior do país.&lt;/p&gt;
+&lt;p&gt;De acordo com a &lt;strong&gt;Nottus&lt;/strong&gt;, especialistas em meteorologia, entre &lt;a href="https://www.cnnbrasil.com.br/nacional/sudeste/mg/sul-de-minas-gerais-registra-temperatura-mais-fria-do-dia-no-brasil/" target="_blank" rel="noopener"&gt;quinta-feira (11) e sexta-feira (12)&lt;/a&gt;, &lt;strong&gt;uma frente fria avança pela região Sul. &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cnnbrasil.com.br/nacional/sudeste/mg/parque-nacional-do-itatiaia-registra-44oc-menor-temperatura-do-brasil/" target="_blank" rel="noopener"&gt;Em conjunto,&lt;/a&gt; a partir de sábado (13), uma &lt;strong&gt;massa de ar polar&lt;/strong&gt; passa pelo país abaixando mais as temperaturas.&lt;/p&gt;
+&lt;p&gt;Os estados mais afetados devem ser Santa Catarina &lt;a href="https://www.youtube.com/watch?v=jUlcTjsKkG8" target="_blank" rel="noopener"&gt;e o Rio Grande do Sul,&lt;/a&gt; &lt;strong&gt;com chance de geada nas regiões serranas. &lt;/strong&gt;&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
 &lt;p&gt;
 &lt;div class="post__video"&gt;
 	&lt;div class="cnn component-video has--live"&gt;
 		&lt;div class="component-inner"&gt;
 			&lt;div
-				id="player_internacional_UZBAoRzC_jg"
+				id="player_nacional_7fzDJZ8FCts"
 				class="video-wrapper "
 			&gt;
 				&lt;div class="video-wrapper-inner"&gt;
 										&lt;div class="overlay-wrapper"&gt;
 						&lt;button
 							class="video-button js-video-play active"
-							aria-label="Assista o vídeo EUA voltam a atacar Irã após ameaça de Trump | HORA H"
+							aria-label="Assista o vídeo Geada muda paisagem na Serra Catarinense | LIVE CNN"
 							tabindex="0"
 						&gt;
 							&lt;img
 								class="thumbnail-image"
-								src="https://img.youtube.com/vi/UZBAoRzC_jg/sddefault.jpg"
-                                srcset="https://img.youtube.com/vi/UZBAoRzC_jg/default.jpg 120w,
-                    https://img.youtube.com/vi/UZBAoRzC_jg/mqdefault.jpg 320w,
-                    https://img.youtube.com/vi/UZBAoRzC_jg/hqdefault.jpg 480w,
-                    https://img.youtube.com/vi/UZBAoRzC_jg/sddefault.jpg 640w,
-                    https://img.youtube.com/vi/UZBAoRzC_jg/maxresdefault.jpg 1280w"
-								alt="EUA voltam a atacar Irã após ameaça de Trump | HORA H"
+								src="https://img.youtube.com/vi/7fzDJZ8FCts/sddefault.jpg"
+                                srcset="https://img.youtube.com/vi/7fzDJZ8FCts/default.jpg 120w,
+                    https://img.youtube.com/vi/7fzDJZ8FCts/mqdefault.jpg 320w,
+                    https://img.youtube.com/vi/7fzDJZ8FCts/hqdefault.jpg 480w,
+                    https://img.youtube.com/vi/7fzDJZ8FCts/sddefault.jpg 640w,
+                    https://img.youtube.com/vi/7fzDJZ8FCts/maxresdefault.jpg 1280w"
+								alt="Geada muda paisagem na Serra Catarinense | LIVE CNN"
 							/&gt;
 
 							&lt;span
 								class="video-play-button"
-								aria-label="Botão play do vídeo EUA voltam a atacar Irã após ameaça de Trump | HORA H"
+								aria-label="Botão play do vídeo Geada muda paisagem na Serra Catarinense | LIVE CNN"
 							&gt;&lt;/span&gt;
 
 															&lt;span class="video-gradient"&gt;&lt;/span&gt;
-								&lt;span class="video-title"&gt;EUA voltam a atacar Irã após ameaça de Trump | HORA H&lt;/span&gt;
+								&lt;span class="video-title"&gt;Geada muda paisagem na Serra Catarinense | LIVE CNN&lt;/span&gt;
 													&lt;/button&gt;
 					&lt;/div&gt;
 										&lt;span
@@ -517,10 +93,10 @@
 						data-youtube-vpmute="0"
 						data-youtube-width="640px"
 						data-youtube-height="480px"
-						data-youtube-ui="internacional"
+						data-youtube-ui="nacional"
 						data-youtube-play="0"
 						data-youtube-mute="0"
-						data-youtube-id="UZBAoRzC_jg"
+						data-youtube-id="7fzDJZ8FCts"
 						data-youtube-vpa="click"
 						data-youtube-hl="pt"
 						data-youtube-position=""
@@ -531,4 +107,643 @@
 	&lt;/div&gt;
 &lt;/div&gt;
 &lt;/iframe&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Thu, 11 Jun 2026 09:56:49 +0000</pubDate><guid>https://www.cnnbrasil.com.br/internacional/ira-condena-violacao-flagrante-do-cessar-fogo-pelos-eua-e-alerta-regiao/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/internacional/ira-condena-violacao-flagrante-do-cessar-fogo-pelos-eua-e-alerta-regiao/</guid></item></channel></rss>
+&lt;p&gt;O frio deve ficar &lt;strong&gt;mais intenso na segunda-feira (15) e terça-feira (16)&lt;/strong&gt;. As chances de geadas se expandem para regiões do Oeste, Centro e Campanha do RS também.&lt;/p&gt;
+&lt;p&gt;A partir de quarta-feira (17), a temperatura começa a subir gradativamente.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.youtube.com/watch?v=5m8AzqJzt1M" target="_blank" rel="noopener"&gt;Veja também: Campos do Jordão bate recorde de frio no ano e acorda com geada&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Thu, 11 Jun 2026 20:17:03 +0000</pubDate><guid>https://www.cnnbrasil.com.br/nacional/brasil/frente-fria-avanca-e-vai-derrubar-temperatura-no-sul-do-brasil/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/nacional/brasil/frente-fria-avanca-e-vai-derrubar-temperatura-no-sul-do-brasil/</guid></item><item><title>Com o fim da escala 6×1, preço do imóvel subirá 5,5% em média, diz Abrainc</title><link>https://www.cnnbrasil.com.br/economia/macroeconomia/com-o-fim-da-escala-6x1-preco-do-imovel-subira-55-em-media-diz-abrainc/</link><description>&lt;p&gt;A PEC (proposta de emenda constitucional) que prevê &lt;strong&gt;o fim da escala de trabalho 6&amp;#215;1&lt;/strong&gt; e a redução da jornada semanal de 44 para 40 horas &lt;strong&gt;pode gerar um aumento médio de 5,5% no preço dos imóveis no Brasil&lt;/strong&gt;. O alerta foi feito por Luiz França, presidente da &lt;strong&gt;Abrainc (Associação Brasileira de Incorporadoras Imobiliárias)&lt;/strong&gt;, em entrevista exclusiva ao Money News.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;Segundo França, o impacto financeiro da medida sobre o setor imobiliário é real e já reconhecido pelo próprio governo. &amp;#8220;No nosso segmento, ele disse que vai de 7,8% a 8,6%&amp;#8221;, afirmou, referindo-se a dados apresentados pelo Ministério do Trabalho em audiência pública, onde a variação de custo geral foi estimada entre 1,6% e 10,5%.&lt;/p&gt;
+&lt;aside class="read-too read-too--with-img"&gt;
+            &lt;h2 class='read-too__title'&gt;Leia Mais&lt;/h2&gt;
+            &lt;ul class="read-too__list"&gt;
+        &lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/economia/macroeconomia/cbic-ve-alta-de-custos-e-impacto-ao-acesso-a-moradia-com-fim-da-escala-6x1/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/BR_CNN_110626_ZOOM_MONEY_RENATO_CORREIA_frame_13582.jpg?w=200"
+                    alt="CBIC vê alta de custos e impacto ao acesso à moradia com fim da escala 6x1"
+                    title="CBIC vê alta de custos e impacto ao acesso à moradia com fim da escala 6x1'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;CBIC vê alta de custos e impacto ao acesso à moradia com fim da escala 6x1&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/economia/macroeconomia/fim-da-escala-6x1-nao-garante-aumento-de-produtividade-diz-especialista/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2022/06/carteira-de-trabalho-digital_mcamgo_abr_240620211818-2-e1730940796199.jpg?w=200"
+                    alt="Fim da escala 6x1 não garante aumento de produtividade, diz especialista"
+                    title="Fim da escala 6x1 não garante aumento de produtividade, diz especialista'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Fim da escala 6x1 não garante aumento de produtividade, diz especialista&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/economia/macroeconomia/analise-empresariado-lamenta-falta-de-ponderacao-sobre-fim-da-escala-6x1/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportBusinessNews/tagreuters.com2024binary_LYNXMPEK7T0G5-FILEDIMAGE-e1740609666195.jpg?w=200"
+                    alt="Análise: Empresariado lamenta falta de ponderação sobre fim da escala 6x1"
+                    title="Análise: Empresariado lamenta falta de ponderação sobre fim da escala 6x1'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Análise: Empresariado lamenta falta de ponderação sobre fim da escala 6x1&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;    &lt;/ul&gt;
+&lt;/aside&gt;
+
+&lt;h2&gt;Prazo de adaptação é insuficiente, segundo a Abrainc&lt;/h2&gt;
+&lt;p&gt;França criticou o prazo previsto na PEC para a transição, que estabelece 60 dias para uma primeira redução de dois dias na escala e mais 12 meses para os demais ajustes. Para ele, o período é claramente insuficiente.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;O próprio relatório cita como exemplo três países: Chile, oito anos; México e Colômbia, cinco anos&amp;#8221;, destacou, apontando uma inconsistência entre os dados pesquisados e o que foi efetivamente proposto na PEC. A Abrainc defende um prazo mínimo de cinco anos para a adaptação do setor.&lt;/p&gt;
+&lt;p&gt;O representante da entidade também ressaltou que as negociações coletivas e as adaptações na escala de trabalho deveriam ocorrer de forma gradual, conforme indicado pelo próprio relatório da PEC.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;&amp;#8220;Está dito aqui claramente: as assimetrias setoriais e adaptações na escala de trabalho e a negociação coletiva devem ser feitas de forma gradual&amp;#8221;, leu França, concluindo que a proposta atual não atende a essa exigência.&lt;/p&gt;
+&lt;h2&gt;2,5 milhões de famílias podem ser excluídas do mercado&lt;/h2&gt;
+&lt;p&gt;O impacto do aumento de custos vai além do setor produtivo e atinge diretamente o consumidor final.&lt;/p&gt;
+&lt;p&gt;De acordo com França, um reajuste de 5,5% no preço dos imóveis, considerando o custo do financiamento habitacional em 30 anos, seria suficiente para &lt;strong&gt;excluir cerca de 2,5 milhões de famílias do mercado imobiliário&lt;/strong&gt;. &amp;#8220;Quando você majora em 5,5%, considerando o custo do financiamento, você retira do mercado 2,5 milhões de famílias&amp;#8221;, afirmou.&lt;/p&gt;
+&lt;p&gt;França também mencionou o risco de aumento da informalidade no mercado de trabalho caso a PEC seja aprovada nos moldes atuais.&lt;/p&gt;
+&lt;p&gt;Segundo ele, ao restringir a flexibilidade de jornada, o trabalhador que precisar de renda extra tende a buscar ocupações informais, com remuneração inferior. &amp;#8220;O Brasil está perdendo com pessoas indo para o trabalho informal&amp;#8221;, alertou.&lt;/p&gt;
+&lt;h2&gt;Setor dialoga com governo e Congresso&lt;/h2&gt;
+&lt;p&gt;França relatou ainda uma reunião com o senador &lt;a href="https://www.cnnbrasil.com.br/blogs/caio-junqueira/politica/alcolumbre-segura-pec-da-escala-6x1-e-condiciona-avanco-a-reuniao-com-lula/"&gt;Davi Alcolumbre&lt;/a&gt;, na qual a entidade apresentou sua posição. Ele demonstrou expectativa positiva em relação ao Senado, citando declaração pública de Alcolumbre de que &lt;a href="https://www.cnnbrasil.com.br/politica/alcolumbre-pede-cautela-sobre-propostas-que-impactam-contas-publicas/"&gt;a Casa não seria &amp;#8220;carimbadora&amp;#8221; da proposta aprovada na Câmara&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;O que eu espero do Senado é que ele faça uma análise profunda do que está sendo proposto para que nós possamos ter aquilo que é melhor para o Brasil&amp;#8221;, disse França. Para ele, caso a PEC seja aprovada sem alterações, &lt;a href="https://www.cnnbrasil.com.br/economia/macroeconomia/cni-esperamos-equilibrio-e-extensao-da-discussao-sobre-jornada-de-trabalho/"&gt;o resultado seria &amp;#8220;uma catástrofe&amp;#8221; para a população brasileira.&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote class="wp-embedded-content" data-secret="3cPvkmtkQK"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/economia/estudo-fim-da-escala-6x1-pode-reduzir-pib-renda-empregos-e-empresas/"&gt;Estudo: fim da escala 6&amp;#215;1 pode reduzir PIB, renda, empregos e empresas&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Estudo: fim da escala 6&amp;#215;1 pode reduzir PIB, renda, empregos e empresas&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/economia/estudo-fim-da-escala-6x1-pode-reduzir-pib-renda-empregos-e-empresas/embed/#?secret=nVIM2wtoF5#?secret=3cPvkmtkQK" data-secret="3cPvkmtkQK" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;div class="disclaimer__ai"&gt;
+    &lt;em&gt;Os textos gerados por inteligência artificial na &lt;strong&gt;CNN Brasil&lt;/strong&gt; são feitos com base nos cortes de vídeos dos jornais de sua programação. Todas as informações são apuradas e checadas por jornalistas. O texto final também passa pela revisão da equipe de jornalismo da &lt;strong&gt;CNN&lt;/strong&gt;. &lt;a href="https://www.cnnbrasil.com.br/nacional/saiba-como-a-cnn-brasil-utiliza-as-ferramentas-de-inteligencia-artificial/" target="_blank" rel="noopener"&gt;Clique aqui para saber mais&lt;/a&gt;.&lt;/em&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Thu, 11 Jun 2026 20:15:58 +0000</pubDate><guid>https://www.cnnbrasil.com.br/economia/macroeconomia/com-o-fim-da-escala-6x1-preco-do-imovel-subira-55-em-media-diz-abrainc/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/economia/macroeconomia/com-o-fim-da-escala-6x1-preco-do-imovel-subira-55-em-media-diz-abrainc/</guid></item><item><title>Estrangeiro sofre infarto nos arredores de estádio na abertura da Copa</title><link>https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/estrangeiro-sofre-infarto-nos-arredores-de-estadio-na-abertura-da-copa/</link><description>&lt;p&gt;Um torcedor estrangeiro sofreu um infarto nos arredores do Estádio Cidade do México nesta quinta-feira (11), poucas horas antes do jogo de abertura da Copa do Mundo de 2026 entre México e África do Sul.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;De acordo com a Secretaria de Segurança Cidadã da Cidade do México (SSC), agentes da corporação e equipes médicas privadas que atuavam dentro do estádio prestaram os primeiros socorros ao homem após o incidente.&lt;/p&gt;
+&lt;aside class="read-too read-too--with-img"&gt;
+            &lt;h2 class='read-too__title'&gt;Leia Mais&lt;/h2&gt;
+            &lt;ul class="read-too__list"&gt;
+        &lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/torcedor-morre-no-estadio-azteca-que-recebe-mexico-x-portugal/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/03/estadio-azteca-e1774747475102.jpeg?w=200"
+                    alt="Torcedor morre no Estádio Azteca, que recebe México x Portugal"
+                    title="Torcedor morre no Estádio Azteca, que recebe México x Portugal'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Torcedor morre no Estádio Azteca, que recebe México x Portugal&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/copa-do-mundo-2026-estadio-da-abertura-ainda-passa-por-obras/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/estadio-azteca-copa-e1779901619128.jpg?w=200"
+                    alt="Copa do Mundo 2026: Estádio da abertura ainda passa por obras"
+                    title="Copa do Mundo 2026: Estádio da abertura ainda passa por obras'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Copa do Mundo 2026: Estádio da abertura ainda passa por obras&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/estreia-da-copa-do-mundo-de-2026-tudo-que-voce-precisa-saber/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/Estadio-Azteca-Abertura-Estreia-Copa-Mundo-2026-e1781153231210.jpg?w=200"
+                    alt="Estreia da Copa do Mundo de 2026: tudo que você precisa saber"
+                    title="Estreia da Copa do Mundo de 2026: tudo que você precisa saber'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Estreia da Copa do Mundo de 2026: tudo que você precisa saber&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;    &lt;/ul&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;Em comunicado divulgado nas redes sociais, a SSC informou que o torcedor foi encaminhado a um hospital para receber atendimento especializado.&lt;/p&gt;
+&lt;p&gt;Segundo as autoridades, o paciente chegou à unidade médica em condição estável e segue sob observação.&lt;/p&gt;
+&lt;p&gt;O caso ocorreu em meio à &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/as-portas-da-abertura-da-copa-cidade-do-mexico-vive-entre-a-festa-e-o-caos/" target="_blank" rel="noopener" data-textassist="true"&gt;grande movimentação de torcedores&lt;/a&gt; nos &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/estadio-azteca-3-curiosidades-sobre-o-palco-de-abertura-da-copa-do-mundo/" target="_blank" rel="noopener" data-textassist="true"&gt;arredores do estádio&lt;/a&gt;, que recebeu milhares de pessoas para a cerimônia de abertura e a &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/copa-do-mundo-o-que-voce-precisa-saber-sobre-mexico-x-africa-do-sul/" target="_blank" rel="noopener" data-textassist="true"&gt;primeira partida do Mundial de 2026&lt;/a&gt;. Até o momento, não foram divulgadas informações sobre a identidade ou a nacionalidade do homem.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;blockquote class="wp-embedded-content" data-secret="SUSTNBYDe5"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/esportes/veja-o-ranking-dos-elencos-mais-valiosos-da-copa-do-mundo/"&gt;Veja o ranking dos elencos mais valiosos da Copa do Mundo&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Veja o ranking dos elencos mais valiosos da Copa do Mundo&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/esportes/veja-o-ranking-dos-elencos-mais-valiosos-da-copa-do-mundo/embed/#?secret=dIoghkIEQ1#?secret=SUSTNBYDe5" data-secret="SUSTNBYDe5" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Thu, 11 Jun 2026 20:14:27 +0000</pubDate><guid>https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/estrangeiro-sofre-infarto-nos-arredores-de-estadio-na-abertura-da-copa/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/estrangeiro-sofre-infarto-nos-arredores-de-estadio-na-abertura-da-copa/</guid></item><item><title>Noel Gallagher, do Oasis, critica show da Copa do Mundo; entenda</title><link>https://www.cnnbrasil.com.br/pop/celebridades/noel-gallagher-do-oasis-critica-show-da-copa-do-mundo-entenda/</link><description>&lt;p&gt;O músico &lt;strong&gt;Noel Gallagher&lt;/strong&gt;, 59, criticou a decisão da Fifa de incluir um show do intervalo na final da Copa do Mundo de 2026. Pela primeira vez na história do torneio, a partida decisiva contará com uma apresentação musical inspirada no modelo consagrado pelo &lt;strong&gt;Super Bowl&lt;/strong&gt;, principal evento esportivo dos Estados Unidos.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;O encerramento acontecerá em 19 de julho, no &lt;strong&gt;MetLife Stadium&lt;/strong&gt;, em Nova Jersey. A curadoria artística do espetáculo ficará a cargo do vocalista do Coldplay, Chris Martin, e terá participações de Madonna, Shakira e o grupo sul-coreano BTS.&lt;/p&gt;
+&lt;aside class="read-too read-too--with-img"&gt;
+            &lt;h2 class='read-too__title'&gt;Leia mais&lt;/h2&gt;
+            &lt;ul class="read-too__list"&gt;
+        &lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/pop/documentario-de-oasis-tera-1a-entrevista-de-irmaos-gallagher-apos-25-anos/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/06/oasis.png?w=200"
+                    alt="Documentário de Oasis terá 1ª entrevista de irmãos Gallagher após 25 anos"
+                    title="Documentário de Oasis terá 1ª entrevista de irmãos Gallagher após 25 anos'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Documentário de Oasis terá 1ª entrevista de irmãos Gallagher após 25 anos&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/reporter-deixa-ao-vivo-para-tirar-foto-com-shakira-na-abertura-da-copa/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/reporter-shakira.jpg?w=200"
+                    alt="Repórter deixa ao vivo para tirar foto com Shakira na abertura da Copa"
+                    title="Repórter deixa ao vivo para tirar foto com Shakira na abertura da Copa'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Repórter deixa ao vivo para tirar foto com Shakira na abertura da Copa&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/pop/celebridades/taylor-swift-define-data-e-local-de-casamento-com-travis-kelce-diz-site/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/travis-kelce-taylor-swift.jpg?w=200"
+                    alt="Taylor Swift define data e local de casamento com Travis Kelce, diz site"
+                    title="Taylor Swift define data e local de casamento com Travis Kelce, diz site'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Taylor Swift define data e local de casamento com Travis Kelce, diz site&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;    &lt;/ul&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Torcedor declarado do Manchester City e fã de futebol, &lt;a href="https://www.cnnbrasil.com.br/pop/musica/oasis-faz-show-no-pais-de-gales-e-volta-aos-palcos-apos-16-anos-nesta-sexta/" target="_blank" rel="noopener"&gt;Noel&lt;/a&gt; afirmou que não vê sentido em seguir a fórmula dos grandes eventos esportivos norte-americanos para atrair o público.&lt;/p&gt;
+&lt;p&gt;Questionado pela rádio talkSPORT se pretende assistir ao show, ele brincou: &amp;#8220;Eu vou apresentar um sorteio no intervalo em troca de um pernil de cordeiro&amp;#8221;.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;Em seguida, o artista explicou por que discorda da novidade. &amp;#8220;Não gosto de mudanças no futebol. Estou empolgado com as novas regras sobre escanteios e cera [medida para combater perda de tempo], pois isso pode ser algo positivo para o jogo, mas não gosto de toda essa pompa em torno do futebol; ele vem funcionando perfeitamente há centenas de anos.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;O integrante do &lt;a href="https://www.cnnbrasil.com.br/pop/musica/oasis-publica-melhores-momentos-de-show-no-brasil/" target="_blank" rel="noopener"&gt;Oasis&lt;/a&gt; também opinou quanto às atrações escolhidas para a apresentação. &amp;#8220;Eles nem são pessoas realmente ligadas ao futebol, não é?&amp;#8221;&lt;/p&gt;
+&lt;p&gt;Além do show da final, a &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/" target="_blank" rel="noopener"&gt;Copa de 2026&lt;/a&gt; contará com cerimônias de abertura nos três países-sede, Estados Unidos, México e Canadá, reunindo artistas de diferentes partes do mundo.&lt;/p&gt;
+&lt;p&gt;Nesta quinta-feira (11), &lt;strong&gt;Shakira e Burna Boy&lt;/strong&gt; apresentaram o hino oficial do torneio, &lt;a href="https://www.cnnbrasil.com.br/pop/shakira-lanca-clipe-oficial-do-single-da-copa-do-mundo-2026-assista/" target="_blank" rel="noopener"&gt;&amp;#8220;Dai Dai&amp;#8221;&lt;/a&gt;, no estádio Azteca, na Cidade do México. O evento também teve participações de &lt;strong&gt;J Balvin&lt;/strong&gt; e &lt;strong&gt;Tyla&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Na sexta-feira (12), Alanis Morissette, Alessia Cara e Michael Bublé estarão entre as atrações do evento realizado no BMO Field, em Toronto.&lt;/p&gt;
+&lt;p&gt;Já no sábado (13), o SoFi Stadium, em Los Angeles, receberá apresentações de Katy Perry, Future, Anitta, Lisa, Rema e Tyla.&lt;/p&gt;
+&lt;blockquote class="wp-embedded-content" data-secret="ebbkVqIG6D"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/entretenimento/copa-do-mundo-veja-as-namoradas-e-esposas-famosas-dos-jogadores-convocados/"&gt;Copa do Mundo: veja as namoradas e esposas famosas dos jogadores convocados&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Copa do Mundo: veja as namoradas e esposas famosas dos jogadores convocados&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/entretenimento/copa-do-mundo-veja-as-namoradas-e-esposas-famosas-dos-jogadores-convocados/embed/#?secret=nj6zBsl6qJ#?secret=ebbkVqIG6D" data-secret="ebbkVqIG6D" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Thu, 11 Jun 2026 20:13:27 +0000</pubDate><guid>https://www.cnnbrasil.com.br/pop/celebridades/noel-gallagher-do-oasis-critica-show-da-copa-do-mundo-entenda/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/pop/celebridades/noel-gallagher-do-oasis-critica-show-da-copa-do-mundo-entenda/</guid></item><item><title>Trump diz acreditar que o líder supremo do Irã aprovou acordo com os EUA</title><link>https://www.cnnbrasil.com.br/internacional/trump-diz-acreditar-que-o-lider-supremo-do-ira-aprovou-acordo-com-os-eua/</link><description>&lt;p&gt;O presidente dos EUA, Donald Trump, disse nesta quinta-feira (11) acreditar que o líder supremo do Irã, Mojtaba Khamenei, havia aprovado um acordo com os EUA que desencadearia a abertura do Estreito de Ormuz.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;Questionado por um repórter na Casa Branca se Khamenei havia aprovado o acordo, Trump respondeu: &amp;#8220;Entendo que a resposta seja sim&amp;#8221;.&lt;/p&gt;
+&lt;p&gt;A afirmação do presidente americano acontece momentos após ele anunciar que um &lt;a href="https://www.cnnbrasil.com.br/internacional/trump-exalta-grande-acordo-com-ira-e-sugere-assinatura-em-breve-na-europa/" target="_blank" rel="noopener"&gt;&amp;#8220;grande acordo&amp;#8221; com o Irã deve ser assinado nos próximos dias&lt;/a&gt;.&lt;/p&gt;
+&lt;aside class="read-too read-too--with-img"&gt;
+            &lt;h2 class='read-too__title'&gt;Leia mais&lt;/h2&gt;
+            &lt;ul class="read-too__list"&gt;
+        &lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/internacional/trump-exalta-grande-acordo-com-ira-e-sugere-assinatura-em-breve-na-europa/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/04/GettyImages-2269290702-e1775497407254.jpg?w=200"
+                    alt="Trump exalta “grande acordo” com Irã e sugere assinatura em breve na Europa"
+                    title="Trump exalta “grande acordo” com Irã e sugere assinatura em breve na Europa'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Trump exalta “grande acordo” com Irã e sugere assinatura em breve na Europa&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/internacional/8647-eua-investigam-suposta-ameaca-contra-trump-entenda/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/Grande-tracado-do-termo-8647-no-terreno-do-National-Mall-em-Washington.jpg?w=200"
+                    alt="&amp;quot;8647&amp;quot;: EUA investigam suposta ameaça contra Trump; entenda"
+                    title="&amp;quot;8647&amp;quot;: EUA investigam suposta ameaça contra Trump; entenda'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;&amp;quot;8647&amp;quot;: EUA investigam suposta ameaça contra Trump; entenda&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/internacional/trump-cancela-ataques-ao-ira-previstos-para-esta-quinta-feira-11/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/Presidente-dos-EUA-Donald-Trump-na-Casa-Branca.jpg?w=200"
+                    alt="Trump cancela ataques ao Irã previstos para esta quinta-feira (11)"
+                    title="Trump cancela ataques ao Irã previstos para esta quinta-feira (11)'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Trump cancela ataques ao Irã previstos para esta quinta-feira (11)&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;    &lt;/ul&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;Durante um evento no Salão Oval, Trump afirmou que a cerimônia deve acontecer na Europa, com a presença do vice-presidente americano, JD Vance.&lt;/p&gt;
+&lt;p&gt;“Os documentos estão praticamente finalizados, então vamos ver”, disse.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;O presidente americano também disse que o bloqueio naval dos EUA aos portos iranianos deve ser revogado logo após a assinatura do tratado.&lt;/p&gt;
+&lt;p&gt;Anteriormente, Trump afirmou que havia cancelado os ataques ao Irã previstos para esta quinta-feira.&lt;/p&gt;
+&lt;p&gt;“Com base no fato de que as discussões com a República Islâmica do Irã foram levadas ao mais alto nível da liderança iraniana e aprovadas, eu, como presidente dos Estados Unidos da América, cancelei os ataques e bombardeios programados contra o Irã para esta noite”, escreveu Trump em uma postagem na rede social Truth Social.&lt;/p&gt;
+&lt;p&gt;&lt;iframe class="truthsocial-embed" style="max-width: 100%; border: 0;" data-src="https://truthsocial.com/@realDonaldTrump/116732652997120164/embed" width="600" allowfullscreen="allowfullscreen"&gt;&lt;/iframe&gt;&lt;script src="https://truthsocial.com/embed.js" async="async"&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;p&gt;Trump disse que “as discussões e os pontos finais” foram aprovados pelos Estados Unidos, Israel, Arábia Saudita, Emirados Árabes Unidos, Catar, Turquia, Paquistão, Barein, Kuweit, Jordânia, Egito e outros.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;(Com informações da &lt;strong&gt;CNN&lt;/strong&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Em atualização*&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote class="wp-embedded-content" data-secret="45EokVd1tp"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/internacional/regime-do-ira-nao-depende-da-figura-de-khamenei-diz-especialista-2/"&gt;Quem é Mojtaba Khamenei, o novo líder supremo do Irã&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Quem é Mojtaba Khamenei, o novo líder supremo do Irã&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/internacional/regime-do-ira-nao-depende-da-figura-de-khamenei-diz-especialista-2/embed/#?secret=GAbua4yVQv#?secret=45EokVd1tp" data-secret="45EokVd1tp" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Thu, 11 Jun 2026 20:09:37 +0000</pubDate><guid>https://www.cnnbrasil.com.br/internacional/trump-diz-acreditar-que-o-lider-supremo-do-ira-aprovou-acordo-com-os-eua/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/internacional/trump-diz-acreditar-que-o-lider-supremo-do-ira-aprovou-acordo-com-os-eua/</guid></item><item><title>Anitta se apresenta na abertura da Copa? Entenda</title><link>https://www.cnnbrasil.com.br/pop/anitta-se-apresenta-na-abertura-da-copa-entenda/</link><description>&lt;p&gt;A cantora &lt;strong&gt;Anitta&lt;/strong&gt; é uma das &lt;strong&gt;atrações confirmadas na abertura&lt;/strong&gt; da &lt;strong&gt;Copa do Mundo&lt;/strong&gt;, que teve início nesta quinta (11). Mas, diferente dos mundiais anteriores, dessa vez a cerimônia de início acontecerá de forma diferente e a brasileira não subiu ao palco ainda.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;Nesta edição acontecerão&lt;strong&gt; três cerimônias de abertura&lt;/strong&gt;, uma em cada país que sediará os jogos, de acordo com a ordem em que as nações sede entram em campo. A voz de &amp;#8220;Desgraça&amp;#8221; se apresentará &lt;strong&gt;na abertura dos Estados Unidos&lt;/strong&gt;, programada para acontecer &lt;strong&gt;sexta (12), uma hora e meia antes da partida&lt;/strong&gt; entre o país contra o Paraguai, com &lt;strong&gt;início previsto para 22h&lt;/strong&gt; (do horário de Brasília). Ou seja, os shows devem ter início por volta das &lt;strong&gt;20h30&lt;/strong&gt; (de Brasília).&lt;/p&gt;
+&lt;aside class="read-too read-too--with-img"&gt;
+            &lt;h2 class='read-too__title'&gt;Leia Mais&lt;/h2&gt;
+            &lt;ul class="read-too__list"&gt;
+        &lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/quem-vai-cantar-na-abertura-da-copa-do-mundo-2026-saiba-mais/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/shakira-musica-copa.png?w=200"
+                    alt="Quem vai cantar na abertura da Copa do Mundo 2026? Saiba mais"
+                    title="Quem vai cantar na abertura da Copa do Mundo 2026? Saiba mais'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Quem vai cantar na abertura da Copa do Mundo 2026? Saiba mais&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/pop/anitta-katy-perry-e-alanis-morissette-devem-participar-de-abertura-da-copa/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/04/Anitta-525-e1777595547155.jpg?w=200"
+                    alt="Anitta, Katy Perry e Alanis Morissette devem participar de abertura da Copa"
+                    title="Anitta, Katy Perry e Alanis Morissette devem participar de abertura da Copa'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Anitta, Katy Perry e Alanis Morissette devem participar de abertura da Copa&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/pop/celebridades/atracao-da-copa-do-mundo-anitta-mostra-preparativos-em-estadio-nos-eua/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/anitta.jpg?w=200"
+                    alt="Atração da Copa do Mundo, Anitta mostra preparativos em estádio nos EUA"
+                    title="Atração da Copa do Mundo, Anitta mostra preparativos em estádio nos EUA'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Atração da Copa do Mundo, Anitta mostra preparativos em estádio nos EUA&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;    &lt;/ul&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;Ao lado da brasileira, sobem ao palco do SoFi Stadium, em Los Angeles, &lt;strong&gt;&lt;a href="https://www.cnnbrasil.com.br/entretenimento/anitta-e-mais-confira-as-atracoes-da-abertura-da-copa-do-mundo-2026/" target="_blank" rel="noopener" data-textassist="true"&gt;Katy Perry, Future, Lisa&lt;/a&gt;, Rema e Tyla&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Nesta quinta (11), aconteceu a abertura no México, com &lt;a href="https://www.cnnbrasil.com.br/pop/musica/shakira-abre-copa-do-mundo-2026-com-show-no-mexico/" target="_blank" rel="noopener" data-textassist="true"&gt;apresentações de Shakira&lt;/a&gt;, Burna Boy, Belinda, Danny Ocean, J Balvin e mais artistas. A festa aconteceu no Estádio Azteca, na Cidade do México, e o país entrou em campo com a África do Sul.&lt;/p&gt;
+&lt;p&gt;Antes da abertura estadunidense, ainda no dia 12, antecedendo à &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/copa-do-mundo-fifa-planeja-tres-cerimonias-de-abertura-para-o-mundial/" target="_blank" rel="noopener" data-textassist="true"&gt;abertura da Copa do Mundo&lt;/a&gt; no Canadá, se apresentarão Alanis Morissette, Alessia Cara, Elyanna, Michael Bubblé, William Prince, Vegedream, Sanjoy, Nora Fatehi e Jessie Reyez. O grupo sobe ao palco no estádio BMO Field, em Toronto, também noventa minutos antes do jogo, que acontecerá contra a Bósnia Herzegovina.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;blockquote class="wp-embedded-content" data-secret="FgFmcmCw4Q"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/esportes/veja-as-selecoes-classificadas-para-a-copa-do-mundo-de-2026/"&gt;Veja as seleções classificadas para a Copa do Mundo de 2026&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Veja as seleções classificadas para a Copa do Mundo de 2026&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/esportes/veja-as-selecoes-classificadas-para-a-copa-do-mundo-de-2026/embed/#?secret=VLbilTMzgq#?secret=FgFmcmCw4Q" data-secret="FgFmcmCw4Q" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Thu, 11 Jun 2026 20:09:31 +0000</pubDate><guid>https://www.cnnbrasil.com.br/pop/anitta-se-apresenta-na-abertura-da-copa-entenda/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/pop/anitta-se-apresenta-na-abertura-da-copa-entenda/</guid></item><item><title>Real Madrid se aproxima da contratação do português Bernardo Silva</title><link>https://www.cnnbrasil.com.br/esportes/futebol/futebol-internacional/futebol-espanhol/real-madrid-se-aproxima-da-contratacao-do-portugues-bernardo-silva/</link><description>&lt;p&gt;Destaque da seleção portuguesa na Copa do Mundo, Bernardo Silva está próximo de assinar com o Real Madrid, segundo o jornalista internacional Fabrizio Romano. O meio-campista de 31 anos deixou o Manchester City e está livre no mercado.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;A informação cita que o clube espanhol está em fase final das negociações e deve ter Bernardo Silva como primeiro reforço após o anúncio do retorno de José Mourinho ao cargo de treinador.&lt;/p&gt;
+&lt;aside class="read-too read-too--with-img"&gt;
+            &lt;h2 class='read-too__title'&gt;Leia Mais&lt;/h2&gt;
+            &lt;ul class="read-too__list"&gt;
+        &lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/copa-do-mundo-manifestantes-entram-em-confronto-com-a-policia-no-azteca/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/WhatsApp-Image-2026-06-10-at-22.40.00-1-1.jpeg?w=200"
+                    alt="Copa do Mundo: Manifestantes entram em confronto com a polícia no Azteca"
+                    title="Copa do Mundo: Manifestantes entram em confronto com a polícia no Azteca'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Copa do Mundo: Manifestantes entram em confronto com a polícia no Azteca&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/quem-e-quinones-autor-do-primeiro-gol-da-copa-do-mundo-de-2026/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/GettyImages-2281117628-e1781206653281.jpg?w=200"
+                    alt="Quem é Quiñones, autor do primeiro gol da Copa do Mundo de 2026"
+                    title="Quem é Quiñones, autor do primeiro gol da Copa do Mundo de 2026'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Quem é Quiñones, autor do primeiro gol da Copa do Mundo de 2026&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/por-onde-anda-chicharito-artilheiro-do-mexico-nao-foi-convocado-em-2026/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/04/javier-hernandez-mexico-brasil-e1775758860734.jpg?w=200"
+                    alt="Por onde anda Chicharito? Artilheiro do México não foi convocado em 2026"
+                    title="Por onde anda Chicharito? Artilheiro do México não foi convocado em 2026'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Por onde anda Chicharito? Artilheiro do México não foi convocado em 2026&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;    &lt;/ul&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;O Special One substitui Álvaro Arbeloa no comando técnico do Real e assinu contrato válido até 30 de junho de 2029. Já o jogador português, por sua vez, tende a firmar vínculo até junho de 2028.&lt;/p&gt;
+&lt;p&gt;A chegada de Bernardo Silva é selada durante a preparação de Portugal para o Mundial nos Estados Unidos, no Canadá e no México. O maior torneio de clubes do planeta iniciou nesta quinta-feira (11).&lt;/p&gt;
+&lt;p&gt;A delegação portuguesa viaja nesta sexta-feira (12) ao território norte-americano, &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/as-vesperas-da-copa-cristiano-ronaldo-perde-gols-claros-em-amistoso-veja/"&gt;após a vitória sobre a Nigéria na última quarta-feira&lt;/a&gt; (10), em amistoso realizado no Estádio Dr. Magalhães Pessoa, em Leiria.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;Portugal está no &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/veja-como-ficam-os-grupos-da-copa-2026-apos-o-fim-das-repescagens/"&gt;Grupo K da Copa do Mundo&lt;/a&gt; com Colômbia, Uzbequistão e RD Congo. A estreia será nesta quarta-feira (17), às 14h (de Brasília), diante dos congoleses. O confronto será realizado no NRG Stadium, em Houston (EUA).&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/futebol-internacional/futebol-ingles/multicampeao-pelo-city-deixara-o-clube-ingles-ao-fim-da-temporada/"&gt;Bernardo Silva jogou pelo Manchester City por nove temporadas&lt;/a&gt;. Revelado pelo Benfica, o meio-campista passou pelo Monaco, da França, antes de se tornar multicampeão no futebol inglês.&lt;/p&gt;
+&lt;blockquote class="wp-embedded-content" data-secret="5cef1SNicF"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/esportes/mbappe-revela-quais-jogadores-gostaria-de-enfrentar-na-copa-do-mundo/"&gt;Mbappé revela quais jogadores gostaria de enfrentar na Copa do Mundo&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Mbappé revela quais jogadores gostaria de enfrentar na Copa do Mundo&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/esportes/mbappe-revela-quais-jogadores-gostaria-de-enfrentar-na-copa-do-mundo/embed/#?secret=qWSEPR0a6O#?secret=5cef1SNicF" data-secret="5cef1SNicF" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Thu, 11 Jun 2026 20:07:25 +0000</pubDate><guid>https://www.cnnbrasil.com.br/esportes/futebol/futebol-internacional/futebol-espanhol/real-madrid-se-aproxima-da-contratacao-do-portugues-bernardo-silva/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/esportes/futebol/futebol-internacional/futebol-espanhol/real-madrid-se-aproxima-da-contratacao-do-portugues-bernardo-silva/</guid></item><item><title>“A Empregada 2”: Paul Anthony Kelly se junta a elenco do filme</title><link>https://www.cnnbrasil.com.br/pop/cinema/a-empregada-2-paul-anthony-kelly-se-junta-a-elenco-do-filme/</link><description>&lt;p&gt;O ator &lt;strong&gt;Paul Anthony Kelly&lt;/strong&gt;, 37, foi anunciado no elenco de&lt;strong&gt; &amp;#8220;A Empregada 2&amp;#8221;&lt;/strong&gt;, sequência que trará &lt;strong&gt;Sydney Sweeney&lt;/strong&gt;, 28, de volta ao protagonismo, além de &lt;strong&gt;Kirsten Dunst&lt;/strong&gt;, 44, entre os novos nomes na produção.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;O anúncio foi feito nas redes sociais pela página oficial do filme. Em vídeo, Paul Anthony Kelly aparece lendo o livro de &lt;strong&gt;Freida McFadden&lt;/strong&gt;, obra que é adaptada pelo longa-metragem (veja abaixo).&lt;/p&gt;
+&lt;aside class="read-too read-too--with-img"&gt;
+        &lt;ul class="read-too__list"&gt;
+        &lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/pop/cinema/steven-spielberg-diz-ter-sido-rejeitado-ao-pedir-para-dirigir-007/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/02/steven-spielberg-e1770012423446.jpg?w=200"
+                    alt="Steven Spielberg diz ter sido rejeitado ao pedir para dirigir &amp;quot;007&amp;quot;"
+                    title="Steven Spielberg diz ter sido rejeitado ao pedir para dirigir &amp;quot;007&amp;quot;'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Steven Spielberg diz ter sido rejeitado ao pedir para dirigir &amp;quot;007&amp;quot;&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/pop/cinema/fernanda-torres-reage-a-fala-de-jennifer-lopes-sobre-ainda-estou-aqui/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/fernanda-torres-jennifer-lopez.png?w=200"
+                    alt="Fernanda Torres reage a fala de Jennifer Lopez sobre &amp;quot;Ainda Estou Aqui”"
+                    title="Fernanda Torres reage a fala de Jennifer Lopez sobre &amp;quot;Ainda Estou Aqui”'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Fernanda Torres reage a fala de Jennifer Lopez sobre &amp;quot;Ainda Estou Aqui”&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/pop/cinema/josh-hutcherson-diz-que-sentiu-raiva-de-fama-em-jogo-vorazes/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/12/jennifer-lawrence-josh-hutcherson-jogos-vorazes.webp?w=200"
+                    alt="Josh Hutcherson diz que sentiu &amp;quot;raiva&amp;quot; de fama em &amp;quot;Jogo Vorazes&amp;quot;"
+                    title="Josh Hutcherson diz que sentiu &amp;quot;raiva&amp;quot; de fama em &amp;quot;Jogo Vorazes&amp;quot;'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Josh Hutcherson diz que sentiu &amp;quot;raiva&amp;quot; de fama em &amp;quot;Jogo Vorazes&amp;quot;&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;    &lt;/ul&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;Kelly será o intérprete de Douglas Garrick. Na trama dos livros, é o marido da misteriosa Wendy e o novo patrão da protagonista Millie (Sweeney). . Ele é um homem rico e sedutor que mantém a esposa trancada e incomunicável em um quarto, levantando suspeitas sobre o que realmente acontece.&lt;/p&gt;
+&lt;p&gt;Recentemente, &lt;a href="https://www.cnnbrasil.com.br/pop/love-story-conheca-atores-que-serao-jfk-jr-e-carolyn-bessette-em-serie/" target="_blank" rel="noopener"&gt;Paul Anthony Kelly deu vida a &lt;strong&gt;John F. Kennedy Jr.&lt;/strong&gt;&lt;/a&gt; na série &lt;strong class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt;&amp;#8220;Love Story: John F. Kennedy Jr. &amp;amp; Carolyn Bessette&amp;#8221;.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 class="text-2xl my-5 font-bold break-words text-2xl my-5 font-bold break-words"&gt;Sobre o filme &amp;#8220;A Empregada&amp;#8221;&lt;/h2&gt;
+&lt;p class="my-5 break-words group-[.isActiveSource]:text-xl my-5 break-words group-[.isActiveSource]:text-xl" data-start="88" data-end="225"&gt;O filme é baseado no &lt;a class="text-red-600 underline hover:text-red-500 font-medium break-words group-[.isActiveSource]:text-xl" href="https://www.cnnbrasil.com.br/entretenimento/filme-a-empregada-muda-final-da-historia-entenda/" target="_blank" rel="noopener noreferrer" data-textassist="true"&gt;livro &amp;#8220;A Empregada&amp;#8221;&lt;/a&gt;, da autora Freida McFadden, é um fenômeno de popularidade no BookTok, a comunidade de leitores do TikTok.&lt;/p&gt;
+&lt;p class="my-5 break-words group-[.isActiveSource]:text-xl my-5 break-words group-[.isActiveSource]:text-xl" data-start="227" data-end="435"&gt;A história acompanha Millie, que consegue um emprego como &lt;a class="text-red-600 underline hover:text-red-500 font-medium break-words group-[.isActiveSource]:text-xl" href="https://www.cnnbrasil.com.br/entretenimento/a-empregada-cena-inedita-do-filme-com-sweeney-e-seyfried-e-revelada/" target="_blank" rel="noopener noreferrer"&gt;empregada doméstica na luxuosa mansão dos Winchester&lt;/a&gt;, formada por Nina (Amanda Seyfried), Andrew (Brandon Sklenar) e a filha pequena do casal.&lt;/p&gt;
+&lt;p class="my-5 break-words group-[.isActiveSource]:text-xl my-5 break-words group-[.isActiveSource]:text-xl" data-start="437" data-end="612"&gt;No entanto, à medida que a trama do thriller psicológico se desenrola, descobre-se que a &amp;#8220;instabilidade&amp;#8221; de Nina é, na verdade, um reflexo de uma teia perigosa de segredos sombrios, mentiras e manipulação dentro do casamento.&lt;/p&gt;
+&lt;p class="my-5 break-words group-[.isActiveSource]:text-xl my-5 break-words group-[.isActiveSource]:text-xl" data-start="614" data-end="997"&gt;A trama explora temas como poder, controle e confiança, mantendo o público em suspense com reviravoltas constantes. Aos poucos, percebemos que tanto Millie quanto a família para quem ela trabalha escondem verdades sombrias, e o grande mistério passa a ser descobrir se ela conseguirá sair daquela casa ou se os segredos dos Winchester são ainda mais perigosos que os seus próprios.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;A Empregada 2&amp;#8221; estreia em&lt;strong&gt; 17 de dezembro de 2027 nos Estados Unidos&lt;/strong&gt;. Ainda não há data confirmada no Brasil.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;blockquote class="instagram-media" style="background: #FFF; border: 0; border-radius: 3px; box-shadow: 0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width: 540px; min-width: 326px; padding: 0; width: calc(100% - 2px);" data-instgrm-captioned="" data-instgrm-permalink="https://www.instagram.com/reel/DZc_I1Ghwk-/?utm_source=ig_embed&amp;amp;utm_campaign=loading" data-instgrm-version="14"&gt;
+&lt;div style="padding: 16px;"&gt;
+&lt;div style="display: flex; flex-direction: row; align-items: center;"&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"&gt;&lt;/div&gt;
+&lt;div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"&gt;&lt;/div&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="padding: 19% 0;"&gt;&lt;/div&gt;
+&lt;div style="display: block; height: 50px; margin: 0 auto 12px; width: 50px;"&gt;&lt;/div&gt;
+&lt;div style="padding-top: 8px;"&gt;
+&lt;div style="color: #3897f0; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: 550; line-height: 18px;"&gt;Ver essa foto no Instagram&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="padding: 12.5% 0;"&gt;&lt;/div&gt;
+&lt;div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"&gt;
+&lt;div&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"&gt;&lt;/div&gt;
+&lt;div style="background-color: #f4f4f4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"&gt;&lt;/div&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="margin-left: 8px;"&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"&gt;&lt;/div&gt;
+&lt;div style="width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg);"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="margin-left: auto;"&gt;
+&lt;div style="width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"&gt;&lt;/div&gt;
+&lt;div style="background-color: #f4f4f4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"&gt;&lt;/div&gt;
+&lt;div style="width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"&gt;&lt;/div&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; line-height: 17px; margin-bottom: 0; margin-top: 8px; overflow: hidden; padding: 8px 0 7px; text-align: center; text-overflow: ellipsis; white-space: nowrap;"&gt;&lt;a style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 17px; text-decoration: none;" href="https://www.instagram.com/reel/DZc_I1Ghwk-/?utm_source=ig_embed&amp;amp;utm_campaign=loading" target="_blank" rel="noopener"&gt;Um post compartilhado por The Housemaid (@housemaidmovie)&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;script async src="//www.instagram.com/embed.js"&gt;&lt;/script&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Thu, 11 Jun 2026 20:02:24 +0000</pubDate><guid>https://www.cnnbrasil.com.br/pop/cinema/a-empregada-2-paul-anthony-kelly-se-junta-a-elenco-do-filme/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/pop/cinema/a-empregada-2-paul-anthony-kelly-se-junta-a-elenco-do-filme/</guid></item><item><title>Gabi Martins sobre BBB 20: “Vi minha participação como um fracasso”</title><link>https://www.cnnbrasil.com.br/pop/realities/gabi-martins-sobre-bbb-20-vi-minha-participacao-como-um-fracasso/</link><description>&lt;p&gt;A cantora &lt;strong&gt;Gabi Martins,&lt;/strong&gt; 29, publicou na noite da última quarta-feira (10) uma reflexão sobre sua entrada e desempenho no &lt;strong&gt;&amp;#8220;Big Brother Brasil&amp;#8221;,&lt;/strong&gt; em 2020.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;Por meio de um vídeo publicado em seu perfil oficial no Instagram, a influenciadora afirmou que &amp;#8220;por muito tempo o &lt;a href="https://www.cnnbrasil.com.br/pop/bbb/apos-vitoria-de-ana-paula-no-bbb-26-veja-ranking-de-porcentagem-do-reality/" target="_blank" rel="noopener"&gt;BBB&lt;/a&gt; foi uma grande dor&amp;#8221; e que ela finalmente estava pronta para dividir suas análises com o público.&lt;/p&gt;
+&lt;aside class="read-too read-too--with-img"&gt;
+            &lt;h2 class='read-too__title'&gt;Leia Mais&lt;/h2&gt;
+            &lt;ul class="read-too__list"&gt;
+        &lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/pop/marcela-mc-gowan-e-luiza-martins-curtem-lua-de-mel-com-outro-casal-entenda/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/marcela-luiza-lua-de-mel.jpg?w=200"
+                    alt="Marcela Mc Gowan e Luiza Martins curtem lua de mel com outro casal; entenda"
+                    title="Marcela Mc Gowan e Luiza Martins curtem lua de mel com outro casal; entenda'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Marcela Mc Gowan e Luiza Martins curtem lua de mel com outro casal; entenda&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/pop/gil-do-vigor-revela-que-pediu-ex-namorada-em-casamento-em-3-semanas/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/gil-do-vigor.jpg?w=200"
+                    alt="Gil do Vigor revela que pediu ex-namorada em casamento em 3 semanas"
+                    title="Gil do Vigor revela que pediu ex-namorada em casamento em 3 semanas'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Gil do Vigor revela que pediu ex-namorada em casamento em 3 semanas&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/pop/bbb/bbb-25-karol-conka-explica-por-que-nao-estava-na-final-deste-ano/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/04/karol-conka.png?w=200"
+                    alt="BBB 25: Karol Conká explica por que não estava na final deste ano"
+                    title="BBB 25: Karol Conká explica por que não estava na final deste ano'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;BBB 25: Karol Conká explica por que não estava na final deste ano&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;    &lt;/ul&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;&amp;#8220;Até hoje, eu não consegui ver, me machucava muito, porque eu enxerguei a minha participação como um fracasso. Sei que muitos de vocês acharam que eu fui uma planta, e isso me magoou muito. Mas pra quem não sabe, na época, eu estava passando por um momento de depressão e ansiedade. E eu tive que interromper um tratamento com remédios porque vi que era uma grande oportunidade de me reconectar&amp;#8221;, compartilhou.&lt;/p&gt;
+&lt;p&gt;Gabi ainda afirmou que, dentro da casa, os participantes ficam &amp;#8220;se beliscando o tempo todo pra brigar&amp;#8221; e que, ela acredita, não ter entendido bem o jogo na época.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;A gente precisa ressignificar vários momentos de dor que a gente tem. E eu aprendi a ressignificar essa fase, que foi um machucado pra mim, uma cicatriz. Mas, a cicatriz faz parte do meu processo e é essa cicatriz que me fez me tornar quem eu sou hoje. Graças ao &lt;a href="https://www.cnnbrasil.com.br/pop/bbb/bbb-27-encerra-inscricoes-em-duas-regioes-veja-onde-ainda-esta-aberto/" target="_blank" rel="noopener"&gt;Big Brother,&lt;/a&gt; eu tenho vocês comigo e tenho muito orgulho de quem eu me tornei e de quem eu estou me tornando&amp;#8221;, completou.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;Ainda no relato, a cantora diz que decidiu ressignificar a experiência e aprender a enxergá-la com outros olhos. Martins ainda citou que, depois que saiu do programa, com mais de 5 milhões de seguidores, fechou diversas parcerias e lançou várias músicas com participações de pessoas a quem admirava.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;Será que foi o maior fracasso da minha vida? Ou foi o começo de uma linda jornada que eu estou trilhando? Tudo é questão do ângulo que você olha. E eu sei que tem muitos ângulos que a gente pode enxergar, que a gente deu o nosso melhor&amp;#8221;, finalizou a cantora.&lt;/p&gt;
+&lt;p&gt;No paredão em que foi eliminada, Gabi disputou com &lt;strong&gt;Thelma,&lt;/strong&gt; vencedora da edição, e &lt;strong&gt;Babu Santana.&lt;/strong&gt; No final, a artista saiu com 59,61% dos votos na 11º votação. Além dos posicionamentos e estratégias, o jogo da ex-participante também foi marcado por seu relacionamento com&lt;a href="https://www.cnnbrasil.com.br/entretenimento/bbb/quem-sao-todos-os-participantes-lgbt-que-estiveram-no-bbb/" target="_blank" rel="noopener"&gt; Guilherme Napolitano, 35. &lt;/a&gt;&lt;/p&gt;
+&lt;blockquote class="instagram-media" style="background: #FFF; border: 0; border-radius: 3px; box-shadow: 0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width: 540px; min-width: 326px; padding: 0; width: calc(100% - 2px);" data-instgrm-captioned="" data-instgrm-permalink="https://www.instagram.com/reel/DZa7Qveh8qJ/?utm_source=ig_embed&amp;amp;utm_campaign=loading" data-instgrm-version="14"&gt;
+&lt;div style="padding: 16px;"&gt;
+&lt;div style="display: flex; flex-direction: row; align-items: center;"&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"&gt;&lt;/div&gt;
+&lt;div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"&gt;&lt;/div&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="padding: 19% 0;"&gt;&lt;/div&gt;
+&lt;div style="display: block; height: 50px; margin: 0 auto 12px; width: 50px;"&gt;&lt;/div&gt;
+&lt;div style="padding-top: 8px;"&gt;
+&lt;div style="color: #3897f0; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: 550; line-height: 18px;"&gt;Ver essa foto no Instagram&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="padding: 12.5% 0;"&gt;&lt;/div&gt;
+&lt;div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"&gt;
+&lt;div&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"&gt;&lt;/div&gt;
+&lt;div style="background-color: #f4f4f4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"&gt;&lt;/div&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="margin-left: 8px;"&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"&gt;&lt;/div&gt;
+&lt;div style="width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg);"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="margin-left: auto;"&gt;
+&lt;div style="width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"&gt;&lt;/div&gt;
+&lt;div style="background-color: #f4f4f4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"&gt;&lt;/div&gt;
+&lt;div style="width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"&gt;&lt;/div&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; line-height: 17px; margin-bottom: 0; margin-top: 8px; overflow: hidden; padding: 8px 0 7px; text-align: center; text-overflow: ellipsis; white-space: nowrap;"&gt;&lt;a style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 17px; text-decoration: none;" href="https://www.instagram.com/reel/DZa7Qveh8qJ/?utm_source=ig_embed&amp;amp;utm_campaign=loading" target="_blank" rel="noopener"&gt;Um post compartilhado por Gabriela Martins (@gabimartins)&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;script async src="//www.instagram.com/embed.js"&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;*Sob supervisão de Flávio Ismerim, da CNN Brasil&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote class="wp-embedded-content" data-secret="zqFj8kMymx"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/entretenimento/gil-do-vigor-afirma-que-tentou-sair-com-mulheres-apos-o-bbb/"&gt;Gil do Vigor afirma que tentou sair com mulheres após o BBB&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Gil do Vigor afirma que tentou sair com mulheres após o BBB&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/entretenimento/gil-do-vigor-afirma-que-tentou-sair-com-mulheres-apos-o-bbb/embed/#?secret=CgMRyKx261#?secret=zqFj8kMymx" data-secret="zqFj8kMymx" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Thu, 11 Jun 2026 19:53:19 +0000</pubDate><guid>https://www.cnnbrasil.com.br/pop/realities/gabi-martins-sobre-bbb-20-vi-minha-participacao-como-um-fracasso/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/pop/realities/gabi-martins-sobre-bbb-20-vi-minha-participacao-como-um-fracasso/</guid></item><item><title>Juíza morta em coleta de óvulos: cirurgia só foi feita 28h após hemorragia</title><link>https://www.cnnbrasil.com.br/nacional/sudeste/sp/juiza-morta-coleta-de-ovulos-cirurgia-so-foi-feita-28h-apos-hemorragia/</link><description>&lt;p&gt;Duas médicas que atenderam a juíza Mariana Francisco Ferreira, que morreu após realizar um procedimento de coleta de óvulos, prestaram depoimento à Polícia Civil e informaram que alertaram inúmeras vezes sobre a necessidade de uma cirurgia de emergência para salvar a vida da magistrada.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;O procedimento, entretanto, foi autorizado pelo médico Maurício Ligabô, responsável pela coleta, somente cerca 28 horas após a entrada dela no Hospital e Maternidade Mogi-Mater.&lt;/p&gt;
+&lt;p&gt;Mariana passou pelo &lt;a href="https://www.cnnbrasil.com.br/nacional/sudeste/sp/juiza-morre-apos-passar-por-coleta-de-ovulos-em-clinica-de-reproducao-de-sp/" target="_blank" rel="noopener" data-textassist="true"&gt;procedimento de coleta de óvulos&lt;/a&gt; na Clínica Invitro Reprodução Assistida, em Mogi das Cruzes (SP), na manhã do dia 4 de maio.&lt;/p&gt;
+&lt;aside class="read-too read-too--with-img"&gt;
+            &lt;h2 class='read-too__title'&gt;Leia Mais&lt;/h2&gt;
+            &lt;ul class="read-too__list"&gt;
+        &lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/nacional/sudeste/rj/velorio-de-medica-morta-em-acao-da-pm-ocorre-nesta-terca-17-no-rio/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.preprod.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/03/Design-sem-nome-2026-03-16T121402.277.jpg?w=200"
+                    alt="Velório de médica morta em ação da PM ocorre nesta terça (17), no Rio"
+                    title="Velório de médica morta em ação da PM ocorre nesta terça (17), no Rio'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Velório de médica morta em ação da PM ocorre nesta terça (17), no Rio&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/nacional/sudeste/rj/ministerio-da-igualdade-racial-cobra-ssp-sobre-investigacao-de-medica-morta/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/03/assalto-gcm-2.png?w=200"
+                    alt="Ministério da Igualdade Racial cobra RJ sobre investigação de médica morta"
+                    title="Ministério da Igualdade Racial cobra RJ sobre investigação de médica morta'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Ministério da Igualdade Racial cobra RJ sobre investigação de médica morta&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/nacional/norte/am/caso-benicio-mensagens-revelam-oferta-de-dinheiro-para-video-adulterado/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/12/REVOGA-HC-MEDICA-CASO-BENICIO.png?w=200"
+                    alt="Caso Benício: mensagens revelam oferta de dinheiro para vídeo adulterado"
+                    title="Caso Benício: mensagens revelam oferta de dinheiro para vídeo adulterado'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Caso Benício: mensagens revelam oferta de dinheiro para vídeo adulterado&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;    &lt;/ul&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;Após o procedimento, a juíza voltou para casa e passou a sentir muita dor, momento em que retornou à clínica e foi encaminhada ao hospital com um quadro de hemorragia aguda.&lt;/p&gt;
+&lt;p&gt;A reportagem busca contato com a defesa do médico. Veja abaixo o que dizem todos os envolvidos citados.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;h2&gt;&lt;b&gt;Agravamento e morfina&lt;/b&gt;&lt;/h2&gt;
+&lt;p&gt;Uma das profissionais que atua no Hospital Mogi-Mater, informou à Polícia Civil que assumiu o plantão às 19h do dia 4 de maio, quando ficou sabendo sobre a gravidade do caso de Mariana, que apresentava hemoglobina baixa e a presença de líquido livre na cavidade uterina. O relato consta no depoimento ao qual a reportagem do Estado de São Paulo e o g1 tiveram acesso com exclusividade.&lt;/p&gt;
+&lt;p&gt;Ainda de acordo com o documento, apesar de considerar um &amp;#8220;quadro normal&amp;#8221; decorrente da &amp;#8220;hiperestimulação ovariana&amp;#8221; e a &amp;#8220;condição autorresolutiva&amp;#8221;, o médico informou que iria fazer &amp;#8220;um medicamento ginecológico para secagem do líquido&amp;#8221;.&lt;/p&gt;
+&lt;p&gt;O depoimento ainda narra que durante a madrugada, novos exames mostraram que o quadro de Mariana piorava, fazendo com que a equipe aplicasse morfina para amenizar a dor da paciente e entrasse em contato novamente com o médico. Ligabô retornou aos chamados na manhã do dia 5, informando que estava a caminho do hospital.&lt;/p&gt;
+&lt;h2&gt;&lt;b&gt;Alteração de sinais vitais e recusa de cirurgia&lt;/b&gt;&lt;/h2&gt;
+&lt;p&gt;Segundo a médica, na manhã do dia após a internação, a juíza apresentava todos os sinais característicos de sangramento excessivo além alteração de exames de imagem.&lt;/p&gt;
+&lt;p&gt;Ela informou que, apesar de não ser sua especialidade médica, entendeu que aquele era um caso que deveria ter passado por intervenção cirúrgica o quanto antes para identificação do foco da hemorragia.&lt;/p&gt;
+&lt;p&gt;Ainda de acordo com a profissional, ela informou Ligabô sobre a gravidade do caso, mas o médico se mostrou resistente e pediu novos exames e medicamentos. Ele foi avisado que casos como o de Mariana não deveriam ser conduzidos dessa maneira.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;Maurício (Ligabô) ancorou sua convicção em um diagnóstico de hiperestimulação ovariana, não indicando conduta cirúrgica&amp;#8221;, diz o trecho do depoimento ao qual o &lt;b&gt;Estadão&lt;/b&gt; teve acesso.&lt;/p&gt;
+&lt;p&gt;Sem melhora do quadro, a equipe médica do hospital mais uma vez contatou Ligabô para informar sobre a gravidade da paciente. Segundo o depoimento, &amp;#8220;Maurício foi avaliar pessoalmente Mariana e, na avaliação a beira leito, se deparou com alteração de sinais vitais, alteração clínica, sinais clínicos evidentes de gravidade, mas manteve sua conduta de não intervir cirurgicamente, arrimando sua hipótese diagnóstica na &amp;#8220;hiperestimulação ovariana&amp;#8221;.&lt;/p&gt;
+&lt;p&gt;Ele deixou o hospital por volta das 9h. Às 11h46, a profissional entrou novamente em contato com Ligabô, que informou que uma médica que integra a equipe dele na clínica iria até o hospital.&lt;/p&gt;
+&lt;p&gt;Quase três horas depois, o médico foi novamente alertado sobre a gravidade do quadro da paciente e questionando se ele compareceria ao hospital. Ele teria respondido que iria.&lt;/p&gt;
+&lt;h2&gt;&lt;b&gt;Interferência interna&lt;/b&gt;&lt;/h2&gt;
+&lt;p&gt;No depoimento, a médica disse ainda que recebeu uma ligação de outro médico do hospital informando que havia sido contatado por Ligabô, &amp;#8220;procurando indicação de outra equipe de intensivista para acompanhar Mariana, descreditando o trabalho da declarante&amp;#8221; e pedindo indicação de um cirurgião.&lt;/p&gt;
+&lt;p&gt;Ligabô retornou ao hospital somente às 18h30 do dia 5. Na visita, um outro profissional do hospital reiterou a gravidade da situação, mas Ligabô manteve sua hipótese diagnóstica.&lt;/p&gt;
+&lt;p&gt;Foi feito um procedimento de paracentese (introdução de uma agulha para punção do líquido) em Mariana para demonstrar que havia sangue e que precisaria da cirurgia com urgência.&lt;/p&gt;
+&lt;h2&gt;&lt;b&gt;&amp;#8216;Arruma um médico urgente para operar a paciente&amp;#8217;&lt;/b&gt;&lt;/h2&gt;
+&lt;p&gt;Ainda de acordo com a profissional, um outro colega teria dito a ela: &amp;#8220;arruma um médico urgente para operar a paciente, pois ela está lutando pela vida, não deixa isso quieto&amp;#8221;, demonstrando insatisfação com a conduta de Maurício Ligabô, diz o documento.&lt;/p&gt;
+&lt;p&gt;Mariana foi encaminhada ao centro cirúrgico por volta das 21h. &amp;#8220;Em oito anos, nunca vi um médico ali tão resistente e tão teimoso. Nunca vi isso [&amp;#8230;] A gente tem que orar a Deus agora, para a cirurgia ser boa e ele conseguir resolver o problema logo. Não era para estar acontecendo isso. &amp;#8216;Isso era para você ter resolvido já cedo&amp;#8217;, contou a profissional à polícia. Ainda de acordo com o relato Ligabô teria dado risada. &amp;#8220;Aí ele ficou rindo&amp;#8221;, diz um trecho do diálogo da equipe do hospital.&lt;/p&gt;
+&lt;p&gt;Mariana faleceu na manhã do dia 6, por volta das 6h.&lt;/p&gt;
+&lt;h2&gt;&lt;b&gt;O que dizem os envolvidos&lt;/b&gt;&lt;/h2&gt;
+&lt;p&gt;Em nota, a Secretaria de Segurança Pública (SSP) disse que a mãe da vítima compareceu à delegacia e confirmou que Mariana realizou uma coleta de óvulos para um tratamento de fertilização.&lt;/p&gt;
+&lt;p&gt;Após o procedimento, a mulher voltou para sua residência e sentiu muita dor, momento em que retornou à Clínica Invitro Reprodução Assistida. Posteriormente, foi encaminhada ao Hospital e Maternidade Mogi-Mater, localizada na Rua Marechal Deodoro, também em Mogi das Cruzes, com um quadro de hemorragia aguda. &amp;#8220;Ela passou por um procedimento cirúrgico, mas não resistiu&amp;#8221;, disse a secretaria.&lt;/p&gt;
+&lt;p&gt;O caso foi registrado como morte suspeita no 1° DP de Mogi das Cruzes, onde seguem em andamento as diligências para o esclarecimento dos fatos. O &lt;b&gt;Estadão&lt;/b&gt; procurou a Clínica Invitro Reprodução Assistida e aguarda retorno.&lt;/p&gt;
+&lt;p&gt;O Hospital e Maternidade Mogi-Mater disse que a paciente deu entrada apresentando um quadro de hemorragia aguda. &amp;#8220;Diante da gravidade do caso, ela foi prontamente atendida pela equipe do pronto-socorro e encaminhada imediatamente para a Unidade de Terapia Intensiva (UTI)&amp;#8221;, informou o hospital.&lt;/p&gt;
+&lt;p&gt;Conforme a rede hospitalar, desde a admissão, todas as medidas médicas e assistenciais cabíveis foram adotadas de forma incansável pelas equipes multiprofissionais, com o objetivo de estabilizar o quadro clínico da paciente.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;Como ela não havia realizado nenhum procedimento anterior no hospital, o médico responsável pela clínica foi acionado para acompanhar o caso e assim o fez, incluindo no procedimento cirúrgico realizado na terça-feira, 5. &amp;#8220;Apesar de todos os esforços empregados pela equipe hospitalar, infelizmente ela veio a óbito no dia seguinte&amp;#8221;, disse o hospital ao lamentar a morte.&lt;/p&gt;
+&lt;h2&gt;&lt;b&gt;Quem era a juíza&lt;/b&gt;&lt;/h2&gt;
+&lt;p&gt;Nascida em Niterói, no Rio de Janeiro, Mariana Francisco Ferreira dizia que tinha o &lt;a href="https://www.cnnbrasil.com.br/nacional/sudeste/sp/quem-era-juiza-que-morreu-apos-passar-por-coleta-de-ovulos-em-clinica-de-sp/" target="_blank" rel="noopener" data-textassist="true"&gt;sonho de se tornar juíza&lt;/a&gt; desde a adolescência. Ingressou no Poder Judiciário do Rio Grande do Sul em dezembro de 2023, quando passou no concurso e foi designada para a 1ª Vara Judicial da Comarca de Parobé.&lt;/p&gt;
+&lt;p&gt;Exerceu também a magistratura na 1ª Vara Regional de Garantias na Comarca de Porto Alegre na 1ª e 2ª Vara Criminal de São Luiz Gonzaga antes de chegar ao Juizado da Vara Criminal de Sapiranga, em fevereiro deste ano.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Thu, 11 Jun 2026 19:52:45 +0000</pubDate><guid>https://www.cnnbrasil.com.br/nacional/sudeste/sp/juiza-morta-coleta-de-ovulos-cirurgia-so-foi-feita-28h-apos-hemorragia/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/nacional/sudeste/sp/juiza-morta-coleta-de-ovulos-cirurgia-so-foi-feita-28h-apos-hemorragia/</guid></item></channel></rss>
