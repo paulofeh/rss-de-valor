@@ -1,7 +1,7 @@
 <opml version="2.0">
     <head>
         <title>RSS de Colunistas</title>
-        <dateCreated>Thu, 18 Jun 2026 10:28:02 GMT</dateCreated>
+        <dateCreated>Thu, 18 Jun 2026 15:31:20 GMT</dateCreated>
         <ownerName>RSS Scraper</ownerName>
         </head>
     <body>
@@ -75,7 +75,7 @@
                 <outline type="rss" text="Marcelo Viana" title="Marcelo Viana" xmlUrl="https://feeds.folha.uol.com.br/colunas/marceloviana/rss091.xml" />
                 <outline type="rss" text="Marcos Lisboa" title="Marcos Lisboa" xmlUrl="https://feeds.folha.uol.com.br/colunas/marcos-lisboa/rss091.xml" />
                 <outline type="rss" text="Marcos Mendes" title="Marcos Mendes" xmlUrl="https://feeds.folha.uol.com.br/colunas/marcos-mendes/rss091.xml" />
-                <outline type="rss" text="Maria Hermínia Tavares" title="Maria Hermínia Tavares" xmlUrl="https://feeds.folha.uol.com.br/colunas/maria-herminia-tavares/rss091.xml" />
+                <outline type="rss" text="Maria Hermínia Tavares" title="Maria Hermínia Tavares" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/maria_herminia_feed.xml" />
                 <outline type="rss" text="Mariliz Pereira Jorge" title="Mariliz Pereira Jorge" xmlUrl="https://feeds.folha.uol.com.br/colunas/marilizpereirajorge/rss091.xml" />
                 <outline type="rss" text="Martin Wolf" title="Martin Wolf" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/martin_wolf_feed.xml" />
                 <outline type="rss" text="Rodrigo Zeidan" title="Rodrigo Zeidan" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/rodrigo_zeidan_feed.xml" />
