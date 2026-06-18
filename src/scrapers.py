@@ -171,6 +171,10 @@ class ExistingRssScraper(BaseScraper):
 class FolhaRssFullContentScraper(ExistingRssScraper):
     """Scraper for Folha RSS feeds that enriches items with full article content."""
 
+    DEFAULT_AUTHORS = {
+        'maria-herminia-tavares': 'Maria Hermínia Tavares',
+    }
+
     @staticmethod
     def _resolve_folha_redirect(url):
         """Return the article URL hidden behind Folha's RSS redirection URL."""
@@ -183,6 +187,12 @@ class FolhaRssFullContentScraper(ExistingRssScraper):
     def _parse_item(self, item):
         article = super()._parse_item(item)
         article['link'] = self._resolve_folha_redirect(article['link'])
+
+        if article.get('author') == 'Autor não encontrado':
+            for slug, author in self.DEFAULT_AUTHORS.items():
+                if slug in self.url:
+                    article['author'] = author
+                    break
 
         content = self._fetch_article_content(article['link'])
         if content:

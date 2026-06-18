@@ -691,7 +691,7 @@
     {
       "name": "Maria Hermínia Tavares",
       "url": "https://feeds.folha.uol.com.br/colunas/maria-herminia-tavares/rss091.xml",
-      "scraper": "ExistingRssScraper",
+      "scraper": "FolhaRssFullContentScraper",
       "feed_file": "maria_herminia_feed.xml",
       "history_file": "maria_herminia_history.json",
       "group": "folha"
