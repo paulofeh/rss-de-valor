@@ -1,5 +1,284 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel xmlns:atom="http://www.w3.org/2005/Atom"><title>Repórter Brasil Socioambiental</title><link>https://reporterbrasil.org.br/jornalismo/socioambiental/</link><description>Últimos artigos de Repórter Brasil Socioambiental</description><atom:link href="https://paulofeh.github.io/rss-de-valor/feeds/rep%C3%B3rter_brasil_socioambiental_feed.xml" rel="self"/><language>pt-br</language><lastBuildDate>Mon, 22 Jun 2026 10:00:00 +0000</lastBuildDate><ttl>60</ttl><item><title>Quilombolas relatam perda de acesso à terra com produção de biocombustível na BA</title><link>https://reporterbrasil.org.br/2026/06/quilombolas-perda-acesso-terra-biocombustivel-macauba/</link><description>		&lt;div data-elementor-type="wp-post" data-elementor-id="131110" class="elementor elementor-131110" data-elementor-post-type="post"&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel xmlns:atom="http://www.w3.org/2005/Atom"><title>Repórter Brasil Socioambiental</title><link>https://reporterbrasil.org.br/jornalismo/socioambiental/</link><description>Últimos artigos de Repórter Brasil Socioambiental</description><atom:link href="https://paulofeh.github.io/rss-de-valor/feeds/rep%C3%B3rter_brasil_socioambiental_feed.xml" rel="self"/><language>pt-br</language><lastBuildDate>Wed, 24 Jun 2026 09:00:00 +0000</lastBuildDate><ttl>60</ttl><item><title>Unicamp e revista científica abrem apuração sobre estudo financiado por sojeiros sobre agrotóxico</title><link>https://reporterbrasil.org.br/2026/06/unicamp-apuracao-sobre-estudo-financiado-por-sojeiros-agrotoxico/</link><description>
+&lt;p&gt;&lt;strong&gt;A UNICAMP&lt;/strong&gt; (Universidade Estadual de Campinas) e a revista científica IAJMH (InterAmerican Journal of Medicine and Health) abriram procedimentos para apurar possíveis conflitos de interesses em um estudo que investigou os efeitos da exposição do glifosato, um dos agrotóxicos mais utilizados no mundo, sobre trabalhadores rurais. A decisão ocorre &lt;a href="https://reporterbrasil.org.br/2020/07/unicamp-suspende-pesquisa-que-poderia-liberar-agrotoxico-letal/" target="_blank" rel="noreferrer noopener"&gt;após investigação&lt;/a&gt; da &lt;strong&gt;Repórter Brasil.&lt;/strong&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;a href="https://iajmh.emnuvens.com.br/iajmh/article/view/124" target="_blank" rel="noreferrer noopener"&gt;Publicado em 2020&lt;/a&gt;, o estudo concluiu que os níveis do herbicida encontrados na urina de trabalhadores do município de Nova Mutum (MT), importante polo produtor de grãos, estavam abaixo dos limites considerados aceitáveis pelos órgãos reguladores brasileiros.&lt;/p&gt;
+
+
+
+&lt;p&gt;A pesquisa foi financiada pela Aprosoja-MT (Associação dos Produtores de Soja e Milho de Mato Grosso). Documentos analisados pela reportagem indicam que a entidade participou diretamente de etapas cruciais do trabalho, incluindo a seleção dos trabalhadores, a indicação de laboratórios responsáveis por análises clínicas e a logística de coleta e transporte das amostras.&lt;/p&gt;
+
+
+		&lt;div data-elementor-type="section" data-elementor-id="77670" class="elementor elementor-77670" data-elementor-post-type="elementor_library"&gt;
+			&lt;div class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-e-type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}"&gt;
+					&lt;div class="e-con-inner"&gt;
+				&lt;div class="elementor-element elementor-element-386385d elementor-widget elementor-widget-heading" data-id="386385d" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+					&lt;h2 class="elementor-heading-title elementor-size-default"&gt;ASSINE NOSSA NEWSLETTER&lt;/h2&gt;				&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class="elementor-element elementor-element-6546917 elementor-widget elementor-widget-html" data-id="6546917" data-element_type="widget" data-e-type="widget" data-widget_type="html.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+					&lt;script&gt;
+document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll('.form-news button[type="submit"]').forEach(function(botao) {
+        botao.classList.add("envio_newsletter_materia");
+    });
+});
+&lt;/script&gt;				&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class="elementor-element elementor-element-8c2e333 form-news elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="8c2e333" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;button_width&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_next_label&amp;quot;:&amp;quot;Next&amp;quot;,&amp;quot;step_previous_label&amp;quot;:&amp;quot;Previous&amp;quot;,&amp;quot;button_width_mobile&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_type&amp;quot;:&amp;quot;number_text&amp;quot;,&amp;quot;step_icon_shape&amp;quot;:&amp;quot;circle&amp;quot;}" data-widget_type="form.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
+			&lt;input type="hidden" name="post_id" value="77670"/&gt;
+			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
+			&lt;input type="hidden" name="referer_title" value="Morre Tuíre, a guerreira Kayapó que parou a construção de Belo Monte com um facão - Repórter Brasil" /&gt;
+
+							&lt;input type="hidden" name="queried_id" value="87990"/&gt;
+			
+			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
+								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
+												&lt;label for="form-field-email" class="elementor-field-label elementor-screen-only"&gt;
+								Email							&lt;/label&gt;
+														&lt;input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="email" required="required"&gt;
+											&lt;/div&gt;
+								&lt;div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-20 e-form__buttons elementor-sm-20"&gt;
+					&lt;button class="elementor-button elementor-size-sm" type="submit"&gt;
+						&lt;span class="elementor-button-content-wrapper"&gt;
+															&lt;span class="elementor-button-icon"&gt;
+									&lt;i aria-hidden="true" class="fas fa-long-arrow-alt-right"&gt;&lt;/i&gt;																			&lt;span class="elementor-screen-only"&gt;Submit&lt;/span&gt;
+																	&lt;/span&gt;
+																				&lt;/span&gt;
+					&lt;/button&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/form&gt;
+						&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;/div&gt;
+		
+
+
+
+&lt;p&gt;“No caso deste artigo, foram apresentados à revista tanto o formulário padrão de declaração de conflitos de interesse quanto o termo de responsabilidade assinado pelos autores, no qual se certifica não haver omissão de vínculos de financiamento ou acordos com partes interessadas na publicação. É justamente a aparente discrepância entre essas declarações e as informações agora noticiadas que motiva a apuração da revista”, afirma André Ricardo Ribas Freitas, editor da IAJMH, em nota enviada à &lt;strong&gt;Repórter Brasil&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+&lt;p&gt;Os estudos foram conduzidos sob orientação do professor Paulo César Pires Rosa, docente da Faculdade de Ciências Farmacêuticas da Unicamp e atual coordenador da graduação em Farmácia.&lt;/p&gt;
+
+
+
+&lt;p&gt;Durante &lt;a href="https://www.youtube.com/live/UYzPaVFL-Ko?t=12988s" target="_blank" rel="noreferrer noopener"&gt;reunião do Conselho Universitário&lt;/a&gt; realizada em abril de 2025, a procuradora-chefe da Unicamp, Fernanda Silvado, afirmou haver “um claro conflito de interesses” nas pesquisas. Em sua avaliação, a Aprosoja-MT era “financiadora e interessada na pesquisa, e ela também escolhia os trabalhadores, os laboratórios que faziam as análises clínicas das amostras”.&lt;/p&gt;
+
+
+
+&lt;p&gt;O entendimento aparece também no relatório de uma sindicância sobre o caso conduzida pela universidade. O documento concluiu que a associação sojeira, descrita como “financiadora e maior interessada no resultado da pesquisa”, participou da contratação do laboratório responsável pelas análises, da seleção dos trabalhadores rurais e da logística de coleta e envio das amostras.&lt;/p&gt;
+
+
+
+&lt;p&gt;Diferentemente da sindicância, que analisou a atuação funcional de Rosa e o eventual descumprimento de seu regime de dedicação exclusiva, a nova apuração deverá avaliar aspectos relacionados à integridade científica da pesquisa. O objetivo é verificar se o conflito de interesses identificado pela universidade pode ter comprometido a condução do estudo ou a forma como seus resultados foram apresentados.&lt;/p&gt;
+
+
+
+&lt;p&gt;Para Sergio Rego, pesquisador da Fiocruz e membro do Comitê de Integridade em Pesquisa da instituição, denúncias sobre potenciais conflitos de interesses justificam novas apurações por parte das universidades.&lt;/p&gt;
+
+
+
+&lt;p&gt;“Havendo uma suspeita ou uma denúncia, a universidade pode avaliar outros casos para verificar se houve situação semelhante. Se entender que os controles necessários não foram garantidos, pode recomendar a interrupção da pesquisa ou, no caso de estudos já publicados, sua retratação”, afirmou.&lt;/p&gt;
+
+
+
+&lt;p&gt;A IAJMH informou à&lt;strong&gt; Repórter Brasil &lt;/strong&gt;que também revisará o histórico editorial do artigo científico.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;“A seção de agradecimentos do artigo, tal como submetido e publicado, menciona a Aprosoja-MT em relação ao fornecimento de amostras. Não foi apresentada à revista, durante o processo editorial, informação adicional sobre a seleção dos participantes ou sobre eventual apoio financeiro da entidade além do que constava no manuscrito. A apuração incluirá a verificação de todo o histórico do processo editorial”, afirma o&amp;nbsp; editor da publicação. Leia a resposta completa.&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Como a Aprosoja participou da pesquisa&lt;/strong&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;Os estudos começaram em 2016, quando a Anvisa (Agência Nacional de Vigilância Sanitária) reavaliava o registro de dois dos herbicidas mais utilizados no país: glifosato e paraquate.&lt;/p&gt;
+
+
+
+&lt;p&gt;Documentos e depoimentos obtidos pela&lt;strong&gt; Repórter Brasil &lt;/strong&gt;indicam que a Aprosoja-MT não se limitou ao financiamento das pesquisas. A entidade também participou da escolha dos trabalhadores rurais incluídos nos estudos, indicou propriedades rurais e auxiliou na logística de coleta e envio das amostras analisadas pela universidade.&lt;/p&gt;
+
+
+
+&lt;p&gt;Diferentemente do estudo sobre paraquate — &lt;a href="https://reporterbrasil.org.br/2020/07/unicamp-suspende-pesquisa-que-poderia-liberar-agrotoxico-letal/" target="_blank" rel="noreferrer noopener"&gt;suspenso pelo Comitê de Ética em Pesquisa&lt;/a&gt; da Unicamp em 2020, após investigação da &lt;strong&gt;Repórter Brasil &lt;/strong&gt;sobre conflito de interesses — a pesquisa sobre glifosato, uma dissertação de mestrado, foi apresentada a uma banca avaliadora e publicada em uma revista científica.&lt;/p&gt;
+
+
+
+&lt;p&gt;Na dissertação de mestrado defendida em 2018 sob orientação do professor Paulo César Pires Rosa, a autora agradece à Aprosoja-MT pela “parceria, apoio financeiro e contribuição na seleção e na realização das coletas das amostras dos voluntários incluídos neste estudo”.&lt;/p&gt;
+
+
+
+&lt;p&gt;Naquele mesmo ano, durante uma &lt;a href="https://www1.folha.uol.com.br/mercado/2018/08/estudo-financiado-por-sojicultores-minimiza-riscos-do-glifosato.shtml" target="_blank" rel="noreferrer noopener"&gt;coletiva de imprensa organizada pela própria Aprosoja-MT&lt;/a&gt;, Rosa explicou a participação da entidade. “A Aprosoja arcou com os custos de reagentes e materiais para analisar essas amostras. E o sindicato rural indicou os trabalhadores, segundo os nossos critérios de inclusão e exclusão”, afirmou.&lt;/p&gt;
+
+
+
+&lt;p&gt;Durante depoimento prestado à universidade, o médico Ângelo Trapé, ex-professor da Unicamp e fundador do Inpes (Instituto de Pesquisas e Educação em Saúde),entidade que captou recursos para a pesquisa sobre o paraquate — hoje proibido no Brasil —, também confirmou a participação da Aprosoja-MT na seleção dos participantes.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;&amp;nbsp;“No projeto submetido ao CEP [Comitê de Ética em Pesquisa] da Pós-Graduação constava que seria o indiciado e a aluna quem selecionariam os participantes, mas que, posteriormente, constatou-se uma participação da Aprosoja nessa seleção”, diz um trecho da ata do depoimento do professor aposentado.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Trapé também relatou que o envio das análises à Unicamp foi feito pela própria associação. A conclusão do comitê foi a de que as práticas configuravam “conflito de interesses”.&lt;/p&gt;
+
+
+
+&lt;p&gt;Embora a dissertação de mestrado e os depoimentos prestados à universidade descrevam uma ampla participação da Aprosoja-MT na pesquisa, a revista informou que o artigo publicado menciona a entidade apenas em relação ao fornecimento de amostras.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;h2 class="wp-block-heading"&gt;Processo disciplinar&lt;/h2&gt;
+
+
+
+&lt;p&gt;O nome de Paulo César Pires Rosa já havia sido &lt;a href="https://reporterbrasil.org.br/2025/07/associacao-sojeiros-mt-amostras-estudo-agrotoxicos-unicamp/" target="_blank" rel="noreferrer noopener"&gt;alvo de apuração interna na universidade&lt;/a&gt;. Em agosto de 2025, o Conselho Universitário da Unicamp concluiu que o docente descumpriu o regime de dedicação exclusiva ao prestar serviços ao Inpes, entidade criada por Trapé.&lt;/p&gt;
+
+
+
+&lt;p&gt;Rosa obteve com agências públicas de fomento cerca de R$ 67 mil em bolsas de mestrado e doutorado, além de outros recursos destinados aos estudos sobre glifosato e paraquate, segundo relatório de atividades encaminhado por ele próprio à universidade.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Além de uma suspensão de 15 dias, a universidade determinou a devolução de parte dos salários recebidos por Rosa entre 2018 e 2020. O Conselho Universitário concluiu que o professor exerceu sem autorização atividades como diretor científico do Inpes, descumprindo o regime de dedicação exclusiva exigido pela Unicamp. Segundo cálculos da reportagem, o valor cobrado pode chegar a cerca de R$ 200 mil. A devolução dos recursos, porém, está suspensa por decisão judicial, a pedido de Rosa.&lt;/p&gt;
+
+
+
+&lt;p&gt;Ao longo do processo disciplinar, o professor negou irregularidades. Em mensagens enviadas à &lt;strong&gt;Repórter Brasil &lt;/strong&gt;no ano passado, afirmou que não era o responsável pelas pesquisas. “As pesquisas não foram sobre [sic] minha coordenação, era do prof. Ângelo”, declarou, em referência ao colega Ângelo Trapé.&lt;/p&gt;
+
+
+
+&lt;p&gt;Nos autos do processo administrativo, Rosa também contestou as conclusões da universidade sobre conflito de interesses. “Embora a Aprosoja tenha participado da escolha dos trabalhadores e laboratórios envolvidos nos estudos, não houve sequer uma ingerência sobre o trabalho realizado”, relatou.&lt;/p&gt;
+
+
+
+&lt;p&gt;Procurados pela &lt;strong&gt;Repórter Brasil,&lt;/strong&gt; os advogados do professor não responderam aos questionamentos sobre as conclusões da universidade a respeito do conflito de interesses nas pesquisas, sobre eventual devolução de recursos à Unicamp ou sobre a possibilidade de revisão do estudo do glifosato. Em nota, afirmaram apenas que o caso está judicializado e que aguardam o resultado final do processo para eventual manifestação.&lt;/p&gt;
+
+
+
+&lt;p&gt;Para Sergio Rego, pesquisador da Fiocruz, a existência de um&amp;nbsp; conflito de interesses não é necessariamente um obstáculo, desde que seja reconhecido e controlado.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;“O grande problema é que muitas pessoas acreditam que esse tipo de influência afeta apenas a prática dos outros, e não a própria”. “Quando esse risco não é reconhecido, ele pode interferir na seleção dos participantes, na análise dos dados e, consequentemente, nos resultados da pesquisa”, complementa.&lt;/p&gt;
+
+
+
+&lt;h2 class="wp-block-heading"&gt;O estudo do glifosato&lt;/h2&gt;
+
+
+
+&lt;p&gt;A pesquisa analisou amostras de urina de trabalhadores rurais de Nova Mutum (MT), uma das principais regiões produtoras de soja e milho do país.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Segundo os autores, os resíduos de glifosato foram identificados em apenas 11% das 90 amostras coletadas entre agosto e setembro de 2017. Em todos os casos, as concentrações eram inferiores aos limites considerados aceitáveis por órgãos reguladores nacionais e internacionais.&lt;/p&gt;
+
+
+
+&lt;p&gt;Durante apresentação dos resultados em 2018, na sede da Aprosoja-MT, Rosa afirmou que o estudo ajudava a “desmistificar” os riscos relacionados ao herbicida. “O glifosato não é cumulativo. Depois de três horas da exposição, é praticamente todo eliminado do organismo. Os resultados mostraram isso de forma inequívoca”, declarou.&lt;/p&gt;
+
+
+
+&lt;p&gt;Na época, a Anvisa concluía a reavaliação toxicológica da substância. Em 2019, a agência decidiu manter o glifosato no mercado brasileiro, mas determinou alterações na rotulagem, na classificação toxicológica e nas medidas de proteção para trabalhadores expostos ao produto.&lt;/p&gt;
+
+
+
+&lt;p&gt;A Aprosoja-MT e outras entidades do agronegócio atuaram publicamente em defesa da manutenção do herbicida e divulgaram os resultados do estudo da Unicamp durante aquele debate. A SRB (Sociedade Rural Brasileira), por exemplo, chegou a &lt;a href="https://www.srb.org.br/srb-defende-uso-de-glifosato-em-consulta-publica-da-anvisa/" target="_blank" rel="noreferrer noopener"&gt;citar a pesquisa&lt;/a&gt; ao defender que não havia justificativas para a proibição da substância.&lt;/p&gt;
+
+
+
+&lt;p&gt;Procurada pela &lt;strong&gt;Repórter Brasil &lt;/strong&gt;em julho de 2025, a Anvisa afirmou que não utilizou os resultados do estudo da Unicamp em sua reavaliação do glifosato. Segundo a agência, a pesquisa não foi protocolada pela Aprosoja-MT para subsidiar a análise técnica do herbicida e sua publicação ocorreu após a consulta pública realizada em 2019.&lt;/p&gt;
+
+
+
+&lt;p&gt;A agência informou ainda que a decisão de manter o glifosato no mercado brasileiro foi tomada com base em pareceres técnicos próprios, contribuições recebidas durante a consulta pública, avaliações de consultores externos e análises de agências reguladoras internacionais. &lt;a href="https://reporterbrasil.org.br/2026/06/manifestacao-para-materia-sobre-glifosato/" target="_blank" rel="noreferrer noopener"&gt;Confira a resposta completa.&lt;/a&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;A controvérsia sobre os efeitos do herbicida continua. Em maio deste ano, o MPT (Ministério Público do Trabalho) ajuizou &lt;a href="https://reporterbrasil.org.br/2026/05/nao-existe-uso-totalmente-seguro-procurador-banir-glifosato/" target="_blank" rel="noreferrer noopener"&gt;ação civil pública pedindo o banimento do glifosato&lt;/a&gt; no país. A ação sustenta que há evidências suficientes dos riscos da substância à saúde humana e questiona a decisão da Anvisa de manter seu registro.&lt;/p&gt;
+
+
+
+&lt;p&gt;Para Pedro Luiz Serafim, subprocurador-geral do Trabalho e coordenador do Fórum Nacional de Combate aos Impactos dos Agrotóxicos, os fatos revelados pela&lt;strong&gt; Repórter Brasil&lt;/strong&gt; podem justificar novas apurações sobre a relação entre financiamento privado e pesquisas acadêmicas.&lt;/p&gt;
+
+
+
+&lt;p&gt;“Pode ser a ponta do iceberg. É razoável que o Ministério Público Federal, o Ministério Público do Trabalho ou os órgãos competentes da Unicamp verifiquem se há outros casos semelhantes”, afirma.&lt;/p&gt;
+
+
+		&lt;div data-elementor-type="section" data-elementor-id="129686" class="elementor elementor-129686" data-elementor-post-type="elementor_library"&gt;
+			&lt;a class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-e-type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}" href="https://reporterbrasil.org.br/apoie/"&gt;
+					&lt;div class="e-con-inner"&gt;
+				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+															&lt;img fetchpriority="high" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/a&gt;
+				&lt;/div&gt;
+		
+
+
+
+&lt;p&gt;&lt;strong&gt;25 anos investigando para mudar.&lt;/strong&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;A Repórter Brasil já ajudou a impulsionar leis, fortalecer direitos e combater o trabalho escravo.&lt;/strong&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Em 2026, fazemos 25 anos — e vem muito mais por aí!&lt;/strong&gt;&lt;/p&gt;
+
+
+		&lt;div data-elementor-type="container" data-elementor-id="75228" class="elementor elementor-75228" data-elementor-post-type="elementor_library"&gt;
+				&lt;div class="elementor-element elementor-element-5e8db1e6 e-flex e-con-boxed e-con e-parent" data-id="5e8db1e6" data-element_type="container" data-e-type="container"&gt;
+					&lt;div class="e-con-inner"&gt;
+		&lt;div class="elementor-element elementor-element-36eb6c91 e-flex e-con-boxed e-con e-child" data-id="36eb6c91" data-element_type="container" data-e-type="container"&gt;
+					&lt;div class="e-con-inner"&gt;
+		&lt;div class="elementor-element elementor-element-6f52f515 e-con-full e-flex e-con e-child" data-id="6f52f515" data-element_type="container" data-e-type="container"&gt;
+				&lt;div class="elementor-element elementor-element-65d9f401 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="65d9f401" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+							&lt;div class="elementor-divider"&gt;
+			&lt;span class="elementor-divider-separator"&gt;
+						&lt;/span&gt;
+		&lt;/div&gt;
+						&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;/div&gt;
+		&lt;div class="elementor-element elementor-element-134a1245 e-flex e-con-boxed e-con e-child" data-id="134a1245" data-element_type="container" data-e-type="container"&gt;
+					&lt;div class="e-con-inner"&gt;
+				&lt;div class="elementor-element elementor-element-10fe55fe elementor-widget elementor-widget-text-editor" data-id="10fe55fe" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+									&lt;p&gt;Leia também&lt;/p&gt;								&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class="elementor-element elementor-element-3c9495ae elementor-grid-1 leia-tambem elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid" data-id="3c9495ae" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;template_id&amp;quot;:&amp;quot;75221&amp;quot;,&amp;quot;columns&amp;quot;:1,&amp;quot;row_gap&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:10,&amp;quot;sizes&amp;quot;:[]},&amp;quot;_skin&amp;quot;:&amp;quot;post&amp;quot;,&amp;quot;columns_tablet&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;columns_mobile&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;edit_handle_selector&amp;quot;:&amp;quot;[data-elementor-type=\&amp;quot;loop-item\&amp;quot;]&amp;quot;,&amp;quot;row_gap_tablet&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]},&amp;quot;row_gap_mobile&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]}}" data-widget_type="loop-grid.post"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+							&lt;div class="e-loop-nothing-found-message"&gt;
+		&lt;/div&gt;
+						&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;/div&gt;
+		
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Bruna Borges</dc:creator><pubDate>Wed, 24 Jun 2026 09:00:00 +0000</pubDate><guid>https://reporterbrasil.org.br/2026/06/unicamp-apuracao-sobre-estudo-financiado-por-sojeiros-agrotoxico/</guid><guid isPermaLink="true">https://reporterbrasil.org.br/2026/06/unicamp-apuracao-sobre-estudo-financiado-por-sojeiros-agrotoxico/</guid></item><item><title>Quilombolas relatam perda de acesso à terra com produção de biocombustível na BA</title><link>https://reporterbrasil.org.br/2026/06/quilombolas-perda-acesso-terra-biocombustivel-macauba/</link><description>		&lt;div data-elementor-type="wp-post" data-elementor-id="131110" class="elementor elementor-131110" data-elementor-post-type="post"&gt;
 				&lt;div class="elementor-element elementor-element-8f6037b e-flex e-con-boxed e-con e-parent" data-id="8f6037b" data-element_type="container" data-e-type="container"&gt;
 					&lt;div class="e-con-inner"&gt;
 				&lt;div class="elementor-element elementor-element-62cccbd elementor-widget elementor-widget-text-editor" data-id="62cccbd" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default"&gt;
@@ -27,7 +306,7 @@
 				&lt;div class="elementor-element elementor-element-7ddca35 elementor-widget elementor-widget-image" data-id="7ddca35" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 												&lt;figure class="wp-caption"&gt;
-										&lt;img fetchpriority="high" decoding="async" width="800" height="927" src="https://reporterbrasil.org.br/wp-content/uploads/2026/06/macauba-2-884x1024.png" class="attachment-large size-large wp-image-131317" alt="" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/06/macauba-2-884x1024.png 884w, https://reporterbrasil.org.br/wp-content/uploads/2026/06/macauba-2-259x300.png 259w, https://reporterbrasil.org.br/wp-content/uploads/2026/06/macauba-2-768x889.png 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/06/macauba-2-1327x1536.png 1327w, https://reporterbrasil.org.br/wp-content/uploads/2026/06/macauba-2.png 1350w" sizes="(max-width: 800px) 100vw, 800px" /&gt;											&lt;figcaption class="widget-image-caption wp-caption-text"&gt;Arte: Rodrigo Bento/Repórter Brasil&lt;/figcaption&gt;
+										&lt;img decoding="async" width="800" height="927" src="https://reporterbrasil.org.br/wp-content/uploads/2026/06/macauba-2-884x1024.png" class="attachment-large size-large wp-image-131317" alt="" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/06/macauba-2-884x1024.png 884w, https://reporterbrasil.org.br/wp-content/uploads/2026/06/macauba-2-259x300.png 259w, https://reporterbrasil.org.br/wp-content/uploads/2026/06/macauba-2-768x889.png 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/06/macauba-2-1327x1536.png 1327w, https://reporterbrasil.org.br/wp-content/uploads/2026/06/macauba-2.png 1350w" sizes="(max-width: 800px) 100vw, 800px" /&gt;											&lt;figcaption class="widget-image-caption wp-caption-text"&gt;Arte: Rodrigo Bento/Repórter Brasil&lt;/figcaption&gt;
 										&lt;/figure&gt;
 									&lt;/div&gt;
 				&lt;/div&gt;
@@ -155,7 +434,7 @@ document.addEventListener("DOMContentLoaded", function() {
 				&lt;div class="elementor-element elementor-element-af14a05 elementor-widget elementor-widget-image" data-id="af14a05" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 												&lt;figure class="wp-caption"&gt;
-										&lt;img decoding="async" width="800" height="533" src="https://reporterbrasil.org.br/wp-content/uploads/2026/06/supressao-vegetal-fazenda-campina-ba880-fernando-martinho-1024x682.jpg" class="attachment-large size-large wp-image-131251" alt="" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/06/supressao-vegetal-fazenda-campina-ba880-fernando-martinho-1024x682.jpg 1024w, https://reporterbrasil.org.br/wp-content/uploads/2026/06/supressao-vegetal-fazenda-campina-ba880-fernando-martinho-300x200.jpg 300w, https://reporterbrasil.org.br/wp-content/uploads/2026/06/supressao-vegetal-fazenda-campina-ba880-fernando-martinho-768x511.jpg 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/06/supressao-vegetal-fazenda-campina-ba880-fernando-martinho.jpg 1200w" sizes="(max-width: 800px) 100vw, 800px" /&gt;											&lt;figcaption class="widget-image-caption wp-caption-text"&gt;Área de supressão vegetal nas proximidades das plantações de macaúba, onde é possível ver as madeiras empilhadas. Autoridades e moradores dizem que o corte de árvores pode ser resultado da especulação imobiliária como ocorre quando há chegada de um novo empreendimento (Foto: Fernando Martinho/Repórter Brasil/27 de abril de 2026)&lt;/figcaption&gt;
+										&lt;img loading="lazy" decoding="async" width="800" height="533" src="https://reporterbrasil.org.br/wp-content/uploads/2026/06/supressao-vegetal-fazenda-campina-ba880-fernando-martinho-1024x682.jpg" class="attachment-large size-large wp-image-131251" alt="" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/06/supressao-vegetal-fazenda-campina-ba880-fernando-martinho-1024x682.jpg 1024w, https://reporterbrasil.org.br/wp-content/uploads/2026/06/supressao-vegetal-fazenda-campina-ba880-fernando-martinho-300x200.jpg 300w, https://reporterbrasil.org.br/wp-content/uploads/2026/06/supressao-vegetal-fazenda-campina-ba880-fernando-martinho-768x511.jpg 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/06/supressao-vegetal-fazenda-campina-ba880-fernando-martinho.jpg 1200w" sizes="(max-width: 800px) 100vw, 800px" /&gt;											&lt;figcaption class="widget-image-caption wp-caption-text"&gt;Área de supressão vegetal nas proximidades das plantações de macaúba, onde é possível ver as madeiras empilhadas. Autoridades e moradores dizem que o corte de árvores pode ser resultado da especulação imobiliária como ocorre quando há chegada de um novo empreendimento (Foto: Fernando Martinho/Repórter Brasil/27 de abril de 2026)&lt;/figcaption&gt;
 										&lt;/figure&gt;
 									&lt;/div&gt;
 				&lt;/div&gt;
@@ -218,7 +497,7 @@ document.addEventListener("DOMContentLoaded", function() {
 					&lt;div class="e-con-inner"&gt;
 				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
-															&lt;img loading="lazy" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
+															&lt;img fetchpriority="high" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/a&gt;
@@ -374,7 +653,7 @@ document.addEventListener("DOMContentLoaded", function() {
 				&lt;div class="elementor-element elementor-element-af14a05 elementor-widget elementor-widget-image" data-id="af14a05" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 												&lt;figure class="wp-caption"&gt;
-										&lt;img decoding="async" width="800" height="533" src="https://reporterbrasil.org.br/wp-content/uploads/2026/06/supressao-vegetal-fazenda-campina-ba880-fernando-martinho-1024x682.jpg" class="attachment-large size-large wp-image-131251" alt="" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/06/supressao-vegetal-fazenda-campina-ba880-fernando-martinho-1024x682.jpg 1024w, https://reporterbrasil.org.br/wp-content/uploads/2026/06/supressao-vegetal-fazenda-campina-ba880-fernando-martinho-300x200.jpg 300w, https://reporterbrasil.org.br/wp-content/uploads/2026/06/supressao-vegetal-fazenda-campina-ba880-fernando-martinho-768x511.jpg 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/06/supressao-vegetal-fazenda-campina-ba880-fernando-martinho.jpg 1200w" sizes="(max-width: 800px) 100vw, 800px" /&gt;											&lt;figcaption class="widget-image-caption wp-caption-text"&gt;Area of vegetation clearing near the macaúba plantations, where piles of timber can be seen. Authorities and residents say the tree cutting may be the result of real estate speculation, as can happen with the arrival of a new project. (Photo: Fernando Martinho/Repórter Brasil/April 27, 2026)&lt;/figcaption&gt;
+										&lt;img loading="lazy" decoding="async" width="800" height="533" src="https://reporterbrasil.org.br/wp-content/uploads/2026/06/supressao-vegetal-fazenda-campina-ba880-fernando-martinho-1024x682.jpg" class="attachment-large size-large wp-image-131251" alt="" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/06/supressao-vegetal-fazenda-campina-ba880-fernando-martinho-1024x682.jpg 1024w, https://reporterbrasil.org.br/wp-content/uploads/2026/06/supressao-vegetal-fazenda-campina-ba880-fernando-martinho-300x200.jpg 300w, https://reporterbrasil.org.br/wp-content/uploads/2026/06/supressao-vegetal-fazenda-campina-ba880-fernando-martinho-768x511.jpg 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/06/supressao-vegetal-fazenda-campina-ba880-fernando-martinho.jpg 1200w" sizes="(max-width: 800px) 100vw, 800px" /&gt;											&lt;figcaption class="widget-image-caption wp-caption-text"&gt;Area of vegetation clearing near the macaúba plantations, where piles of timber can be seen. Authorities and residents say the tree cutting may be the result of real estate speculation, as can happen with the arrival of a new project. (Photo: Fernando Martinho/Repórter Brasil/April 27, 2026)&lt;/figcaption&gt;
 										&lt;/figure&gt;
 									&lt;/div&gt;
 				&lt;/div&gt;
@@ -437,7 +716,7 @@ document.addEventListener("DOMContentLoaded", function() {
 					&lt;div class="e-con-inner"&gt;
 				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
-															&lt;img loading="lazy" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
+															&lt;img fetchpriority="high" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/a&gt;
@@ -595,7 +874,7 @@ document.addEventListener("DOMContentLoaded", function() {
 					&lt;div class="e-con-inner"&gt;
 				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
-															&lt;img loading="lazy" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
+															&lt;img fetchpriority="high" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/a&gt;
@@ -797,7 +1076,7 @@ document.addEventListener("DOMContentLoaded", function() {
 					&lt;div class="e-con-inner"&gt;
 				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
-															&lt;img loading="lazy" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
+															&lt;img fetchpriority="high" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/a&gt;
@@ -1120,7 +1399,7 @@ document.addEventListener("DOMContentLoaded", function() {
 					&lt;div class="e-con-inner"&gt;
 				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
-															&lt;img loading="lazy" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
+															&lt;img fetchpriority="high" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/a&gt;
@@ -1421,7 +1700,7 @@ document.addEventListener("DOMContentLoaded", function() {
 					&lt;div class="e-con-inner"&gt;
 				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
-															&lt;img loading="lazy" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
+															&lt;img fetchpriority="high" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/a&gt;
@@ -1697,7 +1976,7 @@ document.addEventListener("DOMContentLoaded", function() {
 					&lt;div class="e-con-inner"&gt;
 				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
-															&lt;img loading="lazy" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
+															&lt;img fetchpriority="high" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/a&gt;
@@ -1967,7 +2246,7 @@ document.addEventListener("DOMContentLoaded", function() {
 					&lt;div class="e-con-inner"&gt;
 				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
-															&lt;img loading="lazy" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
+															&lt;img fetchpriority="high" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/a&gt;
@@ -2226,7 +2505,7 @@ document.addEventListener("DOMContentLoaded", function() {
 					&lt;div class="e-con-inner"&gt;
 				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
-															&lt;img loading="lazy" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
+															&lt;img fetchpriority="high" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/a&gt;
@@ -2281,235 +2560,4 @@ document.addEventListener("DOMContentLoaded", function() {
 				&lt;/div&gt;
 				&lt;/div&gt;
 		
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Igor Ojeda</dc:creator><pubDate>Mon, 25 May 2026 08:00:00 +0000</pubDate><guid>https://reporterbrasil.org.br/2026/05/fornecedora-assai-madero-multas-ambientais/</guid><guid isPermaLink="true">https://reporterbrasil.org.br/2026/05/fornecedora-assai-madero-multas-ambientais/</guid></item><item><title>Câmara agiliza projetos que enfraquecem regras ambientais; entenda os impactos</title><link>https://reporterbrasil.org.br/2026/05/camara-projetos-enfraquecem-regras-ambientais-entenda-impactos/</link><description>
-&lt;p&gt;&lt;strong&gt;AO LONGO DESTA SEMANA,&lt;/strong&gt; com o aval do presidente da Câmara dos Deputados, Hugo Motta (Republicanos-PB), parlamentares ligados ao agronegócio vêm pautando projetos de lei que enfraquecem as políticas de proteção ao meio ambiente no Brasil. &lt;/p&gt;
-
-
-
-&lt;p&gt;Apelidado de “Semana do Agro”, o período marca a tramitação de pelo menos quatro propostas. Duas delas já foram aprovadas pelos deputados e agora seguem para o Senado. Confira abaixo o status de cada uma.&lt;/p&gt;
-
-
-
-&lt;p&gt;O PL 2564/2025 impede que órgãos ambientais adotem medidas administrativas, como multas, com base em imagens de satélite e proíbe a destruição de equipamentos usados em infrações, como tratores em garimpos ilegais. &lt;/p&gt;
-
-
-
-&lt;p&gt;Já o PL 364/2019 flexibiliza os Campos de Altitude associados ao bioma Mata Atlântica, permitindo a conversão dessas áreas para usos como agricultura, pecuária e mineração.&lt;/p&gt;
-
-
-
-&lt;p&gt;Outra proposta, o PL 5900/2025, dá ao Ministério da Agricultura o poder de vetar regulações ambientais relacionadas a “espécies de interesse produtivo”.&lt;/p&gt;
-
-
-
-&lt;p&gt;Por fim, o PL 2486/2026 reduz a área da Flona do Jamanxim, no Pará, e transforma essa parcela em uma Área de Proteção Ambiental (APA), permitindo que parte da floresta seja convertida para uso agropecuário.&lt;/p&gt;
-
-
-		&lt;div data-elementor-type="section" data-elementor-id="77670" class="elementor elementor-77670" data-elementor-post-type="elementor_library"&gt;
-			&lt;div class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-e-type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}"&gt;
-					&lt;div class="e-con-inner"&gt;
-				&lt;div class="elementor-element elementor-element-386385d elementor-widget elementor-widget-heading" data-id="386385d" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-					&lt;h2 class="elementor-heading-title elementor-size-default"&gt;ASSINE NOSSA NEWSLETTER&lt;/h2&gt;				&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-6546917 elementor-widget elementor-widget-html" data-id="6546917" data-element_type="widget" data-e-type="widget" data-widget_type="html.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-					&lt;script&gt;
-document.addEventListener("DOMContentLoaded", function() {
-    document.querySelectorAll('.form-news button[type="submit"]').forEach(function(botao) {
-        botao.classList.add("envio_newsletter_materia");
-    });
-});
-&lt;/script&gt;				&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-8c2e333 form-news elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="8c2e333" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;button_width&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_next_label&amp;quot;:&amp;quot;Next&amp;quot;,&amp;quot;step_previous_label&amp;quot;:&amp;quot;Previous&amp;quot;,&amp;quot;button_width_mobile&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_type&amp;quot;:&amp;quot;number_text&amp;quot;,&amp;quot;step_icon_shape&amp;quot;:&amp;quot;circle&amp;quot;}" data-widget_type="form.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
-			&lt;input type="hidden" name="post_id" value="77670"/&gt;
-			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Morre Tuíre, a guerreira Kayapó que parou a construção de Belo Monte com um facão - Repórter Brasil" /&gt;
-
-							&lt;input type="hidden" name="queried_id" value="87990"/&gt;
-			
-			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
-								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
-												&lt;label for="form-field-email" class="elementor-field-label elementor-screen-only"&gt;
-								Email							&lt;/label&gt;
-														&lt;input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="email" required="required"&gt;
-											&lt;/div&gt;
-								&lt;div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-20 e-form__buttons elementor-sm-20"&gt;
-					&lt;button class="elementor-button elementor-size-sm" type="submit"&gt;
-						&lt;span class="elementor-button-content-wrapper"&gt;
-															&lt;span class="elementor-button-icon"&gt;
-									&lt;i aria-hidden="true" class="fas fa-long-arrow-alt-right"&gt;&lt;/i&gt;																			&lt;span class="elementor-screen-only"&gt;Submit&lt;/span&gt;
-																	&lt;/span&gt;
-																				&lt;/span&gt;
-					&lt;/button&gt;
-				&lt;/div&gt;
-			&lt;/div&gt;
-		&lt;/form&gt;
-						&lt;/div&gt;
-				&lt;/div&gt;
-					&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;/div&gt;
-		
-
-
-
-&lt;p&gt;Segundo especialistas, os projetos podem provocar impactos ambientais graves e representam mais um avanço de propostas que enfraquecem a legislação ambiental, como ocorreu com a tentativa de aprovar a tese do marco temporal das terras indígenas — que também é objeto de discussões no STF (Supremo Tribunal Federal) — e com a aprovação da Lei Geral do Licenciamento Ambiental, apelidada por críticos de “PL da Devastação”.&lt;/p&gt;
-
-
-
-&lt;p&gt;Para acelerar as votações, a bancada ruralista utilizou requerimentos de urgência, mecanismo que permite levar propostas diretamente ao plenário, sem debate aprofundado em comissões especializadas. A possibilidade de votações remotas também vem sendo usada para acelerar a tramitação.&lt;/p&gt;
-
-
-
-&lt;p&gt;“A escolha das proposições legislativas a serem votadas na Câmara dos Deputados deixa totalmente claro que a intenção é implodir a política ambiental e a legislação que a fundamenta. Pacote da Destruição em pauta, mais uma vez”, afirma Suely Araújo, coordenadora de Políticas Públicas do Observatório do Clima, em nota publicada pela organização.&lt;/p&gt;
-
-
-
-&lt;p&gt;A &lt;strong&gt;Repórter Brasil &lt;/strong&gt;preparou um resumo dos projetos e dos possíveis impactos ambientais e sociais das propostas.&lt;/p&gt;
-
-
-
-&lt;h2 class="wp-block-heading"&gt;1. PL 2564/2025: restrições à fiscalização remota&lt;/h2&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;O que é: &lt;/strong&gt;Altera a Lei de Crimes Ambientais para impedir que órgãos ambientais adotem medidas cautelares administrativas com base em imagens de satélite. Na prática, o projeto impede a aplicação imediata de medidas como embargo (interdição) de áreas, suspensão de atividades e apreensão de equipamentos após a identificação da infração. O texto também exige a notificação prévia do autuado antes da punição.&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;Por que isso importa:&lt;/strong&gt; O projeto limita duas ferramentas consideradas fundamentais no combate aos crimes ambientais: o embargo remoto e a destruição de equipamentos usados em infrações ambientais, como máquinas em garimpos ilegais. A restrição ao uso de tecnologias de monitoramento pode reduzir a capacidade de fiscalização em larga escala, elevar custos operacionais e comprometer a cobertura territorial dos órgãos ambientais.&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;Status da proposta: &lt;/strong&gt;Aprovado na Câmara em 20/05/2026 e aguardando envio ao Senado. &lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;Autoria:&lt;/strong&gt; Lucio Mosquini (MDB-RO) e Zé Adriano (PP-AC)&lt;/p&gt;
-
-
-
-&lt;h2 class="wp-block-heading"&gt;2. PL 364/2019: flexibilização nos Campos de Altitude&lt;/h2&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;O que é:&lt;/strong&gt; Cria um regime jurídico específico para os Campos de Altitude associados ao bioma Mata Atlântica, retirando a proteção de campos nativos e outras formações não florestais. Com isso, o texto permite a conversão dessas áreas para usos como agricultura, pecuária e mineração.&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;Por que isso importa:&lt;/strong&gt; Os Campos de Altitude são ecossistemas frágeis e de alta biodiversidade. Ao retirar essas áreas da proteção prevista na Lei da Mata Atlântica, o projeto facilita sua conversão em áreas produtivas, o que pode levar à perda definitiva desses habitats. Segundo nota do Observatório do Clima, a proposta pode desproteger cerca de 48 milhões de hectares de campos nativos em diferentes biomas, incluindo Pantanal, Pampa, Cerrado e Amazônia.&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;Status da proposta:&lt;/strong&gt; Aguarda votação no plenário da Câmara. &lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;Autoria:&lt;/strong&gt; Alceu Moreira (MDB-RS)&lt;/p&gt;
-
-
-
-&lt;h2 class="wp-block-heading"&gt;3. PL 5900/2025: subordinação do meio ambiente à agricultura&lt;/h2&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;O que é:&lt;/strong&gt; Concede ao Ministério da Agricultura poder para vetar regulações ambientais relacionadas a “espécies de interesse produtivo”, incluindo vegetais, animais e espécies florestais. Na prática, o ministério poderia barrar normas ambientais, listas de espécies ameaçadas, classificações de risco biológico e restrições de licenciamento.&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;Por que isso importa: &lt;/strong&gt;O projeto subordina decisões ambientais a interesses econômicos imediatos. Na prática, medidas de proteção a espécies ameaçadas ou de controle de espécies invasoras poderiam ser barradas sob justificativa de impacto econômico. Especialistas alertam que isso compromete a autonomia técnica de órgãos ambientais, como Ministério do Meio Ambiente, Ibama, ICMBio e Conama, além de abrir espaço para interferência em decisões ligadas à biossegurança, recursos hídricos, pesca, vigilância sanitária e pesquisa científica.&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;Status da proposta: &lt;/strong&gt;Aguarda votação no plenário da Câmara. &lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;Autoria:&lt;/strong&gt; Pedro Lupion (PP-PR), Pezenti (MDB-SC), Tião Medeiros (PP-PR), Evair Vieira de Melo (PP-ES) e Luiz Nishimori (PSD-PR)&lt;/p&gt;
-
-
-
-&lt;h2 class="wp-block-heading"&gt;4. PL 2486/2026: redução da Flona do Jamanxim&lt;/h2&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;O que é:&lt;/strong&gt; Reduz em cerca de 486 mil hectares a área da Floresta Nacional (Flona) do Jamanxim, no Pará, e transforma essa parcela em uma Área de Proteção Ambiental (APA). O texto permite a regularização fundiária de ocupações anteriores a 13 de fevereiro de 2006 dentro da nova APA e estabelece que até 20% da floresta poderá ser convertida para uso agropecuário. O projeto também autoriza mineração na Flona e na APA, desde que prevista nos planos de manejo.&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;Por que isso importa: &lt;/strong&gt;A Flona do Jamanxim foi criada em 2006 para conter o avanço da grilagem e do desmatamento na região da BR-163, marcada por conflitos ligados à pecuária, exploração madeireira e garimpo ilegal. Ao transformar parte de uma Floresta Nacional — unidade de conservação de domínio público — em uma Área de Proteção Ambiental, que admite propriedades privadas, o projeto amplia as possibilidades de exploração econômica e ocupação em áreas destinadas à conservação ambiental.&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;Status da proposta: &lt;/strong&gt;Aprovado na Câmara em 20/05/2026 e aguardando envio ao Senado. &lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;Autoria:&lt;/strong&gt; Isnaldo Bulhões Jr. (MDB-AL).&lt;/p&gt;
-
-
-		&lt;div data-elementor-type="section" data-elementor-id="129686" class="elementor elementor-129686" data-elementor-post-type="elementor_library"&gt;
-			&lt;a class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-e-type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}" href="https://reporterbrasil.org.br/apoie/"&gt;
-					&lt;div class="e-con-inner"&gt;
-				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-															&lt;img loading="lazy" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
-				&lt;/div&gt;
-					&lt;/div&gt;
-				&lt;/a&gt;
-				&lt;/div&gt;
-		
-
-
-
-&lt;p&gt;&lt;strong&gt;25 anos investigando para mudar.&lt;/strong&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;A Repórter Brasil já ajudou a impulsionar leis, fortalecer direitos e combater o trabalho escravo.&lt;/strong&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;Em 2026, fazemos 25 anos — e vem muito mais por aí!&lt;/strong&gt;&lt;/p&gt;
-
-
-		&lt;div data-elementor-type="container" data-elementor-id="75228" class="elementor elementor-75228" data-elementor-post-type="elementor_library"&gt;
-				&lt;div class="elementor-element elementor-element-5e8db1e6 e-flex e-con-boxed e-con e-parent" data-id="5e8db1e6" data-element_type="container" data-e-type="container"&gt;
-					&lt;div class="e-con-inner"&gt;
-		&lt;div class="elementor-element elementor-element-36eb6c91 e-flex e-con-boxed e-con e-child" data-id="36eb6c91" data-element_type="container" data-e-type="container"&gt;
-					&lt;div class="e-con-inner"&gt;
-		&lt;div class="elementor-element elementor-element-6f52f515 e-con-full e-flex e-con e-child" data-id="6f52f515" data-element_type="container" data-e-type="container"&gt;
-				&lt;div class="elementor-element elementor-element-65d9f401 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="65d9f401" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-							&lt;div class="elementor-divider"&gt;
-			&lt;span class="elementor-divider-separator"&gt;
-						&lt;/span&gt;
-		&lt;/div&gt;
-						&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;/div&gt;
-		&lt;div class="elementor-element elementor-element-134a1245 e-flex e-con-boxed e-con e-child" data-id="134a1245" data-element_type="container" data-e-type="container"&gt;
-					&lt;div class="e-con-inner"&gt;
-				&lt;div class="elementor-element elementor-element-10fe55fe elementor-widget elementor-widget-text-editor" data-id="10fe55fe" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-									&lt;p&gt;Leia também&lt;/p&gt;								&lt;/div&gt;
-				&lt;/div&gt;
-					&lt;/div&gt;
-				&lt;/div&gt;
-					&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-3c9495ae elementor-grid-1 leia-tambem elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid" data-id="3c9495ae" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;template_id&amp;quot;:&amp;quot;75221&amp;quot;,&amp;quot;columns&amp;quot;:1,&amp;quot;row_gap&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:10,&amp;quot;sizes&amp;quot;:[]},&amp;quot;_skin&amp;quot;:&amp;quot;post&amp;quot;,&amp;quot;columns_tablet&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;columns_mobile&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;edit_handle_selector&amp;quot;:&amp;quot;[data-elementor-type=\&amp;quot;loop-item\&amp;quot;]&amp;quot;,&amp;quot;row_gap_tablet&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]},&amp;quot;row_gap_mobile&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]}}" data-widget_type="loop-grid.post"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-							&lt;div class="e-loop-nothing-found-message"&gt;
-		&lt;/div&gt;
-						&lt;/div&gt;
-				&lt;/div&gt;
-					&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;/div&gt;
-		
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Beatriz Souza</dc:creator><pubDate>Fri, 22 May 2026 19:03:30 +0000</pubDate><guid>https://reporterbrasil.org.br/2026/05/camara-projetos-enfraquecem-regras-ambientais-entenda-impactos/</guid><guid isPermaLink="true">https://reporterbrasil.org.br/2026/05/camara-projetos-enfraquecem-regras-ambientais-entenda-impactos/</guid></item></channel></rss>
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Igor Ojeda</dc:creator><pubDate>Mon, 25 May 2026 08:00:00 +0000</pubDate><guid>https://reporterbrasil.org.br/2026/05/fornecedora-assai-madero-multas-ambientais/</guid><guid isPermaLink="true">https://reporterbrasil.org.br/2026/05/fornecedora-assai-madero-multas-ambientais/</guid></item></channel></rss>
