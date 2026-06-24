@@ -1,5 +1,226 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel xmlns:atom="http://www.w3.org/2005/Atom"><title>Yale Climate Connections</title><link>https://yaleclimateconnections.org/</link><description>Últimos artigos de Yale Climate Connections</description><atom:link href="https://paulofeh.github.io/rss-de-valor/feeds/yale_climate_connections_feed.xml" rel="self"/><language>pt-br</language><lastBuildDate>Tue, 23 Jun 2026 11:00:00 +0000</lastBuildDate><ttl>60</ttl><item><title>La comunidad sorda de Puerto Rico enfrenta desigualdad de información ante clima extremo</title><link>https://yaleclimateconnections.org/2026/06/la-comunidad-sorda-de-puerto-rico-enfrenta-desigualdad-de-informacion-ante-clima-extremo/</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel xmlns:atom="http://www.w3.org/2005/Atom"><title>Yale Climate Connections</title><link>https://yaleclimateconnections.org/</link><description>Últimos artigos de Yale Climate Connections</description><atom:link href="https://paulofeh.github.io/rss-de-valor/feeds/yale_climate_connections_feed.xml" rel="self"/><language>pt-br</language><lastBuildDate>Wed, 24 Jun 2026 11:00:00 +0000</lastBuildDate><ttl>60</ttl><item><title>How bad is AI for the environment?</title><link>https://yaleclimateconnections.org/2026/06/how-bad-is-ai-for-the-environment/</link><description>
+&lt;p class="has-drop-cap wp-block-paragraph"&gt;Sarina Virmani lives in Loudoun County, Virginia, which is home to over 200 data centers and colloquially known as Data Center Alley. As a high school student, Virmani published a paper on &lt;a href="https://ajosr.org/wp-content/uploads/journal/published_paper/volume-3/issue-1/ajsr2024_Zrj3RTFV.pdf"&gt;the environmental impact of data centers&lt;/a&gt; in the American Journal of Student Research. She also organizes for more transparency and regulation in the industry.&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;“A lot of people think that artificial intelligence is something that&amp;#8217;s invisible, but it&amp;#8217;s not. It lives in these massive buildings,” she said.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;Data centers aren’t new in Loudoun County, but the explosive growth of AI chatbots like OpenAI’s ChatGPT, Anthropic’s Claude, and Google’s Gemini is driving demand for more. The environmental impact of all of those data centers can be tricky to parse, but there are a few things we know for certain: Data centers are extending the life of aging oil, gas, and coal infrastructure, they are spurring the building of new fossil fuel infrastructure, and they can pose risks to water resources.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;h4 class="wp-block-heading"&gt;What is AI, and why does it need so much electricity?&lt;/h4&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;To some extent, AI technology is as old as the computer. The term &lt;a href="https://www.mtu.edu/computing/ai/"&gt;artificial intelligence was popularized&lt;/a&gt; in the 1950s, and as computer technology has become increasingly affordable and powerful, machine learning and algorithms have become part of our economy and everyday lives. The Instagram algorithm, for example, just turned 10 years old.&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;The current iteration of AI began in November 2022, when OpenAI publicly launched ChatGPT. ChatGPT’s secret weapon was access to a massive amount of data — some of which was &lt;a href="https://www.joneswalker.com/en/insights/blogs/ai-law-blog/openai-loses-privacy-gambit-20-million-chatgpt-logs-likely-headed-to-copyright-p.html?id=102lzo9"&gt;used without copyright permission&lt;/a&gt; — and the computer power and architecture to process it and train models. This process is enormously energy-intensive. In &lt;a href="https://www.washington.edu/news/2023/07/27/how-much-energy-does-chatgpt-use/"&gt;a Q&amp;amp;A published by the University of Washington&lt;/a&gt;, AI scholar Sajjad Moazen said that training one single large language model like ChatGPT-3 can use up to 10 gigawatt-hours of power.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;“This is on average roughly equivalent to the yearly electricity consumption of over 1,000 U.S. households,” he said.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;figure class="wp-block-image size-large"&gt;&lt;img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="576" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/062526_aipower_1600.jpg?resize=1024%2C576&amp;#038;ssl=1" alt="Data center construction in the foreground of a power plant" class="wp-image-139516" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/062526_aipower_1600.jpg?resize=1024%2C576&amp;amp;ssl=1 1024w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/062526_aipower_1600.jpg?resize=300%2C169&amp;amp;ssl=1 300w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/062526_aipower_1600.jpg?resize=768%2C432&amp;amp;ssl=1 768w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/062526_aipower_1600.jpg?resize=1536%2C864&amp;amp;ssl=1 1536w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/062526_aipower_1600.jpg?resize=1200%2C675&amp;amp;ssl=1 1200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/062526_aipower_1600.jpg?resize=780%2C439&amp;amp;ssl=1 780w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/062526_aipower_1600.jpg?resize=400%2C225&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/062526_aipower_1600.jpg?w=1600&amp;amp;ssl=1 1600w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/062526_aipower_1600-1024x576.jpg?w=370&amp;amp;ssl=1 370w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;figcaption class="wp-element-caption"&gt;A worker prepares a plot of land for an AI data center in the shadow of a retired power plant being refurbished to provide electricity for the facility. (AP Photo/Charlie Riedel)&lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+&lt;h4 class="wp-block-heading"&gt;How much climate-changing pollution does generative AI create?&amp;nbsp;&lt;/h4&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;The training and deployment of large AI tools requires so much power that it is leading to a boom in new fossil fuel infrastructure and extending the life of aging power plants.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;“I like to call them zombie power plants,” said Quentin Good, coauthor of &lt;a href="https://frontiergroup.org/articles/data-center-energy-use-is-giving-old-dirty-power-plants-a-new-lease-on-life/"&gt;a report on data centers&lt;/a&gt; by the Frontier Group. “They should be dead, but we keep reviving them, and they&amp;#8217;re walking around like zombies polluting our communities.”&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;The report found that the retirements of at least 15 fossil fuel plants have been postponed to meet increased energy demand. &lt;a href="https://frontiergroup.org/articles/data-center-energy-use-is-giving-old-dirty-power-plants-a-new-lease-on-life/"&gt;Those 15 plants alone emit&lt;/a&gt; more climate-changing pollution than the entire state of Massachusetts. Utilities, grid operators, and the federal government have all cited data center energy demand as a reason to keep aging fossil fuel infrastructure online. In some cases, power plant retirements have been pushed back by more than a decade.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;In the case of one coal plant in southern Virginia, which was set to phase out in 2025, operations have been extended indefinitely. In 2023, the plant emitted more pollution than over 65,000 typical &lt;a href="https://www.epa.gov/energy/greenhouse-gas-equivalencies-calculator#results"&gt;gasoline-powered vehicles&lt;/a&gt; produce in a year.&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;“[The U.S. had] been planning to get pretty much all of our coal plants offline by 2040,” Good said. “Those plans are basically out the window now.”&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;On top of that is all of the new fossil fuel infrastructure being built to meet AI demand. Wired writer Molly Taft &lt;a href="https://www.wired.com/story/new-gas-powered-data-centers-could-emit-more-greenhouse-gases-than-entire-nations/"&gt;reported in April 2026&lt;/a&gt; that new gas plants linked to just 11 U.S. data center campuses could generate more climate-changing pollution than the entire country of Morocco emitted in 2024.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;And some data centers use highly polluting diesel generators as backup when there’s too much demand on the electric grid. Good said that although restrictions limit how much a company can run diesel generators, many states are considering exceptions for data centers.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"&gt;&lt;div class="wp-block-embed__wrapper"&gt;
+&lt;iframe loading="lazy" title="We Saw What AI Data Centers Don&amp;amp;apos;t Want You to See" width="500" height="281" src="https://www.youtube.com/embed/5p426fSlYH4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;&lt;/figure&gt;
+
+
+
+&lt;h4 class="wp-block-heading"&gt;How much water does AI use, really?&lt;/h4&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;Details around data center water use are murky, and the environmental impact is at least partially dependent on where data centers are located. Good has &lt;a href="https://frontiergroup.org/articles/does-virginia-have-enough-water-to-quench-thirsty-data-centers/"&gt;found&lt;/a&gt; that although data centers do need large volumes of water to cool down servers, data center water use is not a crisis in Virginia — though that could change in times of drought.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;Data centers in water-stressed areas, like &lt;a href="https://coloradosun.com/2026/01/26/colorado-data-center-explainer-water-use-ai/"&gt;arid parts of Colorado&lt;/a&gt;, pose larger water-use concerns. Good noted that the highest data center water demand comes during the hottest, driest months, which is when river flows tend to be lowest and other water needs also peak.&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;Other water-related issues arise when water is discharged after it has been used in a data center. Good said the environmental impacts of this process and the effects on local waterways and wildlife are an underresearched area that he hopes to study more.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;“When they discharge the water that they used to cool the servers, that water has elevated levels of sodium and other nasty stuff in it,” Good said. “And it&amp;#8217;s really hot, so that could impact fish and other animals in streams and rivers.”&lt;/p&gt;
+
+
+
+&lt;h4 class="wp-block-heading"&gt;What can you do to reduce AI’s climate-changing pollution?&lt;/h4&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;Like most climate solutions, the fight against polluting AI systems happens at all levels, including through regulation, community organizing, and limiting individual use of energy-intensive tools.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;The Trump administration has tended to favor &lt;a href="https://www.whitehouse.gov/presidential-actions/2025/07/accelerating-federal-permitting-of-data-center-infrastructure/"&gt;accelerating permits&lt;/a&gt; for data centers, and the president &lt;a href="https://www.npr.org/2025/12/11/nx-s1-5638562/trump-ai-david-sacks-executive-order"&gt;signed an executive order&lt;/a&gt; in late 2025 attempting to limit states’ ability to regulate their construction and energy use. Yet &lt;a href="https://www.npr.org/2026/02/26/nx-s1-5726431/data-centers-ai-trump-housing-states"&gt;NPR has reported&lt;/a&gt; that there is bipartisan support for AI industry regulations in Congress and in state governments.&lt;/p&gt;
+
+
+
+&lt;figure class="wp-block-image size-large"&gt;&lt;img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/0626_planningmeetingAI.jpg?resize=1024%2C683&amp;#038;ssl=1" alt="People line up to offer comment about data centers during a planning commission meeting Thursday, June 11, 2026, in Nashville, Tenn. The commission will consider an ordinance regulating data centers." class="wp-image-139683" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/0626_planningmeetingAI.jpg?resize=1024%2C683&amp;amp;ssl=1 1024w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/0626_planningmeetingAI.jpg?resize=300%2C200&amp;amp;ssl=1 300w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/0626_planningmeetingAI.jpg?resize=768%2C512&amp;amp;ssl=1 768w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/0626_planningmeetingAI.jpg?resize=780%2C520&amp;amp;ssl=1 780w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/0626_planningmeetingAI.jpg?resize=400%2C267&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/0626_planningmeetingAI.jpg?w=1200&amp;amp;ssl=1 1200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/0626_planningmeetingAI-1024x683.jpg?w=370&amp;amp;ssl=1 370w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;figcaption class="wp-element-caption"&gt;People attend a planning meeting to comment on a proposed data center in Nashville, Tennessee. (AP Photo/George Walker IV)&lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;At a local scale, residents can attend public meetings and hearings about data centers and ask questions. Well-organized neighbors across the U.S. have &lt;a href="https://nextcity.org/urbanist-news/one-wisconsin-city-beat-back-a-data-center-coalition-toolkit"&gt;shut down projects&lt;/a&gt;, &lt;a href="https://www.politico.com/news/2026/04/08/wisconsin-city-passes-nations-first-anti-data-center-referendum-00863432"&gt;passed local moratoriums&lt;/a&gt;, and &lt;a href="https://www.wpr.org/news/state-regulators-change-we-energies-data-center-rate-proposal-to-protect-customers"&gt;limited electricity rate hikes&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;On the individual level, people can think twice before using a generative AI tool. By reducing unnecessary use of AI tools and encouraging others to do the same, people can reduce demand for these tools and the enormous amounts of energy they require.&lt;/p&gt;
+
+
+	&lt;div
+		class="wp-block-newspack-blocks-homepage-articles wpnbha is-grid columns-3 colgap-3 show-image image-aligntop ts-2 is-3 is-landscape "
+		style=""
+		&gt;
+		&lt;div data-posts data-current-post-id="139681"&gt;
+							&lt;h2 class="article-section-title"&gt;
+					&lt;span&gt;MORE LIKE THIS&lt;/span&gt;
+				&lt;/h2&gt;
+						
+	&lt;article data-post-id="138985"
+		class="tag-sueellen-campbell category-energy category-feature-articles category-review type-post post-has-image"
+				&gt;
+							&lt;figure class="post-thumbnail"&gt;
+								&lt;a href="https://yaleclimateconnections.org/2026/06/solar-surge-good-news-stories-on-the-renewable-energy-front/" rel="bookmark" tabindex="-1" aria-hidden="true"&gt;
+												&lt;img loading="lazy" decoding="async" width="1200" height="900" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/0526_solarconstruction_1600.jpg?resize=1200%2C900&amp;amp;ssl=1" class="attachment-newspack-article-block-landscape-large size-newspack-article-block-landscape-large wp-post-image" alt="Solar surge: Good news stories on the renewable energy front" data-hero-candidate="1" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/0526_solarconstruction_1600.jpg?resize=1200%2C900&amp;amp;ssl=1 1200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/0526_solarconstruction_1600.jpg?resize=800%2C600&amp;amp;ssl=1 800w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/0526_solarconstruction_1600.jpg?resize=600%2C450&amp;amp;ssl=1 600w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/0526_solarconstruction_1600.jpg?resize=400%2C300&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/0526_solarconstruction_1600.jpg?resize=200%2C150&amp;amp;ssl=1 200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/0526_solarconstruction_1600.jpg?resize=1200%2C900&amp;amp;ssl=1&amp;amp;w=370 370w" sizes="auto, (min-width: 782px) 400px, (min-width: 600px) 42.5vw, 90vw" /&gt;												&lt;/a&gt;
+				
+							&lt;/figure&gt;&lt;!-- .featured-image --&gt;
+		
+		&lt;div class="entry-wrapper"&gt;
+						&lt;h3 class="entry-title"&gt;&lt;a href="https://yaleclimateconnections.org/2026/06/solar-surge-good-news-stories-on-the-renewable-energy-front/" rel="bookmark"&gt;Solar surge: Good news stories on the renewable energy front&lt;/a&gt;&lt;/h3&gt;											&lt;/div&gt;&lt;!-- .entry-wrapper --&gt;
+	&lt;/article&gt;
+
+		
+	&lt;article data-post-id="139237"
+		class="tag-federal tag-government tag-united-states category-audio category-energy category-economics category-policy type-post post-has-image"
+				&gt;
+							&lt;figure class="post-thumbnail"&gt;
+								&lt;a href="https://yaleclimateconnections.org/2026/06/companies-cancel-clean-energy-projects-that-would-have-created-40000-jobs/" rel="bookmark" tabindex="-1" aria-hidden="true"&gt;
+												&lt;img loading="lazy" decoding="async" width="1200" height="900" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/061226_turbine_1600.jpg?resize=1200%2C900&amp;amp;ssl=1" class="attachment-newspack-article-block-landscape-large size-newspack-article-block-landscape-large wp-post-image" alt="Companies cancel clean energy projects that would have created 40,000 jobs" data-hero-candidate="1" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/061226_turbine_1600.jpg?resize=1200%2C900&amp;amp;ssl=1 1200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/061226_turbine_1600.jpg?resize=800%2C600&amp;amp;ssl=1 800w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/061226_turbine_1600.jpg?resize=600%2C450&amp;amp;ssl=1 600w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/061226_turbine_1600.jpg?resize=400%2C300&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/061226_turbine_1600.jpg?resize=200%2C150&amp;amp;ssl=1 200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/061226_turbine_1600.jpg?resize=1200%2C900&amp;amp;ssl=1&amp;amp;w=370 370w" sizes="auto, (min-width: 782px) 400px, (min-width: 600px) 42.5vw, 90vw" /&gt;												&lt;/a&gt;
+				
+							&lt;/figure&gt;&lt;!-- .featured-image --&gt;
+		
+		&lt;div class="entry-wrapper"&gt;
+						&lt;h3 class="entry-title"&gt;&lt;a href="https://yaleclimateconnections.org/2026/06/companies-cancel-clean-energy-projects-that-would-have-created-40000-jobs/" rel="bookmark"&gt;Companies cancel clean energy projects that would have created 40,000 jobs&lt;/a&gt;&lt;/h3&gt;											&lt;/div&gt;&lt;!-- .entry-wrapper --&gt;
+	&lt;/article&gt;
+
+		
+	&lt;article data-post-id="139239"
+		class="tag-government tag-minnesota tag-state category-audio category-energy category-policy type-post post-has-image"
+				&gt;
+							&lt;figure class="post-thumbnail"&gt;
+								&lt;a href="https://yaleclimateconnections.org/2026/06/minnesota-lawmakers-consider-lifting-ban-on-new-nuclear-power-plants/" rel="bookmark" tabindex="-1" aria-hidden="true"&gt;
+												&lt;img loading="lazy" decoding="async" width="1200" height="900" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/061126_powerplant_1600.jpg?resize=1200%2C900&amp;amp;ssl=1" class="attachment-newspack-article-block-landscape-large size-newspack-article-block-landscape-large wp-post-image" alt="Minnesota lawmakers consider lifting ban on new nuclear power plants" data-hero-candidate="1" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/061126_powerplant_1600.jpg?resize=1200%2C900&amp;amp;ssl=1 1200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/061126_powerplant_1600.jpg?resize=800%2C600&amp;amp;ssl=1 800w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/061126_powerplant_1600.jpg?resize=600%2C450&amp;amp;ssl=1 600w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/061126_powerplant_1600.jpg?resize=400%2C300&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/061126_powerplant_1600.jpg?resize=200%2C150&amp;amp;ssl=1 200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/061126_powerplant_1600.jpg?resize=1200%2C900&amp;amp;ssl=1&amp;amp;w=370 370w" sizes="auto, (min-width: 782px) 400px, (min-width: 600px) 42.5vw, 90vw" /&gt;												&lt;/a&gt;
+				
+							&lt;/figure&gt;&lt;!-- .featured-image --&gt;
+		
+		&lt;div class="entry-wrapper"&gt;
+						&lt;h3 class="entry-title"&gt;&lt;a href="https://yaleclimateconnections.org/2026/06/minnesota-lawmakers-consider-lifting-ban-on-new-nuclear-power-plants/" rel="bookmark"&gt;Minnesota lawmakers consider lifting ban on new nuclear power plants&lt;/a&gt;&lt;/h3&gt;											&lt;/div&gt;&lt;!-- .entry-wrapper --&gt;
+	&lt;/article&gt;
+
+				&lt;/div&gt;
+		
+	&lt;/div&gt;
+	</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Wed, 24 Jun 2026 11:00:00 +0000</pubDate><guid>https://yaleclimateconnections.org/2026/06/how-bad-is-ai-for-the-environment/</guid><guid isPermaLink="true">https://yaleclimateconnections.org/2026/06/how-bad-is-ai-for-the-environment/</guid></item><item><title>Fishermen in the Bahamas are collecting data that could improve forecasts</title><link>https://yaleclimateconnections.org/2026/06/fishermen-in-the-bahamas-are-collecting-data-that-could-improve-forecasts/</link><description>
+&lt;p class="wp-block-paragraph"&gt;&lt;/p&gt;
+
+
+
+&lt;figure class="wp-block-audio"&gt;&lt;audio controls src="https://traffic.libsyn.com/secure/climateconnections/CX260624.mp3"&gt;&lt;/audio&gt;&lt;/figure&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;Transcript:&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;Every day, fishermen across the Bahamas head out to the ocean to harvest their catch.&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;But now some of those fishermen are also harvesting data to help forecast hurricanes.&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;They’re contributing to the global &lt;a href="https://www.fvon.org/"&gt;Fishing Vessel Ocean Observing Network&lt;/a&gt;, which provided them with sensors that measure water depth and temperature.&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;The sensors attach to fishing gear and record data that’s shared with Bahamian officials, the U.S. National Oceanic and Atmospheric Administration, and others.&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;Simmons: “We see it as … a very cost-effective way of getting good, real-time ocean data.”&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;Jeffrey Simmons is the former acting director of the Bahamas Department of Meteorology.&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;He says ocean heat is the main source of energy for hurricanes. So the data could help forecasters better understand when a hurricane is likely to intensify quickly.&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;For example, this happened in 2019 when Hurricane Dorian hit the Bahamas as a Category 5 storm and killed dozens of people.&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;And Simmons says the fishermen are eager to help.&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;Simmons: “When hurricanes are out there, it creates problems for them. They can’t get to work. So they are excited to be a part of the community to assist us in getting information so that we can create better forecasts for them.”&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;&lt;em&gt;Reporting credit: Ethan Freedman/ChavoBart Digital Media&lt;/em&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Wed, 24 Jun 2026 11:00:00 +0000</pubDate><guid>https://yaleclimateconnections.org/2026/06/fishermen-in-the-bahamas-are-collecting-data-that-could-improve-forecasts/</guid><guid isPermaLink="true">https://yaleclimateconnections.org/2026/06/fishermen-in-the-bahamas-are-collecting-data-that-could-improve-forecasts/</guid></item><item><title>La comunidad sorda de Puerto Rico enfrenta desigualdad de información ante clima extremo</title><link>https://yaleclimateconnections.org/2026/06/la-comunidad-sorda-de-puerto-rico-enfrenta-desigualdad-de-informacion-ante-clima-extremo/</link><description>
 &lt;p class="has-drop-cap wp-block-paragraph"&gt;Imagínese que por múltiples medios de comunicación se alerta de la llegada de un huracán Categoría 4 a donde usted vive. Sin embargo, cuando le informan de este suceso inminente, no le hablan de una forma en la que usted entiende. No le informan ni explican correctamente la magnitud de este fenómeno atmosférico que se avecina. Tampoco le brindan la información necesaria, ejemplos ni demostraciones para que usted se prepare adecuadamente.&lt;/p&gt;
 
 
@@ -538,6 +759,20 @@
 					&lt;span&gt;MORE LIKE THIS&lt;/span&gt;
 				&lt;/h2&gt;
 						
+	&lt;article data-post-id="139298"
+		class="tag-hurricane tag-the-bahamas category-adaptation category-audio category-solutions category-weather type-post post-has-image"
+				&gt;
+							&lt;figure class="post-thumbnail"&gt;
+								&lt;a href="https://yaleclimateconnections.org/2026/06/fishermen-in-the-bahamas-are-collecting-data-that-could-improve-forecasts/" rel="bookmark" tabindex="-1" aria-hidden="true"&gt;
+												&lt;img loading="lazy" decoding="async" width="1200" height="900" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/062426_fishing_1600.jpg?resize=1200%2C900&amp;amp;ssl=1" class="attachment-newspack-article-block-landscape-large size-newspack-article-block-landscape-large wp-post-image" alt="Fishermen in the Bahamas are collecting data that could improve forecasts" data-hero-candidate="1" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/062426_fishing_1600.jpg?resize=1200%2C900&amp;amp;ssl=1 1200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/062426_fishing_1600.jpg?resize=800%2C600&amp;amp;ssl=1 800w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/062426_fishing_1600.jpg?resize=600%2C450&amp;amp;ssl=1 600w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/062426_fishing_1600.jpg?resize=400%2C300&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/062426_fishing_1600.jpg?resize=200%2C150&amp;amp;ssl=1 200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/062426_fishing_1600.jpg?resize=1200%2C900&amp;amp;ssl=1&amp;amp;w=370 370w" sizes="auto, (max-width: 34.9rem) calc(100vw - 2rem), (max-width: 53rem) calc(8 * (100vw / 12)), (min-width: 53rem) calc(6 * (100vw / 12)), 100vw" /&gt;												&lt;/a&gt;
+				
+							&lt;/figure&gt;&lt;!-- .featured-image --&gt;
+		
+		&lt;div class="entry-wrapper"&gt;
+						&lt;h3 class="entry-title"&gt;&lt;a href="https://yaleclimateconnections.org/2026/06/fishermen-in-the-bahamas-are-collecting-data-that-could-improve-forecasts/" rel="bookmark"&gt;Fishermen in the Bahamas are collecting data that could improve forecasts&lt;/a&gt;&lt;/h3&gt;											&lt;/div&gt;&lt;!-- .entry-wrapper --&gt;
+	&lt;/article&gt;
+
+		
 	&lt;article data-post-id="139307"
 		class="tag-california tag-united-states tag-wildfire category-audio category-policy category-solutions category-weather category-wildfires type-post post-has-image"
 				&gt;
@@ -563,20 +798,6 @@
 		
 		&lt;div class="entry-wrapper"&gt;
 						&lt;h3 class="entry-title"&gt;&lt;a href="https://yaleclimateconnections.org/2026/06/unprecedented-june-heat-grips-europe-this-week/" rel="bookmark"&gt;Unprecedented June heat grips Europe this week&lt;/a&gt;&lt;/h3&gt;											&lt;/div&gt;&lt;!-- .entry-wrapper --&gt;
-	&lt;/article&gt;
-
-		
-	&lt;article data-post-id="138839"
-		class="tag-hurricane tag-jeff-masters tag-sea-level-rise category-arts category-eye-on-the-storm category-feature-articles category-weather type-post post-has-image"
-				&gt;
-							&lt;figure class="post-thumbnail"&gt;
-								&lt;a href="https://yaleclimateconnections.org/2026/06/climate-fiction-envisions-the-future-of-hurricanes-and-sea-level-rise/" rel="bookmark" tabindex="-1" aria-hidden="true"&gt;
-												&lt;img loading="lazy" decoding="async" width="1200" height="900" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/north-lightpirate-deluge.jpg?resize=1200%2C900&amp;amp;ssl=1" class="attachment-newspack-article-block-landscape-large size-newspack-article-block-landscape-large wp-post-image" alt="Climate fiction envisions the future of hurricanes and sea level rise" data-hero-candidate="1" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/north-lightpirate-deluge.jpg?resize=1200%2C900&amp;amp;ssl=1 1200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/north-lightpirate-deluge.jpg?resize=800%2C600&amp;amp;ssl=1 800w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/north-lightpirate-deluge.jpg?resize=600%2C450&amp;amp;ssl=1 600w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/north-lightpirate-deluge.jpg?resize=400%2C300&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/north-lightpirate-deluge.jpg?resize=200%2C150&amp;amp;ssl=1 200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/north-lightpirate-deluge.jpg?resize=1200%2C900&amp;amp;ssl=1&amp;amp;w=370 370w" sizes="auto, (max-width: 34.9rem) calc(100vw - 2rem), (max-width: 53rem) calc(8 * (100vw / 12)), (min-width: 53rem) calc(6 * (100vw / 12)), 100vw" /&gt;												&lt;/a&gt;
-				
-							&lt;/figure&gt;&lt;!-- .featured-image --&gt;
-		
-		&lt;div class="entry-wrapper"&gt;
-						&lt;h3 class="entry-title"&gt;&lt;a href="https://yaleclimateconnections.org/2026/06/climate-fiction-envisions-the-future-of-hurricanes-and-sea-level-rise/" rel="bookmark"&gt;Climate fiction envisions the future of hurricanes and sea level rise&lt;/a&gt;&lt;/h3&gt;											&lt;/div&gt;&lt;!-- .entry-wrapper --&gt;
 	&lt;/article&gt;
 
 				&lt;/div&gt;
@@ -751,6 +972,20 @@
 					&lt;span&gt;MORE LIKE THIS&lt;/span&gt;
 				&lt;/h2&gt;
 						
+	&lt;article data-post-id="138839"
+		class="tag-hurricane tag-jeff-masters tag-sea-level-rise category-arts category-eye-on-the-storm category-feature-articles category-weather type-post post-has-image"
+				&gt;
+							&lt;figure class="post-thumbnail"&gt;
+								&lt;a href="https://yaleclimateconnections.org/2026/06/climate-fiction-envisions-the-future-of-hurricanes-and-sea-level-rise/" rel="bookmark" tabindex="-1" aria-hidden="true"&gt;
+												&lt;img loading="lazy" decoding="async" width="1200" height="900" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/north-lightpirate-deluge.jpg?resize=1200%2C900&amp;amp;ssl=1" class="attachment-newspack-article-block-landscape-large size-newspack-article-block-landscape-large wp-post-image" alt="Climate fiction envisions the future of hurricanes and sea level rise" data-hero-candidate="1" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/north-lightpirate-deluge.jpg?resize=1200%2C900&amp;amp;ssl=1 1200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/north-lightpirate-deluge.jpg?resize=800%2C600&amp;amp;ssl=1 800w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/north-lightpirate-deluge.jpg?resize=600%2C450&amp;amp;ssl=1 600w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/north-lightpirate-deluge.jpg?resize=400%2C300&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/north-lightpirate-deluge.jpg?resize=200%2C150&amp;amp;ssl=1 200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/north-lightpirate-deluge.jpg?resize=1200%2C900&amp;amp;ssl=1&amp;amp;w=370 370w" sizes="auto, (max-width: 34.9rem) calc(100vw - 2rem), (max-width: 53rem) calc(8 * (100vw / 12)), (min-width: 53rem) calc(6 * (100vw / 12)), 100vw" /&gt;												&lt;/a&gt;
+				
+							&lt;/figure&gt;&lt;!-- .featured-image --&gt;
+		
+		&lt;div class="entry-wrapper"&gt;
+						&lt;h3 class="entry-title"&gt;&lt;a href="https://yaleclimateconnections.org/2026/06/climate-fiction-envisions-the-future-of-hurricanes-and-sea-level-rise/" rel="bookmark"&gt;Climate fiction envisions the future of hurricanes and sea level rise&lt;/a&gt;&lt;/h3&gt;											&lt;/div&gt;&lt;!-- .entry-wrapper --&gt;
+	&lt;/article&gt;
+
+		
 	&lt;article data-post-id="139218"
 		class="tag-samantha-harrington category-arts category-feature-articles category-interview type-post post-has-image"
 				&gt;
@@ -776,20 +1011,6 @@
 		
 		&lt;div class="entry-wrapper"&gt;
 						&lt;h3 class="entry-title"&gt;&lt;a href="https://yaleclimateconnections.org/2026/06/the-2026-world-cup-could-be-the-hottest-yet/" rel="bookmark"&gt;The 2026 World Cup could be the hottest yet&lt;/a&gt;&lt;/h3&gt;											&lt;/div&gt;&lt;!-- .entry-wrapper --&gt;
-	&lt;/article&gt;
-
-		
-	&lt;article data-post-id="139065"
-		class="tag-michael-svoboda category-arts category-feature-articles type-post post-has-image"
-				&gt;
-							&lt;figure class="post-thumbnail"&gt;
-								&lt;a href="https://yaleclimateconnections.org/2026/05/helen-phillips-hum-wins-the-2026-climate-fiction-prize/" rel="bookmark" tabindex="-1" aria-hidden="true"&gt;
-												&lt;img loading="lazy" decoding="async" width="1200" height="900" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/0526_humaward_1600.jpg?resize=1200%2C900&amp;amp;ssl=1" class="attachment-newspack-article-block-landscape-large size-newspack-article-block-landscape-large wp-post-image" alt="Helen Phillips&amp;#8217; &amp;#8216;Hum&amp;#8217; wins the 2026 Climate Fiction Prize" data-hero-candidate="1" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/0526_humaward_1600.jpg?resize=1200%2C900&amp;amp;ssl=1 1200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/0526_humaward_1600.jpg?resize=800%2C600&amp;amp;ssl=1 800w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/0526_humaward_1600.jpg?resize=600%2C450&amp;amp;ssl=1 600w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/0526_humaward_1600.jpg?resize=400%2C300&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/0526_humaward_1600.jpg?resize=200%2C150&amp;amp;ssl=1 200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/0526_humaward_1600.jpg?resize=1200%2C900&amp;amp;ssl=1&amp;amp;w=370 370w" sizes="auto, (max-width: 34.9rem) calc(100vw - 2rem), (max-width: 53rem) calc(8 * (100vw / 12)), (min-width: 53rem) calc(6 * (100vw / 12)), 100vw" /&gt;												&lt;/a&gt;
-				
-							&lt;/figure&gt;&lt;!-- .featured-image --&gt;
-		
-		&lt;div class="entry-wrapper"&gt;
-						&lt;h3 class="entry-title"&gt;&lt;a href="https://yaleclimateconnections.org/2026/05/helen-phillips-hum-wins-the-2026-climate-fiction-prize/" rel="bookmark"&gt;Helen Phillips&amp;#8217; &amp;#8216;Hum&amp;#8217; wins the 2026 Climate Fiction Prize&lt;/a&gt;&lt;/h3&gt;											&lt;/div&gt;&lt;!-- .entry-wrapper --&gt;
 	&lt;/article&gt;
 
 				&lt;/div&gt;
@@ -960,245 +1181,4 @@
 				&lt;/div&gt;
 		
 	&lt;/div&gt;
-	</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 19 Jun 2026 11:00:00 +0000</pubDate><guid>https://yaleclimateconnections.org/2026/06/solar-surge-good-news-stories-on-the-renewable-energy-front/</guid><guid isPermaLink="true">https://yaleclimateconnections.org/2026/06/solar-surge-good-news-stories-on-the-renewable-energy-front/</guid></item><item><title>Fuertes lluvias azotan el sureste de EE. UU. con la llegada de los remanentes de la Tormenta Tropical Arthur</title><link>https://yaleclimateconnections.org/2026/06/fuertes-lluvias-azotan-la-costa-de-texas-antes-de-la-llegada-de-la-tormenta-tropical-arthur/</link><description>
-&lt;p class="has-drop-cap wp-block-paragraph"&gt;El &lt;a href="https://www.nhc.noaa.gov/"&gt;Centro Nacional de Huracanes&lt;/a&gt; ha elevado oficialmente al Potencial Ciclón Tropical Uno, (PTC One, por sus siglas en inglés) a la categoría de Tormenta Tropical Arthur. La tormenta tiene vientos máximos sostenidos de 40 mph (65 km/h) y se desplaza hacia el noreste a 9 mph (15 km/h). Es probable que Arthur se fortalezca ligeramente mientras se mueve cerca de la costa superior de Texas. Las temperaturas del agua en esta región cercana al sur de &lt;a href="https://www.ospo.noaa.gov/products/ocean/sst/contour/"&gt;Texas alcanzan al menos los 83.5 °F (29 °C).&lt;/a&gt;&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;El pronóstico general se mantiene sin cambios. Las lluvias intensas representan una amenaza significativa y se espera que provoquen inundaciones potencialmente mortales en algunas zonas del sur profundo de Estados Unidos en los próximos días. Algunos lugares aislados podrían recibir casi 20 pulgadas (aproximadamente 500 mm) de lluvia.&lt;/p&gt;
-
-
-
-&lt;figure class="wp-block-image size-full"&gt;&lt;img data-recalc-dims="1" loading="lazy" decoding="async" width="712" height="773" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/Screenshot-2026-06-17-111410.jpg?resize=712%2C773&amp;#038;ssl=1" alt="Un mapa de la costa de Texas y Louisiana. " class="wp-image-139589" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/Screenshot-2026-06-17-111410.jpg?w=712&amp;amp;ssl=1 712w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/Screenshot-2026-06-17-111410.jpg?resize=276%2C300&amp;amp;ssl=1 276w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/Screenshot-2026-06-17-111410.jpg?resize=400%2C434&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/Screenshot-2026-06-17-111410.jpg?w=370&amp;amp;ssl=1 370w" sizes="auto, (max-width: 712px) 100vw, 712px" /&gt;&lt;/figure&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;Hay un Aviso de Tormenta Tropical vigente desde High Island, Texas, hasta Morgan City, Louisiana, donde se espera que se presenten condiciones de tormenta tropical dentro de las próximas 12 horas. También está en vigor una Vigilancia de Tormenta Tropical desde Sargent, Texas, hasta High Island, Texas, lo que significa que estas condiciones son posibles dentro de las próximas 12 horas. Los residentes de las áreas bajo advertencia y vigilancia deben seguir de cerca las actualizaciones y estar preparados para tomar las precauciones necesarias.&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;Se espera que la Tormenta Tropical Arthur se debilite durante las primeras horas del jueves después de internarse en tierra y atravesar el condado de Galveston, en el sureste de Texas.&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;&lt;em&gt;&lt;a href="https://www.nhc.noaa.gov/climo/"&gt;Como referencia, en promedio (período 1991–2020),&lt;/a&gt; la primera tormenta con nombre de la temporada de huracanes del Atlántico recibe su nombre alrededor del 20 de junio.&lt;/em&gt;&lt;/p&gt;
-
-
-
-&lt;figure class="wp-block-image size-large"&gt;&lt;img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="988" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/GulfwGulfofAmer.cf_.gif?resize=1024%2C988&amp;#038;ssl=1" alt="" class="wp-image-139576" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/GulfwGulfofAmer.cf_.gif?resize=1024%2C988&amp;amp;ssl=1 1024w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/GulfwGulfofAmer.cf_.gif?resize=300%2C289&amp;amp;ssl=1 300w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/GulfwGulfofAmer.cf_.gif?resize=768%2C741&amp;amp;ssl=1 768w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/GulfwGulfofAmer.cf_.gif?resize=1200%2C1157&amp;amp;ssl=1 1200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/GulfwGulfofAmer.cf_.gif?resize=780%2C752&amp;amp;ssl=1 780w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/GulfwGulfofAmer.cf_.gif?resize=400%2C386&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/GulfwGulfofAmer.cf_-1024x988.gif?w=370&amp;amp;ssl=1 370w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Figura 1. Temperaturas actuales del agua en el Golfo de México. Las temperaturas a lo largo de la costa de Texas oscilan entre 29 y 29 °C (83 y 84 °F). &lt;em&gt;(Crédito de la imagen: &lt;a href="https://www.ospo.noaa.gov/products/ocean/sst/contour/"&gt;NOAA&lt;/a&gt;).&lt;/em&gt;&lt;br&gt;&lt;/figcaption&gt;&lt;/figure&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;Arthur traerá impactos significativos a la costa de Texas y, posiblemente, a otras áreas de la costa del Golfo esta semana. Los residentes de la costa del Golfo deben mantenerse preparados para fuertes lluvias durante esta semana. Las inundaciones representarán una amenaza importante y podrían volverse mortales en muy poco tiempo.&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;No se deben subestimar los impactos de un sistema de vida corta. A medida que avance por la costa de Texas, transportará una gran cantidad de humedad tropical, lo que provocará lluvias intensas, ráfagas de viento y condiciones adversas en áreas ya saturadas por tormentas y aguaceros recientes (más información a continuación).&lt;/p&gt;
-
-
-
-&lt;h4 class="wp-block-heading"&gt;¿Qué muestran los modelos?&lt;/h4&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;Los modelos de pronóstico coinciden en que el sistema se moverá lentamente hacia el noreste a lo largo de la costa de Texas el miércoles. Aunque existe la posibilidad de que se fortalezca brevemente sobre las cálidas aguas del Golfo de México un poco más antes de tocar tierra, la mayoría de las proyecciones indican que su permanencia sobre el agua será limitada, lo que restringiría una intensificación significativa.&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;El consenso de los modelos indica que la principal amenaza no será el viento, sino las lluvias torrenciales. Varias simulaciones proyectan acumulados generalizados de entre 5 y 10 pulgadas (125 a 250 mm), con cantidades localmente superiores a 15 pulgadas (380 mm) e incluso cercanas a 20 pulgadas (500 mm) en algunos puntos aislados del sureste de Texas y zonas cercanas de Louisiana.&lt;/p&gt;
-
-
-
-&lt;figure class="wp-block-image size-full"&gt;&lt;img data-recalc-dims="1" loading="lazy" decoding="async" width="800" height="561" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/p120i-1.gif?resize=800%2C561&amp;#038;ssl=1" alt="Un mapa de Estados Unidos." class="wp-image-139578"/&gt;&lt;figcaption class="wp-element-caption"&gt;&lt;br&gt;Figura 3. Pronóstico de lluvia para los próximos 5 días, entre el martes 16 de junio de 2026 y el domingo 21 de junio. Se está formando un evento de lluvia significativo entre el este de Texas y el Sur Profundo, con algunas áreas que podrían recibir más de 10 pulgadas de lluvia. (Crédito de la imagen: &lt;a href="https://water.noaa.gov/#@=-91.5168189,32.1408082,4.2184578&amp;amp;b=topographic&amp;amp;g=obsFcst,0!0!0!0!0!0!0!0!0!0!0!0!0!0!0!0!0!0!0!0,0.5,1!1!1!1!0,0,0,false&amp;amp;ab=0,0,"&gt;NOAA&lt;/a&gt;)&lt;/figcaption&gt;&lt;/figure&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;Además, los modelos muestran que el movimiento lento del sistema permitirá que bandas de lluvia persistentes afecten repetidamente las mismas áreas, lo que aumentará considerablemente el riesgo de inundaciones repentinas y potencialmente mortales. Incluso si el sistema no llega a fortalecerse de manera significativa, los impactos de la lluvia podrían ser severos debido a los suelos ya saturados por las precipitaciones recientes.&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;Los modelos de pronóstico siguen mostrando cierta inconsistencia en la ubicación exacta del sistema y en su nivel de organización. El GFS (modelo estadounidense) proyecta el desarrollo de una circulación cerrada de corta duración, justo al suroeste de Corpus Christi, mientras que la convección más intensa (tormentas y lluvias fuertes) se extendería a lo largo de la costa del sureste de Texas y hacia el sur de Louisiana hasta la mañana del jueves. Las proyecciones de lluvia indican que los mayores acumulados se concentrarán en sectores del sur de Louisiana y del sur de Alabama, donde algunas zonas aisladas podrían recibir más de 9 pulgadas (230 mm) de lluvia.&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;El modelo europeo (ECMWF) sugiere una organización del sistema algo mayor, con áreas de convección que afectan gran parte de la costa de Texas. Este modelo también indica que las tormentas más intensas impactarán gran parte del Extremo Sur de Estados Unidos, provocando un importante episodio de lluvias durante la segunda mitad de la semana. Los acumulados podrían superar las 6 pulgadas (150 mm) en amplias zonas desde el sureste de Texas hasta Louisiana, Mississippi y Alabama. Toda esta lluvia se sumaría a las precipitaciones de los últimos días, lo que aumentaría significativamente el riesgo de inundaciones. De hecho, las inundaciones repentinas afectaron el centro de Texas durante la noche del 14 al 15 de junio, obligando al cierre de la Interestatal 35 (I-35) en ambos sentidos de circulación a la altura de Waco.&lt;/p&gt;
-
-
-
-&lt;figure class="wp-block-embed is-type-rich is-provider-bluesky-social wp-block-embed-bluesky-social"&gt;&lt;div class="wp-block-embed__wrapper"&gt;
-&lt;blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:h5dm22h7fqg7mahcttj4jz5y/app.bsky.feed.post/3modzefeq772d" data-bluesky-cid="bafyreif2azwakedaw2rua5f3yjxca3mfzue3pulrdeysx6uwvvsfqttqkm"&gt;&lt;p&gt;🌧️ A surge of tropical moisture turned parts of Waco into a flood zone Sunday night.Slow-moving thunderstorms dumped rain at rates of 2 to 4 inches per hour, triggering widespread flash flooding across the Waco area. &lt;/p&gt;&amp;mdash; &lt;a href="https://bsky.app/profile/did:plc:h5dm22h7fqg7mahcttj4jz5y?ref_src=embed"&gt;Chron.com (@chron.com)&lt;/a&gt; &lt;a href="https://bsky.app/profile/did:plc:h5dm22h7fqg7mahcttj4jz5y/post/3modzefeq772d?ref_src=embed"&gt;2026-06-15T19:28:28Z&lt;/a&gt;&lt;/blockquote&gt;&lt;script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"&gt;&lt;/script&gt;
-&lt;/div&gt;&lt;/figure&gt;
-
-
-
-&lt;figure class="wp-block-image size-full"&gt;&lt;img data-recalc-dims="1" loading="lazy" decoding="async" width="974" height="426" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/0626-cocorahs-thru-AM-6.15.26.jpg?resize=974%2C426&amp;#038;ssl=1" alt="" class="wp-image-139569" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/0626-cocorahs-thru-AM-6.15.26.jpg?w=974&amp;amp;ssl=1 974w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/0626-cocorahs-thru-AM-6.15.26.jpg?resize=300%2C131&amp;amp;ssl=1 300w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/0626-cocorahs-thru-AM-6.15.26.jpg?resize=768%2C336&amp;amp;ssl=1 768w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/0626-cocorahs-thru-AM-6.15.26.jpg?resize=780%2C341&amp;amp;ssl=1 780w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/0626-cocorahs-thru-AM-6.15.26.jpg?resize=400%2C175&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/0626-cocorahs-thru-AM-6.15.26.jpg?w=370&amp;amp;ssl=1 370w" sizes="auto, (max-width: 974px) 100vw, 974px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Figura 4. Acumulados de lluvia medidos por los voluntarios de CoCoRaHS durante las 24 horas finalizadas a la mañana del lunes 15 de junio de 2026 en el centro de Texas. Los totales de precipitación de entre 4 y 9 pulgadas (100 a 230 mm) se registraron en gran parte de la región. &lt;em&gt;(Crédito de la imagen: &lt;a href="https://maps.cocorahs.org/"&gt;CoCoRaHS&lt;/a&gt;).&lt;/em&gt;&lt;/figcaption&gt;&lt;/figure&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;Una señal de la atmósfera extremadamente húmeda que fluye sobre la costa de Texas y alimenta las lluvias torrenciales es la cantidad de humedad presente en la atmósfera. El agua precipitable —una medida de la humedad total contenida en una columna imaginaria de aire— alcanzó las 2.74 pulgadas (6.97 cm) sobre Corpus Christi, Texas, la noche del lunes, según datos obtenidos mediante un globo meteorológico. Este valor representa el noveno más alto registrado entre más de 50,000 sondeos atmosféricos realizados en el área de Corpus Christi&lt;a href="https://www.spc.noaa.gov/exper/soundingclimov2/"&gt; durante los últimos 73 años.&lt;/a&gt; Además, es el &lt;a href="https://www.tropicaltidbits.com/analysis/ocean/cdas-sflux_ssta_watl_1.png"&gt;valor más alto observado fuera del período principal del verano&lt;/a&gt;, que normalmente se extiende desde finales de junio hasta finales de septiembre.&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;Las aguas superficiales del oeste del Golfo de México&lt;a href="https://kouya.has.arizona.edu/tropics/GOMsst.png"&gt; no están especialmente cálidas&lt;/a&gt; para mediados de junio y se mantienen cerca de los valores promedio de esta época del año. Sin embargo, esta perturbación aprovecha una masa de aire extremadamente húmeda que se desplaza hacia el norte desde Centroamérica y el Pacífico tropical oriental. Las temperaturas de la superficie del mar en esa región del Pacífico se encuentran en &lt;a href="https://kouya.has.arizona.edu/tropics/ENPEsst.png"&gt;niveles récord para esta época del año,&lt;/a&gt; como resultado de una prolongada &lt;a href="https://www.climatecentral.org/climate-shift-index-alert/severe-marine-heatwave-climate-change-California-Mexico"&gt;ola de calor marina frente a la costa del Pacífico&lt;/a&gt; mexicano, combinada con el calentamiento ecuatorial asociado &lt;a href="https://yaleclimateconnections.org/2026/06/el-nino-is-officially-here-raising-confidence-in-a-quiet-2026-atlantic-hurricane-season/"&gt;a la llegada de El Niño.&lt;/a&gt; Esta enorme reserva de humedad está contribuyendo a intensificar las lluvias y a aumentar el riesgo de inundaciones en Texas y otras zonas de la costa del Golfo.&lt;/p&gt;
-
-
-
-&lt;figure class="wp-block-image size-full"&gt;&lt;img data-recalc-dims="1" loading="lazy" decoding="async" width="974" height="612" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/0626-AP19261625654563.jpg?resize=974%2C612&amp;#038;ssl=1" alt="Una foto de un hombre caminando por una calle inundada." class="wp-image-139568" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/0626-AP19261625654563.jpg?w=974&amp;amp;ssl=1 974w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/0626-AP19261625654563.jpg?resize=300%2C189&amp;amp;ssl=1 300w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/0626-AP19261625654563.jpg?resize=768%2C483&amp;amp;ssl=1 768w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/0626-AP19261625654563.jpg?resize=780%2C490&amp;amp;ssl=1 780w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/0626-AP19261625654563.jpg?resize=400%2C251&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/0626-AP19261625654563.jpg?w=370&amp;amp;ssl=1 370w" sizes="auto, (max-width: 974px) 100vw, 974px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Figura 5. Angel Marshman camina entre las aguas de la inundación provocada por la Depresión Tropical Imelda después de intentar poner en marcha su automóvil inundado el 18 de septiembre de 2019 en Galveston, Texas. &lt;em&gt;(Crédito de la imagen: AP Photo/David J. Phillip).&lt;/em&gt;&lt;/figcaption&gt;&lt;/figure&gt;
-
-
-
-&lt;h4 class="wp-block-heading"&gt;&lt;strong&gt;Algunos precedentes recientes e inquietantes de lluvias tropicales extremas en Texas y Louisiana&lt;/strong&gt;&lt;/h4&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;Algunos precedentes recientes e inquietantes de lluvias tropicales extremas en Texas y Louisiana. El sureste de Texas y el suroeste de Louisiana están acostumbrados a episodios de lluvias torrenciales capaces de inundar calles, barrios enteros y amplias zonas urbanas. En ocasiones, estos eventos son provocados por huracanes poderosos que se estancan sobre la región, como ocurrió con Harvey en agosto de 2017. Tras tocar tierra en el sur de Texas como un huracán de Categoría 4, Harvey se debilitó hasta convertirse en una tormenta tropical de movimiento lento que permaneció durante varios días cerca de la costa norte de Texas. El sistema descargó &lt;a href="https://kinder.rice.edu/urbanedge/hurricane-harvey-data"&gt;aproximadamente 24,5 billones de galones de lluvia &lt;/a&gt;sobre Texas y Louisiana. El acumulado de 60.58 pulgadas (1,539 mm) registrado en Nederland, cerca de la frontera entre Texas y Louisiana, constituye el récord de precipitación total asociado a un ciclón tropical en los 48 estados contiguos de Estados Unidos.&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;Sin embargo, incluso los sistemas que nunca alcanzan la categoría de huracán han provocado grandes desastres en esta región. En julio de 1979, la mayor precipitación registrada en 24 horas en los Estados Unidos continentales —unas impresionantes 42 pulgadas (1,067 mm)— cayó sobre Alvin, Texas, al suroeste de Houston, en asociación con la Tormenta Tropical Claudette. Aún mayores fueron los daños causados por la &lt;a href="https://en.wikipedia.org/wiki/Tropical_Storm_Allison"&gt;Tormenta Tropical Allison&lt;/a&gt; en junio de 2001. Su lento desplazamiento provocó inundaciones en aproximadamente 70,000 viviendas del área de Houston. Durante varios días, Allison dejó 50 fallecidos y pérdidas estimadas en 8,500 millones de dólares (valores de 2001).&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;Más recientemente, la Tormenta Tropical Imelda alcanzó vientos sostenidos de apenas 45 mph (72 km/h) antes de tocar tierra y debilitarse sobre el sureste de Texas en septiembre de 2019. A pesar de ello, dejó más de 40 pulgadas (1,016 mm) de lluvia en algunas zonas, obligando a realizar enormes operaciones de rescate y provocando daños cercanos a los 5,000 millones de dólares (valores de 2019). Asimismo, en agosto de 2016, una perturbación tropical sin nombre sobre Louisiana descargó más de 31 pulgadas (787 mm) de lluvia. Las inundaciones resultantes causaron la muerte de 13 personas y generaron pérdidas estimadas en 14,000 millones de dólares (ajustados a valores de 2026). Estos antecedentes ponen de relieve que, en la costa del golfo, la intensidad de los impactos no depende necesariamente de la fuerza de los vientos. Los sistemas tropicales lentos y cargados de humedad pueden provocar inundaciones catastróficas y potencialmente mortales, incluso sin alcanzar la categoría de huracán.&lt;/p&gt;
-
-
-
-&lt;figure class="wp-block-image size-full"&gt;&lt;img data-recalc-dims="1" loading="lazy" decoding="async" width="974" height="692" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/thumbnail.png?resize=974%2C692&amp;#038;ssl=1" alt="Una mapa de Estados Unidos. " class="wp-image-139579" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/thumbnail.png?w=974&amp;amp;ssl=1 974w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/thumbnail.png?resize=300%2C213&amp;amp;ssl=1 300w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/thumbnail.png?resize=768%2C546&amp;amp;ssl=1 768w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/thumbnail.png?resize=780%2C554&amp;amp;ssl=1 780w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/thumbnail.png?resize=400%2C284&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/thumbnail.png?w=370&amp;amp;ssl=1 370w" sizes="auto, (max-width: 974px) 100vw, 974px" /&gt;&lt;figcaption class="wp-element-caption"&gt;&lt;br&gt;Figura 6. Precipitación observada durante el período de 3 días finalizado a las 8:00 a. m. EDT del martes 16 de junio de 2026. Se registraron acumulados generalizados de entre 2 y 4 pulgadas (50 a 100 mm) en diversas zonas de Texas, mientras que se necesitaban entre 19 y 20 pulgadas (480 a 510 mm) de lluvia para eliminar las condiciones de sequía en algunas áreas. &lt;em&gt;(Crédito de la imagen:&lt;a href="https://water.noaa.gov/#@=-91.5168189,32.1408082,4.2184578&amp;amp;b=topographic&amp;amp;g=obsFcst,0!0!0!0!0!0!0!0!0!0!0!0!0!0!0!0!0!0!0!0,0.5,1!1!1!1!0,0,0,false&amp;amp;ab=0,0,"&gt; NOAA&lt;/a&gt;).&lt;/em&gt;&lt;/figcaption&gt;&lt;/figure&gt;
-
-
-
-&lt;h4 class="wp-block-heading"&gt;&lt;strong&gt;Un alivio bienvenido para la sequía está en camino&lt;/strong&gt;&lt;/h4&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;Aunque sería preferible que las lluvias previstas para la costa del Golfo no fueran tan intensas, estas precipitaciones traerán un beneficio importante: el alivio de la sequía. Si bien los datos más recientes muestran que gran parte de la región ha comenzado a recuperarse &lt;a href="https://droughtmonitor.unl.edu/DmData/TimeSeries.aspx"&gt;de una sequía&lt;/a&gt; que se prolongó durante meses y alcanzó su punto máximo en marzo, el área todavía arrastra un déficit de precipitaciones acumulado durante varios años, lo que ha reducido significativamente las reservas de agua subterránea y los niveles de los embalses. Esta situación ha llevado a la ciudad de Corpus Christi a considerar la implementación de &lt;a href="https://insideclimatenews.org/news/20052026/corpus-christi-postpones-water-emergency/"&gt;restricciones de emergencia en el uso del agua durante este verano&lt;/a&gt;. Según la NOAA, al 13 de junio, las zonas de la costa central y superior de Texas necesitaban entre 19 y 20 pulgadas (480 a 510 mm) de lluvia en apenas un mes para salir de las condiciones de sequía intensa a largo plazo. La situación era incluso más crítica en gran parte de Florida (excepto el Panhandle), donde se requerían entre 20 y 26 pulgadas (510 a 660 mm).&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;Un reportaje publicado el 20 de mayo por &lt;a href="https://insideclimatenews.org/news/20052026/corpus-christi-postpones-water-emergency/"&gt;Inside Climate News &lt;/a&gt;destacó que la principal fuente de abastecimiento de agua de Corpus Christi, el embalse Choke Canyon, no ha alcanzado su capacidad máxima desde 2008. Según el climatólogo estatal de Texas, John Nielsen-Gammon, el embalse ha recibido únicamente tres eventos menores de aporte de agua y ningún evento importante en los últimos 15 años. Por su parte, el segundo embalse más importante de la región, Lake Corpus Christi, no ha registrado aportes significativos de agua en los últimos cinco años. Actualmente, ambos embalses, en conjunto, se encuentran aproximadamente al 8 % de su capacidad total.&lt;/p&gt;
-
-
-
-&lt;figure class="wp-block-image size-full"&gt;&lt;img data-recalc-dims="1" loading="lazy" decoding="async" width="974" height="604" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/drought-ameliorization-jun13.png?resize=974%2C604&amp;#038;ssl=1" alt="Un mapa de Estados Unidos y colores diferentes marcando la cantidad de lluvia necesaria para poner fin a la sequía." class="wp-image-139567" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/drought-ameliorization-jun13.png?w=974&amp;amp;ssl=1 974w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/drought-ameliorization-jun13.png?resize=300%2C186&amp;amp;ssl=1 300w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/drought-ameliorization-jun13.png?resize=768%2C476&amp;amp;ssl=1 768w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/drought-ameliorization-jun13.png?resize=780%2C484&amp;amp;ssl=1 780w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/drought-ameliorization-jun13.png?resize=400%2C248&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/drought-ameliorization-jun13.png?w=370&amp;amp;ssl=1 370w" sizes="auto, (max-width: 974px) 100vw, 974px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Figura 7. Cantidad de precipitación necesaria en un mes para poner fin a la sequía, según el Índice de Severidad de Sequía de Palmer Hidrológico (PHDI), una de las principales medidas de sequía a largo plazo. Las áreas en blanco no requieren precipitaciones adicionales para salir de la sequía. &lt;em&gt;(Crédito de la imagen: NOAA).&lt;/em&gt;&lt;/figcaption&gt;&lt;/figure&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;Más al sur y al oeste, las abundantes lluvias registradas en México durante lo que va del año han proporcionado un alivio notable frente a la sequía. En las últimas semanas, la proporción del territorio mexicano &lt;a href="https://smn.conagua.gob.mx/es/climatologia/monitor-de-sequia/monitor-de-sequia-en-mexico"&gt;afectada por condiciones de sequedad anormal&lt;/a&gt; o sequía ha disminuido hasta alrededor del 15 %, el nivel más bajo registrado desde 2015.&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;&lt;em&gt;&lt;em&gt;Este artículo fue traducido por Irene Sans.&lt;/em&gt;&lt;/em&gt;&lt;/p&gt;
-
-
-	&lt;div
-		class="wp-block-newspack-blocks-homepage-articles wpnbha is-grid columns-3 colgap-3 show-image image-aligntop ts-2 is-3 is-landscape "
-		style=""
-		&gt;
-		&lt;div data-posts data-current-post-id="139594"&gt;
-							&lt;h2 class="article-section-title"&gt;
-					&lt;span&gt;MÁS ARTÍCULOS &lt;/span&gt;
-				&lt;/h2&gt;
-						
-	&lt;article data-post-id="139406"
-		class="tag-calor-extremo tag-copa-mundial tag-futbol-2 tag-johani-carolina-ponce category-calor-extremo category-clima-extremo category-deportes category-en-espanol category-salud type-post post-has-image"
-				&gt;
-							&lt;figure class="post-thumbnail"&gt;
-								&lt;a href="https://yaleclimateconnections.org/2026/06/esta-copa-mundial-podria-ser-la-mas-calurosa-en-la-historia-del-juego/" rel="bookmark" tabindex="-1" aria-hidden="true"&gt;
-												&lt;img loading="lazy" decoding="async" width="1200" height="900" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/null-1.png?resize=1200%2C900&amp;amp;ssl=1" class="attachment-newspack-article-block-landscape-large size-newspack-article-block-landscape-large wp-post-image" alt="Esta Copa Mundial podría ser la más calurosa en la historia del juego" data-hero-candidate="1" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/null-1.png?resize=1200%2C900&amp;amp;ssl=1 1200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/null-1.png?resize=800%2C600&amp;amp;ssl=1 800w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/null-1.png?resize=600%2C450&amp;amp;ssl=1 600w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/null-1.png?resize=400%2C300&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/null-1.png?resize=200%2C150&amp;amp;ssl=1 200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/null-1.png?resize=1200%2C900&amp;amp;ssl=1&amp;amp;w=370 370w" sizes="auto, (max-width: 34.9rem) calc(100vw - 2rem), (max-width: 53rem) calc(8 * (100vw / 12)), (min-width: 53rem) calc(6 * (100vw / 12)), 100vw" /&gt;												&lt;/a&gt;
-				
-							&lt;/figure&gt;&lt;!-- .featured-image --&gt;
-		
-		&lt;div class="entry-wrapper"&gt;
-						&lt;h3 class="entry-title"&gt;&lt;a href="https://yaleclimateconnections.org/2026/06/esta-copa-mundial-podria-ser-la-mas-calurosa-en-la-historia-del-juego/" rel="bookmark"&gt;Esta Copa Mundial podría ser la más calurosa en la historia del juego&lt;/a&gt;&lt;/h3&gt;											&lt;/div&gt;&lt;!-- .entry-wrapper --&gt;
-	&lt;/article&gt;
-
-		
-	&lt;article data-post-id="139251"
-		class="tag-irene-sans tag-pearl-marvell category-en-espanol category-historias-personales category-lideres-climaticos type-post post-has-image"
-				&gt;
-							&lt;figure class="post-thumbnail"&gt;
-								&lt;a href="https://yaleclimateconnections.org/2026/06/10-preguntas-para-irene-sans-nuestra-nueva-meteorologa/" rel="bookmark" tabindex="-1" aria-hidden="true"&gt;
-												&lt;img loading="lazy" decoding="async" width="1200" height="900" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/IreneBioBlue-1.webp?resize=1200%2C900&amp;amp;ssl=1" class="attachment-newspack-article-block-landscape-large size-newspack-article-block-landscape-large wp-post-image" alt="10 preguntas para Irene Sans, nuestra nueva meteoróloga" data-hero-candidate="1" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/IreneBioBlue-1.webp?w=1920&amp;amp;ssl=1 1920w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/IreneBioBlue-1.webp?resize=300%2C225&amp;amp;ssl=1 300w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/IreneBioBlue-1.webp?resize=1024%2C768&amp;amp;ssl=1 1024w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/IreneBioBlue-1.webp?resize=768%2C576&amp;amp;ssl=1 768w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/IreneBioBlue-1.webp?resize=1536%2C1152&amp;amp;ssl=1 1536w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/IreneBioBlue-1.webp?resize=1200%2C900&amp;amp;ssl=1 1200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/IreneBioBlue-1.webp?resize=800%2C600&amp;amp;ssl=1 800w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/IreneBioBlue-1.webp?resize=600%2C450&amp;amp;ssl=1 600w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/IreneBioBlue-1.webp?resize=400%2C300&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/IreneBioBlue-1.webp?resize=200%2C150&amp;amp;ssl=1 200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/IreneBioBlue-1.webp?resize=780%2C585&amp;amp;ssl=1 780w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/IreneBioBlue-1.webp?resize=1200%2C900&amp;amp;ssl=1&amp;amp;w=370 370w" sizes="auto, (max-width: 34.9rem) calc(100vw - 2rem), (max-width: 53rem) calc(8 * (100vw / 12)), (min-width: 53rem) calc(6 * (100vw / 12)), 100vw" /&gt;												&lt;/a&gt;
-				
-							&lt;/figure&gt;&lt;!-- .featured-image --&gt;
-		
-		&lt;div class="entry-wrapper"&gt;
-						&lt;h3 class="entry-title"&gt;&lt;a href="https://yaleclimateconnections.org/2026/06/10-preguntas-para-irene-sans-nuestra-nueva-meteorologa/" rel="bookmark"&gt;10 preguntas para Irene Sans, nuestra nueva meteoróloga&lt;/a&gt;&lt;/h3&gt;											&lt;/div&gt;&lt;!-- .entry-wrapper --&gt;
-	&lt;/article&gt;
-
-		
-	&lt;article data-post-id="139160"
-		class="tag-huracanes tag-irene-sans tag-temporada-de-huracanes category-el-caribe category-el-nino category-en-espanol category-espanol type-post post-has-image"
-				&gt;
-							&lt;figure class="post-thumbnail"&gt;
-								&lt;a href="https://yaleclimateconnections.org/2026/06/comienza-la-temporada-de-huracanes-del-atlantico-de-2026-un-fuerte-el-nino-podria-traer-menos-tormentas/" rel="bookmark" tabindex="-1" aria-hidden="true"&gt;
-												&lt;img loading="lazy" decoding="async" width="1200" height="900" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/hurricane_idalia_1920x1080.jpg?resize=1200%2C900&amp;amp;ssl=1" class="attachment-newspack-article-block-landscape-large size-newspack-article-block-landscape-large wp-post-image" alt="Comienza la temporada de huracanes del Atlántico de 2026: un fuerte El Niño podría traer menos tormentas." data-hero-candidate="1" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/hurricane_idalia_1920x1080.jpg?resize=1200%2C900&amp;amp;ssl=1 1200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/hurricane_idalia_1920x1080.jpg?resize=800%2C600&amp;amp;ssl=1 800w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/hurricane_idalia_1920x1080.jpg?resize=600%2C450&amp;amp;ssl=1 600w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/hurricane_idalia_1920x1080.jpg?resize=400%2C300&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/hurricane_idalia_1920x1080.jpg?resize=200%2C150&amp;amp;ssl=1 200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/hurricane_idalia_1920x1080.jpg?resize=1200%2C900&amp;amp;ssl=1&amp;amp;w=370 370w" sizes="auto, (max-width: 34.9rem) calc(100vw - 2rem), (max-width: 53rem) calc(8 * (100vw / 12)), (min-width: 53rem) calc(6 * (100vw / 12)), 100vw" /&gt;												&lt;/a&gt;
-				
-							&lt;/figure&gt;&lt;!-- .featured-image --&gt;
-		
-		&lt;div class="entry-wrapper"&gt;
-						&lt;h3 class="entry-title"&gt;&lt;a href="https://yaleclimateconnections.org/2026/06/comienza-la-temporada-de-huracanes-del-atlantico-de-2026-un-fuerte-el-nino-podria-traer-menos-tormentas/" rel="bookmark"&gt;Comienza la temporada de huracanes del Atlántico de 2026: un fuerte El Niño podría traer menos tormentas.&lt;/a&gt;&lt;/h3&gt;											&lt;/div&gt;&lt;!-- .entry-wrapper --&gt;
-	&lt;/article&gt;
-
-				&lt;/div&gt;
-		
-	&lt;/div&gt;
-	</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Thu, 18 Jun 2026 14:33:43 +0000</pubDate><guid>https://yaleclimateconnections.org/2026/06/fuertes-lluvias-azotan-la-costa-de-texas-antes-de-la-llegada-de-la-tormenta-tropical-arthur/</guid><guid isPermaLink="true">https://yaleclimateconnections.org/2026/06/fuertes-lluvias-azotan-la-costa-de-texas-antes-de-la-llegada-de-la-tormenta-tropical-arthur/</guid></item><item><title>Bees are buzzing on Michigan State’s campus</title><link>https://yaleclimateconnections.org/2026/06/bees-are-buzzing-on-michigan-states-campus/</link><description>
-&lt;p class="wp-block-paragraph"&gt;&lt;/p&gt;
-
-
-
-&lt;figure class="wp-block-audio"&gt;&lt;audio controls src="https://traffic.libsyn.com/secure/climateconnections/CX260618.mp3"&gt;&lt;/audio&gt;&lt;/figure&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;Transcript:&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;At Michigan State University, the roar of lawn mowers is being replaced by the sound of buzzing bees.&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;Last year, &lt;a href="https://www.canr.msu.edu/news/msu-transforms-property-to-support-pollinators"&gt;the school began transforming&lt;/a&gt; some mowed lawns into wild meadow habitat for pollinators like bees, butterflies, and hummingbirds.&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;Landscape services coordinator Josh Ridner worked with an entomology professor to identify 22 acres of lawn on campus that got little foot traffic.&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;The landscaping crew stopped mowing those areas and let the grass grow naturally.&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;And on six of those acres, they planted and seeded native and pollinator-friendly plants.&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;Ridner: “We put some butterfly weed and Joe Pye weed. There’s blazing star, bee balm, mountain mint, black-eyed Susan.”&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;By limiting the need for mowers and other gas-powered lawn equipment, the project reduces planet-warming carbon pollution and maintenance costs.&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;Ridner: “We’re only doing the mowing essentially once a year as opposed to, you know, 24 to 28 times a year.”&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;So Ridner expects the change to pay for itself within three years.&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;And he hopes to expand the effort by planting more this year. So soon, the campus will be abuzz with butterflies, bees, and birds.&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;Ridner: “It’s gonna help the environment. It’s gonna do a lot of good for us.”&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;&lt;em&gt;Reporting credit: Ethan Freedman / ChavoBart Digital Media&lt;/em&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Thu, 18 Jun 2026 11:00:00 +0000</pubDate><guid>https://yaleclimateconnections.org/2026/06/bees-are-buzzing-on-michigan-states-campus/</guid><guid isPermaLink="true">https://yaleclimateconnections.org/2026/06/bees-are-buzzing-on-michigan-states-campus/</guid></item></channel></rss>
+	</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 19 Jun 2026 11:00:00 +0000</pubDate><guid>https://yaleclimateconnections.org/2026/06/solar-surge-good-news-stories-on-the-renewable-energy-front/</guid><guid isPermaLink="true">https://yaleclimateconnections.org/2026/06/solar-surge-good-news-stories-on-the-renewable-energy-front/</guid></item></channel></rss>
