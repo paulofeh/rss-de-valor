@@ -1,124 +1,223 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel xmlns:atom="http://www.w3.org/2005/Atom"><title>CNN Agro</title><link>https://www.cnnbrasil.com.br/agro/</link><description>Últimos artigos de CNN Agro</description><atom:link href="https://paulofeh.github.io/rss-de-valor/feeds/cnn_agro_feed.xml" rel="self"/><language>pt-br</language><lastBuildDate>Fri, 26 Jun 2026 03:12:20 +0000</lastBuildDate><ttl>60</ttl><item><title>Carregamentos são retomados no maior porto petrolífero do Oriente Médio</title><link>https://www.cnnbrasil.com.br/economia/macroeconomia/carregamento-ras-tanura-arabia-saudita/</link><description>&lt;p&gt;A estatal petrolífera Saudi Aramco, dos Arábia Saudita, voltou a carregar petróleo no terminal de Ras Tanura, na costa do país para o Golfo Pérsico, nesta sexta-feira (26).&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;O terminal estava paralisado desde 8 de março devido à guerra entre Estados Unidos e Israel contra o Irã, iniciada em 28 de fevereiro deste ano, e os consequentes ataques e ameaças de Teerã sobre países árabes do Golfo Pérsico e suas infraestruturas energéticas.&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel xmlns:atom="http://www.w3.org/2005/Atom"><title>CNN Agro</title><link>https://www.cnnbrasil.com.br/agro/</link><description>Últimos artigos de CNN Agro</description><atom:link href="https://paulofeh.github.io/rss-de-valor/feeds/cnn_agro_feed.xml" rel="self"/><language>pt-br</language><lastBuildDate>Fri, 26 Jun 2026 09:01:09 +0000</lastBuildDate><ttl>60</ttl><item><title>Governo investe em IA para vigiar área rica em petróleo e minerais no mar</title><link>https://www.cnnbrasil.com.br/infra/governo-investe-em-ia-para-vigiar-area-rica-em-petroleo-e-minerais-no-mar/</link><description>&lt;p&gt;Depois de vencer uma disputa internacional e ampliar em cerca de 360 mil km² a área marítima sob jurisdição brasileira, o governo federal vai financiar o desenvolvimento de um sistema com inteligência artificial para reforçar o monitoramento da chamada Amazônia Azul.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;O projeto, batizado de MANTA, será liderado pela IACIT, empresa estratégica de defesa sediada em São José dos Campos, e terá R$ 49 milhões em recursos da Finep. O consórcio responsável pela iniciativa também fará uma contrapartida de R$ 12 milhões.&lt;/p&gt;
+&lt;p&gt;A tecnologia será voltada à vigilância de longo alcance da plataforma continental brasileira, inclusive em áreas que se estendem além das 200 milhas náuticas.&lt;/p&gt;
 &lt;aside class="read-too read-too--with-img"&gt;
             &lt;h2 class='read-too__title'&gt;Leia Mais&lt;/h2&gt;
             &lt;ul class="read-too__list"&gt;
         &lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/internacional/onu-suspende-retirada-de-navios-em-ormuz-apos-ataque-a-embarcacao/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/infra/combate-ao-trafico-em-portos-tem-falhas-que-abrem-espaco-para-a-marinha/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/04/Vista-aerea-da-ilha-de-Qeshm-separada-do-continente-iraniano-pelo-Estreito-de-Clarence-no-Estreito-de-Ormuz.webp?w=200"
-                    alt="ONU suspende retirada de navios em Ormuz após ataque a embarcação"
-                    title="ONU suspende retirada de navios em Ormuz após ataque a embarcação'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/08/GettyImages-1421598221-e1691651465610.jpg?w=200"
+                    alt="Combate ao tráfico em portos tem falhas que abrem espaço para a Marinha"
+                    title="Combate ao tráfico em portos tem falhas que abrem espaço para a Marinha'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;ONU suspende retirada de navios em Ormuz após ataque a embarcação&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;Combate ao tráfico em portos tem falhas que abrem espaço para a Marinha&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/internacional/exercito-de-israel-anuncia-reducao-temporaria-de-forcas-no-libano/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/infra/marinha-defende-uso-de-tecnologia-nuclear-nos-setores-de-defesa-e-energia/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/ISRAEL-CASTELO-LIBANO.jpeg?w=200"
-                    alt="Exército de Israel anuncia redução &amp;quot;temporária&amp;quot; de forças no Líbano"
-                    title="Exército de Israel anuncia redução &amp;quot;temporária&amp;quot; de forças no Líbano'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/03/DG-3.jpeg?w=200"
+                    alt="Marinha defende uso de tecnologia nuclear nos setores de defesa e energia"
+                    title="Marinha defende uso de tecnologia nuclear nos setores de defesa e energia'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;Exército de Israel anuncia redução &amp;quot;temporária&amp;quot; de forças no Líbano&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;Marinha defende uso de tecnologia nuclear nos setores de defesa e energia&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/internacional/trump-tem-discussao-acalorada-com-senador-repulicano-sobre-guerra-no-ira/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/infra/com-municoes-aos-eua-exportacoes-de-defesa-do-brasil-dobram-no-1o-tri/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/Presidente-dos-EUA-Donald-Trump-na-Casa-Branca.jpg?w=200"
-                    alt="Trump tem discussão acalorada com senador republicano sobre guerra no Irã"
-                    title="Trump tem discussão acalorada com senador republicano sobre guerra no Irã'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/11/raf03951-e1732581629909.jpg?w=200"
+                    alt="Com munições aos EUA, exportações de defesa do Brasil dobram no 1º tri"
+                    title="Com munições aos EUA, exportações de defesa do Brasil dobram no 1º tri'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;Trump tem discussão acalorada com senador republicano sobre guerra no Irã&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;Com munições aos EUA, exportações de defesa do Brasil dobram no 1º tri&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;    &lt;/ul&gt;
 &lt;/aside&gt;
 
-&lt;p&gt;Dados de transporte marítimo apontam que dois navios petroleiros estão carregando petróleo bruto no terminal, enquanto um terceiro aguarda nas proximidades do porto.&lt;/p&gt;
-&lt;p&gt;O porto de Ras Tanura é o principal terminal de carregamento de petróleo da Arábia Saudita, que é o segundo país que mais produz petróleo bruto no mundo.&lt;/p&gt;
-&lt;p&gt;Cerca de 10 milhões de barris foram produzidos pela Arábia Saudita por dia em janeiro, antes da Guerra no Oriente Médio, segundo a OPEP (Organização dos Países Exportadores de Petróleo). Em média, mais de 80% do petróleo bruto exportado pelos sauditas é carregado em Ras Tanura.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;Com os bloqueios do Irã e dos Estados Unidos para a saída de navios do Golfo Pérsico pelo Estreito de Ormuz, a Arábia Saudita teve que desviar exportações para o porto de Yanbu, no Mar Vermelho &amp;#8211; e de maneira limitada.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;* Com informações da Reuters&lt;/em&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 26 Jun 2026 03:12:20 +0000</pubDate><guid>https://www.cnnbrasil.com.br/economia/macroeconomia/carregamento-ras-tanura-arabia-saudita/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/economia/macroeconomia/carregamento-ras-tanura-arabia-saudita/</guid></item><item><title>Japão amplia sequência invicta antes de enfrentar o Brasil na Copa</title><link>https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/japao-amplia-sequencia-invicta-antes-de-enfrentar-o-brasil-na-copa/</link><description>&lt;p&gt;O Brasil enfrentará o Japão nos 16-avos de final da Copa do Mundo. O confronto foi selado após o empate da equipe em 1 a 1 com a Suécia, nesta quinta-feira (25), pela rodada final do Grupo F.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;O resultado garantiu aos &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/japao-empata-com-a-suecia-e-sera-adversario-do-brasil-no-mata-mata-da-copa/"&gt;&lt;strong&gt;Samurais Azuis&lt;/strong&gt;&lt;/a&gt; uma marca notável. A equipe asiática está há impressionantes oito anos sem perder para seleções europeias, considerando jogos oficiais e amistosos. Nesse período, acumulou oito vitórias e três empates em 11 partidas.&lt;/p&gt;
-&lt;p&gt;A última vez que o Japão foi derrotado por um europeu foi na Copa de 2018, na Rússia. Naquela ocasião, a Bélgica venceu de virada por 3 a 2, eliminando os japoneses nas oitavas de final.&lt;/p&gt;
+&lt;p&gt;A proposta é combinar sensoriamento, processamento de sinais e inteligência artificial para detectar, acompanhar e identificar alvos em ambientes marítimos complexos.&lt;/p&gt;
+&lt;p&gt;O investimento ocorre em meio ao esforço do Brasil para transformar em capacidade prática de fiscalização a expansão reconhecida pela ONU (Organização das Nações Unidas) em 2025. A área adicional equivale aproximadamente ao território da Alemanha e ampliou o espaço em que o país tem direitos sobre recursos naturais do subsolo marinho.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;A Amazônia Azul é considerada estratégica pela Marinha por concentrar rotas comerciais, reservas energéticas, recursos minerais, biodiversidade e infraestruturas sensíveis.&lt;/p&gt;
+&lt;p&gt;A região também já foi alvo de preocupação militar. Em 2023, a Marinha determinou que um navio alemão interrompesse atividades de pesquisa não autorizadas na elevação do Rio Grande, área de interesse por seu potencial mineral.&lt;/p&gt;
+&lt;p&gt;O episódio reforçou o alerta dentro das Forças Armadas sobre a necessidade de monitorar áreas distantes da costa brasileira.&lt;/p&gt;
+&lt;p&gt;O MANTA terá alcance superior a 350 milhas náuticas e poderá apoiar ações de fiscalização, segurança marítima, proteção ambiental e combate a atividades ilícitas, como pesca ilegal, tráfico e outras ameaças transnacionais.&lt;/p&gt;
+&lt;p&gt;Além da IACIT, participam do projeto a Orbital Engenharia, a Polidesign Indústria e Comércio, o Centro Tecnológico da Marinha no Rio de Janeiro, o Centro Espacial do ITA e a Divisão de Engenharia Eletrônica do Instituto Tecnológico de Aeronáutica.&lt;/p&gt;
+&lt;p&gt;O diretor de Gestão de Programas da Marinha, vice-almirante Marcelo da Silva Gomes, afirmou que a tecnologia será especialmente importante para o monitoramento da porção norte do país.&lt;/p&gt;
+&lt;p&gt;“A iniciativa MANTA da IACIT possibilitará ao país ter um sistema de altíssimo alcance, superior a 350 milhas náuticas, essencial para o monitoramento principalmente da porção norte do país, uma área estratégica”, afirmou.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 26 Jun 2026 09:01:09 +0000</pubDate><guid>https://www.cnnbrasil.com.br/infra/governo-investe-em-ia-para-vigiar-area-rica-em-petroleo-e-minerais-no-mar/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/infra/governo-investe-em-ia-para-vigiar-area-rica-em-petroleo-e-minerais-no-mar/</guid></item><item><title>Miss Universo Brasil celebra 72 anos unindo legado e empoderamento</title><link>https://www.cnnbrasil.com.br/lifestyle/miss-universo-brasil-celebra-72-anos-unindo-legado-e-empoderamento/</link><description>&lt;p&gt;Em um país movido por grandes narrativas, alguns eventos carregam um legado marcante. Entre eles, está o &lt;strong&gt;Miss Universo Brasil&lt;/strong&gt;, franquia e concurso oficial de beleza responsável por eleger a representante brasileira para o &lt;strong&gt;Miss Universo&lt;/strong&gt;, considerada a maior competição internacional da categoria.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;Nesta sexta-feira (26), a disputa &lt;strong&gt;comemora 72 anos de história&lt;/strong&gt;, firmando-se como uma das passarelas mais tradicionais de representatividade, projeção global e empoderamento nacional.&lt;/p&gt;
 &lt;aside class="read-too read-too--with-img"&gt;
             &lt;h2 class='read-too__title'&gt;Leia Mais&lt;/h2&gt;
             &lt;ul class="read-too__list"&gt;
         &lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/brasil-x-japao-veja-data-e-horario-do-jogo-pela-segunda-fase-da-copa-2026/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/lifestyle/clima-de-copa-candidatas-do-miss-universe-brasil-aderem-a-moda-brazilcore/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/Brasil-Escocia-Div-Fifa-e1782435489762.webp?w=200"
-                    alt="Brasil x Japão: veja data e horário do jogo pela segunda fase da Copa 2026"
-                    title="Brasil x Japão: veja data e horário do jogo pela segunda fase da Copa 2026'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/Misses-na-Copa-1-e1782225517319.jpg?w=200"
+                    alt="Clima de Copa: candidatas do Miss Universe Brasil aderem à moda brazilcore"
+                    title="Clima de Copa: candidatas do Miss Universe Brasil aderem à moda brazilcore'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;Brasil x Japão: veja data e horário do jogo pela segunda fase da Copa 2026&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;Clima de Copa: candidatas do Miss Universe Brasil aderem à moda brazilcore&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/japao-empata-com-a-suecia-e-sera-adversario-do-brasil-no-mata-mata-da-copa/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/lifestyle/miss-universo-brasil-2026-anuncia-final-em-sao-paulo-saiba-detalhes/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/japao_suecia-e1782433680758.jpg?w=200"
-                    alt="Japão empata com a Suécia e será adversário do Brasil no mata-mata da Copa"
-                    title="Japão empata com a Suécia e será adversário do Brasil no mata-mata da Copa'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/11/miss.jpg?w=200"
+                    alt="Miss Universo Brasil 2026 anuncia final em São Paulo; saiba detalhes"
+                    title="Miss Universo Brasil 2026 anuncia final em São Paulo; saiba detalhes'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;Japão empata com a Suécia e será adversário do Brasil no mata-mata da Copa&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;Miss Universo Brasil 2026 anuncia final em São Paulo; saiba detalhes&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/copa-de-2026-quebra-recorde-de-gols-marcados-em-uma-mesma-edicao/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/lifestyle/marissol-savagin-e-a-vencedora-do-universal-woman-brazil-de-2026/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/10/H24587-WC26_OMB_Global_Product_Pro_Ball_Family_Shot_2_16x9-1355532.jpg?w=200"
-                    alt="Copa de 2026 quebra recorde de gols marcados em uma mesma edição"
-                    title="Copa de 2026 quebra recorde de gols marcados em uma mesma edição'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/missa-brazil.png?w=200"
+                    alt="Marissol Savagin é a vencedora do Universal Woman Brazil de 2026"
+                    title="Marissol Savagin é a vencedora do Universal Woman Brazil de 2026'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;Copa de 2026 quebra recorde de gols marcados em uma mesma edição&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;Marissol Savagin é a vencedora do Universal Woman Brazil de 2026&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;    &lt;/ul&gt;
 &lt;/aside&gt;
 
-&lt;h2&gt;Japão na atual Copa do Mundo&lt;/h2&gt;
-&lt;p&gt;Na edição atual do Mundial, o Japão já encarou duas seleções europeias na fase de grupos. Estreou com um empate de 2 a 2 contra a Holanda e, nesta quinta-feira (25), &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/japao-1-x-1-suecia-veja-os-melhores-momentos-do-jogo-da-copa/"&gt;&lt;strong&gt;repetiu o placar de 1 a 1 diante da Suécia&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;h2&gt;Retrospecto contra o Brasil&lt;/h2&gt;
-&lt;p&gt;Enquanto o Japão desfruta de uma sequência positiva contra europeus, seu histórico contra o Brasil é bem menos favorável. Nos últimos 14 duelos, os japoneses venceram apenas uma vez.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;A única vitória nipônica sobre a Seleção Brasileira aconteceu em 2025, em um amistoso, quando superou o time verde-amarelo por 3 a 2.&lt;/p&gt;
-&lt;p&gt;Brasil e Japão se enfrentarão na próxima segunda-feira (29), às 14h (de Brasília). A partida decisiva será realizada no NRG Stadium, em Houston, nos Estados Unidos.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Esse texto foi gerado por inteligência artificial com base no conteúdo produzido pela Itatiaia. Todas as informações são apuradas e checadas por jornalistas. O texto final também passa pela revisão da equipe de jornalismo da CNN&lt;/em&gt;&lt;/p&gt;
-&lt;blockquote class="wp-embedded-content" data-secret="RWBh1udnbT"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/esportes/entenda-como-funciona-a-fase-16-avos-novidade-no-mata-mata-da-copa-de-2026/"&gt;Como funciona a fase 16 avos, novidade no mata-mata da Copa de 2026&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Como funciona a fase 16 avos, novidade no mata-mata da Copa de 2026&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/esportes/entenda-como-funciona-a-fase-16-avos-novidade-no-mata-mata-da-copa-de-2026/embed/#?secret=OKy4qXDnAY#?secret=RWBh1udnbT" data-secret="RWBh1udnbT" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 26 Jun 2026 03:04:30 +0000</pubDate><guid>https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/japao-amplia-sequencia-invicta-antes-de-enfrentar-o-brasil-na-copa/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/japao-amplia-sequencia-invicta-antes-de-enfrentar-o-brasil-na-copa/</guid></item><item><title>Chaveamento da Copa do Mundo: veja o caminho do Brasil até a final</title><link>https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/chaveamento-da-copa-do-mundo-veja-o-caminho-do-brasil-ate-a-final/</link><description>&lt;p&gt;O caminho do Brasil rumo ao hexacampeonato começou a ganhar forma. Com o encerramento do Grupo F, a seleção comandada por Carlo Ancelotti conheceu o adversário da segunda fase da Copa do Mundo de 2026 e também passou a enxergar quais rivais podem aparecer nas etapas seguintes do mata-mata.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;O primeiro desafio será o Japão, que terminou na segunda colocação do Grupo F após empatar por 1 a 1 com a Suécia. O confronto está marcado para a próxima segunda-feira (29), às 14h (de Brasília), em Houston, valendo vaga nas oitavas de final.&lt;/p&gt;
-&lt;p&gt;Se confirmar o favoritismo, o &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/holanda-japao-ou-suecia-quem-o-brasil-pode-pegar-na-segunda-fase-da-copa/" target="_blank" rel="noopener" data-textassist="true"&gt;Brasil terá pela frente&lt;/a&gt; Costa do Marfim ou o segundo colocado do Grupo I. Neste momento, a posição pertence à Noruega, de Erling Haaland, que divide a vice-artilharia da Copa com Vinicius Júnior, ambos com quatro gols. A definição da chave, porém, ainda depende da última rodada do grupo, que também conta com a França.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Cruzando mais de sete décadas, a competição evoluiu lado a lado com as mudanças sociais, culturais e comportamentais do país, tornando-se um espelho para futuras gerações. Por muito tempo, Miss Brasil figurou entre as atrações mais esperadas da TV, arrastando multidões em transmissões históricas que paravam o país, enquanto transformava suas campeãs em verdadeiras celebridades.&lt;/p&gt;
+&lt;p&gt;Foi justamente nesse palco que o Brasil escreveu alguns dos capítulos mais importantes da história dos concursos de beleza mundiais. Em 1963, &lt;a href="https://www.cnnbrasil.com.br/lifestyle/morre-ieda-maria-vargas-a-primeira-brasileira-a-vencer-o-miss-universo/" target="_blank" rel="noopener"&gt;Ieda Maria Vargas&lt;/a&gt; tornou-se a primeira brasileira a conquistar o título de Miss Universo.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;input type="checkbox" id="checkbox_attachment_15076045" class="fullscreen-checkbox"&gt;&lt;figure  aria-describedby="caption-attachment-15076045" style="width: 512px" class="wp-caption alignnone fullscreen-wrapper" id="attachment_15076045"&gt;
+			&lt;label for="checkbox_attachment_15076045" class="fullscreen-label"&gt;
+				&lt;span class="fullscreen-label__icon"&gt;&lt;/span&gt;
+			&lt;/label&gt;
+		&lt;img loading="lazy" decoding="async" class="alignleft size-large wp-image-15076045 fullscreen-img" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/ieda.jpeg?w=512" alt="Ieda Maria Vargas, primeira brasileira a conquistar o título de Miss Universo" width="512" height="768" srcset="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/ieda.jpeg 512w, https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/ieda.jpeg?resize=200,300 200w, https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/ieda.jpeg?resize=330,495 330w, https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/ieda.jpeg?resize=73,109 73w, https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/ieda.jpeg?resize=21,32 21w, https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/ieda.jpeg?resize=37,55 37w, https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/ieda.jpeg?resize=100,150 100w, https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/ieda.jpeg?resize=20,30 20w" sizes="auto, (max-width: 512px) 100vw, 512px" /&gt;&lt;figcaption id="caption-attachment-15076045" class="wp-caption-text"&gt;Ieda Maria Vargas, primeira brasileira a conquistar o título de Miss Universo • Divulgação&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;Cinco anos depois, em 1968, foi a vez &lt;strong&gt;Martha Vasconcellos&lt;/strong&gt; repetir o feito e colocar novamente o país no topo da disputa internacional, consolidando o Brasil entre as grandes potências da beleza mundial.&lt;/p&gt;
+&lt;input type="checkbox" id="checkbox_attachment_15076047" class="fullscreen-checkbox"&gt;&lt;figure  aria-describedby="caption-attachment-15076047" style="width: 533px" class="wp-caption alignnone fullscreen-wrapper" id="attachment_15076047"&gt;
+			&lt;label for="checkbox_attachment_15076047" class="fullscreen-label"&gt;
+				&lt;span class="fullscreen-label__icon"&gt;&lt;/span&gt;
+			&lt;/label&gt;
+		&lt;img loading="lazy" decoding="async" class="alignleft size-large wp-image-15076047 fullscreen-img" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/martha.jpeg?w=533" alt="Martha Vasconcellos" width="533" height="800" srcset="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/martha.jpeg 533w, https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/martha.jpeg?resize=200,300 200w, https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/martha.jpeg?resize=330,495 330w, https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/martha.jpeg?resize=73,109 73w, https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/martha.jpeg?resize=21,32 21w, https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/martha.jpeg?resize=37,55 37w, https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/martha.jpeg?resize=100,150 100w, https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/martha.jpeg?resize=20,30 20w" sizes="auto, (max-width: 533px) 100vw, 533px" /&gt;&lt;figcaption id="caption-attachment-15076047" class="wp-caption-text"&gt;Martha Vasconcellos venceu o concurso em 1968 • Divulgação&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;Outro marco fundamental aconteceu em 1986, quando &lt;strong&gt;Deise Nunes&lt;/strong&gt; entrou para a história como a primeira mulher negra a conquistar o título de Miss Brasil. Sua vitória representou um importante avanço na ampliação da representatividade dentro dos concursos e tornou-se um símbolo da diversidade que caracteriza a mulher brasileira.&lt;/p&gt;
+&lt;input type="checkbox" id="checkbox_attachment_15076050" class="fullscreen-checkbox"&gt;&lt;figure  aria-describedby="caption-attachment-15076050" style="width: 387px" class="wp-caption alignnone fullscreen-wrapper" id="attachment_15076050"&gt;
+			&lt;label for="checkbox_attachment_15076050" class="fullscreen-label"&gt;
+				&lt;span class="fullscreen-label__icon"&gt;&lt;/span&gt;
+			&lt;/label&gt;
+		&lt;img loading="lazy" decoding="async" class="alignleft size-large wp-image-15076050 fullscreen-img" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/deise.jpeg?w=387" alt="Deise Nunes" width="387" height="516" srcset="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/deise.jpeg 387w, https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/deise.jpeg?resize=225,300 225w, https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/deise.jpeg?resize=371,495 371w, https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/deise.jpeg?resize=82,109 82w, https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/deise.jpeg?resize=24,32 24w, https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/deise.jpeg?resize=41,55 41w, https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/deise.jpeg?resize=113,150 113w, https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/deise.jpeg?resize=23,30 23w" sizes="auto, (max-width: 387px) 100vw, 387px" /&gt;&lt;figcaption id="caption-attachment-15076050" class="wp-caption-text"&gt;Deise Nunes foi a primeira mulher negra a vencer o Miss Brasil • Divulgação&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;Entre os nomes que marcaram a trajetória recente do concurso, poucos permanecem tão vivos na memória do público quanto &lt;a href="https://www.cnnbrasil.com.br/lifestyle/natalia-guimaraes-miss-universo-abriu-o-leque-com-a-flexibilizacao-das-regras/" target="_blank" rel="noopener"&gt;Natália Guimarães&lt;/a&gt; Top 2 do Miss Universo em 2007, a mineira é frequentemente apontada como uma das candidatas mais emblemáticas das últimas décadas, sendo lembrada por sua performance internacional, carisma e forte conexão com os brasileiros.&lt;/p&gt;
+&lt;p&gt;Quase duas décadas após sua participação, Natália segue como uma das principais referências do universo miss no país.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;É emocionante perceber que já se passaram quase 20 anos desde a minha participação no Miss Brasil e no Miss Universo. Quando olho para trás, vejo que os concursos evoluíram muito e hoje representam algo muito maior do que a beleza. A mulher que sobe ao palco carrega histórias, causas, sonhos e a responsabilidade de ser uma referência para outras pessoas&amp;#8221;, conta à &lt;strong&gt;CNN Brasil&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;O Miss Universo Brasil sempre teve a capacidade de revelar mulheres inspiradoras e de mostrar ao mundo a força, a diversidade e a riqueza cultural do nosso país. Tenho muito orgulho de fazer parte dessa história e de ver uma nova geração entendendo que representatividade, trabalho social e propósito caminham lado a lado com a coroa&amp;#8221;, acrescenta Natália.&lt;/p&gt;
+&lt;input type="checkbox" id="checkbox_attachment_15076054" class="fullscreen-checkbox"&gt;&lt;figure  aria-describedby="caption-attachment-15076054" style="width: 399px" class="wp-caption alignnone fullscreen-wrapper" id="attachment_15076054"&gt;
+			&lt;label for="checkbox_attachment_15076054" class="fullscreen-label"&gt;
+				&lt;span class="fullscreen-label__icon"&gt;&lt;/span&gt;
+			&lt;/label&gt;
+		&lt;img loading="lazy" decoding="async" class="alignleft size-large wp-image-15076054 fullscreen-img" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/natalia.jpeg?w=399" alt="Natália Guimarães venceu o Miss Brasil 2007" width="399" height="501" srcset="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/natalia.jpeg 399w, https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/natalia.jpeg?resize=239,300 239w, https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/natalia.jpeg?resize=394,495 394w, https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/natalia.jpeg?resize=87,109 87w, https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/natalia.jpeg?resize=25,32 25w, https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/natalia.jpeg?resize=44,55 44w, https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/natalia.jpeg?resize=119,150 119w, https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/natalia.jpeg?resize=24,30 24w" sizes="auto, (max-width: 399px) 100vw, 399px" /&gt;&lt;figcaption id="caption-attachment-15076054" class="wp-caption-text"&gt;Natália Guimarães venceu o Miss Brasil 2007 • Divulgação&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;Essa evolução reflete diretamente a mudança do papel da mulher na sociedade. O tempo em que apenas a beleza e a elegância bastavam ficou para trás: hoje, as candidatas se destacam por sua voz, liderança, posicionamento e engajamento social. Iniciativas voltadas para educação, sustentabilidade, saúde e inclusão agora ditam o ritmo do concurso, transformando as misses em verdadeiras agentes de mudança.&lt;/p&gt;
+&lt;p&gt;Esse olhar para o futuro tem sido uma das marcas da atual gestão liderada pelo empresário paranaense Rodrigo Ferro. Desde que assumiu o comando do Miss Universo Brasil, o executivo implementou uma série de iniciativas voltadas à modernização da competição, ampliando a preparação das candidatas e fortalecendo o posicionamento institucional do concurso.&lt;/p&gt;
+&lt;p&gt;Uma das grandes novidades da competição foi o camping realizado em março deste ano. A imersão inédita reuniu as 33 candidatas para uma maratona focada em comunicação, desenvolvimento pessoal, marketing de imagem e propósito. A iniciativa marca a nova era do concurso, cujo objetivo é lapidar mulheres prontas para brilhar e liderar em uma plataforma global.&lt;/p&gt;
+&lt;p&gt;Além da imersão, a organização tem investido na ampliação da presença digital, no fortalecimento de parcerias estratégicas, na valorização das candidatas e na criação de novas experiências capazes de aproximar ainda mais o público da competição.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;Celebrar os 72 anos do Miss Brasil é homenagear todas as mulheres que ajudaram a construir essa história e, ao mesmo tempo, reafirmar nosso compromisso com o futuro. O concurso continua sendo uma vitrine da beleza brasileira, mas também de talento, inteligência, propósito e impacto social&amp;#8221;, afirma Rodrigo Ferro, presidente do Miss Universe Brasil, à &lt;strong&gt;CNN Brasil&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;Estamos promovendo uma série de transformações para aproximar ainda mais a marca do público contemporâneo, sem perder a essência que tornou o Miss Brasil uma das instituições mais tradicionais do país. A edição de 2026 será um marco dessa nova fase&amp;#8221;, afirma.&lt;/p&gt;
+&lt;p&gt;A celebração dos 72 anos acontece em um momento simbólico para a organização. Em julho de 2026, São Paulo receberá a nova edição do &lt;a href="https://www.cnnbrasil.com.br/lifestyle/miss-universo-brasil-2026-anuncia-final-em-sao-paulo-saiba-detalhes/" target="_blank" rel="noopener"&gt;Miss Universo Brasil&lt;/a&gt;, reunindo representantes de todo o país em uma disputa que promete marcar uma nova etapa na história da competição.&lt;/p&gt;
+&lt;p&gt;O concurso também voltará a ser exibido em rede nacional, retomando uma tradição que ajudou a construir sua relevância ao longo das décadas e reconectando o evento com milhões de brasileiros.&lt;/p&gt;
+&lt;p&gt;A iniciativa reforça o compromisso da organização em ampliar o alcance da plataforma e levar ao público uma experiência renovada, alinhada aos valores e às expectativas da sociedade contemporânea.&lt;/p&gt;
+&lt;blockquote class="wp-embedded-content" data-secret="Lnw0IXfgRb"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/lifestyle/conheca-fatima-bosch-coroada-miss-universo-2025/"&gt;Conheça Fátima Bosch, coroada Miss Universo 2025&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Conheça Fátima Bosch, coroada Miss Universo 2025&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/lifestyle/conheca-fatima-bosch-coroada-miss-universo-2025/embed/#?secret=AaNfiwXNNy#?secret=Lnw0IXfgRb" data-secret="Lnw0IXfgRb" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 26 Jun 2026 09:00:11 +0000</pubDate><guid>https://www.cnnbrasil.com.br/lifestyle/miss-universo-brasil-celebra-72-anos-unindo-legado-e-empoderamento/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/lifestyle/miss-universo-brasil-celebra-72-anos-unindo-legado-e-empoderamento/</guid></item><item><title>Após vitória de Hamilton, Fórmula 1 chega à Áustria com motores aquecidos</title><link>https://www.cnnbrasil.com.br/esportes/automobilismo/apos-vitoria-de-hamilton-formula-1-chega-a-austria-com-motores-aquecidos/</link><description>&lt;p&gt;A Fórmula 1 pode ganhar um novo capítulo na disputa pelo título neste fim de semana, na Áustria, após Lewis Hamilton encerrar a sequência dominante da Mercedes com sua primeira vitória pela Ferrari, conquistada no GP da Espanha.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;O circuito de Spielberg recebe a oitava etapa da temporada com a Mercedes apontada como favorita. A equipe soma seis vitórias em sete corridas, incluindo cinco consecutivas do líder do campeonato, o italiano Kimi Antonelli, além de sete pole positions até o momento.&lt;/p&gt;
 &lt;aside class="read-too read-too--with-img"&gt;
             &lt;h2 class='read-too__title'&gt;Leia Mais&lt;/h2&gt;
+            &lt;ul class="read-too__list"&gt;
+        &lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/automobilismo/formula-1-tera-um-dia-extra-de-testes-a-partir-de-2027/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/GettyImages-2281532426-e1781446219160.jpg?w=200"
+                    alt="Fórmula 1 terá um dia extra de testes a partir de 2027"
+                    title="Fórmula 1 terá um dia extra de testes a partir de 2027'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Fórmula 1 terá um dia extra de testes a partir de 2027&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/automobilismo/f1-hamilton-realiza-feito-inedito-apos-vencer-gp-de-barcelona-catalunha/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/GettyImages-2281530568-e1781445826482.jpg?w=200"
+                    alt="F1: Hamilton realiza feito inédito após vencer GP de Barcelona-Catalunha"
+                    title="F1: Hamilton realiza feito inédito após vencer GP de Barcelona-Catalunha'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;F1: Hamilton realiza feito inédito após vencer GP de Barcelona-Catalunha&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/automobilismo/hamilton-supera-schumacher-e-quebra-recorde-apos-vencer-o-gp-de-barcelona/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/GettyImages-2281532426-e1781446219160.jpg?w=200"
+                    alt="Hamilton supera Schumacher e quebra recorde após vencer o GP de Barcelona"
+                    title="Hamilton supera Schumacher e quebra recorde após vencer o GP de Barcelona'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Hamilton supera Schumacher e quebra recorde após vencer o GP de Barcelona&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;    &lt;/ul&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;O histórico recente também favorece a escuderia alemã. George Russell venceu o GP da Áustria em 2024, mas Hamilton chega em alta após registrar dois segundos lugares e uma vitória nas últimas três corridas.&lt;/p&gt;
+&lt;p&gt;A McLaren aparece como outra candidata ao topo. Atual campeão mundial, Lando Norris venceu em Spielberg na última temporada, enquanto seu companheiro Oscar Piastri fez a volta mais rápida da prova. Com sete triunfos, a equipe britânica é a mais vitoriosa da história do circuito.&lt;/p&gt;
+&lt;p&gt;Já a Red Bull aposta no retrospecto de Max Verstappen, dono de quatro vitórias em sua corrida caseira. Pela Ferrari, Charles Leclerc também sabe o caminho do sucesso em Spielberg — venceu em 2022 e terminou em terceiro no ano passado.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;h2&gt;Todos os ingredientes para uma disputa épica&lt;/h2&gt;
+&lt;p&gt;A expectativa para a corrida aumenta ainda mais pela reação aguardada de Antonelli. O jovem de 19 anos abandonou a prova em Barcelona por um problema mecânico, encerrando sua sequência de vitórias.&lt;/p&gt;
+&lt;p&gt;“Não será simples, mas já estou ansioso pela próxima corrida porque quero voltar ao ponto em que estávamos antes”, afirmou o italiano.&lt;/p&gt;
+&lt;p&gt;Antonelli lidera o campeonato com 41 pontos de vantagem sobre &lt;a href="https://www.cnnbrasil.com.br/esportes/automobilismo/f1-hamilton-realiza-feito-inedito-apos-vencer-gp-de-barcelona-catalunha/"&gt;Hamilton&lt;/a&gt;. Leclerc, por sua vez, também saiu zerado da etapa espanhola e tenta reduzir a diferença para o companheiro de equipe.&lt;/p&gt;
+&lt;p&gt;Uma nova &lt;a href="https://www.cnnbrasil.com.br/esportes/automobilismo/hamilton-supera-schumacher-e-quebra-recorde-apos-vencer-o-gp-de-barcelona/"&gt;vitória&lt;/a&gt; da Ferrari teria um significado especial: seria o 250º triunfo da escuderia na história da &lt;a href="https://www.cnnbrasil.com.br/esportes/automobilismo/formula-1-tera-um-dia-extra-de-testes-a-partir-de-2027/"&gt;Fórmula 1&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Na Mercedes, o chefe da equipe, Toto Wolff, admitiu que o resultado em Barcelona serviu de alerta. Segundo ele, os rivais evoluíram rapidamente e a equipe precisará responder para seguir na disputa pelos títulos de pilotos e construtores.&lt;/p&gt;
+&lt;p&gt;“Nossa maior fraqueza até agora foi a confiabilidade”, declarou o dirigente, que confirmou atualizações no carro para a etapa austríaca.&lt;/p&gt;
+&lt;p&gt;A McLaren também levará novidades para Spielberg, incluindo uma asa traseira experimental que será testada nos treinos livres de sexta-feira.&lt;/p&gt;
+&lt;p&gt;Após demonstrar bom ritmo em etapas recentes, Norris e Piastri voltam a ser apontados como candidatos a desafiar Mercedes, Ferrari e Red Bull em uma das corridas mais equilibradas da temporada.&lt;/p&gt;
+&lt;p&gt;“Sem dar nada como garantido em um grid tão competitivo, estamos otimistas de que as características do carro e dos pilotos se adaptem bem ao circuito”, afirmou Neil Houldey, diretor técnico de engenharia aplicada da McLaren.&lt;/p&gt;
+&lt;blockquote class="wp-embedded-content" data-secret="GdEo6yTYsk"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/esportes/formula-1-confirma-volta-do-gp-da-turquia-ao-calendario-em-2027/"&gt;Fórmula 1 confirma volta do GP da Turquia ao calendário em 2027&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Fórmula 1 confirma volta do GP da Turquia ao calendário em 2027&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/esportes/formula-1-confirma-volta-do-gp-da-turquia-ao-calendario-em-2027/embed/#?secret=XYVJk1Lsn3#?secret=GdEo6yTYsk" data-secret="GdEo6yTYsk" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 26 Jun 2026 09:00:09 +0000</pubDate><guid>https://www.cnnbrasil.com.br/esportes/automobilismo/apos-vitoria-de-hamilton-formula-1-chega-a-austria-com-motores-aquecidos/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/esportes/automobilismo/apos-vitoria-de-hamilton-formula-1-chega-a-austria-com-motores-aquecidos/</guid></item><item><title>“Vamos encarar como uma final”, diz Bielsa antes de Uruguai x Espanha</title><link>https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/vamos-encarar-como-uma-final-diz-bielsa-antes-de-uruguai-x-espanha/</link><description>&lt;p&gt;O técnico Marcelo Bielsa afirmou que o Uruguai encara o duelo desta sexta-feira (26) contra a Espanha como uma verdadeira decisão. A seleção precisa vencer para garantir presença nas oitavas de final da Copa do Mundo e evitar depender de outros resultados.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;Em entrevista coletiva nesta quinta-feira, &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/marcelo-bielsa-detona-pausa-para-hidratacao-altera-concepcao-do-futebol/"&gt;Bielsa&lt;/a&gt; disse que nenhum detalhe será ignorado para o confronto do Grupo H, em Guadalajara, &lt;a href="https://www.cnnbrasil.com.br/esportes/lances-ao-vivo/world-cup-2026/26-06-2026/uruguai-x-espanha"&gt;às 21h (de Brasília)&lt;/a&gt;. Os empates diante de &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/copa-uruguai-desperta-no-2o-tempo-e-busca-o-empate-contra-a-arabia-saudita/"&gt;Arábia Saudita&lt;/a&gt; e &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/sem-vencer-na-copa-uruguai-cede-empate-a-cabo-verde-que-sonha-com-vaga/"&gt;Cabo Verde&lt;/a&gt; deixaram a equipe em situação delicada na briga por uma vaga no mata-mata.&lt;/p&gt;
+&lt;aside class="read-too read-too--with-img"&gt;
+            &lt;h2 class='read-too__title'&gt;Leia mais&lt;/h2&gt;
             &lt;ul class="read-too__list"&gt;
         &lt;li class="read-too__list-item"&gt;
     &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/copa-de-2026-quebra-recorde-de-gols-marcados-em-uma-mesma-edicao/" target="_self"&gt;
@@ -149,225 +248,483 @@
         &lt;h3 class="read-too__post-title"&gt;Copa do Mundo: Turquia é eleita a maior decepção do Mundial&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/preocupacao-e-o-futebol-diz-tecnico-do-egito-sobre-jogo-do-orgulho/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/selecao-brasileira/brasil-fatura-quantia-milionaria-com-classificacao-na-copa-do-mundo/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/tecnico_egito-e1782431727237.jpg?w=200"
-                    alt="&amp;quot;Preocupação é o futebol&amp;quot;, diz técnico do Egito sobre “Jogo do Orgulho&amp;quot;"
-                    title="&amp;quot;Preocupação é o futebol&amp;quot;, diz técnico do Egito sobre “Jogo do Orgulho&amp;quot;'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/24JUN2026BRASILXESCOCIA6-VINI-JR-e1782354722541.jpg?w=200"
+                    alt="Brasil fatura quantia milionária com classificação na Copa do Mundo"
+                    title="Brasil fatura quantia milionária com classificação na Copa do Mundo'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;&amp;quot;Preocupação é o futebol&amp;quot;, diz técnico do Egito sobre “Jogo do Orgulho&amp;quot;&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;Brasil fatura quantia milionária com classificação na Copa do Mundo&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;    &lt;/ul&gt;
 &lt;/aside&gt;
 
-&lt;p&gt;Nas quartas de final, a Seleção Brasileira pode encontrar a Inglaterra, líder provisória do Grupo I e uma das favoritas para avançar em seu lado da chave.&lt;/p&gt;
-&lt;p&gt;Um dos confrontos mais aguardados da competição, Brasil x Argentina, só poderá acontecer na semifinal. Atual campeã do mundo, a equipe de Lionel Messi já garantiu a liderança do Grupo J e aparece como a principal candidata a chegar entre os quatro melhores do torneio.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;Antes disso, os argentinos ainda precisarão superar o segundo colocado do Grupo H, hoje o Uruguai, e depois enfrentar o vencedor de um confronto que pode reunir seleções como Austrália, Irã ou outro classificado das chaves D e G. Nas quartas, a Colômbia desponta como possível adversária.&lt;/p&gt;
-&lt;p&gt;Enquanto Brasil e Argentina ocupam o mesmo lado do chaveamento, o outro quadrante concentra parte das principais potências europeias. Alemanha, Espanha, Holanda e França aparecem como favoritas a disputar a vaga na decisão.&lt;/p&gt;
-&lt;p&gt;A Alemanha vai enfrentar um dos melhores terceiros colocados na &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/veja-a-data-o-horario-e-o-caminho-do-brasil-na-segunda-fase-da-copa/" target="_blank" rel="noopener" data-textassist="true"&gt;segunda fase&lt;/a&gt; e pode cruzar com a Holanda nas quartas. Os holandeses, por sua vez, terão o Marrocos pela frente na abertura do mata-mata.&lt;/p&gt;
-&lt;p&gt;Já a Espanha, líder provisória do Grupo H, tem um caminho que pode incluir Áustria na segunda fase, Portugal ou Gana nas oitavas e Estados Unidos nas quartas. Se o cenário atual for mantido, os espanhóis podem disputar uma vaga na final contra Alemanha, França ou Holanda.&lt;/p&gt;
-&lt;p&gt;Com boa parte das vagas do mata-mata já definidas, o chaveamento começa a desenhar os possíveis grandes confrontos da Copa do Mundo. Para o Brasil, a missão passa por &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/brasil-x-japao-veja-data-e-horario-do-jogo-pela-segunda-fase-da-copa-2026/" target="_blank" rel="noopener" data-textassist="true"&gt;superar o Japão&lt;/a&gt; e manter vivo o sonho do hexacampeonato, com a possibilidade de enfrentar alguns dos principais candidatos ao título antes da decisão marcada para 19 de julho, no MetLife Stadium.&lt;/p&gt;
-&lt;blockquote class="wp-embedded-content" data-secret="f604rv9Ol0"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/esportes/veja-o-ranking-dos-elencos-mais-valiosos-da-copa-do-mundo/"&gt;Veja o ranking dos elencos mais valiosos da Copa do Mundo&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Veja o ranking dos elencos mais valiosos da Copa do Mundo&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/esportes/veja-o-ranking-dos-elencos-mais-valiosos-da-copa-do-mundo/embed/#?secret=DAVr3CO42j#?secret=f604rv9Ol0" data-secret="f604rv9Ol0" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 26 Jun 2026 02:53:24 +0000</pubDate><guid>https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/chaveamento-da-copa-do-mundo-veja-o-caminho-do-brasil-ate-a-final/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/chaveamento-da-copa-do-mundo-veja-o-caminho-do-brasil-ate-a-final/</guid></item><item><title>STF no “meio do furacão” é novidade do caso Master, diz especialista</title><link>https://www.cnnbrasil.com.br/politica/stf-no-meio-do-furacao-e-novidade-do-caso-master-diz-especialista/</link><description>&lt;p&gt;O caso Banco Master trouxe uma novidade significativa ao cenário político e institucional brasileiro: o Supremo Tribunal Federal (STF) não atua mais como árbitro externo das crises, mas está, desta vez, no centro delas. A avaliação é de Creomar de Souza, especialista em análise política, ao &lt;strong&gt;WW&lt;/strong&gt;.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;Segundo Creomar, em crises anteriores — oriundas de má gestão ou de ilicitudes — o STF (Supremo Tribunal Federal) costumava ser acionado apenas como instância final, mantendo-se distante das articulações iniciais. &amp;#8220;Ao longo dos últimos anos, essas crises ficavam do lado de fora do STF e ele virava um árbitro final&amp;#8221;, afirmou o especialista. No caso Master, no entanto, a Suprema Corte passou a participar ativamente das decisões e negociações que envolvem o episódio.&lt;/p&gt;
-&lt;h2&gt;Normalização de decisões ruins como risco institucional&lt;/h2&gt;
-&lt;p&gt;Para Creomar, o maior risco político no curto prazo não é a existência da crise em si, mas a naturalização de ações e decisões inadequadas que a originam ou que buscam resolvê-la de forma insuficiente. &amp;#8220;O risco está na normalização e na naturalização de todo tipo de ação ou decisão ruim que ocasiona uma crise&amp;#8221;, disse.&lt;/p&gt;
-&lt;aside class="read-too read-too--with-img"&gt;
-            &lt;h2 class='read-too__title'&gt;Leia Mais&lt;/h2&gt;
-            &lt;ul class="read-too__list"&gt;
-        &lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/politica/analise-declaracao-de-fachin-une-o-stf-em-meio-a-crise-do-banco-master/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/02/img20260202164837447.jpg?w=200"
-                    alt="Análise: Declaração de Fachin une o STF em meio à crise do Banco Master"
-                    title="Análise: Declaração de Fachin une o STF em meio à crise do Banco Master'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Análise: Declaração de Fachin une o STF em meio à crise do Banco Master&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/politica/gilmar-diz-ser-miopia-culpar-stf-por-crise-de-confianca-no-pais/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/02/gilmar-mendes.jpg?w=200"
-                    alt="Gilmar diz ser “miopia” culpar STF por crise de confiança no país"
-                    title="Gilmar diz ser “miopia” culpar STF por crise de confiança no país'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Gilmar diz ser “miopia” culpar STF por crise de confiança no país&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/blogs/lucinda-pinto/economia/macroeconomia/crise-do-banco-master-trava-definicao-de-duas-diretorias-estrategicas-do-bc/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.staging.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/11/AGE20251118004.jpg?w=200"
-                    alt="Crise do Banco Master trava definição de duas diretorias estratégicas do BC"
-                    title="Crise do Banco Master trava definição de duas diretorias estratégicas do BC'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Crise do Banco Master trava definição de duas diretorias estratégicas do BC&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;    &lt;/ul&gt;
-&lt;/aside&gt;
+&lt;p&gt;Embora um empate ainda mantenha uma remota possibilidade de classificação pela rota dos terceiros colocados, o treinador deixou claro que a intenção é eliminar qualquer dúvida conquistando os três pontos diante da atual campeã europeia.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;Estamos encarando o jogo como uma final&amp;#8221;, afirmou Bielsa. Segundo ele, o Uruguai precisará atuar com dinamismo e iniciativa contra a Espanha, além de impedir que o adversário tenha controle da posse de bola durante a partida.&lt;/p&gt;
+&lt;h2&gt;Bielsa quer que Uruguai fique com a bola&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/bielsa-mostra-perplexidade-com-situacao-do-uruguai-na-copa-do-mundo/"&gt;O treinador argentino&lt;/a&gt; também descartou uma postura excessivamente defensiva. Para Bielsa, recuar e apenas esperar o adversário não faz parte da estratégia da equipe para um confronto tão importante na Copa do Mundo.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;&amp;#8220;Uma das melhores maneiras de defender é garantir que o adversário fique menos tempo com a bola&amp;#8221;, explicou o comandante uruguaio ao detalhar a proposta de jogo para o duelo desta sexta-feira.&lt;/p&gt;
+&lt;p&gt;Bielsa ainda elogiou o trabalho desenvolvido pelo técnico Luis de la Fuente à frente da seleção espanhola. Na avaliação do treinador, a atual campeã da Europa pratica um futebol &amp;#8220;requintado&amp;#8221;, capaz de criar dificuldades para qualquer rival.&lt;/p&gt;
+&lt;section
+	class="gallery gallery--content"
+	id="glc_15069056"
+&gt;
+    &lt;input
+    checked
+    type="radio"
+    class="gallery__layout gallery__layout--default"
+    id="gallery__default_glc_15069056"
+    name="gallery-layout_glc_15069056"
+&gt;
+&lt;input
+    type="radio"
+    class="gallery__layout gallery__layout--full"
+    id="gallery__full_glc_15069056"
+    name="gallery-layout_glc_15069056"
+&gt;
+&lt;input
+    type="radio"
+    class="gallery__layout gallery__layout--grid"
+    id="gallery__grid_glc_15069056"
+    name="gallery-layout_glc_15069056"
+&gt;
+    &lt;div class="gallery__modal"&gt;&lt;/div&gt;
 
-&lt;p&gt;Creomar destacou ainda que o ambiente político brasileiro está &amp;#8220;povoado por atores políticos que efetivamente estão tratando com normalidade os efeitos negativos de aspectos de má gestão ou de diálogo institucional mal realizado&amp;#8221;. Para o especialista, essa postura contribui para distorcer a percepção da gravidade da crise tanto para o eleitor quanto para o cidadão comum.&lt;/p&gt;
-&lt;h2&gt;Complexidade e risco elevado no horizonte&lt;/h2&gt;
-&lt;p&gt;O especialista também apontou que os desdobramentos do caso envolvem múltiplas dimensões: impactos orçamentários, efeitos sobre a composição política do Congresso, conflitos internos ao &lt;a href="https://www.cnnbrasil.com.br/politica/fachin-determina-que-mendonca-seja-relator-do-caso-dark-horse-no-stf/"&gt;STF &lt;/a&gt;e as condições da &lt;a href="https://www.cnnbrasil.com.br/politica/pgr-recorre-de-decisao-que-afastou-aposentadoria-como-punicao-a-juizes/"&gt;PGR&lt;/a&gt; (Procuradoria-Geral da República) para avaliar o andamento das investigações. &amp;#8220;A gente tem uma complexidade muito grande e um risco precificado que é bastante alto olhando o futuro no curto prazo&amp;#8221;, concluiu Creomar de Souza.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;div class="disclaimer__ai"&gt;
-    &lt;em&gt;Os textos gerados por inteligência artificial na &lt;strong&gt;CNN Brasil&lt;/strong&gt; são feitos com base nos cortes de vídeos dos jornais de sua programação. Todas as informações são apuradas e checadas por jornalistas. O texto final também passa pela revisão da equipe de jornalismo da &lt;strong&gt;CNN&lt;/strong&gt;. &lt;a href="https://www.cnnbrasil.com.br/nacional/saiba-como-a-cnn-brasil-utiliza-as-ferramentas-de-inteligencia-artificial/"&gt;Clique aqui para saber mais&lt;/a&gt;.&lt;/em&gt;
+    &lt;div class="gallery__larger"&gt;
+    &lt;ul class="gallery__list"&gt;
+        &lt;input
+    checked=&amp;quot;checked&amp;quot; 
+    type="radio"
+    class="gallery__selector"
+    id="lg_glc_15069056_1"
+    name="lg_glc_15069056"
+&gt;
+&lt;li class="gallery__item item1"&gt;
+    &lt;div class="gallery__main-wrapper"&gt;
+        &lt;div class="gallery__img-blur"&gt;
+            &lt;img decoding="async" class="gallery__img" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/GettyImages-2282176559.jpg?w=769" loading="lazy" alt=""&gt;
+            &lt;div class="gallery__img-blur__bg"&gt;&lt;/div&gt;
+            &lt;label
+                class="gallery__img__label gallery__img__label--default"
+                for="gallery__default_glc_15069056"
+            &gt;&lt;/label&gt;
+            &lt;label
+                class="gallery__img__label gallery__img__label--full"
+                for="gallery__full_glc_15069056"
+            &gt;&lt;/label&gt;
+        &lt;/div&gt;
+        &lt;div class="gallery__navigation"&gt;
+            &lt;label class="gallery__button gallery__button--prev" for="lg_glc_15069056_9"&gt;Trocar imagem&lt;/label&gt;&lt;label class="gallery__button gallery__button--prev gallery__button--ad" for="ad_lg_glc_15069056_9"&gt;Trocar imagem&lt;/label&gt;&lt;label class="gallery__button gallery__button--next" for="lg_glc_15069056_2"&gt;Trocar imagem&lt;/label&gt;        &lt;/div&gt;
+        &lt;div class="gallery__counter"&gt;
+            1 de 9        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="gallery__description-wrapper"&gt;
+        &lt;div class="gallery__description"&gt;&lt;p&gt;Vozinha comemora o empate do Uruguai • &lt;span class="gallery__credit"&gt;SNS Group via Getty Images&lt;/span&gt;&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 26 Jun 2026 02:46:13 +0000</pubDate><guid>https://www.cnnbrasil.com.br/politica/stf-no-meio-do-furacao-e-novidade-do-caso-master-diz-especialista/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/politica/stf-no-meio-do-furacao-e-novidade-do-caso-master-diz-especialista/</guid></item><item><title>Chegada de férias liga alerta sobre perigos de pipas na rede elétrica em SP</title><link>https://www.cnnbrasil.com.br/nacional/sudeste/sp/chegada-de-ferias-liga-alerta-sobre-perigos-de-pipas-na-rede-eletrica-em-sp/</link><description>&lt;p&gt;Mais de mil ocorrências relacionadas à presença de pipas na em linhas de transmissão de energia foram registradas, em São Paulo, em 2025. &lt;strong&gt;Houve uma aumento de 14% se comparado ao ano anterior&lt;/strong&gt;. A chegada das férias escolar acende um sinal de perigo: pipas e balões.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;Já no caso de balões, pelo menos por duas vezes, o sistema de São Paulo precisou ser desligado, em 2025, por acidentes na rede elétrica. Pelo menos 33 mil casas foram afetadas por interrupções momentâneas causadas pela queda de balão, somente em 2026.&lt;/p&gt;
-&lt;p&gt;Campanhas de conscientização&lt;strong&gt; tentam alertar a população dos riscos da prática&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span style="color: #ff0000;"&gt;LEIA TAMBÉM: &lt;span style="text-decoration: underline;"&gt;&lt;a style="color: #ff0000; text-decoration: underline;" href="https://www.cnnbrasil.com.br/nacional/sudeste/sp/quase-350-ocorrencias-com-pipas-afetaram-linhas-de-transmissao-de-energia/" target="_blank" rel="noopener"&gt;Quase 350 ocorrências com pipas afetaram linhas de transmissão de energia&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;aside class="read-too read-too--with-img"&gt;
-            &lt;h2 class='read-too__title'&gt;Leia Mais&lt;/h2&gt;
-            &lt;ul class="read-too__list"&gt;
-        &lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/infra/aneel-ve-responsabilidade-compartilhada-em-apagoes-mas-cobra-acao-da-enel/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.preprod.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/11/Gentil-Nogueira-diretor-da-ANEEL.jpg?w=200"
-                    alt="Aneel vê responsabilidade compartilhada em apagões, mas cobra ação da Enel"
-                    title="Aneel vê responsabilidade compartilhada em apagões, mas cobra ação da Enel'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Aneel vê responsabilidade compartilhada em apagões, mas cobra ação da Enel&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/nacional/sudeste/sp/enel-registra-mais-de-3-mil-furtos-de-cabos-em-cinco-meses-de-2026/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/04/Distribuidora-energia.png?w=200"
-                    alt="Enel registra mais de 3 mil furtos de cabos em cinco meses de 2026"
-                    title="Enel registra mais de 3 mil furtos de cabos em cinco meses de 2026'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Enel registra mais de 3 mil furtos de cabos em cinco meses de 2026&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;    &lt;/ul&gt;
-&lt;/aside&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;
-&lt;div class="post__video"&gt;
-	&lt;div class="cnn component-video has--live"&gt;
-		&lt;div class="component-inner"&gt;
-			&lt;div
-				id="player_nacional_m9aeOG-W6bI"
-				class="video-wrapper "
-			&gt;
-				&lt;div class="video-wrapper-inner"&gt;
-										&lt;div class="overlay-wrapper"&gt;
-						&lt;button
-							class="video-button js-video-play active"
-							aria-label="Assista o vídeo Balão pega fogo no ar, cai e deixa mortos em Santa Catarina; vídeo | AGORA CNN"
-							tabindex="0"
-						&gt;
-							&lt;img
-								class="thumbnail-image"
-								src="https://img.youtube.com/vi/m9aeOG-W6bI/sddefault.jpg"
-                                srcset="https://img.youtube.com/vi/m9aeOG-W6bI/default.jpg 120w,
-                    https://img.youtube.com/vi/m9aeOG-W6bI/mqdefault.jpg 320w,
-                    https://img.youtube.com/vi/m9aeOG-W6bI/hqdefault.jpg 480w,
-                    https://img.youtube.com/vi/m9aeOG-W6bI/sddefault.jpg 640w,
-                    https://img.youtube.com/vi/m9aeOG-W6bI/maxresdefault.jpg 1280w"
-								alt="Balão pega fogo no ar, cai e deixa mortos em Santa Catarina; vídeo | AGORA CNN"
-							/&gt;
-
-							&lt;span
-								class="video-play-button"
-								aria-label="Botão play do vídeo Balão pega fogo no ar, cai e deixa mortos em Santa Catarina; vídeo | AGORA CNN"
-							&gt;&lt;/span&gt;
-
-															&lt;span class="video-gradient"&gt;&lt;/span&gt;
-								&lt;span class="video-title"&gt;Balão pega fogo no ar, cai e deixa mortos em Santa Catarina; vídeo | AGORA CNN&lt;/span&gt;
-													&lt;/button&gt;
-					&lt;/div&gt;
-										&lt;span
-						class="embedded-video video-player-wrapper"
-						data-youtube-plcmt="1"
-						data-youtube-vpmute="0"
-						data-youtube-width="640px"
-						data-youtube-height="480px"
-						data-youtube-ui="nacional"
-						data-youtube-play="0"
-						data-youtube-mute="0"
-						data-youtube-id="m9aeOG-W6bI"
-						data-youtube-vpa="click"
-						data-youtube-hl="pt"
-						data-youtube-position=""
-					&gt;&lt;/span&gt;
-				&lt;/div&gt;
-			&lt;/div&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/li&gt;&lt;input
+     
+    type="radio"
+    class="gallery__selector"
+    id="lg_glc_15069056_2"
+    name="lg_glc_15069056"
+&gt;
+&lt;li class="gallery__item item2"&gt;
+    &lt;div class="gallery__main-wrapper"&gt;
+        &lt;div class="gallery__img-blur"&gt;
+            &lt;img decoding="async" class="gallery__img" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/Canobbio-uruguai-x-cabo-verde.jpg?w=743" loading="lazy" alt=""&gt;
+            &lt;div class="gallery__img-blur__bg"&gt;&lt;/div&gt;
+            &lt;label
+                class="gallery__img__label gallery__img__label--default"
+                for="gallery__default_glc_15069056"
+            &gt;&lt;/label&gt;
+            &lt;label
+                class="gallery__img__label gallery__img__label--full"
+                for="gallery__full_glc_15069056"
+            &gt;&lt;/label&gt;
+        &lt;/div&gt;
+        &lt;div class="gallery__navigation"&gt;
+            &lt;label class="gallery__button gallery__button--prev" for="lg_glc_15069056_1"&gt;Trocar imagem&lt;/label&gt;&lt;label class="gallery__button gallery__button--next" for="lg_glc_15069056_3"&gt;Trocar imagem&lt;/label&gt;        &lt;/div&gt;
+        &lt;div class="gallery__counter"&gt;
+            2 de 9        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="gallery__description-wrapper"&gt;
+        &lt;div class="gallery__description"&gt;&lt;p&gt;Canobbio marcou o gol da virada em Uruguai x Cabo Verde • &lt;span class="gallery__credit"&gt;Anadolu via Getty Images&lt;/span&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;“Uma ação simples, como soltar balões, acender fogueiras ou empinar pipas com rabiola metálica próximas à rede elétrica, pode gerar consequências relevantes para o sistema elétrico, afetando o fornecimento de energia e colocando em risco vidas e serviços essenciais. Nosso foco é ampliar a conscientização sobre essa relação direta entre comportamento e impacto coletivo”, afirma Fabiano Camargo, gerente de Operações da ISA Energia Brasil.&lt;/p&gt;
-&lt;p&gt;A empresa de Fabiano, responsável pela transmissão de energia em São Paulo, revela em primeira mão à &lt;strong&gt;CNN Brasil, &lt;/strong&gt;que o grupo vai investir &lt;strong&gt;R$ 30 milhões em ações na manutenção preventiva&lt;/strong&gt; e na ação chamada “Pequenas Atitudes, Grandes Consequências”, para educação sobre o tema.&lt;/p&gt;
-&lt;p&gt;As &lt;strong&gt;queimadas/incêndios seguem como um dos principais motivos de interrupção no sistema de transmissão do Brasil&lt;/strong&gt;, segundo o ONS (Operador Nacional do Sistema Elétrico).&lt;/p&gt;
-&lt;p&gt;A Enel, distribuidora de energia São Paulo, &lt;strong&gt;lista uma série de recomendações sobre o risco de pipas&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Nunca solte pipa durante tempestades, chuvas intensas ou em condições de ventos fortes. Nessas situações, há maior risco de acidentes e de contato da pipa com a rede elétrica;&lt;/li&gt;
-&lt;li&gt;Na hora de sair para empinar pipa, prefira sempre espaços abertos e afastados de fiações, como parques e campos de futebol;&lt;/li&gt;
-&lt;li&gt;Crianças devem estar acompanhadas de um adulto responsável durante a brincadeira;&lt;/li&gt;
-&lt;li&gt;Não permita que a pipa toque a rede elétrica. O contato com fios e equipamentos energizados pode provocar choques elétricos graves, além de causar danos à rede e interrupções no fornecimento de energia;&lt;/li&gt;
-&lt;li&gt;Caso a pipa enrosque nos fios, postes ou equipamentos da rede, não tente resgatar o brinquedo, arremessar objetos para derrubá-lo, tampouco utilizar artefatos para içá-lo. Somente técnicos da distribuidora treinados podem interagir com os cabos, pois a atividade exige o uso de equipamentos de segurança e técnicas específicas;&lt;/li&gt;
-&lt;li&gt;Materiais metálicos, como o alumínio, não devem ser usados na fabricação da pipa, pois conduzem eletricidade, aumentando a chance de choque elétrico, com risco de morte;&lt;/li&gt;
-&lt;li&gt;O mesmo vale para as rabiolas. Evite a utilização de material laminado, que pode ficar preso nos fios elétricos, provocando desligamentos e descargas elétricas, muitas vezes fatais;&lt;/li&gt;
-&lt;li&gt;O uso de cerol (mistura de cola com vidro moído), além de ser crime, oferece mais um risco: pode cortar fios de alumínio ou cobre, aumentando o risco de acidentes e interrupções no fornecimento de energia;&lt;/li&gt;
-&lt;li&gt;O uso da chamada linha chilena, que possui poder de corte ainda maior que o cerol, agrava a situação. O risco de acidentes fatais é alto para pedestres e motociclistas, além dos danos causados à rede elétrica;&lt;/li&gt;
-&lt;li&gt;Em caso de acidente envolvendo a rede elétrica, o local deve ser isolado para evitar a aproximação de outras pessoas;&lt;/li&gt;
-&lt;li&gt;Se alguém ou algum objeto estiver em contato com fios, não se aproxime até que um profissional qualificado assegure que a energia foi desligada;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Em caso de acidente, além do acionamento dos bombeiros é necessário entrar em contato com a Enel pelo 800 7272 196.&lt;/p&gt;
-&lt;p&gt;A Isa Energia lembra que intervenções em faixas de segurança das linhas de transmissão são proibidas e, é&lt;strong&gt; vedado o uso de fogo em uma faixa de 15 metros das linhas de transmissão&lt;/strong&gt; e de 100 metros das subestações.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 26 Jun 2026 02:40:37 +0000</pubDate><guid>https://www.cnnbrasil.com.br/nacional/sudeste/sp/chegada-de-ferias-liga-alerta-sobre-perigos-de-pipas-na-rede-eletrica-em-sp/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/nacional/sudeste/sp/chegada-de-ferias-liga-alerta-sobre-perigos-de-pipas-na-rede-eletrica-em-sp/</guid></item><item><title>Copa de 2026 quebra recorde de gols marcados em uma mesma edição</title><link>https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/copa-de-2026-quebra-recorde-de-gols-marcados-em-uma-mesma-edicao/</link><description>&lt;p&gt;A partida entre Estados Unidos e Turquia nesta quinta-feira (25), no SoFi Stadium, em Los Angeles, estabeleceu uma marca importante para a história da Copa do Mundo. O primeiro gol da equipe norte-americana quebrou o recorde de bola nas redes em uma mesma edição do torneio.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;No momento do tento do zagueiro Auston Trusty, a marca de 173 gols foi alcançada. O recorde pertencia a edição de 2022, no Catar, quando 172 tentos foram anotados em competição que terminou com o título da &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/sem-messi-argentina-faz-testes-e-deve-ter-flaco-lopez-titular-na-copa/"&gt;&lt;strong&gt;Argentina&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;blockquote class="twitter-tweet"&gt;
-&lt;p dir="ltr" lang="en"&gt;173 goals at &lt;a href="https://x.com/FIFAWorldCup?ref_src=twsrc%5Etfw"&gt;@FIFAWorldCup&lt;/a&gt; 2026! ⚽️&lt;/p&gt;
-&lt;p&gt;More than any other edition of the tournament, a new record 👏 &lt;a href="https://t.co/gVhcO3GUeU"&gt;pic.twitter.com/gVhcO3GUeU&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;— FIFA (@FIFAcom) &lt;a href="https://x.com/FIFAcom/status/2070327317436547118?ref_src=twsrc%5Etfw"&gt;June 26, 2026&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;script async src="https://platform.x.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/li&gt;&lt;input
+     
+    type="radio"
+    class="gallery__selector"
+    id="lg_glc_15069056_3"
+    name="lg_glc_15069056"
+&gt;
+&lt;li class="gallery__item item3"&gt;
+    &lt;div class="gallery__main-wrapper"&gt;
+        &lt;div class="gallery__img-blur"&gt;
+            &lt;img decoding="async" class="gallery__img" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/GettyImages-2282675619.jpg?w=743" loading="lazy" alt=""&gt;
+            &lt;div class="gallery__img-blur__bg"&gt;&lt;/div&gt;
+            &lt;label
+                class="gallery__img__label gallery__img__label--default"
+                for="gallery__default_glc_15069056"
+            &gt;&lt;/label&gt;
+            &lt;label
+                class="gallery__img__label gallery__img__label--full"
+                for="gallery__full_glc_15069056"
+            &gt;&lt;/label&gt;
+        &lt;/div&gt;
+        &lt;div class="gallery__navigation"&gt;
+            &lt;label class="gallery__button gallery__button--prev" for="lg_glc_15069056_2"&gt;Trocar imagem&lt;/label&gt;&lt;label class="gallery__button gallery__button--next" for="lg_glc_15069056_4"&gt;Trocar imagem&lt;/label&gt;&lt;label class="gallery__button gallery__button--next gallery__button--ad" for="ad_lg_glc_15069056_3"&gt;Trocar imagem&lt;/label&gt;        &lt;/div&gt;
+        &lt;div class="gallery__counter"&gt;
+            3 de 9        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="gallery__description-wrapper"&gt;
+        &lt;div class="gallery__description"&gt;&lt;p&gt;Gol de virada do Uruguai sobre Cabo Verde • &lt;span class="gallery__credit"&gt;Photo by Alex Slitz/Getty Images&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/li&gt;&lt;input type="radio" 
+    class="gallery__selector gallery__selector--ad"
+    id="ad_lg_glc_15069056_3"
+    name="lg_glc_15069056"
+&gt;
+&lt;li class="i3' gallery__item gallery__item--ad"&gt;
+    &lt;div class="gallery__main-wrapper"&gt;
+        &lt;div class="gallery__ad gallery__ad--3 ad__area"&gt;&lt;/div&gt;
+        &lt;div class="gallery__navigation"&gt;
+            &lt;label class="gallery__button gallery__button--prev" for="lg_glc_15069056_3"&gt;Trocar imagem&lt;/label&gt;&lt;label class="gallery__button gallery__button--next" for="lg_glc_15069056_4"&gt;Trocar imagem&lt;/label&gt;        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/li&gt;&lt;input
+     
+    type="radio"
+    class="gallery__selector"
+    id="lg_glc_15069056_4"
+    name="lg_glc_15069056"
+&gt;
+&lt;li class="gallery__item item4"&gt;
+    &lt;div class="gallery__main-wrapper"&gt;
+        &lt;div class="gallery__img-blur"&gt;
+            &lt;img decoding="async" class="gallery__img" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/GettyImages-2282164217.jpg?w=743" loading="lazy" alt=""&gt;
+            &lt;div class="gallery__img-blur__bg"&gt;&lt;/div&gt;
+            &lt;label
+                class="gallery__img__label gallery__img__label--default"
+                for="gallery__default_glc_15069056"
+            &gt;&lt;/label&gt;
+            &lt;label
+                class="gallery__img__label gallery__img__label--full"
+                for="gallery__full_glc_15069056"
+            &gt;&lt;/label&gt;
+        &lt;/div&gt;
+        &lt;div class="gallery__navigation"&gt;
+            &lt;label class="gallery__button gallery__button--prev" for="lg_glc_15069056_3"&gt;Trocar imagem&lt;/label&gt;&lt;label class="gallery__button gallery__button--prev gallery__button--ad" for="ad_lg_glc_15069056_3"&gt;Trocar imagem&lt;/label&gt;&lt;label class="gallery__button gallery__button--next" for="lg_glc_15069056_5"&gt;Trocar imagem&lt;/label&gt;        &lt;/div&gt;
+        &lt;div class="gallery__counter"&gt;
+            4 de 9        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="gallery__description-wrapper"&gt;
+        &lt;div class="gallery__description"&gt;&lt;p&gt;Gol de Maxi Araújo, do Uruguai, sobre Cabo Verde • &lt;span class="gallery__credit"&gt;Anadolu via Getty Images&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/li&gt;&lt;input
+     
+    type="radio"
+    class="gallery__selector"
+    id="lg_glc_15069056_5"
+    name="lg_glc_15069056"
+&gt;
+&lt;li class="gallery__item item5"&gt;
+    &lt;div class="gallery__main-wrapper"&gt;
+        &lt;div class="gallery__img-blur"&gt;
+            &lt;img decoding="async" class="gallery__img" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/GettyImages-2282673558.jpg?w=738" loading="lazy" alt=""&gt;
+            &lt;div class="gallery__img-blur__bg"&gt;&lt;/div&gt;
+            &lt;label
+                class="gallery__img__label gallery__img__label--default"
+                for="gallery__default_glc_15069056"
+            &gt;&lt;/label&gt;
+            &lt;label
+                class="gallery__img__label gallery__img__label--full"
+                for="gallery__full_glc_15069056"
+            &gt;&lt;/label&gt;
+        &lt;/div&gt;
+        &lt;div class="gallery__navigation"&gt;
+            &lt;label class="gallery__button gallery__button--prev" for="lg_glc_15069056_4"&gt;Trocar imagem&lt;/label&gt;&lt;label class="gallery__button gallery__button--next" for="lg_glc_15069056_6"&gt;Trocar imagem&lt;/label&gt;        &lt;/div&gt;
+        &lt;div class="gallery__counter"&gt;
+            5 de 9        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="gallery__description-wrapper"&gt;
+        &lt;div class="gallery__description"&gt;&lt;p&gt;Uruguai x Cabo Verde: jogadores comemoram primeiro vol de Cabo Verde na história das Copas • &lt;span class="gallery__credit"&gt;Photo by Carmen Mandato - FIFA/FIFA via Getty Images&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/li&gt;&lt;input
+     
+    type="radio"
+    class="gallery__selector"
+    id="lg_glc_15069056_6"
+    name="lg_glc_15069056"
+&gt;
+&lt;li class="gallery__item item6"&gt;
+    &lt;div class="gallery__main-wrapper"&gt;
+        &lt;div class="gallery__img-blur"&gt;
+            &lt;img decoding="async" class="gallery__img" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/GettyImages-2282673560.jpg?w=743" loading="lazy" alt=""&gt;
+            &lt;div class="gallery__img-blur__bg"&gt;&lt;/div&gt;
+            &lt;label
+                class="gallery__img__label gallery__img__label--default"
+                for="gallery__default_glc_15069056"
+            &gt;&lt;/label&gt;
+            &lt;label
+                class="gallery__img__label gallery__img__label--full"
+                for="gallery__full_glc_15069056"
+            &gt;&lt;/label&gt;
+        &lt;/div&gt;
+        &lt;div class="gallery__navigation"&gt;
+            &lt;label class="gallery__button gallery__button--prev" for="lg_glc_15069056_5"&gt;Trocar imagem&lt;/label&gt;&lt;label class="gallery__button gallery__button--next" for="lg_glc_15069056_7"&gt;Trocar imagem&lt;/label&gt;&lt;label class="gallery__button gallery__button--next gallery__button--ad" for="ad_lg_glc_15069056_6"&gt;Trocar imagem&lt;/label&gt;        &lt;/div&gt;
+        &lt;div class="gallery__counter"&gt;
+            6 de 9        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="gallery__description-wrapper"&gt;
+        &lt;div class="gallery__description"&gt;&lt;p&gt;Uruguai x Cabo Verde: jogadores comemoram primeiro vol de Cabo Verde na história das Copas • &lt;span class="gallery__credit"&gt;Photo by Carmen Mandato - FIFA/FIFA via Getty Images&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/li&gt;&lt;input type="radio" 
+    class="gallery__selector gallery__selector--ad"
+    id="ad_lg_glc_15069056_6"
+    name="lg_glc_15069056"
+&gt;
+&lt;li class="i6' gallery__item gallery__item--ad"&gt;
+    &lt;div class="gallery__main-wrapper"&gt;
+        &lt;div class="gallery__ad gallery__ad--6 ad__area"&gt;&lt;/div&gt;
+        &lt;div class="gallery__navigation"&gt;
+            &lt;label class="gallery__button gallery__button--prev" for="lg_glc_15069056_6"&gt;Trocar imagem&lt;/label&gt;&lt;label class="gallery__button gallery__button--next" for="lg_glc_15069056_7"&gt;Trocar imagem&lt;/label&gt;        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/li&gt;&lt;input
+     
+    type="radio"
+    class="gallery__selector"
+    id="lg_glc_15069056_7"
+    name="lg_glc_15069056"
+&gt;
+&lt;li class="gallery__item item7"&gt;
+    &lt;div class="gallery__main-wrapper"&gt;
+        &lt;div class="gallery__img-blur"&gt;
+            &lt;img decoding="async" class="gallery__img" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/GettyImages-2282673516-e1782081661583.jpg?w=880" loading="lazy" alt=""&gt;
+            &lt;div class="gallery__img-blur__bg"&gt;&lt;/div&gt;
+            &lt;label
+                class="gallery__img__label gallery__img__label--default"
+                for="gallery__default_glc_15069056"
+            &gt;&lt;/label&gt;
+            &lt;label
+                class="gallery__img__label gallery__img__label--full"
+                for="gallery__full_glc_15069056"
+            &gt;&lt;/label&gt;
+        &lt;/div&gt;
+        &lt;div class="gallery__navigation"&gt;
+            &lt;label class="gallery__button gallery__button--prev" for="lg_glc_15069056_6"&gt;Trocar imagem&lt;/label&gt;&lt;label class="gallery__button gallery__button--prev gallery__button--ad" for="ad_lg_glc_15069056_6"&gt;Trocar imagem&lt;/label&gt;&lt;label class="gallery__button gallery__button--next" for="lg_glc_15069056_8"&gt;Trocar imagem&lt;/label&gt;        &lt;/div&gt;
+        &lt;div class="gallery__counter"&gt;
+            7 de 9        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="gallery__description-wrapper"&gt;
+        &lt;div class="gallery__description"&gt;&lt;p&gt;Kevin Pina comemorando gol • &lt;span class="gallery__credit"&gt;FIFA via Getty Images&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/li&gt;&lt;input
+     
+    type="radio"
+    class="gallery__selector"
+    id="lg_glc_15069056_8"
+    name="lg_glc_15069056"
+&gt;
+&lt;li class="gallery__item item8"&gt;
+    &lt;div class="gallery__main-wrapper"&gt;
+        &lt;div class="gallery__img-blur"&gt;
+            &lt;img decoding="async" class="gallery__img" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/kevin-pina-gol-cabo-verde-uruguai-e1782081077400.jpg?w=880" loading="lazy" alt=""&gt;
+            &lt;div class="gallery__img-blur__bg"&gt;&lt;/div&gt;
+            &lt;label
+                class="gallery__img__label gallery__img__label--default"
+                for="gallery__default_glc_15069056"
+            &gt;&lt;/label&gt;
+            &lt;label
+                class="gallery__img__label gallery__img__label--full"
+                for="gallery__full_glc_15069056"
+            &gt;&lt;/label&gt;
+        &lt;/div&gt;
+        &lt;div class="gallery__navigation"&gt;
+            &lt;label class="gallery__button gallery__button--prev" for="lg_glc_15069056_7"&gt;Trocar imagem&lt;/label&gt;&lt;label class="gallery__button gallery__button--next" for="lg_glc_15069056_9"&gt;Trocar imagem&lt;/label&gt;        &lt;/div&gt;
+        &lt;div class="gallery__counter"&gt;
+            8 de 9        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="gallery__description-wrapper"&gt;
+        &lt;div class="gallery__description"&gt;&lt;p&gt;Kevin Pina faz o primeiro gol de Cabo Verde em Copas do Mundo • &lt;span class="gallery__credit"&gt;Alex Slitz/Getty Images&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/li&gt;&lt;input
+     
+    type="radio"
+    class="gallery__selector"
+    id="lg_glc_15069056_9"
+    name="lg_glc_15069056"
+&gt;
+&lt;li class="gallery__item item9"&gt;
+    &lt;div class="gallery__main-wrapper"&gt;
+        &lt;div class="gallery__img-blur"&gt;
+            &lt;img decoding="async" class="gallery__img" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/uruguai-cabo-verde-copa-e1782079913972.jpg?w=880" loading="lazy" alt=""&gt;
+            &lt;div class="gallery__img-blur__bg"&gt;&lt;/div&gt;
+            &lt;label
+                class="gallery__img__label gallery__img__label--default"
+                for="gallery__default_glc_15069056"
+            &gt;&lt;/label&gt;
+            &lt;label
+                class="gallery__img__label gallery__img__label--full"
+                for="gallery__full_glc_15069056"
+            &gt;&lt;/label&gt;
+        &lt;/div&gt;
+        &lt;div class="gallery__navigation"&gt;
+            &lt;label class="gallery__button gallery__button--prev" for="lg_glc_15069056_8"&gt;Trocar imagem&lt;/label&gt;&lt;label class="gallery__button gallery__button--next" for="lg_glc_15069056_1"&gt;Trocar imagem&lt;/label&gt;&lt;label class="gallery__button gallery__button--next gallery__button--ad" for="ad_lg_glc_15069056_9"&gt;Trocar imagem&lt;/label&gt;        &lt;/div&gt;
+        &lt;div class="gallery__counter"&gt;
+            9 de 9        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="gallery__description-wrapper"&gt;
+        &lt;div class="gallery__description"&gt;&lt;p&gt;Uruguai x Cabo Verde na Copa do Mundo 2026 • &lt;span class="gallery__credit"&gt;Lars Baron/Getty Images&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/li&gt;&lt;input type="radio" 
+    class="gallery__selector gallery__selector--ad"
+    id="ad_lg_glc_15069056_9"
+    name="lg_glc_15069056"
+&gt;
+&lt;li class="i9' gallery__item gallery__item--ad"&gt;
+    &lt;div class="gallery__main-wrapper"&gt;
+        &lt;div class="gallery__ad gallery__ad--9 ad__area"&gt;&lt;/div&gt;
+        &lt;div class="gallery__navigation"&gt;
+            &lt;label class="gallery__button gallery__button--prev" for="lg_glc_15069056_9"&gt;Trocar imagem&lt;/label&gt;&lt;label class="gallery__button gallery__button--next" for="lg_glc_15069056_1"&gt;Trocar imagem&lt;/label&gt;        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/li&gt;    &lt;/ul&gt;
+&lt;/div&gt;&lt;div class="gallery__thumbnails"&gt;
+    &lt;ul class="gallery__thumb-list"&gt;
+        &lt;li class="gallery__thumb gallery__thumb--active"&gt;
+    &lt;label class="gallery__thumb-label" for="lg_glc_15069056_1"&gt;
+        &lt;div class="gallery__main-wrapper"&gt;
+            &lt;div class="gallery__img-blur"&gt;
+                &lt;img decoding="async" class="gallery__img" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/GettyImages-2282176559.jpg?w=169" loading="lazy" alt=""&gt;
+                &lt;div class="gallery__img-blur__bg"&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/label&gt;
+&lt;/li&gt;&lt;li class="gallery__thumb "&gt;
+    &lt;label class="gallery__thumb-label" for="lg_glc_15069056_2"&gt;
+        &lt;div class="gallery__main-wrapper"&gt;
+            &lt;div class="gallery__img-blur"&gt;
+                &lt;img decoding="async" class="gallery__img" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/Canobbio-uruguai-x-cabo-verde.jpg?w=164" loading="lazy" alt=""&gt;
+                &lt;div class="gallery__img-blur__bg"&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/label&gt;
+&lt;/li&gt;&lt;li class="gallery__thumb "&gt;
+    &lt;label class="gallery__thumb-label" for="lg_glc_15069056_3"&gt;
+        &lt;div class="gallery__main-wrapper"&gt;
+            &lt;div class="gallery__img-blur"&gt;
+                &lt;img decoding="async" class="gallery__img" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/GettyImages-2282675619.jpg?w=164" loading="lazy" alt=""&gt;
+                &lt;div class="gallery__img-blur__bg"&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/label&gt;
+&lt;/li&gt;&lt;li class="gallery__thumb "&gt;
+    &lt;label class="gallery__thumb-label" for="lg_glc_15069056_4"&gt;
+        &lt;div class="gallery__main-wrapper"&gt;
+            &lt;div class="gallery__img-blur"&gt;
+                &lt;img decoding="async" class="gallery__img" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/GettyImages-2282164217.jpg?w=164" loading="lazy" alt=""&gt;
+                &lt;div class="gallery__img-blur__bg"&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/label&gt;
+&lt;/li&gt;&lt;li class="gallery__thumb "&gt;
+    &lt;label class="gallery__thumb-label" for="lg_glc_15069056_5"&gt;
+        &lt;div class="gallery__main-wrapper"&gt;
+            &lt;div class="gallery__img-blur"&gt;
+                &lt;img decoding="async" class="gallery__img" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/GettyImages-2282673558.jpg?w=162" loading="lazy" alt=""&gt;
+                &lt;div class="gallery__img-blur__bg"&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/label&gt;
+&lt;/li&gt;&lt;li class="gallery__thumb "&gt;
+    &lt;label class="gallery__thumb-label" for="lg_glc_15069056_6"&gt;
+        &lt;div class="gallery__main-wrapper"&gt;
+            &lt;div class="gallery__img-blur"&gt;
+                &lt;img decoding="async" class="gallery__img" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/GettyImages-2282673560.jpg?w=164" loading="lazy" alt=""&gt;
+                &lt;div class="gallery__img-blur__bg"&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/label&gt;
+&lt;/li&gt;&lt;li class="gallery__thumb "&gt;
+    &lt;label class="gallery__thumb-label" for="lg_glc_15069056_7"&gt;
+        &lt;div class="gallery__main-wrapper"&gt;
+            &lt;div class="gallery__img-blur"&gt;
+                &lt;img decoding="async" class="gallery__img" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/GettyImages-2282673516-e1782081661583.jpg?w=194" loading="lazy" alt=""&gt;
+                &lt;div class="gallery__img-blur__bg"&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/label&gt;
+&lt;/li&gt;&lt;li class="gallery__thumb "&gt;
+    &lt;label class="gallery__thumb-label" for="lg_glc_15069056_8"&gt;
+        &lt;div class="gallery__main-wrapper"&gt;
+            &lt;div class="gallery__img-blur"&gt;
+                &lt;img decoding="async" class="gallery__img" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/kevin-pina-gol-cabo-verde-uruguai-e1782081077400.jpg?w=194" loading="lazy" alt=""&gt;
+                &lt;div class="gallery__img-blur__bg"&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/label&gt;
+&lt;/li&gt;&lt;li class="gallery__thumb "&gt;
+    &lt;label class="gallery__thumb-label" for="lg_glc_15069056_9"&gt;
+        &lt;div class="gallery__main-wrapper"&gt;
+            &lt;div class="gallery__img-blur"&gt;
+                &lt;img decoding="async" class="gallery__img" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/uruguai-cabo-verde-copa-e1782079913972.jpg?w=194" loading="lazy" alt=""&gt;
+                &lt;div class="gallery__img-blur__bg"&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/label&gt;
+&lt;/li&gt;    &lt;/ul&gt;
+&lt;/div&gt;&lt;div class="gallery__switcher"&gt;
+    &lt;label
+        class="gallery__button gallery__button--default"
+        for="gallery__default_glc_15069056"
+    &gt;visualização default&lt;/label&gt;
+    &lt;label
+        class="gallery__button gallery__button--full"
+        for="gallery__full_glc_15069056"
+    &gt;visualização full&lt;/label&gt;
+    &lt;label
+        class="gallery__button gallery__button--grid"
+        for="gallery__grid_glc_15069056"
+    &gt;visualização grid&lt;/label&gt;
+&lt;/div&gt;&lt;/section&gt;
+
+&lt;h2&gt;Uruguai aposta em estratégia para conter Lamine Yamal&lt;/h2&gt;
+&lt;p&gt;O comandante uruguaio destacou que encontrar uma forma de neutralizar Lamine Yamal será determinante para as chances de vitória de sua equipe. O jovem atacante é apontado como a principal ameaça ofensiva da Espanha.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;Ele é um jogador capaz de desequilibrar uma partida. Não estou dizendo nenhuma novidade&amp;#8230; É um jogador desequilibrante e decisivo&amp;#8221;, concluiu Bielsa, ressaltando a importância de limitar a influência do atacante espanhol durante o confronto.&lt;/p&gt;
+&lt;blockquote class="wp-embedded-content" data-secret="5nS5C5hZRl"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/esportes/com-messi-no-topo-veja-como-esta-a-artilharia-historica-da-copa-do-mundo/"&gt;Com Messi no topo, veja como está a artilharia histórica da Copa do Mundo&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Com Messi no topo, veja como está a artilharia histórica da Copa do Mundo&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/esportes/com-messi-no-topo-veja-como-esta-a-artilharia-historica-da-copa-do-mundo/embed/#?secret=tDEjsSNWrY#?secret=5nS5C5hZRl" data-secret="5nS5C5hZRl" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 26 Jun 2026 08:30:27 +0000</pubDate><guid>https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/vamos-encarar-como-uma-final-diz-bielsa-antes-de-uruguai-x-espanha/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/vamos-encarar-como-uma-final-diz-bielsa-antes-de-uruguai-x-espanha/</guid></item><item><title>Técnico afirma que Japão não será um adversário fácil para o Brasil</title><link>https://www.cnnbrasil.com.br/esportes/futebol/futebol-internacional/tecnico-afirma-que-japao-nao-sera-um-adversario-facil-para-o-brasil/</link><description>&lt;p class="tr-story-p1"&gt;&lt;span dir="auto"&gt;O Brasil é uma das melhores seleções do mundo, mas &lt;/span&gt;&lt;span dir="auto"&gt;o Japão&lt;/span&gt;&lt;span dir="auto"&gt; não será um adversário fácil quando as duas equipes se enfrentarem em Houston, pelas oitavas de final &lt;/span&gt;&lt;span dir="auto"&gt;da Copa do Mundo&lt;/span&gt;&lt;span dir="auto"&gt; , disse o técnico Hajime Moriyasu nesta quinta-feira, após sua equipe terminar em segundo lugar no Grupo F.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span dir="auto"&gt;Moriyasu acrescentou que a vitória de virada por 3 a 2 sobre os brasileiros em Tóquio, em outubro passado, que garantiu a primeira vitória da equipe contra os pentacampeões, mostrou que o Japão entrará em campo na segunda-feira buscando fazer mais do que simplesmente oferecer uma boa resistência.&lt;/span&gt;&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span dir="auto"&gt;&amp;#8220;Da última vez, &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/o-brasil-ja-perdeu-para-o-japao-veja-retrospecto-das-selecoes/" target="_blank" rel="noopener" data-textassist="true"&gt;provamos ao Brasil&lt;/a&gt; que não somos um adversário fácil&amp;#8221;, disse Moriyasu. &amp;#8220;Isso é um grande progresso para nós. A seleção brasileira é uma das melhores do mundo e nós a respeitamos muito.&amp;#8221;&lt;/span&gt;&lt;/p&gt;
 &lt;aside class="read-too read-too--with-img"&gt;
             &lt;h2 class='read-too__title'&gt;Leia Mais&lt;/h2&gt;
             &lt;ul class="read-too__list"&gt;
         &lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/japao-empata-com-a-suecia-e-sera-adversario-do-brasil-no-mata-mata-da-copa/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/japao-amplia-sequencia-invicta-antes-de-enfrentar-o-brasil-na-copa/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/japao_suecia-e1782433680758.jpg?w=200"
-                    alt="Japão empata com a Suécia e será adversário do Brasil no mata-mata da Copa"
-                    title="Japão empata com a Suécia e será adversário do Brasil no mata-mata da Copa'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/japao_comemoracao-e1782442788962.jpg?w=200"
+                    alt="Japão amplia sequência invicta antes de enfrentar o Brasil na Copa"
+                    title="Japão amplia sequência invicta antes de enfrentar o Brasil na Copa'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;Japão empata com a Suécia e será adversário do Brasil no mata-mata da Copa&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;Japão amplia sequência invicta antes de enfrentar o Brasil na Copa&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;&lt;li class="read-too__list-item"&gt;
     &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/japao-1-x-1-suecia-veja-os-melhores-momentos-do-jogo-da-copa/" target="_self"&gt;
@@ -384,171 +741,239 @@
         &lt;h3 class="read-too__post-title"&gt;Japão 1 x 1 Suécia: veja os melhores momentos do jogo da Copa&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/brasil-x-japao-veja-data-e-horario-do-jogo-pela-segunda-fase-da-copa-2026/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/japao-busca-manter-invencibilidade-de-nove-meses-por-vaga-na-proxima-fase/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/Brasil-Escocia-Div-Fifa-e1782435489762.webp?w=200"
-                    alt="Brasil x Japão: veja data e horário do jogo pela segunda fase da Copa 2026"
-                    title="Brasil x Japão: veja data e horário do jogo pela segunda fase da Copa 2026'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/time_japao-e1782333689450.jpeg?w=200"
+                    alt="Japão busca manter invencibilidade de nove meses por vaga na próxima fase"
+                    title="Japão busca manter invencibilidade de nove meses por vaga na próxima fase'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;Brasil x Japão: veja data e horário do jogo pela segunda fase da Copa 2026&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;Japão busca manter invencibilidade de nove meses por vaga na próxima fase&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;    &lt;/ul&gt;
 &lt;/aside&gt;
 
-&lt;p&gt;Pouco tempo depois, a &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/copa-do-mundo-turquia-e-eleita-a-maior-decepcao-do-mundial/"&gt;&lt;strong&gt;Turquia&lt;/strong&gt;&lt;/a&gt; virou a disputa e aumentou o feito para 175 gols em 58 jogos realizados. Ainda restam 46 partidas a serem disputadas na atual edição. A grande final do &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/copa-do-mundo-veja-classificados-e-confrontos-da-segunda-fase/"&gt;&lt;strong&gt;Mundial&lt;/strong&gt;&lt;/a&gt; está marcada para o dia 19 de julho, no MetLife Stadium, em Nova Jersey.&lt;/p&gt;
-&lt;blockquote class="wp-embedded-content" data-secret="UG4BeCBw6J"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/esportes/entenda-como-funciona-a-fase-16-avos-novidade-no-mata-mata-da-copa-de-2026/"&gt;Como funciona a fase 16 avos, novidade no mata-mata da Copa de 2026&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Como funciona a fase 16 avos, novidade no mata-mata da Copa de 2026&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/esportes/entenda-como-funciona-a-fase-16-avos-novidade-no-mata-mata-da-copa-de-2026/embed/#?secret=5UnuyE5kuf#?secret=UG4BeCBw6J" data-secret="UG4BeCBw6J" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 26 Jun 2026 02:22:22 +0000</pubDate><guid>https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/copa-de-2026-quebra-recorde-de-gols-marcados-em-uma-mesma-edicao/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/copa-de-2026-quebra-recorde-de-gols-marcados-em-uma-mesma-edicao/</guid></item><item><title>“The Paper” anuncia data da 2ª temporada e novo teaser</title><link>https://www.cnnbrasil.com.br/pop/the-paper-anuncia-data-da-2a-temporada-e-novo-teaser/</link><description>&lt;p&gt;A 2ª temporada de&lt;strong&gt; &amp;#8220;The Paper&amp;#8221;&lt;/strong&gt;, um spin-off do sucesso &amp;#8220;The Office&amp;#8221;, está mais próxima de voltar para o público. O novo ano retorna à emissora americana Peacock dia 9 de setembro; no Brasil, a série chega por meio da HBO Max.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;Segundo informações exclusivas da Variety, o elenco ganhou adições com nomes como Jon Lovitz (&amp;#8220;Gente Grande 2&amp;#8221;), Andy Richter (&amp;#8220;Conan&amp;#8221;), Lisa Gilroy (&amp;#8220;Jury Duty&amp;#8221;), Matt Braunger (&amp;#8220;Agente Carter), Toks Olagundoye (&amp;#8220;Family Guy&amp;#8221;, &amp;#8220;Beave and Butt-Head&amp;#8221;) e Phil Hendrie (do programa de rádio &amp;#8220;The Phil Hendrie&amp;#8221;).&lt;/p&gt;
+&lt;p&gt;&lt;span dir="auto"&gt;&amp;#8220;Durante a partida, não sabemos o que vai acontecer. Também teremos chances de vencer.&amp;#8221;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span dir="auto"&gt;O Japão garantiu vaga no confronto contra o Brasil após &lt;/span&gt;&lt;span dir="auto"&gt;&lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/japao-empata-com-a-suecia-e-sera-adversario-do-brasil-no-mata-mata-da-copa/" target="_blank" rel="noopener" data-textassist="true"&gt;empatar em 1 a 1&lt;/a&gt; com a Suécia&lt;/span&gt;&lt;span dir="auto"&gt; na quinta-feira, em Dallas. Daizen Maeda abriu o placar, mas a equipe de Moriyasu sofreu o gol minutos depois. O resultado garantiu ao Japão a segunda colocação do grupo, atrás da Holanda.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span dir="auto"&gt;Moriyasu disse que ficou desapontado por sofrer o gol, mas, uma vez que o jogo estava empatado, optou por colocar jogadores de defesa para garantir o ponto e o segundo lugar no grupo.&lt;/span&gt;&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span dir="auto"&gt;&amp;#8220;Sofremos um gol e, no mundo do futebol, é assim que as coisas acontecem&amp;#8221;, disse ele.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span dir="auto"&gt;O resultado do Japão também é bom para o futebol asiático, disse Moriyasu, acrescentando que sua equipe representa a ambição esportiva de toda a região e que avançar para as &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/brasil-x-japao-veja-data-e-horario-do-jogo-pela-segunda-fase-da-copa-2026/" target="_blank" rel="noopener" data-textassist="true"&gt;fases eliminatórias&lt;/a&gt; demonstra o crescimento do futebol em seu país.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span dir="auto"&gt;&amp;#8220;Era isso que queríamos fazer desde o início da competição e isso é a prova do crescimento do futebol japonês&amp;#8221;, disse ele.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;div class="post__video"&gt;
+	&lt;div class="cnn component-video has--live"&gt;
+		&lt;div class="component-inner"&gt;
+			&lt;div
+				id="player_esportes_0WqPagpp7ho"
+				class="video-wrapper "
+			&gt;
+				&lt;div class="video-wrapper-inner"&gt;
+										&lt;div class="overlay-wrapper"&gt;
+						&lt;button
+							class="video-button js-video-play active"
+							aria-label="Assista o vídeo JAPÃO E HOLANDA PODEM ELIMINAR O BRASIL? Debate esquenta sobre futuro da Copa | Convocação CNN"
+							tabindex="0"
+						&gt;
+							&lt;img
+								class="thumbnail-image"
+								src="https://img.youtube.com/vi/0WqPagpp7ho/sddefault.jpg"
+                                srcset="https://img.youtube.com/vi/0WqPagpp7ho/default.jpg 120w,
+                    https://img.youtube.com/vi/0WqPagpp7ho/mqdefault.jpg 320w,
+                    https://img.youtube.com/vi/0WqPagpp7ho/hqdefault.jpg 480w,
+                    https://img.youtube.com/vi/0WqPagpp7ho/sddefault.jpg 640w,
+                    https://img.youtube.com/vi/0WqPagpp7ho/maxresdefault.jpg 1280w"
+								alt="JAPÃO E HOLANDA PODEM ELIMINAR O BRASIL? Debate esquenta sobre futuro da Copa | Convocação CNN"
+							/&gt;
+
+							&lt;span
+								class="video-play-button"
+								aria-label="Botão play do vídeo JAPÃO E HOLANDA PODEM ELIMINAR O BRASIL? Debate esquenta sobre futuro da Copa | Convocação CNN"
+							&gt;&lt;/span&gt;
+
+															&lt;span class="video-gradient"&gt;&lt;/span&gt;
+								&lt;span class="video-title"&gt;JAPÃO E HOLANDA PODEM ELIMINAR O BRASIL? Debate esquenta sobre futuro da Copa | Convocação CNN&lt;/span&gt;
+													&lt;/button&gt;
+					&lt;/div&gt;
+										&lt;span
+						class="embedded-video video-player-wrapper"
+						data-youtube-plcmt="1"
+						data-youtube-vpmute="0"
+						data-youtube-width="640px"
+						data-youtube-height="480px"
+						data-youtube-ui="esportes"
+						data-youtube-play="0"
+						data-youtube-mute="0"
+						data-youtube-id="0WqPagpp7ho"
+						data-youtube-vpa="click"
+						data-youtube-hl="pt"
+						data-youtube-position=""
+					&gt;&lt;/span&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;/iframe&gt;&lt;/p&gt;
+&lt;blockquote class="wp-embedded-content" data-secret="On6IR3VKX6"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/esportes/messi-bateu-cinco-recordes-mundiais-na-vitoria-contra-a-austria/"&gt;Messi bateu cinco recordes mundiais na vitória contra a Áustria&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Messi bateu cinco recordes mundiais na vitória contra a Áustria&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/esportes/messi-bateu-cinco-recordes-mundiais-na-vitoria-contra-a-austria/embed/#?secret=tuuN3XpgsT#?secret=On6IR3VKX6" data-secret="On6IR3VKX6" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p class="tr-signoff"&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 26 Jun 2026 08:28:50 +0000</pubDate><guid>https://www.cnnbrasil.com.br/esportes/futebol/futebol-internacional/tecnico-afirma-que-japao-nao-sera-um-adversario-facil-para-o-brasil/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/esportes/futebol/futebol-internacional/tecnico-afirma-que-japao-nao-sera-um-adversario-facil-para-o-brasil/</guid></item><item><title>Festival de Parintins: qual boi venceu mais edições da disputa?</title><link>https://www.cnnbrasil.com.br/pop/celebridades/festival-de-parintins-qual-boi-venceu-mais-edicoes-da-disputa/</link><description>&lt;p&gt;Reunindo milhares de espectadores todos os anos desde 1966, o Festival de Parintins começa nesta sexta-feira (26) na cidade de Parintins, no interior do Amazonas.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;O evento folclórico do &lt;a href="https://www.cnnbrasil.com.br/pop/festival-de-parintins-2026-saiba-como-assistir-ao-evento/"&gt;Boi-Bumbá&lt;/a&gt; completa 60 anos este ano, vai até o dia 28 de junho e é o palco da &lt;a href="https://www.cnnbrasil.com.br/pop/caprichoso-e-garantido-veja-marcas-que-mudaram-de-cor-por-rivalidade-entre-os-bois/"&gt;rivalidade histórica&lt;/a&gt; entre o Boi &lt;a href="https://www.cnnbrasil.com.br/nacional/norte/am/boi-caprichoso-lanca-tema-para-o-festival-de-parintins-2026/"&gt;Caprichoso&lt;/a&gt; e &lt;a href="https://www.cnnbrasil.com.br/nacional/norte/am/boi-garantido-lanca-tema-para-o-festival-de-parintins-2026/"&gt;Garantido&lt;/a&gt;. Para o &lt;a href="https://www.cnnbrasil.com.br/pop/parintins-2026-veja-ordem-das-apresentacoes-de-caprichoso-e-garantido/"&gt;desfile das agremiações culturais&lt;/a&gt;, a cidade tem o Bumbódromo, que pode receber até 25 mil pessoas.&lt;/p&gt;
 &lt;aside class="read-too read-too--with-img"&gt;
             &lt;h2 class='read-too__title'&gt;Leia mais&lt;/h2&gt;
             &lt;ul class="read-too__list"&gt;
         &lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/pop/musica-de-rick-davies-bombou-em-the-office-relembre-cena/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/pop/celebridades/maisa-faz-yoga-de-biquini-em-miami-e-surge-de-ponta-cabeca-veja/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/05/the-office-a03d41a673b84afcab3cae444f790f55.webp?w=200"
-                    alt="Música de Rick Davies bombou em &amp;quot;The Office&amp;quot;; relembre cena"
-                    title="Música de Rick Davies bombou em &amp;quot;The Office&amp;quot;; relembre cena'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/maisa-biquini-yoga.jpg?w=200"
+                    alt="Maisa faz yoga de biquíni em Miami e surge de ponta-cabeça; veja"
+                    title="Maisa faz yoga de biquíni em Miami e surge de ponta-cabeça; veja'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;Música de Rick Davies bombou em &amp;quot;The Office&amp;quot;; relembre cena&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;Maisa faz yoga de biquíni em Miami e surge de ponta-cabeça; veja&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/pop/streaming/ator-de-the-office-diz-que-serie-seria-politicamente-incorreta-hoje/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/pop/celebridades/poliana-rocha-esconde-virginia-e-vini-jr-em-post-sobre-ze-felipe/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/09/rainn-wilson-the-office-dwight-e1781546804858.png?w=200"
-                    alt="Ator de &amp;quot;The Office&amp;quot; diz que série seria &amp;quot;politicamente incorreta&amp;quot; hoje"
-                    title="Ator de &amp;quot;The Office&amp;quot; diz que série seria &amp;quot;politicamente incorreta&amp;quot; hoje'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/poliana-rocha-virginia-fonseca-vini-jr.jpg?w=200"
+                    alt="Poliana Rocha esconde Virginia e Vini Jr. em post sobre Zé Felipe; entenda"
+                    title="Poliana Rocha esconde Virginia e Vini Jr. em post sobre Zé Felipe; entenda'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;Ator de &amp;quot;The Office&amp;quot; diz que série seria &amp;quot;politicamente incorreta&amp;quot; hoje&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;Poliana Rocha esconde Virginia e Vini Jr. em post sobre Zé Felipe; entenda&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/pop/the-paper-spin-off-de-the-office-ganha-data-de-estreia-no-brasil/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/pop/celebridades/pedido-de-licenca-sugere-evento-de-taylor-swift-e-travis-kelce-no-msg/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/09/the-paper-e1757951442412.jpg?w=200"
-                    alt="&amp;quot;The Paper&amp;quot;: spin-off de &amp;quot;The Office&amp;quot; ganha data de estreia no Brasil"
-                    title="&amp;quot;The Paper&amp;quot;: spin-off de &amp;quot;The Office&amp;quot; ganha data de estreia no Brasil'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/GettyImages-2277904608.jpg?w=200"
+                    alt="Pedido de licença sugere evento de Taylor Swift e Travis Kelce no MSG"
+                    title="Pedido de licença sugere evento de Taylor Swift e Travis Kelce no MSG'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;&amp;quot;The Paper&amp;quot;: spin-off de &amp;quot;The Office&amp;quot; ganha data de estreia no Brasil&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;Pedido de licença sugere evento de Taylor Swift e Travis Kelce no MSG&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;    &lt;/ul&gt;
 &lt;/aside&gt;
 
-&lt;p&gt;Na segunda temporada, após conquistar o prêmio de Jornalismo de Ohio, Ned (Domhall Gleeson) embarca em uma nova investigação jornalística. Sua apuração sobre um clube privado da região acaba colocando o jornal Toledo Truth Telle&lt;em data-start="192" data-end="213"&gt;r&lt;/em&gt; em uma situação delicada. Enquanto ele e Mare (Chelsea Frei) tentam compreender a conexão crescente entre os dois, Esmeralda busca seu espaço, e a equipe de repórteres passa por um processo de amadurecimento e evolução.&lt;/p&gt;
-&lt;blockquote class="twitter-tweet" data-media-max-width="560"&gt;
-&lt;p dir="ltr" lang="en"&gt;New teaser for Season 2 of &amp;#8216;THE PAPER&amp;#8217;! 🗞️ &lt;a href="https://t.co/Wur1URXPxS"&gt;pic.twitter.com/Wur1URXPxS&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;— Domhnall Gleeson Archive (@gleesonarchive) &lt;a href="https://x.com/gleesonarchive/status/2070215104809865497?ref_src=twsrc%5Etfw"&gt;June 25, 2026&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;script async src="https://platform.x.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;blockquote class="wp-embedded-content" data-secret="dqjiXNwQ1Z"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/entretenimento/10-anos-desde-o-fim-de-the-office-veja-as-homenagens-do-elenco-nas-redes-sociais-2/"&gt;10 anos desde o fim de &amp;#8220;The Office&amp;#8221;; veja homenagens do elenco&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;10 anos desde o fim de &amp;#8220;The Office&amp;#8221;; veja homenagens do elenco&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/entretenimento/10-anos-desde-o-fim-de-the-office-veja-as-homenagens-do-elenco-nas-redes-sociais-2/embed/#?secret=wWdH7gkNRs#?secret=dqjiXNwQ1Z" data-secret="dqjiXNwQ1Z" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 26 Jun 2026 02:08:07 +0000</pubDate><guid>https://www.cnnbrasil.com.br/pop/the-paper-anuncia-data-da-2a-temporada-e-novo-teaser/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/pop/the-paper-anuncia-data-da-2a-temporada-e-novo-teaser/</guid></item><item><title>“Se não nos entendermos, vamos perder a eleição”, diz presidente do PL</title><link>https://www.cnnbrasil.com.br/politica/se-nao-nos-entendermos-vamos-perder-a-eleicao-diz-presidente-do-pl/</link><description>&lt;p&gt;Segundo o presidente do &lt;strong&gt;PL&lt;/strong&gt; (&lt;strong&gt;Partido Liberal&lt;/strong&gt;), &lt;strong&gt;Valdemar da Costa Neto&lt;/strong&gt;, se os desentendimentos entre &lt;strong&gt;Michelle Bolsonaro&lt;/strong&gt; (PL) e o pré-candidato &lt;strong&gt;Flávio Bolsonaro&lt;/strong&gt; (PL) não cessarem, haverá chances de a sigla &amp;#8220;perder a eleição&amp;#8221; deste ano.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;&amp;#8220;Nós temos que acertar isso aí. Porque se não acertar isso aí, nós já vamos sair perdendo em casa&amp;#8221;, disse em entrevista ao Gaúcha Zero Hora na noite desta quinta-feira (25).&lt;/p&gt;
-&lt;p&gt;Segundo o &lt;a href="https://www.cnnbrasil.com.br/politica/presidente-do-pl-tentara-acalmar-atritos-entre-michelle-e-flavio/" target="_blank" rel="noopener" data-textassist="true"&gt;presidente do partido&lt;/a&gt;, é importante que o PL apoie a candidatura de &lt;strong&gt;Ciro Gomes&lt;/strong&gt; (PSDB) ao governo do Ceará, apesar de a ex-primeira-dama ter criticado publicamente a aliança.&lt;/p&gt;
+&lt;p&gt;Acirrada, a disputa já garantiu ao Boi Garantido o maior número de vitórias. Nas cores vermelha e branca, o Garantido tem 33 &lt;a href="https://www.cnnbrasil.com.br/pop/festival-de-parintins-como-titulo-e-definido-entre-caprichoso-e-garantido/"&gt;títulos&lt;/a&gt; e foi quem ganhou em 2025. O Boi Caprichoso, representado pelas cores azul e branco, venceu 26 vezes.&lt;/p&gt;
+&lt;h2&gt;Veja abaixo os anos de vitórias do Boi Caprichoso e Garantido&lt;/h2&gt;
+&lt;h3&gt;Títulos do Boi Caprichoso&lt;/h3&gt;
+&lt;p&gt;1969, 1972, 1974, 1976, 1977, 1979, 1985, 1987, 1990, 1992, 1994, 1995, 1996, 1998, 2003, 2007, 2008, 2010, 2012, 2015, 2017, 2018, 2022, 2023 e 2024&lt;/p&gt;
+&lt;h3&gt;Títulos do Boi Garantido&lt;/h3&gt;
+&lt;p&gt;1966, 1967, 1968, 1970, 1971, 1973, 1975, 1978, 1980, 1981, 1982, 1983, 1984, 1986, 1988, 1989, 1991, 1993, 1997, 1999, 2001, 2002, 2004, 2005, 2006, 2009, 2011, 2013, 2014, 2016, 2019 e 2025&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;h2&gt;Tema das agremiações este ano&lt;/h2&gt;
+&lt;p class="my-5 break-words group-[.isActiveSource]:text-xl"&gt;Neste ano, o Boi Garantido vai desfilar sob o tema &amp;#8220;Parintins: Portal do Encantamento&amp;#8221;, com os subtemas &amp;#8220;Portal do Encantamento&amp;#8221;, &amp;#8220;Portal da Diversidade&amp;#8221; e &amp;#8220;Terra Encantada&amp;#8221; para cada noite.&lt;/p&gt;
+&lt;p class="my-5 break-words group-[.isActiveSource]:text-xl"&gt;Já o Boi Caprichoso vai apresentar &amp;#8220;Brinquedo que Canta Seu Chão&amp;#8221; com os subtemas &amp;#8220;O Brinquedo do Povo Canta: Parintins &amp;#8211; O Chão de Origem&amp;#8221;, &amp;#8220;O Brinquedo Ancestral Canta: Amazônia o Chão da Vida&amp;#8221;, &amp;#8220;O Brinquedo da Resistência Canta: Norte Brasil &amp;#8211; Chão de Bravos&amp;#8221; para cada noite de edição.&lt;/p&gt;
+&lt;p&gt;Os desfiles poderão ser acompanhados pela internet, por meio de transmissão ao vivo do canal da TV A Crítica, emissora amazonense que exibirá tanto na TV aberta quanto em sua página oficial no YouTube.&lt;/p&gt;
+&lt;blockquote class="wp-embedded-content" data-secret="sFJJjNdWmf"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/entretenimento/caprichoso-e-garantido-veja-marcas-que-mudaram-de-cor-por-rivalidade-entre-os-bois-copy/"&gt;Conheça Parintins, a “terra da magia” que abriga os bois Caprichoso e Garantido&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Conheça Parintins, a “terra da magia” que abriga os bois Caprichoso e Garantido&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/entretenimento/caprichoso-e-garantido-veja-marcas-que-mudaram-de-cor-por-rivalidade-entre-os-bois-copy/embed/#?secret=iSe2VqnJEZ#?secret=sFJJjNdWmf" data-secret="sFJJjNdWmf" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 26 Jun 2026 08:00:58 +0000</pubDate><guid>https://www.cnnbrasil.com.br/pop/celebridades/festival-de-parintins-qual-boi-venceu-mais-edicoes-da-disputa/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/pop/celebridades/festival-de-parintins-qual-boi-venceu-mais-edicoes-da-disputa/</guid></item><item><title>Irani aposta em eficiência operacional para crescer e prepara nova expansão</title><link>https://www.cnnbrasil.com.br/agro/irani-aposta-em-eficiencia-operacional-para-crescer-e-prepara-nova-expansao/</link><description>&lt;p&gt;A Irani, fabricante de papel para embalagens e papelão ondulado, avança em um novo ciclo de investimentos com foco em eficiência operacional, aumento de capacidade produtiva e expansão geográfica. Após aprovar o projeto Gaia XII, voltado à modernização de uma de suas máquinas de papel, a companhia já prepara um plano para mais do que dobrar de tamanho nos próximos anos.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;Segundo o diretor de Administração, Finanças e Relações com Investidores da empresa, André Camargo de Carvalho, o principal critério para aprovação dos investimentos é a geração de valor para os acionistas. O projeto prevê investimentos de R$ 514 milhões em Capex bruto (despesas de capital) e R$ 453 milhões em Capex líquido.&lt;/p&gt;
+&lt;p&gt;“Mesmo com as taxas de juros em níveis elevados, o projeto apresenta retorno acima do custo de capital da companhia. Essa é uma condição fundamental para qualquer investimento aprovado pela Irani”, afirmou à CNN Brasil.&lt;/p&gt;
 &lt;aside class="read-too read-too--with-img"&gt;
             &lt;h2 class='read-too__title'&gt;Leia Mais&lt;/h2&gt;
             &lt;ul class="read-too__list"&gt;
         &lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/eleicoes/me-maltratou-foi-rispido-veja-as-frases-de-michelle-sobre-flavio/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/agro/tereos-projeta-moagem-de-18-milhoes-de-toneladas-para-a-safra-2026-27/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/Michelle-Bolsonaro.png?w=200"
-                    alt="&amp;quot;Me maltratou&amp;quot;, &amp;quot;foi ríspido&amp;quot;: veja as frases de Michelle sobre Flávio"
-                    title="&amp;quot;Me maltratou&amp;quot;, &amp;quot;foi ríspido&amp;quot;: veja as frases de Michelle sobre Flávio'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportAgribusinessNews/tagreuters.com2024binary_LYNXMPEK8Q0DE-FILEDIMAGE.jpg?w=200"
+                    alt="Tereos projeta moagem de 18 milhões de toneladas&amp;nbsp;para a safra 2026/27"
+                    title="Tereos projeta moagem de 18 milhões de toneladas&amp;nbsp;para a safra 2026/27'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;&amp;quot;Me maltratou&amp;quot;, &amp;quot;foi ríspido&amp;quot;: veja as frases de Michelle sobre Flávio&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;Tereos projeta moagem de 18 milhões de toneladas&amp;nbsp;para a safra 2026/27&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/blogs/gustavo-uribe/eleicoes/presidente-do-pl-confia-em-entrada-de-michelle-na-campanha-de-flavio/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/agro/exclusivo-nitro-investe-r-15-milhoes-em-nova-tecnologia-para-soja/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/12/FUP20231128326.jpg?w=200"
-                    alt="Presidente do PL confia em entrada de Michelle na campanha de Flávio"
-                    title="Presidente do PL confia em entrada de Michelle na campanha de Flávio'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/04/WhatsApp-Image-2026-04-09-at-18.00.11.jpeg?w=200"
+                    alt="EXCLUSIVO: Nitro investe R$ 15 milhões em nova tecnologia para soja"
+                    title="EXCLUSIVO: Nitro investe R$ 15 milhões em nova tecnologia para soja'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;Presidente do PL confia em entrada de Michelle na campanha de Flávio&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;EXCLUSIVO: Nitro investe R$ 15 milhões em nova tecnologia para soja&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/politica/flavio-pede-desculpas-a-michelle-e-faz-convite-a-uniao-de-forcas/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/agro/demanda-em-alta-e-novos-mercados-impulsionam-producao-etanol-no-brasil/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/Renata-16.jpg?w=200"
-                    alt="Flávio pede desculpas a Michelle e faz convite à &amp;quot;união de forças&amp;quot;"
-                    title="Flávio pede desculpas a Michelle e faz convite à &amp;quot;união de forças&amp;quot;'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportBusinessNews/tagreuters.com2022binary_LYNXMPEI8T14R-FILEDIMAGE.jpg?w=200"
+                    alt="Demanda em alta e novos mercados impulsionam etanol no Brasil"
+                    title="Demanda em alta e novos mercados impulsionam etanol no Brasil'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;Flávio pede desculpas a Michelle e faz convite à &amp;quot;união de forças&amp;quot;&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;Demanda em alta e novos mercados impulsionam etanol no Brasil&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;    &lt;/ul&gt;
 &lt;/aside&gt;
 
-&lt;p&gt;&amp;#8220;O Ciro briga até com o irmão, briga com a família toda. (&amp;#8230;) Ele ataca todo mundo, mas é o único que &lt;a href="https://www.cnnbrasil.com.br/blogs/jussara-soares/eleicoes/critica-de-michelle-nao-muda-apoio-do-pl-a-ciro-gomes-no-ceara/" target="_blank" rel="noopener" data-textassist="true"&gt;tem chances de vencer o PT&lt;/a&gt;. Se nós não formos com ele, o governador do Ceará vai ser o PT. Se nós formos com ele, ele ganha a eleição.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;Ele também ressaltou a importância da ex-primeira-dama no partido: &amp;#8220;Michelle tem um preço pra nós que… O que ela fez pelo PL Mulher no Brasil não tem preço&amp;#8221;.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;Os comentários de Valdemar acontecem após Michelle Bolsonaro publicar dois vídeos em suas redes sociais afirmando ter recebido uma &amp;#8220;punhalada&amp;#8221; de seu enteado Flávio Bolsonaro.&lt;/p&gt;
-&lt;p&gt;Nos vídeos. a ex-primeira-dama expôs um&lt;strong class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt; &lt;a href="https://www.cnnbrasil.com.br/politica/entenda-o-atrito-envolvendo-michelle-e-flavio-bolsonaro/" target="_blank" rel="noopener" data-textassist="true"&gt;atrito com o enteado&lt;/a&gt;&lt;/strong&gt; e pré-candidato à Presidência da República &lt;strong class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt;sobre o acordo envolvendo o ex-ministro da Fazenda Ciro Gomes&lt;/strong&gt; (PSDB), pré-candidato ao governo do Ceará.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;&lt;a class="text-red-600 underline hover:text-red-500 font-medium break-words group-[.isActiveSource]:text-xl" href="https://www.cnnbrasil.com.br/politica/michelle-fala-em-punhalada-e-expoe-atrito-com-flavio-bolsonaro/" target="_self" rel=""&gt;Ele foi muito ríspido, me desrespeitou e me maltratou ao telefone e eu não tinha feito nada contra ele&lt;/a&gt;. Ele disse que seria melhor eu&lt;strong class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt; ficar fora das decisões do partido&lt;/strong&gt;. Disse que &lt;strong class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt;eu havia chegado ontem e não entendia nada de política&lt;/strong&gt;. Diante dessa humilhação, eu disse a ele que estava tudo bem. &lt;strong class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt;Entendi que ele não queria o meu apoio ou que este era insignificante e então eu me recolhi&lt;/strong&gt;&amp;#8220;, afirmou a ex-primeira-dama.&lt;/p&gt;
+&lt;p&gt;O projeto Gaia XII prevê a &lt;a href="https://www.cnnbrasil.com.br/agro/bndes-aprova-r-4114-mi-para-a-suzano-ampliar-modernizacao-de-suas-fabricas-e-executar-pdi/" target="_blank" rel="noopener" data-textassist="true"&gt;modernização da máquina de papel&lt;/a&gt; MP#7, elevando sua capacidade de produção de 60 mil toneladas para 96 mil toneladas anuais, um aumento de 60%.&lt;/p&gt;
+&lt;p&gt;Além do ganho de escala, a companhia espera avanços em eficiência operacional, qualidade do produto e sustentabilidade.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;Segundo Carvalho, a iniciativa permitirá a produção de papéis com menor gramatura e melhor desempenho, além de reduzir a emissão de carbono por tonelada produzida. “O projeto não traz apenas aumento de capacidade. Ele melhora a qualidade do papel, reduz consumo de recursos e torna todo o processo produtivo mais eficiente”, destacou.&lt;/p&gt;
+&lt;p&gt;Um dos fatores que sustentaram a aprovação do investimento foi justamente o perfil do projeto. Diferentemente de expansões dependentes de novas vendas ou de condições favoráveis de mercado, a modernização está concentrada em ganhos internos de produtividade.&lt;/p&gt;
+&lt;p&gt;Todo o volume adicional produzido será destinado ao abastecimento das próprias operações de conversão da companhia, onde o papel é transformado em embalagens de papelão ondulado.&lt;/p&gt;
+&lt;p&gt;“A captura de valor está muito mais dentro de casa do que dependente de fatores externos. Isso torna o investimento mais seguro em um ambiente de incertezas macroeconômicas”, explicou o executivo.&lt;/p&gt;
 &lt;p&gt;
 &lt;div class="post__video"&gt;
 	&lt;div class="cnn component-video has--live"&gt;
 		&lt;div class="component-inner"&gt;
 			&lt;div
-				id="player_politica_PJ9S2LMiS2c"
+				id="player_agro_NKnPVFrDBu0"
 				class="video-wrapper "
 			&gt;
 				&lt;div class="video-wrapper-inner"&gt;
 										&lt;div class="overlay-wrapper"&gt;
 						&lt;button
 							class="video-button js-video-play active"
-							aria-label="Assista o vídeo Michelle x Flávio: o que está por trás do conflito após vídeo publicado; veja análises"
+							aria-label="Assista o vídeo Governo acelera negociações para concluir Plano Safra 2026/27 | CNN AGRO NEWS"
 							tabindex="0"
 						&gt;
 							&lt;img
 								class="thumbnail-image"
-								src="https://img.youtube.com/vi/PJ9S2LMiS2c/sddefault.jpg"
-                                srcset="https://img.youtube.com/vi/PJ9S2LMiS2c/default.jpg 120w,
-                    https://img.youtube.com/vi/PJ9S2LMiS2c/mqdefault.jpg 320w,
-                    https://img.youtube.com/vi/PJ9S2LMiS2c/hqdefault.jpg 480w,
-                    https://img.youtube.com/vi/PJ9S2LMiS2c/sddefault.jpg 640w,
-                    https://img.youtube.com/vi/PJ9S2LMiS2c/maxresdefault.jpg 1280w"
-								alt="Michelle x Flávio: o que está por trás do conflito após vídeo publicado; veja análises"
+								src="https://img.youtube.com/vi/NKnPVFrDBu0/sddefault.jpg"
+                                srcset="https://img.youtube.com/vi/NKnPVFrDBu0/default.jpg 120w,
+                    https://img.youtube.com/vi/NKnPVFrDBu0/mqdefault.jpg 320w,
+                    https://img.youtube.com/vi/NKnPVFrDBu0/hqdefault.jpg 480w,
+                    https://img.youtube.com/vi/NKnPVFrDBu0/sddefault.jpg 640w,
+                    https://img.youtube.com/vi/NKnPVFrDBu0/maxresdefault.jpg 1280w"
+								alt="Governo acelera negociações para concluir Plano Safra 2026/27 | CNN AGRO NEWS"
 							/&gt;
 
 							&lt;span
 								class="video-play-button"
-								aria-label="Botão play do vídeo Michelle x Flávio: o que está por trás do conflito após vídeo publicado; veja análises"
+								aria-label="Botão play do vídeo Governo acelera negociações para concluir Plano Safra 2026/27 | CNN AGRO NEWS"
 							&gt;&lt;/span&gt;
 
 															&lt;span class="video-gradient"&gt;&lt;/span&gt;
-								&lt;span class="video-title"&gt;Michelle x Flávio: o que está por trás do conflito após vídeo publicado; veja análises&lt;/span&gt;
+								&lt;span class="video-title"&gt;Governo acelera negociações para concluir Plano Safra 2026/27 | CNN AGRO NEWS&lt;/span&gt;
 													&lt;/button&gt;
 					&lt;/div&gt;
 										&lt;span
@@ -557,10 +982,10 @@
 						data-youtube-vpmute="0"
 						data-youtube-width="640px"
 						data-youtube-height="480px"
-						data-youtube-ui="politica"
+						data-youtube-ui="agro"
 						data-youtube-play="0"
 						data-youtube-mute="0"
-						data-youtube-id="PJ9S2LMiS2c"
+						data-youtube-id="NKnPVFrDBu0"
 						data-youtube-vpa="click"
 						data-youtube-hl="pt"
 						data-youtube-position=""
@@ -571,185 +996,210 @@
 	&lt;/div&gt;
 &lt;/div&gt;
 &lt;/iframe&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 26 Jun 2026 02:03:35 +0000</pubDate><guid>https://www.cnnbrasil.com.br/politica/se-nao-nos-entendermos-vamos-perder-a-eleicao-diz-presidente-do-pl/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/politica/se-nao-nos-entendermos-vamos-perder-a-eleicao-diz-presidente-do-pl/</guid></item><item><title>Jordânia x Argentina: horário e onde assistir ao jogo da Copa do Mundo</title><link>https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/jordania-x-argentina-horario-e-onde-assistir-ao-jogo-da-copa-do-mundo/</link><description>&lt;p&gt;&lt;strong&gt;Jordânia&lt;/strong&gt; e&lt;strong&gt; Argentina &lt;/strong&gt;entram em campo neste sábado (27), às 23h (de Brasília), em partida válida pela terceira rodada do Grupo J da &lt;strong&gt;Copa do Mundo de 2026. &lt;/strong&gt;&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;O duelo acontece no estádio de Dallas, em Texas.&lt;/p&gt;
-&lt;p&gt;&lt;strong class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt; &lt;/strong&gt;&lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/messi-faz-historia-argentina-vence-austria-e-vai-ao-mata-mata-da-copa/"&gt;A Argentina está classificada em primeiro lugar&lt;/a&gt; e a &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/argelia-vira-no-fim-elimina-a-jordania-e-segue-viva-na-copa-do-mundo/"&gt;Jordânia eliminada&lt;/a&gt;, a última rodada será &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/veja-como-esta-atualmente-a-segunda-fase-da-copa-antes-da-ultima-rodada/"&gt;para definir a segunda e terceira posição.&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Mercado doméstico sustenta estratégia&lt;/h2&gt;
+&lt;p&gt;A Irani tem atualmente menos de 20% de sua receita ligada ao mercado externo. A maior parte dos negócios está concentrada no Brasil, especialmente em segmentos ligados ao consumo de alimentos.&lt;/p&gt;
+&lt;p&gt;Para a companhia, o setor alimentício continuará sendo uma das principais avenidas de crescimento nos próximos anos. “O mercado de alimentos é extremamente resiliente. As pessoas podem mudar hábitos de consumo, mas continuam consumindo alimentos. Isso dá estabilidade à demanda por embalagens”, afirmou Carvalho.&lt;/p&gt;
+&lt;p&gt;A avaliação da empresa é que o Brasil seguirá ampliando sua relevância como produtor e exportador global de alimentos, o que deve sustentar a expansão da demanda por embalagens industriais.&lt;/p&gt;
+&lt;p&gt;Historicamente, o mercado brasileiro de papelão ondulado cresce cerca de 2,5% ao ano em volume, ritmo que a companhia utiliza como referência em suas projeções de longo prazo. Com participação de aproximadamente 4% nesse mercado, a Irani acredita haver espaço significativo para expansão.&lt;/p&gt;
+&lt;h2&gt;Plano prevê crescimento&lt;/h2&gt;
+&lt;p&gt;Além do Gaia XII, a companhia apresentou durante seu Investor Day uma visão estratégica de longo prazo que prevê a construção de &lt;a href="https://www.cnnbrasil.com.br/agro/castrolanda-investe-r-150-milhoes-em-duas-novas-fabricas/" target="_blank" rel="noopener" data-textassist="true"&gt;duas novas fábricas de embalagens&lt;/a&gt; e uma nova unidade de produção de papel.&lt;/p&gt;
+&lt;p&gt;O plano, chamado internamente de Plataforma Neos, ainda depende de aprovação formal do conselho de administração, mas já tem diretrizes definidas.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cnnbrasil.com.br/agro/nova-fabrica-da-yanmar-recebera-r-280-milhoes-em-indaiatuba/" target="_blank" rel="noopener" data-textassist="true"&gt;A primeira unidade prevista&lt;/a&gt; terá capacidade para produzir 120 mil toneladas anuais de papelão ondulado, volume próximo a 70% de toda a capacidade atual da companhia, estimada em cerca de 170 mil toneladas por ano. A expectativa da administração é submeter o projeto para aprovação ainda em 2026.&lt;/p&gt;
+&lt;p&gt;A região considerada prioritária para receber o investimento está localizada entre o Sul de Minas Gerais e o interior paulista, área vista pela companhia como estratégica devido à elevada concentração de clientes industriais.&lt;/p&gt;
+&lt;p&gt;Segundo Carvalho, a proximidade com os consumidores é um fator decisivo para a competitividade do setor. “O papelão ondulado é um produto leve, mas ocupa muito espaço no transporte. Por isso, estar próximo dos clientes é fundamental para reduzir custos logísticos e aumentar a competitividade.”&lt;/p&gt;
+&lt;p&gt;Caso as duas plantas previstas sejam construídas, a capacidade instalada da companhia poderá mais que dobrar ao longo da próxima década.&lt;/p&gt;
+&lt;p&gt;Embora a empresa ainda não tenha divulgado valores de investimento ou projeções financeiras para a nova fase de expansão, a administração reforça que todos os projetos deverão seguir a mesma disciplina financeira.&lt;/p&gt;
+&lt;blockquote class="wp-embedded-content" data-secret="zPxeyxZ2Kx"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/agro/como-o-produtor-financia-a-safra-no-brasil/"&gt;Como o produtor financia a safra no Brasil?&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Como o produtor financia a safra no Brasil?&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/agro/como-o-produtor-financia-a-safra-no-brasil/embed/#?secret=cXg0F3VbeY#?secret=zPxeyxZ2Kx" data-secret="zPxeyxZ2Kx" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 26 Jun 2026 08:00:38 +0000</pubDate><guid>https://www.cnnbrasil.com.br/agro/irani-aposta-em-eficiencia-operacional-para-crescer-e-prepara-nova-expansao/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/agro/irani-aposta-em-eficiencia-operacional-para-crescer-e-prepara-nova-expansao/</guid></item><item><title>Copa tem sexta (26) decisiva com Espanha, França e Uruguai; veja agenda</title><link>https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/copa-tem-sexta-26-decisiva-com-espanha-franca-e-uruguai-veja-agenda/</link><description>&lt;p&gt;A Copa do Mundo de 2026 chega à &lt;strong&gt;última rodada dos Grupos H e I&lt;/strong&gt; &lt;strong&gt;nesta sexta-feira (26)&lt;/strong&gt;, com quatro partidas que definem posições importantes para o mata-mata. Enquanto França e Noruega disputam a liderança da chave, Uruguai e Espanha fazem um confronto decisivo por vaga na próxima fase.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;No Grupo I,&lt;strong&gt; Noruega e França entram em campo já classificadas e brigam pelo primeiro lugar.&lt;/strong&gt; Ambas as equipes somam seis pontos. A França lidera o grupo com vantagem no saldo de gols depois de vencer o Senegal por 3 a 1 e o Iraque por 3 a 0. Mbappé e Haaland estarão frente a frente na disputa pela liderança.&lt;/p&gt;
+&lt;p&gt;No outro jogo da chave,&lt;strong&gt; &lt;a href="https://www.cnnbrasil.com.br/esportes/apostas/noticias/senegal-x-iraque-no-mundial-2026-horario-onde-assistir-e-analise-do-jogo/" target="_blank" rel="noopener" data-textassist="true"&gt;Senegal e Iraque&lt;/a&gt; tentam conquistar a primeira vitória no torneio&lt;/strong&gt; e ainda sonham com uma classificação entre os melhores terceiros colocados.&lt;/p&gt;
 &lt;aside class="read-too read-too--with-img"&gt;
             &lt;h2 class='read-too__title'&gt;Leia Mais&lt;/h2&gt;
             &lt;ul class="read-too__list"&gt;
         &lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/tecnico-da-holanda-descarta-receio-de-pegar-o-brasil-na-copa-da-na-mesma/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/noruega-encara-senegal-de-olho-em-vaga-antecipada-no-mata-mata-da-copa/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/02/koeman-e1740345548517.png?w=200"
-                    alt="Técnico da Holanda descarta receio de pegar o Brasil na Copa: &amp;quot;Dá na mesma&amp;quot;"
-                    title="Técnico da Holanda descarta receio de pegar o Brasil na Copa: &amp;quot;Dá na mesma&amp;quot;'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/selecao-noruega-e1782072153933.jpg?w=200"
+                    alt="Noruega encara Senegal de olho em vaga antecipada no mata-mata da Copa"
+                    title="Noruega encara Senegal de olho em vaga antecipada no mata-mata da Copa'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;Técnico da Holanda descarta receio de pegar o Brasil na Copa: &amp;quot;Dá na mesma&amp;quot;&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;Noruega encara Senegal de olho em vaga antecipada no mata-mata da Copa&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/artilheiro-da-alemanha-na-copa-corta-doce-da-dieta-para-calar-criticos/" target="_self"&gt;
+    &lt;a class="read-too__link" href="" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/Undav-Alemanha-e1781994938132.jpg?w=200"
-                    alt="Artilheiro da Alemanha na Copa corta doce da dieta para calar críticos"
-                    title="Artilheiro da Alemanha na Copa corta doce da dieta para calar críticos'"
+                    src="https://apostas.cnnbrasil.com.br/wp-content/uploads/sites/21/2026/06/image-2026-06-24T171244.716.png?w=200"
+                    alt="Noruega x França no Mundial 2026: horário, onde assistir e análise do jogo"
+                    title="Noruega x França no Mundial 2026: horário, onde assistir e análise do jogo'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;Artilheiro da Alemanha na Copa corta doce da dieta para calar críticos&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;Noruega x França no Mundial 2026: horário, onde assistir e análise do jogo&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/neymar-exalta-messi-e-destaca-amizade-ainda-melhor-fora-de-campo/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/copa-do-mundo-veja-a-agenda-de-jogos-desta-segunda-feira-15/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/neymar-messi-copa-america-2021-e1779290540418.jpg?w=200"
-                    alt="Neymar exalta Messi e destaca amizade: &amp;quot;Ainda melhor fora de campo&amp;quot;"
-                    title="Neymar exalta Messi e destaca amizade: &amp;quot;Ainda melhor fora de campo&amp;quot;'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/yamal_espanha-e1781497464889.jpg?w=200"
+                    alt="Copa do Mundo: veja a agenda de jogos desta segunda-feira (15)"
+                    title="Copa do Mundo: veja a agenda de jogos desta segunda-feira (15)'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;Neymar exalta Messi e destaca amizade: &amp;quot;Ainda melhor fora de campo&amp;quot;&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;Copa do Mundo: veja a agenda de jogos desta segunda-feira (15)&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;    &lt;/ul&gt;
 &lt;/aside&gt;
 
-&lt;p&gt;O confronto terá transmissão exclusiva da CazéTV,&lt;a href="https://www.cnnbrasil.com.br/esportes/lances-ao-vivo/world-cup-2026/27-06-2026/jordania-x-argentina/"&gt;&lt;strong&gt; além do tempo real do CNN Esportes. &lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 class="text-2xl my-5 font-bold break-words"&gt;Onde assistir a Jordânia x Argentina&lt;/h2&gt;
-&lt;ul class="list-none [li&amp;gt;&amp;amp;]:pl-5"&gt;
-&lt;li class="[ul&amp;gt;&amp;amp;]:indent-5 mb-3 break-words [ul&amp;gt;&amp;amp;]:relative [ul&amp;gt;&amp;amp;]:before:absolute [ul&amp;gt;&amp;amp;]:before:left-1 [ul&amp;gt;&amp;amp;]:before:top-2 [ul&amp;gt;&amp;amp;]:before:w-2 [ul&amp;gt;&amp;amp;]:before:h-2 [ul&amp;gt;&amp;amp;]:before:bg-red-600 [ul&amp;gt;&amp;amp;]:before:rounded-full marker:inline group-[.isActiveSource]:text-xl"&gt;&lt;strong class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt;Streaming:&lt;/strong&gt; CazéTV (YouTube)&lt;/li&gt;
-&lt;li class="[ul&amp;gt;&amp;amp;]:indent-5 mb-3 break-words [ul&amp;gt;&amp;amp;]:relative [ul&amp;gt;&amp;amp;]:before:absolute [ul&amp;gt;&amp;amp;]:before:left-1 [ul&amp;gt;&amp;amp;]:before:top-2 [ul&amp;gt;&amp;amp;]:before:w-2 [ul&amp;gt;&amp;amp;]:before:h-2 [ul&amp;gt;&amp;amp;]:before:bg-red-600 [ul&amp;gt;&amp;amp;]:before:rounded-full marker:inline group-[.isActiveSource]:text-xl"&gt;&lt;strong class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt;Tempo real:&lt;/strong&gt; &lt;a href="https://www.cnnbrasil.com.br/esportes/lances-ao-vivo/world-cup-2026/27-06-2026/jordania-x-argentina/"&gt;&lt;strong class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt;CNN Esportes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;p&gt;Pelo Grupo H,&lt;strong&gt; Cabo Verde e Arábia Saudita fazem um confronto direto em busca da classificação.&lt;/strong&gt; Fechando a programação do dia,&lt;strong&gt; &lt;a href="https://www.cnnbrasil.com.br/esportes/apostas/palpites/uruguai-x-espanha-horario-onde-assistir-e-analise-pelo-mundial-2026/" target="_blank" rel="noopener" data-textassist="true"&gt;Uruguai e Espanha medem forças&lt;/a&gt; em Guadalajara.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Os espanhóis dependem apenas de um bom resultado para confirmar a liderança, enquanto os uruguaios precisam pontuar para evitar uma eliminação precoce. O &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/copa-uruguai-desperta-no-2o-tempo-e-busca-o-empate-contra-a-arabia-saudita/" target="_blank" rel="noopener" data-textassist="true"&gt;Uruguai chega com dois empates&lt;/a&gt; em dois jogos, ainda sem vencer no torneio. A Espanha começou com empate sem gols diante de Cabo Verde, mas reagiu na segunda rodada com vitória por 4 a 0 sobre a Arábia Saudita&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;h3&gt;Agenda da Copa do Mundo na sexta-feira (26)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Noruega x França — 16h — Grupo I — Foxborough&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Senegal x Iraque — 16h — Grupo I — Toronto&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cabo Verde x Arábia Saudita — 21h — Grupo H — Houston&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Uruguai x Espanha — 21h — Grupo H — Guadalajara&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 class="text-2xl my-5 font-bold break-words"&gt;Ficha técnica de Jordânia x Argentina&lt;/h2&gt;
-&lt;ul class="list-none [li&amp;gt;&amp;amp;]:pl-5"&gt;
-&lt;li class="[ul&amp;gt;&amp;amp;]:indent-5 mb-3 break-words [ul&amp;gt;&amp;amp;]:relative [ul&amp;gt;&amp;amp;]:before:absolute [ul&amp;gt;&amp;amp;]:before:left-1 [ul&amp;gt;&amp;amp;]:before:top-2 [ul&amp;gt;&amp;amp;]:before:w-2 [ul&amp;gt;&amp;amp;]:before:h-2 [ul&amp;gt;&amp;amp;]:before:bg-red-600 [ul&amp;gt;&amp;amp;]:before:rounded-full marker:inline group-[.isActiveSource]:text-xl"&gt;&lt;strong class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt;Data:&lt;/strong&gt; 27/06/2026&lt;/li&gt;
-&lt;li class="[ul&amp;gt;&amp;amp;]:indent-5 mb-3 break-words [ul&amp;gt;&amp;amp;]:relative [ul&amp;gt;&amp;amp;]:before:absolute [ul&amp;gt;&amp;amp;]:before:left-1 [ul&amp;gt;&amp;amp;]:before:top-2 [ul&amp;gt;&amp;amp;]:before:w-2 [ul&amp;gt;&amp;amp;]:before:h-2 [ul&amp;gt;&amp;amp;]:before:bg-red-600 [ul&amp;gt;&amp;amp;]:before:rounded-full marker:inline group-[.isActiveSource]:text-xl"&gt;&lt;strong class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt;Horário:&lt;/strong&gt; 23h&lt;/li&gt;
-&lt;li class="[ul&amp;gt;&amp;amp;]:indent-5 mb-3 break-words [ul&amp;gt;&amp;amp;]:relative [ul&amp;gt;&amp;amp;]:before:absolute [ul&amp;gt;&amp;amp;]:before:left-1 [ul&amp;gt;&amp;amp;]:before:top-2 [ul&amp;gt;&amp;amp;]:before:w-2 [ul&amp;gt;&amp;amp;]:before:h-2 [ul&amp;gt;&amp;amp;]:before:bg-red-600 [ul&amp;gt;&amp;amp;]:before:rounded-full marker:inline group-[.isActiveSource]:text-xl"&gt;&lt;strong class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt;Local:&lt;/strong&gt; Estádio de Dallas, em Texas&lt;/li&gt;
-&lt;li class="[ul&amp;gt;&amp;amp;]:indent-5 mb-3 break-words [ul&amp;gt;&amp;amp;]:relative [ul&amp;gt;&amp;amp;]:before:absolute [ul&amp;gt;&amp;amp;]:before:left-1 [ul&amp;gt;&amp;amp;]:before:top-2 [ul&amp;gt;&amp;amp;]:before:w-2 [ul&amp;gt;&amp;amp;]:before:h-2 [ul&amp;gt;&amp;amp;]:before:bg-red-600 [ul&amp;gt;&amp;amp;]:before:rounded-full marker:inline group-[.isActiveSource]:text-xl"&gt;&lt;strong class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt;Fase:&lt;/strong&gt; 3ª rodada do Grupo J da Copa do Mundo&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote class="wp-embedded-content" data-secret="YlCpRK4Gv2"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/esportes/copa-do-mundo-salario-dos-arbitros-pode-ultrapassar-r-500-mil/"&gt;Copa do Mundo: salário dos árbitros pode ultrapassar R$ 500 mil&lt;/a&gt;&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Copa do Mundo: salário dos árbitros pode ultrapassar R$ 500 mil&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/esportes/copa-do-mundo-salario-dos-arbitros-pode-ultrapassar-r-500-mil/embed/#?secret=yKCeaHkFli#?secret=YlCpRK4Gv2" data-secret="YlCpRK4Gv2" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;div class="disclaimer__ai"&gt;
-    &lt;em&gt;Os textos gerados por Inteligência Artificial na CNN Brasil são feitos com base em informações apuradas e checadas por jornalistas. &lt;a class="c-link" href="https://www.cnnbrasil.com.br/nacional/saiba-como-a-cnn-brasil-utiliza-as-ferramentas-de-inteligencia-artificial/" target="_blank" rel="noopener noreferrer" data-stringify-link="https://www.cnnbrasil.com.br/nacional/saiba-como-a-cnn-brasil-utiliza-as-ferramentas-de-inteligencia-artificial/" data-sk="tooltip_parent"&gt;Clique aqui para saber mais&lt;/a&gt;&lt;/em&gt;
-&lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 26 Jun 2026 02:00:30 +0000</pubDate><guid>https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/jordania-x-argentina-horario-e-onde-assistir-ao-jogo-da-copa-do-mundo/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/jordania-x-argentina-horario-e-onde-assistir-ao-jogo-da-copa-do-mundo/</guid></item><item><title>Após apoio de Michelle, Girão agradece e fala em servir “sem negociatas”</title><link>https://www.cnnbrasil.com.br/politica/apos-apoio-de-michelle-girao-agradece-e-fala-em-servir-sem-negociatas/</link><description>&lt;p&gt;O senador e pré-candidato ao governo do Ceará, &lt;a href="https://www.cnnbrasil.com.br/tudo-sobre/eduardo-girao/"&gt;&lt;strong&gt;Eduardo Girão&lt;/strong&gt;&lt;/a&gt; (Novo), agradeceu nesta quinta-feira (25) o apoio público recebido da ex-primeira-dama &lt;a href="https://www.cnnbrasil.com.br/tudo-sobre/michelle-bolsonaro/"&gt;&lt;strong&gt;Michelle Bolsonaro&lt;/strong&gt;&lt;/a&gt; em meio à disputa travada dentro do campo bolsonarista sobre a sucessão estadual.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;Em nota, Girão afirmou ser &amp;#8220;muito grato pelo apoio e confiança da Michelle&amp;#8221; e disse também agradecer &amp;#8220;a tantos brasileiros que acompanham nosso trabalho&amp;#8221;.&lt;/p&gt;
-&lt;p&gt;Sem citar diretamente o &lt;strong&gt;PL&lt;/strong&gt; (&lt;strong&gt;Partido Liberal&lt;/strong&gt;) ou adversários, o senador aproveitou a manifestação para reforçar o discurso de que o Ceará precisa de &amp;#8220;um governo que não troca princípios por cargos&amp;#8221;.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 26 Jun 2026 08:00:33 +0000</pubDate><guid>https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/copa-tem-sexta-26-decisiva-com-espanha-franca-e-uruguai-veja-agenda/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/copa-tem-sexta-26-decisiva-com-espanha-franca-e-uruguai-veja-agenda/</guid></item><item><title>Geração Z quer empregos que ajudem outras pessoas</title><link>https://www.cnnbrasil.com.br/lifestyle/geracao-z-quer-empregos-que-ajudem-outras-pessoas/</link><description>&lt;p&gt;Quando têm a oportunidade de ajudar outras pessoas e causar um impacto positivo, a Geração Z diz &amp;#8220;sim&amp;#8221;.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;Os membros da geração mais jovem querem, em sua grande maioria, auxiliar outras pessoas por meio do trabalho, e esses empregos voltados ao cuidado podem contribuir para o bem-estar mental geral deles, segundo uma nova pesquisa.&lt;/p&gt;
+&lt;p&gt;Quase 80% dos integrantes da Geração Z nos Estados Unidos afirmaram ter interesse em empregos que visam ajudar outras pessoas, de acordo com uma pesquisa divulgada na quarta-feira pela Gallup, em parceria com a Walton Family Foundation e o Making Caring Common Project da Universidade Harvard.&lt;/p&gt;
 &lt;aside class="read-too read-too--with-img"&gt;
-            &lt;h2 class='read-too__title'&gt;Leia mais:&lt;/h2&gt;
+            &lt;h2 class='read-too__title'&gt;Leia Mais&lt;/h2&gt;
             &lt;ul class="read-too__list"&gt;
         &lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/politica/crise-familiar-expoe-disputa-antecipada-pelo-espolio-politico-de-bolsonaro/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/saude/milhoes-de-idosos-vivem-sem-apoio-adequado-no-brasil-diz-estudo/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/Flavio-e-Michelle-2.png?w=200"
-                    alt="Crise familiar expõe disputa antecipada pelo espólio político de Bolsonaro"
-                    title="Crise familiar expõe disputa antecipada pelo espólio político de Bolsonaro'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/14662.jpg?w=200"
+                    alt="Milhões de idosos vivem sem apoio adequado no Brasil, diz estudo"
+                    title="Milhões de idosos vivem sem apoio adequado no Brasil, diz estudo'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;Crise familiar expõe disputa antecipada pelo espólio político de Bolsonaro&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;Milhões de idosos vivem sem apoio adequado no Brasil, diz estudo&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/politica/waack-erros-em-serie-tornam-tempo-curto-para-flavio/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/educacao/quer-trabalhar-com-dados-5-carreiras-que-devem-ganhar-forca-em-2026/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/Flavio-e-Michelle-Bolsonaro.png?w=200"
-                    alt="Waack: Erros em série tornam tempo curto para Flávio"
-                    title="Waack: Erros em série tornam tempo curto para Flávio'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/03/inteligencia-artificial-profissoes.jpg?w=200"
+                    alt="Quer trabalhar com dados? 5 carreiras que devem ganhar força em 2026"
+                    title="Quer trabalhar com dados? 5 carreiras que devem ganhar força em 2026'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;Waack: Erros em série tornam tempo curto para Flávio&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;Quer trabalhar com dados? 5 carreiras que devem ganhar força em 2026&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/politica/flavio-bolsonaro-deve-questionar-o-pai-sobre-michelle-apos-video/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/lifestyle/uso-de-celular-por-pais-afeta-vinculos-com-filhos-adolescentes/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/12/CNN_5207d4.png?w=200"
-                    alt="Flávio Bolsonaro deve questionar o pai sobre Michelle após vídeo"
-                    title="Flávio Bolsonaro deve questionar o pai sobre Michelle após vídeo'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/pais-viciados-tela-adolescentes.jpg?w=200"
+                    alt="Uso de celular por pais afeta vínculos com filhos adolescentes"
+                    title="Uso de celular por pais afeta vínculos com filhos adolescentes'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;Flávio Bolsonaro deve questionar o pai sobre Michelle após vídeo&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;Uso de celular por pais afeta vínculos com filhos adolescentes&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;    &lt;/ul&gt;
 &lt;/aside&gt;
 
-&lt;p&gt;&amp;#8220;Tenho fé que os cearenses mereçam um governo que não troca princípios por cargos, mas que coloca a verdade e a justiça acima de tudo&amp;#8221;, escreveu.&lt;/p&gt;
-&lt;p&gt;Girão também afirmou que serve ao estado &amp;#8220;com honestidade, sem negociatas&amp;#8221; e disse que aqueles que têm compromisso com &amp;#8220;vida, família, ética e liberdade&amp;#8221; caminham ao seu lado.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;A manifestação ocorre depois de &lt;a href="https://www.cnnbrasil.com.br/politica/michelle-nega-briga-apos-video-com-criticas-a-flavio-nao-tenho-raiva/"&gt;Michelle Bolsonaro sair publicamente em defesa da candidatura de Girão ao Palácio da Abolição&lt;/a&gt;, em contraposição às articulações do PL no Ceará, que acena a &lt;strong&gt;Ciro Gomes&lt;/strong&gt; (PSDB).&lt;/p&gt;
-&lt;p&gt;O episódio aprofundou as divergências entre Michelle e o senador &lt;strong&gt;Flávio Bolsonaro &lt;/strong&gt;(&lt;strong&gt;PL&lt;/strong&gt;), que vinha conduzindo as negociações políticas da legenda no estado ao lado do deputado federal André Fernandes (PL-CE) e defende uma composição diferente da desejada pela ex-primeira-dama.&lt;/p&gt;
-&lt;p&gt;Michelle também quer emplacar &lt;strong&gt;Priscila Costa&lt;/strong&gt; (PL) a uma vaga ao Senado pelo estado, em contraposição a &lt;strong&gt;Alcides Fernandes&lt;/strong&gt; (PL), pai de André.&lt;/p&gt;
-&lt;p&gt;Na prática, a nota de Girão é um gesto de alinhamento à posição de Michelle e um reforço ao discurso adotado pela ex-primeira-dama de rejeição a acordos políticos que, na avaliação dela, descaracterizariam o projeto do bolsonarismo no Ceará.&lt;/p&gt;
-&lt;p&gt;
-&lt;div class="post__video"&gt;
-	&lt;div class="cnn component-video has--live"&gt;
-		&lt;div class="component-inner"&gt;
-			&lt;div
-				id="player_politica_rZKXt-EmxtA"
-				class="video-wrapper "
-			&gt;
-				&lt;div class="video-wrapper-inner"&gt;
-										&lt;div class="overlay-wrapper"&gt;
-						&lt;button
-							class="video-button js-video-play active"
-							aria-label="Assista o vídeo Flávio Bolsonaro reage à crise com Michelle como apenas um “arranhão” | CNN PRIME TIME"
-							tabindex="0"
-						&gt;
-							&lt;img
-								class="thumbnail-image"
-								src="https://img.youtube.com/vi/rZKXt-EmxtA/sddefault.jpg"
-                                srcset="https://img.youtube.com/vi/rZKXt-EmxtA/default.jpg 120w,
-                    https://img.youtube.com/vi/rZKXt-EmxtA/mqdefault.jpg 320w,
-                    https://img.youtube.com/vi/rZKXt-EmxtA/hqdefault.jpg 480w,
-                    https://img.youtube.com/vi/rZKXt-EmxtA/sddefault.jpg 640w,
-                    https://img.youtube.com/vi/rZKXt-EmxtA/maxresdefault.jpg 1280w"
-								alt="Flávio Bolsonaro reage à crise com Michelle como apenas um “arranhão” | CNN PRIME TIME"
-							/&gt;
+&lt;p&gt;&amp;#8220;Em um momento em que a solidão e os problemas de saúde mental são uma questão para a Geração Z, esses dados mostram que eles querem ajudar as pessoas e estão lutando para encontrar significado e propósito na vida&amp;#8221;, disse Katherine Senseman, consultora de pesquisa da Gallup.&lt;/p&gt;
+&lt;p&gt;O estudo &amp;#8220;Gallup Voices of Gen Z&amp;#8221; (Gallup Vozes da Geração Z, em tradução livre) destaca uma correlação entre dois aspectos da vida. Entre aqueles que concordaram com a ideia de causar um impacto positivo na vida de outras pessoas, 89% concordaram totalmente ou concordaram que sentiam que sua vida tinha significado. &amp;#8220;Ajudar os outros é bom para nossa saúde mental, e muitos integrantes da Geração Z carecem de significado e propósito, o que realmente não é bom para a saúde mental&amp;#8221;, disse Richard Weissbourd, diretor de corpo docente do Making Caring Common Project e professor sênior da Harvard Graduate School of Education. &amp;#8220;Eles estão encontrando significado e propósito em ajudar outras pessoas.&amp;#8221;&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;Esses dados ajudaram os pesquisadores a compreender melhor como o propósito se manifesta na vida das pessoas e como ele pode estar ligado à intenção de fazer coisas pelos outros, disse Anthony Burrow, professor associado de psicologia na Cornell University em Ithaca, Nova York, que não participou da pesquisa.&lt;/p&gt;
+&lt;p&gt;No entanto, os integrantes da Geração Z também citaram razões para não encontrar tal significado.&lt;/p&gt;
+&lt;h2&gt;Barreiras para uma vida com significado&lt;/h2&gt;
+&lt;p&gt;Como nativos digitais, os integrantes da Geração Z estão cientes de sua ligação com as telas, com mais da metade citando o uso improdutivo da tecnologia como uma barreira significativa para o desenvolvimento de uma vida com significado. Quase metade reconheceu problemas de saúde mental, e 34% sentiram que a falta de relacionamentos pessoais era um fator que contribuía para a sensação de falta de propósito.&lt;/p&gt;
+&lt;p&gt;Embora os empregos voltados ao cuidado possam levar à superação de algumas dessas barreiras, os próprios empregos apresentam algumas preocupações.&lt;/p&gt;
+&lt;p&gt;Quase metade dos jovens da Geração Z citou preocupações com finanças e bem-estar pessoal como fatores que os desestimulam a buscar empregos voltados para ajudar outras pessoas. Os jovens achavam que esse tipo de trabalho não pagava o suficiente e sentiam que as funções costumavam ser mais desgastantes emocionalmente do que outras.&lt;/p&gt;
+&lt;p&gt;Metade dos entrevistados citou um emprego que rendesse dinheiro suficiente, &lt;a href="https://www.cnnbrasil.com.br/saude/a-geracao-z-deseja-trabalho-sem-ser-muito-estressante-e-que-pague-bem/" target="_blank" rel="noopener" data-textassist="true"&gt;sem ser muito estressante&lt;/a&gt;, como o que mais desejavam em sua carreira — portanto, trabalhos de cuidado com baixa remuneração e alto estresse conflitavam com suas prioridades.&lt;/p&gt;
+&lt;p&gt;Além disso, a pressão de simplesmente encontrar um sentido para a vida pode ser avassaladora. Mais da metade dos adultos da Geração Z concordou que a pressão que sentiam para conquistar algo na vida os estressava, com concordância especialmente alta entre adultos mais jovens, de 19 a 21 anos.&lt;/p&gt;
+&lt;p&gt;A pressão por conquistas e a pressão para encontrar um propósito na vida andam juntas, observou Weissbourd.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;É em parte a quantidade de pressão por conquistas, mas também o motivo pelo qual você está conquistando algo&amp;#8221;, disse Weissbourd. &amp;#8220;Se você tem um propósito para isso, é provável que tenha uma saúde mental melhor.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;A Gallup e seus parceiros conduziram a pesquisa em dezembro de 2025 e entrevistaram 2.436 jovens, entre 13 e 28 anos, residentes nos Estados Unidos.&lt;/p&gt;
+&lt;h2&gt;Como motivar o impulso da Geração Z para ajudar os outros&lt;/h2&gt;
+&lt;p&gt;Quando perguntados se aceitariam um emprego mais bem remunerado em detrimento de um emprego mais significativo, quase metade dos jovens da Geração Z disse que sim. Mas, se o dinheiro não fosse um problema e já vivessem com um salário confortável, a maioria dos jovens disse que ficaria no emprego original.&lt;/p&gt;
+&lt;p&gt;Mais da metade dos jovens da Geração Z afirmou que realizar um trabalho pessoalmente gratificante estava entre suas três principais prioridades, e 25% também classificaram ajudar e cuidar de outras pessoas como prioridade máxima.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;Esta é uma história de oportunidade&amp;#8221;, disse Burrow. &amp;#8220;Quando apresentada a uma oportunidade de fazer algo com propósito ou significado, em geral, essa geração diz: &amp;#8216;Eu quero fazer isso&amp;#8217;.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;Ele instigou gestores de contratação, educadores e gerações mais velhas a utilizarem essas informações como forma de rever suas visões sobre a geração mais jovem.&lt;/p&gt;
+&lt;p&gt;Isso também poderia se traduzir na contratação de recrutadores que adicionem informações às vagas de emprego sobre algumas das ações comunitárias que uma empresa realiza, ou em administradores escolares que estabeleçam programas que explorem aspectos de carreiras capazes de proporcionar um senso de propósito aos estudantes.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;Essas barreiras se tornam, então, oportunidades para que organizações ou empresas — ou até mesmo escolas — realizem um trabalho preparatório, para mostrar como experiências, tarefas e fluxos de trabalho podem, de fato, apoiar e sustentar algo como o propósito de vida&amp;#8221;, disse Burrow.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 26 Jun 2026 07:45:50 +0000</pubDate><guid>https://www.cnnbrasil.com.br/lifestyle/geracao-z-quer-empregos-que-ajudem-outras-pessoas/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/lifestyle/geracao-z-quer-empregos-que-ajudem-outras-pessoas/</guid></item><item><title>Socorristas correm para encontrar vítimas dos terremotos na Venezuela</title><link>https://www.cnnbrasil.com.br/internacional/socorristas-correm-para-encontrar-vitimas-do-terremoto-na-venezuela/</link><description>&lt;p&gt;Já se passaram mais de 28 horas desde que a Venezuela foi atingida por seu terremoto mais forte em mais de um século. O número de mortos em decorrência dos tremores subiu para 235, segundo o ministro da Saúde do país, Carlos Alvarado, em entrevista à televisão estatal venezuelana na noite de quinta-feira (25).&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p class="my-5 break-words group-[.isActiveSource]:text-xl"&gt;&amp;#8220;Infelizmente, recebemos cerca de &lt;a href="https://www.cnnbrasil.com.br/internacional/numero-mortos-terremoto-venezuela-noite-quinta-feira-25-junho/"&gt;235 pacientes que chegam sem sinais vitais&lt;/a&gt; ou que falecem ao chegar aos nossos centros de saúde&amp;#8221;, afirmou Alvarado.&lt;/p&gt;
+&lt;p&gt;Historicamente, as primeiras 48 a 72 horas após um tremor são amplamente consideradas a “janela de ouro” para alcançar pessoas soterradas com vida. Depois desse período, as chances de sobrevivência sem uma fonte de água diminuem rapidamente.&lt;/p&gt;
+&lt;aside class="read-too read-too--with-img"&gt;
+        &lt;ul class="read-too__list"&gt;
+        &lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/internacional/venezuela-libera-parte-do-x-mas-acesso-a-informacao-segue-limitado/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportTechnologyNews/tagreuters.com2024binary_LYNXMPEK6B0EZ-FILEDIMAGE-e1729521322987.jpg?w=200"
+                    alt="Venezuela libera parte do X, mas acesso à informação segue limitado"
+                    title="Venezuela libera parte do X, mas acesso à informação segue limitado'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Venezuela libera parte do X, mas acesso à informação segue limitado&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/internacional/trump-reitera-ajuda-dos-eua-em-socorro-apos-terremotos-na-venezuela/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/Trump-fala-sobre-venezuela-em-discurso-na-Pensilvania.jpg?w=200"
+                    alt="Trump reitera ajuda dos EUA em socorro após terremotos na Venezuela"
+                    title="Trump reitera ajuda dos EUA em socorro após terremotos na Venezuela'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Trump reitera ajuda dos EUA em socorro após terremotos na Venezuela&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/internacional/delcy-rodriguez-visita-la-guaira-regiao-mais-afetada-pelos-terremotos/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/Predio-completamente-destruido-em-La-Guaira-apos-dois-grandes-terremotos-atingirem-a-Venezuela.png?w=200"
+                    alt="Delcy Rodríguez visita La Guaira, região mais afetada pelos terremotos"
+                    title="Delcy Rodríguez visita La Guaira, região mais afetada pelos terremotos'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Delcy Rodríguez visita La Guaira, região mais afetada pelos terremotos&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;    &lt;/ul&gt;
+&lt;/aside&gt;
 
-							&lt;span
-								class="video-play-button"
-								aria-label="Botão play do vídeo Flávio Bolsonaro reage à crise com Michelle como apenas um “arranhão” | CNN PRIME TIME"
-							&gt;&lt;/span&gt;
-
-															&lt;span class="video-gradient"&gt;&lt;/span&gt;
-								&lt;span class="video-title"&gt;Flávio Bolsonaro reage à crise com Michelle como apenas um “arranhão” | CNN PRIME TIME&lt;/span&gt;
-													&lt;/button&gt;
-					&lt;/div&gt;
-										&lt;span
-						class="embedded-video video-player-wrapper"
-						data-youtube-plcmt="1"
-						data-youtube-vpmute="0"
-						data-youtube-width="640px"
-						data-youtube-height="480px"
-						data-youtube-ui="politica"
-						data-youtube-play="0"
-						data-youtube-mute="0"
-						data-youtube-id="rZKXt-EmxtA"
-						data-youtube-vpa="click"
-						data-youtube-hl="pt"
-						data-youtube-position=""
-					&gt;&lt;/span&gt;
-				&lt;/div&gt;
-			&lt;/div&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-&lt;/iframe&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 26 Jun 2026 01:58:23 +0000</pubDate><guid>https://www.cnnbrasil.com.br/politica/apos-apoio-de-michelle-girao-agradece-e-fala-em-servir-sem-negociatas/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/politica/apos-apoio-de-michelle-girao-agradece-e-fala-em-servir-sem-negociatas/</guid></item></channel></rss>
+&lt;p&gt;Alguns estudos indicam que a &lt;a href="https://www.cnnbrasil.com.br/internacional/venezuelanos-afetados-por-terremotos-enfrentam-segunda-noite-nas-ruas/"&gt;maioria dos resgates com sobreviventes&lt;/a&gt; ocorre dentro dos primeiros cinco ou seis dias. Equipes de resgate seguem a chamada “regra dos quatro”, que parte do princípio de que uma pessoa pode sobreviver quatro minutos sem ar, quatro dias sem água e quatro semanas sem comida.&lt;/p&gt;
+&lt;p&gt;Mas pesquisas sugerem que esses “prazos rígidos e universais” podem ser imprecisos, já que a sobrevivência pode ser prolongada em condições raras.&lt;/p&gt;
+&lt;p&gt;Após o devastador terremoto de magnitude 7,8 que atingiu a Turquia e a Síria em 2023, pessoas continuaram sendo retiradas com vida dos escombros 10 dias depois do tremor, contrariando as expectativas de sobrevivência.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;Especialistas em emergência e desastres afirmam que vários fatores podem aumentar as chances de sobrevivência após a “janela de ouro”, incluindo se os soterrados têm acesso a oxigênio, água e comida.&lt;/p&gt;
+&lt;p&gt;O estado de saúde da pessoa também é determinante, incluindo se há apenas ferimentos leves ou lesões graves em órgãos internos. Pessoas com condições médicas preexistentes — que podem não conseguir acessar sua medicação ou cujos remédios tenham efeitos colaterais como desidratação — têm menor chance de sobrevivência, segundo especialistas.&lt;/p&gt;
+&lt;p&gt;As condições de verão no norte da Venezuela são quentes e secas, o que pode aumentar o risco de desidratação e exaustão por calor entre os soterrados.&lt;/p&gt;
+&lt;p&gt;Os terremotos atingiram a costa norte da Venezuela na noite de quarta-feira (24) com um intervalo de menos de um minuto e &lt;a class="text-red-600 underline hover:text-red-500 font-medium break-words group-[.isActiveSource]:text-xl" href="https://www.cnnbrasil.com.br/internacional/imagens-aereas-mostram-destruicao-na-venezuela-apos-terremotos/" target="_self" rel=""&gt;provocaram colapsos e danos em edificações na capital do país, Caracas, e outras cidades&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;O segundo tremor, de &lt;a href="https://www.cnnbrasil.com.br/internacional/terremoto-foi-o-maior-da-venezuela-em-mais-de-um-seculo-mostram-registros/" target="_blank" rel="noopener" data-textassist="true"&gt;magnitude 7,5&lt;/a&gt;, foi o mais forte a atingir o país desde 1900, de acordo com o USGS (Serviço Geológico dos Estados Unidos, na sigla em português).&lt;/p&gt;
+&lt;p&gt;O Ministério das Relações Exteriores divulgou uma nota na quinta-feira em que &lt;a href="https://www.cnnbrasil.com.br/politica/itamaraty-informa-morte-de-2-brasileiros-em-razao-de-terremoto-na-venezuela/"&gt;lamenta a morte de dois brasileiros na Venezuela&lt;/a&gt;, vítimas dos terremoto que atingiram o país.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;O MRE informa, com grande pesar, o falecimento de uma cidadã e um cidadão brasileiros em consequência dos terremotos que atingiram a Venezuela. O MRE informa estar prestando assistência consular às famílias das vítimas. Em atendimento ao direito à privacidade, o MRE não divulgará informações pessoais dos falecidos&amp;#8221;, diz o comunicado.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 26 Jun 2026 07:43:46 +0000</pubDate><guid>https://www.cnnbrasil.com.br/internacional/socorristas-correm-para-encontrar-vitimas-do-terremoto-na-venezuela/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/internacional/socorristas-correm-para-encontrar-vitimas-do-terremoto-na-venezuela/</guid></item></channel></rss>
