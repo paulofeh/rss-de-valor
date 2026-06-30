@@ -1,5 +1,244 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel xmlns:atom="http://www.w3.org/2005/Atom"><title>Repórter Brasil Socioambiental</title><link>https://reporterbrasil.org.br/jornalismo/socioambiental/</link><description>Últimos artigos de Repórter Brasil Socioambiental</description><atom:link href="https://paulofeh.github.io/rss-de-valor/feeds/rep%C3%B3rter_brasil_socioambiental_feed.xml" rel="self"/><language>pt-br</language><lastBuildDate>Tue, 30 Jun 2026 09:00:00 +0000</lastBuildDate><ttl>60</ttl><item><title>Como frigoríficos brasileiros influenciam ciência e políticas alimentares nos EUA</title><link>https://reporterbrasil.org.br/2026/06/como-frigorificos-brasileiros-influenciam-ciencia-politicas-alimentares-eua/</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel xmlns:atom="http://www.w3.org/2005/Atom"><title>Repórter Brasil Socioambiental</title><link>https://reporterbrasil.org.br/jornalismo/socioambiental/</link><description>Últimos artigos de Repórter Brasil Socioambiental</description><atom:link href="https://paulofeh.github.io/rss-de-valor/feeds/rep%C3%B3rter_brasil_socioambiental_feed.xml" rel="self"/><language>pt-br</language><lastBuildDate>Tue, 30 Jun 2026 19:50:16 +0000</lastBuildDate><ttl>60</ttl><item><title>Fornecedor da Nestlé suspende compra de cacau no PA após aviso de desmate ilegal</title><link>https://reporterbrasil.org.br/2026/06/fornecedor-nestle-suspensao-cacau-desmate/</link><description>
+&lt;p&gt;&lt;strong&gt;A BARRY CALLEBAUT&lt;/strong&gt;, fornecedora de grandes marcas como Nestlé, Mars e Ferrero, suspendeu a compra de cacau de um produtor autuado por desmatamento no Pará após ser alertada do fato pela organização holandesa AidEnvironment, que realiza pesquisas sobre crimes ambientais em cadeias produtivas. À ONG, a empresa disse que a suspensão estará vigente enquanto novas investigações e medidas de remediação são realizadas.&lt;/p&gt;
+
+
+
+&lt;p&gt;Também contactada pela AidEnvironment, a Cargill confirmou, segundo a organização, manter relação comercial com o mesmo produtor, mas disse não ter encontrado embargo formal ou restrição oficial contra ele por parte das autoridades brasileiras.&lt;/p&gt;
+
+
+
+&lt;p&gt;A denúncia e as respostas das empresas estão presentes em &lt;a href="https://aidenvironment.org/wp-content/uploads/2026/06/Brazilian-cocoa-compliance-check-23-June-2026-FINAL.pdf" target="_blank" rel="noreferrer noopener"&gt;um relatório publicado nesta terça-feira (30) pela AidEnvironment&lt;/a&gt;. O documento revela que fazendas brasileiras de cacau estão associadas a casos de desmatamentos recentes, irregularidades fundiárias, sobreposições a territórios indígenas e condições de trabalho análogas à escravidão.&lt;/p&gt;
+
+
+
+&lt;p&gt;A pesquisa, realizada com a colaboração da &lt;strong&gt;Repórter Brasil&lt;/strong&gt;, identificou nove casos de propriedades ligadas ao cacau no Pará e na Bahia com indícios de desmatamento recente, multas e embargos ambientais. Além disso, foram encontrados registros de violações trabalhistas, incluindo trabalho escravo, em mais de 30 fazendas em quatro estados (Pará, Bahia, Espírito Santo e Rondônia).&lt;/p&gt;
+
+
+		&lt;div data-elementor-type="section" data-elementor-id="77670" class="elementor elementor-77670" data-elementor-post-type="elementor_library"&gt;
+			&lt;div class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-e-type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}"&gt;
+					&lt;div class="e-con-inner"&gt;
+				&lt;div class="elementor-element elementor-element-386385d elementor-widget elementor-widget-heading" data-id="386385d" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+					&lt;h2 class="elementor-heading-title elementor-size-default"&gt;ASSINE NOSSA NEWSLETTER&lt;/h2&gt;				&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class="elementor-element elementor-element-6546917 elementor-widget elementor-widget-html" data-id="6546917" data-element_type="widget" data-e-type="widget" data-widget_type="html.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+					&lt;script&gt;
+document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll('.form-news button[type="submit"]').forEach(function(botao) {
+        botao.classList.add("envio_newsletter_materia");
+    });
+});
+&lt;/script&gt;				&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class="elementor-element elementor-element-8c2e333 form-news elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="8c2e333" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;button_width&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_next_label&amp;quot;:&amp;quot;Next&amp;quot;,&amp;quot;step_previous_label&amp;quot;:&amp;quot;Previous&amp;quot;,&amp;quot;button_width_mobile&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_type&amp;quot;:&amp;quot;number_text&amp;quot;,&amp;quot;step_icon_shape&amp;quot;:&amp;quot;circle&amp;quot;}" data-widget_type="form.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
+			&lt;input type="hidden" name="post_id" value="77670"/&gt;
+			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
+			&lt;input type="hidden" name="referer_title" value="INSS: dois atestados de doenças diferentes dão direito a auxílio?" /&gt;
+
+							&lt;input type="hidden" name="queried_id" value="129978"/&gt;
+			
+			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
+								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
+												&lt;label for="form-field-email" class="elementor-field-label elementor-screen-only"&gt;
+								Email							&lt;/label&gt;
+														&lt;input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="email" required="required"&gt;
+											&lt;/div&gt;
+								&lt;div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-20 e-form__buttons elementor-sm-20"&gt;
+					&lt;button class="elementor-button elementor-size-sm" type="submit"&gt;
+						&lt;span class="elementor-button-content-wrapper"&gt;
+															&lt;span class="elementor-button-icon"&gt;
+									&lt;i aria-hidden="true" class="fas fa-long-arrow-alt-right"&gt;&lt;/i&gt;																			&lt;span class="elementor-screen-only"&gt;Submit&lt;/span&gt;
+																	&lt;/span&gt;
+																				&lt;/span&gt;
+					&lt;/button&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/form&gt;
+						&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;/div&gt;
+		
+
+
+
+&lt;p&gt;O caso envolvendo um fornecedor da Barry Callebaut e Cargill é o da Fazenda Gameleira, em Uruará (PA), unidade produtora de cacau e pecuária. O estudo cita um desmatamento de 47 hectares de floresta amazônica na propriedade entre julho de 2022 e novembro de 2024. A AidEnvironment diz não ter identificado autorização para essa supressão.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;O relatório informa ainda que, em outubro de 2010, a Secretaria de Meio Ambiente do Pará já havia multado o proprietário da fazenda, Nelson Lauer Junior, pelo desmatamento de 4,3 hectares. Já em setembro de 2015, ele foi multado pelo Ibama por usar informações falsas no Sisflora — sistema oficial usado para controlar produtos e subprodutos florestais, como madeira, lenha e carvão.&lt;/p&gt;
+
+
+
+&lt;p&gt;O estudo ressalta que a fazenda está localizada a pouco mais de 30 km de vários armazéns e cooperativas em Uruará, ligados a grandes compradores, “o que aumenta a probabilidade de vínculo com a cadeia de fornecimento”.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;“Como a Cargill, ao contrário da Barry Callebaut, não informou ter suspendido a Fazenda Gameleira de sua cadeia de fornecimento apesar do desmatamento confirmado, o cacau proveniente da fazenda desmatada pode acabar nas cadeias de fornecimento da Nestlé, Mars e Mondelēz”, alerta o relatório. Para os pesquisadores, o caso ilustra diferenças na robustez dos sistemas de devida diligência e nas ações de mitigação das empresas de cacau.&lt;/p&gt;
+
+
+
+&lt;p&gt;Sarah Drost, pesquisadora sênior da AidEnvironment ressalta que a resposta da Barry Callebaut aos apontamentos feitos pelos pesquisadores deveria ser uma prática. “Esse tipo de engajamento é raro, mas não precisa ser. Na verdade, precisamos ver ações como essa com mais frequência, especialmente por parte de outras empresas proeminentes.”&lt;/p&gt;
+
+
+
+&lt;figure class="wp-block-image size-large"&gt;&lt;img fetchpriority="high" decoding="async" width="1024" height="718" src="https://reporterbrasil.org.br/wp-content/uploads/2026/06/fabrica_divulgacao_barrycallebaut-1-1024x718.jpg" alt="Fornecedora de grandes marcas como Nestlé, Mars e Ferrero, a Barry Callebaut disse que a suspensão do fornecedor estará vigente enquanto novas investigações e medidas de remediação são realizadas.(Foto: Divulgação/Barry Callebaut)" class="wp-image-131475" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/06/fabrica_divulgacao_barrycallebaut-1-1024x718.jpg 1024w, https://reporterbrasil.org.br/wp-content/uploads/2026/06/fabrica_divulgacao_barrycallebaut-1-300x210.jpg 300w, https://reporterbrasil.org.br/wp-content/uploads/2026/06/fabrica_divulgacao_barrycallebaut-1-768x538.jpg 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/06/fabrica_divulgacao_barrycallebaut-1.jpg 1141w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Fornecedora de grandes marcas como Nestlé, Mars e Ferrero, a Barry Callebaut disse que a suspensão do fornecedor estará vigente enquanto novas investigações e medidas de remediação são realizadas.(Foto: Divulgação/Barry Callebaut)&lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+&lt;p&gt;À &lt;strong&gt;Repórter Brasil&lt;/strong&gt;, os advogados de Nelson Lauer Junior afirmaram que o produtor está em processo de regularização ambiental, “cumprindo todos os requisitos legais para regularização de sua propriedade”.&lt;/p&gt;
+
+
+
+&lt;p&gt;Questionada sobre o relatório, a Barry Callebaut informou à reportagem que “mantém o seu firme compromisso com a proteção florestal, a implementação da Diretiva da UE sobre o Desenvolvimento do Cacau (EUDR) e o desenvolvimento de cadeias de abastecimento de cacau livres de desflorestação”.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Ainda segundo a nota enviada à reportagem, a sustentabilidade é uma prioridade estratégica da empresa e, por isso, continua a investir em medidas “robustas” de rastreabilidade, transparência e devida diligência em toda sua cadeia de suprimentos (&lt;a href="https://reporterbrasil.org.br/2026/06/posicionamentos-para-reportagem-sobre-suspensao-de-compra-de-cacau-por-fornecedor-da-nestle-apos-alerta-de-desmate/" target="_blank" rel="noreferrer noopener"&gt;Leia aqui a resposta na íntegra&lt;/a&gt;).&lt;/p&gt;
+
+
+
+&lt;p&gt;A &lt;strong&gt;Repórter Brasil&lt;/strong&gt; também questionou a Cargill, mas não obteve respostas até a publicação desta matéria.&lt;/p&gt;
+
+
+
+&lt;p&gt;A Nestlé informou que mantém com seus parceiros comerciais “uma relação orientada pela Norma de Fornecimento Responsável (Nestlé Responsible Sourcing Core Requirements) e pelo Código de Conduta de Fornecedores da Nestlé, que estabelecem requisitos claros relacionados a direitos humanos e trabalhistas, proteção ambiental, ética, governança e integridade”. Disse ainda que “o cumprimento desses requisitos é acompanhado por meio de um processo contínuo de devida diligência, que inclui visitas em campo, avaliações socioambientais e outras ferramentas de monitoramento” (&lt;a href="https://reporterbrasil.org.br/2026/06/posicionamentos-para-reportagem-sobre-suspensao-de-compra-de-cacau-por-fornecedor-da-nestle-apos-alerta-de-desmate/" target="_blank" rel="noreferrer noopener"&gt;Leia aqui a resposta na íntegra&lt;/a&gt;). &lt;/p&gt;
+
+
+
+&lt;p&gt;Também questionadas, Mars e Ferrero não haviam respondido até a publicação desta reportagem. Respostas que eventualmente tenham sido enviadas à AidEnvironment estão incluídas no &lt;a href="https://aidenvironment.org/wp-content/uploads/2026/06/Brazilian-cocoa-compliance-check-23-June-2026-FINAL.pdf" target="_blank" rel="noreferrer noopener"&gt;relatório publicado pela organização&lt;/a&gt;.&lt;/p&gt;
+
+
+
+&lt;h2 class="wp-block-heading"&gt;Monitoramento da cadeia produtiva&lt;/h2&gt;
+
+
+
+&lt;p&gt;Segundo o relatório da AidEnvironment, parte do desmatamento identificado ocorreu após a data de corte do EUDR (&lt;a href="https://environment.ec.europa.eu/topics/forests/deforestation/regulation-deforestation-free-products_en" target="_blank" rel="noreferrer noopener"&gt;Regulamento da União Europeia contra o Desmatamento)&lt;/a&gt;, o que pode gerar restrições comerciais caso o cacau dessas áreas entre no mercado da União Europeia a partir de janeiro de 2027. A regra exige que empresas exportem para a Europa apenas produtos de cadeias de suprimentos comprovadamente legais, rastreáveis e livres de desmatamento após 31 de dezembro de 2020. &lt;/p&gt;
+
+
+
+&lt;p&gt;“Esses casos mostram que o cacau brasileiro não pode ser tratado automaticamente como de baixo risco”, diz Drost. Segundo ela, apesar de a produção de cacau ser comumente apresentada como positiva para o clima, uma verdadeira sustentabilidade somente será atingida “se as empresas puderem comprovar de onde vem seu cacau, fazer a triagem de fornecedores diretos e indiretos e agir com transparência quando forem encontrados riscos de não conformidade”.&lt;br&gt;&lt;br&gt;Segundo o estudo, cerca de 93% a 95% desse mercado é controlado por poucas empresas representadas pela Associação Nacional das Indústrias Processadoras de Cacau, incluindo Barry Callebaut, Cargill, Ofi e IBC. Essas companhias atuam como fornecedoras diretas de grandes marcas globais de chocolate e confeitaria, como Nestlé, Mars, Mondelēz e Ferrero.&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Tamanha concentração torna a rastreabilidade um tema central para a regularização da cadeia, diz o relatório. A publicação afirma que, em geral, os produtores vendem o fruto para intermediários, que por sua vez abastecem empresas de moagem e processamento, dificultando a identificação da origem exata do cacau.&lt;/p&gt;
+
+
+
+&lt;p&gt;Entre as medidas sugeridas pelos pesquisadores às processadoras e marcas de chocolate estão a rastreabilidade também para os fornecedores indiretos, com transparência de toda a cadeia, a integração das bases públicas brasileiras às suas análises de risco, a adesão a protocolos claros para suspender compras ligadas a irregularidades e o monitoramento das áreas exploradas por satélite.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;figure class="wp-block-image aligncenter size-large"&gt;&lt;img decoding="async" width="1024" height="683" src="https://reporterbrasil.org.br/wp-content/uploads/2026/06/Producao-brasileira-de-Cacau-Foto-Sidney-Oliveira-da-Agencia-Para-1-1024x683.jpg" alt="O relatório da AidEnvironment identificou que, entre 2008 e 2025, ao menos 18 fazendas brasileiras produtoras de cacau foram flagradas pelas autoridades utilizando mão de obra em condições análogas à escravidão (Foto: Sidney Oliveira/Agência Pará)" class="wp-image-131477" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/06/Producao-brasileira-de-Cacau-Foto-Sidney-Oliveira-da-Agencia-Para-1-1024x683.jpg 1024w, https://reporterbrasil.org.br/wp-content/uploads/2026/06/Producao-brasileira-de-Cacau-Foto-Sidney-Oliveira-da-Agencia-Para-1-300x200.jpg 300w, https://reporterbrasil.org.br/wp-content/uploads/2026/06/Producao-brasileira-de-Cacau-Foto-Sidney-Oliveira-da-Agencia-Para-1-768x512.jpg 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/06/Producao-brasileira-de-Cacau-Foto-Sidney-Oliveira-da-Agencia-Para-1-1536x1024.jpg 1536w, https://reporterbrasil.org.br/wp-content/uploads/2026/06/Producao-brasileira-de-Cacau-Foto-Sidney-Oliveira-da-Agencia-Para-1.jpg 1600w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;figcaption class="wp-element-caption"&gt;O relatório da AidEnvironment identificou que, entre 2008 e 2025, ao menos 18 fazendas brasileiras produtoras de cacau foram flagradas pelas autoridades utilizando mão de obra em condições análogas à escravidão (Foto: Sidney Oliveira/Agência Pará)&lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+&lt;p&gt;Ao relatório, a Ofi declarou que sete das nove fazendas de cacau no Brasil identificadas pela pesquisa nunca foram suas fornecedoras diretas, mas não citou as fazendas nominalmente. Afirmou ainda que “busca fazer com que cada um de seus fornecedores se comprometa com o Código de Fornecedores Agrícolas”, de forma que “as matérias-primas e os produtos fornecidos sejam produzidos de maneira socialmente responsável, economicamente viável e ambientalmente sustentável”.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Procurada pela &lt;strong&gt;Repórter Brasil&lt;/strong&gt;, a Ofi disse para que fossem consideradas suas respostas ao relatório. Também questionadas, IBC e Mondelēz não haviam respondido até a publicação desta reportagem. Respostas que eventualmente tenham sido enviadas à AidEnvironment estão incluídas no &lt;a href="https://aidenvironment.org/wp-content/uploads/2026/06/Brazilian-cocoa-compliance-check-23-June-2026-FINAL.pdf" target="_blank" rel="noreferrer noopener"&gt;relatório publicado pela organização&lt;/a&gt;.&lt;/p&gt;
+
+
+
+&lt;h2 class="wp-block-heading"&gt;Trabalho escravo e invasão de terra indígena&lt;/h2&gt;
+
+
+
+&lt;p&gt;Em análise realizada com o apoio da &lt;strong&gt;Repórter Brasil&lt;/strong&gt;, o estudo identificou que, entre 2008 e 2025, ao menos 18 fazendas brasileiras produtoras de cacau foram flagradas pelas autoridades utilizando mão de obra em condições análogas à escravidão. Registros oficiais de outras infrações trabalhistas no mesmo período foram verificados em pelo menos 37 propriedades, segundo o relatório. Elas estão localizadas no Pará (26 fazendas), Bahia (10), Espírito Santo (6) e Rondônia (1).&lt;/p&gt;
+
+
+
+&lt;p&gt;Um dos casos retratados é o de uma fazenda em Medicilândia (PA). Em 2011, uma fiscalização trabalhista na propriedade identificou 42 trabalhadores colhendo cacau em condições análogas à escravidão, incluindo três adolescentes. Os trabalhadores estavam alojados em abrigos improvisados feitos de lona e palha, além de barracos de madeira construídos de forma inadequada, sem água potável, saneamento ou eletricidade, e expostos a animais peçonhentos e a riscos decorrentes do uso inadequado de agrotóxicos.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;O estudo também aponta 80 hectares de supressão de vegetação na propriedade, entre 2021 e 2024. A AidEnvironment afirma que, segundo informações coletadas pelo Ministério Público do Trabalho (MPT), a fazenda tem histórico de vendas para indústrias de cacau como&amp;nbsp; Barry Callebaut, Cargill e Ofi.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;Ao estudo, no entanto, tanto a Cargill quanto a Barry Callebaut negaram vínculo com a fazenda.&lt;/p&gt;
+
+
+
+&lt;p&gt;Já a Fazenda Fé em Deus, em São Félix do Xingu (PA), localizada na Terra Indígena Apyterewa, teve seu CAR (Cadastro Ambiental Rural) cancelado em 2015 por sobreposição integral com o território indígena. O relatório identificou 51 hectares de supressão de vegetação entre fevereiro e abril de 2022, “provavelmente ligada à produção de cacau e madeira”.&lt;/p&gt;
+
+
+
+&lt;p&gt;O proprietário da fazenda, Adelson Costa da Cruz, é considerado invasor da Terra Indígena Apyterewa, onde a propriedade está localizada. Ele foi identificado &lt;a href="https://g1.globo.com/pa/para/noticia/2023/12/20/pf-faz-buscas-por-dois-fazendeiros-que-atuavam-como-liderancas-para-impedir-retirada-de-invasores-da-ti-apyterewa-no-pa.ghtml" target="_blank" rel="noreferrer noopener"&gt;como um dos líderes da resistência contra a retirada de ocupantes &lt;/a&gt;não indígenas do território durante a operação de desintrusão realizada pela Força Nacional de Segurança Pública em 2023, além de somar autuações pelo Ibama. &lt;/p&gt;
+
+
+
+&lt;p&gt;Procurado pela &lt;strong&gt;Repórter Brasil&lt;/strong&gt;, ele não havia respondido até a publicação desta reportagem.&lt;/p&gt;
+
+
+		&lt;div data-elementor-type="section" data-elementor-id="129686" class="elementor elementor-129686" data-elementor-post-type="elementor_library"&gt;
+			&lt;a class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-e-type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}" href="https://reporterbrasil.org.br/apoie/"&gt;
+					&lt;div class="e-con-inner"&gt;
+				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+															&lt;img decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/a&gt;
+				&lt;/div&gt;
+		
+
+
+
+&lt;p&gt;&lt;strong&gt;25 anos investigando para mudar.&lt;/strong&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;A Repórter Brasil já ajudou a impulsionar leis, fortalecer direitos e combater o trabalho escravo.&lt;/strong&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Em 2026, fazemos 25 anos — e vem muito mais por aí!&lt;/strong&gt;&lt;/p&gt;
+
+
+		&lt;div data-elementor-type="container" data-elementor-id="75228" class="elementor elementor-75228" data-elementor-post-type="elementor_library"&gt;
+				&lt;div class="elementor-element elementor-element-5e8db1e6 e-flex e-con-boxed e-con e-parent" data-id="5e8db1e6" data-element_type="container" data-e-type="container"&gt;
+					&lt;div class="e-con-inner"&gt;
+		&lt;div class="elementor-element elementor-element-36eb6c91 e-flex e-con-boxed e-con e-child" data-id="36eb6c91" data-element_type="container" data-e-type="container"&gt;
+					&lt;div class="e-con-inner"&gt;
+		&lt;div class="elementor-element elementor-element-6f52f515 e-con-full e-flex e-con e-child" data-id="6f52f515" data-element_type="container" data-e-type="container"&gt;
+				&lt;div class="elementor-element elementor-element-65d9f401 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="65d9f401" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+							&lt;div class="elementor-divider"&gt;
+			&lt;span class="elementor-divider-separator"&gt;
+						&lt;/span&gt;
+		&lt;/div&gt;
+						&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;/div&gt;
+		&lt;div class="elementor-element elementor-element-134a1245 e-flex e-con-boxed e-con e-child" data-id="134a1245" data-element_type="container" data-e-type="container"&gt;
+					&lt;div class="e-con-inner"&gt;
+				&lt;div class="elementor-element elementor-element-10fe55fe elementor-widget elementor-widget-text-editor" data-id="10fe55fe" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+									&lt;p&gt;Leia também&lt;/p&gt;								&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class="elementor-element elementor-element-3c9495ae elementor-grid-1 leia-tambem elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid" data-id="3c9495ae" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;template_id&amp;quot;:&amp;quot;75221&amp;quot;,&amp;quot;columns&amp;quot;:1,&amp;quot;row_gap&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:10,&amp;quot;sizes&amp;quot;:[]},&amp;quot;_skin&amp;quot;:&amp;quot;post&amp;quot;,&amp;quot;columns_tablet&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;columns_mobile&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;edit_handle_selector&amp;quot;:&amp;quot;[data-elementor-type=\&amp;quot;loop-item\&amp;quot;]&amp;quot;,&amp;quot;row_gap_tablet&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]},&amp;quot;row_gap_mobile&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]}}" data-widget_type="loop-grid.post"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+							&lt;div class="e-loop-nothing-found-message"&gt;
+		&lt;/div&gt;
+						&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;/div&gt;
+		
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Igor Ojeda</dc:creator><pubDate>Tue, 30 Jun 2026 19:50:16 +0000</pubDate><guid>https://reporterbrasil.org.br/2026/06/fornecedor-nestle-suspensao-cacau-desmate/</guid><guid isPermaLink="true">https://reporterbrasil.org.br/2026/06/fornecedor-nestle-suspensao-cacau-desmate/</guid></item><item><title>Como frigoríficos brasileiros influenciam ciência e políticas alimentares nos EUA</title><link>https://reporterbrasil.org.br/2026/06/como-frigorificos-brasileiros-influenciam-ciencia-politicas-alimentares-eua/</link><description>
 &lt;p&gt;&lt;strong&gt;UM ESTUDO&lt;/strong&gt; conduzido por universidades australianas mostra a influência da indústria da carne em pesquisas científicas favoráveis ao consumo de proteína animal. Os principais &lt;a href="https://reporterbrasil.org.br/tags/frigorificos/" target="_blank" rel="noreferrer noopener"&gt;frigoríficos&lt;/a&gt; brasileiros, JBS e Marfrig, além de outras multinacionais, integram associações que financiam pesquisas para orientar políticas públicas de alimentação nos Estados Unidos.&lt;br&gt;&lt;br&gt;A &lt;a href="https://onlinelibrary.wiley.com/doi/epdf/10.1111/obr.70153" target="_blank" rel="noreferrer noopener"&gt;pesquisa&lt;/a&gt; analisou 500 artigos científicos publicados entre 2014 e 2023 sobre os impactos do consumo de carne na saúde humana. Os pesquisadores concluíram que trabalhos com vínculos com a indústria da carne têm 16 vezes mais chance de apresentar conclusões favoráveis ao consumo do produto do que pesquisas independentes. O estudo foi feito pelas universidades University of Queensland, Deakin University e University of Queensland, e publicado em abril na revista Obesity Reviews.&lt;/p&gt;
 
 
@@ -33,9 +272,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Adolescentes trabalham em aplicativos de entrega, como o iFood" /&gt;
+			&lt;input type="hidden" name="referer_title" value="INSS: dois atestados de doenças diferentes dão direito a auxílio?" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="94244"/&gt;
+							&lt;input type="hidden" name="queried_id" value="129978"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -211,7 +450,7 @@ document.addEventListener("DOMContentLoaded", function() {
 					&lt;div class="e-con-inner"&gt;
 				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
-															&lt;img fetchpriority="high" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
+															&lt;img decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/a&gt;
@@ -302,9 +541,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Adolescentes trabalham em aplicativos de entrega, como o iFood" /&gt;
+			&lt;input type="hidden" name="referer_title" value="INSS: dois atestados de doenças diferentes dão direito a auxílio?" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="94244"/&gt;
+							&lt;input type="hidden" name="queried_id" value="129978"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -492,7 +731,7 @@ document.addEventListener("DOMContentLoaded", function() {
 					&lt;div class="e-con-inner"&gt;
 				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
-															&lt;img fetchpriority="high" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
+															&lt;img decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/a&gt;
@@ -575,7 +814,7 @@ document.addEventListener("DOMContentLoaded", function() {
 				&lt;div class="elementor-element elementor-element-7ddca35 elementor-widget elementor-widget-image" data-id="7ddca35" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
 												&lt;figure class="wp-caption"&gt;
-										&lt;img decoding="async" width="800" height="927" src="https://reporterbrasil.org.br/wp-content/uploads/2026/06/macauba-2-884x1024.png" class="attachment-large size-large wp-image-131317" alt="" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/06/macauba-2-884x1024.png 884w, https://reporterbrasil.org.br/wp-content/uploads/2026/06/macauba-2-259x300.png 259w, https://reporterbrasil.org.br/wp-content/uploads/2026/06/macauba-2-768x889.png 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/06/macauba-2-1327x1536.png 1327w, https://reporterbrasil.org.br/wp-content/uploads/2026/06/macauba-2.png 1350w" sizes="(max-width: 800px) 100vw, 800px" /&gt;											&lt;figcaption class="widget-image-caption wp-caption-text"&gt;Arte: Rodrigo Bento/Repórter Brasil&lt;/figcaption&gt;
+										&lt;img loading="lazy" decoding="async" width="800" height="927" src="https://reporterbrasil.org.br/wp-content/uploads/2026/06/macauba-2-884x1024.png" class="attachment-large size-large wp-image-131317" alt="" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/06/macauba-2-884x1024.png 884w, https://reporterbrasil.org.br/wp-content/uploads/2026/06/macauba-2-259x300.png 259w, https://reporterbrasil.org.br/wp-content/uploads/2026/06/macauba-2-768x889.png 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/06/macauba-2-1327x1536.png 1327w, https://reporterbrasil.org.br/wp-content/uploads/2026/06/macauba-2.png 1350w" sizes="(max-width: 800px) 100vw, 800px" /&gt;											&lt;figcaption class="widget-image-caption wp-caption-text"&gt;Arte: Rodrigo Bento/Repórter Brasil&lt;/figcaption&gt;
 										&lt;/figure&gt;
 									&lt;/div&gt;
 				&lt;/div&gt;
@@ -607,9 +846,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Adolescentes trabalham em aplicativos de entrega, como o iFood" /&gt;
+			&lt;input type="hidden" name="referer_title" value="INSS: dois atestados de doenças diferentes dão direito a auxílio?" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="94244"/&gt;
+							&lt;input type="hidden" name="queried_id" value="129978"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -690,7 +929,7 @@ document.addEventListener("DOMContentLoaded", function() {
 				&lt;/div&gt;
 				&lt;div class="elementor-element elementor-element-4076acd elementor-widget elementor-widget-image" data-id="4076acd" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
-															&lt;img decoding="async" width="793" height="1024" src="https://reporterbrasil.org.br/wp-content/uploads/2026/06/macauba-1-793x1024.jpg" class="attachment-large size-large wp-image-131316" alt="" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/06/macauba-1-793x1024.jpg 793w, https://reporterbrasil.org.br/wp-content/uploads/2026/06/macauba-1-232x300.jpg 232w, https://reporterbrasil.org.br/wp-content/uploads/2026/06/macauba-1-768x992.jpg 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/06/macauba-1-1189x1536.jpg 1189w, https://reporterbrasil.org.br/wp-content/uploads/2026/06/macauba-1.jpg 1500w" sizes="(max-width: 793px) 100vw, 793px" /&gt;															&lt;/div&gt;
+															&lt;img loading="lazy" decoding="async" width="793" height="1024" src="https://reporterbrasil.org.br/wp-content/uploads/2026/06/macauba-1-793x1024.jpg" class="attachment-large size-large wp-image-131316" alt="" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/06/macauba-1-793x1024.jpg 793w, https://reporterbrasil.org.br/wp-content/uploads/2026/06/macauba-1-232x300.jpg 232w, https://reporterbrasil.org.br/wp-content/uploads/2026/06/macauba-1-768x992.jpg 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/06/macauba-1-1189x1536.jpg 1189w, https://reporterbrasil.org.br/wp-content/uploads/2026/06/macauba-1.jpg 1500w" sizes="(max-width: 793px) 100vw, 793px" /&gt;															&lt;/div&gt;
 				&lt;/div&gt;
 				&lt;div class="elementor-element elementor-element-0e7b20f elementor-widget elementor-widget-heading" data-id="0e7b20f" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
@@ -766,7 +1005,7 @@ document.addEventListener("DOMContentLoaded", function() {
 					&lt;div class="e-con-inner"&gt;
 				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
-															&lt;img fetchpriority="high" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
+															&lt;img decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/a&gt;
@@ -985,7 +1224,7 @@ document.addEventListener("DOMContentLoaded", function() {
 					&lt;div class="e-con-inner"&gt;
 				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
-															&lt;img fetchpriority="high" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
+															&lt;img decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/a&gt;
@@ -1072,9 +1311,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Adolescentes trabalham em aplicativos de entrega, como o iFood" /&gt;
+			&lt;input type="hidden" name="referer_title" value="INSS: dois atestados de doenças diferentes dão direito a auxílio?" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="94244"/&gt;
+							&lt;input type="hidden" name="queried_id" value="129978"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -1143,7 +1382,7 @@ document.addEventListener("DOMContentLoaded", function() {
 					&lt;div class="e-con-inner"&gt;
 				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
-															&lt;img fetchpriority="high" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
+															&lt;img decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/a&gt;
@@ -1223,9 +1462,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Adolescentes trabalham em aplicativos de entrega, como o iFood" /&gt;
+			&lt;input type="hidden" name="referer_title" value="INSS: dois atestados de doenças diferentes dão direito a auxílio?" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="94244"/&gt;
+							&lt;input type="hidden" name="queried_id" value="129978"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -1345,7 +1584,7 @@ document.addEventListener("DOMContentLoaded", function() {
 					&lt;div class="e-con-inner"&gt;
 				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
-															&lt;img fetchpriority="high" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
+															&lt;img decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/a&gt;
@@ -1458,9 +1697,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Adolescentes trabalham em aplicativos de entrega, como o iFood" /&gt;
+			&lt;input type="hidden" name="referer_title" value="INSS: dois atestados de doenças diferentes dão direito a auxílio?" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="94244"/&gt;
+							&lt;input type="hidden" name="queried_id" value="129978"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -1668,7 +1907,7 @@ document.addEventListener("DOMContentLoaded", function() {
 					&lt;div class="e-con-inner"&gt;
 				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
-															&lt;img fetchpriority="high" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
+															&lt;img decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/a&gt;
@@ -1770,9 +2009,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Adolescentes trabalham em aplicativos de entrega, como o iFood" /&gt;
+			&lt;input type="hidden" name="referer_title" value="INSS: dois atestados de doenças diferentes dão direito a auxílio?" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="94244"/&gt;
+							&lt;input type="hidden" name="queried_id" value="129978"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -1969,7 +2208,7 @@ document.addEventListener("DOMContentLoaded", function() {
 					&lt;div class="e-con-inner"&gt;
 				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
-															&lt;img fetchpriority="high" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
+															&lt;img decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/a&gt;
@@ -2030,9 +2269,9 @@ document.addEventListener("DOMContentLoaded", function() {
 							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
 			&lt;input type="hidden" name="post_id" value="77670"/&gt;
 			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Adolescentes trabalham em aplicativos de entrega, como o iFood" /&gt;
+			&lt;input type="hidden" name="referer_title" value="INSS: dois atestados de doenças diferentes dão direito a auxílio?" /&gt;
 
-							&lt;input type="hidden" name="queried_id" value="94244"/&gt;
+							&lt;input type="hidden" name="queried_id" value="129978"/&gt;
 			
 			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
 								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
@@ -2245,7 +2484,7 @@ document.addEventListener("DOMContentLoaded", function() {
 					&lt;div class="e-con-inner"&gt;
 				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
 				&lt;div class="elementor-widget-container"&gt;
-															&lt;img fetchpriority="high" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
+															&lt;img decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
 				&lt;/div&gt;
 					&lt;/div&gt;
 				&lt;/a&gt;
@@ -2267,307 +2506,4 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 &lt;p&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Poliana Dallabrida Wisentainer</dc:creator><pubDate>Mon, 01 Jun 2026 08:00:00 +0000</pubDate><guid>https://reporterbrasil.org.br/2026/06/empresarios-garimpeiros-ouro-ilegal-receita/</guid><guid isPermaLink="true">https://reporterbrasil.org.br/2026/06/empresarios-garimpeiros-ouro-ilegal-receita/</guid></item><item><title>Trabalhador está em risco, diz procurador que quer banir glifosato do Brasil</title><link>https://reporterbrasil.org.br/2026/05/nao-existe-uso-totalmente-seguro-procurador-banir-glifosato/</link><description>
-&lt;p&gt;&lt;strong&gt;O MPT&lt;/strong&gt; (Ministério Público do Trabalho) entrou com uma ação civil pública contra a Anvisa (Agência Nacional de Vigilância Sanitária) e o governo federal pedindo o banimento do &lt;a href="https://reporterbrasil.org.br/tags/glifosato/" target="_blank" rel="noreferrer noopener"&gt;glifosato&lt;/a&gt; no Brasil, herbicida mais usado no país e base do Roundup, produto da &lt;a href="https://reporterbrasil.org.br/tags/bayer" target="_blank" rel="noreferrer noopener"&gt;Bayer&lt;/a&gt;. &lt;/p&gt;
-
-
-
-&lt;p&gt;A ação, protocolada em 22 de maio na Justiça do Trabalho do Distrito Federal, pede o cancelamento dos registros e a proibição da produção, importação, comercialização e uso de produtos à base do princípio ativo.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;Em entrevista à &lt;strong&gt;Repórter Brasil&lt;/strong&gt;, o procurador do trabalho Leomar Daroncho, integrante do grupo do MPT responsável pela ação, fala sobre os argumentos do processo, critica o avanço dos agrotóxicos no país e afirma que o Brasil se tornou um mercado “tolerante” a produtos rejeitados em outras partes do mundo. Também diz que “não existe uso totalmente seguro” de agrotóxicos para o trabalhador.&amp;nbsp;&lt;/p&gt;
-
-
-		&lt;div data-elementor-type="section" data-elementor-id="77670" class="elementor elementor-77670" data-elementor-post-type="elementor_library"&gt;
-			&lt;div class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-e-type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}"&gt;
-					&lt;div class="e-con-inner"&gt;
-				&lt;div class="elementor-element elementor-element-386385d elementor-widget elementor-widget-heading" data-id="386385d" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-					&lt;h2 class="elementor-heading-title elementor-size-default"&gt;ASSINE NOSSA NEWSLETTER&lt;/h2&gt;				&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-6546917 elementor-widget elementor-widget-html" data-id="6546917" data-element_type="widget" data-e-type="widget" data-widget_type="html.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-					&lt;script&gt;
-document.addEventListener("DOMContentLoaded", function() {
-    document.querySelectorAll('.form-news button[type="submit"]').forEach(function(botao) {
-        botao.classList.add("envio_newsletter_materia");
-    });
-});
-&lt;/script&gt;				&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-8c2e333 form-news elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="8c2e333" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;button_width&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_next_label&amp;quot;:&amp;quot;Next&amp;quot;,&amp;quot;step_previous_label&amp;quot;:&amp;quot;Previous&amp;quot;,&amp;quot;button_width_mobile&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_type&amp;quot;:&amp;quot;number_text&amp;quot;,&amp;quot;step_icon_shape&amp;quot;:&amp;quot;circle&amp;quot;}" data-widget_type="form.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
-			&lt;input type="hidden" name="post_id" value="77670"/&gt;
-			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Adolescentes trabalham em aplicativos de entrega, como o iFood" /&gt;
-
-							&lt;input type="hidden" name="queried_id" value="94244"/&gt;
-			
-			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
-								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
-												&lt;label for="form-field-email" class="elementor-field-label elementor-screen-only"&gt;
-								Email							&lt;/label&gt;
-														&lt;input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="email" required="required"&gt;
-											&lt;/div&gt;
-								&lt;div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-20 e-form__buttons elementor-sm-20"&gt;
-					&lt;button class="elementor-button elementor-size-sm" type="submit"&gt;
-						&lt;span class="elementor-button-content-wrapper"&gt;
-															&lt;span class="elementor-button-icon"&gt;
-									&lt;i aria-hidden="true" class="fas fa-long-arrow-alt-right"&gt;&lt;/i&gt;																			&lt;span class="elementor-screen-only"&gt;Submit&lt;/span&gt;
-																	&lt;/span&gt;
-																				&lt;/span&gt;
-					&lt;/button&gt;
-				&lt;/div&gt;
-			&lt;/div&gt;
-		&lt;/form&gt;
-						&lt;/div&gt;
-				&lt;/div&gt;
-					&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;/div&gt;
-		
-
-
-
-&lt;p&gt;Na ação, o MPT afirma que há “risco grave e iminente” à saúde de trabalhadores expostos ao glifosato e cita estudos que associam a substância a câncer, distúrbios hormonais, infertilidade, abortos e problemas neurológicos. &lt;/p&gt;
-
-
-
-&lt;p&gt;O documento também argumenta que o Brasil mantém um “duplo padrão regulatório” ao continuar autorizando substâncias já proibidas em outros países.  &lt;/p&gt;
-
-
-
-&lt;p&gt;A iniciativa ocorre em meio ao aumento da pressão internacional sobre o glifosato. Nos Estados Unidos, a Bayer já desembolsou bilhões de dólares em &lt;a href="https://reporterbrasil.org.br/2025/11/bayer-processos-agrotoxico-glifosato-intoxicacao-brasil/" target="_blank" rel="noreferrer noopener"&gt;acordos com vítimas que moveram processos por danos à saúde relacionados ao Roundup&lt;/a&gt;, e &lt;a href="https://reporterbrasil.org.br/2025/12/estudo-atestava-seguranca-glifosato-despublicado-apos-25-anos/" target="_blank" rel="noreferrer noopener"&gt;pesquisas que sustentavam a segurança da substância passaram a ser questionadas&lt;/a&gt;. &lt;/p&gt;
-
-
-
-&lt;figure class="wp-block-image size-large"&gt;&lt;img loading="lazy" decoding="async" width="1024" height="683" src="https://reporterbrasil.org.br/wp-content/uploads/2026/05/leomar-daroncho-mpt-1024x683.jpg" alt="" class="wp-image-130546" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/05/leomar-daroncho-mpt-1024x683.jpg 1024w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/leomar-daroncho-mpt-300x200.jpg 300w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/leomar-daroncho-mpt-768x512.jpg 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/leomar-daroncho-mpt-1536x1024.jpg 1536w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/leomar-daroncho-mpt.jpg 2047w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Procurador do Trabalho Leomar Daroncho em seminário no Ministério Público do Trabalho sobre a agrotóxicos, saúde do trabalhador e controle social em abril de 2026 (Foto: MPT/Divulgação)&lt;/figcaption&gt;&lt;/figure&gt;
-
-
-
-&lt;p&gt;No fim de 2025, um estudo frequentemente usado em defesa do glifosato foi despublicado por uma revista científica e isso ajudou a impulsionar a nova ação. &lt;/p&gt;
-
-
-
-&lt;p&gt;Confira a entrevista completa:&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;Repórter Brasil: O que motivou o MPT a pedir agora o banimento do glifosato no Brasil?&lt;/strong&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;Leomar Daroncho:&lt;/strong&gt; O MPT tem um grupo de trabalho específico para esse tema e a gente vem estudando, em especial, os agrotóxicos que já são banidos na União Europeia e em países civilizados.&lt;/p&gt;
-
-
-
-&lt;p&gt;Em 2023, nós propusemos uma ação em relação à atrazina [agrotóxico usado em plantações como soja e cana-de-açúcar]. E tem vários alertas sobre os riscos especialmente crônicos para a saúde da exposição ao glifosato. A correlação com algumas doenças muito preocupantes, principalmente câncer e a atuação como desregulador endócrino. Nós temos alertas do Inca [Instituto Nacional de Câncer], da Fiocruz, estudos da Universidade Federal de Mato Grosso, e também tem um alerta do IARC [Agência Internacional de Pesquisa em Câncer, ligada à OMS], de 2015, que está citado na ação.&lt;/p&gt;
-
-
-
-&lt;p&gt;Agora, na virada do ano, de 2025 para 2026, um dos mais importantes estudos, que mantinha essa posição de que ele [glifosato] não representaria um risco no que diz respeito a câncer para humanos, foi &lt;a href="https://reporterbrasil.org.br/2025/12/estudo-atestava-seguranca-glifosato-despublicado-apos-25-anos/"&gt;despublicado da revista Regulatory Toxicology and Pharmacology&lt;/a&gt;, dizendo que ela identificou problemas de integridade na pesquisa, que tornam aqueles dados não confiáveis. Então, houve retratação, despublicação, e isso impulsionou a necessidade de tomar uma atitude em relação a essa substância especificamente, que é a mais usada no Brasil.&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;A despublicação do artigo traz força para banir o uso do glifosato?&lt;/strong&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;Vencer ou não uma ação é do processo, mas acho que é importante discutir isso e levantar esse tema que, além dos danos à saúde, principalmente à questão dos problemas crônicos da exposição ao longo do tempo, uma preocupação grande que a gente tem é com a falta de informação.&lt;/p&gt;
-
-
-
-&lt;p&gt;Quando a Anvisa resolveu manter em uso, ela faz ressalvas importantes, dizendo que reconhece que os &lt;a href="https://reporterbrasil.org.br/2026/03/ministerio-trabalho-trabalhadores-agrotoxicos/"&gt;trabalhadores são os mais expostos&lt;/a&gt;. Ela destaca a necessidade de uso de medidas de prevenção, especialmente equipamentos de proteção individual, e uma preocupação com o baixo nível de escolaridade dos que manuseiam esses produtos.&lt;/p&gt;
-
-
-
-&lt;p&gt;A bula dos fabricantes estipula restrições no que diz respeito às condições atmosféricas, que também são uma preocupação muito grande. Tem limitações de temperatura, da umidade relativa do ar, da velocidade do vento, e essa substância é aplicada nas regiões, principalmente por aeronaves, que têm um impacto ampliado pela deriva. Essa aplicação tem como potencial levar essas partículas, que o vento carrega dependendo das condições atmosféricas, inclusive para as cidades das fronteiras agrícolas, para os mananciais de água que abastecem a população&lt;/p&gt;
-
-
-
-&lt;p&gt;Os dados, inclusive da &lt;a href="https://reporterbrasil.org.br/2023/10/27-agrotoxicos-sao-detectados-na-agua-consumida-em-sao-paulo-fortaleza-e-campinas/" target="_blank" rel="noreferrer noopener"&gt;&lt;strong&gt;Repórter Brasil&lt;/strong&gt; de contaminação da água das torneiras&lt;/a&gt;, mostram que o glifosato está em boa parte da água potável do Brasil. Então, tudo isso justifica uma preocupação grande.&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;Em 2023, o MPT solicitou a proibição do uso de outro agrotóxico, a atrazina, mas nenhuma decisão final foi tomada ainda. Por que agora seria diferente?&lt;/strong&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;O caminho tende a ser semelhante. Nós a propusemos na Justiça do Trabalho, em defesa do meio ambiente do trabalho, porque os trabalhadores são os primeiros e talvez os mais expostos.&lt;/p&gt;
-
-
-
-&lt;p&gt;A gente não está cobrando nessas ações reparações pelo passado, pelos danos já concretizados. Há ações importantes, especialmente em relação ao glifosato em andamento nos Estados Unidos, que tem outro foco, que é reparar o dano causado. A nossa está restrita a um aspecto preventivo, evitar que danos à saúde e à vida se materializem para o futuro.&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;As intoxicações e contaminações por agrotóxicos são subestimadas no Brasil?&lt;/strong&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;Certamente existe um problema de números no que diz respeito a acidentes de trabalho. E em relação aos agrotóxicos, por uma série de circunstâncias, a situação é ainda pior. Porque se dá em regiões mais afastadas dos centros de saúde. Até mesmo a busca pelo Judiciário é mais difícil, nem sempre o trabalhador ou sua família se sente segura para fazer essa denúncia e também tem o problema da falta de conhecimento técnico sobre isso. Muitas vezes aqueles problemas crônicos não são relacionados àquela exposição que houve ao longo do tempo, então tem uma subnotificação muito grande.&lt;/p&gt;
-
-
-
-&lt;p&gt;A OMS refere um número de que as notificações seriam da ordem de 2% apenas das intoxicações. Um a cada 50 casos.&lt;/p&gt;
-
-
-
-&lt;p&gt;Nesse ponto, a ação também cumpre um papel importante de dar visibilidade a esse problema. Porque é algo que muitas vezes as vítimas nem se dão conta de que os problemas que podem estar enfrentando têm nexo com a exposição ambiental a agrotóxicos.&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;Em sua avaliação esta ação pode gerar uma reação das indústrias químicas?&lt;/strong&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;O Brasil usa agrotóxicos e vários deles banidos em países civilizados porque nós somos tolerantes, porque nós aceitamos isso, tanto na esfera de governo quanto sociedade mesmo.&lt;/p&gt;
-
-
-
-&lt;p&gt;O objetivo da ação é uma chamada de consciência para os órgãos que, em última análise, são responsáveis pela saúde pública.&lt;/p&gt;
-
-
-
-&lt;p&gt;Como há interesses econômicos, é possível que cada um articule as suas formas de resistir. A atrazina, que foi banida lá da União Europeia, eles arranjam uma forma de continuar, dar uma sobrevida ao produto, buscando mercados mais tolerantes, como é o Brasil e outros países semelhantes ao nosso.&lt;/p&gt;
-
-
-
-&lt;p&gt;A gente é que precisa se mobilizar como sociedade, como governo, para adotar padrão de cautela, conforme são os princípios do direito ambiental, prevenção, precaução, e principalmente, talvez aqui a questão seria de uma progressiva melhoria, e não de continuar indefinidamente com esse modelo.&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;O setor agrícola costuma argumentar que sem determinados princípios ativos não será mais possível produzir. No caso do glifosato, isso também acontece. Em sua avaliação, é possível bani-lo sem impactar a produção agropecuária?&lt;/strong&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;Se os fabricantes não forem incomodados nas suas práticas, até pela inércia, não vai mudar nada. É preciso que, nessa enxurrada que há de registro de novos produtos, se utilize esse marco referencial de encontrar soluções menos agressivas.&lt;/p&gt;
-
-
-
-&lt;p&gt;Então, a diretriz desse lado da luta ambiental e da saúde das pessoas e dos trabalhadores, nem é de uma ruptura de modelo, é uma transição. Mas é preciso iniciar esse movimento, porque a gente está tendo recorde de venda, recorde de registro, recorde de casos de intoxicação e parece que não é possível fazer nada.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;A gente tem comandos constitucionais muito claros no sentido da defesa do meio ambiente das presentes e futuras gerações. Ela está com a função de ditar comportamentos e a gente ter algum esforço como sociedade para que essa situação, primeiro, pare de piorar e, segundo, comece a ter alguma evolução.&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;Em sua avaliação, o Judiciário brasileiro vai ouvir os argumentos do MPT ou só o agronegócio?&lt;/strong&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;O Supremo Tribunal Federal tem dado sinais bem importantes de responsabilidade na pauta socioambiental. E é onde está a nossa maior fé, nesse compromisso que não é de governo, é um compromisso do Estado brasileiro.&lt;/p&gt;
-
-
-
-&lt;p&gt;Não quer dizer que é uma luta simples, mas é importante, necessária, e lembrando que a nossa pauta é a questão do desenvolvimento sustentável. Não quer dizer não desenvolver, mas é desenvolver com uma pauta civilizatória que prestigie a rigidez, a defesa do meio ambiente para as presentes gerações, para as suas necessidades, mas mantendo a viabilidade das gerações futuras.&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;Nos EUA, a Bayer já gastou bilhões de dólares em acordos relacionados ao Roundup. Por que no Brasil a responsabilização judicial ainda é muito menor?&lt;/strong&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;Não é da nossa tradição ter decisões judiciais com valores altos. A gente está usando aqui nessa ação provas indiciárias, estatísticas, epidemiológicas de incidências de alguns problemas que, para efeito preventivo, como é o nosso propósito, tem uma certa simplicidade.&lt;/p&gt;
-
-
-
-&lt;p&gt;A gente tem um problema muito sério de falta de informação, dificuldade de acesso. É um problema complexo, mas o nosso objetivo aqui é mais singelo de prevenção para o futuro, pelo menos nesse momento.&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;A narrativa defendida pela indústria em torno da segurança dos agrotóxicos começa a ruir?&lt;/strong&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;Ela precisa ruir. É compreensível a posição dos fabricantes. Esse é o negócio deles. O problema está do outro lado. É o baixo nível de resposta da sociedade e, eventualmente, de algumas esferas de governo, a esse tipo de situação.&lt;/p&gt;
-
-
-
-&lt;p&gt;Inclusive essa alegação de “uso seguro” é comum em materiais publicitários. A gente vê frases como “sabendo usar não há problema”. Mas isso é uma tremenda ironia de mau gosto, porque quando aparece um problema, a responsabilidade acaba sendo transferida para o trabalhador, como se ele não tivesse “sabido usar”.&lt;/p&gt;
-
-
-
-&lt;p&gt;É fechar os olhos para a realidade imaginar que existe uso seguro nessas condições. Estamos falando de trabalhadores usando equipamentos emborrachados, sob sol forte, poeira e temperaturas que muitas vezes passam dos 40 graus. A máscara dificulta a respiração, o equipamento é extremamente desconfortável e ainda assim se sustenta essa ideia de que o problema seria do trabalhador que não seguiu corretamente as orientações.&lt;/p&gt;
-
-
-
-&lt;p&gt;Não há uso totalmente seguro para agrotóxico. Sempre existe um potencial de dano associado à manipulação e à exposição. E a função do Estado é justamente proteger a saúde da população e dos trabalhadores, adotando medidas de prevenção e precaução.&lt;/p&gt;
-
-
-
-&lt;p&gt;Por isso, a gente insiste na ideia de regressividade da toxicidade: que os novos produtos registrados sejam menos tóxicos do que os já existentes. E que o Brasil não siga sendo visto como um mercado para produtos que o resto do mundo não aceita mais.&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;A ação contra o glifosato pode marcar uma virada no debate sobre agrotóxicos no Brasil?&lt;/strong&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;Sim. Tenho a impressão que, olhando na perspectiva do direito à informação, que é muito relevante para que haja consciência e mobilização, ele é construído em cada espaço desses em que há uma atuação, uma exposição, uma discussão.&lt;/p&gt;
-
-
-		&lt;div data-elementor-type="section" data-elementor-id="129686" class="elementor elementor-129686" data-elementor-post-type="elementor_library"&gt;
-			&lt;a class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-e-type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}" href="https://reporterbrasil.org.br/apoie/"&gt;
-					&lt;div class="e-con-inner"&gt;
-				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-															&lt;img fetchpriority="high" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
-				&lt;/div&gt;
-					&lt;/div&gt;
-				&lt;/a&gt;
-				&lt;/div&gt;
-		
-
-
-
-&lt;p&gt;&lt;strong&gt;25 anos investigando para mudar.&lt;/strong&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;A Repórter Brasil já ajudou a impulsionar leis, fortalecer direitos e combater o trabalho escravo.&lt;/strong&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;Em 2026, fazemos 25 anos — e vem muito mais por aí!&lt;/strong&gt;&lt;/p&gt;
-
-
-		&lt;div data-elementor-type="container" data-elementor-id="75228" class="elementor elementor-75228" data-elementor-post-type="elementor_library"&gt;
-				&lt;div class="elementor-element elementor-element-5e8db1e6 e-flex e-con-boxed e-con e-parent" data-id="5e8db1e6" data-element_type="container" data-e-type="container"&gt;
-					&lt;div class="e-con-inner"&gt;
-		&lt;div class="elementor-element elementor-element-36eb6c91 e-flex e-con-boxed e-con e-child" data-id="36eb6c91" data-element_type="container" data-e-type="container"&gt;
-					&lt;div class="e-con-inner"&gt;
-		&lt;div class="elementor-element elementor-element-6f52f515 e-con-full e-flex e-con e-child" data-id="6f52f515" data-element_type="container" data-e-type="container"&gt;
-				&lt;div class="elementor-element elementor-element-65d9f401 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="65d9f401" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-							&lt;div class="elementor-divider"&gt;
-			&lt;span class="elementor-divider-separator"&gt;
-						&lt;/span&gt;
-		&lt;/div&gt;
-						&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;/div&gt;
-		&lt;div class="elementor-element elementor-element-134a1245 e-flex e-con-boxed e-con e-child" data-id="134a1245" data-element_type="container" data-e-type="container"&gt;
-					&lt;div class="e-con-inner"&gt;
-				&lt;div class="elementor-element elementor-element-10fe55fe elementor-widget elementor-widget-text-editor" data-id="10fe55fe" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-									&lt;p&gt;Leia também&lt;/p&gt;								&lt;/div&gt;
-				&lt;/div&gt;
-					&lt;/div&gt;
-				&lt;/div&gt;
-					&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-3c9495ae elementor-grid-1 leia-tambem elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid" data-id="3c9495ae" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;template_id&amp;quot;:&amp;quot;75221&amp;quot;,&amp;quot;columns&amp;quot;:1,&amp;quot;row_gap&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:10,&amp;quot;sizes&amp;quot;:[]},&amp;quot;_skin&amp;quot;:&amp;quot;post&amp;quot;,&amp;quot;columns_tablet&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;columns_mobile&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;edit_handle_selector&amp;quot;:&amp;quot;[data-elementor-type=\&amp;quot;loop-item\&amp;quot;]&amp;quot;,&amp;quot;row_gap_tablet&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]},&amp;quot;row_gap_mobile&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]}}" data-widget_type="loop-grid.post"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-							&lt;div class="e-loop-nothing-found-message"&gt;
-		&lt;/div&gt;
-						&lt;/div&gt;
-				&lt;/div&gt;
-					&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;/div&gt;
-		
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Bruna Borges</dc:creator><pubDate>Wed, 27 May 2026 12:21:20 +0000</pubDate><guid>https://reporterbrasil.org.br/2026/05/nao-existe-uso-totalmente-seguro-procurador-banir-glifosato/</guid><guid isPermaLink="true">https://reporterbrasil.org.br/2026/05/nao-existe-uso-totalmente-seguro-procurador-banir-glifosato/</guid></item></channel></rss>
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Poliana Dallabrida Wisentainer</dc:creator><pubDate>Mon, 01 Jun 2026 08:00:00 +0000</pubDate><guid>https://reporterbrasil.org.br/2026/06/empresarios-garimpeiros-ouro-ilegal-receita/</guid><guid isPermaLink="true">https://reporterbrasil.org.br/2026/06/empresarios-garimpeiros-ouro-ilegal-receita/</guid></item></channel></rss>
