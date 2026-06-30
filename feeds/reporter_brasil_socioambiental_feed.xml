@@ -1,5 +1,274 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel xmlns:atom="http://www.w3.org/2005/Atom"><title>Repórter Brasil Socioambiental</title><link>https://reporterbrasil.org.br/jornalismo/socioambiental/</link><description>Últimos artigos de Repórter Brasil Socioambiental</description><atom:link href="https://paulofeh.github.io/rss-de-valor/feeds/rep%C3%B3rter_brasil_socioambiental_feed.xml" rel="self"/><language>pt-br</language><lastBuildDate>Wed, 24 Jun 2026 09:00:00 +0000</lastBuildDate><ttl>60</ttl><item><title>Unicamp e revista científica abrem apuração sobre estudo financiado por sojeiros sobre agrotóxico</title><link>https://reporterbrasil.org.br/2026/06/unicamp-apuracao-sobre-estudo-financiado-por-sojeiros-agrotoxico/</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel xmlns:atom="http://www.w3.org/2005/Atom"><title>Repórter Brasil Socioambiental</title><link>https://reporterbrasil.org.br/jornalismo/socioambiental/</link><description>Últimos artigos de Repórter Brasil Socioambiental</description><atom:link href="https://paulofeh.github.io/rss-de-valor/feeds/rep%C3%B3rter_brasil_socioambiental_feed.xml" rel="self"/><language>pt-br</language><lastBuildDate>Tue, 30 Jun 2026 09:00:00 +0000</lastBuildDate><ttl>60</ttl><item><title>Como frigoríficos brasileiros influenciam ciência e políticas alimentares nos EUA</title><link>https://reporterbrasil.org.br/2026/06/como-frigorificos-brasileiros-influenciam-ciencia-politicas-alimentares-eua/</link><description>
+&lt;p&gt;Um estudo conduzido por universidades australianas mostra a influência da indústria da carne em pesquisas científicas favoráveis ao consumo de proteína animal. Os principais &lt;a href="https://reporterbrasil.org.br/tags/frigorificos/" target="_blank" rel="noreferrer noopener"&gt;frigoríficos&lt;/a&gt; brasileiros, JBS e Marfrig, além de outras multinacionais, integram associações que financiam pesquisas para orientar políticas públicas de alimentação nos Estados Unidos.&lt;br&gt;&lt;br&gt;A &lt;a href="https://onlinelibrary.wiley.com/doi/epdf/10.1111/obr.70153" target="_blank" rel="noreferrer noopener"&gt;pesquisa&lt;/a&gt; analisou 500 artigos científicos publicados entre 2014 e 2023 sobre os impactos do consumo de carne na saúde humana. Os pesquisadores concluíram que trabalhos com vínculos com a indústria da carne têm 16 vezes mais chance de apresentar conclusões favoráveis ao consumo do produto do que pesquisas independentes. O estudo foi feito pelas universidades University of Queensland, Deakin University e University of Queensland, e publicado em abril na revista Obesity Reviews.&lt;/p&gt;
+
+
+
+&lt;p&gt;Entre os estudos financiados pela indústria, 75% apresentaram conclusões positivas ao consumo de proteína animal. Entre aqueles financiados por fontes independentes, a proporção caiu para 10%.&lt;/p&gt;
+
+
+
+&lt;p&gt;&amp;#8220;Os resultados reforçam a necessidade de cautela na interpretação de pesquisas com vínculos com a indústria, que devem ser avaliadas à luz do conjunto mais amplo de evidências científicas disponíveis&amp;#8221;, afirmam os pesquisadores no estudo.&lt;/p&gt;
+
+
+		&lt;div data-elementor-type="section" data-elementor-id="77670" class="elementor elementor-77670" data-elementor-post-type="elementor_library"&gt;
+			&lt;div class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-e-type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}"&gt;
+					&lt;div class="e-con-inner"&gt;
+				&lt;div class="elementor-element elementor-element-386385d elementor-widget elementor-widget-heading" data-id="386385d" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+					&lt;h2 class="elementor-heading-title elementor-size-default"&gt;ASSINE NOSSA NEWSLETTER&lt;/h2&gt;				&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class="elementor-element elementor-element-6546917 elementor-widget elementor-widget-html" data-id="6546917" data-element_type="widget" data-e-type="widget" data-widget_type="html.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+					&lt;script&gt;
+document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll('.form-news button[type="submit"]').forEach(function(botao) {
+        botao.classList.add("envio_newsletter_materia");
+    });
+});
+&lt;/script&gt;				&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class="elementor-element elementor-element-8c2e333 form-news elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="8c2e333" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;button_width&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_next_label&amp;quot;:&amp;quot;Next&amp;quot;,&amp;quot;step_previous_label&amp;quot;:&amp;quot;Previous&amp;quot;,&amp;quot;button_width_mobile&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_type&amp;quot;:&amp;quot;number_text&amp;quot;,&amp;quot;step_icon_shape&amp;quot;:&amp;quot;circle&amp;quot;}" data-widget_type="form.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
+			&lt;input type="hidden" name="post_id" value="77670"/&gt;
+			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
+			&lt;input type="hidden" name="referer_title" value="Adolescentes trabalham em aplicativos de entrega, como o iFood" /&gt;
+
+							&lt;input type="hidden" name="queried_id" value="94244"/&gt;
+			
+			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
+								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
+												&lt;label for="form-field-email" class="elementor-field-label elementor-screen-only"&gt;
+								Email							&lt;/label&gt;
+														&lt;input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="email" required="required"&gt;
+											&lt;/div&gt;
+								&lt;div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-20 e-form__buttons elementor-sm-20"&gt;
+					&lt;button class="elementor-button elementor-size-sm" type="submit"&gt;
+						&lt;span class="elementor-button-content-wrapper"&gt;
+															&lt;span class="elementor-button-icon"&gt;
+									&lt;i aria-hidden="true" class="fas fa-long-arrow-alt-right"&gt;&lt;/i&gt;																			&lt;span class="elementor-screen-only"&gt;Submit&lt;/span&gt;
+																	&lt;/span&gt;
+																				&lt;/span&gt;
+					&lt;/button&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/form&gt;
+						&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;/div&gt;
+		
+
+
+
+&lt;p&gt;A relevância dessas pesquisas ultrapassa o meio acadêmico e chega às políticas públicas. Segundo o levantamento, elas têm influenciado programas de alimentação escolar, campanhas de saúde e até o novo Guia Alimentar dos Estados Unidos. Em comum, essas iniciativas privilegiam o consumo de proteínas de origem animal e refletem “mais ideologia do que ciência”, de acordo com a professora emérita da Universidade de Nova York &lt;a href="https://www.foodpolitics.com/2026/01/the-maha-2025-2030-dietary-guidelines-have-arrived-cheerful-muddled-contradictory-ideological-retro/" target="_blank" rel="noreferrer noopener"&gt;Marion Nestle&lt;/a&gt;, em crítica ao novo guia alimentar norteamericano.&lt;/p&gt;
+
+
+
+&lt;h2 class="wp-block-heading"&gt;As associações da indústria da carne e os estudos nutricionais&lt;/h2&gt;
+
+
+
+&lt;p&gt;Em vez de financiar diretamente as pesquisas, as empresas do setor canalizam recursos em associações e organizações setoriais para promover o consumo de carne. Dos 500 trabalhos avaliados, 63 receberam recursos dessa indústria.&lt;br&gt;&lt;br&gt;Entre os principais financiadores está o Beef Checkoff, programa criado por lei federal norteamericana para promover o consumo de carne. Mantido por contribuição obrigatória cobrada sobre a comercialização de gado, o programa destina milhões de dólares por ano a campanhas publicitárias, ações de comunicação e pesquisas científicas relacionadas ao setor.&lt;/p&gt;
+
+
+
+&lt;p&gt;Outra entidade financiadora é a NCBA (National Cattlemen’s Beef Association), influente no setor e uma das &lt;a href="https://www.beefboard.org/2025/10/27/2026-beef-checkoff-program-funding/" target="_blank" rel="noreferrer noopener"&gt;principais beneficiárias da Beef Checkoff&lt;/a&gt;. Em 2026, a organização recebeu US$ 25,1 milhões (R$ 130 milhões em valores atuais) do programa de arrecadações — quase dois terços de todo o orçamento distribuído pelo programa. &lt;/p&gt;
+
+
+
+&lt;p&gt;&amp;#8220;Usar associações é uma estratégia para que as companhias evitem aparecer como diretamente responsáveis pelo financiamento, algo já descrito em pesquisas sobre outros setores&amp;#8221;, afirma Navid Teimouri, pesquisador da Escola de Saúde Pública da Universidade de Queensland, na Austrália, e um dos autores do estudo.&lt;/p&gt;
+
+
+
+&lt;p&gt;Paula Johns, diretora-executiva da ACT Promoção da Saúde, organização que atua na defesa de políticas públicas voltadas à alimentação saudável , avalia que o lobby e o poder econômico das associações fortalecem a capacidade de influência política do setor. &amp;#8220;Uma coalizão maior transmite a ideia de que muitas vozes defendem a mesma posição, aumentando a legitimidade política daquele discurso&amp;#8221;, diz.&lt;/p&gt;
+
+
+
+&lt;p&gt;&amp;#8220;Quando uma indústria começa a ter uma imagem ruim perante a sociedade, ela tende a se respaldar mais nas associações&amp;#8221;, complementa.&lt;/p&gt;
+
+
+
+&lt;p&gt;A análise dos estudos nutricionais também identificou falhas de transparência. Dos 63 estudos financiados pela indústria, apenas 33 declararam conflito de interesses. Portanto, quase metade das pesquisas patrocinadas pelo setor não informou aos leitores a existência desse vínculo.&lt;/p&gt;
+
+
+
+&lt;p&gt;Para os autores, esse cenário sugere que a influência da indústria pode ser ainda maior do que a identificada pela revisão. Estudos com vínculos não declarados ou pouco transparentes tiveram três vezes mais chance de apresentar conclusões favoráveis ao consumo de carne do que aqueles sem qualquer ligação identificada com o setor, aponta o estudo.&lt;/p&gt;
+
+
+
+&lt;p&gt;A NCBA e o Beef Checkoff foram procurados pela &lt;strong&gt;Repórter Brasil&lt;/strong&gt;, por e-mail, mas não retornaram até a publicação desta reportagem.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;h2 class="wp-block-heading"&gt;JBS e Marfrig têm assento em organizações que moldam o debate sobre carne&lt;/h2&gt;
+
+
+
+&lt;p&gt;Empresas brasileiras como a JBS USA e a National Beef — controlada pela MBRF, junção entre BRF e Marfrig — ocupam posições estratégicas nas organizações que financiam pesquisas. As duas empresas fazem parte das chamadas Big Four Meatpackers, grupo responsável por cerca de 85% do processamento de carne bovina nos Estados Unidos.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;p&gt;A JBS e a National Beef integram o &lt;a href="https://www.ncba.org/about/affiliates-industry-organizations" target="_blank" rel="noreferrer noopener"&gt;Product Council da NCBA&lt;/a&gt;, que aparece entre os financiadores mais frequentes dos estudos analisados pela pesquisa.&lt;/p&gt;
+
+
+
+&lt;p&gt;As empresas brasileiras também participam do Meat Institute, principal associação dos frigoríficos norteamericanos. Wesley Batista Filho, da JBS Foods USA, e Tim Klein, da National Beef, ocupam &lt;a href="https://www.meatinstitute.org/sites/default/files/documents/Meat%20Institute-Annual%20Report-2026.pdf" target="_blank" rel="noreferrer noopener"&gt;assentos no conselho executivo da entidade&lt;/a&gt;.&lt;/p&gt;
+
+
+
+&lt;p&gt;O Meat Institute também controla a Meat Foundation, organização voltada ao financiamento de pesquisas e iniciativas educacionais. Em 2026, a fundação recebeu US$ 650 mil (R$ 3,4 milhões) do Beef Checkoff para estudos relacionados à carne bovina. A National Beef também aparece entre as empresas doadoras da organização em 2025.&lt;/p&gt;
+
+
+
+&lt;p&gt;Somadas, NCBA, Meat Institute e Meat Foundation receberam cerca de 72% de todo o orçamento do Beef Checkoff previsto para 2026, concentrando a maior parte dos recursos destinados à promoção da carne e ao financiamento de pesquisas nos Estados Unidos.&lt;/p&gt;
+
+
+
+&lt;p&gt;Para Johns, o financiamento privado não significa necessariamente interferência direta nos resultados, mas pode influenciar quais perguntas são investigadas. &amp;#8220;Não existe almoço grátis. Muitas vezes, a influência está na formulação da pergunta: você está investigando o tema mais relevante ou uma questão que acaba desviando do assunto central?&amp;#8221;, questiona.&lt;/p&gt;
+
+
+
+&lt;p&gt;A diretora-executiva da ACT também chama atenção para a concentração de poder em grandes organizações do setor. &amp;#8220;Sempre me preocupa quando um setor reúne tanto poder econômico e político, porque isso reduz os pesos e contrapesos que deveriam existir em uma democracia&amp;#8221;, diz.&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Leia também &lt;br&gt;:: &lt;/em&gt;&lt;/strong&gt;&lt;a href="https://reporterbrasil.org.br/2024/04/jbs-burger-king-investem-limpar-imagem-pecuaria-crise-clima/" target="_blank" rel="noreferrer noopener"&gt;&lt;strong&gt;&lt;em&gt;JBS e Burger King pagam estudos que minimizam culpa da pecuária na crise do clima&lt;br&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;Para um dos autores do estudo que revisou as pesquisas nutricionais, Navid Teimouri, o resultado foi mais expressivo do que o esperado. “Esperávamos encontrar uma associação, mas o índice de 16 [vezes mais chance de conclusões favoráveis] foi surpreendentemente alto. Em outros setores, esse indicador costuma variar entre 3 e, no máximo, 8”, afirmou à &lt;strong&gt;Repórter Brasil&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+&lt;p&gt;Segundo Teimouri, a motivação para o estudo foi justamente a ausência de pesquisas sobre a atuação da indústria da carne na produção científica. Setores como os de combustíveis fósseis, farmacêutico e tabaco já foram amplamente investigados por estratégias para influenciar a ciência e ampliar a circulação de narrativas favoráveis aos seus interesses, mas o mesmo ainda não havia acontecido com a carne.&lt;/p&gt;
+
+
+
+&lt;p&gt;“Diante do enorme poder financeiro e estrutural da indústria global da carne, queríamos saber se ela também tenta influenciar o ambiente científico de maneira semelhante à de outros setores”, pontua.&lt;/p&gt;
+
+
+
+&lt;p&gt;A National Beef (MBRF) afirmou que, “pelo escopo da pauta”, entende que o tema é setorial e que as questões deveriam ser direcionadas às entidades citadas. A JBS, o Meat Institute, a Meat Foundation, o Beef Checkoff e a National Cattlemen&amp;#8217;s Beef Association foram procurados nas últimas duas semanas por e-mail, mas não se manifestaram até a publicação desta reportagem.&lt;/p&gt;
+
+
+
+&lt;h2 class="wp-block-heading"&gt;Big Four são investigadas por práticas anticompetitivas&lt;/h2&gt;
+
+
+
+&lt;p&gt;Enquanto recorrem a associações para defender os interesses do setor, as maiores empresas da carne também enfrentam crescente escrutínio nos Estados Unidos. As Big Four são alvo de &lt;a href="https://www.bbc.com/portuguese/articles/cwy2npjd90zo" target="_blank" rel="noreferrer noopener"&gt;uma investigação antitruste&lt;/a&gt;. Os investigadores querem apurar se a elevada concentração do setor favoreceu práticas anticompetitivas e distorções nos preços da carne no país.&lt;/p&gt;
+
+
+
+&lt;p&gt;Durante uma coletiva de imprensa no Departamento de Justiça, em Washington, Peter Navarro, conselheiro especial para Comércio e Manufatura do governo dos Estados Unidos, disse que os frigoríficos brasileiros, em particular a JBS, &amp;#8220;distribuem milhões de dólares ao sistema político americano como se fossem balas&amp;#8221;. Para Navarro, esse seria um dos motivos pelos quais a indústria conseguiu manter por tanto tempo um nível de concentração incompatível com um mercado competitivo. Com o rebanho bovino americano no &lt;a href="https://www.reuters.com/world/us/trump-administration-is-fine-tuning-executive-actions-ease-us-beef-shortages-2026-05-12/" target="_blank" rel="noreferrer noopener"&gt;menor nível desde a década de 1950&lt;/a&gt;, os frigoríficos dos Estados Unidos têm dependido cada vez mais do fornecimento de países como o Brasil. &lt;/p&gt;
+
+
+
+&lt;p&gt;A influência da companhia também alcança a esfera política. Segundo &lt;a href="https://www.reuters.com/world/americas/brazils-billionaire-batista-helped-broker-lulatrump-meeting-source-says-2026-05-06/" target="_blank" rel="noreferrer noopener"&gt;informações divulgadas pela imprensa&lt;/a&gt;, Joesley Batista, um dos donos da JBS, atuou como intermediador do encontro entre Lula e Donald Trump na Casa Branca, realizado poucos dias após o anúncio da investigação antitruste. A proximidade com a nova administração já havia chamado atenção em 2025, quando a Pilgrim&amp;#8217;s Pride, controlada pela JBS, tornou-se a &lt;a href="https://reporterbrasil.org.br/2025/04/ambientalistas-criticam-jbs-bolsa-nova-york/" target="_blank" rel="noreferrer noopener"&gt;maior doadora individual da cerimônia de posse de Trump&lt;/a&gt;, com uma contribuição de US$ 5 milhões.&lt;/p&gt;
+
+
+
+&lt;h2 class="wp-block-heading"&gt;A disputa pelo Guia Alimentar dos EUA&lt;/h2&gt;
+
+
+
+&lt;p&gt;O &lt;a href="https://cdn.realfood.gov/Scientific%20Report.pdf" target="_blank" rel="noreferrer noopener"&gt;novo Guia Alimentar dos Estados Unidos &lt;/a&gt;é um exemplo. O documento reforça o consumo de proteínas, especialmente de origem animal, em um país onde, segundo especialistas, a ingestão proteica já supera as necessidades fisiológicas e onde parte significativa desse consumo vem de alimentos ultraprocessados.&lt;/p&gt;
+
+
+
+&lt;p&gt;Em &lt;a href="https://x.com/RobertKennedyJc/status/2010049827577688167" target="_blank" rel="noreferrer noopener"&gt;publicação nas redes sociais&lt;/a&gt;, o secretário de Saúde dos Estados Unidos, Robert F. Kennedy Jr., comemorou o novo guia afirmando que &amp;#8220;a carne voltou&amp;#8221;, ao lado de bacon, manteiga, leite integral e ovos, e declarou que &amp;#8220;a guerra contra os alimentos reais e ricos em nutrientes acabou&amp;#8221;.&lt;/p&gt;
+
+
+
+&lt;p&gt;Mas o guia também recebeu críticas. &lt;a href="https://www.foodpolitics.com/2026/01/the-maha-2025-2030-dietary-guidelines-have-arrived-cheerful-muddled-contradictory-ideological-retro/" target="_blank" rel="noreferrer noopener"&gt;Em seu blog&lt;/a&gt;, a professora emérita da Universidade de Nova York Marion Nestle analisou as diretrizes do novo guia e afirmou que representam &amp;#8220;grandes vitórias para as indústrias da carne e dos laticínios&amp;#8221;.&lt;/p&gt;
+
+
+
+&lt;p&gt;Além disso, &lt;a href="https://cdn.realfood.gov/Scientific%20Report.pdf" target="_blank" rel="noreferrer noopener"&gt;declarações públicas de conflitos de interesse&lt;/a&gt; mostram que três dos nove especialistas responsáveis por revisar as evidências científicas utilizadas pelo governo mantinham vínculos financeiros com a NCBA. &lt;/p&gt;
+
+
+
+&lt;p&gt;Entre eles estão Donald Layman, professor emérito da Universidade de Illinois, que declarou receber honorários e ter realizado consultorias à NCBA, e Heather Leidy, professora da Universidade do Texas em Austin, que informou ter recebido recursos da associação para a realização de pesquisas e participou de iniciativas financiadas pelo Beef Checkoff voltadas à promoção do consumo de carne e proteínas animais.&lt;/p&gt;
+
+
+
+&lt;p&gt;Segundo reportagem do jornal estadunidense &lt;a href="https://www.nytimes.com/2026/01/09/well/dietary-guidelines-conflicts-of-interest.html" target="_blank" rel="noreferrer noopener"&gt;New York Times&lt;/a&gt;, Layman e Leidy foram os especialistas responsáveis por sintetizar as evidências sobre proteínas utilizadas pelo governo local. Em entrevista ao jornal, Layman afirmou manter um contrato para revisar pedidos de financiamento da NCBA, atividade pela qual recebe cerca de US$ 5 mil por ano (cerca de R$ X mil), e disse que as recomendações finais do guia ficaram &amp;#8220;muito próximas&amp;#8221; das conclusões apresentadas pelos dois pesquisadores.&lt;/p&gt;
+
+
+
+&lt;p&gt;O processo também foi alvo de críticas por mudanças na governança. Diferentemente das edições anteriores, o governo Trump deixou de utilizar o relatório científico elaborado durante a gestão de Joe Biden e nomeou um novo comitê para produzir as recomendações finais em poucos meses. Organizações como o Center for Science in the Public Interest e a American Society for Nutrition questionaram a transparência do processo e a participação de especialistas com vínculos financeiros com entidades da indústria da carne.&lt;/p&gt;
+
+
+
+&lt;p&gt;&amp;#8220;É um clássico. Há décadas existem relatos de lobby do setor da carne dos Estados Unidos para impedir que guias alimentares recomendem a redução do consumo de carne&amp;#8221;, finaliza Johns.&lt;/p&gt;
+
+
+		&lt;div data-elementor-type="section" data-elementor-id="129686" class="elementor elementor-129686" data-elementor-post-type="elementor_library"&gt;
+			&lt;a class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-e-type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}" href="https://reporterbrasil.org.br/apoie/"&gt;
+					&lt;div class="e-con-inner"&gt;
+				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+															&lt;img fetchpriority="high" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/a&gt;
+				&lt;/div&gt;
+		
+
+
+
+&lt;p&gt;&lt;strong&gt;25 anos investigando para mudar.&lt;/strong&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;A Repórter Brasil já ajudou a impulsionar leis, fortalecer direitos e combater o trabalho escravo.&lt;/strong&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Em 2026, fazemos 25 anos — e vem muito mais por aí!&lt;/strong&gt;&lt;/p&gt;
+
+
+		&lt;div data-elementor-type="container" data-elementor-id="75228" class="elementor elementor-75228" data-elementor-post-type="elementor_library"&gt;
+				&lt;div class="elementor-element elementor-element-5e8db1e6 e-flex e-con-boxed e-con e-parent" data-id="5e8db1e6" data-element_type="container" data-e-type="container"&gt;
+					&lt;div class="e-con-inner"&gt;
+		&lt;div class="elementor-element elementor-element-36eb6c91 e-flex e-con-boxed e-con e-child" data-id="36eb6c91" data-element_type="container" data-e-type="container"&gt;
+					&lt;div class="e-con-inner"&gt;
+		&lt;div class="elementor-element elementor-element-6f52f515 e-con-full e-flex e-con e-child" data-id="6f52f515" data-element_type="container" data-e-type="container"&gt;
+				&lt;div class="elementor-element elementor-element-65d9f401 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="65d9f401" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+							&lt;div class="elementor-divider"&gt;
+			&lt;span class="elementor-divider-separator"&gt;
+						&lt;/span&gt;
+		&lt;/div&gt;
+						&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;/div&gt;
+		&lt;div class="elementor-element elementor-element-134a1245 e-flex e-con-boxed e-con e-child" data-id="134a1245" data-element_type="container" data-e-type="container"&gt;
+					&lt;div class="e-con-inner"&gt;
+				&lt;div class="elementor-element elementor-element-10fe55fe elementor-widget elementor-widget-text-editor" data-id="10fe55fe" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+									&lt;p&gt;Leia também&lt;/p&gt;								&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class="elementor-element elementor-element-3c9495ae elementor-grid-1 leia-tambem elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid" data-id="3c9495ae" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;template_id&amp;quot;:&amp;quot;75221&amp;quot;,&amp;quot;columns&amp;quot;:1,&amp;quot;row_gap&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:10,&amp;quot;sizes&amp;quot;:[]},&amp;quot;_skin&amp;quot;:&amp;quot;post&amp;quot;,&amp;quot;columns_tablet&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;columns_mobile&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;edit_handle_selector&amp;quot;:&amp;quot;[data-elementor-type=\&amp;quot;loop-item\&amp;quot;]&amp;quot;,&amp;quot;row_gap_tablet&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]},&amp;quot;row_gap_mobile&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]}}" data-widget_type="loop-grid.post"&gt;
+				&lt;div class="elementor-widget-container"&gt;
+							&lt;div class="e-loop-nothing-found-message"&gt;
+		&lt;/div&gt;
+						&lt;/div&gt;
+				&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;/div&gt;
+		
+
+
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Bruna Borges</dc:creator><pubDate>Tue, 30 Jun 2026 09:00:00 +0000</pubDate><guid>https://reporterbrasil.org.br/2026/06/como-frigorificos-brasileiros-influenciam-ciencia-politicas-alimentares-eua/</guid><guid isPermaLink="true">https://reporterbrasil.org.br/2026/06/como-frigorificos-brasileiros-influenciam-ciencia-politicas-alimentares-eua/</guid></item><item><title>Unicamp e revista científica abrem apuração sobre estudo financiado por sojeiros sobre agrotóxico</title><link>https://reporterbrasil.org.br/2026/06/unicamp-apuracao-sobre-estudo-financiado-por-sojeiros-agrotoxico/</link><description>
 &lt;p&gt;&lt;strong&gt;A UNICAMP&lt;/strong&gt; (Universidade Estadual de Campinas) e a revista científica IAJMH (InterAmerican Journal of Medicine and Health) abriram procedimentos para apurar possíveis conflitos de interesses em um estudo que investigou os efeitos da exposição do glifosato, um dos agrotóxicos mais utilizados no mundo, sobre trabalhadores rurais. A decisão ocorre &lt;a href="https://reporterbrasil.org.br/2020/07/unicamp-suspende-pesquisa-que-poderia-liberar-agrotoxico-letal/" target="_blank" rel="noreferrer noopener"&gt;após investigação&lt;/a&gt; da &lt;strong&gt;Repórter Brasil.&lt;/strong&gt;&lt;/p&gt;
 
 
@@ -2301,263 +2570,4 @@ document.addEventListener("DOMContentLoaded", function() {
 				&lt;/div&gt;
 				&lt;/div&gt;
 		
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Bruna Borges</dc:creator><pubDate>Wed, 27 May 2026 12:21:20 +0000</pubDate><guid>https://reporterbrasil.org.br/2026/05/nao-existe-uso-totalmente-seguro-procurador-banir-glifosato/</guid><guid isPermaLink="true">https://reporterbrasil.org.br/2026/05/nao-existe-uso-totalmente-seguro-procurador-banir-glifosato/</guid></item><item><title>Donos de fornecedora de batata frita para Assaí e Madero têm histórico de multas ambientais</title><link>https://reporterbrasil.org.br/2026/05/fornecedora-assai-madero-multas-ambientais/</link><description>
-&lt;p&gt;&lt;strong&gt;A BEM BRASIL&lt;/strong&gt;, gigante brasileira do ramo de batata congelada pré-frita, tem entre seus fornecedores produtores rurais alvos de multas e embargos ambientais — incluindo dois de seus donos.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;A empresa vende para grandes varejistas do país como Assaí e Atacadão e abastece grandes redes de fast food, como Madero, Bob’s e Johnny Rockets. A lista de fornecedores da Bem Brasil consta em uma oferta pública, de outubro de 2025, de um CRA (Certificado de Recebíveis do Agronegócio), título financeiro negociado no mercado de capitais.&lt;br&gt;&lt;br&gt;Segundo o documento que explica a oferta do CRA, o dinheiro obtido com a emissão do título seria usado “integral e exclusivamente” para comprar batatas inglesas dos produtores citados.&lt;/p&gt;
-
-
-
-&lt;p&gt;Entre eles, estão os acionistas da empresa João Emílio Rocheto e José Paulo Rocheto, dois dos três donos do Grupo Rocheto, controlador da Bem Brasil e fornecedor de 70% das compras de batata in natura, de acordo com a oferta pública.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;Segundo informações do site da Bem Brasil, ambos integram o Conselho Administrativo da empresa — João Emílio ocupa o cargo de presidente.&amp;nbsp;&lt;/p&gt;
-
-
-		&lt;div data-elementor-type="section" data-elementor-id="77670" class="elementor elementor-77670" data-elementor-post-type="elementor_library"&gt;
-			&lt;div class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-e-type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}"&gt;
-					&lt;div class="e-con-inner"&gt;
-				&lt;div class="elementor-element elementor-element-386385d elementor-widget elementor-widget-heading" data-id="386385d" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-					&lt;h2 class="elementor-heading-title elementor-size-default"&gt;ASSINE NOSSA NEWSLETTER&lt;/h2&gt;				&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-6546917 elementor-widget elementor-widget-html" data-id="6546917" data-element_type="widget" data-e-type="widget" data-widget_type="html.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-					&lt;script&gt;
-document.addEventListener("DOMContentLoaded", function() {
-    document.querySelectorAll('.form-news button[type="submit"]').forEach(function(botao) {
-        botao.classList.add("envio_newsletter_materia");
-    });
-});
-&lt;/script&gt;				&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-8c2e333 form-news elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="8c2e333" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;button_width&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_next_label&amp;quot;:&amp;quot;Next&amp;quot;,&amp;quot;step_previous_label&amp;quot;:&amp;quot;Previous&amp;quot;,&amp;quot;button_width_mobile&amp;quot;:&amp;quot;20&amp;quot;,&amp;quot;step_type&amp;quot;:&amp;quot;number_text&amp;quot;,&amp;quot;step_icon_shape&amp;quot;:&amp;quot;circle&amp;quot;}" data-widget_type="form.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-							&lt;form class="elementor-form" method="post" name="New Form" aria-label="New Form"&gt;
-			&lt;input type="hidden" name="post_id" value="77670"/&gt;
-			&lt;input type="hidden" name="form_id" value="8c2e333"/&gt;
-			&lt;input type="hidden" name="referer_title" value="Adolescentes trabalham em aplicativos de entrega, como o iFood" /&gt;
-
-							&lt;input type="hidden" name="queried_id" value="94244"/&gt;
-			
-			&lt;div class="elementor-form-fields-wrapper elementor-labels-"&gt;
-								&lt;div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-80 elementor-field-required"&gt;
-												&lt;label for="form-field-email" class="elementor-field-label elementor-screen-only"&gt;
-								Email							&lt;/label&gt;
-														&lt;input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="email" required="required"&gt;
-											&lt;/div&gt;
-								&lt;div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-20 e-form__buttons elementor-sm-20"&gt;
-					&lt;button class="elementor-button elementor-size-sm" type="submit"&gt;
-						&lt;span class="elementor-button-content-wrapper"&gt;
-															&lt;span class="elementor-button-icon"&gt;
-									&lt;i aria-hidden="true" class="fas fa-long-arrow-alt-right"&gt;&lt;/i&gt;																			&lt;span class="elementor-screen-only"&gt;Submit&lt;/span&gt;
-																	&lt;/span&gt;
-																				&lt;/span&gt;
-					&lt;/button&gt;
-				&lt;/div&gt;
-			&lt;/div&gt;
-		&lt;/form&gt;
-						&lt;/div&gt;
-				&lt;/div&gt;
-					&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;/div&gt;
-		
-
-
-
-&lt;p&gt;Em 2024 e 2025, eles receberam multas ambientais que somam mais de R$ 200 mil, segundo informações públicas do Sisema (Sistema Estadual de Meio Ambiente e Recursos Hídricos de Minas Gerais) consultadas até a publicação desta reportagem.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;As sanções foram motivadas, no caso de João Emílio, por operar atividade rural “potencialmente poluidora” sem licenciamento. José Paulo, por sua vez, foi multado por suprimir vegetação sem autorização do órgão ambiental — inclusive em APP (Área de Preservação Permanente).&lt;/p&gt;
-
-
-
-&lt;p&gt;Procurados, a Bem Brasil e os irmãos Rocheto afirmaram que a companhia tem um sistema estruturado de rastreabilidade que “garante o monitoramento das matérias-primas desde a origem até a unidade industrial, com total visibilidade sobre fornecedores e práticas adotadas”. &lt;/p&gt;
-
-
-
-&lt;p&gt;Também disseram que seus fornecedores passam por “rigoroso processo de homologação, incluindo verificação de conformidade e regularidade junto aos órgãos ambientais”.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;Ainda segundo a nota da Bem Brasil, a companhia afirmou que, ao identificar “qualquer potencial de não conformidade, a empresa atua de forma diligente junto aos fornecedores para a devida apuração dos fatos, adoção de medidas corretivas e regularização das situações perante os órgãos competentes”.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;A companhia e os irmãos Rocheto não esclareceram se as propriedades autuadas pelo órgão ambiental de Minas Gerais fornecem batata à Bem Brasil. &lt;a href="https://reporterbrasil.org.br/2026/05/posicionamentos-para-reportagem-sobre-fornecedores-da-bem-brasil-com-multas-ambientais/" target="_blank" rel="noreferrer noopener"&gt;O posicionamento completo pode ser lido aqui&lt;/a&gt;.&lt;/p&gt;
-
-
-
-&lt;h2 class="wp-block-heading"&gt;Mais sanções ambientais&lt;/h2&gt;
-
-
-
-&lt;p&gt;Também de acordo com informações do Sisema, outro fornecedor da Bem Brasil sancionado por danos ambientais é Antonio Roberto Bergamasco, ex-prefeito de Perdizes (2021-2024), município mineiro onde a empresa tem fábrica.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;Em 2024, Bergamasco foi multado em R$ 118 mil por operar “atividade potencialmente poluidora ou degradadora do meio ambiente sem autorização”. Em 2023, ele recebeu duas multas — nos valores de R$ 1,9 milhão e R$ 200 mil — e teve áreas embargadas (proibidas para uso).&lt;/p&gt;
-
-
-
-&lt;p&gt;Procurado pela &lt;strong&gt;Repórter Brasil&lt;/strong&gt;, Bergamasco afirmou, por meio de seus advogados, que firmou um TAC (Termo de Ajustamento de Conduta) com a Feam (Fundação Estadual de Meio Ambiente), órgão do governo mineiro responsável por executar a política de regularização e licenciamento ambiental no estado.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;De acordo com a defesa do produtor, o acordo teria autorizado a continuidade das atividades concomitantemente ao processo de regularização ambiental. Ainda segundo o posicionamento, atualmente não haveria mais embargos em nome de Bergamasco.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;Procurada, a assessoria da Feam não respondeu até o fechamento desta reportagem.&lt;/p&gt;
-
-
-
-&lt;p&gt;Sobre o cultivo de batata, os advogados de Bergamasco afirmaram que o plantio teria se iniciado em abril de 2025, “em momento posterior a todas as autuações mencionadas e já inteiramente sob o amparo do TAC vigente, que permite a continuidade adequada de plantio deste gênero”. &lt;a href="https://reporterbrasil.org.br/2026/05/posicionamentos-para-reportagem-sobre-fornecedores-da-bem-brasil-com-multas-ambientais/" target="_blank" rel="noreferrer noopener"&gt;A resposta completa pode ser lida aqui&lt;/a&gt;.&lt;/p&gt;
-
-
-
-&lt;figure class="wp-block-image size-large"&gt;&lt;img loading="lazy" decoding="async" width="1024" height="613" src="https://reporterbrasil.org.br/wp-content/uploads/2026/05/batata-valter-Campanato-Agencia-Brasil-1024x613.webp" alt="Dinheiro obtido com a venda do título oferecido pela Bem Brasil seria usado para comprar batatas inglesas dos produtores com histórico de multas ambientais (Foto: Valter Campanato/Agência Brasil)" class="wp-image-130436" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/05/batata-valter-Campanato-Agencia-Brasil-1024x613.webp 1024w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/batata-valter-Campanato-Agencia-Brasil-300x179.webp 300w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/batata-valter-Campanato-Agencia-Brasil-768x459.webp 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/batata-valter-Campanato-Agencia-Brasil.webp 1170w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Dinheiro obtido com a venda do título oferecido pela Bem Brasil seria usado para comprar batatas inglesas dos produtores com histórico de multas ambientais (Foto: Valter Campanato/Agência Brasil)&lt;/figcaption&gt;&lt;/figure&gt;
-
-
-
-&lt;p&gt;Também listado na oferta pública de CRA da Bem Brasil como fornecedor de batata, o produtor rural Vicente Roxo Nobre Dias teve duas áreas embargadas em 2024.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;De acordo com o sistema de consulta pública do Ibama (Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis), ele desmatou, sem autorização, um total de 4,1 hectares em uma fazenda na zona rural de Perdizes.&lt;/p&gt;
-
-
-
-&lt;p&gt;Já Gustavo Guimaraes Vasconcelos, cujo nome também consta no documento, foi multado em R$ 178 mil e teve uma área de sua propriedade embargada por desmatar 24 hectares de mata nativa em 2025, segundo base de dados do Sisema. De acordo com a mesma base, em 2026 ele teria desmatado 24 hectares, recebendo, por esse motivo, uma multa de R$ 20 mil e a determinação de embargo até a regularização. &lt;/p&gt;
-
-
-
-&lt;p&gt;Os produtores Dias e Vasconcelos são donos do Grupo Gran Milho, uma empresa de grãos e pecuária sediada em Araxá (MG). Eles foram procurados pela &lt;strong&gt;Repórter Brasil&lt;/strong&gt; e em seus nomes o consultor ambietal Carlos Eduardo Borges de Oliveira afirmou que &amp;#8220;todas as providências cabíveis de adequação e regularização já foram adotadas junto aos órgãos ambientais competentes&amp;#8221;. O consultor também disse que atualmente os processos encontram-se em fase de análise para o &amp;#8220;encerramento formal da regularização. Também disse que o grupo &amp;#8220;reafirma compromisso&amp;#8221; com a legislação ambiental vigente e com a adoção de boas práticas agrícolas em todos os seus empreendimentos. &amp;#8220;A conformidade legal e a responsabilidade socioambiental são pilares fundamentais da nossa atuação&amp;#8221;, disse. A resposta completa pode ser &lt;a href="https://reporterbrasil.org.br/2026/05/posicionamentos-para-reportagem-sobre-fornecedores-da-bem-brasil-com-multas-ambientais/" target="_blank" rel="noreferrer noopener"&gt;lida aqui&lt;/a&gt;.&lt;/p&gt;
-
-
-
-&lt;h2 class="wp-block-heading"&gt;Ao ‘vendedor’, as batatas&lt;/h2&gt;
-
-
-
-&lt;p&gt;Na oferta pública do título financeiro, a Bem Brasil afirma que é responsável por metade do mercado de batata pré-frita do país. Entre seus principais clientes, estão as grandes redes varejistas Assaí e Atacadão e as redes de fast food Madero, Bob’s e Johnny Rockets.&lt;/p&gt;
-
-
-
-&lt;p&gt;Procurado pela reportagem, o Assaí informou que solicitou à Bem Brasil esclarecimentos sobre as sanções ambientais de seus fornecedores e que está avaliando as informações “à luz dos critérios internos de responsabilidade socioambiental”. Também afirmou que seus fornecedores passam por processos de “homologação e monitoramento contínuo”.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;Dono do Atacadão, o Grupo Carrefour Brasil também afirmou que notificou a Bem Brasil e “iniciou processo de apuração para verificar a conformidade de suas operações com suas políticas e com a legislação vigente”. O grupo também disse que exige de seus fornecedores a adesão à sua Carta Ética de Fornecedores e às suas políticas de compras responsáveis.&lt;br&gt;&lt;br&gt;Já o Bob’s respondeu que iniciou uma análise interna sobre possíveis irregularidades ambientais relacionadas à Bem Brasil. E destacou “seu compromisso com a ética, a transparência e a sustentabilidade, conduzindo a análise com a seriedade que o tema exige”.&lt;/p&gt;
-
-
-
-&lt;p&gt;As redes Johnny Rockets e Madero não se pronunciaram até a publicação desta reportagem. O texto será atualizado caso se manifestem.&lt;br&gt;&lt;br&gt;&lt;a href="https://reporterbrasil.org.br/2026/05/posicionamentos-para-reportagem-sobre-fornecedores-da-bem-brasil-com-multas-ambientais/" target="_blank" rel="noreferrer noopener"&gt;As respostas completas do Assaí, Atacadão e Bob’s podem ser lidas aqui&lt;/a&gt;.&lt;/p&gt;
-
-
-
-&lt;h2 class="wp-block-heading"&gt;Financiando o agronegócio&lt;/h2&gt;
-
-
-
-&lt;p&gt;Os recursos financeiros obtidos com o título emitido pela Bem Brasil serão destinados para a compra de batata in natura, segundo o documento de oferta do CRA aos investidores.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;O título tem a Ecoagro como securitizadora, responsável por estruturar a operação e emitir o CRA, e o Banco Safra como instituição financeira líder da oferta.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;À &lt;strong&gt;Repórter Brasil&lt;/strong&gt;, a EcoAgro disse que atuou “exclusivamente como prestadora de serviços de securitização, não tendo exercido a função de estruturadora da oferta”. A securitizadora também afirmou que “se pautou nas diligências conduzidas pelos assessores legais da oferta”. &lt;a href="https://reporterbrasil.org.br/2026/05/posicionamentos-para-reportagem-sobre-fornecedores-da-bem-brasil-com-multas-ambientais/" target="_blank" rel="noreferrer noopener"&gt;A íntegra da nota pode ser lida aqui&lt;/a&gt;.&lt;br&gt;&lt;br&gt;O escritório Mattos Filho foi o assessor jurídico do Banco Safra na operação. Procurado, preferiu não se pronunciar.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;Ao Banco Safra, a &lt;strong&gt;Repórter Brasil&lt;/strong&gt; perguntou como é feita a análise de riscos da operação e se a avaliação da regularidade ambiental da cadeia de fornecedores faz parte do processo.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p&gt;Também foi questionado se a instituição financeira avalia que os investidores tinham conhecimento sobre os riscos reputacionais associados à existência de autuações ambientais na cadeia produtiva da devedora do título. A instituição financeira não quis&amp;nbsp; se manifestar.&lt;/p&gt;
-
-
-
-&lt;figure class="wp-block-image size-large"&gt;&lt;img loading="lazy" decoding="async" width="1024" height="536" src="https://reporterbrasil.org.br/wp-content/uploads/2026/05/bem-brasil-01-edit-1024x536.jpg" alt="Matriz da Bem Brasil, em Araxá, Minas Gerais. Empresa é fornecedora de Assaí, Madero e Bob's, entre outros (Foto: Reprodução/Bem Brasil)" class="wp-image-130437" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/05/bem-brasil-01-edit-1024x536.jpg 1024w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/bem-brasil-01-edit-300x157.jpg 300w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/bem-brasil-01-edit-768x402.jpg 768w, https://reporterbrasil.org.br/wp-content/uploads/2026/05/bem-brasil-01-edit.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Matriz da Bem Brasil, em Araxá, Minas Gerais. Empresa é fornecedora de Assaí, Madero e Bob&amp;#8217;s, entre outros (Foto: Reprodução/Bem Brasil)&lt;/figcaption&gt;&lt;/figure&gt;
-
-
-
-&lt;p&gt;A emissão de CRAs e outros títulos financeiros voltados à produção agropecuária no Brasil tem crescido nos últimos anos. Para Merel van der Mark, coordenadora da Florestas &amp;amp; Finanças, o banco e a securitizadora têm a obrigação de realizar a devida diligência sobre a operação — análise prévia dos créditos, garantias, lastro, riscos jurídicos, financeiros e socioambientais para verificar se o título é consistente e seguro para investidores.&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;a href="https://forestsandfinance.org/pt/" target="_blank" rel="noreferrer noopener"&gt;Florestas &amp;amp; Finanças&lt;/a&gt; é uma coalizão internacional que monitora financiamentos e avalia as possíveis conexões dessas operações com desmatamento.&lt;/p&gt;
-
-
-
-&lt;p&gt;“A existência de multas ambientais altas, não só por parte do devedor [a Bem Brasil], mas também por parte dos fornecedores que serão beneficiados pelo CRA, além de criar risco reputacional para o banco e a securitizadora, pode ter impacto na capacidade da devedora de honrar financeiramente as obrigações contidas no CRA, e como tal, cria risco financeiro”, explica van der Mark. “Esse risco é uma informação crucial para investidores e no mínimo deve ser publicado no prospecto [documento de oferta pública do título].”&lt;/p&gt;
-
-
-		&lt;div data-elementor-type="section" data-elementor-id="129686" class="elementor elementor-129686" data-elementor-post-type="elementor_library"&gt;
-			&lt;a class="elementor-element elementor-element-17a659f e-flex e-con-boxed e-con e-parent" data-id="17a659f" data-element_type="container" data-e-type="container" data-settings="{&amp;quot;background_background&amp;quot;:&amp;quot;classic&amp;quot;}" href="https://reporterbrasil.org.br/apoie/"&gt;
-					&lt;div class="e-con-inner"&gt;
-				&lt;div class="elementor-element elementor-element-e5e1762 elementor-widget elementor-widget-image" data-id="e5e1762" data-element_type="widget" data-e-type="widget" data-widget_type="image.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-															&lt;img fetchpriority="high" decoding="async" width="360" height="300" src="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp" class="attachment-full size-full wp-image-129688" alt="Apoie a Repórter Brasil" srcset="https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1.webp 360w, https://reporterbrasil.org.br/wp-content/uploads/2026/04/apoie-1-300x250.webp 300w" sizes="(max-width: 360px) 100vw, 360px" /&gt;															&lt;/div&gt;
-				&lt;/div&gt;
-					&lt;/div&gt;
-				&lt;/a&gt;
-				&lt;/div&gt;
-		
-
-
-
-&lt;p&gt;&lt;strong&gt;25 anos investigando para mudar.&lt;/strong&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;A Repórter Brasil já ajudou a impulsionar leis, fortalecer direitos e combater o trabalho escravo.&lt;/strong&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;Em 2026, fazemos 25 anos — e vem muito mais por aí!&lt;/strong&gt;&lt;/p&gt;
-
-
-		&lt;div data-elementor-type="container" data-elementor-id="75228" class="elementor elementor-75228" data-elementor-post-type="elementor_library"&gt;
-				&lt;div class="elementor-element elementor-element-5e8db1e6 e-flex e-con-boxed e-con e-parent" data-id="5e8db1e6" data-element_type="container" data-e-type="container"&gt;
-					&lt;div class="e-con-inner"&gt;
-		&lt;div class="elementor-element elementor-element-36eb6c91 e-flex e-con-boxed e-con e-child" data-id="36eb6c91" data-element_type="container" data-e-type="container"&gt;
-					&lt;div class="e-con-inner"&gt;
-		&lt;div class="elementor-element elementor-element-6f52f515 e-con-full e-flex e-con e-child" data-id="6f52f515" data-element_type="container" data-e-type="container"&gt;
-				&lt;div class="elementor-element elementor-element-65d9f401 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="65d9f401" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-							&lt;div class="elementor-divider"&gt;
-			&lt;span class="elementor-divider-separator"&gt;
-						&lt;/span&gt;
-		&lt;/div&gt;
-						&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;/div&gt;
-		&lt;div class="elementor-element elementor-element-134a1245 e-flex e-con-boxed e-con e-child" data-id="134a1245" data-element_type="container" data-e-type="container"&gt;
-					&lt;div class="e-con-inner"&gt;
-				&lt;div class="elementor-element elementor-element-10fe55fe elementor-widget elementor-widget-text-editor" data-id="10fe55fe" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-									&lt;p&gt;Leia também&lt;/p&gt;								&lt;/div&gt;
-				&lt;/div&gt;
-					&lt;/div&gt;
-				&lt;/div&gt;
-					&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;div class="elementor-element elementor-element-3c9495ae elementor-grid-1 leia-tambem elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid" data-id="3c9495ae" data-element_type="widget" data-e-type="widget" data-settings="{&amp;quot;template_id&amp;quot;:&amp;quot;75221&amp;quot;,&amp;quot;columns&amp;quot;:1,&amp;quot;row_gap&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:10,&amp;quot;sizes&amp;quot;:[]},&amp;quot;_skin&amp;quot;:&amp;quot;post&amp;quot;,&amp;quot;columns_tablet&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;columns_mobile&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;edit_handle_selector&amp;quot;:&amp;quot;[data-elementor-type=\&amp;quot;loop-item\&amp;quot;]&amp;quot;,&amp;quot;row_gap_tablet&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]},&amp;quot;row_gap_mobile&amp;quot;:{&amp;quot;unit&amp;quot;:&amp;quot;px&amp;quot;,&amp;quot;size&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;sizes&amp;quot;:[]}}" data-widget_type="loop-grid.post"&gt;
-				&lt;div class="elementor-widget-container"&gt;
-							&lt;div class="e-loop-nothing-found-message"&gt;
-		&lt;/div&gt;
-						&lt;/div&gt;
-				&lt;/div&gt;
-					&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;/div&gt;
-		
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Igor Ojeda</dc:creator><pubDate>Mon, 25 May 2026 08:00:00 +0000</pubDate><guid>https://reporterbrasil.org.br/2026/05/fornecedora-assai-madero-multas-ambientais/</guid><guid isPermaLink="true">https://reporterbrasil.org.br/2026/05/fornecedora-assai-madero-multas-ambientais/</guid></item></channel></rss>
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Bruna Borges</dc:creator><pubDate>Wed, 27 May 2026 12:21:20 +0000</pubDate><guid>https://reporterbrasil.org.br/2026/05/nao-existe-uso-totalmente-seguro-procurador-banir-glifosato/</guid><guid isPermaLink="true">https://reporterbrasil.org.br/2026/05/nao-existe-uso-totalmente-seguro-procurador-banir-glifosato/</guid></item></channel></rss>
