@@ -4,7 +4,7 @@
 
 
 
-&lt;figure class="wp-block-embed is-provider-twitter wp-block-embed-twitter"&gt;&lt;div class="wp-block-embed__wrapper"&gt;
+&lt;figure class="wp-block-embed is-type-rich is-provider-x wp-block-embed-x"&gt;&lt;div class="wp-block-embed__wrapper"&gt;
 &lt;div class="embed-x"&gt;&lt;blockquote class="twitter-tweet" data-width="500" data-dnt="true"&gt;&lt;p lang="en" dir="ltr"&gt;Super Typhoon &lt;a href="https://x.com/hashtag/Bavi?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#Bavi&lt;/a&gt; starting to affect Guam. Strongest winds are still 8-12 hours away. &lt;br&gt;🎥: Rhea Caceres Estella &lt;a href="https://t.co/jGilAPq82A"&gt;pic.twitter.com/jGilAPq82A&lt;/a&gt;&lt;/p&gt;&amp;mdash; Scott (@RandomHeroWX) &lt;a href="https://x.com/RandomHeroWX/status/2073786368052928748?ref_src=twsrc%5Etfw"&gt;July 5, 2026&lt;/a&gt;&lt;/blockquote&gt;&lt;script async src="https://platform.x.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;&lt;/div&gt;
 &lt;/div&gt;&lt;/figure&gt;
 
@@ -14,7 +14,7 @@
 
 
 
-&lt;figure class="wp-block-image size-large"&gt;&lt;img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="665" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/wp0926-1.gif?resize=1024%2C665&amp;#038;ssl=1" alt="" class="wp-image-139990" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/wp0926-1.gif?resize=1024%2C665&amp;amp;ssl=1 1024w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/wp0926-1.gif?resize=300%2C195&amp;amp;ssl=1 300w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/wp0926-1.gif?resize=768%2C499&amp;amp;ssl=1 768w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/wp0926-1.gif?resize=1536%2C998&amp;amp;ssl=1 1536w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/wp0926-1.gif?resize=1200%2C779&amp;amp;ssl=1 1200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/wp0926-1.gif?resize=2000%2C1299&amp;amp;ssl=1 2000w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/wp0926-1.gif?resize=780%2C507&amp;amp;ssl=1 780w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/wp0926-1.gif?resize=400%2C260&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/wp0926-1-1024x665.gif?w=370&amp;amp;ssl=1 370w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Figure 1. Official track released by the Joint Typhoon Warning Center on Thursday morning shows Tropical Storm Bavi approaching the Northern Mariana Islands and continuing a path toward Taiwan through the week of July 6. &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure class="wp-block-image size-large"&gt;&lt;img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="665" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/wp0926-1.gif?resize=1024%2C665&amp;#038;ssl=1" alt="" class="wp-image-139990" style="aspect-ratio:1.5398263973090538" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/wp0926-1.gif?resize=1024%2C665&amp;amp;ssl=1 1024w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/wp0926-1.gif?resize=300%2C195&amp;amp;ssl=1 300w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/wp0926-1.gif?resize=768%2C499&amp;amp;ssl=1 768w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/wp0926-1.gif?resize=1536%2C998&amp;amp;ssl=1 1536w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/wp0926-1.gif?resize=1200%2C779&amp;amp;ssl=1 1200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/wp0926-1.gif?resize=2000%2C1299&amp;amp;ssl=1 2000w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/wp0926-1.gif?resize=780%2C507&amp;amp;ssl=1 780w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/wp0926-1.gif?resize=400%2C260&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/wp0926-1-1024x665.gif?w=370&amp;amp;ssl=1 370w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Figure 1. Official track released by the Joint Typhoon Warning Center on Sunday morning (11 a.m. EDT July 5) shows Tropical Storm Bavi approaching the Northern Mariana Islands and continuing a path toward Taiwan through the week of July 6.&lt;/figcaption&gt;&lt;/figure&gt;
 
 
 
@@ -253,25 +253,11 @@
 		class="wp-block-newspack-blocks-homepage-articles wpnbha is-grid columns-3 colgap-3 show-image image-aligntop ts-2 is-3 is-landscape "
 		style=""
 		&gt;
-		&lt;div data-posts data-current-post-id="138424"&gt;
+		&lt;div data-posts data-current-post-id="139910"&gt;
 							&lt;h2 class="article-section-title"&gt;
 					&lt;span&gt;MORE LIKE THIS&lt;/span&gt;
 				&lt;/h2&gt;
 						
-	&lt;article data-post-id="139910"
-		class="tag-michael-svoboda category-arts category-feature-articles category-policy category-review type-post post-has-image"
-				&gt;
-							&lt;figure class="post-thumbnail"&gt;
-								&lt;a href="https://yaleclimateconnections.org/2026/07/a-new-book-aims-to-change-your-image-of-protest/" rel="bookmark" tabindex="-1" aria-hidden="true"&gt;
-												&lt;img loading="lazy" decoding="async" width="1200" height="900" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/0726_protestauthors_1600.jpg?resize=1200%2C900&amp;amp;ssl=1" class="attachment-newspack-article-block-landscape-large size-newspack-article-block-landscape-large wp-post-image" alt="A new book aims to change your image of protest" data-hero-candidate="1" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/0726_protestauthors_1600.jpg?resize=1200%2C900&amp;amp;ssl=1 1200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/0726_protestauthors_1600.jpg?resize=800%2C600&amp;amp;ssl=1 800w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/0726_protestauthors_1600.jpg?resize=600%2C450&amp;amp;ssl=1 600w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/0726_protestauthors_1600.jpg?resize=400%2C300&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/0726_protestauthors_1600.jpg?resize=200%2C150&amp;amp;ssl=1 200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/0726_protestauthors_1600.jpg?resize=1200%2C900&amp;amp;ssl=1&amp;amp;w=370 370w" sizes="auto, (min-width: 782px) 400px, (min-width: 600px) 42.5vw, 90vw" /&gt;												&lt;/a&gt;
-				
-							&lt;/figure&gt;&lt;!-- .featured-image --&gt;
-		
-		&lt;div class="entry-wrapper"&gt;
-						&lt;h3 class="entry-title"&gt;&lt;a href="https://yaleclimateconnections.org/2026/07/a-new-book-aims-to-change-your-image-of-protest/" rel="bookmark"&gt;A new book aims to change your image of protest&lt;/a&gt;&lt;/h3&gt;											&lt;/div&gt;&lt;!-- .entry-wrapper --&gt;
-	&lt;/article&gt;
-
-		
 	&lt;article data-post-id="139731"
 		class="tag-maryland tag-united-states category-adaptation category-arts category-audio category-solutions type-post post-has-image"
 				&gt;
@@ -297,6 +283,20 @@
 		
 		&lt;div class="entry-wrapper"&gt;
 						&lt;h3 class="entry-title"&gt;&lt;a href="https://yaleclimateconnections.org/2026/06/a-champion-soccer-team-is-taking-on-climate-change-too/" rel="bookmark"&gt;A champion soccer team is taking on climate change, too&lt;/a&gt;&lt;/h3&gt;											&lt;/div&gt;&lt;!-- .entry-wrapper --&gt;
+	&lt;/article&gt;
+
+		
+	&lt;article data-post-id="138839"
+		class="tag-hurricane tag-jeff-masters tag-sea-level-rise category-arts category-eye-on-the-storm category-feature-articles category-weather type-post post-has-image"
+				&gt;
+							&lt;figure class="post-thumbnail"&gt;
+								&lt;a href="https://yaleclimateconnections.org/2026/06/climate-fiction-envisions-the-future-of-hurricanes-and-sea-level-rise/" rel="bookmark" tabindex="-1" aria-hidden="true"&gt;
+												&lt;img loading="lazy" decoding="async" width="1200" height="900" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/north-lightpirate-deluge.jpg?resize=1200%2C900&amp;amp;ssl=1" class="attachment-newspack-article-block-landscape-large size-newspack-article-block-landscape-large wp-post-image" alt="Climate fiction envisions the future of hurricanes and sea level rise" data-hero-candidate="1" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/north-lightpirate-deluge.jpg?resize=1200%2C900&amp;amp;ssl=1 1200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/north-lightpirate-deluge.jpg?resize=800%2C600&amp;amp;ssl=1 800w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/north-lightpirate-deluge.jpg?resize=600%2C450&amp;amp;ssl=1 600w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/north-lightpirate-deluge.jpg?resize=400%2C300&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/north-lightpirate-deluge.jpg?resize=200%2C150&amp;amp;ssl=1 200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/north-lightpirate-deluge.jpg?resize=1200%2C900&amp;amp;ssl=1&amp;amp;w=370 370w" sizes="auto, (min-width: 782px) 400px, (min-width: 600px) 42.5vw, 90vw" /&gt;												&lt;/a&gt;
+				
+							&lt;/figure&gt;&lt;!-- .featured-image --&gt;
+		
+		&lt;div class="entry-wrapper"&gt;
+						&lt;h3 class="entry-title"&gt;&lt;a href="https://yaleclimateconnections.org/2026/06/climate-fiction-envisions-the-future-of-hurricanes-and-sea-level-rise/" rel="bookmark"&gt;Climate fiction envisions the future of hurricanes and sea level rise&lt;/a&gt;&lt;/h3&gt;											&lt;/div&gt;&lt;!-- .entry-wrapper --&gt;
 	&lt;/article&gt;
 
 				&lt;/div&gt;
