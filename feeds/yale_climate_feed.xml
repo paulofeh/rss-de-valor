@@ -1,220 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel xmlns:atom="http://www.w3.org/2005/Atom"><title>Yale Climate Connections</title><link>https://yaleclimateconnections.org/</link><description>Últimos artigos de Yale Climate Connections</description><atom:link href="https://paulofeh.github.io/rss-de-valor/feeds/yale_climate_connections_feed.xml" rel="self"/><language>pt-br</language><lastBuildDate>Fri, 10 Jul 2026 11:00:00 +0000</lastBuildDate><ttl>60</ttl><item><title>Home batteries could become the next must-have household appliance</title><link>https://yaleclimateconnections.org/2026/07/home-batteries-could-become-the-next-must-have-household-appliance/</link><description>
-&lt;p class="has-drop-cap wp-block-paragraph"&gt;As the prices of home battery systems fall, they’re becoming a key part of the modern electric grid. They can help homeowners store power from rooftop solar panels or the grid for use during outages or periods of high demand. And they can reduce strain on the grid during heat waves when electricity demand soars.&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;In this interview with Yale Climate Connections, Raghu Belur, the chief products officer for &lt;a href="https://enphase.com/homeowners"&gt;Enphase Energy&lt;/a&gt;, explains how home battery systems can lower utility bills and create backup power during grid failures. He also says that batteries, including the batteries in electric vehicles, may one day make it possible for utilities to use power from many small sources to maintain a more reliable grid.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;&lt;em&gt;This interview has been edited for clarity and length.&amp;nbsp;&lt;/em&gt;&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;&lt;strong&gt;Yale Climate Connections&lt;/strong&gt;: Could you explain what a home battery is, how it works, and the benefits it provides customers?&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;&lt;strong&gt;Raghu Belur&lt;/strong&gt;: The beauty of the battery is it can do a few different things. The home – which traditionally has been only a consumer of energy – is actually producing its own energy with solar on the roof. One of the limitations to solar is that it&amp;#8217;s an intermittent resource – we don&amp;#8217;t have solar at night – so the best way to actually maximize the utilization or the usability of solar is to add a battery.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;The second use case is you can actually sell energy back to the grid [in some places]. When there is a lot of demand on the grid and you have all these stored electrons, those electrons are very valuable for yourself as well as for the grid. So you as a prosumer – a producer and a consumer – can sell that energy to the grid and actually make money.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;The third use case for that battery is, of course, if the grid were to fail. So when the grid goes out, these batteries can create a microgrid and power the home. The whole process is seamless: It senses that the grid is gone, takes over, and runs the home on the energy that it has saved so the homeowner wouldn&amp;#8217;t even know that the grid is gone.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;&lt;strong&gt;YCC&lt;/strong&gt;: How do batteries help provide resiliency for homeowners during power outages or extreme weather?&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;&lt;strong&gt;Belur: &lt;/strong&gt;We are living in times where 100-year storms are the norm now. We also have to deal with things like forest fires. Usually, if there&amp;#8217;s a storm or winter event, it lasts for a finite period of time, and the sun eventually does come out. So if you have solar and a battery, then you can ride through a multiday outage.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;And the deployment of solar and batteries is going to become more and more critical, especially as the demand in the overall infrastructure is going up significantly. The electrical demand on homes is going up substantially – you&amp;#8217;re seeing homes getting electrified, with everything from heat pumps, induction ovens, EVs.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;But that&amp;#8217;s not all the story. Massive demand on the utility is coming from the hyperscalers, from the AI data centers as well.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;So addressing the demand on the residential side, with deploying more and more batteries, is massively beneficial for everybody because they can help alleviate some of the stress that the grid feels as a result of all that demand that&amp;#8217;s coming from the data center side.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;&lt;strong&gt;YCC&lt;/strong&gt;: How common is it to deploy batteries on homes that don&amp;#8217;t have solar?&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;&lt;strong&gt;Belur&lt;/strong&gt;: It&amp;#8217;s not that common, but I don&amp;#8217;t see a reason why that cannot become a trend. Solar used to be the point of entry for [a home energy] system, but an EV is also a very large battery. So we can not only intelligently charge your EV, but [with a bidirectional EV charger] you can also discharge your EV to support the grid, provide grid resiliency, or you can use the EV to power your home in the event of an outage. So you&amp;#8217;ll find that there will be a lot of deployments where people use their car as the battery, and that&amp;#8217;s the only thing that they have – and we believe that an EV will be the point of entry into that energy system for a lot of people.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;&lt;em&gt;Read: &lt;/em&gt;&lt;a href="https://yaleclimateconnections.org/2025/03/when-the-power-went-out-an-electric-car-kept-the-ac-running/"&gt;&lt;em&gt;When the power went out, an electric car kept the AC running&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;If you look at the way technology evolves over the long run, it decentralizes. If you think about mainframes, 40 or 50 years ago, people used to have mainframe computers – that was the norm. That&amp;#8217;s where all the intelligence was, and all the decision-making happened there. Today we have arguably much more intelligence in our laptops and in our phones, and so we have decentralized that intelligence.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;I believe the same thing is going to happen with energy as well. Historically, all the power production or generation of energy has been centralized – you&amp;#8217;ve got big hydroelectric plants, nuclear plants, gas-powered plants, coal plants, and large-scale solar, large-scale wind.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;What we are seeing now is this decentralization or distribution of energy, where the home is becoming the unit of intelligence. It&amp;#8217;s the one that produces its own energy, stores and consumes [energy] intelligently, and can also optimize not only for the homeowner&amp;#8217;s needs but also provide resiliency to the grid by exporting electrons into the grid.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;&lt;strong&gt;YCC&lt;/strong&gt;: We&amp;#8217;re seeing rising energy prices.&amp;nbsp;When we talk about consumers, whether they&amp;#8217;re leasing or buying these battery systems,&amp;nbsp;what does all of this mean for consumers&amp;#8217; bills?&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;&lt;strong&gt;Belur&lt;/strong&gt;: Here&amp;#8217;s this opportunity for the homeowner to become a&amp;nbsp;prosumer – produce your own energy, consume your own energy, manage your own energy intelligently – so you can optimize your bill as well as provide resiliency. It&amp;#8217;s a way to hedge against future energy rate increases. Depending on the location, for example, you can have a payback period of as&amp;nbsp;low as four to five years. Four to five years, your energy system pays off because what you&amp;#8217;re offsetting is a very large utility bill.&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;Then other places may take seven to eight years,&amp;nbsp;but you&amp;#8217;re looking at a 25-year asset. When you&amp;#8217;re looking at a 25-year asset,&amp;nbsp;a payback period from anywhere from four to eight years, that&amp;#8217;s not too bad because&amp;nbsp;once I&amp;#8217;ve paid off my system, because I&amp;#8217;ve offset my consumption – and by the way, my rates don&amp;#8217;t&amp;nbsp;go up – it&amp;#8217;s my own system.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;I think it makes absolute sense that people should deploy their&amp;nbsp;own energy system within their home. Of course, solar is kind of the hero of the show. That&amp;#8217;s what this is all about, but you do need solar. You need batteries. You need EV&amp;nbsp;chargers. You need software to manage everything, and you can create a tremendous amount of value and&amp;nbsp;shrink that payback period down even further.&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;&lt;strong&gt;YCC&lt;/strong&gt;: What needs to happen to scale up this approach to reach those low-income consumers who might not be able to afford to make these investments up front?&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;&lt;strong&gt;Belur&lt;/strong&gt;: Investors look for some level of certainty, and this is an asset class that the investment community is starting to get very comfortable with because the default rates are very low. So you&amp;#8217;re seeing more and more dollars being invested into deploying more of these systems, because not a lot of people are defaulting on their loans, because what is their alternative? It&amp;#8217;s not a luxury. Energy is a necessity.&amp;nbsp;&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;The place where things are a little uncertain is all of these government regulations changing. Whatever decision the government makes regarding whether there is going to be tax incentives or no tax incentives, those decisions need to happen quickly so you bring stability into the market. &lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;&lt;em&gt;Read: &lt;/em&gt;&lt;a href="https://yaleclimateconnections.org/2025/07/trump-just-gave-a-huge-gift-to-chinas-economy/"&gt;&lt;em&gt;Trump just gave a huge gift to China’s economy&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;In the long run, I believe that incentives should be a catalyst and not a crutch. We know we have the technology capabilities, so let&amp;#8217;s get some of these government uncertainties out of the way and let our industry do what it does best: Deliver great economics, great value to the homeowner, and the finance industry will love that because it&amp;#8217;s a strong asset class. It&amp;#8217;s got low default rates, and we know we&amp;#8217;ll always need energy.&lt;/p&gt;
-
-
-	&lt;div
-		class="wp-block-newspack-blocks-homepage-articles wpnbha is-grid columns-3 colgap-3 show-image image-aligntop ts-2 is-3 is-landscape "
-		style=""
-		&gt;
-		&lt;div data-posts data-current-post-id="140070"&gt;
-							&lt;h2 class="article-section-title"&gt;
-					&lt;span&gt;MORE LIKE THIS&lt;/span&gt;
-				&lt;/h2&gt;
-						
-	&lt;article data-post-id="139862"
-		class="tag-boston tag-massachusetts tag-united-states category-adaptation category-audio category-energy category-solutions type-post post-has-image"
-				&gt;
-							&lt;figure class="post-thumbnail"&gt;
-								&lt;a href="https://yaleclimateconnections.org/2026/07/bostons-first-public-housing-project-gets-a-climate-friendly-makeover/" rel="bookmark" tabindex="-1" aria-hidden="true"&gt;
-												&lt;img loading="lazy" decoding="async" width="1200" height="900" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/071026_McCormack_1600.jpg?resize=1200%2C900&amp;amp;ssl=1" class="attachment-newspack-article-block-landscape-large size-newspack-article-block-landscape-large wp-post-image" alt="Boston’s first public housing project gets a climate-friendly makeover" data-hero-candidate="1" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/071026_McCormack_1600.jpg?resize=1200%2C900&amp;amp;ssl=1 1200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/071026_McCormack_1600.jpg?resize=800%2C600&amp;amp;ssl=1 800w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/071026_McCormack_1600.jpg?resize=600%2C450&amp;amp;ssl=1 600w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/071026_McCormack_1600.jpg?resize=400%2C300&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/071026_McCormack_1600.jpg?resize=200%2C150&amp;amp;ssl=1 200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/071026_McCormack_1600.jpg?resize=1200%2C900&amp;amp;ssl=1&amp;amp;w=370 370w" sizes="auto, (min-width: 782px) 400px, (min-width: 600px) 42.5vw, 90vw" /&gt;												&lt;/a&gt;
-				
-							&lt;/figure&gt;&lt;!-- .featured-image --&gt;
-		
-		&lt;div class="entry-wrapper"&gt;
-						&lt;h3 class="entry-title"&gt;&lt;a href="https://yaleclimateconnections.org/2026/07/bostons-first-public-housing-project-gets-a-climate-friendly-makeover/" rel="bookmark"&gt;Boston’s first public housing project gets a climate-friendly makeover&lt;/a&gt;&lt;/h3&gt;											&lt;/div&gt;&lt;!-- .entry-wrapper --&gt;
-	&lt;/article&gt;
-
-		
-	&lt;article data-post-id="139864"
-		class="tag-united-states category-audio category-energy category-policy category-solutions type-post post-has-image"
-				&gt;
-							&lt;figure class="post-thumbnail"&gt;
-								&lt;a href="https://yaleclimateconnections.org/2026/07/nonprofit-encourages-latinos-to-get-politically-involved-amid-rising-energy-costs/" rel="bookmark" tabindex="-1" aria-hidden="true"&gt;
-												&lt;img loading="lazy" decoding="async" width="1200" height="900" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/070926_voters_1600.jpg?resize=1200%2C900&amp;amp;ssl=1" class="attachment-newspack-article-block-landscape-large size-newspack-article-block-landscape-large wp-post-image" alt="Nonprofit encourages Latinos to get politically involved amid rising energy costs" data-hero-candidate="1" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/070926_voters_1600.jpg?resize=1200%2C900&amp;amp;ssl=1 1200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/070926_voters_1600.jpg?resize=800%2C600&amp;amp;ssl=1 800w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/070926_voters_1600.jpg?resize=600%2C450&amp;amp;ssl=1 600w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/070926_voters_1600.jpg?resize=400%2C300&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/070926_voters_1600.jpg?resize=200%2C150&amp;amp;ssl=1 200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/070926_voters_1600.jpg?resize=1200%2C900&amp;amp;ssl=1&amp;amp;w=370 370w" sizes="auto, (min-width: 782px) 400px, (min-width: 600px) 42.5vw, 90vw" /&gt;												&lt;/a&gt;
-				
-							&lt;/figure&gt;&lt;!-- .featured-image --&gt;
-		
-		&lt;div class="entry-wrapper"&gt;
-						&lt;h3 class="entry-title"&gt;&lt;a href="https://yaleclimateconnections.org/2026/07/nonprofit-encourages-latinos-to-get-politically-involved-amid-rising-energy-costs/" rel="bookmark"&gt;Nonprofit encourages Latinos to get politically involved amid rising energy costs&lt;/a&gt;&lt;/h3&gt;											&lt;/div&gt;&lt;!-- .entry-wrapper --&gt;
-	&lt;/article&gt;
-
-		
-	&lt;article data-post-id="139729"
-		class="tag-georgia tag-north-carolina category-audio category-energy category-solutions type-post post-has-image"
-				&gt;
-							&lt;figure class="post-thumbnail"&gt;
-								&lt;a href="https://yaleclimateconnections.org/2026/07/initiative-in-north-carolina-and-georgia-helps-residents-lower-their-electricity-bills/" rel="bookmark" tabindex="-1" aria-hidden="true"&gt;
-												&lt;img loading="lazy" decoding="async" width="1200" height="900" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/070226_heatpump_1600.jpg?resize=1200%2C900&amp;amp;ssl=1" class="attachment-newspack-article-block-landscape-large size-newspack-article-block-landscape-large wp-post-image" alt="Initiative in North Carolina and Georgia helps residents lower their electricity bills" data-hero-candidate="1" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/070226_heatpump_1600.jpg?resize=1200%2C900&amp;amp;ssl=1 1200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/070226_heatpump_1600.jpg?resize=800%2C600&amp;amp;ssl=1 800w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/070226_heatpump_1600.jpg?resize=600%2C450&amp;amp;ssl=1 600w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/070226_heatpump_1600.jpg?resize=400%2C300&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/070226_heatpump_1600.jpg?resize=200%2C150&amp;amp;ssl=1 200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/070226_heatpump_1600.jpg?resize=1200%2C900&amp;amp;ssl=1&amp;amp;w=370 370w" sizes="auto, (min-width: 782px) 400px, (min-width: 600px) 42.5vw, 90vw" /&gt;												&lt;/a&gt;
-				
-							&lt;/figure&gt;&lt;!-- .featured-image --&gt;
-		
-		&lt;div class="entry-wrapper"&gt;
-						&lt;h3 class="entry-title"&gt;&lt;a href="https://yaleclimateconnections.org/2026/07/initiative-in-north-carolina-and-georgia-helps-residents-lower-their-electricity-bills/" rel="bookmark"&gt;Initiative in North Carolina and Georgia helps residents lower their electricity bills&lt;/a&gt;&lt;/h3&gt;											&lt;/div&gt;&lt;!-- .entry-wrapper --&gt;
-	&lt;/article&gt;
-
-				&lt;/div&gt;
-		
-	&lt;/div&gt;
-	</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 10 Jul 2026 11:00:00 +0000</pubDate><guid>https://yaleclimateconnections.org/2026/07/home-batteries-could-become-the-next-must-have-household-appliance/</guid><guid isPermaLink="true">https://yaleclimateconnections.org/2026/07/home-batteries-could-become-the-next-must-have-household-appliance/</guid></item><item><title>Boston’s first public housing project gets a climate-friendly makeover</title><link>https://yaleclimateconnections.org/2026/07/bostons-first-public-housing-project-gets-a-climate-friendly-makeover/</link><description>
-&lt;p class="wp-block-paragraph"&gt;&lt;/p&gt;
-
-
-
-&lt;figure class="wp-block-audio"&gt;&lt;audio controls src="https://traffic.libsyn.com/secure/climateconnections/CX260710.mp3"&gt;&lt;/audio&gt;&lt;/figure&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;Transcript:&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;The Mary Ellen McCormack Complex, built in the 1930s, was Boston’s first public housing project.&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;And now, a major overhaul will revitalize the complex and prepare it for the changing climate.&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;Purohit: “How do we make it more sustainable and more livable for the next 100 years?”&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;Devanshi Purohit is with &lt;a href="https://www.cbtarchitects.com/"&gt;CBT Architects&lt;/a&gt;, which drafted the &lt;a href="https://www.memredevelopment.com/info"&gt;master plan&lt;/a&gt; for the redevelopment.&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;It includes all-electric, energy-efficient units for current residents, new market-rate housing, and business space – amid parks and other gathering areas.&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;When designing the outdoor spaces, the team preserved mature trees that provide shade so people can stay cooler even as the climate warms.&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;Climate change is also increasing the risk of flooding from storm surge and sea level rise in nearby Boston Harbor. So the complex will be raised to ensure every building sits above projected future flood levels.&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;And the landscaping will include features such as rain gardens that help water soak underground instead of pooling.&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;Purohit: “It’s all just about keeping the water out, keeping the systems running, and making sure that the residents are safe.”&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;The first new building will open this fall, with more to come over the next two decades – creating a climate-resilient future for a historic Boston neighborhood.&lt;/p&gt;
-
-
-
-&lt;p class="wp-block-paragraph"&gt;&lt;em&gt;Reporting credit: Ethan Freedman / ChavoBart Digital Media&lt;/em&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 10 Jul 2026 11:00:00 +0000</pubDate><guid>https://yaleclimateconnections.org/2026/07/bostons-first-public-housing-project-gets-a-climate-friendly-makeover/</guid><guid isPermaLink="true">https://yaleclimateconnections.org/2026/07/bostons-first-public-housing-project-gets-a-climate-friendly-makeover/</guid></item><item><title>June 2026: Earth’s 2nd-hottest June on record</title><link>https://yaleclimateconnections.org/2026/07/june-2026-earths-2nd-hottest-june-on-record/</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel xmlns:atom="http://www.w3.org/2005/Atom"><title>Yale Climate Connections</title><link>https://yaleclimateconnections.org/</link><description>Últimos artigos de Yale Climate Connections</description><atom:link href="https://paulofeh.github.io/rss-de-valor/feeds/yale_climate_connections_feed.xml" rel="self"/><language>pt-br</language><lastBuildDate>Thu, 09 Jul 2026 16:04:58 +0000</lastBuildDate><ttl>60</ttl><item><title>June 2026: Earth’s 2nd-hottest June on record</title><link>https://yaleclimateconnections.org/2026/07/june-2026-earths-2nd-hottest-june-on-record/</link><description>
 &lt;p class="has-drop-cap wp-block-paragraph"&gt;June 2026 was the second-warmest June in analyses of global weather data going back to 1850, only 0.09 degree Celsius (0.16°F) below the 2024 record, NOAA’s&amp;nbsp;&lt;a href="https://www.ncdc.noaa.gov/sotc/global/" target="_blank" rel="noreferrer noopener"&gt;National Centers for Environmental Information&lt;/a&gt;, or NCEI, reported July 9.&amp;nbsp;&lt;a href="https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts+dSST.txt" target="_blank" rel="noreferrer noopener"&gt;NASA&lt;/a&gt;&amp;nbsp;and the European&amp;nbsp;&lt;a href="https://climate.copernicus.eu/surface-air-temperature-june-2026" target="_blank" rel="noreferrer noopener"&gt;Copernicus Climate Change Service&lt;/a&gt;&amp;nbsp;also rated June 2026 as the second-warmest June. The global-average temperature for January-June 2026 was the third-highest on record, NOAA said.&lt;/p&gt;
 
 
@@ -284,7 +69,7 @@
 
 
 &lt;ul class="wp-block-list"&gt;
-&lt;li&gt;Hottest temperature in the Northern Hemisphere: 51.1°C&amp;nbsp;(124.0°F) at Bostan, Iran, June 23;&lt;/li&gt;
+&lt;li&gt;Hottest temperature in the Northern Hemisphere: 51.1°C (124.0°F) at Bostan, Iran, June 23;&lt;/li&gt;
 
 
 
@@ -305,7 +90,7 @@
 
 
 
-&lt;p class="wp-block-paragraph"&gt;&lt;strong&gt;Chad:&lt;/strong&gt; 48.0°C (118.4°F) at Faya, May 19 (tie)&lt;br&gt;&lt;strong&gt;Bahrain:&lt;/strong&gt; 47.6°C (117.7°F) at Bahrain Airport, May 29&lt;br&gt;&lt;strong&gt;Jersey (UK territory)&lt;/strong&gt;: 39.3°C (102.6°F) at Maison St. Louis, June 25&lt;br&gt;&lt;strong&gt;Guernsey (UK territory)&lt;/strong&gt;: 36.4°C (97.5°F) at Rocquaine Bay, June 25&lt;br&gt;&lt;strong&gt;Luxembourg&lt;/strong&gt;: 40.9°C (105.6°F) at Reckange, June 26&lt;br&gt;&lt;strong&gt;Denmark&lt;/strong&gt;: 37.0°C (98.6°F) at Odum and Odense, June 27&lt;br&gt;&lt;strong&gt;Germany&lt;/strong&gt;: 41.8°C (107.2°F) at Mockern-Drewitz, June 27&lt;br&gt;&lt;strong&gt;Czech Republic&lt;/strong&gt;: 41.9°C (107.4°F) at Doksany, June 28&lt;br&gt;&lt;strong&gt;Poland&lt;/strong&gt;: 40.5°C (104.9°F)&lt;strong&gt; &lt;/strong&gt;at Slubice, June 28&lt;br&gt;&lt;strong&gt;Belarus&lt;/strong&gt;: 40.4°C (104.7°F)&lt;strong&gt; &lt;/strong&gt;at Pinsk, June 29&lt;br&gt;&lt;strong&gt;Slovakia&lt;/strong&gt;: 41.3°C (106.3°F)&lt;strong&gt; &lt;/strong&gt;at Kamenice nad Hronom, June 30&lt;br&gt;&lt;strong&gt;Hungary&lt;/strong&gt;: 42.0°C (107.6°F) at Szecseny, June 30&lt;/p&gt;
+&lt;p class="wp-block-paragraph"&gt;&lt;strong&gt;Chad:&lt;/strong&gt; 48.0°C (118.4°F) at Faya, May 19 (tie)&lt;br&gt;&lt;strong&gt;Bahrain:&lt;/strong&gt; 47.6°C (117.7°F) at Bahrain Airport, May 29&lt;br&gt;&lt;strong&gt;Jersey (UK territory)&lt;/strong&gt;: 39.3°C (102.6°F) at Maison St. Louis, June 25&lt;br&gt;&lt;strong&gt;Guernsey (UK territory)&lt;/strong&gt;: 36.4°C (97.5°F) at Rocquaine Bay, June 25&lt;br&gt;&lt;strong&gt;Luxembourg&lt;/strong&gt;: 40.9°C (105.6°F) at Reckange, June 26&lt;br&gt;&lt;strong&gt;Denmark&lt;/strong&gt;: 37.0°C (98.6°F) at Odum, June 27&lt;br&gt;&lt;strong&gt;Germany&lt;/strong&gt;: 41.8°C (107.2°F) at Mockern-Drewitz, June 27&lt;br&gt;&lt;strong&gt;Czech Republic&lt;/strong&gt;: 41.9°C (107.4°F) at Doksany, June 28&lt;br&gt;&lt;strong&gt;Poland&lt;/strong&gt;: 40.5°C (104.9°F)&lt;strong&gt; &lt;/strong&gt;at Slubice, June 28&lt;br&gt;&lt;strong&gt;Belarus&lt;/strong&gt;: 40.4°C (104.7°F)&lt;strong&gt; &lt;/strong&gt;at Pinsk, June 29&lt;br&gt;&lt;strong&gt;Slovakia&lt;/strong&gt;: 41.3°C (106.3°F)&lt;strong&gt; &lt;/strong&gt;at Kamenice nad Hronom, June 30&lt;br&gt;&lt;strong&gt;Hungary&lt;/strong&gt;: 42.0°C (107.6°F) at Szecseny, June 30&lt;/p&gt;
 
 
 
@@ -425,26 +210,12 @@
 					&lt;span&gt;MORE LIKE THIS&lt;/span&gt;
 				&lt;/h2&gt;
 						
-	&lt;article data-post-id="139969"
-		class="tag-jeff-masters category-eye-on-the-storm category-feature-articles category-weather type-post post-has-image"
-				&gt;
-							&lt;figure class="post-thumbnail"&gt;
-								&lt;a href="https://yaleclimateconnections.org/2026/07/june-2026-earths-2nd-hottest-june-on-record/" rel="bookmark" tabindex="-1" aria-hidden="true"&gt;
-												&lt;img loading="lazy" decoding="async" width="1200" height="900" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/cottonwood-fire-hand-crew.jpg?resize=1200%2C900&amp;amp;ssl=1" class="attachment-newspack-article-block-landscape-large size-newspack-article-block-landscape-large wp-post-image" alt="June 2026: Earth’s 2nd-hottest June on record" data-hero-candidate="1" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/cottonwood-fire-hand-crew.jpg?resize=1200%2C900&amp;amp;ssl=1 1200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/cottonwood-fire-hand-crew.jpg?resize=800%2C600&amp;amp;ssl=1 800w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/cottonwood-fire-hand-crew.jpg?resize=600%2C450&amp;amp;ssl=1 600w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/cottonwood-fire-hand-crew.jpg?resize=400%2C300&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/cottonwood-fire-hand-crew.jpg?resize=200%2C150&amp;amp;ssl=1 200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/cottonwood-fire-hand-crew.jpg?resize=1200%2C900&amp;amp;ssl=1&amp;amp;w=370 370w" sizes="auto, (max-width: 34.9rem) calc(100vw - 2rem), (max-width: 53rem) calc(8 * (100vw / 12)), (min-width: 53rem) calc(6 * (100vw / 12)), 100vw" /&gt;												&lt;/a&gt;
-				
-							&lt;/figure&gt;&lt;!-- .featured-image --&gt;
-		
-		&lt;div class="entry-wrapper"&gt;
-						&lt;h3 class="entry-title"&gt;&lt;a href="https://yaleclimateconnections.org/2026/07/june-2026-earths-2nd-hottest-june-on-record/" rel="bookmark"&gt;June 2026: Earth’s 2nd-hottest June on record&lt;/a&gt;&lt;/h3&gt;											&lt;/div&gt;&lt;!-- .entry-wrapper --&gt;
-	&lt;/article&gt;
-
-		
 	&lt;article data-post-id="139997"
 		class="tag-guam tag-hurricane tag-jeff-masters tag-northern-mariana-islands category-eye-on-the-storm category-feature-articles category-weather type-post post-has-image"
 				&gt;
 							&lt;figure class="post-thumbnail"&gt;
 								&lt;a href="https://yaleclimateconnections.org/2026/07/cat-5-super-typhoon-bavi-pounds-the-u-s-northern-mariana-islands-and-guam/" rel="bookmark" tabindex="-1" aria-hidden="true"&gt;
-												&lt;img loading="lazy" decoding="async" width="800" height="600" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/bavi-sat-jul5-landfall.jpg?resize=800%2C600&amp;amp;ssl=1" class="attachment-newspack-article-block-landscape-medium size-newspack-article-block-landscape-medium wp-post-image" alt="Cat 5 Super Typhoon Bavi pounds the U.S. Northern Mariana Islands and Guam" data-hero-candidate="1" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/bavi-sat-jul5-landfall.jpg?resize=1200%2C899&amp;amp;ssl=1 1200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/bavi-sat-jul5-landfall.jpg?resize=800%2C600&amp;amp;ssl=1 800w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/bavi-sat-jul5-landfall.jpg?resize=600%2C450&amp;amp;ssl=1 600w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/bavi-sat-jul5-landfall.jpg?resize=400%2C300&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/bavi-sat-jul5-landfall.jpg?resize=200%2C150&amp;amp;ssl=1 200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/bavi-sat-jul5-landfall.jpg?zoom=2&amp;amp;resize=800%2C600&amp;amp;ssl=1 1600w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/bavi-sat-jul5-landfall.jpg?resize=800%2C600&amp;amp;ssl=1&amp;amp;w=370 370w" sizes="auto, (max-width: 34.9rem) calc(100vw - 2rem), (max-width: 53rem) calc(8 * (100vw / 12)), (min-width: 53rem) calc(6 * (100vw / 12)), 100vw" /&gt;												&lt;/a&gt;
+												&lt;img loading="lazy" decoding="async" width="800" height="600" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/bavi-sat-jul5-landfall.jpg?resize=800%2C600&amp;amp;ssl=1" class="attachment-newspack-article-block-landscape-medium size-newspack-article-block-landscape-medium wp-post-image" alt="Cat 5 Super Typhoon Bavi pounds the U.S. Northern Mariana Islands and Guam" data-hero-candidate="1" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/bavi-sat-jul5-landfall.jpg?resize=1200%2C899&amp;amp;ssl=1 1200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/bavi-sat-jul5-landfall.jpg?resize=800%2C600&amp;amp;ssl=1 800w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/bavi-sat-jul5-landfall.jpg?resize=600%2C450&amp;amp;ssl=1 600w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/bavi-sat-jul5-landfall.jpg?resize=400%2C300&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/bavi-sat-jul5-landfall.jpg?resize=200%2C150&amp;amp;ssl=1 200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/bavi-sat-jul5-landfall.jpg?zoom=2&amp;amp;resize=800%2C600&amp;amp;ssl=1 1600w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/bavi-sat-jul5-landfall.jpg?resize=800%2C600&amp;amp;ssl=1&amp;amp;w=370 370w" sizes="auto, (min-width: 782px) 400px, (min-width: 600px) 42.5vw, 90vw" /&gt;												&lt;/a&gt;
 				
 							&lt;/figure&gt;&lt;!-- .featured-image --&gt;
 		
@@ -458,12 +229,26 @@
 				&gt;
 							&lt;figure class="post-thumbnail"&gt;
 								&lt;a href="https://yaleclimateconnections.org/2026/07/super-typhoon-bavi-becomes-the-3rd-cat-5-of-2026/" rel="bookmark" tabindex="-1" aria-hidden="true"&gt;
-												&lt;img loading="lazy" decoding="async" width="1200" height="900" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/BaviSunday-afternoonsate.png?resize=1200%2C900&amp;amp;ssl=1" class="attachment-newspack-article-block-landscape-large size-newspack-article-block-landscape-large wp-post-image" alt="Super Typhoon Bavi becomes the 3rd Cat 5 of 2026" data-hero-candidate="1" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/BaviSunday-afternoonsate.png?resize=1200%2C900&amp;amp;ssl=1 1200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/BaviSunday-afternoonsate.png?resize=800%2C600&amp;amp;ssl=1 800w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/BaviSunday-afternoonsate.png?resize=600%2C450&amp;amp;ssl=1 600w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/BaviSunday-afternoonsate.png?resize=400%2C300&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/BaviSunday-afternoonsate.png?resize=200%2C150&amp;amp;ssl=1 200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/BaviSunday-afternoonsate.png?resize=1200%2C900&amp;amp;ssl=1&amp;amp;w=370 370w" sizes="auto, (max-width: 34.9rem) calc(100vw - 2rem), (max-width: 53rem) calc(8 * (100vw / 12)), (min-width: 53rem) calc(6 * (100vw / 12)), 100vw" /&gt;												&lt;/a&gt;
+												&lt;img loading="lazy" decoding="async" width="1200" height="900" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/BaviSunday-afternoonsate.png?resize=1200%2C900&amp;amp;ssl=1" class="attachment-newspack-article-block-landscape-large size-newspack-article-block-landscape-large wp-post-image" alt="Super Typhoon Bavi becomes the 3rd Cat 5 of 2026" data-hero-candidate="1" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/BaviSunday-afternoonsate.png?resize=1200%2C900&amp;amp;ssl=1 1200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/BaviSunday-afternoonsate.png?resize=800%2C600&amp;amp;ssl=1 800w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/BaviSunday-afternoonsate.png?resize=600%2C450&amp;amp;ssl=1 600w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/BaviSunday-afternoonsate.png?resize=400%2C300&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/BaviSunday-afternoonsate.png?resize=200%2C150&amp;amp;ssl=1 200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/BaviSunday-afternoonsate.png?resize=1200%2C900&amp;amp;ssl=1&amp;amp;w=370 370w" sizes="auto, (min-width: 782px) 400px, (min-width: 600px) 42.5vw, 90vw" /&gt;												&lt;/a&gt;
 				
 							&lt;/figure&gt;&lt;!-- .featured-image --&gt;
 		
 		&lt;div class="entry-wrapper"&gt;
 						&lt;h3 class="entry-title"&gt;&lt;a href="https://yaleclimateconnections.org/2026/07/super-typhoon-bavi-becomes-the-3rd-cat-5-of-2026/" rel="bookmark"&gt;Super Typhoon Bavi becomes the 3rd Cat 5 of 2026&lt;/a&gt;&lt;/h3&gt;											&lt;/div&gt;&lt;!-- .entry-wrapper --&gt;
+	&lt;/article&gt;
+
+		
+	&lt;article data-post-id="139904"
+		class="tag-hurricane tag-irene-sans tag-jeff-masters category-eye-on-the-storm category-feature-articles category-weather type-post post-has-image"
+				&gt;
+							&lt;figure class="post-thumbnail"&gt;
+								&lt;a href="https://yaleclimateconnections.org/2026/07/typhoon-battered-u-s-northern-mariana-islands-brace-for-a-potential-super-typhoon/" rel="bookmark" tabindex="-1" aria-hidden="true"&gt;
+												&lt;img loading="lazy" decoding="async" width="1200" height="900" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/sinlaku-damage.jpg?resize=1200%2C900&amp;amp;ssl=1" class="attachment-newspack-article-block-landscape-large size-newspack-article-block-landscape-large wp-post-image" alt="Typhoon-battered U.S. Northern Mariana Islands brace for a potential super typhoon" data-hero-candidate="1" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/sinlaku-damage.jpg?resize=1200%2C900&amp;amp;ssl=1 1200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/sinlaku-damage.jpg?resize=800%2C600&amp;amp;ssl=1 800w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/sinlaku-damage.jpg?resize=600%2C450&amp;amp;ssl=1 600w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/sinlaku-damage.jpg?resize=400%2C300&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/sinlaku-damage.jpg?resize=200%2C150&amp;amp;ssl=1 200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/sinlaku-damage.jpg?resize=1200%2C900&amp;amp;ssl=1&amp;amp;w=370 370w" sizes="auto, (min-width: 782px) 400px, (min-width: 600px) 42.5vw, 90vw" /&gt;												&lt;/a&gt;
+				
+							&lt;/figure&gt;&lt;!-- .featured-image --&gt;
+		
+		&lt;div class="entry-wrapper"&gt;
+						&lt;h3 class="entry-title"&gt;&lt;a href="https://yaleclimateconnections.org/2026/07/typhoon-battered-u-s-northern-mariana-islands-brace-for-a-potential-super-typhoon/" rel="bookmark"&gt;Typhoon-battered U.S. Northern Mariana Islands brace for a potential super typhoon&lt;/a&gt;&lt;/h3&gt;											&lt;/div&gt;&lt;!-- .entry-wrapper --&gt;
 	&lt;/article&gt;
 
 				&lt;/div&gt;
@@ -807,6 +592,20 @@
 					&lt;span&gt;MORE LIKE THIS&lt;/span&gt;
 				&lt;/h2&gt;
 						
+	&lt;article data-post-id="139969"
+		class="tag-jeff-masters category-eye-on-the-storm category-feature-articles category-weather type-post post-has-image"
+				&gt;
+							&lt;figure class="post-thumbnail"&gt;
+								&lt;a href="https://yaleclimateconnections.org/2026/07/june-2026-earths-2nd-hottest-june-on-record/" rel="bookmark" tabindex="-1" aria-hidden="true"&gt;
+												&lt;img loading="lazy" decoding="async" width="1200" height="900" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/cottonwood-fire-hand-crew.jpg?resize=1200%2C900&amp;amp;ssl=1" class="attachment-newspack-article-block-landscape-large size-newspack-article-block-landscape-large wp-post-image" alt="June 2026: Earth’s 2nd-hottest June on record" data-hero-candidate="1" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/cottonwood-fire-hand-crew.jpg?resize=1200%2C900&amp;amp;ssl=1 1200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/cottonwood-fire-hand-crew.jpg?resize=800%2C600&amp;amp;ssl=1 800w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/cottonwood-fire-hand-crew.jpg?resize=600%2C450&amp;amp;ssl=1 600w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/cottonwood-fire-hand-crew.jpg?resize=400%2C300&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/cottonwood-fire-hand-crew.jpg?resize=200%2C150&amp;amp;ssl=1 200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/cottonwood-fire-hand-crew.jpg?resize=1200%2C900&amp;amp;ssl=1&amp;amp;w=370 370w" sizes="auto, (max-width: 34.9rem) calc(100vw - 2rem), (max-width: 53rem) calc(8 * (100vw / 12)), (min-width: 53rem) calc(6 * (100vw / 12)), 100vw" /&gt;												&lt;/a&gt;
+				
+							&lt;/figure&gt;&lt;!-- .featured-image --&gt;
+		
+		&lt;div class="entry-wrapper"&gt;
+						&lt;h3 class="entry-title"&gt;&lt;a href="https://yaleclimateconnections.org/2026/07/june-2026-earths-2nd-hottest-june-on-record/" rel="bookmark"&gt;June 2026: Earth’s 2nd-hottest June on record&lt;/a&gt;&lt;/h3&gt;											&lt;/div&gt;&lt;!-- .entry-wrapper --&gt;
+	&lt;/article&gt;
+
+		
 	&lt;article data-post-id="139866"
 		class="tag-north-carolina tag-united-states category-audio category-weather category-why-we-care type-post post-has-image"
 				&gt;
@@ -818,20 +617,6 @@
 		
 		&lt;div class="entry-wrapper"&gt;
 						&lt;h3 class="entry-title"&gt;&lt;a href="https://yaleclimateconnections.org/2026/07/the-rising-risk-of-landslides/" rel="bookmark"&gt;The rising risk of landslides&lt;/a&gt;&lt;/h3&gt;											&lt;/div&gt;&lt;!-- .entry-wrapper --&gt;
-	&lt;/article&gt;
-
-		
-	&lt;article data-post-id="140028"
-		class="tag-catherine-nakalembe category-analysis category-feature-articles category-weather type-post post-has-image"
-				&gt;
-							&lt;figure class="post-thumbnail"&gt;
-								&lt;a href="https://yaleclimateconnections.org/2026/07/ai-can-predict-disaster-but-it-cant-save-you/" rel="bookmark" tabindex="-1" aria-hidden="true"&gt;
-												&lt;img loading="lazy" decoding="async" width="1200" height="900" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/202607-ai-forecasts.jpg?resize=1200%2C900&amp;amp;ssl=1" class="attachment-newspack-article-block-landscape-large size-newspack-article-block-landscape-large wp-post-image" alt="AI can predict disaster, but it can&amp;#8217;t save you" data-hero-candidate="1" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/202607-ai-forecasts.jpg?resize=1200%2C900&amp;amp;ssl=1 1200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/202607-ai-forecasts.jpg?resize=800%2C600&amp;amp;ssl=1 800w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/202607-ai-forecasts.jpg?resize=600%2C450&amp;amp;ssl=1 600w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/202607-ai-forecasts.jpg?resize=400%2C300&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/202607-ai-forecasts.jpg?resize=200%2C150&amp;amp;ssl=1 200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/202607-ai-forecasts.jpg?resize=1200%2C900&amp;amp;ssl=1&amp;amp;w=370 370w" sizes="auto, (max-width: 34.9rem) calc(100vw - 2rem), (max-width: 53rem) calc(8 * (100vw / 12)), (min-width: 53rem) calc(6 * (100vw / 12)), 100vw" /&gt;												&lt;/a&gt;
-				
-							&lt;/figure&gt;&lt;!-- .featured-image --&gt;
-		
-		&lt;div class="entry-wrapper"&gt;
-						&lt;h3 class="entry-title"&gt;&lt;a href="https://yaleclimateconnections.org/2026/07/ai-can-predict-disaster-but-it-cant-save-you/" rel="bookmark"&gt;AI can predict disaster, but it can&amp;#8217;t save you&lt;/a&gt;&lt;/h3&gt;											&lt;/div&gt;&lt;!-- .entry-wrapper --&gt;
 	&lt;/article&gt;
 
 		
@@ -970,34 +755,6 @@
 					&lt;span&gt;MORE LIKE THIS&lt;/span&gt;
 				&lt;/h2&gt;
 						
-	&lt;article data-post-id="139862"
-		class="tag-boston tag-massachusetts tag-united-states category-adaptation category-audio category-energy category-solutions type-post post-has-image"
-				&gt;
-							&lt;figure class="post-thumbnail"&gt;
-								&lt;a href="https://yaleclimateconnections.org/2026/07/bostons-first-public-housing-project-gets-a-climate-friendly-makeover/" rel="bookmark" tabindex="-1" aria-hidden="true"&gt;
-												&lt;img loading="lazy" decoding="async" width="1200" height="900" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/071026_McCormack_1600.jpg?resize=1200%2C900&amp;amp;ssl=1" class="attachment-newspack-article-block-landscape-large size-newspack-article-block-landscape-large wp-post-image" alt="Boston’s first public housing project gets a climate-friendly makeover" data-hero-candidate="1" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/071026_McCormack_1600.jpg?resize=1200%2C900&amp;amp;ssl=1 1200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/071026_McCormack_1600.jpg?resize=800%2C600&amp;amp;ssl=1 800w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/071026_McCormack_1600.jpg?resize=600%2C450&amp;amp;ssl=1 600w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/071026_McCormack_1600.jpg?resize=400%2C300&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/071026_McCormack_1600.jpg?resize=200%2C150&amp;amp;ssl=1 200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/071026_McCormack_1600.jpg?resize=1200%2C900&amp;amp;ssl=1&amp;amp;w=370 370w" sizes="auto, (max-width: 34.9rem) calc(100vw - 2rem), (max-width: 53rem) calc(8 * (100vw / 12)), (min-width: 53rem) calc(6 * (100vw / 12)), 100vw" /&gt;												&lt;/a&gt;
-				
-							&lt;/figure&gt;&lt;!-- .featured-image --&gt;
-		
-		&lt;div class="entry-wrapper"&gt;
-						&lt;h3 class="entry-title"&gt;&lt;a href="https://yaleclimateconnections.org/2026/07/bostons-first-public-housing-project-gets-a-climate-friendly-makeover/" rel="bookmark"&gt;Boston’s first public housing project gets a climate-friendly makeover&lt;/a&gt;&lt;/h3&gt;											&lt;/div&gt;&lt;!-- .entry-wrapper --&gt;
-	&lt;/article&gt;
-
-		
-	&lt;article data-post-id="140070"
-		class="tag-home category-energy category-feature-articles category-solutions type-post post-has-image"
-				&gt;
-							&lt;figure class="post-thumbnail"&gt;
-								&lt;a href="https://yaleclimateconnections.org/2026/07/home-batteries-could-become-the-next-must-have-household-appliance/" rel="bookmark" tabindex="-1" aria-hidden="true"&gt;
-												&lt;img loading="lazy" decoding="async" width="1200" height="900" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/202607-home-battery-systems.jpg?resize=1200%2C900&amp;amp;ssl=1" class="attachment-newspack-article-block-landscape-large size-newspack-article-block-landscape-large wp-post-image" alt="Home batteries could become the next must-have household appliance" data-hero-candidate="1" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/202607-home-battery-systems.jpg?resize=1200%2C900&amp;amp;ssl=1 1200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/202607-home-battery-systems.jpg?resize=800%2C600&amp;amp;ssl=1 800w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/202607-home-battery-systems.jpg?resize=600%2C450&amp;amp;ssl=1 600w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/202607-home-battery-systems.jpg?resize=400%2C300&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/202607-home-battery-systems.jpg?resize=200%2C150&amp;amp;ssl=1 200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/202607-home-battery-systems.jpg?resize=1200%2C900&amp;amp;ssl=1&amp;amp;w=370 370w" sizes="auto, (max-width: 34.9rem) calc(100vw - 2rem), (max-width: 53rem) calc(8 * (100vw / 12)), (min-width: 53rem) calc(6 * (100vw / 12)), 100vw" /&gt;												&lt;/a&gt;
-				
-							&lt;/figure&gt;&lt;!-- .featured-image --&gt;
-		
-		&lt;div class="entry-wrapper"&gt;
-						&lt;h3 class="entry-title"&gt;&lt;a href="https://yaleclimateconnections.org/2026/07/home-batteries-could-become-the-next-must-have-household-appliance/" rel="bookmark"&gt;Home batteries could become the next must-have household appliance&lt;/a&gt;&lt;/h3&gt;											&lt;/div&gt;&lt;!-- .entry-wrapper --&gt;
-	&lt;/article&gt;
-
-		
 	&lt;article data-post-id="139864"
 		class="tag-united-states category-audio category-energy category-policy category-solutions type-post post-has-image"
 				&gt;
@@ -1009,6 +766,34 @@
 		
 		&lt;div class="entry-wrapper"&gt;
 						&lt;h3 class="entry-title"&gt;&lt;a href="https://yaleclimateconnections.org/2026/07/nonprofit-encourages-latinos-to-get-politically-involved-amid-rising-energy-costs/" rel="bookmark"&gt;Nonprofit encourages Latinos to get politically involved amid rising energy costs&lt;/a&gt;&lt;/h3&gt;											&lt;/div&gt;&lt;!-- .entry-wrapper --&gt;
+	&lt;/article&gt;
+
+		
+	&lt;article data-post-id="139729"
+		class="tag-georgia tag-north-carolina category-audio category-energy category-solutions type-post post-has-image"
+				&gt;
+							&lt;figure class="post-thumbnail"&gt;
+								&lt;a href="https://yaleclimateconnections.org/2026/07/initiative-in-north-carolina-and-georgia-helps-residents-lower-their-electricity-bills/" rel="bookmark" tabindex="-1" aria-hidden="true"&gt;
+												&lt;img loading="lazy" decoding="async" width="1200" height="900" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/070226_heatpump_1600.jpg?resize=1200%2C900&amp;amp;ssl=1" class="attachment-newspack-article-block-landscape-large size-newspack-article-block-landscape-large wp-post-image" alt="Initiative in North Carolina and Georgia helps residents lower their electricity bills" data-hero-candidate="1" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/070226_heatpump_1600.jpg?resize=1200%2C900&amp;amp;ssl=1 1200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/070226_heatpump_1600.jpg?resize=800%2C600&amp;amp;ssl=1 800w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/070226_heatpump_1600.jpg?resize=600%2C450&amp;amp;ssl=1 600w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/070226_heatpump_1600.jpg?resize=400%2C300&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/070226_heatpump_1600.jpg?resize=200%2C150&amp;amp;ssl=1 200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/070226_heatpump_1600.jpg?resize=1200%2C900&amp;amp;ssl=1&amp;amp;w=370 370w" sizes="auto, (max-width: 34.9rem) calc(100vw - 2rem), (max-width: 53rem) calc(8 * (100vw / 12)), (min-width: 53rem) calc(6 * (100vw / 12)), 100vw" /&gt;												&lt;/a&gt;
+				
+							&lt;/figure&gt;&lt;!-- .featured-image --&gt;
+		
+		&lt;div class="entry-wrapper"&gt;
+						&lt;h3 class="entry-title"&gt;&lt;a href="https://yaleclimateconnections.org/2026/07/initiative-in-north-carolina-and-georgia-helps-residents-lower-their-electricity-bills/" rel="bookmark"&gt;Initiative in North Carolina and Georgia helps residents lower their electricity bills&lt;/a&gt;&lt;/h3&gt;											&lt;/div&gt;&lt;!-- .entry-wrapper --&gt;
+	&lt;/article&gt;
+
+		
+	&lt;article data-post-id="139731"
+		class="tag-maryland tag-united-states category-adaptation category-arts category-audio category-solutions type-post post-has-image"
+				&gt;
+							&lt;figure class="post-thumbnail"&gt;
+								&lt;a href="https://yaleclimateconnections.org/2026/07/how-a-maryland-soccer-complex-became-more-climate-resilient/" rel="bookmark" tabindex="-1" aria-hidden="true"&gt;
+												&lt;img loading="lazy" decoding="async" width="1200" height="900" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/070126_soccer_1600.jpg?resize=1200%2C900&amp;amp;ssl=1" class="attachment-newspack-article-block-landscape-large size-newspack-article-block-landscape-large wp-post-image" alt="How a Maryland soccer complex became more climate-resilient" data-hero-candidate="1" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/070126_soccer_1600.jpg?resize=1200%2C900&amp;amp;ssl=1 1200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/070126_soccer_1600.jpg?resize=800%2C600&amp;amp;ssl=1 800w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/070126_soccer_1600.jpg?resize=600%2C450&amp;amp;ssl=1 600w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/070126_soccer_1600.jpg?resize=400%2C300&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/070126_soccer_1600.jpg?resize=200%2C150&amp;amp;ssl=1 200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/070126_soccer_1600.jpg?resize=1200%2C900&amp;amp;ssl=1&amp;amp;w=370 370w" sizes="auto, (max-width: 34.9rem) calc(100vw - 2rem), (max-width: 53rem) calc(8 * (100vw / 12)), (min-width: 53rem) calc(6 * (100vw / 12)), 100vw" /&gt;												&lt;/a&gt;
+				
+							&lt;/figure&gt;&lt;!-- .featured-image --&gt;
+		
+		&lt;div class="entry-wrapper"&gt;
+						&lt;h3 class="entry-title"&gt;&lt;a href="https://yaleclimateconnections.org/2026/07/how-a-maryland-soccer-complex-became-more-climate-resilient/" rel="bookmark"&gt;How a Maryland soccer complex became more climate-resilient&lt;/a&gt;&lt;/h3&gt;											&lt;/div&gt;&lt;!-- .entry-wrapper --&gt;
 	&lt;/article&gt;
 
 				&lt;/div&gt;
@@ -1064,4 +849,307 @@
 
 
 &lt;p class="wp-block-paragraph"&gt;&lt;em&gt;Reporting credit: Ethan Freedman / ChavoBart Digital Media&lt;/em&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Mon, 06 Jul 2026 11:00:00 +0000</pubDate><guid>https://yaleclimateconnections.org/2026/07/workers-are-more-likely-to-be-injured-on-very-hot-days/</guid><guid isPermaLink="true">https://yaleclimateconnections.org/2026/07/workers-are-more-likely-to-be-injured-on-very-hot-days/</guid></item></channel></rss>
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Mon, 06 Jul 2026 11:00:00 +0000</pubDate><guid>https://yaleclimateconnections.org/2026/07/workers-are-more-likely-to-be-injured-on-very-hot-days/</guid><guid isPermaLink="true">https://yaleclimateconnections.org/2026/07/workers-are-more-likely-to-be-injured-on-very-hot-days/</guid></item><item><title>Super Typhoon Bavi becomes the 3rd Cat 5 of 2026</title><link>https://yaleclimateconnections.org/2026/07/super-typhoon-bavi-becomes-the-3rd-cat-5-of-2026/</link><description>
+&lt;p class="wp-block-paragraph"&gt;&lt;em&gt;&lt;strong&gt;Update&lt;/strong&gt;&amp;nbsp;(June 5, 12:00 p.m. EDT):&lt;/em&gt;&amp;nbsp;Super Typhoon Bavi has strengthened, with maximum &lt;a href="https://www.metoc.navy.mil/jtwc/products/wp0926.gif"&gt;sustained winds of 178 mph (155 kt or 287 km/h)&lt;/a&gt;, and 910 mb central pressure, as it approaches the Northern Mariana Islands. The latest satellite imagery shows Bavi&amp;#8217;s wide, well-defined eye, measuring about 25 nautical miles (29 miles) in diameter. The system is forecast to maintain its extreme strength as it travels west-northwest at 14 mph. It is currently located about 137 miles east of Andersen Air Force Base on the northern tip of Guam. Hurricane-force winds extend up to 58 miles north of Bavi&amp;#8217;s center and about 46 miles south of the center, while tropical storm-force winds extend up to 230 miles to the north and about 180 miles to the south.&lt;/p&gt;
+
+
+
+&lt;figure class="wp-block-embed is-type-rich is-provider-x wp-block-embed-x"&gt;&lt;div class="wp-block-embed__wrapper"&gt;
+&lt;div class="embed-x"&gt;&lt;blockquote class="twitter-tweet" data-width="500" data-dnt="true"&gt;&lt;p lang="en" dir="ltr"&gt;Super Typhoon &lt;a href="https://x.com/hashtag/Bavi?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#Bavi&lt;/a&gt; starting to affect Guam. Strongest winds are still 8-12 hours away. &lt;br&gt;🎥: Rhea Caceres Estella &lt;a href="https://t.co/jGilAPq82A"&gt;pic.twitter.com/jGilAPq82A&lt;/a&gt;&lt;/p&gt;&amp;mdash; Scott (@RandomHeroWX) &lt;a href="https://x.com/RandomHeroWX/status/2073786368052928748?ref_src=twsrc%5Etfw"&gt;July 5, 2026&lt;/a&gt;&lt;/blockquote&gt;&lt;script async src="https://platform.x.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;Bavi still has a few hours before it is forecast to pass near or over Rota on Monday after sunrise (&lt;a href="https://en.wikipedia.org/wiki/Chamorro_Time_Zone"&gt;Chamorro Standard Time, ChST,&lt;/a&gt; also known as Guam Standard Time). Heavy rainbands have already been affecting the island chain from Guam to the Northern Mariana Islands, and they will continue to bring heavy rainfall and strong wind gusts through late Tuesday night or early Wednesday as Bavi moves away.  Bavi is forecast to continue on a west-northwest track while gradually weakening. However, it is expected to remain a powerful Category 3 typhoon and could threaten parts of Taiwan next week.&lt;/p&gt;
+
+
+
+&lt;figure class="wp-block-image size-large"&gt;&lt;img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="665" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/wp0926-1.gif?resize=1024%2C665&amp;#038;ssl=1" alt="" class="wp-image-139990" style="aspect-ratio:1.5398263973090538" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/wp0926-1.gif?resize=1024%2C665&amp;amp;ssl=1 1024w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/wp0926-1.gif?resize=300%2C195&amp;amp;ssl=1 300w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/wp0926-1.gif?resize=768%2C499&amp;amp;ssl=1 768w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/wp0926-1.gif?resize=1536%2C998&amp;amp;ssl=1 1536w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/wp0926-1.gif?resize=1200%2C779&amp;amp;ssl=1 1200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/wp0926-1.gif?resize=2000%2C1299&amp;amp;ssl=1 2000w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/wp0926-1.gif?resize=780%2C507&amp;amp;ssl=1 780w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/wp0926-1.gif?resize=400%2C260&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/wp0926-1-1024x665.gif?w=370&amp;amp;ssl=1 370w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Figure 1. Official track released by the Joint Typhoon Warning Center on Sunday morning (11 a.m. EDT July 5) shows Tropical Storm Bavi approaching the Northern Mariana Islands and continuing a path toward Taiwan through the week of July 6.&lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+&lt;figure class="wp-block-embed is-type-rich is-provider-x wp-block-embed-x"&gt;&lt;div class="wp-block-embed__wrapper"&gt;
+&lt;div class="embed-x"&gt;&lt;blockquote class="twitter-tweet" data-width="500" data-dnt="true"&gt;&lt;p lang="en" dir="ltr"&gt;(12:20pm Sun) Catastrophic Category 5 super typhoon Bavi is headed toward the small island of Rota, just north of Guam.  Impacts will be devastating. 🙏 &lt;a href="https://t.co/LQWrZG9S9w"&gt;pic.twitter.com/LQWrZG9S9w&lt;/a&gt;&lt;/p&gt;&amp;mdash; Paul Gross (@GrossWeather) &lt;a href="https://x.com/GrossWeather/status/2073805048153362597?ref_src=twsrc%5Etfw"&gt;July 5, 2026&lt;/a&gt;&lt;/blockquote&gt;&lt;script async src="https://platform.x.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;&lt;em&gt;&lt;strong&gt;Update&lt;/strong&gt; (July 4, 12:45 p.m. EDT): &lt;/em&gt;As of 12Z (8 a.m. EDT) Saturday morning, the sustained winds of Super Typhoon Bavi were &lt;a href="https://www.metoc.navy.mil/jtwc/products/wp0926.gif"&gt;160 mph&lt;/a&gt; (260 km/h), according to the Joint Typhoon Warning Center (JTWC). As of 15Z Saturday, Bavi&amp;#8217;s central pressure was at &lt;a href="https://www.jma.go.jp/bosai/map.html#6/17.023/138.285/&amp;amp;typhoon=TC2611&amp;amp;contents=typhoon&amp;amp;lang=en"&gt;920 mb&lt;/a&gt;, according to the Japan Meteorological Agency. Satellite imagery and other data showed that a partial eyewall replacement cycle was under way, which could bring down Bavi&amp;#8217;s strength slightly. However, JTWC predicts that the storm will remain a super typhoon, and it could restrengthen on Sunday. The longer-range forecast below has changed little: as it tracks steadily west-northwestward, Bavi is expected to approach the U.S. Northern Mariana Islands between 18Z Sunday and 0Z Monday, and it remains a potential threat to eastern Asia late next week.&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;&lt;em&gt;Original article, posted on Friday, June 3:&lt;/em&gt;&lt;/p&gt;
+
+
+
+&lt;p class="has-drop-cap wp-block-paragraph"&gt;Typhoon Bavi put on a rare display of rapid intensification over the warm Pacific waters east of Guam on Thursday and Friday, becoming the world’s third Category 5 tropical cyclone of the year at 2 p.m. EDT July 3, with 160 mph (260 km/h) winds, according to the Joint Typhoon Warning Center (JTWC). Bavi intensified by 75 mph (120 km/h) in the 24 hours ending at 12Z Friday, and 100 mph (160 km/h) in the 36 hours ending at 18Z Friday — far exceeding the official definition of rapid intensification of a 35 mph increase in winds in 24 hours.&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;At 21Z Friday, the&amp;nbsp;&lt;a href="https://www.jma.go.jp/bosai/map.html#6/18.792/131.473/&amp;amp;typhoon=TC2304&amp;amp;contents=typhoon&amp;amp;lang=en"&gt;Japan Meteorological Agency&lt;/a&gt;, the official agency responsible for typhoon warnings in the Northwest Pacific, estimated that Bavi’s central pressure was 935 mb, with 110 mph (175 km/h) winds (10-minute average, which is normally substantially lower than the 1-minute average used by the Joint Typhoon Warning Center).&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;Bavi took advantage of favorable conditions for its extreme rapid intensification: low wind shear of 5-10 knots, sea surface temperatures of 29-30 degrees Celsius (84-86°F), with warm waters that extended to great depth (an ocean heat content over 110 kilojoules per square centimeter).&lt;/p&gt;
+
+
+
+&lt;figure class="wp-block-image size-full"&gt;&lt;img data-recalc-dims="1" loading="lazy" decoding="async" width="974" height="771" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/bavi-fct-hafsa-jul3.png?resize=974%2C771&amp;#038;ssl=1" alt="" class="wp-image-139977" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/bavi-fct-hafsa-jul3.png?w=974&amp;amp;ssl=1 974w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/bavi-fct-hafsa-jul3.png?resize=300%2C237&amp;amp;ssl=1 300w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/bavi-fct-hafsa-jul3.png?resize=768%2C608&amp;amp;ssl=1 768w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/bavi-fct-hafsa-jul3.png?resize=780%2C617&amp;amp;ssl=1 780w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/bavi-fct-hafsa-jul3.png?resize=400%2C317&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/bavi-fct-hafsa-jul3.png?w=370&amp;amp;ssl=1 370w" sizes="auto, (max-width: 974px) 100vw, 974px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Figure 2. Predicted winds (in knots; multiply by 1.15 to get mph) and sea level pressure (in mb) for Tropical Storm Bavi at 21Z Sunday, July 5, 2026, as predicted by the 12Z Friday, July 3, run of the HAFS-A model. Bavi was predicted to be a Cat 5 storm with 175 mph (285 km/h) winds and a central pressure of 905 mb, passing just south of Tinian Island in the U.S. Northern Mariana Islands. (Image credit:&amp;nbsp;&lt;a href="https://www.tropicaltidbits.com/analysis/models/?model=hafsa&amp;amp;region=09W&amp;amp;pkg=mslp_wind&amp;amp;runtime=2026070206&amp;amp;fh=87"&gt;tropicaltidbits.com&lt;/a&gt;)&lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+&lt;h4 class="wp-block-heading"&gt;&lt;strong&gt;Two-day forecast for Bavi&lt;/strong&gt;&lt;/h4&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;The Joint Typhoon Warning Center is predicting that Bavi will peak with 175 mph winds at 6Z Sunday, then slightly weaken because of an eyewall replacement cycle by Sunday afternoon (U.S. EST, but early Monday morning local time in the Northern Marianas) as it moves through the U.S. Northern Mariana Islands. The ridge of high pressure steering the typhoon is not expected to change much, and the track of the storm will very likely carry it just south of or over Tinian and Saipan islands in the Northern Marianas as early as 18Z Sunday. This passage could occur as late as 02Z Monday, according to the latest run of the GFS model. At landfall, JTWC predicts that Bavi will be a Category 5 storm with 165 mph (270 km/h) winds.&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;The National Weather Service in Guam issued a Typhoon Watch early Saturday local time for Guam, Rota, Tinian, and Saipan, warning of sustained winds of 175 mph, with gusts to 210 mph. Seas up to 45 feet were predicted for offshore waters, and 25-35 feet along the east-facing reefs. The Weather Service warned of catastrophic damage occurring where the eyewall passes.&lt;/p&gt;
+
+
+
+&lt;figure class="wp-block-image size-full"&gt;&lt;img data-recalc-dims="1" loading="lazy" decoding="async" width="974" height="731" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/bavi-forecast-jul3.png?resize=974%2C731&amp;#038;ssl=1" alt="" class="wp-image-139978" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/bavi-forecast-jul3.png?w=974&amp;amp;ssl=1 974w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/bavi-forecast-jul3.png?resize=300%2C225&amp;amp;ssl=1 300w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/bavi-forecast-jul3.png?resize=768%2C576&amp;amp;ssl=1 768w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/bavi-forecast-jul3.png?resize=800%2C600&amp;amp;ssl=1 800w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/bavi-forecast-jul3.png?resize=600%2C450&amp;amp;ssl=1 600w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/bavi-forecast-jul3.png?resize=400%2C300&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/bavi-forecast-jul3.png?resize=200%2C150&amp;amp;ssl=1 200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/bavi-forecast-jul3.png?resize=780%2C585&amp;amp;ssl=1 780w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/bavi-forecast-jul3.png?w=370&amp;amp;ssl=1 370w" sizes="auto, (max-width: 974px) 100vw, 974px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Figure 3. Forecast tracks and probability of Bavi passing to within 150 km (93 miles) of any location from all global forecast models as of early Friday Eastern Time. The most likely track takes Bavi into Taiwan and/or China Jul. 10-11. (Image credit: &lt;a href="https://www.polarwx.com/tropical/data/realtime/wp092026/images/superensemble_density.png"&gt;Tomer Burg&lt;/a&gt;)&lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+&lt;h4 class="wp-block-heading"&gt;&lt;strong&gt;Long-range forecast for Bavi&lt;/strong&gt;&lt;/h4&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;Once Bavi passes the Northern Mariana Islands, atmospheric and ocean conditions are not expected to change much. The ridge of high pressure steering the typhoon will continue to take Bavi to the west-northwest, resulting in a threat to Taiwan or China by Friday, July 10. Intensity forecasts that far out are unreliable, but the European and GFS models indicate Bavi will maintain strength as a major typhoon until landfall in Asia.&lt;/p&gt;
+
+
+
+&lt;h4 class="wp-block-heading"&gt;&lt;strong&gt;Bavi is the third Cat 5 of 2026&lt;/strong&gt;&lt;/h4&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;Bavi is the third Cat 5 globally this year. The others were:&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;&lt;a href="https://www.emc.ncep.noaa.gov/gc_wmb/vxt/DECKS/bwp042026.dat"&gt;&lt;strong&gt;Super Typhoon Sinlaku&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt;, 185 mph (295 km/hr) winds, Apr. 12, 2026, &lt;/strong&gt;southeast of Guam. Sinlaku made landfall over the U.S. Northern Mariana Islands on April 14, with the large eye of the storm passing over both Tinian and Saipan islands simultaneously. According to the Joint Typhoon Warning Center (JTWC), Sinlaku was a Cat 4 with sustained winds of 145 mph (230 km/hr) at landfall.&amp;nbsp; Sinkalu killed 17 and did about $1.5 billion in damage to the &lt;a href="https://www.redcross.org/local/oregon/about-us/news-and-events/news/a-red-crossers-journey-to-typhoon-sinlaku-in-saipan.html"&gt;Northern Mariana Islands&lt;/a&gt; and &lt;a href="https://www.guampdn.com/news/governor-sinlaku-damage-to-guam-at-435m-major-disaster-declaration-request-coming-for-individual-relief/article_a34f19bc-137b-409f-88ed-1c1327b04ffe.html"&gt;Guam&lt;/a&gt;. Sinlaku was the 10th Category 4 or 5 tropical cyclone to hit a U.S. state or territory in the past 10 years — as many Cat 4 and Cat 5 landfalls as the U.S. suffered in the prior 57 years.&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;&lt;strong&gt;Tropical Cyclone Horacio&lt;/strong&gt;, &lt;strong&gt;160 mph (260 km/h) winds, Feb. 23, 2026&lt;/strong&gt;, over the remote South Indian Ocean. Horacio did not impact any land areas.&lt;/p&gt;
+
+
+
+&lt;h4 class="wp-block-heading"&gt;&lt;strong&gt;How strong can Bavi get?&lt;/strong&gt;&lt;/h4&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;As I detailed in my April post &lt;a href="https://yaleclimateconnections.org/2026/04/how-strong-can-a-hurricane-get-in-a-warming-world/"&gt;How strong can a hurricane get in a warming world?&lt;/a&gt;,  the maximum potential intensity (MPI) of a tropical cyclone is the maximum strength a storm can achieve based on the existing atmospheric and oceanic conditions. Potential intensity theory was pioneered in 1987 by MIT hurricane scientist Kerry Emanuel, who showed that human-caused global warming will increase the maximum strength that a tropical cyclone can achieve.&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;Bavi is approaching its maximum potential intensity, which is expected to be about 200 mph with a central pressure of 880 mb, &lt;a href="https://tropic.ssec.wisc.edu/real-time/storm.php?&amp;amp;basin=westpac&amp;amp;sname=04W&amp;amp;invest=NO&amp;amp;zoom=4&amp;amp;img=1&amp;amp;vars=111110000000000000000&amp;amp;loop=0&amp;amp;llval=OFF"&gt;according to a graphic from the University of Wisconsin CIMSS&lt;/a&gt;. It is quite rare for a hurricane or typhoon to reach its maximum potential intensity — all conditions have to be perfect, and the atmosphere and ocean make up a complex system where perfection is rarely achieved. An eyewall replacement cycle will likely interrupt Bavi’s intensification process sometime in the next two days, leaving the typhoon short of its MPI.&lt;/p&gt;
+
+
+
+&lt;figure class="wp-block-image size-full"&gt;&lt;img data-recalc-dims="1" loading="lazy" decoding="async" width="974" height="639" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2025/10/cat5s-1982-2025.jpg?resize=974%2C639&amp;#038;ssl=1" alt="Category 5 storms globally, 1982-2025." class="wp-image-133384" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2025/10/cat5s-1982-2025.jpg?w=974&amp;amp;ssl=1 974w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2025/10/cat5s-1982-2025.jpg?resize=300%2C197&amp;amp;ssl=1 300w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2025/10/cat5s-1982-2025.jpg?resize=768%2C504&amp;amp;ssl=1 768w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2025/10/cat5s-1982-2025.jpg?resize=780%2C512&amp;amp;ssl=1 780w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2025/10/cat5s-1982-2025.jpg?resize=400%2C262&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2025/10/cat5s-1982-2025.jpg?w=370&amp;amp;ssl=1 370w" sizes="auto, (max-width: 974px) 100vw, 974px" /&gt;&lt;figcaption class="wp-element-caption"&gt;Figure 4. Category 5 storms globally, 1982-2025.&lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+&lt;h4 class="wp-block-heading"&gt;&lt;strong&gt;El Niño supercharges typhoon season&lt;/strong&gt;s&lt;/h4&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;Bavi is the classic early-season super typhoon one would expect to see when the ocean-atmosphere system is moving into a strong El Niño event, as is currently the case. Typhoons tend to form farther east, away from Asia, during an El Niño episode because of warmer waters in the Central Pacific. Thus, El Niño-year typhoons take longer tracks over water before recurving or hitting Asia, resulting in a greater chance of reaching Category 5 intensity.&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;Over the 79 years of Joint Typhoon Warning Center monitoring, there have been&amp;nbsp;&lt;a href="https://en.wikipedia.org/wiki/List_of_super_typhoons"&gt;317 super typhoons&lt;/a&gt;&amp;nbsp;— defined as having maximum sustained 1-minute average winds of at least 150 mph (240 km/hr) — with an average frequency of around four per year. Most of these reach the Cat 5 threshold (winds of at least 156 mph). The strong El Niño year of 1997 saw 11 super typhoons in the Northwest Pacific, with a&amp;nbsp;&lt;a href="https://en.wikipedia.org/wiki/1997_Pacific_typhoon_season"&gt;record 10 Cat 5s&lt;/a&gt;, and a record accumulated cyclone energy (ACE) index of 594.&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;The 1990-2025 average yearly number of Category 5 storms globally was 5.3; there were five in 2025 (Hurricanes Melissa, Erin, and Humberto in the Atlantic; Typhoon Ragasa in the Northwest Pacific; and Cyclone Errol in the South Indian).&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;As seen in Fig. 3, the number of Cat 5s has increased globally since accurate global satellite data became available in 1982 (this increase is statistically significant at the 99.5% level). Climate change is expected to increase the proportion of tropical cyclones reaching Category 4 or 5 strength.&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;&lt;em&gt;Bob Henson and Irene Sans contributed to this post.&lt;/em&gt;&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 03 Jul 2026 22:00:43 +0000</pubDate><guid>https://yaleclimateconnections.org/2026/07/super-typhoon-bavi-becomes-the-3rd-cat-5-of-2026/</guid><guid isPermaLink="true">https://yaleclimateconnections.org/2026/07/super-typhoon-bavi-becomes-the-3rd-cat-5-of-2026/</guid></item><item><title>A new book aims to change your image of protest</title><link>https://yaleclimateconnections.org/2026/07/a-new-book-aims-to-change-your-image-of-protest/</link><description>
+&lt;p class="has-drop-cap wp-block-paragraph"&gt;Authors and activists Annie Leonard and Andre Carothers are optimistic about the future. It’s the present that gives them pause.&lt;/p&gt;
+
+
+&lt;div class="wp-block-image"&gt;
+&lt;figure class="alignright size-large"&gt;&lt;img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="1024" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/Protest-3Dcvr.jpg?resize=1024%2C1024&amp;#038;ssl=1" alt="image of the book, Protest" class="wp-image-139934" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/Protest-3Dcvr.jpg?resize=1024%2C1024&amp;amp;ssl=1 1024w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/Protest-3Dcvr.jpg?resize=300%2C300&amp;amp;ssl=1 300w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/Protest-3Dcvr.jpg?resize=150%2C150&amp;amp;ssl=1 150w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/Protest-3Dcvr.jpg?resize=768%2C768&amp;amp;ssl=1 768w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/Protest-3Dcvr.jpg?resize=1536%2C1536&amp;amp;ssl=1 1536w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/Protest-3Dcvr.jpg?resize=1200%2C1200&amp;amp;ssl=1 1200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/Protest-3Dcvr.jpg?resize=800%2C800&amp;amp;ssl=1 800w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/Protest-3Dcvr.jpg?resize=600%2C600&amp;amp;ssl=1 600w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/Protest-3Dcvr.jpg?resize=400%2C400&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/Protest-3Dcvr.jpg?resize=200%2C200&amp;amp;ssl=1 200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/Protest-3Dcvr.jpg?resize=780%2C780&amp;amp;ssl=1 780w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/Protest-3Dcvr.jpg?w=1800&amp;amp;ssl=1 1800w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/Protest-3Dcvr-1024x1024.jpg?w=370&amp;amp;ssl=1 370w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;figcaption class="wp-element-caption"&gt;(Image credit: Patagonia)&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+
+&lt;p class="wp-block-paragraph"&gt;“If one takes the longer view,” Leonard said in a conversation with Yale Climate Connections before their appearance at Washington, D.C.’s &lt;a href="https://www.busboysandpoets.com/"&gt;Busboy’s and Poets&lt;/a&gt;, “we’ve made a lot of progress. “Fifty years ago, a woman couldn’t have a credit card without her husband’s permission.”&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;“When I was born,” Carothers added, “there were still segregated water fountains across the South.” &lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;But there has been a backlash to hard-won rights and freedoms.&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;“The enemies of a multiracial, healthy, and sustainable democracy [have risen] up against all the progress we have made,” Leonard said. “Our democracy is under threat.” &lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;In response, Leonard and Carothers set out to help concerned citizens make their way through the beleaguered present to a positive future. Protest, they want people to understand, has been an essential part of the process of expanding and protecting our freedoms and our homes, including the ecosystems that support them. &lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;But when people try to exercise these rights, too often they are vilified in the media and harassed by authorities. &lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;Although there’s a bronze statue of Rosa Parks in the Capitol Building now, when she refused to give up her seat on the Montgomery bus in 1955, public anger forced her to flee the city.&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;“We are on a mission to rehabilitate the image of protest,” Leonard said. &lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;The vehicle for this mission is a book, “&lt;a href="https://www.patagonia.com/product/protest-respect-it-use-it-hardcover-book/BK940.html"&gt;Protest: Respect It, Defend It, Use It&lt;/a&gt;.” Through a series of historical vignettes, it shows how protest has catalyzed the socioeconomic, political, and environmental progress we take for granted today. To promote the book, Leonard and Carothers organized an extended book tour and collaborated with other activists’ projects and programs. &lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;Leonard and Carothers&amp;#8217; own collaboration can be traced back decades to when they both worked for &lt;a href="https://www.greenpeace.org/usa/tag/protest/"&gt;Greenpeace&lt;/a&gt;, itself an orchestrator of creative protest. Leonard, best known for the documentary “&lt;a href="https://www.storyofstuff.org/movies/story-of-stuff/"&gt;The Story of Stuff&lt;/a&gt;,” served as Greenpeace’s U.S. director and cofounded the &lt;a href="https://www.janepac.com/"&gt;Jane Fonda Climate PAC&lt;/a&gt; with the activist-actor in 2022. Carothers served as editor-in-chief of the organization’s flagship publication, “Greenpeace,” and on its board of directors before cofounding the &lt;a href="https://rockwoodleadership.org/"&gt;Rockwood Leadership Institute&lt;/a&gt;, directing the &lt;a href="https://furthur.org/"&gt;Furthur Foundation&lt;/a&gt;, and working as a consultant and activist.&lt;/p&gt;
+
+
+
+&lt;h4 class="wp-block-heading"&gt;&lt;b&gt;Visually delightful snapshots of protest &lt;/b&gt;&lt;/h4&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;“Protest” could be described as a coffee-table book: oversize, richly illustrated, and divided into many short, easily digested chapters. It begins with separate introductions by Carothers and Leonard and ends with an afterword by political commentator &lt;a href="https://rbreich.com/"&gt;Robert Reich&lt;/a&gt;.&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;In his introduction, Carothers emphasizes “the long arc of protest,” from Socrates’ performative death to the civil actions of Mahatma Gandhi, Martin Luther King, and Nelson Mandela. In her introduction, Leonard describes the tactics now used to muffle or muzzle nonviolent protestors: the demonization of dissent, administrative harassment, lawsuits, and laws prohibiting protest. &lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;The 42 chapters profile protests from 1738 – when abolitionist Benjamin Lay denounced slaveholding Philadelphia Quakers by splashing them with blood-colored berry juice – to the 2025 “No Kings” rallies that gathered in cities around the U.S.&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;Interspersed among these chapters are page-spreads of pithy quotes about protest and personal reflections on nonviolent civil action from 13 activists, including Jane Fonda. &lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;The goal was to present protest in all its varieties and worldwide, from the actions of individuals, like Rosa Parks and Greta Thunberg, to the coordinated demonstrations of thousands across an entire country, as with the first Earth Day and the George Floyd Memorials. &lt;/p&gt;
+
+
+
+&lt;figure class="wp-block-image"&gt;&lt;img data-recalc-dims="1" decoding="async" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/null.png?ssl=1" alt="Overhead photo of the book open to a page about a protest village in the trees in Germany" title=""/&gt;&lt;figcaption class="wp-element-caption"&gt;(Image credit: Michael Svoboda)&lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+&lt;h4 class="wp-block-heading"&gt;&lt;b&gt;Bigger than a book &lt;/b&gt;&lt;/h4&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;On the road, Leonard and Carothers have teamed up with local activists and organizers. Sometimes the book signing served as the opening session for an extended training program in which participants learned how to recognize and subvert the tactics authoritarians use to disable or dismantle democratic processes, norms, and guardrails. &lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;Leonard and Carothers joined Jane Fonda and Greenpeace for the cinematic premiere in New York City on June 12 of Fonda’s new documentary, &amp;#8220;&lt;a href="https://www.imdb.com/title/tt39383542/"&gt;Gaslit&lt;/a&gt;,” which she coproduced with &lt;a href="https://www.greenpeace.org/usa/gaslit-documentary-featuring-jane-fonda-to-make-world-premiere/"&gt;Greenpeace&lt;/a&gt;. Also there were activists featured in the film, residents of “Cancer Alley” who had protested the poisoning of their neighborhoods by oil and gas facilities.&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;Back at their Washington, D.C., stop, Leonard and Carothers were joined by &lt;a href="https://afj.org/team/deepa-padmanabha/"&gt;Deepa Padmanabha&lt;/a&gt;, law director for &lt;a href="https://afj.org/"&gt;Alliance for Justice&lt;/a&gt;, and &lt;a href="https://www.nonviolent-conflict.org/staff/ivan-marovic-executive-director/"&gt;Ivan Marovic&lt;/a&gt;, executive director of the &lt;a href="https://www.nonviolent-conflict.org/"&gt;International Center on Nonviolent Conflict&lt;/a&gt; and author of &amp;#8220;&lt;a href="https://www.nonviolent-conflict.org/resource/path-resistance-step-step-guide-planning-nonviolent-campaigns/"&gt;The Path of Most Resistance: A Step-by-Step Guide to Planning Nonviolent Campaigns&lt;/a&gt;.”&lt;/p&gt;
+
+
+
+&lt;figure class="wp-block-image"&gt;&lt;img data-recalc-dims="1" decoding="async" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/null-1.png?ssl=1" alt="Photo of four people speaking at a bookshop" title=""/&gt;&lt;figcaption class="wp-element-caption"&gt;(Image credit: Michael Svoboda)&lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;Leonard began the discussion with two observations. On the one hand, &lt;a href="https://yougov.com/en-us/articles/48468-americans-accept-protest-tactics-causes-they-support-poll"&gt;polls&lt;/a&gt; repeatedly indicate that most Americans strongly approve of democratic protest. On the other hand, when protests occur, the participants are often described by law enforcement and some in the media in negative terms: “agitators,” “Antifa,” “terrorists,” or “vandals.”&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;Deep Padmanabha discussed the increased surveillance, harassment, and prosecution of protesters. Her group advises activists on how best to handle these pressures, which must begin with a personal assessment: How much am I willing to risk?&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;In his exchanges with Carothers, Ivan Marovic drew on his experience with the democratic transition in Serbia. When his group had the chance to review records of the government’s campaign against them, he was surprised by the extent of silent protest: prosecutors who refused to charge, judges who waived charges, juries that refused to convict. This was, Carothers observed, akin to the discipline exhibited by Minneapolitians in the face of immigration enforcement’s threats and menace in 2026.&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;The D.C. stop on Leonard and Carothers’s book tour was well-attended. During the question-and-answer period, a Black woman with personal experience of the Civil Rights movement pointed out the preponderance of elderly patrons in the audience. “Where are the young people?”&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;“This question has come up at every event,” Leonard said. “It’s hard to be a young person now. You’re competing with laid-off federal workers for jobs. The risks of protest are higher. It’s going to be very scary. We have to acknowledge that.”&lt;/p&gt;
+
+
+
+&lt;p class="wp-block-paragraph"&gt;Still, “Protest” can play a role in a reexamination of how progress is made. Through its inviting design, the book can prompt the conversations we need to have to successfully resist the &lt;a href="https://www.thenation.com/article/politics/gephardt-wirth-warning-trump-rolling-coup/"&gt;ongoing&lt;/a&gt; backlash to our progress. &lt;/p&gt;
+
+
+	&lt;div
+		class="wp-block-newspack-blocks-homepage-articles wpnbha is-grid columns-3 colgap-3 show-image image-aligntop ts-2 is-3 is-landscape "
+		style=""
+		&gt;
+		&lt;div data-posts data-current-post-id="139910"&gt;
+							&lt;h2 class="article-section-title"&gt;
+					&lt;span&gt;MORE LIKE THIS&lt;/span&gt;
+				&lt;/h2&gt;
+						
+	&lt;article data-post-id="139910"
+		class="tag-michael-svoboda category-arts category-feature-articles category-policy category-review type-post post-has-image"
+				&gt;
+							&lt;figure class="post-thumbnail"&gt;
+								&lt;a href="https://yaleclimateconnections.org/2026/07/a-new-book-aims-to-change-your-image-of-protest/" rel="bookmark" tabindex="-1" aria-hidden="true"&gt;
+												&lt;img loading="lazy" decoding="async" width="1200" height="900" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/0726_protestauthors_1600.jpg?resize=1200%2C900&amp;amp;ssl=1" class="attachment-newspack-article-block-landscape-large size-newspack-article-block-landscape-large wp-post-image" alt="A new book aims to change your image of protest" data-hero-candidate="1" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/0726_protestauthors_1600.jpg?resize=1200%2C900&amp;amp;ssl=1 1200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/0726_protestauthors_1600.jpg?resize=800%2C600&amp;amp;ssl=1 800w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/0726_protestauthors_1600.jpg?resize=600%2C450&amp;amp;ssl=1 600w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/0726_protestauthors_1600.jpg?resize=400%2C300&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/0726_protestauthors_1600.jpg?resize=200%2C150&amp;amp;ssl=1 200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/07/0726_protestauthors_1600.jpg?resize=1200%2C900&amp;amp;ssl=1&amp;amp;w=370 370w" sizes="auto, (max-width: 34.9rem) calc(100vw - 2rem), (max-width: 53rem) calc(8 * (100vw / 12)), (min-width: 53rem) calc(6 * (100vw / 12)), 100vw" /&gt;												&lt;/a&gt;
+				
+							&lt;/figure&gt;&lt;!-- .featured-image --&gt;
+		
+		&lt;div class="entry-wrapper"&gt;
+						&lt;h3 class="entry-title"&gt;&lt;a href="https://yaleclimateconnections.org/2026/07/a-new-book-aims-to-change-your-image-of-protest/" rel="bookmark"&gt;A new book aims to change your image of protest&lt;/a&gt;&lt;/h3&gt;											&lt;/div&gt;&lt;!-- .entry-wrapper --&gt;
+	&lt;/article&gt;
+
+		
+	&lt;article data-post-id="139786"
+		class="tag-bridgett-ennis tag-burlington tag-united-states tag-vermont category-arts category-feature-articles category-solutions type-post post-has-image"
+				&gt;
+							&lt;figure class="post-thumbnail"&gt;
+								&lt;a href="https://yaleclimateconnections.org/2026/06/a-champion-soccer-team-is-taking-on-climate-change-too/" rel="bookmark" tabindex="-1" aria-hidden="true"&gt;
+												&lt;img loading="lazy" decoding="async" width="1200" height="900" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/202606-vermont-green-fc-climate-change.jpg?resize=1200%2C900&amp;amp;ssl=1" class="attachment-newspack-article-block-landscape-large size-newspack-article-block-landscape-large wp-post-image" alt="A champion soccer team is taking on climate change, too" data-hero-candidate="1" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/202606-vermont-green-fc-climate-change.jpg?resize=1200%2C900&amp;amp;ssl=1 1200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/202606-vermont-green-fc-climate-change.jpg?resize=800%2C600&amp;amp;ssl=1 800w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/202606-vermont-green-fc-climate-change.jpg?resize=600%2C450&amp;amp;ssl=1 600w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/202606-vermont-green-fc-climate-change.jpg?resize=400%2C300&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/202606-vermont-green-fc-climate-change.jpg?resize=200%2C150&amp;amp;ssl=1 200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/06/202606-vermont-green-fc-climate-change.jpg?resize=1200%2C900&amp;amp;ssl=1&amp;amp;w=370 370w" sizes="auto, (max-width: 34.9rem) calc(100vw - 2rem), (max-width: 53rem) calc(8 * (100vw / 12)), (min-width: 53rem) calc(6 * (100vw / 12)), 100vw" /&gt;												&lt;/a&gt;
+				
+							&lt;/figure&gt;&lt;!-- .featured-image --&gt;
+		
+		&lt;div class="entry-wrapper"&gt;
+						&lt;h3 class="entry-title"&gt;&lt;a href="https://yaleclimateconnections.org/2026/06/a-champion-soccer-team-is-taking-on-climate-change-too/" rel="bookmark"&gt;A champion soccer team is taking on climate change, too&lt;/a&gt;&lt;/h3&gt;											&lt;/div&gt;&lt;!-- .entry-wrapper --&gt;
+	&lt;/article&gt;
+
+		
+	&lt;article data-post-id="138839"
+		class="tag-hurricane tag-jeff-masters tag-sea-level-rise category-arts category-eye-on-the-storm category-feature-articles category-weather type-post post-has-image"
+				&gt;
+							&lt;figure class="post-thumbnail"&gt;
+								&lt;a href="https://yaleclimateconnections.org/2026/06/climate-fiction-envisions-the-future-of-hurricanes-and-sea-level-rise/" rel="bookmark" tabindex="-1" aria-hidden="true"&gt;
+												&lt;img loading="lazy" decoding="async" width="1200" height="900" src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/north-lightpirate-deluge.jpg?resize=1200%2C900&amp;amp;ssl=1" class="attachment-newspack-article-block-landscape-large size-newspack-article-block-landscape-large wp-post-image" alt="Climate fiction envisions the future of hurricanes and sea level rise" data-hero-candidate="1" srcset="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/north-lightpirate-deluge.jpg?resize=1200%2C900&amp;amp;ssl=1 1200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/north-lightpirate-deluge.jpg?resize=800%2C600&amp;amp;ssl=1 800w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/north-lightpirate-deluge.jpg?resize=600%2C450&amp;amp;ssl=1 600w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/north-lightpirate-deluge.jpg?resize=400%2C300&amp;amp;ssl=1 400w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/north-lightpirate-deluge.jpg?resize=200%2C150&amp;amp;ssl=1 200w, https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2026/05/north-lightpirate-deluge.jpg?resize=1200%2C900&amp;amp;ssl=1&amp;amp;w=370 370w" sizes="auto, (max-width: 34.9rem) calc(100vw - 2rem), (max-width: 53rem) calc(8 * (100vw / 12)), (min-width: 53rem) calc(6 * (100vw / 12)), 100vw" /&gt;												&lt;/a&gt;
+				
+							&lt;/figure&gt;&lt;!-- .featured-image --&gt;
+		
+		&lt;div class="entry-wrapper"&gt;
+						&lt;h3 class="entry-title"&gt;&lt;a href="https://yaleclimateconnections.org/2026/06/climate-fiction-envisions-the-future-of-hurricanes-and-sea-level-rise/" rel="bookmark"&gt;Climate fiction envisions the future of hurricanes and sea level rise&lt;/a&gt;&lt;/h3&gt;											&lt;/div&gt;&lt;!-- .entry-wrapper --&gt;
+	&lt;/article&gt;
+
+				&lt;/div&gt;
+		
+	&lt;/div&gt;
+	</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 03 Jul 2026 11:00:00 +0000</pubDate><guid>https://yaleclimateconnections.org/2026/07/a-new-book-aims-to-change-your-image-of-protest/</guid><guid isPermaLink="true">https://yaleclimateconnections.org/2026/07/a-new-book-aims-to-change-your-image-of-protest/</guid></item></channel></rss>
