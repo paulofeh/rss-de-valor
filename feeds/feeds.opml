@@ -1,7 +1,7 @@
 <opml version="2.0">
     <head>
         <title>RSS de Colunistas</title>
-        <dateCreated>Thu, 16 Jul 2026 13:53:11 GMT</dateCreated>
+        <dateCreated>Thu, 16 Jul 2026 14:25:28 GMT</dateCreated>
         <ownerName>RSS Scraper</ownerName>
         </head>
     <body>
@@ -88,10 +88,28 @@
                 </outline>
             <outline text="LinkedIn Newsletters" title="LinkedIn Newsletters">
                 <outline type="rss" text="AI in the news" title="AI in the news" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/ai_news_feed.xml" />
+                <outline type="rss" text="Becoming Net Positive" title="Becoming Net Positive" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/becoming_net_positive_linkedin_feed.xml" />
+                <outline type="rss" text="Biodiversidade em foco" title="Biodiversidade em foco" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/biodiversidade_em_foco_linkedin_feed.xml" />
+                <outline type="rss" text="Do Impacto ao Mercado" title="Do Impacto ao Mercado" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/do_impacto_ao_mercado_linkedin_feed.xml" />
                 <outline type="rss" text="Fabio Alperovitch" title="Fabio Alperovitch" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/fabio_alperovitch_feed.xml" />
                 <outline type="rss" text="Flávio Moreira" title="Flávio Moreira" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/flavio_moreira_feed.xml" />
                 <outline type="rss" text="Guilherme Ravache (LinkedIn)" title="Guilherme Ravache (LinkedIn)" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/ravache_linkedin_feed.xml" />
+                <outline type="rss" text="IA Sem Hype" title="IA Sem Hype" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/ia_sem_hype_linkedin_feed.xml" />
+                <outline type="rss" text="Influenciador Corporativo" title="Influenciador Corporativo" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/influenciador_corporativo_linkedin_feed.xml" />
+                <outline type="rss" text="Insights: Grãos e Mercado" title="Insights: Grãos e Mercado" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/insights_graos_mercado_linkedin_feed.xml" />
+                <outline type="rss" text="Instituto Cidades Responsivas" title="Instituto Cidades Responsivas" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/instituto_cidades_responsivas_linkedin_feed.xml" />
+                <outline type="rss" text="Magnífica Newsletter do Gabs" title="Magnífica Newsletter do Gabs" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/magnifica_newsletter_gabs_linkedin_feed.xml" />
+                <outline type="rss" text="Natureza, clima e negócios" title="Natureza, clima e negócios" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/natureza_clima_negocios_linkedin_feed.xml" />
+                <outline type="rss" text="O Essencial" title="O Essencial" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/o_essencial_feed.xml" />
+                <outline type="rss" text="O futuro do Marketing B2B" title="O futuro do Marketing B2B" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/futuro_marketing_b2b_linkedin_feed.xml" />
+                <outline type="rss" text="OSPA Place" title="OSPA Place" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/ospa_place_linkedin_feed.xml" />
+                <outline type="rss" text="Perspectivas ESG by VMF" title="Perspectivas ESG by VMF" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/perspectivas_esg_vmf_linkedin_feed.xml" />
+                <outline type="rss" text="Planta baixa, juros altos" title="Planta baixa, juros altos" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/planta_baixa_juros_altos_linkedin_feed.xml" />
                 <outline type="rss" text="Por dentro do agro" title="Por dentro do agro" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/mariana_grilli_feed.xml" />
+                <outline type="rss" text="Risco &amp; Estratégia na Mineração" title="Risco &amp; Estratégia na Mineração" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/risco_estrategia_mineracao_linkedin_feed.xml" />
+                <outline type="rss" text="Storyskills" title="Storyskills" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/storyskills_linkedin_feed.xml" />
+                <outline type="rss" text="Talking Climate" title="Talking Climate" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/talking_climate_linkedin_feed.xml" />
+                <outline type="rss" text="r(esg)ate" title="r(esg)ate" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/resgate_linkedin_feed.xml" />
                 </outline>
             <outline text="O Globo" title="O Globo">
                 <outline type="rss" text="Bernardo Mello Franco" title="Bernardo Mello Franco" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/bernardo_mello_franco_feed.xml" />

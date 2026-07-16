@@ -417,6 +417,150 @@
       "group": "linkedin"
     },
     {
+      "name": "r(esg)ate",
+      "url": "https://www.linkedin.com/newsletters/7060321304553357312/",
+      "feed_file": "resgate_linkedin_feed.xml",
+      "history_file": "resgate_linkedin_history.json",
+      "scraper": "LinkedInNewsletterScraper",
+      "group": "linkedin"
+    },
+    {
+      "name": "Biodiversidade em foco",
+      "url": "https://www.linkedin.com/newsletters/7173758540833009664/",
+      "feed_file": "biodiversidade_em_foco_linkedin_feed.xml",
+      "history_file": "biodiversidade_em_foco_linkedin_history.json",
+      "scraper": "LinkedInNewsletterScraper",
+      "group": "linkedin"
+    },
+    {
+      "name": "Insights: Grãos e Mercado",
+      "url": "https://www.linkedin.com/newsletters/7314061706538713089/",
+      "feed_file": "insights_graos_mercado_linkedin_feed.xml",
+      "history_file": "insights_graos_mercado_linkedin_history.json",
+      "scraper": "LinkedInNewsletterScraper",
+      "group": "linkedin"
+    },
+    {
+      "name": "Perspectivas ESG by VMF",
+      "url": "https://www.linkedin.com/newsletters/6908410414292443136/",
+      "feed_file": "perspectivas_esg_vmf_linkedin_feed.xml",
+      "history_file": "perspectivas_esg_vmf_linkedin_history.json",
+      "scraper": "LinkedInNewsletterScraper",
+      "group": "linkedin"
+    },
+    {
+      "name": "Risco & Estratégia na Mineração",
+      "url": "https://www.linkedin.com/newsletters/7334954641807278081/",
+      "feed_file": "risco_estrategia_mineracao_linkedin_feed.xml",
+      "history_file": "risco_estrategia_mineracao_linkedin_history.json",
+      "scraper": "LinkedInNewsletterScraper",
+      "group": "linkedin"
+    },
+    {
+      "name": "Natureza, clima e negócios",
+      "url": "https://www.linkedin.com/newsletters/7385024074978197504/",
+      "feed_file": "natureza_clima_negocios_linkedin_feed.xml",
+      "history_file": "natureza_clima_negocios_linkedin_history.json",
+      "scraper": "LinkedInNewsletterScraper",
+      "group": "linkedin"
+    },
+    {
+      "name": "Planta baixa, juros altos",
+      "url": "https://www.linkedin.com/newsletters/7422823650916982784/",
+      "feed_file": "planta_baixa_juros_altos_linkedin_feed.xml",
+      "history_file": "planta_baixa_juros_altos_linkedin_history.json",
+      "scraper": "LinkedInNewsletterScraper",
+      "group": "linkedin"
+    },
+    {
+      "name": "Instituto Cidades Responsivas",
+      "url": "https://www.linkedin.com/newsletters/7308581134055960576/",
+      "feed_file": "instituto_cidades_responsivas_linkedin_feed.xml",
+      "history_file": "instituto_cidades_responsivas_linkedin_history.json",
+      "scraper": "LinkedInNewsletterScraper",
+      "group": "linkedin"
+    },
+    {
+      "name": "Do Impacto ao Mercado",
+      "url": "https://www.linkedin.com/newsletters/7219758728483393537/",
+      "feed_file": "do_impacto_ao_mercado_linkedin_feed.xml",
+      "history_file": "do_impacto_ao_mercado_linkedin_history.json",
+      "scraper": "LinkedInNewsletterScraper",
+      "group": "linkedin"
+    },
+    {
+      "name": "Becoming Net Positive",
+      "url": "https://www.linkedin.com/newsletters/6850821108615270400/",
+      "feed_file": "becoming_net_positive_linkedin_feed.xml",
+      "history_file": "becoming_net_positive_linkedin_history.json",
+      "scraper": "LinkedInNewsletterScraper",
+      "group": "linkedin"
+    },
+    {
+      "name": "Talking Climate",
+      "url": "https://www.linkedin.com/newsletters/7045094364259262464/",
+      "feed_file": "talking_climate_linkedin_feed.xml",
+      "history_file": "talking_climate_linkedin_history.json",
+      "scraper": "LinkedInNewsletterScraper",
+      "group": "linkedin"
+    },
+    {
+      "name": "OSPA Place",
+      "url": "https://www.linkedin.com/newsletters/7082466729695543296/",
+      "feed_file": "ospa_place_linkedin_feed.xml",
+      "history_file": "ospa_place_linkedin_history.json",
+      "scraper": "LinkedInNewsletterScraper",
+      "group": "linkedin"
+    },
+    {
+      "name": "IA Sem Hype",
+      "url": "https://www.linkedin.com/newsletters/7333986460309569538/",
+      "feed_file": "ia_sem_hype_linkedin_feed.xml",
+      "history_file": "ia_sem_hype_linkedin_history.json",
+      "scraper": "LinkedInNewsletterScraper",
+      "group": "linkedin"
+    },
+    {
+      "name": "Magnífica Newsletter do Gabs",
+      "url": "https://www.linkedin.com/newsletters/7130910153565990912/",
+      "feed_file": "magnifica_newsletter_gabs_linkedin_feed.xml",
+      "history_file": "magnifica_newsletter_gabs_linkedin_history.json",
+      "scraper": "LinkedInNewsletterScraper",
+      "group": "linkedin"
+    },
+    {
+      "name": "O Essencial",
+      "url": "https://www.linkedin.com/newsletters/7321547919445180417/",
+      "feed_file": "o_essencial_feed.xml",
+      "history_file": "o_essencial_history.json",
+      "scraper": "LinkedInNewsletterScraper",
+      "group": "linkedin"
+    },
+    {
+      "name": "Storyskills",
+      "url": "https://www.linkedin.com/newsletters/7046073150593208321/",
+      "feed_file": "storyskills_linkedin_feed.xml",
+      "history_file": "storyskills_linkedin_history.json",
+      "scraper": "LinkedInNewsletterScraper",
+      "group": "linkedin"
+    },
+    {
+      "name": "Influenciador Corporativo",
+      "url": "https://www.linkedin.com/newsletters/6819352211030593536/",
+      "feed_file": "influenciador_corporativo_linkedin_feed.xml",
+      "history_file": "influenciador_corporativo_linkedin_history.json",
+      "scraper": "LinkedInNewsletterScraper",
+      "group": "linkedin"
+    },
+    {
+      "name": "O futuro do Marketing B2B",
+      "url": "https://www.linkedin.com/newsletters/6887027472722931712/",
+      "feed_file": "futuro_marketing_b2b_linkedin_feed.xml",
+      "history_file": "futuro_marketing_b2b_linkedin_history.json",
+      "scraper": "LinkedInNewsletterScraper",
+      "group": "linkedin"
+    },
+    {
       "name": "Dorrit Harazim",
       "url": "https://oglobo.globo.com/opiniao/dorrit-harazim/",
       "feed_file": "dorrit_harazim_feed.xml",

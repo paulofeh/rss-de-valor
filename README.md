@@ -12,9 +12,9 @@ Este projeto transforma artigos de colunistas brasileiros e fontes sobre risco c
 
 ## 📊 Status Atual
 
-- **82 fontes** monitoradas (colunistas, seções, portais e canais do YouTube)
-- **22 feeds RSS nativos** (link direto ao feed original)
-- **60 feeds gerados** via scraping/APIs
+- **113 fontes** monitoradas (colunistas, seções, portais e canais do YouTube)
+- **21 feeds RSS nativos** (link direto ao feed original)
+- **92 feeds gerados** via scraping/APIs
 - **Atualização automática** a cada 6 horas
 - **100% gratuito** via GitHub Actions
 
@@ -23,12 +23,13 @@ Este projeto transforma artigos de colunistas brasileiros e fontes sobre risco c
 | Grupo | Fontes |
 |-------|--------|
 | **Folha de S.Paulo** | 25 colunistas |
-| **Risco Climático** | 20 (BBC, Bloomberg Green, DW, FT, Nature, Google Alerts, YouTube e mais) |
-| **Estadão** | 16 colunistas |
-| **O Globo** | 10 colunistas |
-| **LinkedIn Newsletters** | 5 |
+| **Risco Climático** | 28 (BBC, Bloomberg Green, DW, FT, Nature, Google Alerts, YouTube e mais) |
+| **LinkedIn Newsletters** | 23 |
+| **Estadão** | 18 colunistas |
+| **O Globo** | 11 colunistas |
 | **Valor Econômico** | 4 colunistas |
-| **Outros** | 2 (Paul Graham, Poder360) |
+| **Outros** | 3 (Paul Graham, Poder360 e BBC Future) |
+| **World Bank Blogs** | 1 |
 
 [Ver lista completa na página de feeds →](https://paulofeh.github.io/rss-de-valor/feeds/)
 
@@ -157,8 +158,8 @@ O sistema é executado automaticamente via GitHub Actions:
 
 - **Frequência:** A cada 6 horas (00:00, 06:00, 12:00, 18:00 UTC)
 - **Processo:**
-  1. Coleta artigos de cada fonte que precisa de scraping (60 fontes)
-  2. Fontes com RSS nativo (22) são ignoradas no scraping — linkam direto ao original
+  1. Coleta artigos de cada fonte que precisa de scraping (92 fontes)
+  2. Fontes com RSS nativo (21) são ignoradas no scraping — linkam direto ao original
   3. Compara com histórico para detectar novos artigos
   4. Gera feeds individuais com múltiplos artigos
   5. Atualiza OPML e página HTML
@@ -196,7 +197,7 @@ Os feeds gerados contêm múltiplos artigos por fonte (quando suportado pelo scr
 | `DWTopicScraper` | Tópicos da Deutsche Welle via GraphQL (conteúdo completo) | DW Climate |
 | `YouTubeTranscriptScraper` | Transcrições de canais do YouTube (filtra Shorts) | Arroz, Feijão & Clima |
 | `SustainableViewsScraper` | Categorias do Sustainable Views (FT) | Sustainable Views Risk |
-| `LinkedInNewsletterScraper` | Scraping de newsletters do LinkedIn | LinkedIn (5 fontes) |
+| `LinkedInNewsletterScraper` | Newsletters do LinkedIn com até 5 edições e conteúdo completo | LinkedIn (23 fontes) |
 | `PaulGrahamScraper` | Essays do paulgraham.com (conteúdo completo) | Paul Graham |
 | `Poder360Scraper` | Scraping do Poder360 | Poder360 |
 

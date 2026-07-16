@@ -69,7 +69,12 @@ def main():
 
                     # ALWAYS generate individual feed (whether new or not)
                     try:
-                        individual_feed = generate_feed(source['name'], source['url'], articles)
+                        individual_feed = generate_feed(
+                            source['name'],
+                            source['url'],
+                            articles,
+                            feed_filename=source['feed_file'],
+                        )
                         save_feed(individual_feed, source['feed_file'])
                         individual_feeds_generated += 1
                     except Exception as e:

@@ -1,14 +1,15 @@
 import re
+import json
 import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Comment
 import datetime
 import pytz
 import xml.etree.ElementTree as ET
 from email.utils import parsedate_to_datetime
 from html import escape as html_escape
-from urllib.parse import urljoin, unquote
+from urllib.parse import parse_qs, urljoin, unquote, urlparse
 
 def requests_retry_session(
     retries=3,
@@ -586,21 +587,31 @@ class EstadaoColumnistScraper(BaseScraper):
         return datetime.datetime.now(pytz.timezone('America/Sao_Paulo')).replace(microsecond=0)
 
 class LinkedInNewsletterScraper(BaseScraper):
-    """Scraper for LinkedIn Newsletter articles."""
+    """Scraper for public LinkedIn newsletter pages with full article content."""
     
     def __init__(self, url):
         super().__init__(url)
         self.headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-            'Accept-Language': 'en-US,en;q=0.5',
+            'Accept-Language': 'pt-BR,pt;q=0.9,en;q=0.8',
             'DNT': '1',
             'Connection': 'keep-alive',
             'Upgrade-Insecure-Requests': '1',
         }
 
     def get_latest_article(self):
-        """Fetch and extract the latest article data."""
+        """Fetch the latest article, preserving the legacy single-item API."""
+        articles = self.get_articles(limit=1)
+        return articles[0] if articles else None
+
+    def get_articles(self, limit=5):
+        """Fetch the public newsletter listing and enrich up to five articles.
+
+        LinkedIn's public newsletter page exposes five issue cards. Each linked
+        article is server-rendered and includes schema.org metadata plus an
+        ``article-content-blocks`` container with the full newsletter body.
+        """
         try:
             session = requests_retry_session()
             response = session.get(
@@ -612,56 +623,204 @@ class LinkedInNewsletterScraper(BaseScraper):
             
             if 'login' in response.url.lower() or 'authenticate' in response.url.lower():
                 print(f"LinkedIn está solicitando autenticação para {self.url}")
-                return None
+                return []
                 
             soup = BeautifulSoup(response.content, 'html.parser', from_encoding='utf-8')
-            return self._extract_article_data(soup)
+            cards = soup.select('div.share-update-card')[:limit]
+            if not cards:
+                print(f"Nenhuma edição pública encontrada em {self.url}")
+                return []
+
+            articles = []
+            for card in cards:
+                article = self._extract_card_data(card, session)
+                if article:
+                    articles.append(article)
+            return articles
         except requests.exceptions.RequestException as e:
             print(f"Erro ao acessar {self.url}: {str(e)}")
-            return None
+            return []
     
     def _extract_article_data(self, soup):
-        """Extract data from LinkedIn newsletter page."""
-        # Find all article updates in the newsletter
-        articles = soup.select('div.share-update-card')
-        if not articles:
+        """Extract the first article from an already parsed newsletter page."""
+        card = soup.select_one('div.share-update-card')
+        if not card:
             return None
-            
-        # Get the most recent article (first one)
-        latest_article = articles[0]
-        
-        # Extract article title
-        title_element = latest_article.select_one('h3.share-article__title a')
-        title = title_element.text.strip() if title_element else "No title found"
-        
-        # Extract article link
-        link = title_element['href'] if title_element else ""
-        
-        # Extract author information from the profile card
-        author_element = soup.select_one('h3.profile-card__header-name')
-        author = author_element.text.strip() if author_element else "Unknown Author"
-        
-        # Extract article description/subtitle
-        description_element = latest_article.select_one('h4.share-article__subtitle')
-        description = description_element.text.strip() if description_element else ""
-        
-        # For LinkedIn newsletters, we'll use the current time as publication date
-        pubdate = datetime.datetime.now(pytz.UTC)
-        
+        return self._extract_card_data(card, requests_retry_session())
+
+    def _extract_card_data(self, card, session):
+        title_element = card.select_one('h3.share-article__title a')
+        if not title_element or not title_element.get('href'):
+            return None
+
+        link = urljoin(self.url, title_element['href'])
+        fallback_title = title_element.get_text(' ', strip=True)
+        subtitle = card.select_one('h4.share-article__subtitle')
+        fallback_description = subtitle.get_text(' ', strip=True) if subtitle else ''
+
+        try:
+            response = session.get(link, headers=self.headers, timeout=30)
+            response.raise_for_status()
+            article_soup = BeautifulSoup(response.content, 'html.parser', from_encoding='utf-8')
+            return self._extract_full_article(
+                article_soup,
+                response.url,
+                fallback_title,
+                fallback_description,
+            )
+        except requests.exceptions.RequestException as e:
+            print(f"   ⚠️  Erro ao enriquecer artigo do LinkedIn {link}: {str(e)}")
+            return {
+                'title': fallback_title,
+                'link': link,
+                'pubdate': datetime.datetime.now(pytz.UTC),
+                'author': 'Autor não encontrado',
+                'description': fallback_description,
+            }
+
+    def _extract_full_article(self, soup, link, fallback_title, fallback_description):
+        metadata = self._find_article_metadata(soup)
+
+        title_element = soup.select_one('main article h1')
+        title = (
+            metadata.get('name')
+            or (title_element.get_text(' ', strip=True) if title_element else '')
+            or fallback_title
+        )
+
+        author_data = metadata.get('author')
+        if isinstance(author_data, dict):
+            author = author_data.get('name')
+        elif isinstance(author_data, list):
+            author = next(
+                (item.get('name') for item in author_data if isinstance(item, dict) and item.get('name')),
+                None,
+            )
+        else:
+            author = None
+
+        if not author:
+            author_element = soup.select_one('main article h3.base-main-card__title')
+            author = author_element.get_text(' ', strip=True) if author_element else 'Autor não encontrado'
+
+        pubdate = self._parse_iso_date(metadata.get('datePublished'))
+        description = self._extract_article_content(soup, link) or fallback_description
+
         return {
-            'title': title,
+            'title': title.strip(),
             'link': link,
             'pubdate': pubdate,
-            'author': author,
-            'description': description
+            'author': author.strip(),
+            'description': description,
         }
-        
-    def _parse_date(self, date_str):
-        """
-        LinkedIn shows relative dates (e.g., "3mo", "1w") which are difficult to parse precisely.
-        For now, we'll return current time as this would need more complex logic to handle all cases.
-        """
+
+    @classmethod
+    def _find_article_metadata(cls, soup):
+        """Return the schema.org Article object embedded in LinkedIn's JSON-LD."""
+        for script in soup.find_all('script', type='application/ld+json'):
+            try:
+                data = json.loads(script.string or '')
+            except (TypeError, ValueError):
+                continue
+
+            article = cls._find_article_object(data)
+            if article:
+                return article
+        return {}
+
+    @classmethod
+    def _find_article_object(cls, data):
+        if isinstance(data, dict):
+            item_type = data.get('@type')
+            if item_type in ('Article', 'NewsArticle'):
+                return data
+            for value in data.values():
+                found = cls._find_article_object(value)
+                if found:
+                    return found
+        elif isinstance(data, list):
+            for value in data:
+                found = cls._find_article_object(value)
+                if found:
+                    return found
+        return None
+
+    @staticmethod
+    def _parse_iso_date(value):
+        if value:
+            try:
+                parsed = datetime.datetime.fromisoformat(value.replace('Z', '+00:00'))
+                if parsed.tzinfo is None:
+                    return pytz.UTC.localize(parsed)
+                return parsed.astimezone(pytz.UTC)
+            except (TypeError, ValueError):
+                pass
         return datetime.datetime.now(pytz.UTC)
+
+    @classmethod
+    def _extract_article_content(cls, soup, article_url):
+        container = soup.select_one('[data-test-id="article-content-blocks"]')
+        if not container:
+            return None
+
+        for unwanted in container.select('script, style, button'):
+            unwanted.decompose()
+
+        for comment in container.find_all(string=lambda text: isinstance(text, Comment)):
+            comment.extract()
+
+        for image in container.find_all('img'):
+            delayed_url = image.get('data-delayed-url')
+            if delayed_url:
+                image['src'] = delayed_url
+            elif image.get('src'):
+                image['src'] = urljoin(article_url, image['src'])
+
+        for anchor in container.find_all('a', href=True):
+            anchor['href'] = cls._clean_linkedin_url(anchor['href'], article_url)
+
+        for span in container.find_all('span'):
+            if 'font-[700]' in span.get('class', []):
+                span.name = 'strong'
+                span.attrs = {}
+            else:
+                span.unwrap()
+
+        for text_node in container.find_all(string=True):
+            if text_node.parent and text_node.parent.name in ('pre', 'code'):
+                continue
+            normalized = re.sub(r'[\s\u00a0]+', ' ', str(text_node))
+            if normalized.strip():
+                text_node.replace_with(normalized)
+            else:
+                text_node.extract()
+
+        for tag in container.find_all(True):
+            allowed_attributes = {}
+            if tag.name == 'a' and tag.get('href'):
+                allowed_attributes['href'] = tag['href']
+            elif tag.name == 'img' and tag.get('src'):
+                allowed_attributes['src'] = tag['src']
+                if tag.get('alt'):
+                    allowed_attributes['alt'] = re.sub(r'[\s\u00a0]+', ' ', tag['alt']).strip()
+            tag.attrs = allowed_attributes
+
+        blocks = []
+        for block in container.find_all(recursive=False):
+            content = block.decode_contents().strip()
+            if content:
+                blocks.append(content)
+        return ''.join(blocks) or None
+
+    @staticmethod
+    def _clean_linkedin_url(href, article_url):
+        absolute_url = urljoin(article_url, href)
+        parsed = urlparse(absolute_url)
+        if parsed.netloc.endswith('linkedin.com') and parsed.path == '/redir/redirect':
+            destination = parse_qs(parsed.query).get('url', [None])[0]
+            if destination:
+                return destination
+        return absolute_url
 
 
 class PaulGrahamScraper(BaseScraper):

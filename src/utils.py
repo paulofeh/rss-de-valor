@@ -53,7 +53,7 @@ def get_source_feed_url(source):
         return source['url']
     return f"{GITHUB_PAGES_BASE_URL}/feeds/{source['feed_file']}"
 
-def generate_feed(source_name, url, articles):
+def generate_feed(source_name, url, articles, feed_filename=None):
     """Generate RSS feed for one or more articles.
 
     *articles* may be a single article dict (legacy) or a list of dicts.
@@ -61,7 +61,8 @@ def generate_feed(source_name, url, articles):
     if isinstance(articles, dict):
         articles = [articles]
 
-    feed_filename = f"{source_name.lower().replace(' ', '_')}_feed.xml"
+    if not feed_filename:
+        feed_filename = f"{source_name.lower().replace(' ', '_')}_feed.xml"
     feed_url = get_feed_url(feed_filename)
 
     feed = CustomRssFeed(
