@@ -1,572 +1,159 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel xmlns:atom="http://www.w3.org/2005/Atom"><title>CNN Agro</title><link>https://www.cnnbrasil.com.br/agro/</link><description>Últimos artigos de CNN Agro</description><atom:link href="https://paulofeh.github.io/rss-de-valor/feeds/cnn_agro_feed.xml" rel="self"/><language>pt-br</language><lastBuildDate>Fri, 17 Jul 2026 08:02:03 +0000</lastBuildDate><ttl>60</ttl><item><title>Hitachi e controlada da Embraer fecham acordo para mobilidade aérea urbana</title><link>https://www.cnnbrasil.com.br/infra/hitachi-e-controlada-da-embraer-fecham-acordo-para-mobilidade-aerea-urbana/</link><description>&lt;p&gt;A &lt;strong&gt;Hitachi Energy e a Eve Air Mobility&lt;/strong&gt;, fabricante de aeronaves elétricas controlada pela &lt;strong&gt;Embraer&lt;/strong&gt;, firmaram um Memorando de Entendimento (MoU) com intenção de desenvolver uma&lt;strong&gt; infraestrutura elétrica&lt;/strong&gt; que possa suportar a mobilidade aérea urbana em escala, numa tentativa de antecipar um dos principais gargalos para a operação comercial de aeronaves de pouso e decolagem vertical, conhecidos como &lt;strong&gt;eVTol&lt;/strong&gt;.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;Segundo as empresas, à medida que a mobilidade aérea urbana se aproxima da operação comercial e da expansão em escala deste tipo de veículo, o desafio deixa de ser apenas desenvolver as aeronaves e passa também por garantir energia suficiente para abastecer os vertiportos.&lt;/p&gt;
-&lt;p&gt;Como se trata de um &lt;strong&gt;memorando de entendimento&lt;/strong&gt; para alinhar estudos e futuras frentes de cooperação, as companhias afirmam que o acordo não prevê investimentos ou aportes financeiros definidos.&lt;/p&gt;
-&lt;p&gt;A Eve aposta em aeronaves de pouso e decolagem vertical com atenção especial no perímetro urbano de grandes cidades em que o trânsito é um problema crônico. Já a Hitachi Energy ficará responsável por estudar a infraestrutura elétrica necessária para abastecer essas aeronaves, incluindo sistemas de carregamento rápido e integração dos vertiportos à rede.&lt;/p&gt;
-&lt;p&gt;Segundo &lt;strong&gt;Glauco Freitas&lt;/strong&gt;, presidente da Hitachi Energy no Brasil, embora o memorando tenha sido firmado no Brasil e nos EUA, a intenção é que o modelo seja replicado globalmente. São Paulo e Nova York, duas das cidades com maior tráfego de helicópteros do mundo, aparecem como mercados naturais para esse tipo de operação.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;Para&lt;strong&gt; Luiz Mauad&lt;/strong&gt;, vice-presidente de Serviços ao Cliente da Eve, a parceria busca criar as condições para viabilizar a operação comercial dos eVTols. O executivo afirmou ainda que a empresa vem firmando acordos com outras companhias para desenvolver diferentes frentes da mobilidade aérea urbana, mas não quis dizer quais são esses parceiros.&lt;/p&gt;
-&lt;p&gt;“A Eve estima que São Paulo poderá ter cerca de &lt;strong&gt;300 eVTols&lt;/strong&gt; em operação nas próximas duas décadas, o que exigirá uma infraestrutura elétrica robusta&amp;#8221;, afirma o executivo.&lt;/p&gt;
-&lt;p&gt;Neste momento, a escala é o que a empresa busca em um contexto de muitas promessas com milhares de cartas de intenção em todo mundo para compra destas aeronaves, o que sinaliza uma possível futura demanda. No Brasil, no entanto, apenas um pedido firme da operadora de mobilidade aérea urbana &lt;a href="https://www.cnnbrasil.com.br/economia/negocios/eve-fecha-a-venda-de-50-carros-voadores-a-revo-em-contrato-de-us-250-mi/"&gt;Revo, que comprou 50 aeronaves&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Os executivos reconhecem que a operação em larga escala ainda enfrenta obstáculos importantes. Um deles é a coordenação do espaço aéreo urbano. Outro é a necessidade de reforçar a infraestrutura elétrica para suportar recargas rápidas e simultâneas das aeronaves, além da evolução da regulamentação.&lt;/p&gt;
-&lt;p&gt;Mauad destaca ainda que não se trata apenas de instalar carregadores, mas de planejar a disponibilidade de potência, os ciclos de recarga, a integração com a rede elétrica, entre outros pontos.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 17 Jul 2026 08:02:03 +0000</pubDate><guid>https://www.cnnbrasil.com.br/infra/hitachi-e-controlada-da-embraer-fecham-acordo-para-mobilidade-aerea-urbana/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/infra/hitachi-e-controlada-da-embraer-fecham-acordo-para-mobilidade-aerea-urbana/</guid></item><item><title>Harry Styles em SP: saiba o que levar, horários e como chegar</title><link>https://www.cnnbrasil.com.br/pop/musica/harry-styles-em-sp-saiba-o-que-levar-horarios-e-como-chegar/</link><description>&lt;p&gt;O cantor &lt;strong&gt;Harry Styles&lt;/strong&gt;, 32, fará quatro shows na cidade de São Paulo neste mês, nos dias 17, 18, 21 e 24. As apresentações acontecem no Estádio do MorumBIS e a &lt;strong&gt;CNN Brasil&lt;/strong&gt; reuniu as principais informações sobre o evento.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;As apresentações fazem parte da turnê mundial &amp;#8220;Together, Together&amp;#8221;, que faz parte da divulgação de seu lançamento mais recente, o álbum &amp;#8220;Kiss All the Time&amp;#8221;, lançado em março de 2026.&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel xmlns:atom="http://www.w3.org/2005/Atom"><title>CNN Agro</title><link>https://www.cnnbrasil.com.br/agro/</link><description>Últimos artigos de CNN Agro</description><atom:link href="https://paulofeh.github.io/rss-de-valor/feeds/cnn_agro_feed.xml" rel="self"/><language>pt-br</language><lastBuildDate>Fri, 17 Jul 2026 13:23:33 +0000</lastBuildDate><ttl>60</ttl><item><title>“Por Você”: saiba quando estreia a nova novela das sete</title><link>https://www.cnnbrasil.com.br/pop/tv/por-voce-saiba-quando-estreia-a-nova-novela-das-sete/</link><description>&lt;p&gt;A nova novela das 19h, &amp;#8220;Por Você&amp;#8221;, estreia na TV Globo no dia 17 de agosto. E, conforme anunciado pela emissora, os telespectadores também poderão acompanhar um conteúdo digital que servirá como &amp;#8220;prólogo&amp;#8221; para a história antes do lançamento oficial.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;A &lt;a href="https://www.cnnbrasil.com.br/pop/tv/por-voce-tera-nova-estrategia-de-divulgacao-com-novelinha-vertical/" target="_blank" rel="noopener"&gt;novelinha&lt;/a&gt; fará um mergulho nas&lt;strong class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt; histórias das protagonistas&lt;/strong&gt;, Bela (Sheron Menezzes) e Juli (Lucy Ramos), apresentando a família que é o centro do folhetim.&lt;/p&gt;
+&lt;p class="my-5 break-words group-[.isActiveSource]:text-xl"&gt;O microdrama partirá do momento em que o marido de Juli sai de casa e a deixa sozinha cuidando dos quatro filhos. Assim, o quarteto viverá conflitos enquanto tentar prestar suporte à mãe, que passa a sustentar a casa sozinha e a sofrer com ameaças devido às ações do seu ex.&lt;/p&gt;
 &lt;aside class="read-too read-too--with-img"&gt;
-            &lt;h2 class='read-too__title'&gt;Leia Mais&lt;/h2&gt;
-            &lt;ul class="read-too__list"&gt;
+        &lt;ul class="read-too__list"&gt;
         &lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/pop/musica/harry-styles-no-brasil-shows-acontecem-neste-mes-saiba-tudo/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/pop/tv/misterio-revelado-saiba-de-quem-francesca-e-mae-em-quem-ama-cuida/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/01/Harry-Styles-para-o-photoshoot-do-album-Harrys-House-2022.jpg?w=200"
-                    alt="Harry Styles no Brasil: shows acontecem neste mês; saiba tudo"
-                    title="Harry Styles no Brasil: shows acontecem neste mês; saiba tudo'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/francesca.jpg?w=200"
+                    alt="Mistério revelado! Saiba de quem Francesca é mãe em &amp;quot;Quem Ama Cuida&amp;quot;"
+                    title="Mistério revelado! Saiba de quem Francesca é mãe em &amp;quot;Quem Ama Cuida&amp;quot;'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;Harry Styles no Brasil: shows acontecem neste mês; saiba tudo&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;Mistério revelado! Saiba de quem Francesca é mãe em &amp;quot;Quem Ama Cuida&amp;quot;&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/pop/musica/antes-dos-shows-harry-styles-e-flagrado-na-liberdade-em-sp-veja/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/pop/tv/resumo-de-coracao-acelerado-de-20-a-25-de-julho/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/01/Harry-Styles-para-o-photoshoot-do-album-Harrys-House-2022.jpg?w=200"
-                    alt="Antes dos shows, Harry Styles é flagrado na Liberdade, em SP; veja"
-                    title="Antes dos shows, Harry Styles é flagrado na Liberdade, em SP; veja'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/zila.jpg?w=200"
+                    alt="Resumo de &amp;quot;Coração Acelerado&amp;quot;: de 20 a 25 de julho"
+                    title="Resumo de &amp;quot;Coração Acelerado&amp;quot;: de 20 a 25 de julho'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;Antes dos shows, Harry Styles é flagrado na Liberdade, em SP; veja&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;Resumo de &amp;quot;Coração Acelerado&amp;quot;: de 20 a 25 de julho&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/pop/musica/harry-styles-no-brasil-confira-provavel-setlist-para-shows/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/pop/tv/peruas-de-quem-ama-cuida-ganham-dramas-reais-e-vida-secreta-em-nova-fase/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/01/SnapInsta.to_619918194_18621176659029777_1073696361942051746_n.jpg?w=200"
-                    alt="Harry Styles no Brasil: confira provável setlist para shows"
-                    title="Harry Styles no Brasil: confira provável setlist para shows'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/Captura-de-tela-2026-07-16-153332.png?w=200"
+                    alt="Peruas de “Quem Ama Cuida” ganham dramas reais e vida secreta em nova fase"
+                    title="Peruas de “Quem Ama Cuida” ganham dramas reais e vida secreta em nova fase'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;Harry Styles no Brasil: confira provável setlist para shows&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;Peruas de “Quem Ama Cuida” ganham dramas reais e vida secreta em nova fase&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;    &lt;/ul&gt;
 &lt;/aside&gt;
 
-&lt;h2&gt;Horários&lt;/h2&gt;
-&lt;p&gt;Os portões abrem às 16h, com a primeira apresentação prevista para as 19h45.&lt;strong&gt; &lt;a href="https://www.cnnbrasil.com.br/pop/musica/fcukers-conheca-duo-que-vai-abrir-shows-de-harry-styles-no-brasil/" target="_blank" rel="noopener" data-textassist="true"&gt;A banda americana Fcukers&lt;/a&gt;&lt;/strong&gt;, formada em 2022, será responsável por abrir o show do &lt;strong&gt;&lt;a href="https://www.cnnbrasil.com.br/pop/musica/harry-styles-no-brasil-relembre-ultimas-passagens-do-cantor-pelo-pais/" target="_blank" rel="noopener" data-textassist="true"&gt;ex-integrante do One Direction&lt;/a&gt;&lt;/strong&gt;, que sobe ao palco às 20h45.&lt;/p&gt;
-&lt;h2&gt;Itens Proibidos&lt;/h2&gt;
-&lt;p&gt;Um cartaz foi colocado no Estádio do MorumBIS com orientações sobre a conferência de ingressos, recomendações de saúde e objetos que não serão permitidos dentro do estabelecimento.&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;Confira a lista de objetos não permitidos: &lt;/strong&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Câmeras fotográficas ou filmadoras profissionais (ou com lente destacável), Go-Pro e tablets;&lt;/li&gt;
-&lt;li&gt;Bastão para tirar foto (pau de selfie);&lt;/li&gt;
-&lt;li&gt;Guarda-chuvas e recipientes ou garrafas com embalagens rígidas;&lt;/li&gt;
-&lt;li&gt;Bebidas alcoólicas, copos de vidro ou qualquer outro tipo de embalagem;&lt;/li&gt;
-&lt;li&gt;Cartazes de qualquer tipo, bandeiras e faixas com mastro;&lt;/li&gt;
-&lt;li&gt;Fogos de artifício, sinalizadores e materiais destinados à fabricação de bombas ou que possam causar incêndios;&lt;/li&gt;
-&lt;li&gt;Papel em rolo, jornais e revistas;&lt;/li&gt;
-&lt;li&gt;Capacetes de motos ou similares;&lt;/li&gt;
-&lt;li&gt;Correntes, cinturões, pingentes, roupas ou acessórios com partes pontiagudas que podem machucar;&lt;/li&gt;
-&lt;li&gt;Armas de fogo ou branca de qualquer espécie;&lt;/li&gt;
-&lt;li&gt;Lasers, walkie-talkie e drones;&lt;/li&gt;
-&lt;li&gt;Pistolas de água, cadeiras, bancos, panfletos e adesivos;&lt;/li&gt;
-&lt;li&gt;Desodorante, cosmético ou perfume em recipientes com volume superior a 90 ml (aerossóis também são proibidos);&lt;/li&gt;
-&lt;li&gt;Mochilas ou bolsas maiores do que 30x15x20cm (malas e bolsas grandes);&lt;/li&gt;
-&lt;li&gt;Camisetas de times de futebol brasileiros;&lt;/li&gt;
-&lt;li&gt;Cigarro eletrônico;&lt;/li&gt;
-&lt;li&gt;Powerbank maior que 2,5 x 8 x 18 cm;&lt;/li&gt;
-&lt;li&gt;Animais (exceto cães-guia identificados e acompanhados de portadores de deficiência visual);&lt;/li&gt;
-&lt;li&gt;Drogas ilegais, substâncias tóxicas, medicamentos sem receita médica ou compartilhados. Quem precisar levar remédios por motivos médicos deve apresentar a receita em seu próprio nome.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Comprovação de meia-entrada&lt;/h2&gt;
-&lt;p&gt;O cartaz informa ainda que o portador do ingresso será submetido a inspeções e revistas corporais e que os objetos não autorizados serão descartados, uma vez que o evento não possui guarda-volumes.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;Sobre a conferência dos ingressos, as informações em destaque são para os ingressos na modalidade meia-entrada (seja para idoso ou estudante), que precisam de documentação para a comprovação do benefício.&lt;/p&gt;
-&lt;p&gt;No caso das pessoas que adquiriram esse tipo de ingresso e não possuem a comprovação necessária, a orientação é para que seja feito o &lt;strong&gt;&lt;a href="https://www.cnnbrasil.com.br/pop/musica/harry-styles-no-brasil-confira-quais-ingressos-seguem-disponiveis/" target="_blank" rel="noopener" data-textassist="true"&gt;complemento do ingresso na bilheteria oficial&lt;/a&gt;.&lt;/strong&gt; A conferência será realizada em todos os portões durante todo o período de acesso ao evento.&lt;/p&gt;
-&lt;h2&gt;Recomendações de Saúde&lt;/h2&gt;
-&lt;p&gt;As informações disponíveis nos cartazes alertam ainda para as recomendações de saúde durante o evento, que incluem dicas de proteção contra o sol, hidratação  constante e alimentação leve.&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;Veja as dicas:&lt;/strong&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Hidratação é fundamental;&lt;/li&gt;
-&lt;li&gt;Use protetor solar, chapéus e óculos escuros;&lt;/li&gt;
-&lt;li&gt;Use roupas leves e que não retenham muito calor;&lt;/li&gt;
-&lt;li&gt;Aumente a ingestão de água ou de sucos de frutas naturais, sem adição de açúcar, mesmo sem ter sede;&lt;/li&gt;
-&lt;li&gt;Evite bebidas alcoólicas e com elevado teor de açúcar;&lt;/li&gt;
-&lt;li&gt;Faça refeições leves, pouco condimentadas e mais frequentes.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Como chegar&lt;/h2&gt;
-&lt;p&gt;O transporte público é uma das melhores formas de chegar ao Estádio do MorumBIS. A Linha 4-Amarela é a mais recomendada para chegada e saída do evento. A estação São Paulo-Morumbi fica a cerca de 20 minutos a pé do local.&lt;/p&gt;
-&lt;p&gt;Para quem prefere ônibus, existem várias linhas que atendem à região do Morumbi, ligando diversos bairros da capital. Os aplicativos de mobilidade costumam ajudar a descobrir qual é a melhor opção de rota.&lt;/p&gt;
-&lt;p&gt;Por fim, os carros de aplicativo oferecem um conforto maior, mas o trânsito costuma ser excessivo por conta da quantidade de pessoas saindo do local. Com a alta demanda, os preços também podem ficar bem acima da média.&lt;/p&gt;
-&lt;h2&gt;Confira a provável setlist do show&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&amp;#8220;Are You Listening Yet?&amp;#8221;&lt;/li&gt;
-&lt;li&gt;&amp;#8220;Golden&amp;#8221;&lt;/li&gt;
-&lt;li&gt;&amp;#8220;Adore You&amp;#8221;&lt;/li&gt;
-&lt;li&gt;&amp;#8220;Watermelon Sugar&amp;#8221;&lt;/li&gt;
-&lt;li&gt;&amp;#8220;Music for a Sushi Restaurant&amp;#8221;&lt;/li&gt;
-&lt;li&gt;&amp;#8220;Taste Back&amp;#8221;&lt;/li&gt;
-&lt;li&gt;&amp;#8220;Coming Up Roses&amp;#8221;&lt;/li&gt;
-&lt;li&gt;&amp;#8220;Fine Line&amp;#8221;&lt;/li&gt;
-&lt;li&gt;&amp;#8220;Italian Girls&amp;#8221;&lt;/li&gt;
-&lt;li&gt;&amp;#8220;American Girls&amp;#8221;&lt;/li&gt;
-&lt;li&gt;&amp;#8220;Keep Driving&amp;#8221;&lt;/li&gt;
-&lt;li&gt;&amp;#8220;Ready, Steady, Go!&amp;#8221;&lt;/li&gt;
-&lt;li&gt;&amp;#8220;Dance No More&amp;#8221;&lt;/li&gt;
-&lt;li&gt;&amp;#8220;Treat People With Kindness&amp;#8221;&lt;/li&gt;
-&lt;li&gt;&amp;#8220;Pop&amp;#8221;&lt;/li&gt;
-&lt;li&gt;&amp;#8220;Season 2 Weight Loss&amp;#8221;&lt;/li&gt;
-&lt;li&gt;&amp;#8220;Carla&amp;#8217;s Song&amp;#8221;, &amp;#8220;Satellite&amp;#8221; (mashup)&lt;/li&gt;
-&lt;li&gt;&amp;#8220;Aperture&amp;#8221;&lt;/li&gt;
-&lt;li&gt;Música surpresa&lt;/li&gt;
-&lt;li&gt;&amp;#8220;Sign of the Times&amp;#8221;&lt;/li&gt;
-&lt;li&gt;&amp;#8220;As It Was&amp;#8221;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote class="wp-embedded-content" data-secret="yjAceSLfCC"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/entretenimento/harry-styles-lanca-clipe-de-late-night-talking-segundo-single-do-novo-album/"&gt;Harry Styles lança clipe de “Late Night Talking”, segundo single do novo álbum&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Harry Styles lança clipe de “Late Night Talking”, segundo single do novo álbum&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/entretenimento/harry-styles-lanca-clipe-de-late-night-talking-segundo-single-do-novo-album/embed/#?secret=t5VI5x8pSC#?secret=yjAceSLfCC" data-secret="yjAceSLfCC" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;*Sob supervisão de Ana Beatriz Dias, da CNN Brasil&lt;/em&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 17 Jul 2026 08:00:50 +0000</pubDate><guid>https://www.cnnbrasil.com.br/pop/musica/harry-styles-em-sp-saiba-o-que-levar-horarios-e-como-chegar/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/pop/musica/harry-styles-em-sp-saiba-o-que-levar-horarios-e-como-chegar/</guid></item><item><title>França x Inglaterra: horário e onde assistir à disputa do 3ª lugar da Copa</title><link>https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/franca-x-inglaterra-horario-e-onde-assistir-a-disputa-do-3a-lugar-da-copa/</link><description>&lt;p&gt;França e Inglaterra jogam pela terceira colocação da Copa do Mundo 2026 neste sábado (18), às 18h, no Hard Rock Stadium, em Miami.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;A França, que era favorita ao título, perdeu para a Espanha de Luis de la Fuente por 2 a 0, em um jogo que foi dominada do início ao fim.&lt;/p&gt;
+&lt;p class="my-5 break-words group-[.isActiveSource]:text-xl"&gt;O lançamento da novelinha ainda não tem data de estreia. O microdrama marca a primeira vez que a emissora tenta uma estratégia diferente de divulgação de uma &lt;a href="https://www.cnnbrasil.com.br/pop/por-voce-o-que-ja-sabemos-sobre-a-nova-novela-das-sete/" target="_blank" rel="noopener"&gt;telenovela&lt;/a&gt;, que usa as plataformas digitais de forma complementar antes da estreia na televisão.&lt;/p&gt;
+&lt;h3 role="complementary" aria-label="Publicidade" data-google-query-id="CJPF8O3Y2ZUDFU1D3QIdh4wB0A"&gt;Conheça a trama de &amp;#8220;Por Você&amp;#8221;&lt;/h3&gt;
+&lt;p role="complementary" aria-label="Publicidade" data-google-query-id="CJPF8O3Y2ZUDFU1D3QIdh4wB0A"&gt;Em &amp;#8220;Por Você&amp;#8221;, uma tragédia faz com que Bela, que nunca quis ser mãe, se veja no lugar de cuidar dos quatro filhos da amiga, Juli: Peixe (Cauê Campos), Glorinha (Laura Luz), Ítalo (Fabrício Assis) e Samuca (Kadu Spinula).&lt;/p&gt;
+&lt;p class="my-5 break-words group-[.isActiveSource]:text-xl"&gt;Amigas de infância e moradoras da comunidade fictícia Vila Maravilha, elas cresceram dividindo sonhos, enquanto Bela ascende socialmente e se torna uma obstetra e Juli realiza o sonho de ser mãe — mesmo que tenha que cuidar dos filhos sozinha.&lt;/p&gt;
+&lt;p&gt;Escrita por Dino Cantelli e Juliana Peres, a novela conta ainda com um &lt;a class="text-red-600 underline hover:text-red-500 font-medium break-words group-[.isActiveSource]:text-xl" href="https://www.cnnbrasil.com.br/entretenimento/tres-gracas-veja-o-elenco-da-novela-que-substitui-vale-tudo/" target="_blank" rel="noopener noreferrer" data-textassist="true"&gt;elenco formado por&lt;/a&gt; &lt;strong class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt;Amaury Lorenzo, Alinne Moraes&lt;/strong&gt;, Thiago Lacerda, Lucy Ramos, &lt;strong class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt;Renata Sorrah&lt;/strong&gt;, Antonio Pitanga, José de Abreu, Ana Rosa, Milhem Cortaz, Noemia Oliveira, Fernanda de Freitas e Paulo Vilhena.&lt;/p&gt;
+&lt;blockquote class="wp-embedded-content" data-secret="DHMevnDCaK"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/entretenimento/novela-vertical-entenda-o-novo-formato-que-traz-jade-picon-como-vila/"&gt;Novela vertical: entenda o novo formato que traz Jade Picon como vilã&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Novela vertical: entenda o novo formato que traz Jade Picon como vilã&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/entretenimento/novela-vertical-entenda-o-novo-formato-que-traz-jade-picon-como-vila/embed/#?secret=ZdGLn6sJGM#?secret=DHMevnDCaK" data-secret="DHMevnDCaK" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 17 Jul 2026 13:23:33 +0000</pubDate><guid>https://www.cnnbrasil.com.br/pop/tv/por-voce-saiba-quando-estreia-a-nova-novela-das-sete/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/pop/tv/por-voce-saiba-quando-estreia-a-nova-novela-das-sete/</guid></item><item><title>Balanços de tecnologia devem influenciar próxima semana em Wall Street</title><link>https://www.cnnbrasil.com.br/economia/mercado/balancos-de-tecnologia-devem-influenciar-proxima-semana-em-wall-street/</link><description>&lt;p class="tr-story-p1"&gt;&lt;span dir="auto"&gt;A temporada de &lt;strong&gt;balanços corporativos nos EUA&lt;/strong&gt; esquenta na próxima semana, com &lt;strong&gt;Alphabet&lt;/strong&gt;&lt;/span&gt;&lt;span dir="auto"&gt; e &lt;strong&gt;Intel&lt;/strong&gt;&lt;/span&gt;&lt;span dir="auto"&gt; programadas para divulgar resultados que podem influenciar o setor de inteligência artificial, e o humor de investidores ansiosos para ver se as empresas conseguirão atender às altas expectativas de lucro.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span dir="auto"&gt;O índice &lt;a href="https://www.cnnbrasil.com.br/economia/mercado/sp-500-e-nasdaq-apontavam-para-forte-queda-semanal-com-acoes-de-chips/" target="_blank" rel="noopener"&gt;S&amp;amp;P 500&lt;/a&gt;&lt;/span&gt;&lt;span dir="auto"&gt; fechou em baixa na semana até quinta-feira (16), mas não estava muito longe de suas máximas históricas, após uma alta de 10% em 2026.&lt;/span&gt;&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
 &lt;aside class="read-too read-too--with-img"&gt;
-            &lt;h2 class='read-too__title'&gt;Leia mais&lt;/h2&gt;
-            &lt;ul class="read-too__list"&gt;
+        &lt;ul class="read-too__list"&gt;
         &lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/zagueiro-da-franca-jogou-a-copa-com-uma-fratura-nas-costas-diz-jornal/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/economia/mercado/futuros-de-wall-street-caem-com-acoes-de-semicondutores-netflix-despenca/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/William-Saliba-e1780331980321.jpeg?w=200"
-                    alt="Zagueiro da França jogou a Copa com uma fratura nas costas, diz jornal"
-                    title="Zagueiro da França jogou a Copa com uma fratura nas costas, diz jornal'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/03/bolsas-dos-estados-unidos-2.jpg?w=200"
+                    alt="Futuros de Wall Street caem com ações de semicondutores; Netflix despenca"
+                    title="Futuros de Wall Street caem com ações de semicondutores; Netflix despenca'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;Zagueiro da França jogou a Copa com uma fratura nas costas, diz jornal&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;Futuros de Wall Street caem com ações de semicondutores; Netflix despenca&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/foto-de-messi-e-yamal-e-12-milhoes-de-vezes-menos-provavel-que-a-mega-sena/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/economia/mercado/mercado-financeiro-ibovespa-dolar-17-julho-2026-2/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/WhatsApp-Image-2026-07-15-at-19.43.21-e1784155645429.jpeg?w=200"
-                    alt="Foto de Messi e Yamal é 12 milhões de vezes menos provável que a Mega-Sena"
-                    title="Foto de Messi e Yamal é 12 milhões de vezes menos provável que a Mega-Sena'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportBusinessNews/tagreuters.com2026binary_LYNXMPEM181BD-BASEIMAGE.jpg?w=200"
+                    alt="Dólar abre em alta após ataques entre EUA e Irã se intensificarem"
+                    title="Dólar abre em alta após ataques entre EUA e Irã se intensificarem'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;Foto de Messi e Yamal é 12 milhões de vezes menos provável que a Mega-Sena&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;Dólar abre em alta após ataques entre EUA e Irã se intensificarem&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/milei-chama-de-valida-e-licita-faixa-das-malvinas-exibida-pela-argentina/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/economia/mercado/acoes-da-netflix-despencam-9-no-pre-mercado-com-previsao-de-lucros-fracos/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/Captura-de-tela-2026-07-15-213511.png?w=200"
-                    alt="Milei chama de &amp;quot;válida e lícita&amp;quot; faixa das Malvinas exibida pela Argentina"
-                    title="Milei chama de &amp;quot;válida e lícita&amp;quot; faixa das Malvinas exibida pela Argentina'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportWorldNews/tagreuters.com2026binary_LYNXMPEM280ZY-BASEIMAGE.jpg?w=200"
+                    alt="Ações da Netflix despencam 9% no pré-mercado com previsão de lucros fracos"
+                    title="Ações da Netflix despencam 9% no pré-mercado com previsão de lucros fracos'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;Milei chama de &amp;quot;válida e lícita&amp;quot; faixa das Malvinas exibida pela Argentina&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;Ações da Netflix despencam 9% no pré-mercado com previsão de lucros fracos&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;    &lt;/ul&gt;
 &lt;/aside&gt;
 
-&lt;p&gt;Já a Inglaterra perdeu de virada para a Argentina de Lionel Messi em um jogo com contornos dramáticos. O time de Tuchel abriu o placar, mas, no segundo tempo, foi massacrada pela raça sul-americana.&lt;/p&gt;
-&lt;p&gt;A transmissão será feita por todos os canais detentores de direitos da Copa do Mundo: TV Globo, SBT, NSports, getv via Globoplay e CazeTV, além do tempo real CNN Esportes.&lt;/p&gt;
-&lt;h2&gt;&lt;b&gt;Onde assistir a Inglaterra x França &lt;/b&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;TV: Globo, SBT, SporTV e N Sports&lt;/li&gt;
-&lt;li&gt;Streaming: Ge TV (apenas no Globoplay) e CazéTV (YouTube)&lt;/li&gt;
-&lt;li&gt;Tempo real: &lt;a href="https://www.cnnbrasil.com.br/esportes/lances-ao-vivo/world-cup-2026/18-07-2026/franca-x-inglaterra/"&gt;&lt;span draggable="true"&gt;CNN Esportes&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 class="text-2xl my-5 font-bold break-words"&gt;&lt;b class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt;Ficha técnica de &lt;/b&gt;&lt;b class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt;Inglaterra x França&lt;/b&gt;&lt;/h2&gt;
-&lt;ul class="list-none [li&amp;gt;&amp;amp;]:pl-5"&gt;
-&lt;li class="[ul&amp;gt;&amp;amp;]:indent-5 mb-3 break-words [ul&amp;gt;&amp;amp;]:relative [ul&amp;gt;&amp;amp;]:before:absolute [ul&amp;gt;&amp;amp;]:before:left-1 [ul&amp;gt;&amp;amp;]:before:top-2 [ul&amp;gt;&amp;amp;]:before:w-2 [ul&amp;gt;&amp;amp;]:before:h-2 [ul&amp;gt;&amp;amp;]:before:bg-red-600 [ul&amp;gt;&amp;amp;]:before:rounded-full marker:inline group-[.isActiveSource]:text-xl"&gt;&lt;b class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt;Data&lt;/b&gt;: 18/06/2026&lt;/li&gt;
-&lt;li class="[ul&amp;gt;&amp;amp;]:indent-5 mb-3 break-words [ul&amp;gt;&amp;amp;]:relative [ul&amp;gt;&amp;amp;]:before:absolute [ul&amp;gt;&amp;amp;]:before:left-1 [ul&amp;gt;&amp;amp;]:before:top-2 [ul&amp;gt;&amp;amp;]:before:w-2 [ul&amp;gt;&amp;amp;]:before:h-2 [ul&amp;gt;&amp;amp;]:before:bg-red-600 [ul&amp;gt;&amp;amp;]:before:rounded-full marker:inline group-[.isActiveSource]:text-xl"&gt;&lt;b class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt;Horário&lt;/b&gt;: 18h&lt;/li&gt;
-&lt;li class="[ul&amp;gt;&amp;amp;]:indent-5 mb-3 break-words [ul&amp;gt;&amp;amp;]:relative [ul&amp;gt;&amp;amp;]:before:absolute [ul&amp;gt;&amp;amp;]:before:left-1 [ul&amp;gt;&amp;amp;]:before:top-2 [ul&amp;gt;&amp;amp;]:before:w-2 [ul&amp;gt;&amp;amp;]:before:h-2 [ul&amp;gt;&amp;amp;]:before:bg-red-600 [ul&amp;gt;&amp;amp;]:before:rounded-full marker:inline group-[.isActiveSource]:text-xl"&gt;&lt;b class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt;Local&lt;/b&gt;: Hard Rock Stadium, em Miami&lt;/li&gt;
-&lt;li class="[ul&amp;gt;&amp;amp;]:indent-5 mb-3 break-words [ul&amp;gt;&amp;amp;]:relative [ul&amp;gt;&amp;amp;]:before:absolute [ul&amp;gt;&amp;amp;]:before:left-1 [ul&amp;gt;&amp;amp;]:before:top-2 [ul&amp;gt;&amp;amp;]:before:w-2 [ul&amp;gt;&amp;amp;]:before:h-2 [ul&amp;gt;&amp;amp;]:before:bg-red-600 [ul&amp;gt;&amp;amp;]:before:rounded-full marker:inline group-[.isActiveSource]:text-xl"&gt;&lt;b class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt;Fase&lt;/b&gt;: Disputa do 3º lugar da Copa do Mundo&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div&gt;&lt;/div&gt;
-&lt;div class="disclaimer__ai"&gt;
-    &lt;em&gt;Os textos gerados por Inteligência Artificial na CNN Brasil são feitos com base em informações apuradas e checadas por jornalistas. &lt;a class="c-link" href="https://www.cnnbrasil.com.br/nacional/saiba-como-a-cnn-brasil-utiliza-as-ferramentas-de-inteligencia-artificial/" target="_blank" rel="noopener noreferrer" data-stringify-link="https://www.cnnbrasil.com.br/nacional/saiba-como-a-cnn-brasil-utiliza-as-ferramentas-de-inteligencia-artificial/" data-sk="tooltip_parent"&gt;Clique aqui para saber mais&lt;/a&gt;&lt;/em&gt;
-&lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 17 Jul 2026 08:00:12 +0000</pubDate><guid>https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/franca-x-inglaterra-horario-e-onde-assistir-a-disputa-do-3a-lugar-da-copa/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/franca-x-inglaterra-horario-e-onde-assistir-a-disputa-do-3a-lugar-da-copa/</guid></item><item><title>Como fica a transmissão na disputa do terceiro lugar e da final da Copa</title><link>https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/como-fica-a-transmissao-na-disputa-do-terceiro-lugar-e-da-final-da-copa/</link><description>&lt;p&gt;A Copa do Mundo está chegando ao fim. Neste fim de semana, Inglaterra x França e Espanha x Argentina se enfrentam na disputa pelo terceiro lugar e pelo título, respectivamente.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;Antes favoritas ao título,&lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/franca-x-inglaterra-veja-dia-e-horario-da-disputa-do-3o-lugar-da-copa/"&gt; Inglaterra e França se enfrentam neste sábado (18), às 18h&lt;/a&gt;. A bola rola no Hard Rock Stadium, em Miami, um dia antes da grande final. Já &lt;strong&gt;&lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/espanha-x-argentina-veja-dia-e-horario-da-final-da-copa-do-mundo/"&gt;Espanha x Argentina entram em campo no domingo (19)&lt;/a&gt;&lt;/strong&gt;, às 16h, no MetLife Stadium, em Nova Jersey, Nova York.&lt;/p&gt;
-&lt;aside class="read-too read-too--with-img"&gt;
-            &lt;h2 class='read-too__title'&gt;Leia mais&lt;/h2&gt;
-            &lt;ul class="read-too__list"&gt;
-        &lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/unicef-confirma-veracidade-de-foto-de-messi-com-lamine-yamal/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/HNXkF-gXgAA0oGB.jpg?w=200"
-                    alt="Unicef confirma veracidade de foto de Messi com Lamine Yamal"
-                    title="Unicef confirma veracidade de foto de Messi com Lamine Yamal'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Unicef confirma veracidade de foto de Messi com Lamine Yamal&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/milei-chama-de-valida-e-licita-faixa-das-malvinas-exibida-pela-argentina/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/Captura-de-tela-2026-07-15-213511.png?w=200"
-                    alt="Milei chama de &amp;quot;válida e lícita&amp;quot; faixa das Malvinas exibida pela Argentina"
-                    title="Milei chama de &amp;quot;válida e lícita&amp;quot; faixa das Malvinas exibida pela Argentina'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Milei chama de &amp;quot;válida e lícita&amp;quot; faixa das Malvinas exibida pela Argentina&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/leila-celebra-flaco-na-final-da-copa-comprova-o-trabalho-de-excelencia/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/flaco-argentina-e1783854524489.avif?w=200"
-                    alt="Leila celebra Flaco na final da Copa: &amp;quot;Comprova o trabalho de excelência&amp;quot;"
-                    title="Leila celebra Flaco na final da Copa: &amp;quot;Comprova o trabalho de excelência&amp;quot;'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Leila celebra Flaco na final da Copa: &amp;quot;Comprova o trabalho de excelência&amp;quot;&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;    &lt;/ul&gt;
-&lt;/aside&gt;
-
-&lt;p&gt;As partidas terão transmissão de todos os canais detentores de direitos do Mundial. Na TV aberta, TV Globo e SBT fazem a cobertura. Na TV por assinatura, SporTV e NSports estão com a transmissão.&lt;/p&gt;
-&lt;p&gt;O jogo passa também no YouTube, na CazéTV, que transmitiu todas as partidas desde o pontapé inicial da Copa, em 11 de junho. A concorrente GETV faz a cobertura via app Globoplay.&lt;/p&gt;
-&lt;h2&gt;Disputa pelo 3ª lugar da Copa&lt;/h2&gt;
-&lt;p&gt;A disputa pelo terceiro lugar da Copa do Mundo de 2026 colocará frente a frente França e Inglaterra, duas seleções que ficaram pelo caminho nas semifinais e agora buscam encerrar a campanha com a &amp;#8220;medalha de bronze&amp;#8221;.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;Os franceses foram derrotados pela Espanha, enquanto os ingleses acabaram superados pela Argentina após uma semifinal emocionante decidida nos acréscimos.&lt;/p&gt;
-&lt;h2&gt;Finalíssima entre Espanha x Argentina&lt;/h2&gt;
-&lt;p class="my-5 break-words group-[.isActiveSource]:text-xl"&gt;Após uma atuação emocionante e uma virada espetacular diante da Inglaterra nesta quarta-feira (15), a Argentina garantiu vaga na grande final da Copa do Mundo e segue viva na busca pelo bicampeonato consecutivo.&lt;/p&gt;
-&lt;p class="my-5 break-words group-[.isActiveSource]:text-xl"&gt;A equipe de Lionel Scaloni mostrou poder de reação, &lt;a class="text-red-600 underline hover:text-red-500 font-medium break-words group-[.isActiveSource]:text-xl" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/inglaterra-x-argentina-quebra-recorde-de-minutos-sem-finalizacoes/" target="_self" rel=""&gt;superou os ingleses&lt;/a&gt; e confirmou a classificação para a decisão do torneio, onde enfrentará a Espanha, que também busca seu segundo título mundial.&lt;/p&gt;
-&lt;h2&gt;&lt;b&gt;Onde assistir a Inglaterra x França e Espanha x Argentina&lt;/b&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;TV: Globo, SBT, SporTV e N Sports&lt;/li&gt;
-&lt;li&gt;Streaming: Ge TV (apenas no Globoplay) e CazéTV (YouTube)&lt;/li&gt;
-&lt;li&gt;Tempo real: &lt;span draggable="true"&gt;CNN Esportes&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div&gt;&lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 17 Jul 2026 08:00:11 +0000</pubDate><guid>https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/como-fica-a-transmissao-na-disputa-do-terceiro-lugar-e-da-final-da-copa/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/como-fica-a-transmissao-na-disputa-do-terceiro-lugar-e-da-final-da-copa/</guid></item><item><title>Por trás da coroa: como é a rotina de preparação de uma Miss Universe</title><link>https://www.cnnbrasil.com.br/lifestyle/por-tras-da-coroa-como-e-a-rotina-de-preparacao-de-uma-miss-universe/</link><description>&lt;p&gt;Os concursos de beleza vão muito além do desfile na passarela e do glamour que o público acompanha pela televisão. Por trás da disputa pelo título de Miss Universe existe uma rotina de preparação que começa muito antes do concurso e envolve disciplina, treinamento físico, alimentação equilibrada, desenvolvimento da comunicação e cuidados com a saúde mental.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;Neste ano, a escolha da próxima Miss Brasil está marcada para 25 de julho, no Komplexo Tempo, em São Paulo. No entanto, desde o último dia 13, as candidatas estão confinadas e sendo submetidas a uma intensa programação de treinamentos, provas e avaliações que analisam competências essenciais para representar o país no maior concurso de beleza do mundo, que será em outubro na capital de Porto Rico.&lt;/p&gt;
-&lt;aside class="read-too read-too--with-img"&gt;
-            &lt;h2 class='read-too__title'&gt;Leia Mais&lt;/h2&gt;
-            &lt;ul class="read-too__list"&gt;
-        &lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/lifestyle/miss-universe-brasil-candidatas-sao-confinadas-em-busca-da-coroa/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/misses.jpg?w=200"
-                    alt="Miss Universe Brasil: candidatas são confinadas em busca da coroa"
-                    title="Miss Universe Brasil: candidatas são confinadas em busca da coroa'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Miss Universe Brasil: candidatas são confinadas em busca da coroa&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/lifestyle/traje-de-banho-e-uma-das-etapas-decisivas-no-miss-universo-brasil/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/miss.jpg?w=200"
-                    alt="Traje de banho é uma das etapas decisivas no Miss Universo Brasil"
-                    title="Traje de banho é uma das etapas decisivas no Miss Universo Brasil'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Traje de banho é uma das etapas decisivas no Miss Universo Brasil&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/lifestyle/miss-universe-brasil-como-e-confinamento-das-candidatas/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/miss-brasil-e1783078884973.jpeg?w=200"
-                    alt="Miss Universe Brasil: como é o confinamento das candidatas?"
-                    title="Miss Universe Brasil: como é o confinamento das candidatas?'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Miss Universe Brasil: como é o confinamento das candidatas?&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;    &lt;/ul&gt;
-&lt;/aside&gt;
-
-&lt;p&gt;Vencedora do Miss Brasil e quinto lugar no Miss Universo 2013, a modelo Jakelyne Oliveira conta que os seis meses que antecederam a etapa nacional do concurso foram de preparação intensa.&lt;/p&gt;
-&lt;p&gt;“Eu fazia aulas de pilates, passarela, maquiagem, treinava na academia e seguia uma alimentação bem regrada. Foi um período de muita disciplina, em que praticamente toda a minha rotina passou a girar em torno da preparação para o concurso. Nessa época fazia faculdade de engenharia agrícola e ambiental, porém estava de greve, por isso consegui me dedicar 100% ao concurso. Quando conquistei o título de Miss Brasil e comecei a me preparar para o Miss Universo, a rotina ficou ainda mais completa”, recorda.&lt;/p&gt;
-&lt;p&gt;Paralelamente, as frentes intelectual e de comunicação também recebem atenção redobrada das &lt;a href="https://www.cnnbrasil.com.br/lifestyle/miss-universo-brasil-2026-anuncia-final-em-sao-paulo-saiba-detalhes/"&gt;candidatas&lt;/a&gt; por meio de aulas de oratória, etiqueta e fluência em idiomas. O objetivo é estar preparada para responder rápido às perguntas e sob um ambiente de pressão.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;Natália Guimarães, eleita Miss Brasil e vice-campeã do Miss Universe 2007, relembra que a passarela do Miss Universe exige tanto beleza quanto postura e a força da comunicação.&lt;/p&gt;
-&lt;p&gt;“Você tem apenas um minuto para mostrar quem você é e, por isso, meses antes do concurso, intensifiquei a oratória para aproveitar cada segundo da melhor forma”, diz.&lt;/p&gt;
-&lt;p&gt;“No concurso, todas as mulheres são bonitas, têm a pele bonita e estão no auge. Por isso é importante ter algo a mais, se comunicar bem e ter fluência em outros idiomas, como inglês e espanhol, também é importante. Estudar e buscar se desenvolver ao longo do tempo te diferencia”, acrescenta Natália.&lt;/p&gt;
-&lt;p&gt;Outro detalhe importante é o que a miss deve saber: automaquiagem e cuidar da própria imagem.&lt;/p&gt;
-&lt;p&gt;“Durante praticamente toda a competição, somos nós mesmas que fazemos o cabelo, a maquiagem e toda a preparação para cada compromisso. O único momento em que contamos com profissionais da beleza é na grande final. Essa autonomia faz parte da avaliação, porque a organização também observa a capacidade da candidata de se apresentar bem, cuidar da própria imagem e estar preparada para diferentes situações”, explica Jakelyne.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;O fator psicológico e o confinamento&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Se o corpo abre portas, é a mente que garante a coroa. Nos bastidores do &lt;a href="https://www.cnnbrasil.com.br/lifestyle/fatima-bosch-miss-universo-2025-e-pressionada-a-renunciar-coroa-em-harvard/"&gt;Miss Universe&lt;/a&gt;, o isolamento da família, a pressão estética e a convivência confinada com outras candidatas tornam a saúde mental um fator decisivo.&lt;/p&gt;
-&lt;p&gt;“A parte física exigia disciplina, mas, para mim, o maior desafio foi o lado emocional. Existe uma cobrança muito grande, tanto da gente mesma quanto das pessoas ao redor. Aprendi a lidar com expectativas, críticas, comparações e com a pressão de querer dar o meu melhor o tempo todo”, acrescenta Jakelyne.&lt;/p&gt;
-&lt;p&gt;Normalmente, dias antes da grande final, durante o confinamento, os concursos oferecem apoio psicológico para as candidatas. Mas, para Natália, essa preparação deve ser feita ao longo da carreira.&lt;/p&gt;
-&lt;p&gt;“É comum a gente imaginar que aquela é a única oportunidade da vida, mas o concurso é um degrau que vai te abrir diversas portas”, diz.&lt;/p&gt;
-&lt;p&gt;Durante o período de confinamento oficial, as&lt;a href="https://www.cnnbrasil.com.br/lifestyle/gabriela-botelho-representante-de-sergipe-e-eleita-miss-brasil-mundo-2026/"&gt; candidatas&lt;/a&gt; são submetidas a uma intensa programação de treinamentos, provas e avaliações que analisam competências essenciais para representar o país no concurso.&lt;/p&gt;
-&lt;p&gt;É nessa fase que critérios como inteligência emocional, comunicação, liderança, disciplina, capacidade de convivência, postura e como cada uma reage diante da pressão são avaliados.&lt;/p&gt;
-&lt;p&gt;“Outra coisa que muitas pessoas não sabem é que o julgamento não acontece apenas no palco. Durante todo o período de confinamento, o comportamento das candidatas é observado com muito rigor. A forma como nos relacionamos com as outras misses, a educação, a pontualidade, a postura, o respeito e a maneira como lidamos com a pressão também fazem parte da avaliação”, diz Jakelyne.&lt;/p&gt;
-&lt;blockquote class="wp-embedded-content" data-secret="KoG8sb8tiO"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/lifestyle/conheca-fatima-bosch-coroada-miss-universo-2025/"&gt;Conheça Fátima Bosch, coroada Miss Universo 2025&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Conheça Fátima Bosch, coroada Miss Universo 2025&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/lifestyle/conheca-fatima-bosch-coroada-miss-universo-2025/embed/#?secret=aq2Y8barIU#?secret=KoG8sb8tiO" data-secret="KoG8sb8tiO" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 17 Jul 2026 07:30:48 +0000</pubDate><guid>https://www.cnnbrasil.com.br/lifestyle/por-tras-da-coroa-como-e-a-rotina-de-preparacao-de-uma-miss-universe/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/lifestyle/por-tras-da-coroa-como-e-a-rotina-de-preparacao-de-uma-miss-universe/</guid></item><item><title>Fies: Estudantes têm até esta sexta (17) para se inscrever no programa</title><link>https://www.cnnbrasil.com.br/educacao/fies-estudantes-tem-ate-esta-sexta-17-para-se-inscrever-no-programa/</link><description>&lt;p&gt;As &lt;strong&gt;inscrições para o Fies (Fundo de Financiamento Estudantil) do segundo semestre acabam nesta sexta-feira (17)&lt;/strong&gt;. Os interessados devem fazer o cadastro exclusivamente pelo Portal Único de Acesso ao Ensino Superior.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;O &lt;strong&gt;&lt;a href="https://acessounico.mec.gov.br/"&gt;resultado&lt;/a&gt; será divulgado em 30 de julho&lt;/strong&gt;. Aqueles que não forem &lt;a href="https://www.cnnbrasil.com.br/educacao/mec-publica-edital-do-fies-do-2o-semestre-veja-calendario/"&gt;pré-selecionados estarão automaticamente na lista de espera&lt;/a&gt;, cuja convocação será de 7 de agosto a 24 de setembro.&lt;/p&gt;
-&lt;p&gt;De 31 de julho a 4 de agosto, haverá o prazo para os convocados se &lt;a href="https://www.cnnbrasil.com.br/educacao/inscricoes-para-o-fies-do-segundo-semestre-comecam-nesta-terca-feira-14/"&gt;inscreverem&lt;/a&gt; nas instituições.&lt;/p&gt;
-&lt;aside class="read-too read-too--with-img"&gt;
-            &lt;h2 class='read-too__title'&gt;Leia mais&lt;/h2&gt;
-            &lt;ul class="read-too__list"&gt;
-        &lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/educacao/inscricoes-para-o-fies-do-segundo-semestre-comecam-nesta-terca-feira-14/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/11/FIES.webp?w=200"
-                    alt="Inscrições para o Fies do segundo semestre começam nesta terça-feira (14)"
-                    title="Inscrições para o Fies do segundo semestre começam nesta terça-feira (14)'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Inscrições para o Fies do segundo semestre começam nesta terça-feira (14)&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/educacao/alunas-do-maranhao-vencem-premiacao-internacional-de-robotica/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/sesi-ma-e1783964677652.jpeg?w=200"
-                    alt="Alunas do Maranhão vencem premiação internacional de robótica"
-                    title="Alunas do Maranhão vencem premiação internacional de robótica'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Alunas do Maranhão vencem premiação internacional de robótica&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/educacao/mis-em-sp-oferece-curso-para-criacao-de-conteudo-nas-redes-sociais/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/redes-sociais.jpg?w=200"
-                    alt="MIS, em SP, oferece curso para criação de conteúdo nas redes sociais"
-                    title="MIS, em SP, oferece curso para criação de conteúdo nas redes sociais'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;MIS, em SP, oferece curso para criação de conteúdo nas redes sociais&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;    &lt;/ul&gt;
-&lt;/aside&gt;
-
-&lt;p class="my-5 break-words group-[.isActiveSource]:text-xl"&gt;O &lt;a href="https://www.cnnbrasil.com.br/educacao/prouni-e-fies-2026-veja-as-diferencas-e-saiba-como-se-inscrever/"&gt;programa financia a mensalidade de estudantes em cursos presenciais&lt;/a&gt; não gratuitos em faculdades privadas que tenham avaliação positiva no Sinaes (Sistema Nacional de Avaliação da Educação Superior), do MEC (Ministério da Educação).&lt;/p&gt;
-&lt;p&gt;São elegíveis os candidatos que:&lt;/p&gt;
-&lt;ul class="list-none [li&amp;gt;&amp;amp;]:pl-5"&gt;
-&lt;li class="[ul&amp;gt;&amp;amp;]:indent-5 mb-3 break-words [ul&amp;gt;&amp;amp;]:relative [ul&amp;gt;&amp;amp;]:before:absolute [ul&amp;gt;&amp;amp;]:before:left-1 [ul&amp;gt;&amp;amp;]:before:top-2 [ul&amp;gt;&amp;amp;]:before:w-2 [ul&amp;gt;&amp;amp;]:before:h-2 [ul&amp;gt;&amp;amp;]:before:bg-red-600 [ul&amp;gt;&amp;amp;]:before:rounded-full marker:inline group-[.isActiveSource]:text-xl"&gt;Tenham participado do Enem (Exame Nacional do Ensino Médio) a partir da edição de 2010;&lt;/li&gt;
-&lt;li class="[ul&amp;gt;&amp;amp;]:indent-5 mb-3 break-words [ul&amp;gt;&amp;amp;]:relative [ul&amp;gt;&amp;amp;]:before:absolute [ul&amp;gt;&amp;amp;]:before:left-1 [ul&amp;gt;&amp;amp;]:before:top-2 [ul&amp;gt;&amp;amp;]:before:w-2 [ul&amp;gt;&amp;amp;]:before:h-2 [ul&amp;gt;&amp;amp;]:before:bg-red-600 [ul&amp;gt;&amp;amp;]:before:rounded-full marker:inline group-[.isActiveSource]:text-xl"&gt;Tenham obtido média igual ou maior que 450 pontos, considerando as cinco provas;&lt;/li&gt;
-&lt;li class="[ul&amp;gt;&amp;amp;]:indent-5 mb-3 break-words [ul&amp;gt;&amp;amp;]:relative [ul&amp;gt;&amp;amp;]:before:absolute [ul&amp;gt;&amp;amp;]:before:left-1 [ul&amp;gt;&amp;amp;]:before:top-2 [ul&amp;gt;&amp;amp;]:before:w-2 [ul&amp;gt;&amp;amp;]:before:h-2 [ul&amp;gt;&amp;amp;]:before:bg-red-600 [ul&amp;gt;&amp;amp;]:before:rounded-full marker:inline group-[.isActiveSource]:text-xl"&gt;Não tenham tirado nota zero na prova de redação;&lt;/li&gt;
-&lt;li class="[ul&amp;gt;&amp;amp;]:indent-5 mb-3 break-words [ul&amp;gt;&amp;amp;]:relative [ul&amp;gt;&amp;amp;]:before:absolute [ul&amp;gt;&amp;amp;]:before:left-1 [ul&amp;gt;&amp;amp;]:before:top-2 [ul&amp;gt;&amp;amp;]:before:w-2 [ul&amp;gt;&amp;amp;]:before:h-2 [ul&amp;gt;&amp;amp;]:before:bg-red-600 [ul&amp;gt;&amp;amp;]:before:rounded-full marker:inline group-[.isActiveSource]:text-xl"&gt;Tenham renda bruta familiar mensal per capita de até três salários mínimos, que é equivalente a R$ 4.863, em 2026.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Já a convocação vai seguir a seguinte ordem:&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;ul class="list-none [li&amp;gt;&amp;amp;]:pl-5"&gt;
-&lt;li class="[ul&amp;gt;&amp;amp;]:indent-5 mb-3 break-words [ul&amp;gt;&amp;amp;]:relative [ul&amp;gt;&amp;amp;]:before:absolute [ul&amp;gt;&amp;amp;]:before:left-1 [ul&amp;gt;&amp;amp;]:before:top-2 [ul&amp;gt;&amp;amp;]:before:w-2 [ul&amp;gt;&amp;amp;]:before:h-2 [ul&amp;gt;&amp;amp;]:before:bg-red-600 [ul&amp;gt;&amp;amp;]:before:rounded-full marker:inline group-[.isActiveSource]:text-xl"&gt;Candidatos que não tenham concluído o ensino superior e não tenham sido beneficiados pelo financiamento estudantil;&lt;/li&gt;
-&lt;li class="[ul&amp;gt;&amp;amp;]:indent-5 mb-3 break-words [ul&amp;gt;&amp;amp;]:relative [ul&amp;gt;&amp;amp;]:before:absolute [ul&amp;gt;&amp;amp;]:before:left-1 [ul&amp;gt;&amp;amp;]:before:top-2 [ul&amp;gt;&amp;amp;]:before:w-2 [ul&amp;gt;&amp;amp;]:before:h-2 [ul&amp;gt;&amp;amp;]:before:bg-red-600 [ul&amp;gt;&amp;amp;]:before:rounded-full marker:inline group-[.isActiveSource]:text-xl"&gt;Candidatos que não tenham concluído o ensino superior, tenham sido beneficiados pelo financiamento estudantil e o tenham quitado;&lt;/li&gt;
-&lt;li class="[ul&amp;gt;&amp;amp;]:indent-5 mb-3 break-words [ul&amp;gt;&amp;amp;]:relative [ul&amp;gt;&amp;amp;]:before:absolute [ul&amp;gt;&amp;amp;]:before:left-1 [ul&amp;gt;&amp;amp;]:before:top-2 [ul&amp;gt;&amp;amp;]:before:w-2 [ul&amp;gt;&amp;amp;]:before:h-2 [ul&amp;gt;&amp;amp;]:before:bg-red-600 [ul&amp;gt;&amp;amp;]:before:rounded-full marker:inline group-[.isActiveSource]:text-xl"&gt;Candidatos que já tenham concluído o ensino superior e não tenham sido beneficiados pelo financiamento estudantil;&lt;/li&gt;
-&lt;li class="[ul&amp;gt;&amp;amp;]:indent-5 mb-3 break-words [ul&amp;gt;&amp;amp;]:relative [ul&amp;gt;&amp;amp;]:before:absolute [ul&amp;gt;&amp;amp;]:before:left-1 [ul&amp;gt;&amp;amp;]:before:top-2 [ul&amp;gt;&amp;amp;]:before:w-2 [ul&amp;gt;&amp;amp;]:before:h-2 [ul&amp;gt;&amp;amp;]:before:bg-red-600 [ul&amp;gt;&amp;amp;]:before:rounded-full marker:inline group-[.isActiveSource]:text-xl"&gt;Candidatos que já tenham concluído o ensino superior, tenham sido beneficiados pelo financiamento estudantil e o tenham quitado.&lt;b class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt;&lt;/b&gt;&lt;b class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt; &lt;/b&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 class="paragraph text-2xl my-5 font-bold break-words"&gt;&lt;b class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt;Confira o calendário completo do Fies:&lt;/b&gt;&lt;/h2&gt;
-&lt;ul class="list-none [li&amp;gt;&amp;amp;]:pl-5"&gt;
-&lt;li class="[ul&amp;gt;&amp;amp;]:indent-5 mb-3 break-words [ul&amp;gt;&amp;amp;]:relative [ul&amp;gt;&amp;amp;]:before:absolute [ul&amp;gt;&amp;amp;]:before:left-1 [ul&amp;gt;&amp;amp;]:before:top-2 [ul&amp;gt;&amp;amp;]:before:w-2 [ul&amp;gt;&amp;amp;]:before:h-2 [ul&amp;gt;&amp;amp;]:before:bg-red-600 [ul&amp;gt;&amp;amp;]:before:rounded-full marker:inline group-[.isActiveSource]:text-xl"&gt;&lt;b class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt;Inscrições: &lt;/b&gt;14 a 17 de julho;&lt;/li&gt;
-&lt;li class="[ul&amp;gt;&amp;amp;]:indent-5 mb-3 break-words [ul&amp;gt;&amp;amp;]:relative [ul&amp;gt;&amp;amp;]:before:absolute [ul&amp;gt;&amp;amp;]:before:left-1 [ul&amp;gt;&amp;amp;]:before:top-2 [ul&amp;gt;&amp;amp;]:before:w-2 [ul&amp;gt;&amp;amp;]:before:h-2 [ul&amp;gt;&amp;amp;]:before:bg-red-600 [ul&amp;gt;&amp;amp;]:before:rounded-full marker:inline group-[.isActiveSource]:text-xl"&gt;&lt;b class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt;Resultado: &lt;/b&gt;30 de julho;&lt;/li&gt;
-&lt;li class="[ul&amp;gt;&amp;amp;]:indent-5 mb-3 break-words [ul&amp;gt;&amp;amp;]:relative [ul&amp;gt;&amp;amp;]:before:absolute [ul&amp;gt;&amp;amp;]:before:left-1 [ul&amp;gt;&amp;amp;]:before:top-2 [ul&amp;gt;&amp;amp;]:before:w-2 [ul&amp;gt;&amp;amp;]:before:h-2 [ul&amp;gt;&amp;amp;]:before:bg-red-600 [ul&amp;gt;&amp;amp;]:before:rounded-full marker:inline group-[.isActiveSource]:text-xl"&gt;&lt;b class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt;Complementação das inscrições: &lt;/b&gt;31 de julho a 4 de agosto;&lt;/li&gt;
-&lt;li class="[ul&amp;gt;&amp;amp;]:indent-5 mb-3 break-words [ul&amp;gt;&amp;amp;]:relative [ul&amp;gt;&amp;amp;]:before:absolute [ul&amp;gt;&amp;amp;]:before:left-1 [ul&amp;gt;&amp;amp;]:before:top-2 [ul&amp;gt;&amp;amp;]:before:w-2 [ul&amp;gt;&amp;amp;]:before:h-2 [ul&amp;gt;&amp;amp;]:before:bg-red-600 [ul&amp;gt;&amp;amp;]:before:rounded-full marker:inline group-[.isActiveSource]:text-xl"&gt;&lt;b class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt;Lista de Espera: &lt;/b&gt;7 a 24 de setembro.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote class="wp-embedded-content" data-secret="yK8GPqhUbG"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/educacao/fies-2025-conheca-as-regioes-com-mais-inscritos/"&gt;Fies 2025: conheça as regiões com mais inscritos&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Fies 2025: conheça as regiões com mais inscritos&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/educacao/fies-2025-conheca-as-regioes-com-mais-inscritos/embed/#?secret=EcvwFFpJXU#?secret=yK8GPqhUbG" data-secret="yK8GPqhUbG" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 17 Jul 2026 07:15:04 +0000</pubDate><guid>https://www.cnnbrasil.com.br/educacao/fies-estudantes-tem-ate-esta-sexta-17-para-se-inscrever-no-programa/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/educacao/fies-estudantes-tem-ate-esta-sexta-17-para-se-inscrever-no-programa/</guid></item><item><title>Novo tarifaço deve ter influência pontual sobre preço de alimento no Brasil</title><link>https://www.cnnbrasil.com.br/agro/novo-tarifaco-deve-ter-influencia-pontual-sobre-preco-de-alimento-no-brasil/</link><description>&lt;p&gt;Apesar de elevar os custos para parte das exportações brasileiras aos Estados Unidos, a nova tarifa de 25% imposta pelo governo americano deve ter impacto limitado sobre a economia brasileira como um todo.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;Especialistas ouvidos pelo CNN Agro apontam que a manutenção — e até ampliação — da lista de produtos isentos reduz significativamente os efeitos agregados sobre o crescimento e a balança comercial.&lt;/p&gt;
-&lt;p&gt;Por outro lado, o consenso é que margens industriais se achatarão no caso dos setores taxados, em especial de madeira e de calçados, que fabricam sob demanda para os EUA.&lt;/p&gt;
-&lt;p class="PDq2pG_selectionAnchorContainer" data-start="536" data-end="793"&gt;Para o analista da G5 Partners, Gabriel Barros, o Brasil segue como uma economia relativamente fechada, com baixa participação do comércio exterior no Produto Interno Bruto (PIB), o que faz com que choques comerciais tenham alcance restrito sobre os principais indicadores macroeconômicos.&lt;/p&gt;
-&lt;aside class="read-too read-too--with-img"&gt;
-            &lt;h2 class='read-too__title'&gt;Leia Mais&lt;/h2&gt;
-            &lt;ul class="read-too__list"&gt;
-        &lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/agro/mp-destina-r-133-bilhoes-ao-setor-rural-apos-tarifaco-dos-eua/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportAgribusinessNews/tagreuters.com2026binary_LYNXMPEM0F0VR-BASEIMAGE.jpg?w=200"
-                    alt="MP destina R$ 13,3 bilhões ao setor rural após tarifaço dos EUA"
-                    title="MP destina R$ 13,3 bilhões ao setor rural após tarifaço dos EUA'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;MP destina R$ 13,3 bilhões ao setor rural após tarifaço dos EUA&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/agro/cna-ve-com-preocupacao-tarifa-de-25-dos-eua-sobre-produtos-brasileiros/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/03/institucional-cna-e1773154544276.webp?w=200"
-                    alt="CNA vê com preocupação tarifa de 25% dos EUA sobre produtos brasileiros"
-                    title="CNA vê com preocupação tarifa de 25% dos EUA sobre produtos brasileiros'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;CNA vê com preocupação tarifa de 25% dos EUA sobre produtos brasileiros&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/agro/acucar-organico-brasileiro-e-afetado-por-nova-tarifa-nos-eua/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/04/acucar-unica-2.jpg?w=200"
-                    alt="Açúcar orgânico brasileiro é afetado por nova tarifa nos EUA"
-                    title="Açúcar orgânico brasileiro é afetado por nova tarifa nos EUA'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Açúcar orgânico brasileiro é afetado por nova tarifa nos EUA&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;    &lt;/ul&gt;
-&lt;/aside&gt;
-
-&lt;p data-start="795" data-end="1000"&gt;&amp;#8220;O efeito é negativo, mas bastante marginal. Não devemos observar uma desaceleração relevante da atividade econômica nem uma deterioração substancial da balança comercial em função dessas tarifas&amp;#8221;, afirma.&lt;/p&gt;
-&lt;p class="PDq2pG_selectionAnchorContainer" data-start="1002" data-end="1193"&gt;Segundo ele, a discussão passa a ser muito mais microeconômica do que macroeconômica. Ou seja, os impactos dependerão do setor e, principalmente, do produto atingido pelas tarifas adicionais.&lt;/p&gt;
-&lt;p data-start="1195" data-end="1382"&gt;Em alguns segmentos, empresas poderão redirecionar as exportações para outros mercados internacionais, reduzindo os prejuízos. Nesses casos, a compressão das margens tende a ser limitada.&lt;/p&gt;
-&lt;p data-start="1384" data-end="1568"&gt;Entretanto, há produtos cuja pauta exportadora é altamente concentrada no mercado americano. O ferro-gusa é citado como um dos exemplos em que a substituição de destino é mais difícil.&lt;/p&gt;
-&lt;p data-start="1570" data-end="1859"&gt;&amp;#8220;Nesses casos, a empresa pode acabar direcionando parte da produção para o mercado doméstico, aumentando a oferta interna e pressionando os preços para baixo, o que reduz as margens. Outra possibilidade é exportar para outros países, mas em condições comerciais menos favoráveis&amp;#8221;, explica.&lt;/p&gt;
-&lt;p data-start="1861" data-end="2069"&gt;Por isso, o economista ressalta que os efeitos precisam ser analisados individualmente, de acordo com as características de cada cadeia produtiva e com a capacidade de diversificação dos mercados compradores.&lt;/p&gt;
-&lt;p data-start="1861" data-end="2069"&gt;Na mesma perspectiva, o pesquisador Felippe Serigati, do FGV Agro, considera que, dificilmente, haverá efeito relevante sobre a inflação de alimentos no Brasil. Se houver algum reflexo nos preços domésticos, ele será &amp;#8220;bastante limitado&amp;#8221; e &amp;#8220;impossível de ser isolado&amp;#8221; de outros fatores que influenciam o setor agropecuário, como Guerra no Oriente Médio e El Niño.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;Em teoria, poderia haver algum efeito sobre a inflação de alimentos, mas, se existir, será muito marginal. E mais do que isso, será muito difícil decompor quanto desse movimento decorreu das tarifas&amp;#8221;, afirma.&lt;/p&gt;
-&lt;p&gt;Segundo Serigati, o mercado de alimentos atravessa uma conjuntura marcada por múltiplos choques simultâneos, o que torna difícil atribuir eventuais oscilações de preços exclusivamente ao tarifaço americano.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;As dificuldades enfrentadas pela cadeia de fertilizantes deve pesar mais do que as novas tarifas que entram em vigor no dia 22 de julho. A interrupção de operações industriais por falta de enxofre reduziu a produção de fertilizantes fosfatados, insumo essencial para diversas culturas, reforça o pesquisador.&lt;/p&gt;
-&lt;p&gt;O elevado custo do crédito rural entra para a conta de maiores preocupações. Na avaliação do pesquisador, até mesmo oscilações do câmbio, influenciadas pelo ambiente eleitoral ou por fatores externos, tendem a exercer impacto muito maior sobre os preços internos do que as tarifas americanas.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;Qualquer movimento mais intenso do câmbio acaba gerando um efeito que passa por cima desses impactos secundários do tarifaço&amp;#8221;, pondera.&lt;/p&gt;
-&lt;p&gt;Por isso, Serigati e Barros avaliam que os maiores prejuízos da medida tendem a ficar concentrados nas cadeias diretamente afetadas pelas tarifas, e não sobre o consumidor brasileiro.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;O tarifaço incomoda muito mais os setores atingidos do que o mercado interno. Não significa que o efeito seja nulo, mas, se ele aparecer, será bastante marginal e muito difícil de identificar diante de tantos outros choques que hoje influenciam os preços dos alimentos&amp;#8221;, enfatiza.&lt;/p&gt;
-&lt;p&gt;Gabriel Barros, por sua vez, atenta que existe um efeito importante na narrativa política do novo tarifaço, mas, quando se observam os dados, o dano econômico agregado tende &amp;#8220;a ser bastante limitado em relação ao cenário que já existia com a tarifa de 10%&amp;#8221;.&lt;/p&gt;
-&lt;p data-start="2539" data-end="2790"&gt;O economista também cita como exemplo o acordo comercial firmado entre Mercosul e União Europeia. Embora seja considerado estruturalmente positivo para o comércio brasileiro, seus efeitos práticos sobre o fluxo de exportações ainda têm sido discretos.&lt;/p&gt;
-&lt;p data-start="2792" data-end="3189" data-is-last-node="" data-is-only-node=""&gt;&amp;#8220;A experiência mostra que grandes anúncios nem sempre se traduzem imediatamente em mudanças significativas no comércio. O acordo com a União Europeia é um bom exemplo: apesar de ser muito positivo em tese, até agora produziu efeitos bastante modestos sobre as exportações brasileiras. Da mesma forma, não devemos esperar um impacto macroeconômico expressivo das novas tarifas americanas&amp;#8221;, sublinhou.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 17 Jul 2026 07:05:42 +0000</pubDate><guid>https://www.cnnbrasil.com.br/agro/novo-tarifaco-deve-ter-influencia-pontual-sobre-preco-de-alimento-no-brasil/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/agro/novo-tarifaco-deve-ter-influencia-pontual-sobre-preco-de-alimento-no-brasil/</guid></item><item><title>Moraes assume presidência temporária do STF durante recesso do Judiciário</title><link>https://www.cnnbrasil.com.br/politica/moraes-assume-presidencia-temporaria-do-stf-durante-recesso-do-judiciario/</link><description>&lt;p&gt;O ministro &lt;strong&gt;Alexandre de Moraes&lt;/strong&gt; assume a partir desta sexta-feira (17) a presidência do &lt;strong&gt;STF (Supremo Tribunal Federal)&lt;/strong&gt; de forma interina. O magistrado, que é vice-presidente da Corte, será responsável pelo tribunal até o final de julho, quando termina o plantão de recesso do Judiciário.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;Neste período, entre os dias 2 e 31 de julho, os prazos processuais na Corte ficam suspensos, com a presidência arbitrando apenas sobre questões de urgência, tanto novas quanto as que já estavam em andamento. Na primeira quinzena do plantão, o presidente do STF, &lt;strong&gt;Edson Fachin&lt;/strong&gt;, &lt;a href="https://www.cnnbrasil.com.br/politica/fachin-justica-estara-atenta-para-faccoes-nao-se-infiltrarem-nas-eleicoes/"&gt;continuou na função&lt;/a&gt;.&lt;/p&gt;
-&lt;aside class="read-too read-too--with-img"&gt;
-            &lt;h2 class='read-too__title'&gt;Leia Mais&lt;/h2&gt;
-            &lt;ul class="read-too__list"&gt;
-        &lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/politica/dino-intima-presidentes-de-21-partidos-para-explicar-destinacao-de-emendas/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/ministro-flavio-dino-stf.jpg?w=200"
-                    alt="Dino intima presidentes de 21 partidos para explicar destinação de emendas"
-                    title="Dino intima presidentes de 21 partidos para explicar destinação de emendas'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Dino intima presidentes de 21 partidos para explicar destinação de emendas&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/politica/em-sp-fachin-critica-bets-e-defende-regulacao-financeira-no-pais/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/02/img20240205160712154MED.jpg?w=200"
-                    alt="Em SP, Fachin critica bets e defende &amp;quot;regulação financeira&amp;quot; no país"
-                    title="Em SP, Fachin critica bets e defende &amp;quot;regulação financeira&amp;quot; no país'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Em SP, Fachin critica bets e defende &amp;quot;regulação financeira&amp;quot; no país&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/politica/moraes-da-cinco-dias-para-pgr-se-manifestar-sobre-carta-de-bolsonaro/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/ministro-alexandre-de-moraes-stf.jpg?w=200"
-                    alt="Moraes dá cinco dias para PGR se manifestar sobre carta de Bolsonaro"
-                    title="Moraes dá cinco dias para PGR se manifestar sobre carta de Bolsonaro'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Moraes dá cinco dias para PGR se manifestar sobre carta de Bolsonaro&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;    &lt;/ul&gt;
-&lt;/aside&gt;
-
-&lt;p&gt;Além de Moraes, os ministros &lt;strong&gt;Gilmar Mendes&lt;/strong&gt;, &lt;strong&gt;Nunes Marques&lt;/strong&gt;, &lt;strong&gt;André Mendonça&lt;/strong&gt; e &lt;strong&gt;Flávio Dino&lt;/strong&gt; trabalham normalmente durante o mês. Já &lt;strong&gt;Dias Toffoli&lt;/strong&gt; ficou responsável apenas pelos processos de reclamações nos âmbitos cível e criminal, petições e inquéritos, além de mandados de segurança.&lt;/p&gt;
-&lt;p&gt;A Corte também informou que o ministro &lt;strong&gt;Cristiano Zanin&lt;/strong&gt; atua neste mês exclusivamente em inquéritos, APs (Ações Penais) e nos processos aos quais o magistrado esteja vinculado. Por sua vez, &lt;strong&gt;Cármen Lúcia&lt;/strong&gt; e &lt;strong&gt;Luiz Fux&lt;/strong&gt; estão de férias durante julho.&lt;/p&gt;
-&lt;h2&gt;Outras vezes no comando&lt;/h2&gt;
-&lt;p&gt;Moraes já presidiu o STF de forma interina antes. A última vez foi &lt;a href="https://www.cnnbrasil.com.br/politica/fachin-entra-em-recesso-e-moraes-assume-presidencia-do-stf-nesta-segunda/"&gt;em janeiro&lt;/a&gt;, durante o recesso de final do ano — que acontece entre dezembro e o primeiro mês do ano. Antes disso, o ministro também ficou à frente da Corte em novembro de 2025, quando Fachin viajou a Belém para compromissos ligados à Cúpula do Clima, evento preparatório da COP30.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;Fachin e Moraes estão no comando do tribunal desde o fim de setembro e cumprem um mandato de dois anos.&lt;/p&gt;
-&lt;p&gt;Pela tradição do STF, que segue a ordem de antiguidade, Moraes deve assumir a presidência de forma definitiva em 2027.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;*Sob supervisão de João Ker&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span dir="auto"&gt;As crescentes expectativas de lucros expressivos este ano têm fornecido um alicerce sólido para o entusiasmo dos investidores pelas ações.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span dir="auto"&gt;Agora, eles contam com a &lt;/span&gt;&lt;span dir="auto"&gt;temporada de resultados do segundo trimestre,&lt;/span&gt;&lt;span dir="auto"&gt; que acaba de começar , para mostrar que a máquina de lucros corporativos ainda está funcionando a todo vapor, com os lucros do S&amp;amp;P 500 projetados para subir impressionantes 25,7% no período, de acordo com dados da LSEG IBES.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span dir="auto"&gt;&amp;#8220;As manchetes continuam a gerar ansiedade e deixam os investidores perplexos, sem entender por que o mercado continua a atingir novos patamares&amp;#8221;, disse Michael Arone, estrategista-chefe de investimentos da State Street Investment Management. &amp;#8220;E a razão para isso é que os fundamentos têm se mostrado resilientes e os lucros continuam sendo excepcionais.&amp;#8221;&lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;span dir="auto"&gt;Alphabet e seus gastos em IA&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span dir="auto"&gt;O &lt;a href="https://www.cnnbrasil.com.br/economia/negocios/alphabet-supera-previsao-apos-lucro-quase-dobrar-no-1o-trimestre-de-2026/" target="_blank" rel="noopener"&gt;relatório trimestral da Alphabet,&lt;/a&gt; que será divulgado na quarta-feira (22), certamente atrairá a atenção de Wall Street.&lt;/span&gt;&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span dir="auto"&gt; A controladora do Google, a terceira maior empresa dos EUA em valor de mercado, com US$ 4,3 trilhões, pode influenciar os índices como uma das sete ações de peso que impulsionaram as bolsas americanas &lt;/span&gt;&lt;span class="tr-strong"&gt;&lt;span dir="auto"&gt;durante grande parte do ciclo de alta que já dura quase quatro anos&lt;/span&gt;&lt;/span&gt;&lt;span dir="auto"&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span dir="auto"&gt;A empresa também é uma &amp;#8220;hiperescaladora&amp;#8221; de IA, investindo bilhões de dólares na construção de data centers e infraestrutura de IA. Esse investimento em IA tem sido fundamental para a alta do mercado neste ano, impulsionando ganhos expressivos para empresas de semicondutores e outras que se beneficiam desses grandes desembolsos.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span dir="auto"&gt;&amp;#8220;Se a Alphabet anunciar qualquer tipo de redução nos gastos que prevê com IA, poderemos ver efeitos em cascata em todo o ecossistema de IA&amp;#8221;, disse Kevin Mahn, presidente e diretor de investimentos da Hennion &amp;amp; Walsh Asset Management.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span dir="auto"&gt;Os resultados das empresas de semicondutores Intel e Texas Instruments&lt;/span&gt;&lt;span dir="auto"&gt; ganham especial relevância devido à impressionante valorização das ações do setor neste ano.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span dir="auto"&gt; &lt;/span&gt;&lt;span dir="auto"&gt;Apesar da leve oscilação nas últimas semanas&lt;/span&gt;&lt;span dir="auto"&gt; , o índice Philadelphia SE Semiconductor&lt;/span&gt;&lt;span dir="auto"&gt; acumula alta de cerca de 68% em 2026; as ações da Intel dispararam mais de 160%, enquanto as da Texas Instruments registraram ganhos de 68%.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span dir="auto"&gt;As reações tímidas do mercado aos fortes relatórios divulgados neste período por empresas estrangeiras como a &lt;strong&gt;Samsung Electronics&lt;/strong&gt;&lt;/span&gt;&lt;span dir="auto"&gt; e a &lt;strong&gt;Taiwan Semiconductor&lt;/strong&gt; i&lt;/span&gt;&lt;span dir="auto"&gt;ndicam as altas expectativas para a indústria de semicondutores.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span dir="auto"&gt;As ações de empresas de semicondutores têm apresentado grandes oscilações, com investidores questionando se o mercado, que vinha apresentando forte valorização, não teria ido longe demais. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span dir="auto"&gt;O enorme peso coletivo do setor nos índices significa que as ações de semicondutores podem influenciar a direção do mercado. Produtos alavancados atrelados ao setor de semicondutores também estão &amp;#8220;se valorizando tanto para cima quanto para baixo&amp;#8221;, afirmou Arone, da State Street.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span dir="auto"&gt;Os relatórios do segundo trimestre começam a surgir à medida que o FED se aproxima.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span id="x14" class="tr-ric"&gt;&lt;span dir="auto"&gt;A Tesla &lt;/span&gt;&lt;/span&gt;&lt;span dir="auto"&gt;de Elon Musk , outra empresa do grupo Magnificent Seven, também deve divulgar seus resultados na próxima semana. Outros resultados de destaque incluem os da American Express&lt;/span&gt;&lt;span dir="auto"&gt;, Philip Morris International &lt;/span&gt;&lt;span dir="auto"&gt;e da empreiteira de defesa RTX&lt;/span&gt;&lt;span dir="auto"&gt;, com mais de 80 empresas do S&amp;amp;P 500 previstas para divulgar seus balanços.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span dir="auto"&gt;Os principais bancos dos EUA&lt;/span&gt;&lt;span dir="auto"&gt; deram início à temporada de balanços esta semana, divulgando resultados impulsionados por taxas de consultoria em fusões e aquisições e por um aumento expressivo na receita de negociações.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;
 &lt;div class="post__video"&gt;
 	&lt;div class="cnn component-video has--live"&gt;
 		&lt;div class="component-inner"&gt;
 			&lt;div
-				id="player_politica_zEbH9QvrylM"
+				id="player_economia_yja1w407NII"
 				class="video-wrapper "
 			&gt;
 				&lt;div class="video-wrapper-inner"&gt;
 										&lt;div class="overlay-wrapper"&gt;
 						&lt;button
 							class="video-button js-video-play active"
-							aria-label="Assista o vídeo Moraes dá cinco dias para PGR se manifestar sobre carta de Bolsonaro | CNN NOVO DIA"
+							aria-label="Assista o vídeo Einstein de Wall Street trabalha há 40 anos no pregão físico de Nova York"
 							tabindex="0"
 						&gt;
 							&lt;img
 								class="thumbnail-image"
-								src="https://img.youtube.com/vi/zEbH9QvrylM/sddefault.jpg"
-                                srcset="https://img.youtube.com/vi/zEbH9QvrylM/default.jpg 120w,
-                    https://img.youtube.com/vi/zEbH9QvrylM/mqdefault.jpg 320w,
-                    https://img.youtube.com/vi/zEbH9QvrylM/hqdefault.jpg 480w,
-                    https://img.youtube.com/vi/zEbH9QvrylM/sddefault.jpg 640w,
-                    https://img.youtube.com/vi/zEbH9QvrylM/maxresdefault.jpg 1280w"
-								alt="Moraes dá cinco dias para PGR se manifestar sobre carta de Bolsonaro | CNN NOVO DIA"
+								src="https://img.youtube.com/vi/yja1w407NII/sddefault.jpg"
+                                srcset="https://img.youtube.com/vi/yja1w407NII/default.jpg 120w,
+                    https://img.youtube.com/vi/yja1w407NII/mqdefault.jpg 320w,
+                    https://img.youtube.com/vi/yja1w407NII/hqdefault.jpg 480w,
+                    https://img.youtube.com/vi/yja1w407NII/sddefault.jpg 640w,
+                    https://img.youtube.com/vi/yja1w407NII/maxresdefault.jpg 1280w"
+								alt="Einstein de Wall Street trabalha há 40 anos no pregão físico de Nova York"
 							/&gt;
 
 							&lt;span
 								class="video-play-button"
-								aria-label="Botão play do vídeo Moraes dá cinco dias para PGR se manifestar sobre carta de Bolsonaro | CNN NOVO DIA"
+								aria-label="Botão play do vídeo Einstein de Wall Street trabalha há 40 anos no pregão físico de Nova York"
 							&gt;&lt;/span&gt;
 
 															&lt;span class="video-gradient"&gt;&lt;/span&gt;
-								&lt;span class="video-title"&gt;Moraes dá cinco dias para PGR se manifestar sobre carta de Bolsonaro | CNN NOVO DIA&lt;/span&gt;
+								&lt;span class="video-title"&gt;Einstein de Wall Street trabalha há 40 anos no pregão físico de Nova York&lt;/span&gt;
 													&lt;/button&gt;
 					&lt;/div&gt;
 										&lt;span
@@ -575,10 +162,10 @@
 						data-youtube-vpmute="0"
 						data-youtube-width="640px"
 						data-youtube-height="480px"
-						data-youtube-ui="politica"
+						data-youtube-ui="economia"
 						data-youtube-play="0"
 						data-youtube-mute="0"
-						data-youtube-id="zEbH9QvrylM"
+						data-youtube-id="yja1w407NII"
 						data-youtube-vpa="click"
 						data-youtube-hl="pt"
 						data-youtube-position=""
@@ -589,141 +176,981 @@
 	&lt;/div&gt;
 &lt;/div&gt;
 &lt;/iframe&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 17 Jul 2026 07:00:58 +0000</pubDate><guid>https://www.cnnbrasil.com.br/politica/moraes-assume-presidencia-temporaria-do-stf-durante-recesso-do-judiciario/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/politica/moraes-assume-presidencia-temporaria-do-stf-durante-recesso-do-judiciario/</guid></item><item><title>Mirassol x Grêmio: horário e onde assistir ao Brasileirão</title><link>https://www.cnnbrasil.com.br/esportes/brasileirao/mirassol-x-gremio-horario-e-onde-assistir-ao-brasileirao/</link><description>&lt;p&gt;O Mirassol recebe o Grêmio nesta sexta-feira (17), às 20h (horário de Brasília), em partida válida pela 19ª rodada do Campeonato Brasileiro, que retorna após a pausa da Copa do Mundo. As equipes se enfrentam no estádio José Maria de Campos Maia, o Maião, em Mirassol.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;O Mira precisa de novo fôlego após a paralisação para tentar fugir do rebaixamento. O time soma apenas 16 pontos, quatro atrás do Vasco, primeiro da Zona.&lt;/p&gt;
+&lt;p&gt;&lt;span dir="auto"&gt;Wall Street ainda se preparava para possíveis oscilações diárias no mercado devido aos desdobramentos no Oriente Médio, após a recente escalada da guerra entre Estados Unidos e Israel com o Irã, que já dura quase cinco meses. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span dir="auto"&gt;Muitos investidores esperam que a guerra seja relativamente curta, mas temem que a renovação das tensões possa elevar os preços da energia aos níveis atingidos após o início do conflito, inflamando os temores de inflação.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span dir="auto"&gt;Isso é especialmente preocupante às vésperas da reunião do &lt;strong&gt;Federal Reserve&lt;/strong&gt; no final de julho. Os preços dos contratos futuros de fundos federais indicam expectativas de que o banco central americano aumentará as taxas de juros nos próximos meses para conter a inflação, que está acima da meta anual de 2% do Fed.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span dir="auto"&gt;Dados desta semana sobre os preços &lt;/span&gt;&lt;span dir="auto"&gt;ao consumidor&lt;/span&gt;&lt;span dir="auto"&gt; e ao produtor nos EUA, mais fracos do que o esperado, acalmaram alguns temores de que o Fed pudesse aumentar as taxas de juros na reunião deste mês .&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span dir="auto"&gt;&amp;#8220;Os dados macroeconômicos pintaram um quadro de economia estável com alguma melhora na&lt;a href="https://www.cnnbrasil.com.br/economia/macroeconomia/nucleo-do-cpi-tambem-veio-abaixo-do-esperado-afirma-economista/" target="_blank" rel="noopener"&gt; pressão inflacionária&lt;/a&gt;&amp;#8220;, disse Eric Kuby, diretor de investimentos da North Star Investment Management.&lt;/span&gt;&lt;/p&gt;
+&lt;blockquote class="wp-embedded-content" data-secret="b1jLUgVgjU"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/economia/inteligencia-artificial-esta-substituindo-humanos-mostra-pesquisa/"&gt;Inteligência artificial está substituindo humanos, mostra pesquisa&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Inteligência artificial está substituindo humanos, mostra pesquisa&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/economia/inteligencia-artificial-esta-substituindo-humanos-mostra-pesquisa/embed/#?secret=ZFtYVs3Qar#?secret=b1jLUgVgjU" data-secret="b1jLUgVgjU" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 17 Jul 2026 13:11:58 +0000</pubDate><guid>https://www.cnnbrasil.com.br/economia/mercado/balancos-de-tecnologia-devem-influenciar-proxima-semana-em-wall-street/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/economia/mercado/balancos-de-tecnologia-devem-influenciar-proxima-semana-em-wall-street/</guid></item><item><title>Vazamento de gás em Manaus: substância exalada pode causar câncer</title><link>https://www.cnnbrasil.com.br/saude/vazamento-de-gas-em-manaus-substancia-exalada-pode-causar-cancer/</link><description>&lt;p&gt;A cidade de &lt;strong&gt;Manaus&lt;/strong&gt; entrou em estado de alerta após o &lt;strong&gt;vazamento de gás estireno&lt;/strong&gt; ocorrido na tarde da última quarta-feira (15), em uma unidade da petroquímica Innova, no &lt;strong&gt;Distrito Industrial I&lt;/strong&gt;. O incidente, provocado por uma elevação anormal de temperatura em um tanque de armazenamento, liberou vapores que se espalharam por diversos bairros da capital amazonense.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;Embora a empresa afirme que não há riscos à saúde, órgãos de saúde globais classificam a substância como potencialmente &lt;strong&gt;cancerígena&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Veja imagens do vazamento de gás em Manaus&lt;/strong&gt;&lt;/p&gt;
+&lt;section
+	class="gallery gallery--content"
+	id="glc_15166344"
+&gt;
+    &lt;input
+    checked
+    type="radio"
+    class="gallery__layout gallery__layout--default"
+    id="gallery__default_glc_15166344"
+    name="gallery-layout_glc_15166344"
+&gt;
+&lt;input
+    type="radio"
+    class="gallery__layout gallery__layout--full"
+    id="gallery__full_glc_15166344"
+    name="gallery-layout_glc_15166344"
+&gt;
+&lt;input
+    type="radio"
+    class="gallery__layout gallery__layout--grid"
+    id="gallery__grid_glc_15166344"
+    name="gallery-layout_glc_15166344"
+&gt;
+    &lt;div class="gallery__modal"&gt;&lt;/div&gt;
+
+    &lt;div class="gallery__larger"&gt;
+    &lt;ul class="gallery__list"&gt;
+        &lt;input
+    checked=&amp;quot;checked&amp;quot; 
+    type="radio"
+    class="gallery__selector"
+    id="lg_glc_15166344_1"
+    name="lg_glc_15166344"
+&gt;
+&lt;li class="gallery__item item1"&gt;
+    &lt;div class="gallery__main-wrapper"&gt;
+        &lt;div class="gallery__img-blur"&gt;
+            &lt;img decoding="async" class="gallery__img" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/VAZAMENTO-GAS-5.png?w=880" loading="lazy" alt=""&gt;
+            &lt;div class="gallery__img-blur__bg"&gt;&lt;/div&gt;
+            &lt;label
+                class="gallery__img__label gallery__img__label--default"
+                for="gallery__default_glc_15166344"
+            &gt;&lt;/label&gt;
+            &lt;label
+                class="gallery__img__label gallery__img__label--full"
+                for="gallery__full_glc_15166344"
+            &gt;&lt;/label&gt;
+        &lt;/div&gt;
+        &lt;div class="gallery__navigation"&gt;
+            &lt;label class="gallery__button gallery__button--prev" for="lg_glc_15166344_6"&gt;Trocar imagem&lt;/label&gt;&lt;label class="gallery__button gallery__button--prev gallery__button--ad" for="ad_lg_glc_15166344_6"&gt;Trocar imagem&lt;/label&gt;&lt;label class="gallery__button gallery__button--next" for="lg_glc_15166344_2"&gt;Trocar imagem&lt;/label&gt;        &lt;/div&gt;
+        &lt;div class="gallery__counter"&gt;
+            1 de 6        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="gallery__description-wrapper"&gt;
+        &lt;div class="gallery__description"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/li&gt;&lt;input
+     
+    type="radio"
+    class="gallery__selector"
+    id="lg_glc_15166344_2"
+    name="lg_glc_15166344"
+&gt;
+&lt;li class="gallery__item item2"&gt;
+    &lt;div class="gallery__main-wrapper"&gt;
+        &lt;div class="gallery__img-blur"&gt;
+            &lt;img decoding="async" class="gallery__img" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/VAZAMENTO-GAS-4.png?w=880" loading="lazy" alt=""&gt;
+            &lt;div class="gallery__img-blur__bg"&gt;&lt;/div&gt;
+            &lt;label
+                class="gallery__img__label gallery__img__label--default"
+                for="gallery__default_glc_15166344"
+            &gt;&lt;/label&gt;
+            &lt;label
+                class="gallery__img__label gallery__img__label--full"
+                for="gallery__full_glc_15166344"
+            &gt;&lt;/label&gt;
+        &lt;/div&gt;
+        &lt;div class="gallery__navigation"&gt;
+            &lt;label class="gallery__button gallery__button--prev" for="lg_glc_15166344_1"&gt;Trocar imagem&lt;/label&gt;&lt;label class="gallery__button gallery__button--next" for="lg_glc_15166344_3"&gt;Trocar imagem&lt;/label&gt;        &lt;/div&gt;
+        &lt;div class="gallery__counter"&gt;
+            2 de 6        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="gallery__description-wrapper"&gt;
+        &lt;div class="gallery__description"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/li&gt;&lt;input
+     
+    type="radio"
+    class="gallery__selector"
+    id="lg_glc_15166344_3"
+    name="lg_glc_15166344"
+&gt;
+&lt;li class="gallery__item item3"&gt;
+    &lt;div class="gallery__main-wrapper"&gt;
+        &lt;div class="gallery__img-blur"&gt;
+            &lt;img decoding="async" class="gallery__img" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/VAZAMENTO-GAS-3.png?w=880" loading="lazy" alt=""&gt;
+            &lt;div class="gallery__img-blur__bg"&gt;&lt;/div&gt;
+            &lt;label
+                class="gallery__img__label gallery__img__label--default"
+                for="gallery__default_glc_15166344"
+            &gt;&lt;/label&gt;
+            &lt;label
+                class="gallery__img__label gallery__img__label--full"
+                for="gallery__full_glc_15166344"
+            &gt;&lt;/label&gt;
+        &lt;/div&gt;
+        &lt;div class="gallery__navigation"&gt;
+            &lt;label class="gallery__button gallery__button--prev" for="lg_glc_15166344_2"&gt;Trocar imagem&lt;/label&gt;&lt;label class="gallery__button gallery__button--next" for="lg_glc_15166344_4"&gt;Trocar imagem&lt;/label&gt;&lt;label class="gallery__button gallery__button--next gallery__button--ad" for="ad_lg_glc_15166344_3"&gt;Trocar imagem&lt;/label&gt;        &lt;/div&gt;
+        &lt;div class="gallery__counter"&gt;
+            3 de 6        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="gallery__description-wrapper"&gt;
+        &lt;div class="gallery__description"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/li&gt;&lt;input type="radio" 
+    class="gallery__selector gallery__selector--ad"
+    id="ad_lg_glc_15166344_3"
+    name="lg_glc_15166344"
+&gt;
+&lt;li class="i3' gallery__item gallery__item--ad"&gt;
+    &lt;div class="gallery__main-wrapper"&gt;
+        &lt;div class="gallery__ad gallery__ad--3 ad__area"&gt;&lt;/div&gt;
+        &lt;div class="gallery__navigation"&gt;
+            &lt;label class="gallery__button gallery__button--prev" for="lg_glc_15166344_3"&gt;Trocar imagem&lt;/label&gt;&lt;label class="gallery__button gallery__button--next" for="lg_glc_15166344_4"&gt;Trocar imagem&lt;/label&gt;        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/li&gt;&lt;input
+     
+    type="radio"
+    class="gallery__selector"
+    id="lg_glc_15166344_4"
+    name="lg_glc_15166344"
+&gt;
+&lt;li class="gallery__item item4"&gt;
+    &lt;div class="gallery__main-wrapper"&gt;
+        &lt;div class="gallery__img-blur"&gt;
+            &lt;img decoding="async" class="gallery__img" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/VAZAMENTO-GAS-2.png?w=880" loading="lazy" alt=""&gt;
+            &lt;div class="gallery__img-blur__bg"&gt;&lt;/div&gt;
+            &lt;label
+                class="gallery__img__label gallery__img__label--default"
+                for="gallery__default_glc_15166344"
+            &gt;&lt;/label&gt;
+            &lt;label
+                class="gallery__img__label gallery__img__label--full"
+                for="gallery__full_glc_15166344"
+            &gt;&lt;/label&gt;
+        &lt;/div&gt;
+        &lt;div class="gallery__navigation"&gt;
+            &lt;label class="gallery__button gallery__button--prev" for="lg_glc_15166344_3"&gt;Trocar imagem&lt;/label&gt;&lt;label class="gallery__button gallery__button--prev gallery__button--ad" for="ad_lg_glc_15166344_3"&gt;Trocar imagem&lt;/label&gt;&lt;label class="gallery__button gallery__button--next" for="lg_glc_15166344_5"&gt;Trocar imagem&lt;/label&gt;        &lt;/div&gt;
+        &lt;div class="gallery__counter"&gt;
+            4 de 6        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="gallery__description-wrapper"&gt;
+        &lt;div class="gallery__description"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/li&gt;&lt;input
+     
+    type="radio"
+    class="gallery__selector"
+    id="lg_glc_15166344_5"
+    name="lg_glc_15166344"
+&gt;
+&lt;li class="gallery__item item5"&gt;
+    &lt;div class="gallery__main-wrapper"&gt;
+        &lt;div class="gallery__img-blur"&gt;
+            &lt;img decoding="async" class="gallery__img" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/VAZAMENTO-GAS-1.png?w=880" loading="lazy" alt=""&gt;
+            &lt;div class="gallery__img-blur__bg"&gt;&lt;/div&gt;
+            &lt;label
+                class="gallery__img__label gallery__img__label--default"
+                for="gallery__default_glc_15166344"
+            &gt;&lt;/label&gt;
+            &lt;label
+                class="gallery__img__label gallery__img__label--full"
+                for="gallery__full_glc_15166344"
+            &gt;&lt;/label&gt;
+        &lt;/div&gt;
+        &lt;div class="gallery__navigation"&gt;
+            &lt;label class="gallery__button gallery__button--prev" for="lg_glc_15166344_4"&gt;Trocar imagem&lt;/label&gt;&lt;label class="gallery__button gallery__button--next" for="lg_glc_15166344_6"&gt;Trocar imagem&lt;/label&gt;        &lt;/div&gt;
+        &lt;div class="gallery__counter"&gt;
+            5 de 6        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="gallery__description-wrapper"&gt;
+        &lt;div class="gallery__description"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/li&gt;&lt;input
+     
+    type="radio"
+    class="gallery__selector"
+    id="lg_glc_15166344_6"
+    name="lg_glc_15166344"
+&gt;
+&lt;li class="gallery__item item6"&gt;
+    &lt;div class="gallery__main-wrapper"&gt;
+        &lt;div class="gallery__img-blur"&gt;
+            &lt;img decoding="async" class="gallery__img" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/VAZAMENTO-GAS.png?w=880" loading="lazy" alt=""&gt;
+            &lt;div class="gallery__img-blur__bg"&gt;&lt;/div&gt;
+            &lt;label
+                class="gallery__img__label gallery__img__label--default"
+                for="gallery__default_glc_15166344"
+            &gt;&lt;/label&gt;
+            &lt;label
+                class="gallery__img__label gallery__img__label--full"
+                for="gallery__full_glc_15166344"
+            &gt;&lt;/label&gt;
+        &lt;/div&gt;
+        &lt;div class="gallery__navigation"&gt;
+            &lt;label class="gallery__button gallery__button--prev" for="lg_glc_15166344_5"&gt;Trocar imagem&lt;/label&gt;&lt;label class="gallery__button gallery__button--next" for="lg_glc_15166344_1"&gt;Trocar imagem&lt;/label&gt;&lt;label class="gallery__button gallery__button--next gallery__button--ad" for="ad_lg_glc_15166344_6"&gt;Trocar imagem&lt;/label&gt;        &lt;/div&gt;
+        &lt;div class="gallery__counter"&gt;
+            6 de 6        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="gallery__description-wrapper"&gt;
+        &lt;div class="gallery__description"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/li&gt;&lt;input type="radio" 
+    class="gallery__selector gallery__selector--ad"
+    id="ad_lg_glc_15166344_6"
+    name="lg_glc_15166344"
+&gt;
+&lt;li class="i6' gallery__item gallery__item--ad"&gt;
+    &lt;div class="gallery__main-wrapper"&gt;
+        &lt;div class="gallery__ad gallery__ad--6 ad__area"&gt;&lt;/div&gt;
+        &lt;div class="gallery__navigation"&gt;
+            &lt;label class="gallery__button gallery__button--prev" for="lg_glc_15166344_6"&gt;Trocar imagem&lt;/label&gt;&lt;label class="gallery__button gallery__button--next" for="lg_glc_15166344_1"&gt;Trocar imagem&lt;/label&gt;        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/li&gt;    &lt;/ul&gt;
+&lt;/div&gt;&lt;div class="gallery__thumbnails"&gt;
+    &lt;ul class="gallery__thumb-list"&gt;
+        &lt;li class="gallery__thumb gallery__thumb--active"&gt;
+    &lt;label class="gallery__thumb-label" for="lg_glc_15166344_1"&gt;
+        &lt;div class="gallery__main-wrapper"&gt;
+            &lt;div class="gallery__img-blur"&gt;
+                &lt;img decoding="async" class="gallery__img" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/VAZAMENTO-GAS-5.png?w=194" loading="lazy" alt=""&gt;
+                &lt;div class="gallery__img-blur__bg"&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/label&gt;
+&lt;/li&gt;&lt;li class="gallery__thumb "&gt;
+    &lt;label class="gallery__thumb-label" for="lg_glc_15166344_2"&gt;
+        &lt;div class="gallery__main-wrapper"&gt;
+            &lt;div class="gallery__img-blur"&gt;
+                &lt;img decoding="async" class="gallery__img" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/VAZAMENTO-GAS-4.png?w=194" loading="lazy" alt=""&gt;
+                &lt;div class="gallery__img-blur__bg"&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/label&gt;
+&lt;/li&gt;&lt;li class="gallery__thumb "&gt;
+    &lt;label class="gallery__thumb-label" for="lg_glc_15166344_3"&gt;
+        &lt;div class="gallery__main-wrapper"&gt;
+            &lt;div class="gallery__img-blur"&gt;
+                &lt;img decoding="async" class="gallery__img" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/VAZAMENTO-GAS-3.png?w=194" loading="lazy" alt=""&gt;
+                &lt;div class="gallery__img-blur__bg"&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/label&gt;
+&lt;/li&gt;&lt;li class="gallery__thumb "&gt;
+    &lt;label class="gallery__thumb-label" for="lg_glc_15166344_4"&gt;
+        &lt;div class="gallery__main-wrapper"&gt;
+            &lt;div class="gallery__img-blur"&gt;
+                &lt;img decoding="async" class="gallery__img" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/VAZAMENTO-GAS-2.png?w=194" loading="lazy" alt=""&gt;
+                &lt;div class="gallery__img-blur__bg"&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/label&gt;
+&lt;/li&gt;&lt;li class="gallery__thumb "&gt;
+    &lt;label class="gallery__thumb-label" for="lg_glc_15166344_5"&gt;
+        &lt;div class="gallery__main-wrapper"&gt;
+            &lt;div class="gallery__img-blur"&gt;
+                &lt;img decoding="async" class="gallery__img" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/VAZAMENTO-GAS-1.png?w=194" loading="lazy" alt=""&gt;
+                &lt;div class="gallery__img-blur__bg"&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/label&gt;
+&lt;/li&gt;&lt;li class="gallery__thumb "&gt;
+    &lt;label class="gallery__thumb-label" for="lg_glc_15166344_6"&gt;
+        &lt;div class="gallery__main-wrapper"&gt;
+            &lt;div class="gallery__img-blur"&gt;
+                &lt;img decoding="async" class="gallery__img" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/VAZAMENTO-GAS.png?w=194" loading="lazy" alt=""&gt;
+                &lt;div class="gallery__img-blur__bg"&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/label&gt;
+&lt;/li&gt;    &lt;/ul&gt;
+&lt;/div&gt;&lt;div class="gallery__switcher"&gt;
+    &lt;label
+        class="gallery__button gallery__button--default"
+        for="gallery__default_glc_15166344"
+    &gt;visualização default&lt;/label&gt;
+    &lt;label
+        class="gallery__button gallery__button--full"
+        for="gallery__full_glc_15166344"
+    &gt;visualização full&lt;/label&gt;
+    &lt;label
+        class="gallery__button gallery__button--grid"
+        for="gallery__grid_glc_15166344"
+    &gt;visualização grid&lt;/label&gt;
+&lt;/div&gt;&lt;/section&gt;
+
+&lt;aside class="read-too read-too--with-img"&gt;
+            &lt;h2 class='read-too__title'&gt;Leia Mais&lt;/h2&gt;
+            &lt;ul class="read-too__list"&gt;
+        &lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/nacional/norte/am/vazamento-de-gas-em-manaus-nao-tem-risco-para-populacao-diz-empresa/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/VAZAMENTO-GAS.png?w=200"
+                    alt="Vazamento de gás em Manaus não tem risco para população, diz empresa"
+                    title="Vazamento de gás em Manaus não tem risco para população, diz empresa'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Vazamento de gás em Manaus não tem risco para população, diz empresa&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/nacional/norte/am/videos-mostram-momento-de-vazamento-de-gas-estireno-em-manaus-am-assista/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/VAZAMENTO-GAS-5.png?w=200"
+                    alt="Vídeos mostram momento de vazamento de gás estireno em Manaus (AM); assista"
+                    title="Vídeos mostram momento de vazamento de gás estireno em Manaus (AM); assista'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Vídeos mostram momento de vazamento de gás estireno em Manaus (AM); assista&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/nacional/norte/am/vazamento-de-gas-estireno-deixa-manaus-em-estado-de-alerta/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/VAZAMENTO-ZONA-FRANCA.png?w=200"
+                    alt="Vazamento de gás estireno deixa Manaus em estado de alerta"
+                    title="Vazamento de gás estireno deixa Manaus em estado de alerta'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Vazamento de gás estireno deixa Manaus em estado de alerta&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;    &lt;/ul&gt;
+&lt;/aside&gt;
+
+&lt;h2&gt;Riscos à saúde e potencial carcinogênico&lt;/h2&gt;
+&lt;p&gt;O &lt;strong&gt;estireno&lt;/strong&gt; é um líquido incolor que evapora facilmente e é amplamente utilizado na fabricação de plásticos e borrachas.&lt;/p&gt;
+&lt;p&gt;De acordo com o Programa Nacional de Toxicologia (NTP) dos Estados Unidos, a substância é listada como &lt;strong&gt;&amp;#8220;sendo um carcinógeno humano&amp;#8221;&lt;/strong&gt;. A Agência Internacional de Pesquisa sobre o Câncer (IARC) também classifica o estireno como um &lt;strong&gt;possível carcinógeno&lt;/strong&gt;.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;A exposição ao gás pode ocorrer principalmente pela inalação. Além do risco de longo prazo, o contato imediato com o vapor pode causar &lt;strong&gt;problemas no sistema nervoso&lt;/strong&gt;, como cansaço, dificuldade de concentração e tontura, além de irritação nos olhos e garganta.&lt;/p&gt;
+&lt;p&gt;
+&lt;div class="post__video"&gt;
+	&lt;div class="cnn component-video has--live"&gt;
+		&lt;div class="component-inner"&gt;
+			&lt;div
+				id="player_saude_TrNYbwilBVM"
+				class="video-wrapper "
+			&gt;
+				&lt;div class="video-wrapper-inner"&gt;
+										&lt;div class="overlay-wrapper"&gt;
+						&lt;button
+							class="video-button js-video-play active"
+							aria-label="Assista o vídeo Hospital de Manaus vira referência com parceria público-privada | CNN PRIME TIME"
+							tabindex="0"
+						&gt;
+							&lt;img
+								class="thumbnail-image"
+								src="https://img.youtube.com/vi/TrNYbwilBVM/sddefault.jpg"
+                                srcset="https://img.youtube.com/vi/TrNYbwilBVM/default.jpg 120w,
+                    https://img.youtube.com/vi/TrNYbwilBVM/mqdefault.jpg 320w,
+                    https://img.youtube.com/vi/TrNYbwilBVM/hqdefault.jpg 480w,
+                    https://img.youtube.com/vi/TrNYbwilBVM/sddefault.jpg 640w,
+                    https://img.youtube.com/vi/TrNYbwilBVM/maxresdefault.jpg 1280w"
+								alt="Hospital de Manaus vira referência com parceria público-privada | CNN PRIME TIME"
+							/&gt;
+
+							&lt;span
+								class="video-play-button"
+								aria-label="Botão play do vídeo Hospital de Manaus vira referência com parceria público-privada | CNN PRIME TIME"
+							&gt;&lt;/span&gt;
+
+															&lt;span class="video-gradient"&gt;&lt;/span&gt;
+								&lt;span class="video-title"&gt;Hospital de Manaus vira referência com parceria público-privada | CNN PRIME TIME&lt;/span&gt;
+													&lt;/button&gt;
+					&lt;/div&gt;
+										&lt;span
+						class="embedded-video video-player-wrapper"
+						data-youtube-plcmt="1"
+						data-youtube-vpmute="0"
+						data-youtube-width="640px"
+						data-youtube-height="480px"
+						data-youtube-ui="saude"
+						data-youtube-play="0"
+						data-youtube-mute="0"
+						data-youtube-id="TrNYbwilBVM"
+						data-youtube-vpa="click"
+						data-youtube-hl="pt"
+						data-youtube-position=""
+					&gt;&lt;/span&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;/iframe&gt;&lt;/p&gt;
+&lt;h2&gt;Impactos do vazamento em Manaus&lt;/h2&gt;
+&lt;p&gt;Até o momento, a Secretaria de Estado de Saúde (SES-AM) confirmou que &lt;strong&gt;16 pessoas foram atendidas&lt;/strong&gt; em unidades de saúde com sintomas de intoxicação.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cnnbrasil.com.br/nacional/norte/am/homem-de-67-anos-morre-apos-vazamento-de-gas-estireno-em-manaus/" target="_blank" rel="noopener" data-textassist="true"&gt;&lt;strong&gt;Um homem de 67 anos&lt;/strong&gt;&lt;/a&gt;, com histórico de doença respiratória crônica, morreu após dar entrada em um hospital relatando mal-estar na noite do incidente, mas as autoridades informaram que ainda não há confirmação de &lt;strong&gt;relação direta&lt;/strong&gt; entre o óbito e o vazamento.&lt;/p&gt;
+&lt;p&gt;Devido à gravidade da situação, a &lt;strong&gt;Prefeitura de Manaus&lt;/strong&gt; autuou a empresa Innova em mais de &lt;strong&gt;&lt;a href="https://www.cnnbrasil.com.br/nacional/norte/am/empresa-e-autuada-em-mais-de-r-45-milhoes-por-vazamento-de-gas-em-manaus/" target="_blank" rel="noopener" data-textassist="true"&gt;R$ 4,5 milhões&lt;/a&gt;&lt;/strong&gt;. A Secretaria Municipal de Meio Ambiente e Sustentabilidade constatou que os índices de poluição na área atingida ultrapassaram o limite tolerável para a exposição humana.&lt;/p&gt;
+&lt;p&gt;
+&lt;div class="post__video"&gt;
+	&lt;div class="cnn component-video has--live"&gt;
+		&lt;div class="component-inner"&gt;
+			&lt;div
+				id="player_saude_GSGAfbvRjLQ"
+				class="video-wrapper "
+			&gt;
+				&lt;div class="video-wrapper-inner"&gt;
+										&lt;div class="overlay-wrapper"&gt;
+						&lt;button
+							class="video-button js-video-play active"
+							aria-label="Assista o vídeo Manaus inaugura projeto de crédito de carbono para a Amazônia | BASTIDORES CNN"
+							tabindex="0"
+						&gt;
+							&lt;img
+								class="thumbnail-image"
+								src="https://img.youtube.com/vi/GSGAfbvRjLQ/sddefault.jpg"
+                                srcset="https://img.youtube.com/vi/GSGAfbvRjLQ/default.jpg 120w,
+                    https://img.youtube.com/vi/GSGAfbvRjLQ/mqdefault.jpg 320w,
+                    https://img.youtube.com/vi/GSGAfbvRjLQ/hqdefault.jpg 480w,
+                    https://img.youtube.com/vi/GSGAfbvRjLQ/sddefault.jpg 640w,
+                    https://img.youtube.com/vi/GSGAfbvRjLQ/maxresdefault.jpg 1280w"
+								alt="Manaus inaugura projeto de crédito de carbono para a Amazônia | BASTIDORES CNN"
+							/&gt;
+
+							&lt;span
+								class="video-play-button"
+								aria-label="Botão play do vídeo Manaus inaugura projeto de crédito de carbono para a Amazônia | BASTIDORES CNN"
+							&gt;&lt;/span&gt;
+
+															&lt;span class="video-gradient"&gt;&lt;/span&gt;
+								&lt;span class="video-title"&gt;Manaus inaugura projeto de crédito de carbono para a Amazônia | BASTIDORES CNN&lt;/span&gt;
+													&lt;/button&gt;
+					&lt;/div&gt;
+										&lt;span
+						class="embedded-video video-player-wrapper"
+						data-youtube-plcmt="1"
+						data-youtube-vpmute="0"
+						data-youtube-width="640px"
+						data-youtube-height="480px"
+						data-youtube-ui="saude"
+						data-youtube-play="0"
+						data-youtube-mute="0"
+						data-youtube-id="GSGAfbvRjLQ"
+						data-youtube-vpa="click"
+						data-youtube-hl="pt"
+						data-youtube-position=""
+					&gt;&lt;/span&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;/iframe&gt;&lt;/p&gt;
+&lt;h2&gt;Recomendações e estado de alerta&lt;/h2&gt;
+&lt;p&gt;As autoridades estabeleceram um &lt;strong&gt;Gabinete de Crise&lt;/strong&gt; e orientam que a população evite circular em um raio de até &lt;strong&gt;30 km da área atingida&lt;/strong&gt;. Caso sintam odor forte, os moradores devem manter janelas abertas e evitar o uso de ar-condicionado que capte ar externo.&lt;/p&gt;
+&lt;p&gt;A empresa responsável informou que &lt;strong&gt;&lt;a href="https://www.cnnbrasil.com.br/nacional/norte/am/vazamento-de-gas-em-manaus-o-que-se-sabe-sobre-o-incidente-na-fabrica/" target="_blank" rel="noopener" data-textassist="true"&gt;a situação foi contida&lt;/a&gt;&lt;/strong&gt; e que os resíduos foram armazenados adequadamente, seguindo normas ambientais.&lt;/p&gt;
+&lt;p&gt;O Corpo de Bombeiros segue monitorando a temperatura dos tanques para evitar novos incidentes.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 17 Jul 2026 13:08:24 +0000</pubDate><guid>https://www.cnnbrasil.com.br/saude/vazamento-de-gas-em-manaus-substancia-exalada-pode-causar-cancer/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/saude/vazamento-de-gas-em-manaus-substancia-exalada-pode-causar-cancer/</guid></item><item><title>Irã lança primeiro ataque contra a Síria desde o início da guerra</title><link>https://www.cnnbrasil.com.br/internacional/ira-lanca-primeiro-ataque-contra-a-siria-desde-o-inicio-da-guerra/</link><description>&lt;p&gt;O Irã atacou o leste da Síria nesta sexta-feira (17), segundo a mídia estatal iraniana e uma fonte militar síria, no primeiro ataque conhecido de Teerã em território sírio desde o início da guerra regional no começo deste ano.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;A Guarda Revolucionária do Irã afirmou ter atacado um centro de comando de operações especiais dos EUA em al-Tanf, na Síria, em retaliação ao &lt;a href="https://www.cnnbrasil.com.br/internacional/ataques-dos-eua-matam-militares-do-ira-durante-a-noite-diz-exercito/"&gt;assassinato de soldados iranianos&lt;/a&gt; em Iranshahr, informou a mídia estatal.&lt;/p&gt;
+&lt;p&gt;A agência de notícias Reuters não conseguiu verificar a alegação de forma independente. Uma fonte militar síria disse que o Irã realizou um ataque perto de Tanf, mas que não atingiu a base em si. A fonte afirmou que não houve vítimas nem danos materiais.&lt;/p&gt;
+&lt;p&gt;Os militares dos EUA disseram em fevereiro que haviam concluído a retirada da base de al-Tanf.&lt;/p&gt;
+&lt;aside class="read-too read-too--with-img"&gt;
+        &lt;ul class="read-too__list"&gt;
+        &lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/internacional/eua-atacam-pontes-e-aeroporto-no-ira-que-revida-contra-paises-da-regiao/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/Fumaca-sobe-apos-ataque-em-local-nao-identificado-durante-o-que-as-Forcas-Armadas-dos-EUA-descrevem-como-sua-mais-recente-onda-de-ataques-contra-o-Ira-em-16-de-julho-de-2026-Comando-Central-dos-EUA.jpg?w=200"
+                    alt="EUA atacam pontes e aeroporto no Irã, que revida contra países da região"
+                    title="EUA atacam pontes e aeroporto no Irã, que revida contra países da região'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;EUA atacam pontes e aeroporto no Irã, que revida contra países da região&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/internacional/siria-sinaliza-que-so-enfrentara-o-hezbollah-a-pedido-do-libano/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/12/Ahmed-Al-Sharaa.jpg?w=200"
+                    alt="Síria sinaliza que só enfrentará o Hezbollah a pedido do Líbano"
+                    title="Síria sinaliza que só enfrentará o Hezbollah a pedido do Líbano'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Síria sinaliza que só enfrentará o Hezbollah a pedido do Líbano&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/internacional/ira-ameaca-destruir-infraestrutura-da-regiao-se-eua-atacarem-usinas-do-pais/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/ataque-kuwait.jpeg-e1784113305654.png?w=200"
+                    alt="Irã ameaça destruir infraestrutura da região se EUA atacarem usinas do país"
+                    title="Irã ameaça destruir infraestrutura da região se EUA atacarem usinas do país'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Irã ameaça destruir infraestrutura da região se EUA atacarem usinas do país&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;    &lt;/ul&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;A Síria tem buscado evitar ser arrastada para o conflito regional que atingiu países vizinhos, incluindo o Líbano — onde o Hezbollah tem enfrentado forças israelenses — e o Iraque, onde grupos armados apoiados pelo Irã lançaram ataques com drones e foguetes.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;O presidente sírio, Ahmed al-Sharaa, afirmou em março que seu país permaneceria fora de qualquer conflito, a menos que fosse atacado.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;A menos que a Síria seja alvo de alguma parte, ela permanecerá fora de qualquer conflito&amp;#8221;, disse Sharaa em um evento organizado pelo think tank Chatham House, em Londres.&lt;/p&gt;
+&lt;p&gt;A Guarda também declarou que o Irã mantinha &lt;a href="https://www.cnnbrasil.com.br/internacional/ira-diz-que-estreito-de-ormuz-e-linha-vermelha-e-que-resistira-a-ataques/"&gt;controle total sobre o Estreito de Ormuz&lt;/a&gt; e que nenhum petróleo ou gás seria exportado pela via marítima enquanto os ataques dos EUA continuassem, segundo informações da mídia estatal.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 17 Jul 2026 13:06:30 +0000</pubDate><guid>https://www.cnnbrasil.com.br/internacional/ira-lanca-primeiro-ataque-contra-a-siria-desde-o-inicio-da-guerra/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/internacional/ira-lanca-primeiro-ataque-contra-a-siria-desde-o-inicio-da-guerra/</guid></item><item><title>Harry Styles em SP: fã viaja 18h de ônibus para show; veja público na fila</title><link>https://www.cnnbrasil.com.br/pop/musica/harry-styles-em-sp-fas-se-reunem-na-fila-para-primeiro-show-no-brasil/</link><description>&lt;p&gt;Fãs do cantor britânico &lt;strong&gt;Harry Styles&lt;/strong&gt; começaram a se reunir na madrugada desta sexta-feira (17) na porta do estádio Morumbis, em São Paulo, onde ele realiza o primeiro show da turnê &amp;#8220;Together Together&amp;#8221; na cidade.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;Muitos viajaram por horas, vindos de diferentes estados do Brasil, para garantir um bom lugar na apresentação, contaram em entrevista à&lt;strong&gt; CNN Brasil&lt;/strong&gt;.&lt;/p&gt;
+&lt;aside class="read-too read-too--with-img"&gt;
+            &lt;h2 class='read-too__title'&gt;Leia Mais&lt;/h2&gt;
+            &lt;ul class="read-too__list"&gt;
+        &lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/pop/musica/harry-styles-em-sp-saiba-o-que-levar-horarios-e-como-chegar/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/01/Harry-Styles-para-o-videoclipe-de-As-It-Was.png?w=200"
+                    alt="Harry Styles em SP: saiba o que levar, horários e como chegar"
+                    title="Harry Styles em SP: saiba o que levar, horários e como chegar'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Harry Styles em SP: saiba o que levar, horários e como chegar&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/pop/musica/harry-styles-no-brasil-confira-quais-ingressos-seguem-disponiveis/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/01/Harry-Styles-para-o-photoshoot-do-album-Harrys-House-2022.jpg?w=200"
+                    alt="Harry Styles no Brasil: confira quais ingressos seguem disponíveis"
+                    title="Harry Styles no Brasil: confira quais ingressos seguem disponíveis'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Harry Styles no Brasil: confira quais ingressos seguem disponíveis&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/pop/musica/olivia-dean-como-e-o-show-da-cantora-que-fas-brasileiros-aguardam-ansiosos/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/Olivia-Dean.jpg?w=200"
+                    alt="Olivia Dean: como é o show da cantora que fãs brasileiros aguardam ansiosos"
+                    title="Olivia Dean: como é o show da cantora que fãs brasileiros aguardam ansiosos'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Olivia Dean: como é o show da cantora que fãs brasileiros aguardam ansiosos&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;    &lt;/ul&gt;
+&lt;/aside&gt;
+
+&lt;h2&gt;Mãe e filha entre as primeiras da fila&lt;/h2&gt;
+&lt;p&gt;Entre os primeiros a chegar estavam Isabela e a mãe, Daniela, que ocuparam as posições de número 1 e número 2 na fila. Segundo a jovem, as duas saíram da Zona Norte de São Paulo de madrugada.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;A gente chegou aqui era quatro e pouco da manhã de hoje. A gente pegou um trânsitozinho aqui, uma hora e pouco para chegar aqui&amp;#8221;, relatou.&lt;/p&gt;
+&lt;p&gt;Daniela, além de acompanhar a filha, também demonstrou entusiasmo pelo cantor. &amp;#8220;Tem que estar junto, tem que estar ali, né? Tem que cantar, tem que participar, tem que conhecer, fazer novos amigos&amp;#8221;, disse.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;h2&gt;Fãs do Rio de Janeiro enfrentam horas de viagem&lt;/h2&gt;
+&lt;p&gt;Um grupo de fãs vindo do Rio de Janeiro, com integrantes de bairros como Bangu, São Gonçalo e da cidade de Macaé, também marcou presença na fila.&lt;/p&gt;
+&lt;p&gt;Um deles revelou que já havia assistido a um &lt;a href="https://www.cnnbrasil.com.br/pop/musica/harry-styles-no-brasil-relembre-ultimas-passagens-do-cantor-pelo-pais/"&gt;show de Harry Styles em 2022&lt;/a&gt;, no Rio, e que desta vez planejava curtir as duas apresentações em São Paulo. Apesar do frio da madrugada, o entusiasmo era evidente.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;Por ele vale tudo a pena. Vir do Rio, pegar ônibus, tudo isso vale a pena&amp;#8221;, afirmou um dos fãs do grupo.&lt;/p&gt;
+&lt;h2&gt;Estudante falta prova de medicina para ver o show&lt;/h2&gt;
+&lt;p&gt;Uma fã que viajou cerca de 18 horas e meia de ônibus chamou atenção ao revelar um sacrifício incomum. &amp;#8220;Eu faltei uma prova importante da faculdade para chegar aqui. Eu faço medicina ainda e eu faltei uma prova importante&amp;#8221;, contou.&lt;/p&gt;
+&lt;p&gt;Ela acrescentou que seus pais estavam cientes da decisão e que, no dia seguinte, estaria novamente presente no estádio para o segundo show. A fã também informou que retornaria para casa de avião.&lt;/p&gt;
+&lt;p&gt;A animação dos presentes na fila era tanta que, ao final da cobertura ao vivo, o grupo se reuniu para cantar trechos de músicas do artista, incluindo o hit &amp;#8220;As It Was&amp;#8221;.&lt;/p&gt;
+&lt;blockquote class="wp-embedded-content" data-secret="1usO1hluJy"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/lifestyle/marca-de-harry-styles-lanca-colecao-inspirada-em-filme-da-disney/"&gt;Marca de Harry Styles lança coleção inspirada em filme da Disney&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Marca de Harry Styles lança coleção inspirada em filme da Disney&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/lifestyle/marca-de-harry-styles-lanca-colecao-inspirada-em-filme-da-disney/embed/#?secret=gLuahJnLBe#?secret=1usO1hluJy" data-secret="1usO1hluJy" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;div class="disclaimer__ai"&gt;
+    &lt;em&gt;Os textos gerados por inteligência artificial na &lt;strong&gt;CNN Brasil&lt;/strong&gt; são feitos com base nos cortes de vídeos dos jornais de sua programação. Todas as informações são apuradas e checadas por jornalistas. O texto final também passa pela revisão da equipe de jornalismo da &lt;strong&gt;CNN&lt;/strong&gt;. &lt;a href="https://www.cnnbrasil.com.br/nacional/saiba-como-a-cnn-brasil-utiliza-as-ferramentas-de-inteligencia-artificial/" target="_blank" rel="noopener"&gt;Clique aqui para saber mais&lt;/a&gt;.&lt;/em&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 17 Jul 2026 13:06:07 +0000</pubDate><guid>https://www.cnnbrasil.com.br/pop/musica/harry-styles-em-sp-fas-se-reunem-na-fila-para-primeiro-show-no-brasil/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/pop/musica/harry-styles-em-sp-fas-se-reunem-na-fila-para-primeiro-show-no-brasil/</guid></item><item><title>“God of War”: Ryan Hurst é substituído após sofrer lesão nas filmagens</title><link>https://www.cnnbrasil.com.br/pop/streaming/god-of-war-ryan-hurst-e-substituido-apos-sofrer-lesao-nas-filmagens/</link><description>&lt;p&gt;Escalado para o papel principal em &amp;#8220;&lt;strong&gt;God of War&lt;/strong&gt;&amp;#8220;, Ryan Hurst terá de ser substituído na série.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;O &lt;a href="https://www.cnnbrasil.com.br/pop/ryan-hurst-sera-kratos-em-nova-serie-de-god-of-war-da-prime-video/" target="_blank" rel="noopener"&gt;ator de 50 anos daria vida ao deus Kratos&lt;/a&gt; na produção da Prime Video, baseada na franquia de &lt;a href="https://www.cnnbrasil.com.br/tecnologia/silksong-leva-jogo-do-ano-no-steam-awards-2025-confira-vencedores/" target="_blank" rel="noopener"&gt;videogames&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Hurst teria se &lt;a href="https://www.cnnbrasil.com.br/tecnologia/god-of-war-trilogia-tem-remake-confirmado-no-state-of-play-para-ps5/" target="_blank" rel="noopener"&gt;machucado no set&lt;/a&gt; e rompido o bíceps durante a filmagem de uma cena de ação no final de junho, de acordo com o TMZ.&lt;/p&gt;
 &lt;aside class="read-too read-too--with-img"&gt;
             &lt;h2 class='read-too__title'&gt;Leia mais&lt;/h2&gt;
             &lt;ul class="read-too__list"&gt;
         &lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/brasileirao/goleiro-cai-em-formigueiro-apos-fazer-defesa-em-jogo-da-serie-d-veja/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/pop/streaming/euphoria-serie-ganha-documentario-com-entrevistas-e-imagens-ineditas/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/goleiro_formigueiro_brasileirao-e1784031714417.webp?w=200"
-                    alt="Goleiro cai em formigueiro após fazer defesa em jogo da Série D; veja"
-                    title="Goleiro cai em formigueiro após fazer defesa em jogo da Série D; veja'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/sydney-sweeney-alexa-demie.jpg?w=200"
+                    alt="&amp;quot;Euphoria&amp;quot;: série ganha documentário com entrevistas e imagens inéditas"
+                    title="&amp;quot;Euphoria&amp;quot;: série ganha documentário com entrevistas e imagens inéditas'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;Goleiro cai em formigueiro após fazer defesa em jogo da Série D; veja&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;&amp;quot;Euphoria&amp;quot;: série ganha documentário com entrevistas e imagens inéditas&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/brasileirao/cbf-impede-jogos-do-brasileirao-serie-a-sem-impedimento-semiautomatico/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/pop/celebridades/ex-bbb-milena-afirma-que-nao-pretende-casar-e-ter-filhos-traumas/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/CBF-implementara-o-impedimento-semiautomatico-no-Brasileirao-em-2026-e1783512722961.webp?w=200"
-                    alt="CBF impede jogos do Brasileirão Série A sem impedimento semiautomático"
-                    title="CBF impede jogos do Brasileirão Série A sem impedimento semiautomático'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/tia-milena-1.jpg?w=200"
+                    alt="Ex-BBB Milena afirma que não pretende casar e ter filhos: &amp;quot;Traumas&amp;quot;"
+                    title="Ex-BBB Milena afirma que não pretende casar e ter filhos: &amp;quot;Traumas&amp;quot;'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;CBF impede jogos do Brasileirão Série A sem impedimento semiautomático&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;Ex-BBB Milena afirma que não pretende casar e ter filhos: &amp;quot;Traumas&amp;quot;&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/brasileirao/quando-volta-o-brasileirao-veja-data-do-retorno-apos-eliminacao-do-brasil/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/pop/streaming/quanto-mais-preta-melhor-veja-fotos-de-filme-e-documentario-de-preta-gil/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/taca-brasileirao.webp?w=200"
-                    alt="Quando volta o Brasileirão? Veja data do retorno após eliminação do Brasil"
-                    title="Quando volta o Brasileirão? Veja data do retorno após eliminação do Brasil'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/quanto-mais-preta-melhor-celebra-o-legado-de-preta-gil-com-producoes-ineditas-na-tv-e-no-streaming-24552b6d92d3.jpg?w=200"
+                    alt="&amp;quot;Quanto Mais Preta Melhor&amp;quot;: veja fotos de filme e documentário de Preta Gil"
+                    title="&amp;quot;Quanto Mais Preta Melhor&amp;quot;: veja fotos de filme e documentário de Preta Gil'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;Quando volta o Brasileirão? Veja data do retorno após eliminação do Brasil&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;&amp;quot;Quanto Mais Preta Melhor&amp;quot;: veja fotos de filme e documentário de Preta Gil&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;    &lt;/ul&gt;
 &lt;/aside&gt;
 
-&lt;p&gt;O Grêmio também não está em situação confortável. O Tricolor soma 21, e está no 16º lugar.&lt;/p&gt;
-&lt;p&gt;A transmissão é exclusiva do Premiere, além do Tempo Real &lt;a href="https://www.cnnbrasil.com.br/esportes/lances-ao-vivo/brasileiro-serie-a-2026/17-07-2026/mirassol-x-gremio/"&gt;CNN Esportes&lt;/a&gt;.&lt;/p&gt;
-&lt;h2&gt;&lt;b&gt;Onde assistir a Mirassol x Grêmio&lt;/b&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;TV por assinatura&lt;/b&gt;: Premiere&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.cnnbrasil.com.br/esportes/lances-ao-vivo/brasileiro-serie-a-2026/17-07-2026/fluminense-x-red-bull-bragantino/"&gt;&lt;strong&gt;Tempo Real&lt;/strong&gt;&lt;/a&gt;: &lt;a href="https://www.cnnbrasil.com.br/esportes/lances-ao-vivo/brasileiro-serie-a-2026/17-07-2026/mirassol-x-gremio/"&gt;CNN Esportes&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;&lt;b&gt;Ficha técnica de Mirassol x Grêmio&lt;/b&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Data&lt;/b&gt;: 17/07/2026&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Horário&lt;/b&gt;: 20h&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Local&lt;/b&gt;: Estádio do Maracanã&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Rodada&lt;/b&gt;: 19ª rodada&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class="disclaimer__ai"&gt;
-    &lt;em&gt;Os textos gerados por Inteligência Artificial na CNN Brasil são feitos com base em informações apuradas e checadas por jornalistas. &lt;a class="c-link" href="https://www.cnnbrasil.com.br/nacional/saiba-como-a-cnn-brasil-utiliza-as-ferramentas-de-inteligencia-artificial/" target="_blank" rel="noopener noreferrer" data-stringify-link="https://www.cnnbrasil.com.br/nacional/saiba-como-a-cnn-brasil-utiliza-as-ferramentas-de-inteligencia-artificial/" data-sk="tooltip_parent"&gt;Clique aqui para saber mais&lt;/a&gt;&lt;/em&gt;
-&lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 17 Jul 2026 07:00:50 +0000</pubDate><guid>https://www.cnnbrasil.com.br/esportes/brasileirao/mirassol-x-gremio-horario-e-onde-assistir-ao-brasileirao/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/esportes/brasileirao/mirassol-x-gremio-horario-e-onde-assistir-ao-brasileirao/</guid></item><item><title>Londrina x Botafogo-SP: horário e onde assistir ao Brasileirão Série B</title><link>https://www.cnnbrasil.com.br/esportes/brasileirao/londrina-x-botafogo-sp-horario-e-onde-assistir-ao-brasileirao-serie-b/</link><description>&lt;p&gt;&lt;strong&gt;Londrina&lt;/strong&gt; e&lt;strong&gt; Botafogo-SP&lt;/strong&gt; entram em campo nesta sexta-feira (17), às 21h (de Brasília), no Estádio Vitorino Gonçalves Dias (VGD), em Londrina (PR), confronto válido pela 18° rodada do &lt;strong&gt;Campeonato Brasileiro Série B.&lt;/strong&gt;&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;A partida terá transmissão da ESPN, Disney+, &lt;a href="https://www.cnnbrasil.com.br/esportes/lances-ao-vivo/brasileiro-serie-b-2026/17-07-2026/londrina-x-botafogo-sp/"&gt;&lt;strong&gt;além do tempo real do CNN Esportes.&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ele teria passado por uma cirurgia e já estaria se recuperando. De início, esperava-se que ele retornasse às filmagens em agosto, mas o processo de recuperação deve ser mais longo.&lt;/p&gt;
+&lt;p&gt;Desde o acidente, as gravações continuam paralisadas.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;A plataforma de streaming ainda não divulgou um novo ator e as cenas em que Hurst atuava devem ser regravadas para incluir a evolução física do &lt;a href="https://www.cnnbrasil.com.br/pop/serie-de-god-of-war-escala-ator-mirim-para-viver-atreus/" target="_blank" rel="noopener"&gt;ator-mirim Callum Vision, 12, co-protagonista que interpreta Atreus, filho de Kratos&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Para interpretar Kratos, o ator passou por uma grande mudança física. O personagem é um guerreiro forte e musculoso, e o ator teria ganhado cerca de 18 quilos quando se preparava fisicamente para o papel.&lt;/p&gt;
+&lt;p class="my-5 break-words group-[.isActiveSource]:text-xl"&gt;A série acompanha &lt;a class="text-red-600 underline hover:text-red-500 font-medium break-words group-[.isActiveSource]:text-xl" href="https://www.cnnbrasil.com.br/tecnologia/silksong-leva-jogo-do-ano-no-steam-awards-2025-confira-vencedores/" target="_blank" rel="noopener noreferrer"&gt;Kratos, um guerreiro espartano&lt;/a&gt;, que, após ser enganado por Ares e matar sua própria família, se torna o Deus da Guerra, buscando vingança contra o Monte Olimpo e eventualmente se mudando para a mitologia nórdica, onde precisa criar seu filho Atreus enquanto lida com os &lt;a class="text-red-600 underline hover:text-red-500 font-medium break-words group-[.isActiveSource]:text-xl" href="https://www.cnnbrasil.com.br/tecnologia/artemis-por-que-missao-da-nasa-para-a-lua-leva-o-nome-da-deusa-grega/" target="_blank" rel="noopener noreferrer"&gt;novos deuses nórdicos&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;A Prime Video não se pronunciou ao TMZ.&lt;/p&gt;
+&lt;blockquote class="wp-embedded-content" data-secret="7vlCAREyID"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/tecnologia/relembre-5-videogames-classicos-que-marcaram-geracoes-no-brasil/"&gt;Relembre 5 videogames clássicos que marcaram gerações no Brasil&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Relembre 5 videogames clássicos que marcaram gerações no Brasil&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/tecnologia/relembre-5-videogames-classicos-que-marcaram-geracoes-no-brasil/embed/#?secret=GFPP6ZkBjq#?secret=7vlCAREyID" data-secret="7vlCAREyID" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 17 Jul 2026 13:05:11 +0000</pubDate><guid>https://www.cnnbrasil.com.br/pop/streaming/god-of-war-ryan-hurst-e-substituido-apos-sofrer-lesao-nas-filmagens/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/pop/streaming/god-of-war-ryan-hurst-e-substituido-apos-sofrer-lesao-nas-filmagens/</guid></item><item><title>Tia de bebê que sofreu tentativa de sequestro no PI é indiciada por calúnia</title><link>https://www.cnnbrasil.com.br/nacional/nordeste/pi/tia-de-bebe-que-sofreu-tentativa-de-sequestro-no-pi-e-indiciada-por-calunia/</link><description>&lt;p&gt;Daniela Beatriz,&lt;strong&gt; tia da bebê que quase foi sequestrada por uma técnica de enfermagem&lt;/strong&gt; na Nova Maternidade Dona Evangelina Rosa em Teresina, no Piauí, foi indiciada por calúnia, difamação e injúria contra uma supervisora da maternidade. A informação foi confirmada pela delegada da Polícia Civil, Amanda Bezerra, nesta sexta-feira (17).&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;Segundo Bezerra,&lt;strong&gt; Daniela expôs imagens e termos acusando a mulher de ter participado do crime&lt;/strong&gt;. No entanto, segundo as investigações, a autora do crime agiu sozinha e, por isso, a mulher acusada por Daniela teria sido indicada injustamente.&lt;/p&gt;
+&lt;p&gt;Nas redes, a tia da bebê publicou diversos vídeos relacionadas ao caso e, na terça-feira (14), ela &lt;strong&gt;chegou a dizer que recebeu uma intimação&lt;/strong&gt;, mas que não saberia o conteúdo citado.&lt;/p&gt;
+&lt;p&gt;Em uma das publicações, &lt;strong&gt;ela expõe a suposta enfermeira que teria tentado sequestrar a sobrinha.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A defesa de Daniela, representada pelos advogados Carlos Eduardo Costa e Smailly Carvalho, disse que as publicações realizadas não tiveram intenção de &lt;strong&gt;&amp;#8220;prejudicar a honra ou a reputação de terceiros&amp;#8221; e que a cliente estava abalada psicologicamente.&lt;/strong&gt;&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
 &lt;aside class="read-too read-too--with-img"&gt;
-            &lt;h2 class='read-too__title'&gt;Leia Mais &lt;/h2&gt;
+            &lt;h2 class='read-too__title'&gt;Leia Mais&lt;/h2&gt;
             &lt;ul class="read-too__list"&gt;
         &lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/princesa-da-fifa-saiba-por-que-messi-ganhou-o-apelido-de-torcidas-rivais/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/nacional/nordeste/pi/defesa-de-tecnica-de-enfermagem-que-tentou-roubar-bebe-no-pi-alega-surto/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/messi-infantino-e1784213498174.jpg?w=200"
-                    alt="&amp;quot;Princesa da Fifa&amp;quot;: saiba por que Messi ganhou o apelido de torcidas rivais"
-                    title="&amp;quot;Princesa da Fifa&amp;quot;: saiba por que Messi ganhou o apelido de torcidas rivais'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/rouba-bebe-maternidade-.png?w=200"
+                    alt="Defesa de técnica de enfermagem que tentou roubar bebê no PI alega &amp;quot;surto&amp;quot;"
+                    title="Defesa de técnica de enfermagem que tentou roubar bebê no PI alega &amp;quot;surto&amp;quot;'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;&amp;quot;Princesa da Fifa&amp;quot;: saiba por que Messi ganhou o apelido de torcidas rivais&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;Defesa de técnica de enfermagem que tentou roubar bebê no PI alega &amp;quot;surto&amp;quot;&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/cbf-detalha-crescimento-do-futebol-feminino-no-brasil-antes-da-copa-2027/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/nacional/nordeste/pi/tentativa-de-sequestro-de-bebe-no-pi-tia-acredita-que-ha-outros-envolvidos/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/03/copa-feminina-e1776276646925.webp?w=200"
-                    alt="CBF detalha crescimento do futebol feminino no Brasil antes da Copa 2027"
-                    title="CBF detalha crescimento do futebol feminino no Brasil antes da Copa 2027'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/TIA-SALVA-BEBE-SEQUESTRO-MATERNIDADE.jpg?w=200"
+                    alt="Tentativa de sequestro de bebê no PI: tia acredita que há outros envolvidos"
+                    title="Tentativa de sequestro de bebê no PI: tia acredita que há outros envolvidos'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;CBF detalha crescimento do futebol feminino no Brasil antes da Copa 2027&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;Tentativa de sequestro de bebê no PI: tia acredita que há outros envolvidos&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/copa-do-mundo-jogador-da-espanha-faz-promessa-caso-a-selecao-seja-campea/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/nacional/nordeste/pi/tia-relata-sequestro-de-bebe-por-tecnica-de-enfermagem-em-maternidade-no-pi/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/cucurella_espanha_copa-e1782334394718.jpeg?w=200"
-                    alt="Copa do Mundo: jogador da Espanha faz promessa caso a seleção seja campeã"
-                    title="Copa do Mundo: jogador da Espanha faz promessa caso a seleção seja campeã'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/rouba-bebe-maternidade-.png?w=200"
+                    alt="Tia relata sequestro de bebê por técnica de enfermagem em maternidade no PI"
+                    title="Tia relata sequestro de bebê por técnica de enfermagem em maternidade no PI'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;Copa do Mundo: jogador da Espanha faz promessa caso a seleção seja campeã&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;Tia relata sequestro de bebê por técnica de enfermagem em maternidade no PI&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;    &lt;/ul&gt;
 &lt;/aside&gt;
 
-&lt;p&gt;&lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/operario-pr-bate-londrina-e-e-campeao-paranaense-veja-ranking-de-titulos/"&gt;O Londrina&lt;/a&gt;, tem flertado com a zona de rebaixamento da competição, atualmente na 16° posição. A instabilidade tem feito parte da campanha da equipe nesta temporada, que empatou na rodada anterior com o último colocado América-MG. O Tubarão contará com o talento do artilheiro Bruno Santos, para ganatir os 3 pontos em casa.&lt;/p&gt;
-&lt;p&gt;Entretanto, &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/campeonato-paulista/heroico-capivariano-faz-historia-e-vai-ao-mata-mata-do-paulistao-2026/"&gt;o Botafogo-SP&lt;/a&gt; está acima na tabela, mas com apenas 1 ponto de diferença para o adversário. Com números parecidos, o time do interior de São Paulo, vê nessa partida uma oportunidade de retomar uma sequência estável, para garatir sua presença no torneio.&lt;/p&gt;
-&lt;h2 class="text-2xl my-5 font-bold break-words"&gt;Onde assistir a Londrina x Botafogo-SP&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;TV:&lt;/strong&gt; ESPN&lt;/li&gt;
-&lt;li&gt;&lt;strong class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt;Streaming:&lt;/strong&gt; Disney+&lt;/li&gt;
-&lt;li&gt;&lt;strong class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt;Tempo real:&lt;/strong&gt; &lt;a href="https://www.cnnbrasil.com.br/esportes/lances-ao-vivo/brasileiro-serie-b-2026/17-07-2026/juventude-x-cuiaba/"&gt;CNN Esportes&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 class="text-2xl my-5 font-bold break-words"&gt;Ficha técnica de Londrina x Botafogo-SP&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt;Data:&lt;/strong&gt; 17/07/2026 (sexta-feira)&lt;/li&gt;
-&lt;li&gt;&lt;strong class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt;Horário:&lt;/strong&gt; 21h (de Brasília)&lt;/li&gt;
-&lt;li&gt;&lt;strong class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt;Local:&lt;/strong&gt; Estádio Vitorino Gonçalves Dias (VGD), em Londrina (PR)&lt;/li&gt;
-&lt;li&gt;&lt;strong class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt;Fase:&lt;/strong&gt; 18° rodada&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote class="wp-embedded-content" data-secret="G27dKVDMzK"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/esportes/analise-brasil-teve-uma-campanha-mediocre-com-pobreza-de-repertorio/"&gt;Análise: &amp;#8220;Brasil teve uma campanha medíocre com pobreza de repertório&amp;#8221;&lt;/a&gt;&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Análise: &amp;#8220;Brasil teve uma campanha medíocre com pobreza de repertório&amp;#8221;&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/esportes/analise-brasil-teve-uma-campanha-mediocre-com-pobreza-de-repertorio/embed/#?secret=s3DL7BbEHg#?secret=G27dKVDMzK" data-secret="G27dKVDMzK" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;div class="disclaimer__ai"&gt;
-    &lt;em&gt;Os textos gerados por Inteligência Artificial na CNN Brasil são feitos com base em informações apuradas e checadas por jornalistas. &lt;a class="c-link" href="https://www.cnnbrasil.com.br/nacional/saiba-como-a-cnn-brasil-utiliza-as-ferramentas-de-inteligencia-artificial/" target="_blank" rel="noopener noreferrer" data-stringify-link="https://www.cnnbrasil.com.br/nacional/saiba-como-a-cnn-brasil-utiliza-as-ferramentas-de-inteligencia-artificial/" data-sk="tooltip_parent"&gt;Clique aqui para saber mais&lt;/a&gt;&lt;/em&gt;
+&lt;h2&gt;Relembre o caso&lt;/h2&gt;
+&lt;p&gt;No dia 6 de julho, a técnica de enfermagem Auricélia de Sousa Rocha foi&lt;strong&gt; vista por &lt;a href="https://www.cnnbrasil.com.br/nacional/nordeste/pi/video-veja-momento-que-tecnica-de-enfermagem-pega-bebe-para-sequestra-lo/" target="_blank" rel="noopener" data-textassist="true"&gt;câmeras de segurança&lt;/a&gt; saindo com um bebê recém-nascido da materninade.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Vestida com o uniforme da maternidade, &lt;strong&gt;a mulher abordou a família oferecendo ajuda para levar a neném à realização dos &lt;/strong&gt;&lt;a href="https://www.cnnbrasil.com.br/nacional/nordeste/pi/entenda-como-teste-do-pezinho-levou-a-tentativa-de-sequestro-de-bebe-no-pi/" target="_blank" rel="noopener" data-textassist="true"&gt;&lt;strong&gt;testes do pezinho e da orelhinha&lt;/strong&gt;&lt;/a&gt;, exames necessários antes da alta hospitalar.&lt;/p&gt;
+&lt;p&gt;Desconfiada da bolsa que a mulher carregava, &lt;strong&gt;Daniela decidiu acompanhá-la&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;No vídeo é, possível ver a tia acompanhando a técnica até o suposto do pezinho. Nesse momento, &lt;strong&gt;a suspeita teria trocado de roupa para fugir do hospital. Veja:&lt;/strong&gt;&lt;/p&gt;
+&lt;div style="width: 848px;" class="wp-video"&gt;&lt;!--[if lt IE 9]&gt;&lt;script&gt;document.createElement('video');&lt;/script&gt;&lt;![endif]--&gt;
+&lt;video class="wp-video-shortcode" id="video-15170679-1" width="848" height="478" preload="metadata" controls="controls"&gt;&lt;source type="video/mp4" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/WhatsApp-Video-2026-07-14-at-18.27.52.mp4?_=1" /&gt;&lt;a href="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/WhatsApp-Video-2026-07-14-at-18.27.52.mp4"&gt;https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/WhatsApp-Video-2026-07-14-at-18.27.52.mp4&lt;/a&gt;&lt;/video&gt;&lt;/div&gt;
+&lt;p&gt;De acordo com o relato, Auricélia entrou em um banheiro da maternidade, trocou o uniforme por um vestido jeans, soltou o cabelo e colocou a bebê dentro da bolsa. D&lt;strong&gt;aniela afirma que conseguiu impedir a saída da investigada com a criança que estava dentro da bolsa da suspeita.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A técnica teve a prisão preventiva decretada e&lt;strong&gt; foi localizada na segunda-feira (13).&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#8220;Quando eu questiono ela sobre o que tá acontecendo, se realmente ela é uma funcionária da maternidade, ela disse pra mim que é uma funcionária e que não era aquilo que eu estava pensando&amp;#8221;, contou Daniela à &lt;strong&gt;CNN Brasil&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Na confusão, outras pessoas aparecem e Daniela pede para chamar a direção da maternidade. Ela alega que também solicitou a presença da polícia, &lt;strong&gt;mas o pedido não foi atendido.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#8220;Eles não chamaram a polícia [&amp;#8230;] lembrando aqui também que a direção da maternidade não ajudou, não forneceu ali uma segurança. [Eles] também &lt;a href="https://www.cnnbrasil.com.br/nacional/nordeste/pi/sequestro-de-bebe-no-pi-tia-diz-que-hospital-tentou-apagar-foto-do-celular/" target="_blank" rel="noopener" data-textassist="true"&gt;tentaram apagar as provas&lt;/a&gt; do meu celular, porque eu consigo gravar um vídeozinho pequeno&amp;#8221;, informou.&lt;/p&gt;
+&lt;p&gt;A Secretaria da Saúde do Piauí informou que a maternidade chegou a registrar um boletim de ocorrência e que forneceu as imagens de segurança do hospital. A pasta disse ainda que &lt;strong&gt;afastou Auricélia de suas funções.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;Veja nota da defesa na íntegra:&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;&amp;#8220;Esclarecemos, em nome de nossa cliente, a Sra. Daniela Beatriz Pereira da Conceição, que as publicações por ela realizadas em suas redes sociais a respeito do episódio ocorrido na Maternidade Dona Evangelina Rosa, em Teresina/PI, no dia 06 de julho de 2026, envolvendo sua sobrinha recém-nascida, não tiveram, em nenhum momento, o propósito de caluniar, difamar ou, de qualquer forma, prejudicar a honra ou a reputação de terceiros.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;As manifestações então divulgadas decorreram do contexto imediatamente posterior à situação vivenciada por nossa cliente como ameaça, sob acentuado abalo psicológico, sem que dele se pudesse extrair propósito ofensivo em relação a qualquer profissional da instituição.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Diante disso, nossa cliente permanece à disposição para os esclarecimentos que se fizerem necessários, comprometendo-se a não mencionar, por qualquer meio, nome, imagem ou qualquer outro dado pessoal relacionado de quem nada tem a ver com esse episódio.&amp;#8221;&lt;/em&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 17 Jul 2026 13:05:03 +0000</pubDate><guid>https://www.cnnbrasil.com.br/nacional/nordeste/pi/tia-de-bebe-que-sofreu-tentativa-de-sequestro-no-pi-e-indiciada-por-calunia/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/nacional/nordeste/pi/tia-de-bebe-que-sofreu-tentativa-de-sequestro-no-pi-e-indiciada-por-calunia/</guid></item><item><title>Árbitro se emociona ao ser escolhido para apitar final da Copa do Mundo</title><link>https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/arbitro-se-emociona-ao-ser-escolhido-para-apitar-final-da-copa-do-mundo/</link><description>&lt;p&gt;O esloveno &lt;strong class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt;Slavko Vincic&lt;/strong&gt;, de 46 anos, se emocionou ao ser escolhido pela Fifa para comandar a equipe de arbitragem da final da Copa do Mundo de 2026, que será disputada entre Espanha e Argentina.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;Nas redes sociais, a entidade compartilhou um vídeo e mostrou o momento da escolha. Emocionado, ele recebeu os parabéns dos concorrentes, e segundo a agência Reuters, descreveu a &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/espanha-x-argentina-fifa-anuncia-arbitragem-da-final-da-copa-do-mundo/"&gt;nomeação&lt;/a&gt; como uma &amp;#8220;honra incrível&amp;#8221;.&lt;/p&gt;
+&lt;aside class="read-too read-too--with-img"&gt;
+        &lt;ul class="read-too__list"&gt;
+        &lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/espanha-x-argentina-fifa-anuncia-arbitragem-da-final-da-copa-do-mundo/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/GettyImages-2270949480-e1781107023673.jpg?w=200"
+                    alt="Espanha x Argentina: Fifa anuncia arbitragem da final da Copa do Mundo"
+                    title="Espanha x Argentina: Fifa anuncia arbitragem da final da Copa do Mundo'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Espanha x Argentina: Fifa anuncia arbitragem da final da Copa do Mundo&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/brigas-e-cartoes-veja-como-foi-primeiro-tempo-de-inglaterra-x-argentina/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/Inglaterra-Copa-Argentina-e1784144476776.avif?w=200"
+                    alt="Brigas e cartões: veja como foi primeiro tempo de Inglaterra x Argentina"
+                    title="Brigas e cartões: veja como foi primeiro tempo de Inglaterra x Argentina'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Brigas e cartões: veja como foi primeiro tempo de Inglaterra x Argentina&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/vencedores-da-copa-do-mundo-2026-vao-ganhar-aneis-de-campeao-ineditos/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/IMG_8400.JPG.jpeg?w=200"
+                    alt="Vencedores da Copa do Mundo 2026 vão ganhar anéis de campeão inéditos"
+                    title="Vencedores da Copa do Mundo 2026 vão ganhar anéis de campeão inéditos'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Vencedores da Copa do Mundo 2026 vão ganhar anéis de campeão inéditos&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;    &lt;/ul&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;O esloveno será auxiliado pelos compatriotas Tomaz Klancnik e Andraz Kovacic. Adham Makhadmeh, dos Emirados Árabes Unidos, atuará como quarto árbitro, enquanto Mohammad Alkalaf, também do país asiático, está escalado como assistente reserva.&lt;/p&gt;
+&lt;p&gt;Em sua participação na Copa do Mundo, Slavko comancou o empate em 1 a 1 entre &lt;a class="text-red-600 underline hover:text-red-500 font-medium break-words group-[.isActiveSource]:text-xl" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/vini-jr-marca-golaco-mas-brasil-so-empata-com-marrocos-na-estreia-da-copa/" target="_self" rel=""&gt;&lt;strong class="group-[.isActiveSource]:text-xl group-[.isActiveSource]:font-bold"&gt;Brasil e Marrocos&lt;/strong&gt;&lt;/a&gt;. Posteriormente, ele foi o árbitro principal na vitória da Argélia sobre a Jordânia por 2 a 1, ainda na fase de grupos, e no triunfo do México contra o Equador por 2 a 0, válido pela fase de 16-avos de final.&lt;/p&gt;
+&lt;p class="my-5 break-words group-[.isActiveSource]:text-xl"&gt;A decisão do Mundial entre Espanha e Argentina acontece no próximo domingo (19), às 16h (de Brasília), no MetLife Stadium, em Nova Jersey.&lt;/p&gt;
+&lt;blockquote class="instagram-media" style="background: #FFF; border: 0; border-radius: 3px; box-shadow: 0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width: 540px; min-width: 326px; padding: 0; width: calc(100% - 2px);" data-instgrm-captioned="" data-instgrm-permalink="https://www.instagram.com/reel/Da4KxVIuRV3/?utm_source=ig_embed&amp;amp;utm_campaign=loading" data-instgrm-version="14"&gt;
+&lt;div style="padding: 16px;"&gt;
+&lt;div style="display: flex; flex-direction: row; align-items: center;"&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"&gt;&lt;/div&gt;
+&lt;div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"&gt;&lt;/div&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"&gt;&lt;/div&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 17 Jul 2026 07:00:46 +0000</pubDate><guid>https://www.cnnbrasil.com.br/esportes/brasileirao/londrina-x-botafogo-sp-horario-e-onde-assistir-ao-brasileirao-serie-b/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/esportes/brasileirao/londrina-x-botafogo-sp-horario-e-onde-assistir-ao-brasileirao-serie-b/</guid></item></channel></rss>
+&lt;/div&gt;
+&lt;div style="padding: 19% 0;"&gt;&lt;/div&gt;
+&lt;div style="display: block; height: 50px; margin: 0 auto 12px; width: 50px;"&gt;&lt;/div&gt;
+&lt;div style="padding-top: 8px;"&gt;
+&lt;div style="color: #3897f0; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: 550; line-height: 18px;"&gt;Ver essa foto no Instagram&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="padding: 12.5% 0;"&gt;&lt;/div&gt;
+&lt;div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"&gt;
+&lt;div&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"&gt;&lt;/div&gt;
+&lt;div style="background-color: #f4f4f4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"&gt;&lt;/div&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="margin-left: 8px;"&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"&gt;&lt;/div&gt;
+&lt;div style="width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg);"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="margin-left: auto;"&gt;
+&lt;div style="width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"&gt;&lt;/div&gt;
+&lt;div style="background-color: #f4f4f4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"&gt;&lt;/div&gt;
+&lt;div style="width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"&gt;&lt;/div&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; line-height: 17px; margin-bottom: 0; margin-top: 8px; overflow: hidden; padding: 8px 0 7px; text-align: center; text-overflow: ellipsis; white-space: nowrap;"&gt;&lt;a style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 17px; text-decoration: none;" href="https://www.instagram.com/reel/Da4KxVIuRV3/?utm_source=ig_embed&amp;amp;utm_campaign=loading" target="_blank" rel="noopener"&gt;Um post compartilhado por FIFA (@fifa)&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;script async src="//www.instagram.com/embed.js"&gt;&lt;/script&gt;&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;blockquote class="wp-embedded-content" data-secret="ak7FIV80RP"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/esportes/streaming-impulsiona-audiencia-da-copa-supera-queda-da-tv-e-amplia-publico/"&gt;Streaming impulsiona audiência da Copa, supera queda da TV e amplia público&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Streaming impulsiona audiência da Copa, supera queda da TV e amplia público&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/esportes/streaming-impulsiona-audiencia-da-copa-supera-queda-da-tv-e-amplia-publico/embed/#?secret=bis6MHMl2O#?secret=ak7FIV80RP" data-secret="ak7FIV80RP" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 17 Jul 2026 13:03:01 +0000</pubDate><guid>https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/arbitro-se-emociona-ao-ser-escolhido-para-apitar-final-da-copa-do-mundo/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/arbitro-se-emociona-ao-ser-escolhido-para-apitar-final-da-copa-do-mundo/</guid></item><item><title>Atriz de “Grey’s Anathomy” faz cirurgia de emergência após erro médico</title><link>https://www.cnnbrasil.com.br/pop/celebridades/atriz-de-greys-anathomy-faz-cirurgia-de-emergencia-apos-erro-medico/</link><description>&lt;p&gt;Intérprete de Sloan Riley em &amp;#8220;Grey&amp;#8217;s Anatomy&amp;#8221;, a atriz &lt;strong&gt;Leven Rambin&lt;/strong&gt;, 36, revelou que foi submetida a uma cirurgia de emergência após um &lt;strong&gt;erro médico grave&lt;/strong&gt;.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;A artista contou que faria um procedimento simples para endometriose quando os &lt;a href="https://www.cnnbrasil.com.br/entretenimento/shonda-rimes-revela-qual-morte-de-greys-anatomy-a-assombra-ate-hoje/" target="_blank" rel="noopener" data-textassist="true"&gt;profissionais de saúde&lt;/a&gt; perfuraram sem querer sua aorta.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;Entrar para um diagnóstico e remoção de endometriose e sair com uma aorta perfurada, uma cirurgia de emergência e uma cicatriz do tamanho do meu antebraço não estava nos meus planos&amp;#8221;, contou ela nas redes sociais.&lt;/p&gt;
+&lt;aside class="read-too read-too--with-img"&gt;
+            &lt;h2 class='read-too__title'&gt;Leia Mais&lt;/h2&gt;
+            &lt;ul class="read-too__list"&gt;
+        &lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/pop/greys-anatomy-spin-off-ambientado-no-texas-foi-encomendado-pela-abc/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/1-1-shonda-rhimes-ellen-pompeo.jpg?w=200"
+                    alt="“Grey&amp;#039;s Anatomy”: spin-off ambientado no Texas foi encomendado pela ABC"
+                    title="“Grey&amp;#039;s Anatomy”: spin-off ambientado no Texas foi encomendado pela ABC'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;“Grey&amp;#039;s Anatomy”: spin-off ambientado no Texas foi encomendado pela ABC&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/pop/ator-relembra-quase-briga-com-eric-dane-e-inicio-de-relacao-odiava-ele/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/02/kristen-bell-dax-shepard-GG-e1776084266676.jpg?w=200"
+                    alt="Ator relembra quase briga com Eric Dane e início de relação: “Odiava ele”"
+                    title="Ator relembra quase briga com Eric Dane e início de relação: “Odiava ele”'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Ator relembra quase briga com Eric Dane e início de relação: “Odiava ele”&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/pop/conheca-7-series-de-eric-dane-alem-de-greys-anatomy/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/06/GettyImages-2155401272-e1771584256835.jpg?w=200"
+                    alt="Conheça 7 séries de Eric Dane além de &amp;quot;Grey&amp;#039;s Anatomy&amp;quot;"
+                    title="Conheça 7 séries de Eric Dane além de &amp;quot;Grey&amp;#039;s Anatomy&amp;quot;'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Conheça 7 séries de Eric Dane além de &amp;quot;Grey&amp;#039;s Anatomy&amp;quot;&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;    &lt;/ul&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;Leven afirmou que terá um longo caminho durante a recuperação da cirurgia, mas pretende melhorar para poder formar uma família. &amp;#8220;Ah, como eu amo ser mulher&amp;#8221;, ironizou ela no post.&lt;/p&gt;
+&lt;p&gt;A atriz de &lt;a href="https://www.cnnbrasil.com.br/entretenimento/greys-anatomy-e-renovada-para-a-23a-temporada-saiba-mais/" target="_blank" rel="noopener" data-textassist="true"&gt;&amp;#8220;Grey&amp;#8217;s Anatomy&amp;#8221;&lt;/a&gt; entregou que a médica responsável pela cirurgia assumiu a culpa pelo problema de saúde. O risco foi tão grave que ela precisou receber transfusões de sangue e agora está fazendo um tratamento com diversos medicamentos.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;&amp;#8220;Entendo que era um risco, como qualquer outro. Foi um acidente raríssimo, uma coisa de uma em um milhão&amp;#8221;, avaliou ela.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cnnbrasil.com.br/entretenimento/greys-anatomy-atores-deixarao-seriado-medico-apos-fim-da-22a-temporada/" target="_blank" rel="noopener" data-textassist="true"&gt;Leven Rambin&lt;/a&gt; ainda lamentou que iniciaria um projeto na Netflix em duas semanas, período em que havia recebido a garantia de que já estaria bem para trabalhar.&lt;/p&gt;
+&lt;blockquote class="instagram-media" style="background: #FFF; border: 0; border-radius: 3px; box-shadow: 0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width: 540px; min-width: 326px; padding: 0; width: calc(100% - 2px);" data-instgrm-captioned="" data-instgrm-permalink="https://www.instagram.com/p/DastLXEjgPF/?utm_source=ig_embed&amp;amp;utm_campaign=loading" data-instgrm-version="14"&gt;
+&lt;div style="padding: 16px;"&gt;
+&lt;div style="display: flex; flex-direction: row; align-items: center;"&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"&gt;&lt;/div&gt;
+&lt;div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"&gt;&lt;/div&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="padding: 19% 0;"&gt;&lt;/div&gt;
+&lt;div style="display: block; height: 50px; margin: 0 auto 12px; width: 50px;"&gt;&lt;/div&gt;
+&lt;div style="padding-top: 8px;"&gt;
+&lt;div style="color: #3897f0; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: 550; line-height: 18px;"&gt;Ver essa foto no Instagram&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="padding: 12.5% 0;"&gt;&lt;/div&gt;
+&lt;div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"&gt;
+&lt;div&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"&gt;&lt;/div&gt;
+&lt;div style="background-color: #f4f4f4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"&gt;&lt;/div&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="margin-left: 8px;"&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"&gt;&lt;/div&gt;
+&lt;div style="width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg);"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="margin-left: auto;"&gt;
+&lt;div style="width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"&gt;&lt;/div&gt;
+&lt;div style="background-color: #f4f4f4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"&gt;&lt;/div&gt;
+&lt;div style="width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"&gt;&lt;/div&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; line-height: 17px; margin-bottom: 0; margin-top: 8px; overflow: hidden; padding: 8px 0 7px; text-align: center; text-overflow: ellipsis; white-space: nowrap;"&gt;&lt;a style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 17px; text-decoration: none;" href="https://www.instagram.com/p/DastLXEjgPF/?utm_source=ig_embed&amp;amp;utm_campaign=loading" target="_blank" rel="noopener"&gt;Um post compartilhado por Leven Rambin (@levenrambin)&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;script async src="//www.instagram.com/embed.js"&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;blockquote class="wp-embedded-content" data-secret="uWtCSbpFgL"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/entretenimento/saiba-quem-sao-os-atores-brasileiros-ja-estiveram-em-greys-anatomy/"&gt;Saiba quem são os atores brasileiros já estiveram  em Grey’s Anatomy&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Saiba quem são os atores brasileiros já estiveram  em Grey’s Anatomy&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/entretenimento/saiba-quem-sao-os-atores-brasileiros-ja-estiveram-em-greys-anatomy/embed/#?secret=gy1iTCic9a#?secret=uWtCSbpFgL" data-secret="uWtCSbpFgL" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 17 Jul 2026 12:58:24 +0000</pubDate><guid>https://www.cnnbrasil.com.br/pop/celebridades/atriz-de-greys-anathomy-faz-cirurgia-de-emergencia-apos-erro-medico/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/pop/celebridades/atriz-de-greys-anathomy-faz-cirurgia-de-emergencia-apos-erro-medico/</guid></item><item><title>Tênis: CazéTV vai transmitir torneios WTA a partir de 2027</title><link>https://www.cnnbrasil.com.br/esportes/tenis/tenis-cazetv-vai-transmitir-torneios-wta-a-partir-de-2027/</link><description>&lt;p&gt;A CazéTV será a casa do circuito da WTA de tênis a partir da temporada 2027. O canal de streaming anunciou a novidade na última quarta-feira (15).&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;Com o acordo, a&lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/futebol-internacional/cazetv-anuncia-transmissao-de-todos-os-jogos-da-eurocopa-2028/"&gt; CazéTV&lt;/a&gt; terá os direitos exclusivos do circuito WTA 1000, WTA 500 e WTA 250, tirando as transmissões da ESPN, que fica com os torneios de Grand Slams.&lt;/p&gt;
+&lt;aside class="read-too read-too--with-img"&gt;
+            &lt;h2 class='read-too__title'&gt;Leia Mais&lt;/h2&gt;
+            &lt;ul class="read-too__list"&gt;
+        &lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/tenis/tenis-guto-miguel-vence-ex-top-15-do-mundo-em-torneio-no-rio-de-janeiro/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/guto-miguel-e1784144392943.webp?w=200"
+                    alt="Tênis: Guto Miguel vence ex-top 13 do Mundo em torneio no Rio de Janeiro"
+                    title="Tênis: Guto Miguel vence ex-top 13 do Mundo em torneio no Rio de Janeiro'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Tênis: Guto Miguel vence ex-top 13 do Mundo em torneio no Rio de Janeiro&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/tenis/entenda-as-regras-do-uts-evento-que-ocorre-no-rio-com-joao-fonseca/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/joao_fonseca_uts-e1784236243426.jpg?w=200"
+                    alt="Entenda as regras do UTS, evento realizado no Rio com Fonseca e Guto Miguel"
+                    title="Entenda as regras do UTS, evento realizado no Rio com Fonseca e Guto Miguel'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Entenda as regras do UTS, evento realizado no Rio com Fonseca e Guto Miguel&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/tenis/alcaraz-disputara-atp-de-cincinnati-apos-se-recuperar-de-lesao/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/alcaraz-jpeg-e1784235742187.jpg?w=200"
+                    alt="Alcaraz disputará ATP de Cincinnati após quatro meses afastado por lesão"
+                    title="Alcaraz disputará ATP de Cincinnati após quatro meses afastado por lesão'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Alcaraz disputará ATP de Cincinnati após quatro meses afastado por lesão&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;    &lt;/ul&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;No anúncio, o canal de streaming destacou as principais tenistas da atualidade, como Aryna Sabalenka, Elena Rybakina e Serena Williams.&lt;/p&gt;
+&lt;blockquote class="twitter-tweet"&gt;
+&lt;p dir="ltr" lang="pt"&gt;O TÊNIS É TUDO, INCLUSIVE, DA CAZÉTV! 🎾🇧🇷&lt;/p&gt;
+&lt;p&gt;A Copa do Mundo de Tênis e as melhores tenistas do mundo na nossa tela e de graça! Em setembro, a Copa Davis chega com Brasil x Suíça, em solo brasileiro e com o nosso time em busca do quali do ano que vem.&lt;/p&gt;
+&lt;p&gt;E o circuito WTA invade a… &lt;a href="https://t.co/YD1TSD7CxM"&gt;pic.twitter.com/YD1TSD7CxM&lt;/a&gt;&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;— CazéTV (@CazeTVOficial) &lt;a href="https://x.com/CazeTVOficial/status/2077487335524999566?ref_src=twsrc%5Etfw"&gt;July 15, 2026&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;script async src="https://platform.x.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;p&gt;Além delas, o circuito conta com as brasileiras Bia Haddad, ex-top 10 do mundo, e&lt;a href="https://www.cnnbrasil.com.br/esportes/tenis/luisa-stefani-chega-ao-top-5-de-duplas-e-alcanca-melhor-ranking-da-carreira/"&gt; Luisa Stefani, número 4 nas duplas&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote class="wp-embedded-content" data-secret="hcnIE6x8e7"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/esportes/joao-fonseca-repete-campanha-de-2025-e-nao-vai-alem-em-wimbledon/"&gt;João Fonseca repete campanha de 2025 e não vai além em Wimbledon&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;João Fonseca repete campanha de 2025 e não vai além em Wimbledon&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/esportes/joao-fonseca-repete-campanha-de-2025-e-nao-vai-alem-em-wimbledon/embed/#?secret=5ngbNTvyUY#?secret=hcnIE6x8e7" data-secret="hcnIE6x8e7" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Fri, 17 Jul 2026 12:56:40 +0000</pubDate><guid>https://www.cnnbrasil.com.br/esportes/tenis/tenis-cazetv-vai-transmitir-torneios-wta-a-partir-de-2027/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/esportes/tenis/tenis-cazetv-vai-transmitir-torneios-wta-a-partir-de-2027/</guid></item></channel></rss>
