@@ -1,833 +1,880 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel xmlns:atom="http://www.w3.org/2005/Atom"><title>CNN Agro</title><link>https://www.cnnbrasil.com.br/agro/</link><description>Últimos artigos de CNN Agro</description><atom:link href="https://paulofeh.github.io/rss-de-valor/feeds/cnn_agro_feed.xml" rel="self"/><language>pt-br</language><lastBuildDate>Sun, 19 Jul 2026 08:00:57 +0000</lastBuildDate><ttl>60</ttl><item><title>Ações ligadas à IA saltam 20% no 1º semestre em meio a desafios globais</title><link>https://www.cnnbrasil.com.br/economia/mercado/acoes-ligadas-a-ia-saltam-20-no-1o-semestre-em-meio-a-desafios-globais/</link><description>&lt;p&gt;O &lt;strong&gt;setor de tecnologia&lt;/strong&gt; despontou como o principal destaque de&lt;strong&gt; Wall Street&lt;/strong&gt; no primeiro semestre de 2026.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;Apesar da recente liquidação das ações, as gigantes do setor ainda acumulam ganhos expressivos no ano, levando o índice MSCI World Information Technology, que tem entre suas principais posições Nvidia, Apple, Microsoft, Broadcom e Micron, a avançar mais de 20% no período.&lt;/p&gt;
-&lt;p&gt;O desempenho chama atenção dos analistas por ocorrer em um ambiente macroeconômico desafiador, marcado pelas pressões inflacionárias decorrentes da guerra no Oriente Médio e pelo aumento das expectativas de manutenção dos juros em níveis elevados pelo &lt;strong&gt;Fed (Federal Reserve)&lt;/strong&gt;.&lt;/p&gt;
-&lt;aside class="read-too read-too--with-img"&gt;
-        &lt;ul class="read-too__list"&gt;
-        &lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/economia/macroeconomia/endividamento-das-familias-ainda-nao-melhorou-diz-diretor-da-fitch/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/endividamento.webp?w=200"
-                    alt="Endividamento das famílias ainda não melhorou, diz diretor da Fitch"
-                    title="Endividamento das famílias ainda não melhorou, diz diretor da Fitch'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Endividamento das famílias ainda não melhorou, diz diretor da Fitch&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/economia/macroeconomia/industria-perdeu-importancia-no-pib-e-deve-se-unir-diz-avb/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/Captura-de-tela-2026-07-15-185850.png?w=200"
-                    alt="Indústria perdeu importância no PIB e deve se unir, diz AVB"
-                    title="Indústria perdeu importância no PIB e deve se unir, diz AVB'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Indústria perdeu importância no PIB e deve se unir, diz AVB&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/economia/mercado/ia-avanca-para-novos-setores-e-amplia-oportunidades-para-investidores/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/ChatGPT-Image-23-de-mai.-de-2026-15_42_00.png?w=200"
-                    alt="IA avança para novos setores e amplia oportunidades para investidores"
-                    title="IA avança para novos setores e amplia oportunidades para investidores'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;IA avança para novos setores e amplia oportunidades para investidores&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;    &lt;/ul&gt;
-&lt;/aside&gt;
-
-&lt;p&gt;De um lado, eles apostam que os lucros do setor serão suficientes para compensar os desafios macroeconômicos; de outro, cresce a dúvida sobre a sustentabilidade, no longo prazo, das premissas que embasam essas projeções.&lt;/p&gt;
-&lt;p&gt;Há, contudo, um ponto de consenso: a &lt;strong&gt;IA (inteligência artificial)&lt;/strong&gt; está se disseminando rapidamente, enquanto as mudanças organizacionais necessárias para capturar os maiores ganhos de produtividade e eficiência ainda não acompanharam esse avanço.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;O analista da ISG e autor da TGT ISG, Pedro Bicudo Maschio, acompanhou 150 estudos de caso de IA generativa nos negócios e afirma que seu uso ainda é escasso.&lt;/p&gt;
-&lt;p&gt;Ele explicou ao Broadcast, sistema de notícias em tempo real do Grupo Estado, que com a implementação da tecnologia surgiram novas demandas dentro das empresas, como a necessidade de escolher modelos adequados, treinar agentes específicos e monitorar constantemente a qualidade das respostas dos chamados chatbots.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;A primeira miopia do investidor foi acreditar que a OpenAI seria dona de tudo. É a primeira vez que uma tecnologia (LLM) não detém um único dono&amp;#8221;, afirma ele.&lt;/p&gt;
-&lt;p&gt;Os investimentos em IA, no entanto, ainda ocorrem em um mercado concentrado: as bigtechs americanas, líderes desse ecossistema, têm elevado a captação de recursos por meio de dívida e emissão de ações.&lt;/p&gt;
-&lt;p&gt;Na &lt;strong&gt;Meta&lt;/strong&gt;, por exemplo, o &lt;strong&gt;CEO Mark Zuckerberg&lt;/strong&gt; afirmou recentemente a funcionários que os gastos com IA têm pressionado as finanças da companhia e que as ações da empresa estariam em um patamar mais elevado caso esses investimentos não tivessem sido realizados.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;O desafio atual é equilibrar os ganhos de eficiência com a nova linha de despesa que a tecnologia impõe ao orçamento&amp;#8221;, explica Bicudo.&lt;/p&gt;
-&lt;p&gt;Mas o avanço da inteligência artificial não beneficia apenas as &lt;strong&gt;big techs&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Com &lt;a href="https://www.cnnbrasil.com.br/economia/negocios/wall-street-estabelece-novo-padrao-para-mega-ipos-apos-estreia-da-spacex/" target="_blank" rel="noopener"&gt;grandes IPOs esperados em Wall Street&lt;/a&gt; nos próximos trimestres, entre elas as potenciais listagens de&lt;strong&gt; OpenAI&lt;/strong&gt; e &lt;strong&gt;Anthropic&lt;/strong&gt;, a corrida global pela tecnologia também tem impulsionado os negócios das instituições financeiras, num movimento que pôde ser visto nos resultados mais recentes de Goldman Sachs e JPMorgan Chase.&lt;/p&gt;
-&lt;p&gt;Segundo o diretor financeiro do JPMorgan, Jeremy Barnum, a IA está &amp;#8220;em toda parte nos &lt;strong&gt;mercados financeiros&lt;/strong&gt;&amp;#8220;. Além de assessorar fusões e aquisições ligadas ao setor, os bancos atuam no financiamento de data centers e projetos de infraestrutura.&lt;/p&gt;
-&lt;p&gt;Conforme os investimentos aumentam, esperam-se resultados.&lt;/p&gt;
-&lt;p&gt;O Wells Fargo Investment Institute projeta que a inteligência artificial impulsionará um crescimento substancial do mercado neste ano, representando quase 25% de crescimento nos lucros do S&amp;amp;P 500.&lt;/p&gt;
-&lt;p&gt;Segundo relatório do Société Générale, as preocupações dos investidores com uma possível sobrevalorização das empresas ligadas à inteligência artificial já contribuíram para a ampliação dos &lt;a href="https://www.cnnbrasil.com.br/branded-content/economia/negocios/spread-bancario-o-que-e-e-como-pesa-no-seu-bolso/" target="_blank" rel="noopener"&gt;spreads de crédito&lt;/a&gt; em relação aos de companhias de outros segmentos.&lt;/p&gt;
-&lt;p&gt;O documento alerta que esses spreads podem apresentar volatilidade ainda maior caso as tensões no Oriente Médio se intensifiquem.&lt;/p&gt;
-&lt;p&gt;As tensões geopolíticas também podem influenciar os rumos da &lt;strong&gt;política monetária do Federal Reserve&lt;/strong&gt; no segundo semestre.&lt;/p&gt;
-&lt;p&gt;Atualmente, os mercados precificam uma probabilidade de 53,5% de que o banco central americano eleve os juros em ao menos 0,25 ponto porcentual na reunião de setembro, segundo o monitoramento do CME Group.&lt;/p&gt;
-&lt;p&gt;
-&lt;div class="post__video"&gt;
-	&lt;div class="cnn component-video has--live"&gt;
-		&lt;div class="component-inner"&gt;
-			&lt;div
-				id="player_economia_TGGEBcuZjyw"
-				class="video-wrapper "
-			&gt;
-				&lt;div class="video-wrapper-inner"&gt;
-										&lt;div class="overlay-wrapper"&gt;
-						&lt;button
-							class="video-button js-video-play active"
-							aria-label="Assista o vídeo Inteligência artificial é estratégia, diz diretor de Dados e IA da Clickbus | MONEY NEWS"
-							tabindex="0"
-						&gt;
-							&lt;img
-								class="thumbnail-image"
-								src="https://img.youtube.com/vi/TGGEBcuZjyw/sddefault.jpg"
-                                srcset="https://img.youtube.com/vi/TGGEBcuZjyw/default.jpg 120w,
-                    https://img.youtube.com/vi/TGGEBcuZjyw/mqdefault.jpg 320w,
-                    https://img.youtube.com/vi/TGGEBcuZjyw/hqdefault.jpg 480w,
-                    https://img.youtube.com/vi/TGGEBcuZjyw/sddefault.jpg 640w,
-                    https://img.youtube.com/vi/TGGEBcuZjyw/maxresdefault.jpg 1280w"
-								alt="Inteligência artificial é estratégia, diz diretor de Dados e IA da Clickbus | MONEY NEWS"
-							/&gt;
-
-							&lt;span
-								class="video-play-button"
-								aria-label="Botão play do vídeo Inteligência artificial é estratégia, diz diretor de Dados e IA da Clickbus | MONEY NEWS"
-							&gt;&lt;/span&gt;
-
-															&lt;span class="video-gradient"&gt;&lt;/span&gt;
-								&lt;span class="video-title"&gt;Inteligência artificial é estratégia, diz diretor de Dados e IA da Clickbus | MONEY NEWS&lt;/span&gt;
-													&lt;/button&gt;
-					&lt;/div&gt;
-										&lt;span
-						class="embedded-video video-player-wrapper"
-						data-youtube-plcmt="1"
-						data-youtube-vpmute="0"
-						data-youtube-width="640px"
-						data-youtube-height="480px"
-						data-youtube-ui="economia"
-						data-youtube-play="0"
-						data-youtube-mute="0"
-						data-youtube-id="TGGEBcuZjyw"
-						data-youtube-vpa="click"
-						data-youtube-hl="pt"
-						data-youtube-position=""
-					&gt;&lt;/span&gt;
-				&lt;/div&gt;
-			&lt;/div&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;Para a Capital Economics, uma alta moderada não representaria uma ameaça significativa, mas um aumento mais acentuado dos juros &amp;#8220;teria impacto expressivo sobre a captação de recursos e reduziria os investimentos no setor&amp;#8221;.&lt;/p&gt;
-&lt;p&gt;Rodrigo Torres, CFO da Quality Digital, afirma que existe uma demanda global consistente por infraestrutura de inteligência artificial, responsável por sustentar investimentos bilionários e afastar, em sua avaliação, as especulações sobre uma &lt;a href="https://www.cnnbrasil.com.br/economia/mercado/possivel-bolha-de-ia-abre-debate-sobre-acoes-de-tecnologia/" target="_blank" rel="noopener"&gt;possível &amp;#8220;bolha&amp;#8221; no setor&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Segundo ele, o movimento atual representa uma reprecificação dos ativos &amp;#8220;fundamentada em lucros reais&amp;#8221;.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;As grandes empresas de computação em nuvem, como Amazon Web Services, Microsoft Azure e Google Cloud, estão realizando investimentos bilionários e mantêm o setor em expansão, apesar dos custos elevados no curto prazo&amp;#8221;, afirmou.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;São empresas consolidadas e não dependem exclusivamente dessa tecnologia para sustentar seus negócios.&amp;#8221;&lt;/p&gt;
-&lt;blockquote class="wp-embedded-content" data-secret="v9A0qmuptf"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/economia/veja-empregos-que-ganham-e-perdem-com-a-inteligencia-artificial/"&gt;Veja empregos que ganham e perdem com a inteligência artificial&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Veja empregos que ganham e perdem com a inteligência artificial&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/economia/veja-empregos-que-ganham-e-perdem-com-a-inteligencia-artificial/embed/#?secret=zjHGy53W5A#?secret=v9A0qmuptf" data-secret="v9A0qmuptf" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Sun, 19 Jul 2026 08:00:57 +0000</pubDate><guid>https://www.cnnbrasil.com.br/economia/mercado/acoes-ligadas-a-ia-saltam-20-no-1o-semestre-em-meio-a-desafios-globais/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/economia/mercado/acoes-ligadas-a-ia-saltam-20-no-1o-semestre-em-meio-a-desafios-globais/</guid></item><item><title>Abiec avalia impacto das tarifas chinesas sobre carne bovina brasileira</title><link>https://www.cnnbrasil.com.br/agro/abiec-avalia-impacto-das-tarifas-chinesas-sobre-carne-bovina-brasileira/</link><description>&lt;p&gt;O setor exportador de carne bovina segue em compasso de espera diante das medidas de salvaguarda impostas pela China às importações do produto brasileiro. Segundo o presidente da Associação Brasileira das Indústrias Exportadoras de Carnes (Abiec), Roberto Perosa, não há, neste momento, qualquer negociação em andamento entre os governos do Brasil e da China para rever as cotas.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;Durante cerimônia realizada na unidade industrial da Biogénesis Bagó, em Garín, na Argentina, ele afirmou que até o momento não há negociações em andamento entre os governos brasileiro e chinês para alterar o cenário atual.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;As notícias que vêm da China e do governo chinês não são de nenhum tipo de negociação. Sempre aguardamos as negociações entre os governos e, neste momento, não há&amp;#8221;, disse.&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel xmlns:atom="http://www.w3.org/2005/Atom"><title>CNN Agro</title><link>https://www.cnnbrasil.com.br/agro/</link><description>Últimos artigos de CNN Agro</description><atom:link href="https://paulofeh.github.io/rss-de-valor/feeds/cnn_agro_feed.xml" rel="self"/><language>pt-br</language><lastBuildDate>Sun, 19 Jul 2026 13:00:50 +0000</lastBuildDate><ttl>60</ttl><item><title>Análise: Base devota de Donald Trump está desaparecendo</title><link>https://www.cnnbrasil.com.br/internacional/analise-base-devota-de-donald-trump-esta-desaparecendo/</link><description>&lt;p&gt;Poucos fatores influenciaram a política americana na última década como a influência do presidente Donald Trump sobre sua base eleitoral.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;Apesar de sua baixa popularidade, a crença comum sempre foi de que Trump inspirava uma devoção tão intensa em grande parte de sua base que o tornava uma força poderosa na política americana.&lt;/p&gt;
+&lt;p&gt;Há cada vez mais motivos para acreditar que essa crença comum não se aplica mais.&lt;/p&gt;
 &lt;aside class="read-too read-too--with-img"&gt;
             &lt;h2 class='read-too__title'&gt;Leia Mais&lt;/h2&gt;
             &lt;ul class="read-too__list"&gt;
         &lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/agro/abiec-cota-para-china-deve-limitar-embarque-de-carne-bovina-no-2o-semestre/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/internacional/trump-afirma-que-ice-nao-suspendera-abordagens-de-transito-apos-mortes/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportAgribusinessNews/tagreuters.com2025binary_LYNXMPEL5J0PY-BASEIMAGE.jpg?w=200"
-                    alt="ABIEC: Cota para China deve limitar embarque de carne bovina no 2º semestre"
-                    title="ABIEC: Cota para China deve limitar embarque de carne bovina no 2º semestre'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportWorldNews/tagreuters.com2026binary_LYNXMPEM0B18A-BASEIMAGE.jpg?w=200"
+                    alt="Trump afirma que ICE não suspenderá abordagens de trânsito após mortes"
+                    title="Trump afirma que ICE não suspenderá abordagens de trânsito após mortes'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;ABIEC: Cota para China deve limitar embarque de carne bovina no 2º semestre&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;Trump afirma que ICE não suspenderá abordagens de trânsito após mortes&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/agro/cota-da-china-altera-estrategia-e-preocupa-setor-da-carne-bovina-brasileira/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/internacional/o-que-documentos-recem-divulgados-por-trump-dizem-sobre-as-eleicoes-nos-eua/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/4203_3C7F5675D2971367-2.jpeg?w=200"
-                    alt="Cota da China altera estratégia e preocupa setor da carne bovina brasileira"
-                    title="Cota da China altera estratégia e preocupa setor da carne bovina brasileira'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/GettyImages-2285787606.jpg?w=200"
+                    alt="O que documentos recém-divulgados por Trump dizem sobre as eleições nos EUA"
+                    title="O que documentos recém-divulgados por Trump dizem sobre as eleições nos EUA'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;Cota da China altera estratégia e preocupa setor da carne bovina brasileira&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;O que documentos recém-divulgados por Trump dizem sobre as eleições nos EUA&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/agro/brasil-ja-alcancou-50-da-cota-de-carne-bovina-na-china/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/internacional/dados-de-eleitores-em-18-estados-foram-adquiridos-pela-china-diz-trump/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportTopNews/tagreuters.com2022binary_LYNXMPEI260UW-FILEDIMAGE.jpg?w=200"
-                    alt="Brasil já alcançou 50% da cota de carne bovina na China"
-                    title="Brasil já alcançou 50% da cota de carne bovina na China'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/Donald-Trump-faz-pronunciamento-a-nacao-sobre-eleicoes.png?w=200"
+                    alt="Dados de eleitores em 18 estados foram adquiridos pela China, diz Trump"
+                    title="Dados de eleitores em 18 estados foram adquiridos pela China, diz Trump'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;Brasil já alcançou 50% da cota de carne bovina na China&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;Dados de eleitores em 18 estados foram adquiridos pela China, diz Trump&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;    &lt;/ul&gt;
 &lt;/aside&gt;
 
-&lt;p&gt;A decisão faz parte das medidas de salvaguarda anunciadas pela China em dezembro de 2025, após a conclusão de uma investigação sobre o aumento das importações de carne bovina e seus efeitos sobre a pecuária local.&lt;/p&gt;
-&lt;p&gt;Na ocasião, o governo chinês estabeleceu uma cota anual de 1,106 milhão de toneladas para as importações de carne bovina brasileira e determinou que os embarques realizados acima desse volume estariam sujeitos a uma tarifa adicional de 55%.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;Como o Brasil já esgotou integralmente essa cota no início deste mês, todas as exportações excedentes passaram a recolher a sobretaxa, que se soma à tarifa de importação de 12% já vigente, elevando a carga tributária total para 67%.&lt;/p&gt;
-&lt;p&gt;Pelas regras anunciadas por Pequim, as medidas de salvaguarda deverão permanecer em vigor por três anos, podendo ser revisadas ao longo desse período.&lt;/p&gt;
-&lt;p&gt;Na prática, segundo a Abiec, o novo patamar tarifário inviabiliza economicamente os embarques destinados ao mercado chinês. Até então, a China era o principal destino da carne bovina brasileira, respondendo por mais da metade das exportações do setor.&lt;/p&gt;
-&lt;p class="isSelectedEnd"&gt;Perosa destacou que, pelas regras adotadas pelo governo chinês, o setor deverá conviver com essas salvaguardas pelos próximos três anos. Nesse período, as empresas exportadoras precisarão buscar alternativas para redirecionar parte da produção a outros mercados e ampliar a presença em países que já importam carne bovina brasileira.&lt;/p&gt;
-&lt;p class="isSelectedEnd"&gt;A expectativa da entidade é que qualquer mudança nesse cenário dependa exclusivamente de negociações entre os governos dos dois países. Enquanto isso não acontece, o setor continuará operando dentro das novas condições impostas pelo mercado chinês.&lt;/p&gt;
-&lt;p&gt;Além do impacto sobre as exportações, a Abiec avalia que a redução dos embarques para a China poderá aumentar a disponibilidade de carne bovina no mercado doméstico. Em um primeiro momento, esse movimento tende a pressionar os preços da arroba do boi gordo e da carne no atacado.&lt;/p&gt;
-&lt;p&gt;No entanto, segundo a entidade, esse efeito pode ser temporário, uma vez que a indústria deverá intensificar a busca por novos mercados para absorver a produção que antes era destinada ao país asiático.&lt;/p&gt;
-&lt;blockquote class="wp-embedded-content" data-secret="WbvbpgnE2W"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/agro/exigencias-da-ue-geram-impacto-limitado-nas-exportacoes-de-carnes/"&gt;Exigências da UE geram impacto limitado nas exportações de carnes&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Exigências da UE geram impacto limitado nas exportações de carnes&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/agro/exigencias-da-ue-geram-impacto-limitado-nas-exportacoes-de-carnes/embed/#?secret=pG5xbUnIFQ#?secret=WbvbpgnE2W" data-secret="WbvbpgnE2W" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Sun, 19 Jul 2026 08:00:38 +0000</pubDate><guid>https://www.cnnbrasil.com.br/agro/abiec-avalia-impacto-das-tarifas-chinesas-sobre-carne-bovina-brasileira/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/agro/abiec-avalia-impacto-das-tarifas-chinesas-sobre-carne-bovina-brasileira/</guid></item><item><title>Copa do Mundo: Como PMEs podem surfar o evento mesmo após seu fim</title><link>https://www.cnnbrasil.com.br/economia/negocios/copa-do-mundo-como-pmes-podem-surfar-o-evento-mesmo-apos-seu-fim/</link><description>&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;Evento de impacto mundial, a Copa do Mundo 2026 mobilizou torcedores e nações em diferentes continentes.&lt;/p&gt;
-&lt;p&gt;Fora de campo, o otimismo com os jogos fez com que milhões de pessoas se tornassem verdadeiros consumidores, elevando o ticket médio para compras de itens decorativos e temáticos, no embalo do entusiasmo coletivo.&lt;/p&gt;
-&lt;p&gt;O engajamento para a venda de roupas, acessórios, itens de decoração é também uma oportunidade de crescimento a longo prazo para as pequenas e médias empresas.&lt;/p&gt;
-&lt;p&gt;Mais do que efeitos imediatos na rentabilidade do negócio, a Copa acendeu uma chance dessas empresas apostarem na posteridade, ao mirar na construção duradoura de marca e fidelização da clientela, avalia Ycaro Martins, especialista em expansão e negócios, CEO e fundador da Maxymus Expand, empresa focada em estruturação estratégica, aceleração e crescimento empresarial.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;“Quando existe planejamento, cada campanha, ação promocional ou ativação realizada pode se transformar em um ativo permanente para o negócio. O verdadeiro ganho não está apenas no faturamento do período, mas na capacidade de converter a atenção gerada em crescimento sustentável e recorrente”, explica.&lt;/p&gt;
-&lt;aside class="read-too read-too--with-img"&gt;
-            &lt;h2 class='read-too__title'&gt;Leia Mais&lt;/h2&gt;
-            &lt;ul class="read-too__list"&gt;
-        &lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/economia/negocios/estudo-pmes-desperdicam-milhoes-de-horas-com-burocracia-e-gestao-manual/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2022/11/towfiqu-barbhuiya-JhevWHCbVyw-unsplash.jpg?w=200"
-                    alt="Estudo: PMEs desperdiçam milhões de horas com burocracia e gestão manual"
-                    title="Estudo: PMEs desperdiçam milhões de horas com burocracia e gestão manual'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Estudo: PMEs desperdiçam milhões de horas com burocracia e gestão manual&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/economia/negocios/ferias-de-julho-como-pmes-podem-converter-baixa-temporada-em-oportunidades/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/41117_4747D75EA769D1D8.jpg?w=200"
-                    alt="Férias de julho: Como PMEs podem converter baixa temporada em oportunidades"
-                    title="Férias de julho: Como PMEs podem converter baixa temporada em oportunidades'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Férias de julho: Como PMEs podem converter baixa temporada em oportunidades&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/economia/negocios/precificacao-que-funciona-como-cobrar-o-que-o-seu-negocio-realmente-vale/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/04/empreendedorismo.jpg?w=200"
-                    alt="Precificação que funciona: Como cobrar o que o seu negócio (realmente) vale"
-                    title="Precificação que funciona: Como cobrar o que o seu negócio (realmente) vale'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Precificação que funciona: Como cobrar o que o seu negócio (realmente) vale&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;    &lt;/ul&gt;
-&lt;/aside&gt;
-
-&lt;h2&gt;Além dos bares e restaurantes&lt;/h2&gt;
-&lt;p&gt;Bares, restaurantes, delivery de alimentos, mercados, conveniências, lojas de bebidas e registraram uma movimentação histórica, coroando-se como os setores com melhor desempenho durante a Copa do Mundo.&lt;/p&gt;
-&lt;p&gt;No caso de bares e restaurantes, por exemplo, o crescimento foi de pelo menos 20% apenas no último jogo da seleção brasileira, estima a associação que representa o setor, a Abrasel.&lt;/p&gt;
-&lt;p&gt;O resultado está em linha com o projetado por outras companhias às vésperas do evento. Uma estimativa prévia da Neogrid e Opinion Box mostrava que 51% dos brasileiros pretendiam aumentar os gastos com alimentos e bebidas durante os jogos.&lt;/p&gt;
-&lt;p&gt;Agora, com o fim do torneio, PMEs encaram o desafio de manter o bom desempenho e faturamento motivado pelo campeonato nos últimos meses.&lt;/p&gt;
-&lt;p&gt;
-&lt;div class="post__video"&gt;
-	&lt;div class="cnn component-video has--live"&gt;
-		&lt;div class="component-inner"&gt;
-			&lt;div
-				id="player_economia_T7PH-RVV4W0"
-				class="video-wrapper "
-			&gt;
-				&lt;div class="video-wrapper-inner"&gt;
-										&lt;div class="overlay-wrapper"&gt;
-						&lt;button
-							class="video-button js-video-play active"
-							aria-label="Assista o vídeo Copa do Mundo pode gerar US$ 41 bilhões na economia, aponta Bank of America"
-							tabindex="0"
-						&gt;
-							&lt;img
-								class="thumbnail-image"
-								src="https://img.youtube.com/vi/T7PH-RVV4W0/sddefault.jpg"
-                                srcset="https://img.youtube.com/vi/T7PH-RVV4W0/default.jpg 120w,
-                    https://img.youtube.com/vi/T7PH-RVV4W0/mqdefault.jpg 320w,
-                    https://img.youtube.com/vi/T7PH-RVV4W0/hqdefault.jpg 480w,
-                    https://img.youtube.com/vi/T7PH-RVV4W0/sddefault.jpg 640w,
-                    https://img.youtube.com/vi/T7PH-RVV4W0/maxresdefault.jpg 1280w"
-								alt="Copa do Mundo pode gerar US$ 41 bilhões na economia, aponta Bank of America"
-							/&gt;
-
-							&lt;span
-								class="video-play-button"
-								aria-label="Botão play do vídeo Copa do Mundo pode gerar US$ 41 bilhões na economia, aponta Bank of America"
-							&gt;&lt;/span&gt;
-
-															&lt;span class="video-gradient"&gt;&lt;/span&gt;
-								&lt;span class="video-title"&gt;Copa do Mundo pode gerar US$ 41 bilhões na economia, aponta Bank of America&lt;/span&gt;
-													&lt;/button&gt;
-					&lt;/div&gt;
-										&lt;span
-						class="embedded-video video-player-wrapper"
-						data-youtube-plcmt="1"
-						data-youtube-vpmute="0"
-						data-youtube-width="640px"
-						data-youtube-height="480px"
-						data-youtube-ui="economia"
-						data-youtube-play="0"
-						data-youtube-mute="0"
-						data-youtube-id="T7PH-RVV4W0"
-						data-youtube-vpa="click"
-						data-youtube-hl="pt"
-						data-youtube-position=""
-					&gt;&lt;/span&gt;
-				&lt;/div&gt;
-			&lt;/div&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-&lt;/iframe&gt;&lt;/p&gt;
-&lt;h2&gt;Dicas para PMEs continuarem aproveitando o buzz da Copa do Mundo&lt;/h2&gt;
-&lt;p&gt;Nesse contexto, continuarão a ganhar destaque as empresas e varejistas capazes de encarar o processo de troca como uma experiência que vai além das cifras.&lt;/p&gt;
-&lt;p&gt;“Toda venda realizada durante o evento deve ser encarada como o início de uma jornada de relacionamento”, afirma Martins.&lt;/p&gt;
-&lt;p&gt;A primeira dica, segundo o especialista, é investir na presença digital do negócio, considerando a produção contínua de conteúdo e interação com a audiência.&lt;/p&gt;
-&lt;p&gt;Na sequência, apostar no uso inteligente de dados capazes de nutrir ações — posteriores de fidelização, principalmente as de comunicação.&lt;/p&gt;
-&lt;p&gt;“Empresas que capturam dados, nutrem seus clientes e mantêm comunicação ativa após a Copa conseguem transformar um pico temporário de demanda em crescimento consistente ao longo dos meses seguintes”, diz.&lt;/p&gt;
-&lt;p&gt;Além dos dados, destaca Martins, programas de relacionamento baseados no cadastro de clientes que compraram pela primeira vez durante o período, e também campanhas gamificadas e programas de pontos podem ser ativos valiosos para fidelização e incentivo à recompra.&lt;/p&gt;
-&lt;p&gt;“O ponto mais importante é garantir continuidade”, reforça.&lt;/p&gt;
-&lt;p&gt;“Em um mercado cada vez mais competitivo, estar presente na mente do consumidor vale tanto quanto a venda realizada naquele instante.”&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Texto de &lt;/em&gt;&lt;em&gt;Maria Clara Dias&lt;/em&gt;&lt;/p&gt;
-&lt;blockquote class="wp-embedded-content" data-secret="Kmnid51dvd"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/economia/economistas-sediar-olimpiadas-nao-e-mais-financeiramente-sustentavel/"&gt;Economistas: Sediar Olimpíadas não é mais financeiramente sustentável&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Economistas: Sediar Olimpíadas não é mais financeiramente sustentável&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/economia/economistas-sediar-olimpiadas-nao-e-mais-financeiramente-sustentavel/embed/#?secret=yNITgVHuPZ#?secret=Kmnid51dvd" data-secret="Kmnid51dvd" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Sun, 19 Jul 2026 08:00:28 +0000</pubDate><guid>https://www.cnnbrasil.com.br/economia/negocios/copa-do-mundo-como-pmes-podem-surfar-o-evento-mesmo-apos-seu-fim/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/economia/negocios/copa-do-mundo-como-pmes-podem-surfar-o-evento-mesmo-apos-seu-fim/</guid></item><item><title>Espanha x Argentina: quem leva vantagem no histórico?</title><link>https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/espanha-x-argentina-quem-leva-vantagem-no-historico/</link><description>&lt;p&gt;A grande final da Copa do Mundo de 2026 entre Espanha e Argentina acontece neste domingo (19), às 16h (de Brasília), no MetLife Stadium, em Nova Jersey. No histórico de 14 jogos confronto, as seleções têm números equilibrados.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;Com &lt;strong&gt;seis vitórias para cada lado e dois empates&lt;/strong&gt;, ambas tem o mesmo aproveitamento no duelo: 48%. Segundo dados do Sofascore, a média de gols também é parecida, com 19 bolas na rede da Espanha (1.4 por jogo), e 18 tentos para a Argentina (1.3 por jogo).&lt;/p&gt;
-&lt;aside class="read-too read-too--with-img"&gt;
-        &lt;ul class="read-too__list"&gt;
-        &lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/antigo-bairro-de-lamine-yamal-celebra-final-de-copa-do-mundo-contra-messi/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/lamine-yamal.png?w=200"
-                    alt="Antigo bairro de Lamine Yamal celebra final de Copa do Mundo contra Messi"
-                    title="Antigo bairro de Lamine Yamal celebra final de Copa do Mundo contra Messi'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Antigo bairro de Lamine Yamal celebra final de Copa do Mundo contra Messi&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/fifa-divulga-uniformes-da-final-da-copa-do-mundo-e-da-disputa-do-3o-lugar/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/messi-yamal-copa-do-mundo.jpg?w=200"
-                    alt="Fifa divulga uniformes da final da Copa do Mundo e da disputa do 3º lugar"
-                    title="Fifa divulga uniformes da final da Copa do Mundo e da disputa do 3º lugar'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Fifa divulga uniformes da final da Copa do Mundo e da disputa do 3º lugar&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/familia-real-espanhola-estara-presente-na-final-da-copa-do-mundo/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/familia-real-espanhola.png?w=200"
-                    alt="Família real espanhola estará presente na final da Copa do Mundo"
-                    title="Família real espanhola estará presente na final da Copa do Mundo'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Família real espanhola estará presente na final da Copa do Mundo&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;    &lt;/ul&gt;
-&lt;/aside&gt;
-
-&lt;p&gt;Com apenas um título em 2010, a seleção espanhola garantiu sua segunda final no torneio após vencer a França na semifinal, por 2 a 0. Sob o comando de Luis de la Fuente, a equipe busca o bicampeonato.&lt;/p&gt;
-&lt;p&gt;Já a Argentina está em busca do tetra e o segundo consecutivo. A seleção sul-americana já venceu três Copas do Mundo, nas edições de 1978, 1986 e a última, em 2022. Com Lionel Messi, os argentinos chegaram à final depois de uma virada contra a Inglaterra, por 2 a 1.&lt;/p&gt;
-&lt;h2&gt;Relembre histórico de Espanha x Argentina&lt;/h2&gt;
+&lt;p&gt;A nova pesquisa do Washington Post-Ipsos é apenas o dado mais recente que sugere que a base de apoio de Trump não só diminuiu significativamente, como agora é historicamente pequena.&lt;/p&gt;
+&lt;p&gt;A pesquisa do Post-Ipsos mostra que apenas 15% dos americanos disseram aprovar fortemente Trump — um número que representa menos de 1 em cada 6 pessoas. Esse é o menor índice já registrado na história do estudo.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;Para contextualizar, pesquisas anteriores do Post e do Post-ABC indicavam que, após sua posse e em fevereiro de 2025, 27% dos americanos aprovavam fortemente Trump. E nos dias logo após o ataque polêmico ao Capitólio em 6 de janeiro de 2021, esse número também chegou a 27%.&lt;/p&gt;
+&lt;p&gt;Outros pontos notáveis ​​da nova pesquisa:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Espanha 6-1 Argentina | Amistoso | 2018&lt;/li&gt;
-&lt;li&gt;Argentina 4-1 Espanha | Amistoso | 2010&lt;/li&gt;
-&lt;li&gt;Espanha 2-1 Argentina | Amistoso | 2009&lt;/li&gt;
-&lt;li&gt;Espanha 2-1 Argentina | Amistoso | 2006&lt;/li&gt;
-&lt;li&gt;Espanha 0-2 Argentina | Amistoso | 1999&lt;/li&gt;
-&lt;li&gt;Espanha 2-1 Argentina | Amistoso | 1995&lt;/li&gt;
-&lt;li&gt;Espanha 1-1 Argentina | Amistoso | 1988&lt;/li&gt;
-&lt;li&gt;Argentina 1-1 Espanha | Amistoso | 1974&lt;/li&gt;
-&lt;li&gt;Espanha 1-0 Argentina | Amistoso | 1972&lt;/li&gt;
-&lt;li&gt;Argentina 2-1 Espanha | Copa do Mundo | 1966&lt;/li&gt;
-&lt;li&gt;Espanha 2-0 Argentina | Amistoso | 1961&lt;/li&gt;
-&lt;li&gt;Argentina 2-0 Espanha | Amistoso | 1960&lt;/li&gt;
-&lt;li&gt;Argentina 1-0 Espanha | Amistoso | 1953&lt;/li&gt;
-&lt;li&gt;Espanha 0-1 Argentina | Amistoso | 1952&lt;/li&gt;
+&lt;li&gt;Pela primeira vez nos dados do instituto de pesquisa, um número significativamente maior de seus apoiadores o aprovou apenas &amp;#8220;parcialmente&amp;#8221; (22%) em vez de &amp;#8220;totalmente&amp;#8221; (15%).&lt;/li&gt;
+&lt;li&gt;Apenas 41% dos republicanos e 43% dos eleitores de Trump em 2024 o apoiam fielmente.&lt;/li&gt;
+&lt;li&gt;Apenas 6% dos independentes o apoiam fortemente — em comparação com 51% que desaprovam do presidente americano fortemente.&lt;/li&gt;
+&lt;li&gt;Mesmo entre o que se supõe ser o grupo demográfico mais importante para Trump — eleitores brancos sem diploma universitário — apenas 24% o apoiam fielmente.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;blockquote class="wp-embedded-content" data-secret="KtACx1l7ew"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/esportes/como-a-espanha-relembra-selecao-de-2010-na-corrida-pelo-titulo-da-copa/"&gt;Como a Espanha relembra seleção de 2010 na corrida pelo título da Copa&lt;/a&gt;&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Como a Espanha relembra seleção de 2010 na corrida pelo título da Copa&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/esportes/como-a-espanha-relembra-selecao-de-2010-na-corrida-pelo-titulo-da-copa/embed/#?secret=mZ4wW2VXNe#?secret=KtACx1l7ew" data-secret="KtACx1l7ew" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Sun, 19 Jul 2026 08:00:22 +0000</pubDate><guid>https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/espanha-x-argentina-quem-leva-vantagem-no-historico/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/espanha-x-argentina-quem-leva-vantagem-no-historico/</guid></item><item><title>Namorada de Lamine Yamal “obrigou” jogador a ir à final da Copa; entenda</title><link>https://www.cnnbrasil.com.br/pop/celebridades/namorada-de-lamine-yamal-obrigou-jogador-a-ir-a-final-da-copa-entenda/</link><description>&lt;p&gt;A &lt;strong&gt;Espanha&lt;/strong&gt; garantiu vaga na final da &lt;strong&gt;Copa do Mundo de 2026&lt;/strong&gt; e enfrentará a &lt;strong&gt;Argentina&lt;/strong&gt; no próximo domingo (19). Nos últimos dias antes da decisão, a modelo &lt;strong&gt;Inês Garcia&lt;/strong&gt;, 21, namorada do jogador &lt;strong&gt;Lamine Yamal&lt;/strong&gt;, 19, chamou atenção nas redes sociais por uma &amp;#8220;obrigação&amp;#8221; que deixou nas mãos do amado.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;Ela viralizou ao fazer um pedido especial para Yamal depois que &lt;a href="https://www.cnnbrasil.com.br/pop/musica/justin-bieber-sera-atracao-do-show-de-intervalo-da-final-da-copa-do-mundo/" target="_blank" rel="noopener"&gt;Justin Bieber foi confirmado como atração do show de intervalo da final da Copa&lt;/a&gt;. &amp;#8220;Meu amor, faça o que for para chegar à final. Você me escuta? O que for&amp;#8221;, escreveu ela nos stories.&lt;/p&gt;
-&lt;aside class="read-too read-too--with-img"&gt;
-            &lt;h2 class='read-too__title'&gt;Leia mais: &lt;/h2&gt;
-            &lt;ul class="read-too__list"&gt;
-        &lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/pop/celebridades/namorada-de-lamine-yamal-tem-conta-bloqueada-e-revela-motivo-inusitado/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/lamine-yamal-namorada.png?w=200"
-                    alt="Namorada de Lamine Yamal tem conta bloqueada e revela motivo inusitado"
-                    title="Namorada de Lamine Yamal tem conta bloqueada e revela motivo inusitado'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Namorada de Lamine Yamal tem conta bloqueada e revela motivo inusitado&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/tudo-isso-e-uma-loucura-diz-messi-sobre-foto-com-lamine-yamal/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/WhatsApp-Image-2026-07-15-at-19.43.21-e1784155645429.jpeg?w=200"
-                    alt="&amp;quot;Tudo isso é uma loucura&amp;quot;, diz Messi sobre foto com Lamine Yamal"
-                    title="&amp;quot;Tudo isso é uma loucura&amp;quot;, diz Messi sobre foto com Lamine Yamal'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;&amp;quot;Tudo isso é uma loucura&amp;quot;, diz Messi sobre foto com Lamine Yamal&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/pop/celebridades/quem-e-ines-garcia-namorada-de-yamal-conheca-a-influenciadora/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/Ines-Garcia-Santos.png?w=200"
-                    alt="Quem é Inés García, namorada de Yamal? Conheça a influenciadora"
-                    title="Quem é Inés García, namorada de Yamal? Conheça a influenciadora'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Quem é Inés García, namorada de Yamal? Conheça a influenciadora&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;    &lt;/ul&gt;
-&lt;/aside&gt;
+&lt;p&gt;A pesquisa não é um acaso. Na verdade, é pelo menos a quarta pesquisa recente de alta qualidade a mostrar a porcentagem de pessoas que aprovam fortemente Trump caindo para a casa dos 15%.&lt;/p&gt;
+&lt;p&gt;Embora a pesquisa mais recente da Universidade Quinnipiac tenha mostrado 27% de forte aprovação a Trump (nesse caso, entre eleitores registrados), outras pesquisas apontam para números significativamente menores. Nessas outras pesquisas, os índices foram de 21% (NPR-PBS-Marist), 20% (Fox News), 19% (AP-NORC), 16% (Faculdade de Direito de Marquette), 15% (Post-Ipsos) e 14% (Reuters-Ipsos).&lt;/p&gt;
+&lt;p&gt;Alguns desses índices representam mínimas históricas. Outros se aproximam dos índices de Trump no início de seu primeiro mandato.&lt;/p&gt;
+&lt;p&gt;Mas, na maioria das pesquisas recentes de alta qualidade, a porcentagem de americanos que aprovam fortemente Trump fica entre 1 em 7 e 1 em 5 eleitores.&lt;/p&gt;
+&lt;p&gt;Isso dificilmente retrata um homem com mão de ferro sobre um movimento político de grande escala. Ele pode ter conseguido derrotar alguns colegas republicanos em primárias com baixa participação, que tendem a ser dominadas pelos eleitores mais engajados. Mas muito poucos americanos veem o que Trump está fazendo e o apoiam fielmente.&lt;/p&gt;
+&lt;p&gt;Outro ponto importante: historicamente falando, &lt;a href="https://www.cnnbrasil.com.br/internacional/dados-de-eleitores-em-18-estados-foram-adquiridos-pela-china-diz-trump/"&gt;o tamanho da base de apoio de Trump&lt;/a&gt; não é tão grande assim.&lt;/p&gt;
+&lt;p&gt;
+&lt;div class="post__video"&gt;
+	&lt;div class="cnn component-video has--live"&gt;
+		&lt;div class="component-inner"&gt;
+			&lt;div
+				id="player_internacional_HVtclBZsz-8"
+				class="video-wrapper "
+			&gt;
+				&lt;div class="video-wrapper-inner"&gt;
+										&lt;div class="overlay-wrapper"&gt;
+						&lt;button
+							class="video-button js-video-play active"
+							aria-label="Assista o vídeo Trump acusa China de adquirir 220 milhões de registros de eleitores dos EUA; entenda | WW"
+							tabindex="0"
+						&gt;
+							&lt;img
+								class="thumbnail-image"
+								src="https://img.youtube.com/vi/HVtclBZsz-8/sddefault.jpg"
+                                srcset="https://img.youtube.com/vi/HVtclBZsz-8/default.jpg 120w,
+                    https://img.youtube.com/vi/HVtclBZsz-8/mqdefault.jpg 320w,
+                    https://img.youtube.com/vi/HVtclBZsz-8/hqdefault.jpg 480w,
+                    https://img.youtube.com/vi/HVtclBZsz-8/sddefault.jpg 640w,
+                    https://img.youtube.com/vi/HVtclBZsz-8/maxresdefault.jpg 1280w"
+								alt="Trump acusa China de adquirir 220 milhões de registros de eleitores dos EUA; entenda | WW"
+							/&gt;
 
-&lt;p&gt;O desejo acabou se realizando. Com a classificação da Espanha para a decisão, Inês poderá acompanhar a final de perto e também assistir à apresentação do ídolo.&lt;/p&gt;
-&lt;p&gt;A influenciadora ganhou destaque durante o Mundial por compartilhar vídeos no estilo &amp;#8220;arrume-se comigo&amp;#8221; antes dos jogos da seleção espanhola. Nas redes sociais, onde soma cerca de 2 milhões de seguidores, ela conquistou o público ao apostar em produções simples e afirmar que não seguiria o padrão de outras companheiras de jogadores.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;Neste perfil, você vai ver calça ou short jeans, uma sandália ou sapatilha e uma camisa da Espanha com o número 19. Esses vão ser os meus looks para todos os jogos&amp;#8221;, brincou a influenciadora em um vídeo publicado durante a competição.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;O casal está junto desde o início deste ano e assumiu o relacionamento publicamente em abril, após aparecer em um jantar promovido pelo Barcelona. Segundo a modelo, &lt;a style="background-color: #ffffff;" href="https://www.cnnbrasil.com.br/pop/celebridades/quem-e-ines-garcia-namorada-de-yamal-conheca-a-influenciadora/" target="_blank" rel="noopener"&gt;eles se conheceram pelas redes sociais&lt;/a&gt;.&lt;/p&gt;
-&lt;blockquote class="wp-embedded-content" data-secret="JPyEWho9sT"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/entretenimento/confira-quem-sao-as-wags-mais-famosas-da-historia/"&gt;Confira quem são as WAGs mais famosas da história&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Confira quem são as WAGs mais famosas da história&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/entretenimento/confira-quem-sao-as-wags-mais-famosas-da-historia/embed/#?secret=Ql15FOfEjL#?secret=JPyEWho9sT" data-secret="JPyEWho9sT" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Sun, 19 Jul 2026 08:00:14 +0000</pubDate><guid>https://www.cnnbrasil.com.br/pop/celebridades/namorada-de-lamine-yamal-obrigou-jogador-a-ir-a-final-da-copa-entenda/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/pop/celebridades/namorada-de-lamine-yamal-obrigou-jogador-a-ir-a-final-da-copa-entenda/</guid></item><item><title>Reino Unido prepara maior treinamento de defesa interna em décadas</title><link>https://www.cnnbrasil.com.br/internacional/reino-unido-prepara-maior-treinamento-de-defesa-interna-em-decadas/</link><description>&lt;p&gt;O Reino Unido anunciou nesta terça-feira (14) que realizará, no próximo ano, seu maior exercício de defesa interna em décadas, visando testar sua capacidade de combater ameaças híbridas, como ataques cibernéticos, desinformação e sabotagem de infraestruturas críticas.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;O país e seus aliados europeus aceleraram rapidamente &lt;a href="https://www.cnnbrasil.com.br/internacional/reino-unido-adota-medidas-contra-a-guarda-revolucionaria-do-ira/"&gt;os preparativos de defesa&lt;/a&gt; desde a invasão da Ucrânia pela Rússia em 2022, com a Otan (Organização do Tratado do Atlântico Norte) alertando que Moscou poderia estar pronta para atacar a Europa até 2030. O governo britânico afirmou que a Rússia intensificou as ameaças híbridas — variando de ataques físicos e cibernéticos até a guerra de informação.&lt;/p&gt;
-&lt;p&gt;Embora o cenário do exercício seja mantido em sigilo, o governo informou que a iniciativa testará a prontidão do país para ataques híbridos e complementará um exercício de gestão de crises da Otan, projetado para avaliar como os aliados coordenam respostas políticas e militares a grandes crises de segurança.&lt;/p&gt;
-&lt;aside class="read-too read-too--with-img"&gt;
-            &lt;h2 class='read-too__title'&gt;Leia Mais&lt;/h2&gt;
-            &lt;ul class="read-too__list"&gt;
-        &lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/internacional/drones-ia-e-tinta-branca-europa-age-para-proteger-infraestrutura-do-calor/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportWorldNews/tagreuters.com2026binary_LYNXMPEM6E0VN-BASEIMAGE.jpg?w=200"
-                    alt="Drones, IA e tinta branca: Europa age para proteger infraestrutura do calor"
-                    title="Drones, IA e tinta branca: Europa age para proteger infraestrutura do calor'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Drones, IA e tinta branca: Europa age para proteger infraestrutura do calor&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/internacional/piloto-escreve-mensagem-no-ceu-durante-voo-estou-entediado/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/screenshot-2026-07-14-at-10-38-04-copy.avif?w=200"
-                    alt="Piloto escreve mensagem no céu durante voo: &amp;quot;Estou entediado&amp;quot;"
-                    title="Piloto escreve mensagem no céu durante voo: &amp;quot;Estou entediado&amp;quot;'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Piloto escreve mensagem no céu durante voo: &amp;quot;Estou entediado&amp;quot;&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/internacional/ue-e-ucrania-fecham-acordo-de-drones-para-aumentar-producao/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportWorldNews/tagreuters.com2026binary_LYNXMPEM6E0WV-BASEIMAGE.jpg?w=200"
-                    alt="UE e Ucrânia fecham “acordo de drones” para aumentar produção"
-                    title="UE e Ucrânia fecham “acordo de drones” para aumentar produção'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;UE e Ucrânia fecham “acordo de drones” para aumentar produção&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;    &lt;/ul&gt;
-&lt;/aside&gt;
+							&lt;span
+								class="video-play-button"
+								aria-label="Botão play do vídeo Trump acusa China de adquirir 220 milhões de registros de eleitores dos EUA; entenda | WW"
+							&gt;&lt;/span&gt;
 
-&lt;p&gt;O exercício, que durará vários dias, envolverá ministros e centenas de autoridades de todo o governo e do setor público, disse o Ministro de Relações Intergovernamentais Darren Jones na terça-feira.&lt;/p&gt;
-&lt;p&gt;O Reino Unido também atualizou sua lista oficial das maiores ameaças que enfrenta, &lt;a href="https://www.cnnbrasil.com.br/internacional/policia-do-reino-unido-diz-que-morte-de-ex-ministra-foi-ataque-direcionado/"&gt;incluindo tentativas de interferência na democracia&lt;/a&gt;, como interferência eleitoral, campanhas de desinformação ou operações de influência estrangeira.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;Ao todo, sete novos riscos foram adicionados, incluindo ataques cibernéticos a infraestruturas de dados, de abastecimento de água e de sistemas policiais, além de um risco de &amp;#8220;falha na resiliência digital&amp;#8221;, baseado nas lições aprendidas com a interrupção dos serviços da CrowdStrike em 2024, que paralisou mais de 8 milhões de computadores com sistema Windows em todo o mundo.&lt;/p&gt;
-&lt;p&gt;O governo também anunciou que lançará, ainda este ano, uma campanha nacional de conscientização pública para incentivar as famílias a se prepararem para emergências, como condições climáticas extremas, inundações e ataques cibernéticos.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Sun, 19 Jul 2026 08:00:10 +0000</pubDate><guid>https://www.cnnbrasil.com.br/internacional/reino-unido-prepara-maior-treinamento-de-defesa-interna-em-decadas/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/internacional/reino-unido-prepara-maior-treinamento-de-defesa-interna-em-decadas/</guid></item><item><title>Argentina x Espanha: O que passa na cabeça dos jogadores da final da Copa?</title><link>https://www.cnnbrasil.com.br/saude/argentina-x-espanha-o-que-passa-na-cabeca-dos-jogadores-de-final-da-copa/</link><description>&lt;p&gt;&lt;strong&gt;Argentina e Espanha entram em campo&lt;/strong&gt; na tarde deste domingo (19) pela&lt;strong&gt; final da Copa do Mundo de 2026&lt;/strong&gt;, nos Estados Unidos. Mas antes da bola rolar e da definição de quem será o grande campeão do Mundial, há uma &lt;strong&gt;&amp;#8220;partida invisível&amp;#8221; no cérebro de cada atleta que vai jogar a decisão. &lt;/strong&gt;&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;h2&gt;O que significa uma final de Copa do Mundo?&lt;/h2&gt;
-&lt;p&gt;A &lt;strong&gt;mente humana não interpreta uma final&lt;/strong&gt;, ainda mais desse nível, &lt;strong&gt;de forma neutra&lt;/strong&gt;. Ele a classifca como uma situação de &lt;strong&gt;ameaça, desafio ou até uma mistura dos dois.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Quando o jogador sente que os recursos físicos e técnicos não são mais suficientes, o atleta vive o momento como um&lt;strong&gt; desafio&lt;/strong&gt;, &lt;strong&gt;o que pode gerar energia e confiança&lt;/strong&gt;. Por outro lado, se as exigências dentro de campo parecerem maiores que as habilidades, &lt;strong&gt;o cérebro sinaliza &amp;#8220;ameaça&amp;#8221;, o que pode resultar em rigidez muscular e alguns pensamentos catastróficos. &lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Para entender melhor &lt;strong&gt;o que passa na cabeça de um jogador&lt;/strong&gt;, a &lt;strong&gt;CNN Brasil&lt;/strong&gt; ouviu especialistas em psicologia do esporte.&lt;/p&gt;
-&lt;p&gt;O Dr. João Ricardo Cozac, PHD em Psicologia do Esporte e presidente da Associação Paulista da Psicologia do Esporte, explica que &amp;#8220;sentir ansiedade antes de uma final não significa estar psicologicamente fraco. A ansiedade é uma resposta natural diante de algo que possui enorme importância. O problema não está simplesmente em sentir algo, mas sim na interpretação que o jogador faz dessa ativação&amp;#8221;.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Enquanto um atleta sente o coração acelerado&lt;/strong&gt; &lt;strong&gt;e pensa &amp;#8220;estou pronto para guerra&amp;#8221;&lt;/strong&gt;, outro pode interpretar o mesmo sinal como &lt;strong&gt;&amp;#8220;vou perder o controle&amp;#8221;.&lt;/strong&gt; A resposta fisiológica pode ser parecida, mas o significado psicológico atribuído a ela é&lt;strong&gt; capaz de modificar a experiência e o desempenho na final. &lt;/strong&gt;&lt;/p&gt;
-&lt;h2&gt;Motivação e foco: as horas antes da final&lt;/h2&gt;
-&lt;p&gt;Algumas horas antes da final, &lt;strong&gt;a amígdala cerebral&lt;/strong&gt;, &lt;strong&gt;&amp;#8220;o centro de detecção de perigos&amp;#8221;&lt;/strong&gt;, &lt;strong&gt;trabalha em um ritmo considerado como frenético&lt;/strong&gt;. Enquanto isso, o &lt;strong&gt;córtex pré-frontal&lt;/strong&gt; tenta manter o &lt;strong&gt;foco no jogo em si, nas táticas e nas instruções&lt;/strong&gt; que mais importam.&lt;/p&gt;
-&lt;p&gt;Nesse momento, o corpo é inundado por alguns hormônios. A &lt;strong&gt;adrenalina e a noradrenalina&lt;/strong&gt;, por exemplo, &lt;strong&gt;preparam os músculos para a explosão&lt;/strong&gt; e&lt;strong&gt; aumentam o fluxo sanguíneo. &lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Já o cortisol, frequentemente chamado de hormônio do estresse, &lt;strong&gt;não deve ser visto apenas como algo negativo&lt;/strong&gt;. Em níveis adequados, ele ajuda a &lt;strong&gt;mobilizar energia e a preparar o atleta para exigências extraordinárias&lt;/strong&gt;. De acordo com Cozac, estudos mostram que a resposta antecipatória do cortisol pode &lt;strong&gt;participar da preparação do organismo para a competição. &lt;/strong&gt;&lt;/p&gt;
+															&lt;span class="video-gradient"&gt;&lt;/span&gt;
+								&lt;span class="video-title"&gt;Trump acusa China de adquirir 220 milhões de registros de eleitores dos EUA; entenda | WW&lt;/span&gt;
+													&lt;/button&gt;
+					&lt;/div&gt;
+										&lt;span
+						class="embedded-video video-player-wrapper"
+						data-youtube-plcmt="1"
+						data-youtube-vpmute="0"
+						data-youtube-width="640px"
+						data-youtube-height="480px"
+						data-youtube-ui="internacional"
+						data-youtube-play="0"
+						data-youtube-mute="0"
+						data-youtube-id="HVtclBZsz-8"
+						data-youtube-vpa="click"
+						data-youtube-hl="pt"
+						data-youtube-position=""
+					&gt;&lt;/span&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;Na verdade, é apenas um pouco maior do que a de Joe Biden no final de seu mandato, quando as pesquisas da &lt;strong&gt;CNN&lt;/strong&gt; mostravam 11% de forte aprovação a Biden e as pesquisas da Reuters-Ipsos apontavam para 12%.&lt;/p&gt;
+&lt;p&gt;Os índices de forte aprovação de Obama ocasionalmente caíram para a casa dos 10% em seus momentos mais baixos, mas isso foi raro. De fato, aconteceu apenas uma vez em uma pesquisa do Washington Post-ABC, quando atingiu 18%. Obama geralmente ficava entre 25% e 30% — cerca do dobro do índice atual de Trump.&lt;/p&gt;
+&lt;p&gt;E os índices de forte aprovação de George W. Bush só caíram para a casa dos 15% em meados de seu sexto ano de mandato, em 2006. No final, algumas pesquisas mostraram que seu índice chegou a cair para um dígito.&lt;/p&gt;
+&lt;p&gt;Trump ainda não está tão em baixa. Mas esta é apenas a mais recente evidência de que sua base não é mais o que se pensava — ou, pelo menos, não o que costumava ser.&lt;/p&gt;
+&lt;p&gt;Há meses, pesquisas indicam que muitos republicanos desaprovam Trump em questões-chave, que um número crescente de seus eleitores reconsidera ou até se arrepende de seus votos para 2024 e que seu apoio entre os eleitores brancos da classe trabalhadora também está diminuindo.&lt;/p&gt;
+&lt;p&gt;Mas, sem dúvida, o que mais importa é o número de pessoas que dizem gostar do que ele está fazendo. E essa é uma parcela ínfima do público americano atualmente.&lt;/p&gt;
+&lt;blockquote class="wp-embedded-content" data-secret="ollT0pmjC3"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/internacional/trump-publica-imagem-de-nota-de-us-100-com-o-proprio-rosto/"&gt;Trump publica imagem de nota de US$ 100 com o próprio rosto&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Trump publica imagem de nota de US$ 100 com o próprio rosto&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/internacional/trump-publica-imagem-de-nota-de-us-100-com-o-proprio-rosto/embed/#?secret=TnUEm8rfEg#?secret=ollT0pmjC3" data-secret="ollT0pmjC3" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;A dopamina também faz parte do momento&lt;/strong&gt;. Ela ativa a motivação pela vitória e pela taça, &lt;strong&gt;mas pode trazer o risco de fazer com que o jogador se projete demais no futuro.&lt;/strong&gt; O jogador começa a imaginar a taça, a comemoração, a entrevista, a repercussão ou a dor de perder. Quando isso acontece, ele &lt;strong&gt;deixa de estar inteiramente conectado às tarefas do presente.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Assim, o objetivo não é a calma absoluta, mas o que os especialistas chamam de&lt;strong&gt; zona funcional&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;Essas alterações não ocorrem da mesma maneira em todos os jogadores. Alguns sentem necessidade de falar, brincar e se movimentar. Outros ficam mais silenciosos e introspectivos. Alguns apresentam náusea, vontade de ir ao banheiro, dificuldade para comer ou alterações no sono. Essas reações não permitem concluir, isoladamente, que um atleta está despreparado. Cada jogador possui uma forma particular de responder à pressão&amp;#8221;, explica o especialista.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cnnbrasil.com.br/saude/por-que-as-pernas-de-jude-bellingham-estao-explodindo-na-copa-do-mundo/" target="_blank" rel="noopener"&gt;&lt;strong&gt;Por que as pernas de Jude Bellingham estão &amp;#8220;explodindo&amp;#8221; na Copa do Mundo&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Mas qual o perigo de pensar muito?&lt;/h2&gt;
-&lt;p&gt;Um dos&lt;strong&gt; maiores riscos&lt;/strong&gt; para os craques de &lt;strong&gt;Espanha e Argentina&lt;/strong&gt; que estarão em campo &lt;strong&gt;é o chamado &amp;#8220;reinvestimento consciente&amp;#8221;&lt;/strong&gt;. Habilidades motoras, como um passe de primeira, são automáticas para &lt;strong&gt;atletas de elite. &lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;No entanto, sob pressão, &lt;strong&gt;o jogador pode tentar controlar conscientimente o movimento&lt;/strong&gt;, o que &lt;strong&gt;quebra a fluidez&lt;/strong&gt; e causa o &lt;strong&gt;&amp;#8220;bloqueio sob pressão&amp;#8221;&lt;/strong&gt; ou o termo conhecido como &lt;strong&gt;&amp;#8220;choking&amp;#8221;&lt;/strong&gt;. É como se o atleta começasse a dar &lt;strong&gt;instruções para o próprio corpo&lt;/strong&gt; durante uma &lt;strong&gt;ação que já sabe executar.&lt;/strong&gt; Ele pensa na posição do pé, na inclinação do tronco, na força e na direção enquanto o movimento acontece.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Sun, 19 Jul 2026 13:00:50 +0000</pubDate><guid>https://www.cnnbrasil.com.br/internacional/analise-base-devota-de-donald-trump-esta-desaparecendo/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/internacional/analise-base-devota-de-donald-trump-esta-desaparecendo/</guid></item><item><title>Copa de 2026 pode deixar legado para o futebol com mudanças nas regras</title><link>https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/copa-de-2026-pode-deixar-legado-para-o-futebol-com-mudancas-nas-regras/</link><description>&lt;p&gt;A Copa do Mundo de 2026 pode deixar um legado além do campeão. O torneio nos Estados Unidos, México e Canadá foi o primeiro grande palco para uma série de mudanças aprovadas pela International Football Association Board (IFAB), entidade que define as regras do futebol. E essas mudanças podem ter impacto em diversas ligas do planeta, incluindo o Brasil.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;As novas normas têm um objetivo principal: aumentar o tempo de bola rolando, reduzir a cera e melhorar o comportamento dos jogadores dentro de campo.&lt;/p&gt;
+&lt;p&gt;Entre as &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/copa-do-mundo-entenda-novas-regras-que-serao-implementadas-pelos-arbitros/" target="_blank" rel="noopener" data-textassist="true"&gt;principais novidades estão&lt;/a&gt; limite para cobranças, mudanças nas substituições, novas possibilidades para o VAR e punições mais duras para atitudes consideradas inadequadas.&lt;/p&gt;
 &lt;aside class="read-too read-too--with-img"&gt;
             &lt;h2 class='read-too__title'&gt;Leia Mais&lt;/h2&gt;
             &lt;ul class="read-too__list"&gt;
         &lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/saude/por-que-as-pernas-de-jude-bellingham-estao-explodindo-na-copa-do-mundo/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/copa-do-mundo-aplica-novas-regras-anti-cera-e-mudancas-de-var-entenda/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/CRIANCA-RESGATADA-APARTAMENTO-1.png?w=200"
-                    alt="Por que as pernas de Jude Bellingham estão &amp;quot;explodindo&amp;quot; na Copa do Mundo"
-                    title="Por que as pernas de Jude Bellingham estão &amp;quot;explodindo&amp;quot; na Copa do Mundo'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/03/pedro-neto-chelsea-arsenal-premier-league-e1773415901570.jpg?w=200"
+                    alt="Copa do Mundo aplica novas regras anti-cera e mudanças de VAR; entenda"
+                    title="Copa do Mundo aplica novas regras anti-cera e mudanças de VAR; entenda'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;Por que as pernas de Jude Bellingham estão &amp;quot;explodindo&amp;quot; na Copa do Mundo&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;Copa do Mundo aplica novas regras anti-cera e mudanças de VAR; entenda&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/ciencia/guaxinim-de-haaland-o-que-e-taxidermia-tecnica-usada-em-animal-do-jogador/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/conheca-cinco-novidades-para-a-copa-do-mundo-de-2026/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/SaveClip.App_747832663_18484534261098222_3802187299012395869_n-e1783977919933.jpg?w=200"
-                    alt="Guaxinim de Haaland: o que é taxidermia, técnica usada em animal do jogador"
-                    title="Guaxinim de Haaland: o que é taxidermia, técnica usada em animal do jogador'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/Fifa-anuncia-mudancas-na-entrada-das-selecoes-para-a-Copa.jpg?w=200"
+                    alt="Conheça cinco novidades para a Copa do Mundo de 2026"
+                    title="Conheça cinco novidades para a Copa do Mundo de 2026'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;Guaxinim de Haaland: o que é taxidermia, técnica usada em animal do jogador&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;Conheça cinco novidades para a Copa do Mundo de 2026&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/saude/penteados-de-haaland-podem-causar-queda-de-cabelo-entenda/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/var-fifa-adota-medida-inedita-em-franca-x-marrocos-pelas-quartas-de-final/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/haaland-e1782178264186.jpeg?w=200"
-                    alt="Penteados de Haaland podem causar queda de cabelo? Entenda"
-                    title="Penteados de Haaland podem causar queda de cabelo? Entenda'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/Fifa-Copa-Arbitro-e1781011704355.jpg?w=200"
+                    alt="VAR: Fifa adota medida inédita em França x Marrocos pelas quartas de final"
+                    title="VAR: Fifa adota medida inédita em França x Marrocos pelas quartas de final'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;Penteados de Haaland podem causar queda de cabelo? Entenda&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;VAR: Fifa adota medida inédita em França x Marrocos pelas quartas de final&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;    &lt;/ul&gt;
 &lt;/aside&gt;
 
-&lt;p&gt;&amp;#8220;Nos momentos decisivos, as orientações precisam ser simples, concretas e relacionadas à tarefa. Em vez de pensar em todas as partes do movimento, o jogador pode direcionar a atenção para um alvo, um espaço do campo, o ritmo da respiração ou uma palavra chave previamente treinada. Sob pressão extrema, menos informação costuma ser mais eficiente&amp;#8221;, afirma Cozac.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cnnbrasil.com.br/saude/fome-de-gol-haaland-toma-leite-cru-em-dieta-de-6-mil-calorias-veja-riscos/" target="_blank" rel="noopener"&gt;&lt;strong&gt;Fome de gol: Haaland toma leite cru em dieta de 6 mil calorias; veja riscos&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;A ousadia de Yamal e a experiência de Messi&lt;/h2&gt;
-&lt;p&gt;A &lt;strong&gt;final da Copa do Mundo de 2026&lt;/strong&gt; apresenta um duelo geracional.&lt;strong&gt; Lamine Yamal,&lt;/strong&gt; de apenas 19 anos, &lt;strong&gt;possui um cérebro&lt;/strong&gt; ainda em amadurecimento em circuitos de &lt;strong&gt;regulação emocional&lt;/strong&gt; e &lt;strong&gt;avaliação de consequências. &lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Isso pode torná-lo mais impulsivo mas também lhe dá uma certa &amp;#8220;proteção&amp;#8221;: &lt;strong&gt;a capacidade de jogar de forma lúdica e ousada&lt;/strong&gt;, &lt;strong&gt;sem o peso de traumas passados. &lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Já Messi&lt;/strong&gt;, veterano de 39 anos, já tem um repertório de enfrentamento mais amplo, mas lida com o&lt;strong&gt; &amp;#8220;senso de urgência&amp;#8221; de ser a última chance de jogar uma Copa,&lt;/strong&gt; o que pode &lt;strong&gt;aumentar&lt;/strong&gt; o&lt;strong&gt; peso emocional da partida. &lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&amp;#8220;Idade e experiência produzem vantagens e vulnerabilidades diferentes. O jovem pode ter espontaneidade, mas ainda precisar de apoio para administrar a exposição. O veterano pode ter maior capacidade de regulação, mas carregar mais memórias, expectativas e senso de urgência. O mais importante é compreender o funcionamento psicológico individual de cada jogador, e não partir de estereótipos sobre juventude ou experiência&amp;#8221;, explica o especialista.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cnnbrasil.com.br/saude/diarreia-explosiva-durante-copa-do-mundo-nos-eua-o-que-explica-surto/" target="_blank" rel="noopener"&gt;&lt;strong&gt;Diarreia “explosiva” durante Copa do Mundo nos EUA: o que explica surto?&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Disputal de pênaltis, a fábrica de criar vilões&lt;/h2&gt;
-&lt;p&gt;Se a decisão entre &lt;strong&gt;Argentina e Espanha for para a disputa de pênaltis&lt;/strong&gt;, o cérebro dos jogadores pode enfrentar um m&lt;strong&gt;omento de auge da solidão&lt;/strong&gt;. Durante alguns segundos, a responsabilidade fica concentrada em um único jogador. O cérebro percebe que aquele gesto &lt;strong&gt;será observado, avaliado e lembrado por milhões de pessoas.&lt;/strong&gt; Isso aumenta a &lt;strong&gt;autoconsciência e a sensação de ameaça social.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;A frequência cardíaca pode subir, &lt;strong&gt;a respiração tende a ficar mais curta e a tensão muscular pode aumentar.&lt;/strong&gt; O jogador também pode sentir uma alteração subjetiva do tempo. Para alguns, tudo parece &lt;strong&gt;acontecer rapidamente&lt;/strong&gt;. Para outros, &lt;strong&gt;a caminhada parece interminável.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Pensamentos sobre o resultado, o goleiro, a torcida e as consequências da cobrança podem disputar espaço com as informações importantes para a execução.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cnnbrasil.com.br/saude/copa-do-mundo-emocao-com-jogos-pode-ser-gatilho-mortal-para-saude/" target="_blank" rel="noopener"&gt;&lt;strong&gt;Copa do Mundo: emoção com jogos pode ser gatilho mortal para saúde&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Segundo Cozac, o cobrador deve chegar ao pênalti com uma&lt;strong&gt; rotina previamente treinada.&lt;/strong&gt; Essa rotina pode incluir uma respiração mais longa, a definição clara do alvo, uma palavra de comando, a estabilização do olhar e o compromisso com a decisão tomada. &lt;strong&gt;&amp;#8220;Não se trata de eliminar o nervosismo. Trata-se de impedir que o nervosismo desorganize a sequência de ações&amp;#8221;, afirma. &lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;A preparação envolve o treinamento do &lt;strong&gt;&amp;#8220;olhar quieto&amp;#8221;, que consiste em &lt;/strong&gt;estabilizar a visão no alvo antes da execução para garantir o controle visuomotor. O especialista ainda ressalta que a chave para os grandes batedores &lt;strong&gt;não é a ausência de medo&lt;/strong&gt;. De acordo com Cozac, &lt;strong&gt;&amp;#8220;a diferença fundamental está menos na ausência de ansiedade e mais na capacidade de não entregar a ela o comando do corpo&amp;#8221;. &lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cnnbrasil.com.br/saude/por-que-a-copa-do-mundo-nos-emociona-tanto-psicologa-explica/" target="_blank" rel="noopener"&gt;&lt;strong&gt;Por que a Copa do Mundo nos emociona tanto? Psicóloga explica&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;A mente humana pode ser &lt;strong&gt;aliada ou vilã&lt;/strong&gt; &lt;strong&gt;em momentos decisivos&lt;/strong&gt; como na &lt;strong&gt;final da Copa do Mundo de 2026.&lt;/strong&gt; No entanto, o &lt;strong&gt;desempenho individual depende também do ambiente coletivo&lt;/strong&gt;. Atletas que se sentem seguros e apoiados pelo grupo &lt;strong&gt;assumem riscos com maior liberdade&lt;/strong&gt;. Já aqueles que temem ser o &lt;strong&gt;&amp;#8220;bode expiatório&amp;#8221;&lt;/strong&gt; de uma derrota tendem a&lt;strong&gt; jogar de forma rígida e consevadora&lt;/strong&gt;, o que os faz jogarem para&lt;strong&gt; &amp;#8220;não errar&amp;#8221;&lt;/strong&gt; em &lt;strong&gt;vez de jogar para vencer. &lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Agora, resta saber quem está mais preparado psicologicamente para a decisão e &lt;strong&gt;será o grande campeão da maior competição de seleções do mundo. &lt;/strong&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Sun, 19 Jul 2026 08:00:04 +0000</pubDate><guid>https://www.cnnbrasil.com.br/saude/argentina-x-espanha-o-que-passa-na-cabeca-dos-jogadores-de-final-da-copa/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/saude/argentina-x-espanha-o-que-passa-na-cabeca-dos-jogadores-de-final-da-copa/</guid></item><item><title>Mega-Sena 3033: sorteio deste domingo (18) pode pagar R$ 35 milhões</title><link>https://www.cnnbrasil.com.br/economia/loterias/mega-sena-3033/</link><description>&lt;p&gt;A Caixa Econômica Federal realiza neste domingo (19) o concurso &lt;strong&gt;3033&lt;/strong&gt; da &lt;strong&gt;Mega-Sena&lt;/strong&gt;.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;&lt;a href="https://www.itatiaia.com.br/brasil/brasil-geral/resultado-mega-sena-3032-veja-cidades-das-apostas-premiadas-no-sorteio/"&gt;Sem vencedores na quinta-feira (16)&lt;/a&gt;, a loteria acumulou e o &lt;a href="https://loterias.caixa.gov.br/Paginas/Mega-Sena.aspx" target="_blank" rel="noopener"&gt;prêmio máximo pode pagar R$ 35 milhões&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;O sorteio é o primeiro a ser realizado sob o &lt;a href="https://www.cnnbrasil.com.br/economia/loterias/caixa-economica-altera-dia-de-sorteio-da-mega-sena-e-loterias-federais/"&gt;novo cronograma da Caixa&lt;/a&gt;. Agora, as apostas de todas as loterias que tiveram seus cronogramas alterados devem ser feitas até as 22h do sábado anterior. Já a venda de bolões pela internet será encerrada 15 minutos antes do concurso.&lt;/p&gt;
-&lt;p&gt;A Mega-Sena é sorteada no Espaço da Sorte, localizado na Avenida Paulista, e será transmitida ao vivo pelas redes sociais da &lt;a href="https://www.youtube.com/channel/UCPbhr02AfVb2nd5pm12BxTw" target="_blank" rel="noopener"&gt;Caixa&lt;/a&gt;.&lt;/p&gt;
-&lt;aside class="read-too read-too--with-img"&gt;
-            &lt;h2 class='read-too__title'&gt;Leia Mais&lt;/h2&gt;
-            &lt;ul class="read-too__list"&gt;
-        &lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/economia/financas/ibge-inscricoes-para-concurso-com-mais-de-14-mil-vagas-sao-prorrogadas/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/01/b787f436-bd82-47c2-a531-41c72acc3f4a.jpeg?w=200"
-                    alt="IBGE: Inscrições para concurso com mais de 1,4 mil vagas são prorrogadas"
-                    title="IBGE: Inscrições para concurso com mais de 1,4 mil vagas são prorrogadas'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;IBGE: Inscrições para concurso com mais de 1,4 mil vagas são prorrogadas&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/economia/financas/dono-de-cartorio-e-atleta-estao-entre-profissoes-com-maior-patrimonio/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/08/28049_EEA1E18ED02C28AC-3.jpg?w=200"
-                    alt="Dono de cartório e atleta estão entre profissões com maior patrimônio"
-                    title="Dono de cartório e atleta estão entre profissões com maior patrimônio'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;Dono de cartório e atleta estão entre profissões com maior patrimônio&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/economia/financas/pix-pensao-alimenticia-veja-como-sera-a-cobranca-automatica-do-devedor/" target="_self"&gt;
-                    &lt;picture class="read-too__picture"&gt;
-                &lt;img decoding="async"
-                    class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2022/03/pix_02-e1737061183644.jpg?w=200"
-                    alt="&amp;quot;Pix Pensão Alimentícia&amp;quot;: Veja como será a cobrança automática do devedor"
-                    title="&amp;quot;Pix Pensão Alimentícia&amp;quot;: Veja como será a cobrança automática do devedor'"
-                    loading="lazy"
-                &gt;
-            &lt;/picture&gt;
-                    
-        &lt;h3 class="read-too__post-title"&gt;&amp;quot;Pix Pensão Alimentícia&amp;quot;: Veja como será a cobrança automática do devedor&lt;/h3&gt;
-    &lt;/a&gt;
-&lt;/li&gt;    &lt;/ul&gt;
-&lt;/aside&gt;
-
-&lt;h2&gt;Como apostar&lt;/h2&gt;
-&lt;p&gt;Para concorrer, os apostadores podem registrar seus jogos até uma hora antes do sorteio, às 20h, em qualquer casa lotérica credenciada pela Caixa, pelo site ou aplicativo do banco. O bilhete simples, com seis números marcados, &lt;a href="https://www.cnnbrasil.com.br/economia/loterias/precos-das-apostas-das-loterias-caixa-aumentam-a-partir-desta-quarta/"&gt;custa R$ 6&lt;/a&gt;.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;Para os jogos feitos pelo site da Caixa, o valor mínimo para apostar na Mega-Sena é de R$ 30, seja para uma única aposta ou mais.&lt;/p&gt;
-&lt;p&gt;Para fazer uma aposta maior, com sete números, o preço sobe para R$ 35. A seguir, confira os valores para se jogar e probabilidades de ganhar a Mega-Sena:&lt;/p&gt;
-&lt;div class="flourish-embed flourish-table" data-src="visualisation/26661015"&gt;&lt;script src="https://public.flourish.studio/resources/embed.js"&gt;&lt;/script&gt;&lt;noscript&gt;&lt;img decoding="async" src="https://public.flourish.studio/visualisation/26661015/thumbnail" width="100%" alt="table visualization" /&gt;&lt;/noscript&gt;&lt;/div&gt;
-&lt;h3&gt;Bolão&lt;/h3&gt;
-&lt;p&gt;Uma forma de apostar na Mega-Sena, além dos jogos individuais, é formar um grupo para escolher os números, &lt;a href="https://www.cnnbrasil.com.br/economia/loterias/boloes-aumentam-chance-de-ganhar-mega-da-virada-saiba-como-fazer/"&gt;o chamado bolão&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Ao ser registrada no sistema, a aposta gera um recibo de cota para cada participante, que pode resgatar a sua parte do prêmio individualmente.&lt;/p&gt;
-&lt;p&gt;Os bolões têm valor mínimo de R$ 15 e cada cota deve ser de pelo menos R$ 6, sendo possível realizar um bolão de no mínimo duas e no máximo 100 cotas.&lt;/p&gt;
-&lt;p&gt;O apostador também pode adquirir cotas de bolões organizados pelas lotéricas. Basta solicitar ao atendente a quantidade de cotas que deseja e guardar o recibo para conferir a aposta no dia do sorteio.&lt;/p&gt;
-&lt;p&gt;Nesse caso, poderá ser cobrada uma tarifa de serviço adicional de até 35% do valor da cota, a critério da lotérica.&lt;/p&gt;
-&lt;p&gt;
-&lt;div class="post__video"&gt;
-	&lt;div class="cnn component-video has--live"&gt;
-		&lt;div class="component-inner"&gt;
-			&lt;div
-				id="player_economia_YIQQqb6KXnE"
-				class="video-wrapper "
-			&gt;
-				&lt;div class="video-wrapper-inner"&gt;
-										&lt;div class="overlay-wrapper"&gt;
-						&lt;button
-							class="video-button js-video-play active"
-							aria-label="Assista o vídeo Comprometimento de renda das famílias foi gradativo, diz pesquisadora | MONEY NEWS"
-							tabindex="0"
-						&gt;
-							&lt;img
-								class="thumbnail-image"
-								src="https://img.youtube.com/vi/YIQQqb6KXnE/sddefault.jpg"
-                                srcset="https://img.youtube.com/vi/YIQQqb6KXnE/default.jpg 120w,
-                    https://img.youtube.com/vi/YIQQqb6KXnE/mqdefault.jpg 320w,
-                    https://img.youtube.com/vi/YIQQqb6KXnE/hqdefault.jpg 480w,
-                    https://img.youtube.com/vi/YIQQqb6KXnE/sddefault.jpg 640w,
-                    https://img.youtube.com/vi/YIQQqb6KXnE/maxresdefault.jpg 1280w"
-								alt="Comprometimento de renda das famílias foi gradativo, diz pesquisadora | MONEY NEWS"
-							/&gt;
-
-							&lt;span
-								class="video-play-button"
-								aria-label="Botão play do vídeo Comprometimento de renda das famílias foi gradativo, diz pesquisadora | MONEY NEWS"
-							&gt;&lt;/span&gt;
-
-															&lt;span class="video-gradient"&gt;&lt;/span&gt;
-								&lt;span class="video-title"&gt;Comprometimento de renda das famílias foi gradativo, diz pesquisadora | MONEY NEWS&lt;/span&gt;
-													&lt;/button&gt;
-					&lt;/div&gt;
-										&lt;span
-						class="embedded-video video-player-wrapper"
-						data-youtube-plcmt="1"
-						data-youtube-vpmute="0"
-						data-youtube-width="640px"
-						data-youtube-height="480px"
-						data-youtube-ui="economia"
-						data-youtube-play="0"
-						data-youtube-mute="0"
-						data-youtube-id="YIQQqb6KXnE"
-						data-youtube-vpa="click"
-						data-youtube-hl="pt"
-						data-youtube-position=""
-					&gt;&lt;/span&gt;
-				&lt;/div&gt;
-			&lt;/div&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-&lt;/iframe&gt;&lt;/p&gt;
-&lt;h2&gt;Premiação&lt;/h2&gt;
-&lt;p&gt;O prêmio bruto corresponde a 43,35% da arrecadação. Dessa porcentagem:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.cnnbrasil.com.br/economia/financas/mega-sena-passa-a-ter-premio-maior-com-nova-regra-entenda/"&gt;45% são distribuídos entre os acertadores dos 6 números sorteados (Sena)&lt;/a&gt;;&lt;/li&gt;
-&lt;li&gt;13% entre os acertadores de 5 números (Quina);&lt;/li&gt;
-&lt;li&gt;15% entre os acertadores de 4 números (Quadra);&lt;/li&gt;
-&lt;li&gt;17% ficam acumulados e são distribuídos aos acertadores dos 6 números nos concursos de final 0 ou 5;&lt;/li&gt;
-&lt;li&gt;10% ficam acumulados para a primeira faixa — sena — do último concurso do ano de final 0 ou 5 (Mega da Virada).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Não havendo acertador em qualquer faixa, o valor acumula para o concurso seguinte, na respectiva faixa de premiação.&lt;/p&gt;
-&lt;p&gt;Os prêmios prescrevem 90 dias após a data do sorteio. Após esse prazo, os valores são repassados ao Tesouro Nacional para aplicação no Fies (Fundo de Financiamento ao Estudante do Ensino Superior).&lt;/p&gt;
-&lt;blockquote class="wp-embedded-content" data-secret="R9Q7lUmZIf"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/economia/fa-brasileiro-gasta-r-200-por-mes-com-idolos-e-marcas-diz-pesquisa/"&gt;Fã brasileiro gasta R$ 200 por mês com ídolos e marcas, diz pesquisa&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Fã brasileiro gasta R$ 200 por mês com ídolos e marcas, diz pesquisa&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/economia/fa-brasileiro-gasta-r-200-por-mes-com-idolos-e-marcas-diz-pesquisa/embed/#?secret=pgOvEdgb0v#?secret=R9Q7lUmZIf" data-secret="R9Q7lUmZIf" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Sun, 19 Jul 2026 07:00:59 +0000</pubDate><guid>https://www.cnnbrasil.com.br/economia/loterias/mega-sena-3033/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/economia/loterias/mega-sena-3033/</guid></item><item><title>Quem é Antonela Roccuzzo? Conheça esposa do jogador argentino Lionel Messi</title><link>https://www.cnnbrasil.com.br/pop/celebridades/quem-e-antonela-roccuzzo-conheca-esposa-do-jogador-argentino-lionel-messi/</link><description>&lt;p&gt;A modelo, empreendedora e influenciadora digital &lt;strong&gt;Antonela Roccuzzo&lt;/strong&gt;, 38, tem chamado atenção em meio à &lt;strong&gt;Copa do Mundo 2026&lt;/strong&gt;. Casada com o jogador da Argentina Lionel Messi, 39, ela já conhecia o astro do futebol desde a infância.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;Antonela é uma das &lt;strong&gt;WAGs (“esposas e namoradas”)&lt;/strong&gt; mais famosas do mundo esportivo. Isso porque, além de ser casada com um dos maiores jogadores do futebol do mundo, o casal é resultado de uma história de amor digna de filme.&lt;/p&gt;
+&lt;h2&gt;Cinco segundos para laterais e tiros de meta&lt;/h2&gt;
+&lt;p&gt;Para evitar atrasos, árbitros podem iniciar uma contagem de cinco segundos para cobranças de lateral e tiros de meta quando identificarem uma demora proposital.&lt;/p&gt;
+&lt;p&gt;Caso o tempo seja ultrapassado, a posse poderá ser entregue ao adversário. Nos tiros de meta, o rival poderá ganhar um escanteio. A medida tenta impedir que equipes usem essas situações para controlar o relógio.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;h2&gt;Substituições terão limite de 10 segundos&lt;/h2&gt;
+&lt;p&gt;Jogadores substituídos terão apenas 10 segundos para deixar o gramado e deverão sair pelo ponto mais próximo.&lt;/p&gt;
+&lt;p&gt;Se ultrapassarem o tempo, o atleta ainda precisará sair, mas o substituto só poderá entrar após a próxima paralisação depois de um minuto de jogo. A regra busca acabar com a tradicional demora nas substituições nos minutos finais das partidas.&lt;/p&gt;
+&lt;h2&gt;Cartão vermelho para quem cobrir a boca em discussões&lt;/h2&gt;
+&lt;p&gt;Uma das mudanças mais polêmicas envolve confrontos entre jogadores. Atletas que cobriram a boca com a mão, braço ou camisa durante uma discussão receberam cartão vermelho.&lt;/p&gt;
+&lt;p&gt;A Fifa afirma que a medida busca combater possíveis ofensas e comportamentos inadequados. Conversas normais entre jogadores não serão punidas. Ela é informalmente chamada de &amp;#8220;Protocolo Vini Jr.&amp;#8221;, ou &amp;#8220;Lei Vini Jr.&amp;#8221;. O nome se dá por conta de um episódio de racismo envolvendo o jogador brasileiro em jogo do Real Madrid contra o Benfica, pela Champions League, no ano passado.&lt;/p&gt;
+&lt;h2&gt;Atendimento médico terá nova regra&lt;/h2&gt;
+&lt;p&gt;Jogadores atendidos dentro do campo ou envolvidos em paralisações por lesão deverão permanecem fora por um minuto após o reinício da partida.&lt;/p&gt;
+&lt;p&gt;A intenção é evitar que atendimentos sejam utilizados como estratégia para quebrar o ritmo do adversário.&lt;/p&gt;
+&lt;h2&gt;VAR terá mais poder de ação&lt;/h2&gt;
+&lt;p&gt;A &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/da-tatica-ao-var-como-a-ia-promete-inovar-na-copa-do-mundo-de-2026/" target="_blank" rel="noopener" data-textassist="true"&gt;tecnologia também foi ampliada&lt;/a&gt; na Copa. O VAR pode auxiliar em situações como &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/quantos-amarelos-suspendem-um-jogador-na-copa-do-mundo-2026/" target="_blank" rel="noopener" data-textassist="true"&gt;segundo cartão amarelo aplicado&lt;/a&gt; de forma claramente errada, punição ao jogador equivocado e escanteios marcados incorretamente.&lt;/p&gt;
+&lt;p&gt;O sistema também poderá revisar infrações antes de cobranças de escanteios e faltas quando houver impacto direto em gols, pênaltis ou cartões.&lt;/p&gt;
+&lt;h2&gt;Fifa quer acabar com reuniões durante lesões de goleiros&lt;/h2&gt;
+&lt;p&gt;Outra mudança envolve um hábito recente: jogadores indo até a área técnica enquanto o goleiro recebe atendimento.&lt;/p&gt;
+&lt;p&gt;A orientação será impedir que atletas usem esse momento para conversar com treinadores e receber instruções. A Fifa entende que as lesões dos goleiros não podem se transformar em um &amp;#8220;tempo técnico&amp;#8221; informal.&lt;/p&gt;
+&lt;blockquote class="wp-embedded-content" data-secret="n6bSRGihss"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/esportes/veja-o-ranking-dos-elencos-mais-valiosos-da-copa-do-mundo/"&gt;Veja o ranking dos elencos mais valiosos da Copa do Mundo&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Veja o ranking dos elencos mais valiosos da Copa do Mundo&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/esportes/veja-o-ranking-dos-elencos-mais-valiosos-da-copa-do-mundo/embed/#?secret=87UocUvKeI#?secret=n6bSRGihss" data-secret="n6bSRGihss" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Sun, 19 Jul 2026 13:00:43 +0000</pubDate><guid>https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/copa-de-2026-pode-deixar-legado-para-o-futebol-com-mudancas-nas-regras/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/copa-de-2026-pode-deixar-legado-para-o-futebol-com-mudancas-nas-regras/</guid></item><item><title>Regra dos 10 minutos: o método simples para vencer a procrastinação</title><link>https://www.cnnbrasil.com.br/lifestyle/regra-dos-10-minutos-o-metodo-simples-para-vencer-a-procrastinacao/</link><description>&lt;p&gt;A constante necessidade de checar o celular, rolar o feed das redes sociais ou ceder a qualquer outra interrupção tornou-se um dos maiores obstáculos para a produtividade na era digital. Essa fragmentação crônica da atenção prejudica não apenas o rendimento diário, mas também a capacidade de executar trabalhos que exigem concentração profunda e contínua.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;Frequentemente rotulada de forma equivocada como &amp;#8220;preguiça&amp;#8221; ou falha no gerenciamento do relógio, a ciência do comportamento aponta que a procrastinação é, na sua raiz, um problema de regulação emocional.&lt;/p&gt;
 &lt;aside class="read-too read-too--with-img"&gt;
             &lt;h2 class='read-too__title'&gt;Leia mais&lt;/h2&gt;
             &lt;ul class="read-too__list"&gt;
         &lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/pop/celebridades/esposa-de-messi-celebra-avanco-da-argentina-para-final-da-copa-do-mundo/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/lifestyle/o-que-acontece-com-seu-corpo-quando-voce-passa-uma-semana-sem-redes-sociais/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/esposa-de-nessi-comemora-argentina-na-final-da-copa.png?w=200"
-                    alt="Esposa de Messi celebra avanço da Argentina para final da Copa do Mundo"
-                    title="Esposa de Messi celebra avanço da Argentina para final da Copa do Mundo'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/6375.jpg?w=200"
+                    alt="O que acontece com seu corpo quando você passa uma semana sem redes sociais"
+                    title="O que acontece com seu corpo quando você passa uma semana sem redes sociais'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;Esposa de Messi celebra avanço da Argentina para final da Copa do Mundo&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;O que acontece com seu corpo quando você passa uma semana sem redes sociais&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/pop/celebridades/confira-quem-sao-as-wags-mais-famosas-da-historia/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/lifestyle/produtividade-toxica-gera-exaustao-e-danos-a-saude-mental-dizem-estudos/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/wags.png?w=200"
-                    alt="Confira quem são as WAGs mais famosas da história"
-                    title="Confira quem são as WAGs mais famosas da história'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/03/sobrecarga-mulher-saude-exaustao.jpg?w=200"
+                    alt="Produtividade tóxica gera exaustão e danos à saúde mental, dizem estudos"
+                    title="Produtividade tóxica gera exaustão e danos à saúde mental, dizem estudos'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;Confira quem são as WAGs mais famosas da história&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;Produtividade tóxica gera exaustão e danos à saúde mental, dizem estudos&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/pop/celebridades/bruna-biancardi-e-uma-wag-entenda-o-que-significa-o-termo-viral/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/lifestyle/sete-dias-sem-celular-o-desafio-que-revelou-meu-segundo-cerebro/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/1-neymar-jr-bruna-biancardi.jpg?w=200"
-                    alt="Bruna Biancardi é uma WAG? Entenda o que significa o termo viral"
-                    title="Bruna Biancardi é uma WAG? Entenda o que significa o termo viral'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/cnn.jpg?w=200"
+                    alt="Sete dias sem celular: o desafio que revelou meu “segundo cérebro”"
+                    title="Sete dias sem celular: o desafio que revelou meu “segundo cérebro”'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;Bruna Biancardi é uma WAG? Entenda o que significa o termo viral&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;Sete dias sem celular: o desafio que revelou meu “segundo cérebro”&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;    &lt;/ul&gt;
 &lt;/aside&gt;
 
-&lt;h2&gt;Quem é Antonela Roccuzzo?&lt;/h2&gt;
-&lt;p&gt;A &lt;a href="https://www.cnnbrasil.com.br/pop/celebridades/esposa-de-messi-celebra-avanco-da-argentina-para-final-da-copa-do-mundo/" target="_blank" rel="noopener" data-textassist="true"&gt;esposa de Lionel Messi&lt;/a&gt; se consolidou como influenciadora digital na Argentina. Ela também é embaixadora de diversas organizações filantrópicas, como o Unicef (Fundo das Nações Unidas para a Infância) e as Olimpíadas Especiais.&lt;/p&gt;
-&lt;p&gt;A influenciadora nasceu e cresceu na Argentina, mas tem ascendência italiana. Ela compartilha parte da sua rotina nas redes sociais e é mãe de três filhos ao lado de Messi: Thiago, 13, Mateo, 10, e Ciro, 8.&lt;/p&gt;
-&lt;h2&gt;História de amor&lt;/h2&gt;
-&lt;p&gt;Além de estarem casados há quase 10 anos, &lt;a href="https://www.cnnbrasil.com.br/pop/celebridades/confira-quem-sao-as-wags-mais-famosas-da-historia/" target="_blank" rel="noopener"&gt;Antonela Roccuzzo e Lionel Messi&lt;/a&gt; carregam uma linda história de amor. Os dois se conheceram ainda na infância, na cidade de Rosário, quando tinham cerca de 7 anos.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;Eles foram apresentados pelo primo da modelo, Lucas Scaglia, que jogava com Messi no Newell&amp;#8217;s Old Boys, time da cidade. Na juventude, os dois começaram a nutrir um sentimento especial um pelo outro.&lt;/p&gt;
-&lt;p&gt;No entanto, foi na fase adulta, em 2005, que eles se reencontraram. Desde então, os dois se reaproximaram e construíram um relacionamento sólido. Em 2012, o casal teve o primeiro filho, Thiago.&lt;/p&gt;
-&lt;p&gt;Eles oficializaram a união com o casamento em 2017. De lá para cá, Antonela e Messi têm formado um dos &lt;a href="https://www.cnnbrasil.com.br/pop/celebridades/confira-quem-sao-as-wags-mais-famosas-da-historia/" target="_blank" rel="noopener" data-textassist="true"&gt;casais mais famosos&lt;/a&gt; do mundo esportivo.&lt;/p&gt;
-&lt;blockquote class="wp-embedded-content" data-secret="jPMkmnbYP9"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/entretenimento/confira-quem-sao-as-wags-mais-famosas-da-historia/"&gt;Confira quem são as WAGs mais famosas da história&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Confira quem são as WAGs mais famosas da história&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/entretenimento/confira-quem-sao-as-wags-mais-famosas-da-historia/embed/#?secret=SKyNe2UfOY#?secret=jPMkmnbYP9" data-secret="jPMkmnbYP9" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Sun, 19 Jul 2026 07:00:31 +0000</pubDate><guid>https://www.cnnbrasil.com.br/pop/celebridades/quem-e-antonela-roccuzzo-conheca-esposa-do-jogador-argentino-lionel-messi/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/pop/celebridades/quem-e-antonela-roccuzzo-conheca-esposa-do-jogador-argentino-lionel-messi/</guid></item><item><title>Espanha e Argentina encerram mundial; a agenda da Copa neste domingo (19)</title><link>https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/espanha-e-argentina-decidem-titulo-veja-agenda-da-copa-neste-domingo-19/</link><description>&lt;p&gt;A Copa do Mundo de 2026 chega ao fim neste domingo (19), quando Espanha e Argentina disputam o título da competição. As seleções entram em campo às 16h (de Brasília), no MetLife Stadium, em East Rutherford, na região de Nova York/Nova Jersey, no último jogo do torneio.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
-&lt;p&gt;A Espanha garantiu vaga na decisão após eliminar a França por 2 a 0 na semifinal. Já a Argentina avançou ao superar a Inglaterra por 2 a 1 e chega embalada em busca de mais um título mundial.&lt;/p&gt;
-&lt;p&gt;Além de &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/vencedores-da-copa-do-mundo-2026-vao-ganhar-aneis-de-campeao-ineditos/" target="_blank" rel="noopener" data-textassist="true"&gt;levantar a taça&lt;/a&gt; mais cobiçada do futebol, &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/finais-de-copa-do-mundo-veja-retrospecto-europa-x-america-do-sul/" target="_blank" rel="noopener" data-textassist="true"&gt;a seleção campeã&lt;/a&gt; encerrará uma campanha de sete jogos no Mundial. A partida também marca o fim da &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/que-horas-sera-a-final-da-copa-do-mundo-2026/" target="_blank" rel="noopener" data-textassist="true"&gt;primeira Copa do Mundo com 48 seleções&lt;/a&gt;, disputada de forma conjunta por Estados Unidos, México e Canadá.&lt;/p&gt;
+&lt;p&gt;Para combater esse cenário e contornar a barreira neurológica que nos impede de produzir, especialistas em comportamento corporativo e administração de empresas têm recorrido a uma estratégia surpreendentemente básica e de dupla via: a regra dos 10 minutos. O método atua em duas frentes fundamentais: resistir à urgência de se distrair e quebrar o atrito inicial para começar uma tarefa difícil, provando que o maior obstáculo de qualquer obrigação não é a sua execução, mas sim a linha de largada.&lt;/p&gt;
+&lt;h2&gt;A primeira frente: o adiamento intencional da distração&lt;/h2&gt;
+&lt;p&gt;O primeiro pilar do método não se baseia na repressão absoluta e dolorosa das &lt;a href="https://www.cnnbrasil.com.br/saude/distracoes-estao-roubando-seu-foco-veja-como-recuperar-a-atencao/" target="_blank" rel="noopener"&gt;distrações&lt;/a&gt;, mas sim no seu adiamento estratégico. A consultora de carreira e especialista em gestão do tempo, Luciana Paulise, detalha que a premissa consiste em criar um pequeno intervalo controlável entre o impulso de parar de trabalhar e a ação da fuga em si.&lt;/p&gt;
+&lt;p&gt;A eficácia dessa técnica reside em não combater a vontade de se distrair por meio da força bruta. Em vez de proibir severamente o uso do celular, o indivíduo compromete-se a adiar essa interrupção por um curto período. O processo exige cinco passos práticos:&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Reconhecer a urgência: ao sentir o impulso de parar para verificar notificações, simplesmente pause. Tornar essa vontade consciente já a torna mais fácil de ser resistida.&lt;/li&gt;
+&lt;li&gt;Estabelecer o acordo de tempo: diga a si mesmo que irá aguardar exatamente 10 minutos antes de ceder à vontade. Se houver algo urgente em mente, anote em um papel para resolver depois.&lt;/li&gt;
+&lt;li&gt;Eliminar o gatilho visual: afaste as tentações físicas. Coloque o celular com a tela virada para baixo ou deixe o aparelho em outro cômodo.&lt;/li&gt;
+&lt;li&gt;Reconectar-se ao propósito: volte imediatamente para a tarefa principal, lembrando-se do alívio que a conclusão daquela atividade trará.&lt;/li&gt;
+&lt;li&gt;Reavaliar após o tempo: quando os 10 minutos se esgotarem, questione-se se a fuga ainda é necessária.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Na imensa maioria das vezes, o ciclo automático de recompensa do cérebro é interrompido. A urgência inicial desaparece e a pessoa consegue continuar sua tarefa sem grandes problemas.&lt;/p&gt;
+&lt;h2&gt;A segunda frente: o pacto para quebrar a inércia&lt;/h2&gt;
+&lt;p&gt;Se a primeira aplicação da regra ajuda a não parar de trabalhar, a segunda aplicação (amplamente difundida por especialistas do mercado de negócios e &lt;a href="https://www.cnnbrasil.com.br/branded-content/economia/ia-avanca-no-trabalho-e-testa-a-lideranca-nas-empresas/" target="_blank" rel="noopener"&gt;gestão de equipes&lt;/a&gt;) atua no exato momento de começar.&lt;/p&gt;
+&lt;p&gt;Quando nos deparamos com uma tarefa complexa, extensa ou entediante, o cérebro a interpreta como uma ameaça ao conforto. A amígdala cerebral é ativada, gerando estresse.&lt;/p&gt;
+&lt;p&gt;Para aliviar esse desconforto, o instinto humano busca uma recompensa rápida, adiando a obrigação. É aqui que o método atua como um truque para desarmar esse alarme: você faz um acordo consigo mesmo para executar a tarefa indesejada por apenas 10 minutos ininterruptos.&lt;/p&gt;
+&lt;p&gt;A regra de ouro, neste caso, é que, após esse período cronometrado, você tem a permissão inegociável para abandonar a atividade sem culpa. O cérebro se rebela contra a ideia de passar três horas escrevendo um relatório corporativo, mas não enxerga grandes ameaças no compromisso de sentar e digitar por apenas 600 segundos. O limite de tempo transforma uma montanha intransponível em um degrau inofensivo, reduzindo drasticamente a &amp;#8220;energia de ativação&amp;#8221; necessária para o primeiro passo.&lt;/p&gt;
+&lt;h2&gt;A física do comportamento e o Efeito Zeigarnik&lt;/h2&gt;
+&lt;p&gt;O que acontece na esmagadora maioria das vezes é que, ao fim do cronômetro, o profissional continua trabalhando. Esse fenômeno é explicado por um princípio da física aplicável à psicologia: a inércia. Um objeto em movimento tende a permanecer em movimento. Uma vez que o atrito inicial é vencido, o foco é ativado.&lt;/p&gt;
+&lt;p&gt;A neurociência fornece a base para o sucesso dessa continuidade. Ao dar o primeiro passo e notar progresso, o &lt;a href="https://www.cnnbrasil.com.br/educacao/o-que-acontece-no-cerebro-ao-aprender-uma-nova-habilidade/" target="_blank" rel="noopener"&gt;cérebro&lt;/a&gt; libera dopamina, transformando a percepção da tarefa de &amp;#8220;um fardo doloroso&amp;#8221; para &amp;#8220;um desafio executável&amp;#8221;. Além disso, a técnica aciona o chamado Efeito Zeigarnik, um viés cognitivo que demonstra que a mente humana se lembra com muito mais facilidade de tarefas incompletas ou interrompidas do que daquelas que nem foram iniciadas.&lt;/p&gt;
+&lt;p&gt;Ao forçar o início de um trabalho por 10 minutos, você cria um ciclo aberto na sua mente, gerando uma urgência subconsciente para finalizá-lo.&lt;/p&gt;
+&lt;h2&gt;Como aplicar a regra na rotina diária&lt;/h2&gt;
+&lt;p&gt;A versatilidade das duas frentes da regra dos 10 minutos permite que ela seja adaptada a praticamente qualquer gargalo da rotina profissional ou pessoal. Se a caixa de e-mails está lotada e causa ansiedade paralisante, o compromisso não deve ser &amp;#8220;zerar a caixa de entrada&amp;#8221;, mas sim respondê-los ininterruptamente pelo tempo estipulado.&lt;/p&gt;
+&lt;p&gt;Nos estudos para certificações ou aprimoramento profissional, o foco muda de &amp;#8220;preciso ler três capítulos complexos&amp;#8221; para &amp;#8220;vou ler o máximo que puder em 10 minutos&amp;#8221;.&lt;/p&gt;
+&lt;p&gt;A mesma lógica se aplica ao ambiente corporativo e ao &lt;a href="https://www.cnnbrasil.com.br/forum-opiniao/6-habitos-curiosos-sobre-o-home-office/" target="_blank" rel="noopener"&gt;home office&lt;/a&gt;. Ao receber uma notificação de mensagem irrelevante durante a produção de uma planilha orçamentária, a escolha não é ignorar o colega de trabalho, mas avisar o próprio cérebro que a resposta será enviada em exatos 10 minutos, mantendo a tela focada nos números.&lt;/p&gt;
+&lt;h2&gt;O fortalecimento do músculo do autocontrole&lt;/h2&gt;
+&lt;p&gt;Mais do que um simples truque imediatista de produtividade, a técnica funciona como um verdadeiro treinamento de resiliência cognitiva a longo prazo. O método ensina que a motivação não é um pré-requisito obrigatório para a ação, mas sim uma consequência dela. A ação sempre precede a vontade.&lt;/p&gt;
+&lt;p&gt;Cada vez que o impulso de distração é adiado, ou que a inércia de um projeto assustador é quebrada por um limite inofensivo de tempo, o indivíduo fortalece o desenvolvimento do próprio autocontrole.&lt;/p&gt;
+&lt;p&gt;Ao dominar a regra dos 10 minutos, o profissional deixa de ser refém das notificações e do cansaço antecipado, retomando o controle absoluto sobre a própria agenda e provando que enganar o cérebro, às vezes, é a estratégia mais madura e eficaz para alcançar o alto desempenho.&lt;/p&gt;
+&lt;blockquote class="wp-embedded-content" data-secret="UreViPdsoc"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/lifestyle/por-que-deixamos-tudo-para-ultima-hora-ciencia-explica/"&gt;Por que deixamos tudo para última hora? Ciência explica&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Por que deixamos tudo para última hora? Ciência explica&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/lifestyle/por-que-deixamos-tudo-para-ultima-hora-ciencia-explica/embed/#?secret=XPqAP4WPwz#?secret=UreViPdsoc" data-secret="UreViPdsoc" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Sun, 19 Jul 2026 13:00:09 +0000</pubDate><guid>https://www.cnnbrasil.com.br/lifestyle/regra-dos-10-minutos-o-metodo-simples-para-vencer-a-procrastinacao/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/lifestyle/regra-dos-10-minutos-o-metodo-simples-para-vencer-a-procrastinacao/</guid></item><item><title>Vídeo: Vizinhos salvam homem de incêndio em casa no Paraná</title><link>https://www.cnnbrasil.com.br/nacional/sul/pr/video-vizinhos-salvam-homem-de-incendio-em-casa-no-parana/</link><description>&lt;p&gt;&lt;strong&gt;Vizinhos resgataram um homem que ficou preso dentro de uma casa em chamas,&lt;/strong&gt; em Francisco Beltrão, (PR), nesta sexta-feira (17). Os moradores precisaram &lt;strong&gt;quebrar a parede do imóvel&lt;/strong&gt; para realizar o salvamento.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;Um &lt;strong&gt;vídeo mostra o momento do resgate e a &lt;a href="https://www.cnnbrasil.com.br/nacional/sudeste/sp/incendio-de-grandes-proporcoes-atinge-ao-menos-20-casas-na-zona-norte-em-sp/" target="_blank" rel="noopener"&gt;tensão no local&lt;/a&gt;&lt;/strong&gt; enquanto o homem na residência. &lt;strong&gt;Veja imagens abaixo:&lt;/strong&gt;&lt;/p&gt;
+&lt;div style="width: 720px;" class="wp-video"&gt;&lt;!--[if lt IE 9]&gt;&lt;script&gt;document.createElement('video');&lt;/script&gt;&lt;![endif]--&gt;
+&lt;video class="wp-video-shortcode" id="video-15176839-1" width="720" height="1280" preload="metadata" controls="controls"&gt;&lt;source type="video/mp4" src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/202607190938.mp4?_=1" /&gt;&lt;a href="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/202607190938.mp4"&gt;https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/202607190938.mp4&lt;/a&gt;&lt;/video&gt;&lt;/div&gt;
+&lt;h4&gt;Créditos: Alisson Policeno&lt;/h4&gt;
+&lt;p&gt;Em entrevista à &lt;strong&gt;CNN Brasil,&lt;/strong&gt; o assistente social Érick Kulyk contou que teve a &lt;strong&gt;ideia de quebrar a parede após perceber que a saída da casa estava obstruída&lt;/strong&gt;. Segundo Kulyk, ele estava na casa do sogro, perto do local do incêndio, quando foi alertado por vizinhos.&lt;/p&gt;
 &lt;aside class="read-too read-too--with-img"&gt;
             &lt;h2 class='read-too__title'&gt;Leia Mais&lt;/h2&gt;
             &lt;ul class="read-too__list"&gt;
         &lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/conheca-o-estadio-que-vai-sediar-a-final-da-copa-do-mundo/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/nacional/sudeste/rj/mulher-a-caminho-da-tailandia-e-presa-com-cocaina-em-aeroporto-no-rj/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/07/Metlife-Stadium-e1781631327459.jpeg?w=200"
-                    alt="Conheça o estádio que vai sediar a final da Copa do Mundo"
-                    title="Conheça o estádio que vai sediar a final da Copa do Mundo'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/11/mg_3973-e1724543094796.jpg?w=200"
+                    alt="Mulher a caminho da Tailândia é presa com cocaína em aeroporto no RJ"
+                    title="Mulher a caminho da Tailândia é presa com cocaína em aeroporto no RJ'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;Conheça o estádio que vai sediar a final da Copa do Mundo&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;Mulher a caminho da Tailândia é presa com cocaína em aeroporto no RJ&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/quando-e-a-final-da-copa-do-mundo-de-2026-veja-data-horario-e-local/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/nacional/brasil/frio-intenso-perde-forca-mas-tempestades-ameacam-o-sul-do-brasil/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/12/sorteio-copa-do-mundo-2026-6-e1764955184462.jpg?w=200"
-                    alt="Quando é a final da Copa do Mundo de 2026? Veja data, horário e local"
-                    title="Quando é a final da Copa do Mundo de 2026? Veja data, horário e local'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/WhatsApp-Image-2026-06-15-at-13.31.42.jpeg?w=200"
+                    alt="Frio intenso perde força, mas tempestades ameaçam o Sul do Brasil"
+                    title="Frio intenso perde força, mas tempestades ameaçam o Sul do Brasil'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;Quando é a final da Copa do Mundo de 2026? Veja data, horário e local&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;Frio intenso perde força, mas tempestades ameaçam o Sul do Brasil&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;&lt;li class="read-too__list-item"&gt;
-    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/espanha-x-argentina-horario-e-onde-assistir-a-copa-do-mundo/" target="_self"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/nacional/sistema-de-alerta-evita-colisao-de-avioes-que-iam-para-sao-paulo-e-madri/" target="_self"&gt;
                     &lt;picture class="read-too__picture"&gt;
                 &lt;img decoding="async"
                     class="read-too__img"
-                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/espanha-argentina-cnn-copa-onde-assistir.jpg?w=200"
-                    alt="Espanha x Argentina: horário e onde assistir à final da Copa do Mundo"
-                    title="Espanha x Argentina: horário e onde assistir à final da Copa do Mundo'"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/11/airbus-e1784420531321.webp?w=200"
+                    alt="Sistema de alerta evita colisão de aviões que iam para São Paulo e Madri"
+                    title="Sistema de alerta evita colisão de aviões que iam para São Paulo e Madri'"
                     loading="lazy"
                 &gt;
             &lt;/picture&gt;
                     
-        &lt;h3 class="read-too__post-title"&gt;Espanha x Argentina: horário e onde assistir à final da Copa do Mundo&lt;/h3&gt;
+        &lt;h3 class="read-too__post-title"&gt;Sistema de alerta evita colisão de aviões que iam para São Paulo e Madri&lt;/h3&gt;
     &lt;/a&gt;
 &lt;/li&gt;    &lt;/ul&gt;
 &lt;/aside&gt;
 
-&lt;h2&gt;Agenda da Copa do Mundo neste domingo (19)&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;16h: Espanha x Argentina &amp;#8211; Final &amp;#8211; East Rutherford (Nova York/Nova Jersey) &amp;#8211; &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/espanha-x-argentina-horario-e-onde-assistir-a-copa-do-mundo/"&gt;ONDE ASSISTIR&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote class="wp-embedded-content" data-secret="i68Hn4Kp0Q"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/esportes/streaming-impulsiona-audiencia-da-copa-supera-queda-da-tv-e-amplia-publico/"&gt;Streaming impulsiona audiência da Copa, supera queda da TV e amplia público&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Streaming impulsiona audiência da Copa, supera queda da TV e amplia público&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/esportes/streaming-impulsiona-audiencia-da-copa-supera-queda-da-tv-e-amplia-publico/embed/#?secret=qMj160WH06#?secret=i68Hn4Kp0Q" data-secret="i68Hn4Kp0Q" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Sun, 19 Jul 2026 07:00:30 +0000</pubDate><guid>https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/espanha-e-argentina-decidem-titulo-veja-agenda-da-copa-neste-domingo-19/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/espanha-e-argentina-decidem-titulo-veja-agenda-da-copa-neste-domingo-19/</guid></item></channel></rss>
+&lt;p&gt;Erick contou que, ao chegar na casa em chamas, &lt;strong&gt;soube que havia um morador preso no imóvel. &lt;/strong&gt;“Eu vi pela janela do banheiro que tinha um homem lá e não tinha como sair, a passagem estava obstruída. Então, peguei um ferro e comecei a tentar quebrar a parede do banheiro&amp;#8221;, afirma o homem.&lt;/p&gt;
+&lt;p&gt;Em seguida, o assistente social conta que moradores trouxeram um machado e um martelo. “&lt;strong&gt;Eu e outro morador começamos a bater nessa parede e conseguimos fazer uma abertura para aquele rapaz sair”&lt;/strong&gt;, diz Érick.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;
+&lt;div class="post__video"&gt;
+	&lt;div class="cnn component-video has--live"&gt;
+		&lt;div class="component-inner"&gt;
+			&lt;div
+				id="player_nacional_MuXGGAw2wt4"
+				class="video-wrapper "
+			&gt;
+				&lt;div class="video-wrapper-inner"&gt;
+										&lt;div class="overlay-wrapper"&gt;
+						&lt;button
+							class="video-button js-video-play active"
+							aria-label="Assista o vídeo Copa do Mundo: Fumaça de incêndios no Canadá cobre os EUA às vésperas da final | AGORA CNN"
+							tabindex="0"
+						&gt;
+							&lt;img
+								class="thumbnail-image"
+								src="https://img.youtube.com/vi/MuXGGAw2wt4/sddefault.jpg"
+                                srcset="https://img.youtube.com/vi/MuXGGAw2wt4/default.jpg 120w,
+                    https://img.youtube.com/vi/MuXGGAw2wt4/mqdefault.jpg 320w,
+                    https://img.youtube.com/vi/MuXGGAw2wt4/hqdefault.jpg 480w,
+                    https://img.youtube.com/vi/MuXGGAw2wt4/sddefault.jpg 640w,
+                    https://img.youtube.com/vi/MuXGGAw2wt4/maxresdefault.jpg 1280w"
+								alt="Copa do Mundo: Fumaça de incêndios no Canadá cobre os EUA às vésperas da final | AGORA CNN"
+							/&gt;
+
+							&lt;span
+								class="video-play-button"
+								aria-label="Botão play do vídeo Copa do Mundo: Fumaça de incêndios no Canadá cobre os EUA às vésperas da final | AGORA CNN"
+							&gt;&lt;/span&gt;
+
+															&lt;span class="video-gradient"&gt;&lt;/span&gt;
+								&lt;span class="video-title"&gt;Copa do Mundo: Fumaça de incêndios no Canadá cobre os EUA às vésperas da final | AGORA CNN&lt;/span&gt;
+													&lt;/button&gt;
+					&lt;/div&gt;
+										&lt;span
+						class="embedded-video video-player-wrapper"
+						data-youtube-plcmt="1"
+						data-youtube-vpmute="0"
+						data-youtube-width="640px"
+						data-youtube-height="480px"
+						data-youtube-ui="nacional"
+						data-youtube-play="0"
+						data-youtube-mute="0"
+						data-youtube-id="MuXGGAw2wt4"
+						data-youtube-vpa="click"
+						data-youtube-hl="pt"
+						data-youtube-position=""
+					&gt;&lt;/span&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Os bombeiros chegaram em seguida e &lt;a href="https://www.cnnbrasil.com.br/internacional/por-que-as-cidades-dos-eua-estao-tomadas-por-fumaca-entenda/" target="_blank" rel="noopener"&gt;extinguiram o incêndio&lt;/a&gt;.&lt;/strong&gt; O homem resgatado recebeu atendimento e foi encaminhado ao hospital.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Sun, 19 Jul 2026 12:57:48 +0000</pubDate><guid>https://www.cnnbrasil.com.br/nacional/sul/pr/video-vizinhos-salvam-homem-de-incendio-em-casa-no-parana/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/nacional/sul/pr/video-vizinhos-salvam-homem-de-incendio-em-casa-no-parana/</guid></item><item><title>Syngenta processa BASF por infração de patente nos EUA</title><link>https://www.cnnbrasil.com.br/agro/syngenta-processa-basf-por-infracao-de-patente-nos-eua/</link><description>&lt;p&gt;A empresa agrícola Syngenta processou a gigante química alemã BASF, alegando em uma ação judicial em Delaware que o novo herbicida para milho da BASF, o Ridivex, infringe uma patente relacionada ao herbicida concorrente da Syngenta, o Storen.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;A Syngenta afirmou na petição inicial, protocolada na terça-feira e tornada pública na quinta-feira, que o Ridivex utiliza indevidamente sua fórmula química patenteada de um herbicida combinado com um agente protetor (&amp;#8220;safener&amp;#8221;) para evitar danos às culturas.&lt;/p&gt;
+&lt;p&gt;A Syngenta informou que a aprovação do Ridivex pela Agência de Proteção Ambiental dos EUA (EPA) é esperada &amp;#8220;em questão de dias&amp;#8221; — o que abriria caminho para a BASF iniciar as vendas — e solicitou ao tribunal que impeça a BASF de lançar seu &lt;a href="https://www.cnnbrasil.com.br/agro/corte-dos-eua-restringe-processos-de-glifosato-da-monsanto/" target="_blank" rel="noopener" data-textassist="true"&gt;herbicida nos Estados Unidos&lt;/a&gt;.&lt;/p&gt;
+&lt;aside class="read-too read-too--with-img"&gt;
+            &lt;h2 class='read-too__title'&gt;Leia Mais&lt;/h2&gt;
+            &lt;ul class="read-too__list"&gt;
+        &lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/nacional/brasil/anvisa-interdita-lote-de-repelente-contra-insetos-saiba-o-motivo/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/Design-sem-nome-2026-05-20T161134.010.jpg?w=200"
+                    alt="Anvisa interdita lote de repelente contra insetos; saiba o motivo"
+                    title="Anvisa interdita lote de repelente contra insetos; saiba o motivo'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Anvisa interdita lote de repelente contra insetos; saiba o motivo&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/nacional/brasil/gel-do-amor-canetas-e-panetone-veja-barrados-pela-anvisa-antes-da-ype/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/Gel-do-amor-canetas-e-panetone-veja-barrados-pela-Anvisa-antes-da-Ype.jpg?w=200"
+                    alt="Gel do amor, canetas e panetone: veja barrados pela Anvisa antes da Ypê"
+                    title="Gel do amor, canetas e panetone: veja barrados pela Anvisa antes da Ypê'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Gel do amor, canetas e panetone: veja barrados pela Anvisa antes da Ypê&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/agro/corteva-batiza-spin-off-de-sementes-como-vylor/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/02/WhatsApp-Image-2026-02-04-at-16.19.11.jpeg?w=200"
+                    alt="Corteva batiza spin-off de sementes como Vylor"
+                    title="Corteva batiza spin-off de sementes como Vylor'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Corteva batiza spin-off de sementes como Vylor&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;    &lt;/ul&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;A Syngenta argumentou perante o tribunal que a BASF poderia desviar vendas importantes de seu herbicida Storen caso tivesse permissão para começar a vender o Ridivex antes da &lt;a href="https://www.cnnbrasil.com.br/agro/bayer-e-processada-nos-eua-por-monopolio-em-sementes-de-milho-transgenico/" target="_blank" rel="noopener" data-textassist="true"&gt;temporada de plantio de outono&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;O período de compras dos distribuidores, entre junho e setembro, é um momento decisivo que determina, em grande parte, os resultados de vendas de todo o ano&amp;#8221;, afirmou a Syngenta no processo. &amp;#8220;Se um &lt;a href="https://www.cnnbrasil.com.br/agro/corteva-paga-us-200-milhoes-em-acordo-de-herbicidas-com-a-fmc/" target="_blank" rel="noopener" data-textassist="true"&gt;produto concorrente&lt;/a&gt; entrar no mercado durante ou antes desse período de compras dos distribuidores — especialmente um posicionado como alternativa direta ao Storen —, ele pode substituir o produto da Syngenta antes mesmo de as vendas aos agricultores começarem.&amp;#8221;&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Sun, 19 Jul 2026 12:56:22 +0000</pubDate><guid>https://www.cnnbrasil.com.br/agro/syngenta-processa-basf-por-infracao-de-patente-nos-eua/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/agro/syngenta-processa-basf-por-infracao-de-patente-nos-eua/</guid></item><item><title>Após pedir ajuda a Trump, campeão do mundo com a Espanha entra nos EUA</title><link>https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/apos-pedir-ajuda-a-trump-campeao-do-mundo-com-a-espanha-entra-nos-eua/</link><description>&lt;p&gt;O ex-lateral Joan Capdevila conseguiu entrar nos Estados Unidos para acompanhar a decisão da Copa do Mundo neste domingo (19). Campeão em 2010, o ex-jogador posou em fotos nas redes sociais do brasileiro Marcos Senna, que se naturalizou e atuou na seleção da Espanha durante quatro anos.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;&amp;#8220;Rumo a segunda estrela&amp;#8221;, escreveu o ex-meia ao lado de Capdevila.&lt;/p&gt;
+&lt;p&gt;No meio da semana, o espanhol pediu auxílio ao presidente norte-americano Donald Trump para conseguir assistir a partida. &amp;#8220;Preciso de sua ajuda, Donald Trump. Acabam de dizer que não posso viajar para a final com meus filhos porque me negaram o ESTA&amp;#8221;.&lt;/p&gt;
+&lt;blockquote class="twitter-tweet"&gt;
+&lt;p dir="ltr" lang="es"&gt;🚨 ¡NECESITO AYUDA &lt;a href="https://x.com/realDonaldTrump?ref_src=twsrc%5Etfw"&gt;@realDonaldTrump&lt;/a&gt; ! 🙏&lt;/p&gt;
+&lt;p&gt;Me acaban de decir que no puedo viajar a la final con mis hijos porque me han denegado el ESTA 😭&lt;/p&gt;
+&lt;p&gt;¿Alguien me puede ayudar con esto? No sabéis la ilusión que me hacía poder estar allí con todos mis compañeros de 2010 y con este equipo… &lt;a href="https://t.co/VH9wakzaH1"&gt;pic.twitter.com/VH9wakzaH1&lt;/a&gt;&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;— Joan Capdevila (@capde11) &lt;a href="https://x.com/capde11/status/2078205008164594045?ref_src=twsrc%5Etfw"&gt;July 17, 2026&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;script async src="https://platform.x.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;aside class="read-too read-too--with-img"&gt;
+            &lt;h2 class='read-too__title'&gt;Leia mais&lt;/h2&gt;
+            &lt;ul class="read-too__list"&gt;
+        &lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/neymar-cristiano-ronaldo-e-mais-os-craques-que-se-despediram-nesta-copa/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/cristiano-ronaldo-copa-1-e1783374102653.jpg?w=200"
+                    alt="Neymar, Cristiano Ronaldo e mais: os craques que se despediram nesta Copa"
+                    title="Neymar, Cristiano Ronaldo e mais: os craques que se despediram nesta Copa'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Neymar, Cristiano Ronaldo e mais: os craques que se despediram nesta Copa&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/messi-faz-carta-emocionante-antes-de-final-da-copa-ninguem-podera-apagar/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/2026-07-17T174606Z_1_LYNXMPEM6G15W_RTROPTP_4_SOCCER-WORLDCUP-ENG-ARG-e1784403173462.jpg?w=200"
+                    alt="Messi faz carta emocionante antes de final da Copa: &amp;quot;Ninguém poderá apagar&amp;quot;"
+                    title="Messi faz carta emocionante antes de final da Copa: &amp;quot;Ninguém poderá apagar&amp;quot;'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Messi faz carta emocionante antes de final da Copa: &amp;quot;Ninguém poderá apagar&amp;quot;&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/tem-prorrogacao-na-final-da-copa-do-mundo-o-que-acontece-em-caso-de-empate/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportSportsNews/tagreuters.com2026binary_LYNXMPEM48002-BASEIMAGE.jpg?w=200"
+                    alt="Tem prorrogação na final da Copa do Mundo? O que acontece em caso de empate"
+                    title="Tem prorrogação na final da Copa do Mundo? O que acontece em caso de empate'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Tem prorrogação na final da Copa do Mundo? O que acontece em caso de empate&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;    &lt;/ul&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;O documento solicitado pelo ex-lateral, conhecido como ESTA (sigla em inglês para Sistema Eletrônico para Autorização de Viagem), é uma autorização exigida para cidadãos de países que participam do Programa de Isenção de Vistos dos Estados Unidos, como é o caso da Espanha.&lt;/p&gt;
+&lt;p&gt;Em entrevista à uma rádio espanhola, &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/campeao-da-copa-pela-espanha-pede-ajuda-a-trump-apos-ser-barrado-da-final/"&gt;Capdevila desconfiou que o documento foi negado&lt;/a&gt; por ele ter participado de um jogo de exibição com estrelas de LaLiga no Irã, em 2016, realizado em Teerã. O próprio Marcos Senna também participou da partida, assim como Fernando Morientes e David Albelda.&lt;/p&gt;
+&lt;p&gt;Agora aos 48 anos, o ex-jogador foi titular absoluto na &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/tecnico-campeao-com-a-espanha-alerta-argentina-e-um-incomodo-real/"&gt;seleção comandada por Vicente del Bosque em 2010&lt;/a&gt;, e participou de todos os minutos do mundial. Embora não tenha feito carreira nos gigantes do país, o lateral conseguiu se firmar na Espanha e também fez parte do elenco que conquistou a Eurocopa em 2008.&lt;/p&gt;
+&lt;p&gt;A decisão da Copa do Mundo será realizada na tarde deste domingo (19), às 16h, no MetLife Stadium, em Nova Jersey. Os espanhóis tentam o bicampeonato na competição mais importante do planeta e terão de encarar os argentinos, que são os atuais campeões, &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/messi-faz-carta-emocionante-antes-de-final-da-copa-ninguem-podera-apagar/"&gt;comandados pelo astro Lionel Messi&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote class="wp-embedded-content" data-secret="8iagKV3Vzp"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/esportes/messi-avanca-a-final-e-iguala-recorde-historico-de-cafu-em-copas/"&gt;Messi avança à final e iguala recorde histórico de Cafu em Copas&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Messi avança à final e iguala recorde histórico de Cafu em Copas&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/esportes/messi-avanca-a-final-e-iguala-recorde-historico-de-cafu-em-copas/embed/#?secret=dwtThcAP4w#?secret=8iagKV3Vzp" data-secret="8iagKV3Vzp" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Sun, 19 Jul 2026 12:40:57 +0000</pubDate><guid>https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/apos-pedir-ajuda-a-trump-campeao-do-mundo-com-a-espanha-entra-nos-eua/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/apos-pedir-ajuda-a-trump-campeao-do-mundo-com-a-espanha-entra-nos-eua/</guid></item><item><title>Neymar, Cristiano Ronaldo e mais: os craques que se despediram nesta Copa</title><link>https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/neymar-cristiano-ronaldo-e-mais-os-craques-que-se-despediram-nesta-copa/</link><description>&lt;p&gt;A Copa do Mundo de 2026 ficou marcada também pelo fim de ciclos de alguns dos maiores jogadores das últimas décadas.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;O Mundial disputado nos Estados Unidos, México e Canadá representou a última participação em Copas de uma geração lendária, com nomes como Cristiano Ronaldo, Neymar, Luka Modrić e Manuel Neuer encerrando suas trajetórias na principal competição de seleções do futebol.&lt;/p&gt;
+&lt;p&gt;Além dos grandes campeões e protagonistas, &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/nao-voltam-mais-os-craques-que-estavam-na-copa-de-2022-mas-se-aposentaram/" target="_blank" rel="noopener" data-textassist="true"&gt;outros veteranos que marcaram época&lt;/a&gt; também se despediram do torneio, como Guillermo Ochoa, James Rodríguez e Edin Džeko.&lt;/p&gt;
+&lt;aside class="read-too read-too--with-img"&gt;
+            &lt;h2 class='read-too__title'&gt;Leia Mais&lt;/h2&gt;
+            &lt;ul class="read-too__list"&gt;
+        &lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/veja-todas-as-imagens-do-ensaio-entre-lionel-messi-e-lamine-yamal/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/Messi-Yamal-e1784416801833.jpg?w=200"
+                    alt="Veja todas as imagens do ensaio entre Lionel Messi e Lamine Yamal"
+                    title="Veja todas as imagens do ensaio entre Lionel Messi e Lamine Yamal'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Veja todas as imagens do ensaio entre Lionel Messi e Lamine Yamal&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/tuchel-celebra-bronze-mas-admite-ainda-sentimos-a-dor-da-semifinal/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/tuchel-inglaterra-e1784418972419.webp?w=200"
+                    alt="Tuchel celebra bronze, mas admite: &amp;quot;Ainda sentimos a dor da semifinal&amp;quot;"
+                    title="Tuchel celebra bronze, mas admite: &amp;quot;Ainda sentimos a dor da semifinal&amp;quot;'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Tuchel celebra bronze, mas admite: &amp;quot;Ainda sentimos a dor da semifinal&amp;quot;&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/solidez-versus-adrenalina-espanha-e-argentina-decidem-a-copa-do-mundo-2026/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/FINAL_COPA_ESPANHA_ARGENTINA_YAMAL_MESSI.png?w=200"
+                    alt="Solidez versus adrenalina: Espanha e Argentina decidem a Copa do Mundo 2026"
+                    title="Solidez versus adrenalina: Espanha e Argentina decidem a Copa do Mundo 2026'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Solidez versus adrenalina: Espanha e Argentina decidem a Copa do Mundo 2026&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;    &lt;/ul&gt;
+&lt;/aside&gt;
+
+&lt;h2&gt;Lionel Messi&lt;/h2&gt;
+&lt;p&gt;Aos 39 anos, Lionel Messi encerrou seu ciclo em Copas do Mundo novamente como protagonista.&lt;/p&gt;
+&lt;p&gt;O argentino levou a seleção até a final de 2026 e teve atuações decisivas na fase eliminatória, incluindo participações importantes na classificação contra a Inglaterra na semifinal.&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;Além da busca pelo bicampeonato mundial consecutivo da Argentina, Messi fechou sua trajetória no torneio com marcas históricas. O camisa 10 virou, pelo menos por alguns instantes, &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/messi-supera-klose-e-se-isola-como-maior-artilheiro-de-copas-do-mundo/" target="_blank" rel="noopener" data-textassist="true"&gt;o maior artilheiro da história&lt;/a&gt; das Copas do Mundo, superando o alemão Miroslav Klose.&lt;/p&gt;
+&lt;h2&gt;Cristiano Ronaldo&lt;/h2&gt;
+&lt;p&gt;Cristiano Ronaldo também disputou sua última Copa do Mundo.&lt;/p&gt;
+&lt;p&gt;Portugal acabou eliminado nas oitavas de final, mas o atacante português encerrou a trajetória mundialista como um dos grandes nomes da história do futebol internacional.&lt;/p&gt;
+&lt;p&gt;Com &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/cristiano-ronaldo-e-convocado-para-a-sexta-copa-e-tenta-ampliar-recordes/" target="_blank" rel="noopener" data-textassist="true"&gt;seis participações em Copas&lt;/a&gt;, Ronaldo entrou para um grupo restrito de jogadores que disputaram tantas edições do torneio. Além disso, segue como o maior artilheiro da história das seleções nacionais.&lt;/p&gt;
+&lt;h2&gt;Neymar&lt;/h2&gt;
+&lt;p&gt;A Copa de 2026 marcou o fim da trajetória de Neymar em Mundiais.&lt;/p&gt;
+&lt;p&gt;O Brasil acabou eliminado nas oitavas de final pela Noruega, em uma campanha abaixo das expectativas. Após a queda, o atacante confirmou que não disputaria mais uma Copa do Mundo.&lt;/p&gt;
+&lt;p&gt;Mesmo sem conquistar o título mundial, Neymar deixa um legado importante pela Seleção Brasileira. O jogador encerra sua passagem como o maior artilheiro do Brasil em jogos oficiais e como um dos principais talentos da história recente do país.&lt;/p&gt;
+&lt;h2&gt;Luka Modrić&lt;/h2&gt;
+&lt;p&gt;Aos 40 anos, Luka Modrić disputou sua última Copa do Mundo pela Croácia.&lt;/p&gt;
+&lt;p&gt;A seleção croata caiu na segunda fase, diante de Portugal, mas o meio-campista recebeu reconhecimento internacional pela longevidade e pela importância que teve na história do país.&lt;/p&gt;
+&lt;p&gt;Campeão da Bola de Ouro em 2018, Modrić liderou a Croácia nas campanhas históricas dos Mundiais de 2018, quando foi vice-campeã, e de 2022, quando terminou na terceira colocação.&lt;/p&gt;
+&lt;h2&gt;Manuel Neuer&lt;/h2&gt;
+&lt;p&gt;Manuel Neuer voltou à seleção alemã para disputar a Copa de 2026 e encerrou sua carreira em Mundiais com cinco participações.&lt;/p&gt;
+&lt;p&gt;O goleiro foi eliminado com a Alemanha na fase de mata-mata, em disputa de pênaltis contra o Paraguai.&lt;/p&gt;
+&lt;p&gt;Considerado um dos maiores goleiros da história, Neuer transformou a posição ao popularizar o conceito do goleiro-líbero, participando da construção das jogadas e atuando muito fora da área.&lt;/p&gt;
+&lt;h2&gt;Guillermo Ochoa&lt;/h2&gt;
+&lt;p&gt;O mexicano Guillermo Ochoa também se despediu das Copas do Mundo em 2026. Aos 40 anos, o goleiro disputou o torneio em casa e entrou para um grupo extremamente seleto de jogadores com seis participações em Mundiais.&lt;/p&gt;
+&lt;p&gt;Do banco, viu a eliminação do México para a Inglaterra, em um duelo emocionante, que registrou o fim marcante da sua trajetória como um dos maiores símbolos da seleção mexicana nas últimas gerações.&lt;/p&gt;
+&lt;blockquote class="wp-embedded-content" data-secret="1N1rspMipB"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/esportes/romario-diz-que-rasgaria-contrato-de-ancelotti-nao-tem-como-continuar/"&gt;Romário diz que rasgaria contrato de Ancelotti: &amp;#8220;Não tem como continuar&amp;#8221;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Romário diz que rasgaria contrato de Ancelotti: &amp;#8220;Não tem como continuar&amp;#8221;&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/esportes/romario-diz-que-rasgaria-contrato-de-ancelotti-nao-tem-como-continuar/embed/#?secret=sYIZRHI2fj#?secret=1N1rspMipB" data-secret="1N1rspMipB" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Sun, 19 Jul 2026 12:30:45 +0000</pubDate><guid>https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/neymar-cristiano-ronaldo-e-mais-os-craques-que-se-despediram-nesta-copa/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/neymar-cristiano-ronaldo-e-mais-os-craques-que-se-despediram-nesta-copa/</guid></item><item><title>Morre Jennifer Finch, da banda L7, após diagnóstico de câncer cerebral</title><link>https://www.cnnbrasil.com.br/pop/celebridades/morre-jennifer-finch-da-banda-l7-apos-diagnostico-de-cancer-cerebral/</link><description>&lt;p&gt;A baixista da banda L7, &lt;strong&gt;Jennifer Finch&lt;/strong&gt;, morreu aos 59 anos cinco dias após revelar o diagnóstico de câncer cerebral. A notícia foi confirmada nas redes sociais oficiais da artista.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;&amp;#8220;É com profunda tristeza que anunciamos o falecimento de nossa companheira, irmã, filha e amiga Jennifer Precious Finch. O impacto de Jennifer no mundo da música foi avassalador; o impacto em nossas vidas, ainda maior&amp;#8221;, iniciou publicação no Instagram da baixista.&lt;/p&gt;
+&lt;aside class="read-too read-too--with-img"&gt;
+            &lt;h2 class='read-too__title'&gt;Leia mais: &lt;/h2&gt;
+            &lt;ul class="read-too__list"&gt;
+        &lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/pop/celebridades/brenda-fricker-atriz-de-esqueceram-de-mim-2-morre-aos-81-anos/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/brenda-fricker-esqueceram-de-mim.png?w=200"
+                    alt="Brenda Fricker, atriz de &amp;quot;Esqueceram de Mim 2&amp;quot;, morre aos 81 anos"
+                    title="Brenda Fricker, atriz de &amp;quot;Esqueceram de Mim 2&amp;quot;, morre aos 81 anos'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Brenda Fricker, atriz de &amp;quot;Esqueceram de Mim 2&amp;quot;, morre aos 81 anos&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/pop/celebridades/mary-jo-campbell-avo-das-kardashians-morre-aos-91-anos/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/Mary-Jo-Campbell.png?w=200"
+                    alt="Mary Jo Campbell, avó das Kardashians, morre aos 91 anos"
+                    title="Mary Jo Campbell, avó das Kardashians, morre aos 91 anos'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Mary Jo Campbell, avó das Kardashians, morre aos 91 anos&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/pop/celebridades/por-onde-anda-iris-bruzzi-a-eunice-da-versao-original-de-vale-tudo/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/03/iris-bruzzi-vale-tudo.jpg?w=200"
+                    alt="Por onde anda Íris Bruzzi, a Eunice da versão original de &amp;quot;Vale Tudo&amp;quot;"
+                    title="Por onde anda Íris Bruzzi, a Eunice da versão original de &amp;quot;Vale Tudo&amp;quot;'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Por onde anda Íris Bruzzi, a Eunice da versão original de &amp;quot;Vale Tudo&amp;quot;&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;    &lt;/ul&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;&amp;#8220;Agradecemos o interesse e a preocupação de todos, bem como as mensagens carinhosas. Pedimos um pouco de espaço para vivermos nosso luto com privacidade neste momento difícil&amp;#8221;, concluiu.&lt;/p&gt;
+&lt;p&gt;Na última semana, a banda feminina havia anunciado que Jennifer Finch recebeu o diagnóstico de uma forma agressiva de câncer cerebral.&lt;/p&gt;
+&lt;p class="my-5 break-words group-[.isActiveSource]:text-xl"&gt;A &lt;a class="text-red-600 underline hover:text-red-500 font-medium break-words group-[.isActiveSource]:text-xl" href="https://www.cnnbrasil.com.br/pop/musica/dia-do-rock-veja-cinco-artistas-que-mantem-o-genero-fresco-em-2026/" target="_self" rel=""&gt;banda &lt;/a&gt;chegou a abrir uma vaquinha online para arrecadar dinheiro para ajudar a cantora com o tratamento e pediu doação de fãs. Na mesma postagem, elas afirmaram que a série de shows que estava marcada foi planejada quando todas estavam com boa saúde e disposição.&lt;/p&gt;
+&lt;blockquote class="instagram-media" style="background: #FFF; border: 0; border-radius: 3px; box-shadow: 0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width: 540px; min-width: 326px; padding: 0; width: calc(100% - 2px);" data-instgrm-captioned="" data-instgrm-permalink="https://www.instagram.com/p/Da9Pt2FBQ42/?utm_source=ig_embed&amp;amp;utm_campaign=loading" data-instgrm-version="14"&gt;
+&lt;div style="padding: 16px;"&gt;
+&lt;div style="display: flex; flex-direction: row; align-items: center;"&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"&gt;&lt;/div&gt;
+&lt;div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"&gt;&lt;/div&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="padding: 19% 0;"&gt;&lt;/div&gt;
+&lt;div style="display: block; height: 50px; margin: 0 auto 12px; width: 50px;"&gt;&lt;/div&gt;
+&lt;div style="padding-top: 8px;"&gt;
+&lt;div style="color: #3897f0; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: 550; line-height: 18px;"&gt;Ver essa foto no Instagram&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="padding: 12.5% 0;"&gt;&lt;/div&gt;
+&lt;div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"&gt;
+&lt;div&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"&gt;&lt;/div&gt;
+&lt;div style="background-color: #f4f4f4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"&gt;&lt;/div&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="margin-left: 8px;"&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"&gt;&lt;/div&gt;
+&lt;div style="width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg);"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="margin-left: auto;"&gt;
+&lt;div style="width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"&gt;&lt;/div&gt;
+&lt;div style="background-color: #f4f4f4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"&gt;&lt;/div&gt;
+&lt;div style="width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"&gt;&lt;/div&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; line-height: 17px; margin-bottom: 0; margin-top: 8px; overflow: hidden; padding: 8px 0 7px; text-align: center; text-overflow: ellipsis; white-space: nowrap;"&gt;&lt;a style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 17px; text-decoration: none;" href="https://www.instagram.com/p/Da9Pt2FBQ42/?utm_source=ig_embed&amp;amp;utm_campaign=loading" target="_blank" rel="noopener"&gt;Um post compartilhado por Jennifer Finch (@jenniferfinch)&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;script async src="//www.instagram.com/embed.js"&gt;&lt;/script&gt;&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;h2&gt;Cantora vivia com limitações físicas&lt;/h2&gt;
+&lt;p&gt;Nas redes oficiais de Finch, foi postada uma carta atribuída aos entes queridos da cantora. Na mensagem, os familiares descreveram que, depois de receber o diagnóstico, havia a esperança de que, com o tratamento, ela poderia seguir com uma versão de vida normal.&lt;/p&gt;
+&lt;p&gt;No entanto, a artista teve complicações e precisou passar por diversas cirurgias. &amp;#8220;Jennifer agora vive com limitações físicas significativas e precisa de um nível de cuidado que o amor, a amizade e a pura determinação não conseguem fornecer de forma segura 24 horas por dia.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;As despesas seriam destinadas a cobrir enfermeiros em domicílio, fisioterapia e fonoaudiologia, equipamentos médicos, cuidados domésticos e outros, para que ela possa &amp;#8220;viver com o máximo de conforto, dignidade, autonomia e qualidade de vida possível.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;&amp;#8220;Isso também ajudará a proteger e preservar o legado criativo que ela passou décadas construindo — porque esse trabalho importa e merece perdurar. Ela nunca passou despercebida. E nem nós passaremos, com amor, gratidão e muita disposição para lutar&amp;#8221;, disseram na época.&lt;/p&gt;
+&lt;blockquote class="instagram-media" style="background: #FFF; border: 0; border-radius: 3px; box-shadow: 0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width: 540px; min-width: 326px; padding: 0; width: calc(100% - 2px);" data-instgrm-captioned="" data-instgrm-permalink="https://www.instagram.com/p/DavS4_tETat/?utm_source=ig_embed&amp;amp;utm_campaign=loading" data-instgrm-version="14"&gt;
+&lt;div style="padding: 16px;"&gt;
+&lt;div style="display: flex; flex-direction: row; align-items: center;"&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"&gt;&lt;/div&gt;
+&lt;div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"&gt;&lt;/div&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="padding: 19% 0;"&gt;&lt;/div&gt;
+&lt;div style="display: block; height: 50px; margin: 0 auto 12px; width: 50px;"&gt;&lt;/div&gt;
+&lt;div style="padding-top: 8px;"&gt;
+&lt;div style="color: #3897f0; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: 550; line-height: 18px;"&gt;Ver essa foto no Instagram&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="padding: 12.5% 0;"&gt;&lt;/div&gt;
+&lt;div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"&gt;
+&lt;div&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"&gt;&lt;/div&gt;
+&lt;div style="background-color: #f4f4f4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"&gt;&lt;/div&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="margin-left: 8px;"&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"&gt;&lt;/div&gt;
+&lt;div style="width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg);"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="margin-left: auto;"&gt;
+&lt;div style="width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"&gt;&lt;/div&gt;
+&lt;div style="background-color: #f4f4f4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"&gt;&lt;/div&gt;
+&lt;div style="width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"&gt;&lt;/div&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; line-height: 17px; margin-bottom: 0; margin-top: 8px; overflow: hidden; padding: 8px 0 7px; text-align: center; text-overflow: ellipsis; white-space: nowrap;"&gt;&lt;a style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 17px; text-decoration: none;" href="https://www.instagram.com/p/DavS4_tETat/?utm_source=ig_embed&amp;amp;utm_campaign=loading" target="_blank" rel="noopener"&gt;Um post compartilhado por Jennifer Finch (@jenniferfinch)&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;script async src="//www.instagram.com/embed.js"&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;blockquote class="instagram-media" style="background: #FFF; border: 0; border-radius: 3px; box-shadow: 0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width: 540px; min-width: 326px; padding: 0; width: calc(100% - 2px);" data-instgrm-captioned="" data-instgrm-permalink="https://www.instagram.com/p/DZIfODNAuFc/?utm_source=ig_embed&amp;amp;utm_campaign=loading" data-instgrm-version="14"&gt;
+&lt;div style="padding: 16px;"&gt;
+&lt;div style="display: flex; flex-direction: row; align-items: center;"&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"&gt;&lt;/div&gt;
+&lt;div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"&gt;&lt;/div&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="padding: 19% 0;"&gt;&lt;/div&gt;
+&lt;div style="display: block; height: 50px; margin: 0 auto 12px; width: 50px;"&gt;&lt;/div&gt;
+&lt;div style="padding-top: 8px;"&gt;
+&lt;div style="color: #3897f0; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: 550; line-height: 18px;"&gt;Ver essa foto no Instagram&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="padding: 12.5% 0;"&gt;&lt;/div&gt;
+&lt;div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"&gt;
+&lt;div&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"&gt;&lt;/div&gt;
+&lt;div style="background-color: #f4f4f4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"&gt;&lt;/div&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="margin-left: 8px;"&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"&gt;&lt;/div&gt;
+&lt;div style="width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg);"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="margin-left: auto;"&gt;
+&lt;div style="width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"&gt;&lt;/div&gt;
+&lt;div style="background-color: #f4f4f4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"&gt;&lt;/div&gt;
+&lt;div style="width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"&gt;&lt;/div&gt;
+&lt;div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; line-height: 17px; margin-bottom: 0; margin-top: 8px; overflow: hidden; padding: 8px 0 7px; text-align: center; text-overflow: ellipsis; white-space: nowrap;"&gt;&lt;a style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 17px; text-decoration: none;" href="https://www.instagram.com/p/DZIfODNAuFc/?utm_source=ig_embed&amp;amp;utm_campaign=loading" target="_blank" rel="noopener"&gt;Um post compartilhado por L7 (@l7theband)&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;script async src="//www.instagram.com/embed.js"&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;blockquote class="wp-embedded-content" data-secret="BC3g3V19fM"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/entretenimento/cyndi-lauper-e-mais-veja-eleitos-para-rock-and-roll-of-fame-2025/"&gt;Cyndi Lauper e mais: veja eleitos para Rock and Roll of Fame 2025&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Cyndi Lauper e mais: veja eleitos para Rock and Roll of Fame 2025&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/entretenimento/cyndi-lauper-e-mais-veja-eleitos-para-rock-and-roll-of-fame-2025/embed/#?secret=pIdFjPkKQk#?secret=BC3g3V19fM" data-secret="BC3g3V19fM" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Sun, 19 Jul 2026 12:26:26 +0000</pubDate><guid>https://www.cnnbrasil.com.br/pop/celebridades/morre-jennifer-finch-da-banda-l7-apos-diagnostico-de-cancer-cerebral/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/pop/celebridades/morre-jennifer-finch-da-banda-l7-apos-diagnostico-de-cancer-cerebral/</guid></item><item><title>Rabiot detona “comportamentos inadmissíveis” de jogadores da França</title><link>https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/rabiot-detona-comportamentos-inadmissiveis-de-jogadores-da-franca/</link><description>&lt;p&gt;O meio-campista Adrien Rabiot criticou o desempenho da França no primeiro tempo da derrota por 6 a 4 para a Inglaterra, na disputa pelo terceiro lugar da Copa do Mundo deste último sábado (18), e afirmou ter visto “comportamentos inadmissíveis” de alguns jogadores franceses, embora não tenha citado nomes.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;Nos primeiros 45 minutos, a Inglaterra abriu 4 a 0 no placar. A França chegou a diminuir a &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/franca-4-x-6-inglaterra-gols-e-melhores-momentos-da-disputa-de-3o-lugar/"&gt;desvantagem para 4 a 3 na segunda etapa&lt;/a&gt;, &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/em-jogo-de-dez-gols-inglaterra-vence-franca-e-fica-com-o-3o-lugar-da-copa/"&gt;mas acabou derrotada por 6 a 4&lt;/a&gt;.&lt;/p&gt;
+&lt;aside class="read-too read-too--with-img"&gt;
+            &lt;h2 class='read-too__title'&gt;Leia mais&lt;/h2&gt;
+            &lt;ul class="read-too__list"&gt;
+        &lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/copa-busca-por-cucurella-no-google-revela-surpresa-com-meme-antes-de-final/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/cucurella_espanha_copa-e1782334394718.jpeg?w=200"
+                    alt="Copa: busca por Cucurella no Google revela surpresa com meme antes de final"
+                    title="Copa: busca por Cucurella no Google revela surpresa com meme antes de final'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Copa: busca por Cucurella no Google revela surpresa com meme antes de final&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/quando-comecam-as-eliminatorias-para-a-copa-do-mundo-de-2030/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/Brasil-Escocia-Div-Fifa-e1782435489762.webp?w=200"
+                    alt="Quando começam as Eliminatórias para a Copa do Mundo de 2030?"
+                    title="Quando começam as Eliminatórias para a Copa do Mundo de 2030?'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Quando começam as Eliminatórias para a Copa do Mundo de 2030?&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/messi-diz-que-dinheiro-dos-argentinos-nao-chega-ao-fim-do-mes/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/messi_comemoracao-e1784162120500.jpg?w=200"
+                    alt="Messi diz que dinheiro dos argentinos “não chega ao fim do mês”"
+                    title="Messi diz que dinheiro dos argentinos “não chega ao fim do mês”'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Messi diz que dinheiro dos argentinos “não chega ao fim do mês”&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;    &lt;/ul&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;“Começamos de maneira bastante vergonhosa nesse primeiro tempo. Vi comportamentos de alguns jogadores que nunca tinha visto até hoje. Isso é um pouco decepcionante, porque era o nosso último jogo e queríamos encerrar essa competição de forma digna”, disse Rabiot em entrevista após a partida.&lt;/p&gt;
+&lt;p&gt;Em uma tentativa de reação, &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/federacao-francesa-se-despede-e-exalta-deschamps-gratidao-infinita/"&gt;Deschamps fez quatro substituições no intervalo para tentar mudar o ânimo da equipe&lt;/a&gt;. O treinador promoveu as entradas de titulares que haviam começado a partida no banco de reservas: saíram Cherki, Doué, Theo Hernández e Konaté, enquanto Barcola, Dembélé, Upamecano e Digne entraram em campo.&lt;/p&gt;
+&lt;blockquote class="wp-embedded-content" data-secret="p5g99lzJut"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/esportes/messi-e-o-maior-da-historia-nao-ha-mais-duvida-decreta-scaloni/"&gt;&amp;#8220;Messi é o maior da história, não há mais dúvida&amp;#8221;, decreta Scaloni&lt;/a&gt;&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;&amp;#8220;Messi é o maior da história, não há mais dúvida&amp;#8221;, decreta Scaloni&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/esportes/messi-e-o-maior-da-historia-nao-ha-mais-duvida-decreta-scaloni/embed/#?secret=0mAKG1LvQj#?secret=p5g99lzJut" data-secret="p5g99lzJut" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Sun, 19 Jul 2026 12:25:50 +0000</pubDate><guid>https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/rabiot-detona-comportamentos-inadmissiveis-de-jogadores-da-franca/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/rabiot-detona-comportamentos-inadmissiveis-de-jogadores-da-franca/</guid></item><item><title>Messi faz carta emocionante antes de final da Copa: “Ninguém poderá apagar”</title><link>https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/messi-faz-carta-emocionante-antes-de-final-da-copa-ninguem-podera-apagar/</link><description>&lt;p&gt;Horas antes da final da Copa do Mundo entre Espanha x Argentina, o astro Lionel Messi publicou em seu Instagram uma carta de agradecimento ao elenco e à comissão técnida da seleção Albiceleste. A bola rola às 16h (de Brasília), e o time treinado por Lionel Scaloni busca o tetracampeonato e o segundo título consecutivo.&lt;/p&gt;&lt;div id="mid2" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;Na pubicação, Messi relembra todo o &amp;#8220;caminho&amp;#8221; com a camisa da seleção argentina. De acordo com o camisa 10, a trajetória foi mais importante do que os títulos e que tanto comissão quanto jogadores formam uma &amp;#8220;família&amp;#8221; durante o dia a dia de competições.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;&lt;span class="selectable-text copyable-text xkrh14z"&gt;Obrigado a cada um dos meus companheiros, à comissão técnica e a todas as pessoas que trabalham todos os dias para que esta &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/messi-manda-recado-apos-classificacao-entre-os-quatro-melhores-do-mundo/" target="_blank" rel="noopener" data-textassist="true"&gt;Seleção siga sendo uma família&lt;/a&gt;&amp;#8220;, disse o camisa 10.&lt;/span&gt;&lt;/p&gt;
+&lt;aside class="read-too read-too--with-img"&gt;
+            &lt;h2 class='read-too__title'&gt;Leia Mais&lt;/h2&gt;
+            &lt;ul class="read-too__list"&gt;
+        &lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/10-anos-depois-de-despedida-messi-pode-vencer-segunda-copa-do-mundo/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2022/12/DES20221218234-e1784300562483.jpg?w=200"
+                    alt="10 anos depois de despedida, Messi pode vencer segunda Copa do Mundo"
+                    title="10 anos depois de despedida, Messi pode vencer segunda Copa do Mundo'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;10 anos depois de despedida, Messi pode vencer segunda Copa do Mundo&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/messi-e-o-maior-da-historia-nao-ha-mais-duvida-decreta-scaloni/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/scaloni-messi-argentina-e1781694142769.jpg?w=200"
+                    alt="&amp;quot;Messi é o maior da história, não há mais dúvida&amp;quot;, decreta Scaloni"
+                    title="&amp;quot;Messi é o maior da história, não há mais dúvida&amp;quot;, decreta Scaloni'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;&amp;quot;Messi é o maior da história, não há mais dúvida&amp;quot;, decreta Scaloni&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;&lt;li class="read-too__list-item"&gt;
+    &lt;a class="read-too__link" href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/jogadores-da-argentina-exaltam-messi-e-o-melhor-da-historia/" target="_self"&gt;
+                    &lt;picture class="read-too__picture"&gt;
+                &lt;img decoding="async"
+                    class="read-too__img"
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/paredes-e-messi-e1782159940227.webp?w=200"
+                    alt="Jogadores da Argentina exaltam Messi: &amp;quot;É o melhor da história&amp;quot;"
+                    title="Jogadores da Argentina exaltam Messi: &amp;quot;É o melhor da história&amp;quot;'"
+                    loading="lazy"
+                &gt;
+            &lt;/picture&gt;
+                    
+        &lt;h3 class="read-too__post-title"&gt;Jogadores da Argentina exaltam Messi: &amp;quot;É o melhor da história&amp;quot;&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/li&gt;    &lt;/ul&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;Por fim, mesmo que a Argentina não saia com o tetra nesta tarde, Messi garantiu que o grupo já está na história: &amp;#8220;Este grupo &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/messi-orquestra-argentina-em-ultima-copa-sabia-que-estaria-a-altura/" target="_blank" rel="noopener" data-textassist="true"&gt;já escreveu uma história&lt;/a&gt; que jamais vamos esquecer e que ninguém poderá apagar&amp;#8221;.&lt;/p&gt;
+&lt;h2&gt;Leia carta na íntegra&lt;/h2&gt;
+&lt;p&gt;&amp;#8220;&lt;em&gt;O mais lindo de todos estes anos nunca foram somente os títulos, mas todo o caminho. Compartilhar o dia a dia com este grupo, competir juntos, &lt;a href="https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/messi-exalta-resiliencia-e-diz-que-elenco-da-argentina-nao-o-surpreende/" target="_blank" rel="noopener" data-textassist="true"&gt;levantarmos nos momentos difíceis&lt;/a&gt; e desfrutar cada passo.&lt;/em&gt;&lt;/p&gt;&lt;div id="mid3" class="custom__ad__element"&gt;&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;Obrigado a cada um dos meus companheiros, à comissão técnica e a todas as pessoas que trabalham todos os dias para que esta Seleção siga sendo uma família.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Aconteça o que acontecer hoje, este grupo já escreveu uma história que jamais vamos esquecer e que ninguém poderá apagar.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Vamos, Argentina!&lt;/em&gt;&amp;#8221;&lt;/p&gt;
+&lt;blockquote class="wp-embedded-content" data-secret="zqEBvMphAY"&gt;&lt;p&gt;&lt;a href="https://stories.cnnbrasil.com.br/esportes/espanha-x-argentina-veja-dia-e-horario-da-final-da-copa-do-mundo/"&gt;Espanha x Argentina: veja dia e horário da final da Copa do Mundo&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="&amp;#8220;Espanha x Argentina: veja dia e horário da final da Copa do Mundo&amp;#8221; &amp;#8212; Web Stories CNN Brasil" data-src="https://stories.cnnbrasil.com.br/esportes/espanha-x-argentina-veja-dia-e-horario-da-final-da-copa-do-mundo/embed/#?secret=btmy8LbDbv#?secret=zqEBvMphAY" data-secret="zqEBvMphAY" width="360" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Autor não encontrado</dc:creator><pubDate>Sun, 19 Jul 2026 12:22:33 +0000</pubDate><guid>https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/messi-faz-carta-emocionante-antes-de-final-da-copa-ninguem-podera-apagar/</guid><guid isPermaLink="true">https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/messi-faz-carta-emocionante-antes-de-final-da-copa-ninguem-podera-apagar/</guid></item></channel></rss>
