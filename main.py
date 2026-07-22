@@ -7,6 +7,7 @@ from src.utils import (
     save_history,
     generate_feed,
     save_feed,
+    merge_articles_with_existing_feed,
     generate_opml,
     save_opml,
     generate_html_index,
@@ -50,6 +51,11 @@ def main():
         for attempt in range(max_retries):
             try:
                 articles = scraper.get_articles()
+                if source['scraper'] == 'LinkedInNewsletterScraper':
+                    articles = merge_articles_with_existing_feed(
+                        articles,
+                        source['feed_file'],
+                    )
                 if articles:
                     latest_article = articles[0]
                     history = load_history(source['history_file'])

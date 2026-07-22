@@ -2,8 +2,10 @@ import os
 import json
 from feedgenerator import Rss201rev2Feed
 from datetime import datetime
+from email.utils import parsedate_to_datetime
 import pytz
 from xml.etree import ElementTree as ET
+from urllib.parse import urlsplit, urlunsplit
 
 # Constante para a URL base do GitHub Pages
 GITHUB_PAGES_BASE_URL = "https://paulofeh.github.io/rss-de-valor"
@@ -94,6 +96,102 @@ def save_feed(feed, filename):
     full_path = get_feed_path(filename)
     with open(full_path, 'w', encoding='utf-8') as f:
         feed.write(f, 'utf-8')
+
+def merge_articles_with_existing_feed(articles, filename, limit=5):
+    """Keep a generated feed from being downgraded by transient scrape failures.
+
+    LinkedIn issue cards remain available even when an individual article request
+    is blocked. The scraper marks those incomplete results with
+    ``_enrichment_failed``. For a known URL, reuse the last published item; for a
+    new URL, omit the incomplete item until a later run can retrieve it in full.
+    """
+    previous_articles = _load_feed_articles(filename)
+    previous_by_link = {
+        _article_link_key(article.get('link')): article
+        for article in previous_articles
+        if article.get('link')
+    }
+
+    merged = []
+    included_links = set()
+
+    for article in articles:
+        link_key = _article_link_key(article.get('link'))
+        selected_article = article
+
+        if article.get('_enrichment_failed'):
+            previous_article = previous_by_link.get(link_key)
+            if previous_article:
+                selected_article = previous_article
+                print(f"   ♻️  Conteúdo anterior preservado: {article.get('title', article.get('link'))}")
+            else:
+                print(f"   ⏳ Edição incompleta adiada: {article.get('title', article.get('link'))}")
+                continue
+
+        if link_key in included_links:
+            continue
+
+        merged.append(selected_article)
+        included_links.add(link_key)
+
+        if len(merged) >= limit:
+            return merged
+
+    # Refill the feed with older published items if a new incomplete issue was
+    # skipped or the current listing returned fewer cards than expected.
+    for previous_article in previous_articles:
+        link_key = _article_link_key(previous_article.get('link'))
+        if link_key in included_links:
+            continue
+        merged.append(previous_article)
+        included_links.add(link_key)
+        if len(merged) >= limit:
+            break
+
+    return merged
+
+def _load_feed_articles(filename):
+    """Load previously published RSS items as article dictionaries."""
+    full_path = get_feed_path(filename)
+    if not os.path.exists(full_path):
+        return []
+
+    try:
+        root = ET.parse(full_path).getroot()
+    except (ET.ParseError, OSError) as e:
+        print(f"   ⚠️  Não foi possível ler o feed anterior {filename}: {str(e)}")
+        return []
+
+    articles = []
+    dc_creator = '{http://purl.org/dc/elements/1.1/}creator'
+    for item in root.findall('./channel/item'):
+        pubdate_text = item.findtext('pubDate')
+        try:
+            pubdate = parsedate_to_datetime(pubdate_text) if pubdate_text else None
+        except (TypeError, ValueError):
+            pubdate = None
+
+        if pubdate is None:
+            pubdate = datetime.now(pytz.UTC)
+        elif pubdate.tzinfo is None:
+            pubdate = pytz.UTC.localize(pubdate)
+
+        articles.append({
+            'title': item.findtext('title') or '',
+            'link': item.findtext('link') or item.findtext('guid') or '',
+            'description': item.findtext('description') or '',
+            'author': item.findtext(dc_creator) or 'Autor não encontrado',
+            'pubdate': pubdate,
+        })
+
+    return articles
+
+def _article_link_key(link):
+    """Normalize a LinkedIn article URL for matching across tracking variants."""
+    if not link:
+        return ''
+    parsed = urlsplit(link)
+    return urlunsplit((parsed.scheme.lower(), parsed.netloc.lower(), parsed.path.rstrip('/'), '', ''))
 
 def load_history(filename):
     """Load history from the history directory."""

@@ -676,6 +676,7 @@ class LinkedInNewsletterScraper(BaseScraper):
                 'pubdate': datetime.datetime.now(pytz.UTC),
                 'author': 'Autor não encontrado',
                 'description': fallback_description,
+                '_enrichment_failed': True,
             }
 
     def _extract_full_article(self, soup, link, fallback_title, fallback_description):
@@ -704,7 +705,8 @@ class LinkedInNewsletterScraper(BaseScraper):
             author = author_element.get_text(' ', strip=True) if author_element else 'Autor não encontrado'
 
         pubdate = self._parse_iso_date(metadata.get('datePublished'))
-        description = self._extract_article_content(soup, link) or fallback_description
+        article_content = self._extract_article_content(soup, link)
+        description = article_content or fallback_description
 
         return {
             'title': title.strip(),
@@ -712,6 +714,7 @@ class LinkedInNewsletterScraper(BaseScraper):
             'pubdate': pubdate,
             'author': author.strip(),
             'description': description,
+            '_enrichment_failed': not bool(article_content),
         }
 
     @classmethod
