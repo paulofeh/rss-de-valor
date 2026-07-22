@@ -433,14 +433,6 @@
       "group": "linkedin"
     },
     {
-      "name": "Insights: Grãos e Mercado",
-      "url": "https://www.linkedin.com/newsletters/7314061706538713089/",
-      "feed_file": "insights_graos_mercado_linkedin_feed.xml",
-      "history_file": "insights_graos_mercado_linkedin_history.json",
-      "scraper": "LinkedInNewsletterScraper",
-      "group": "linkedin"
-    },
-    {
       "name": "Perspectivas ESG by VMF",
       "url": "https://www.linkedin.com/newsletters/6908410414292443136/",
       "feed_file": "perspectivas_esg_vmf_linkedin_feed.xml",
@@ -529,34 +521,10 @@
       "group": "linkedin"
     },
     {
-      "name": "O Essencial",
-      "url": "https://www.linkedin.com/newsletters/7321547919445180417/",
-      "feed_file": "o_essencial_feed.xml",
-      "history_file": "o_essencial_history.json",
-      "scraper": "LinkedInNewsletterScraper",
-      "group": "linkedin"
-    },
-    {
       "name": "Storyskills",
       "url": "https://www.linkedin.com/newsletters/7046073150593208321/",
       "feed_file": "storyskills_linkedin_feed.xml",
       "history_file": "storyskills_linkedin_history.json",
-      "scraper": "LinkedInNewsletterScraper",
-      "group": "linkedin"
-    },
-    {
-      "name": "Influenciador Corporativo",
-      "url": "https://www.linkedin.com/newsletters/6819352211030593536/",
-      "feed_file": "influenciador_corporativo_linkedin_feed.xml",
-      "history_file": "influenciador_corporativo_linkedin_history.json",
-      "scraper": "LinkedInNewsletterScraper",
-      "group": "linkedin"
-    },
-    {
-      "name": "O futuro do Marketing B2B",
-      "url": "https://www.linkedin.com/newsletters/6887027472722931712/",
-      "feed_file": "futuro_marketing_b2b_linkedin_feed.xml",
-      "history_file": "futuro_marketing_b2b_linkedin_history.json",
       "scraper": "LinkedInNewsletterScraper",
       "group": "linkedin"
     },
