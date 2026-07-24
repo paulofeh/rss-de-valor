@@ -1,0 +1,135 @@
+name: Private feed pilot
+
+on:
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+    inputs:
+      pilot_feed_file:
+        description: Configured generated feed filename to expose in the pilot
+        required: true
+        type: string
+      allow_bootstrap_from_local:
+        description: Authorize first snapshot from the checked-in public state
+        required: true
+        default: false
+        type: boolean
+
+concurrency:
+  group: private-feed-r2-publication
+  cancel-in-progress: false
+  queue: max
+
+permissions:
+  contents: read
+
+jobs:
+  publish-pilot:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      vars.PRIVATE_FEED_PILOT_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    environment: private-feed-pilot
+    env:
+      FEED_BASE_URL: ${{ vars.PRIVATE_FEED_PILOT_ENDPOINT }}
+      PILOT_FEED_FILE: >-
+        ${{ inputs.pilot_feed_file || vars.PRIVATE_FEED_PILOT_FEED_FILE }}
+      PRIVATE_FEED_ENDPOINT: ${{ vars.PRIVATE_FEED_PILOT_ENDPOINT }}
+      R2_ACCOUNT_ID: ${{ vars.R2_ACCOUNT_ID }}
+      R2_BUCKET: ${{ vars.R2_BUCKET }}
+
+    steps:
+      - name: Check out public source code
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: requirements-private.txt
+
+      - name: Install dependencies
+        run: python -m pip install --requirement requirements-private.txt
+
+      - name: Validate non-secret pilot configuration
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -n "$PILOT_FEED_FILE"
+          test -n "$PRIVATE_FEED_ENDPOINT"
+          test -n "$R2_ACCOUNT_ID"
+          test -n "$R2_BUCKET"
+
+      - name: Hydrate the active private snapshot
+        shell: bash
+        env:
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+        run: |
+          set -euo pipefail
+          bootstrap=()
+          if [[ "${{ inputs.allow_bootstrap_from_local || false }}" == "true" ]]; then
+            bootstrap+=(--allow-bootstrap-from-local)
+          fi
+          python scripts/hydrate_private_state.py "${bootstrap[@]}"
+
+      - name: Generate feeds from the hydrated state
+        run: python main.py
+
+      - name: Validate and stage the pilot snapshot
+        id: snapshot
+        shell: bash
+        env:
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          PRIVATE_FEED_USERNAME: ${{ secrets.PRIVATE_FEED_USERNAME }}
+          PRIVATE_FEED_PASSWORD: ${{ secrets.PRIVATE_FEED_PASSWORD }}
+        run: |
+          set -euo pipefail
+          run_id="${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}-${GITHUB_SHA:0:12}"
+          python scripts/build_snapshot_manifest.py \
+            --feed-base-url "$FEED_BASE_URL" \
+            --mode pilot \
+            --pilot-feed-file "$PILOT_FEED_FILE" \
+            --run-id "$run_id" \
+            --secret-env R2_ACCESS_KEY_ID \
+            --secret-env R2_SECRET_ACCESS_KEY \
+            --secret-env PRIVATE_FEED_USERNAME \
+            --secret-env PRIVATE_FEED_PASSWORD
+          echo "run_id=$run_id" >> "$GITHUB_OUTPUT"
+          echo "snapshot_dir=.private-feed-build/$run_id" >> "$GITHUB_OUTPUT"
+
+      - name: Upload, activate, canary and retain
+        env:
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          PRIVATE_FEED_USERNAME: ${{ secrets.PRIVATE_FEED_USERNAME }}
+          PRIVATE_FEED_PASSWORD: ${{ secrets.PRIVATE_FEED_PASSWORD }}
+        run: >-
+          python scripts/publish_snapshot.py
+          --snapshot-dir "${{ steps.snapshot.outputs.snapshot_dir }}"
+          --feed-base-url "$FEED_BASE_URL"
+          --mode pilot
+          --pilot-feed-file "$PILOT_FEED_FILE"
+          --endpoint "$PRIVATE_FEED_ENDPOINT"
+          --retention 28
+          --secret-env R2_ACCESS_KEY_ID
+          --secret-env R2_SECRET_ACCESS_KEY
+          --secret-env PRIVATE_FEED_USERNAME
+          --secret-env PRIVATE_FEED_PASSWORD
+
+      - name: Record a secret-free summary
+        shell: bash
+        run: |
+          {
+            echo "### Private feed pilot"
+            echo ""
+            echo "- Snapshot: \`${{ steps.snapshot.outputs.run_id }}\`"
+            echo "- Mode: pilot"
+            echo "- Published route: \`/feeds/$PILOT_FEED_FILE\`"
+            echo "- Pilot self-link origin: \`$FEED_BASE_URL\`"
+          } >> "$GITHUB_STEP_SUMMARY"

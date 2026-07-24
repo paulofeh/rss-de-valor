@@ -24,6 +24,15 @@ var/
 venv/
 ENV/
 
+# Private feed publication tooling
+worker/node_modules/
+worker/.wrangler/
+worker/.dev.vars*
+worker/.env*
+worker/coverage/
+.private-feed-build/
+.private-feed-state/
+
 # IDEs
 .idea/
 .vscode/

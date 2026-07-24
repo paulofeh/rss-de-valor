@@ -1,0 +1,64 @@
+name: Private feed rollback
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_run_id:
+        description: Existing immutable snapshot run_id to activate
+        required: true
+        type: string
+
+concurrency:
+  group: private-feed-r2-publication
+  cancel-in-progress: false
+  queue: max
+
+permissions:
+  contents: read
+
+jobs:
+  rollback:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    environment: private-feed-pilot
+    env:
+      PRIVATE_FEED_ENDPOINT: ${{ vars.PRIVATE_FEED_PILOT_ENDPOINT }}
+      R2_ACCOUNT_ID: ${{ vars.R2_ACCOUNT_ID }}
+      R2_BUCKET: ${{ vars.R2_BUCKET }}
+      TARGET_RUN_ID: ${{ inputs.target_run_id }}
+
+    steps:
+      - name: Check out public source code
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: requirements-private.txt
+
+      - name: Install dependencies
+        run: python -m pip install --requirement requirements-private.txt
+
+      - name: Validate and activate the selected snapshot
+        env:
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          PRIVATE_FEED_USERNAME: ${{ secrets.PRIVATE_FEED_USERNAME }}
+          PRIVATE_FEED_PASSWORD: ${{ secrets.PRIVATE_FEED_PASSWORD }}
+        run: >-
+          python scripts/rollback_snapshot.py
+          --target-run-id "$TARGET_RUN_ID"
+          --required-mode pilot
+          --endpoint "$PRIVATE_FEED_ENDPOINT"
+
+      - name: Record a secret-free summary
+        run: |
+          {
+            echo "### Private feed rollback"
+            echo ""
+            echo "- Activated snapshot: \`$TARGET_RUN_ID\`"
+          } >> "$GITHUB_STEP_SUMMARY"

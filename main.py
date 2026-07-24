@@ -11,12 +11,17 @@ from src.utils import (
     generate_opml,
     save_opml,
     generate_html_index,
-    save_html_index
+    save_html_index,
+    get_feed_base_url,
+    normalize_feed_self_link,
 )
 
 def main():
     # Garante que os diretórios necessários existem
     ensure_directories()
+    # Fail before scraping or changing histories if the publication origin is
+    # invalid.
+    feed_base_url = get_feed_base_url()
 
     # Carrega a configuração dos sources
     sources = load_sources_config()
@@ -107,6 +112,19 @@ def main():
                     print(f"   Falha após {max_retries} tentativas.")
                     error_count += 1
 
+    # Normalize publication self-links even when a scraper failed and the
+    # hydrated feed had to be preserved unchanged.
+    normalized_self_links = 0
+    for source in scrape_sources:
+        try:
+            if normalize_feed_self_link(source['feed_file']):
+                normalized_self_links += 1
+        except Exception as e:
+            print(
+                f"❌ Erro ao normalizar self-link de {source['name']}: {str(e)}"
+            )
+            error_count += 1
+
     # Print summary
     print("\n" + "=" * 70)
     print("RESUMO DA EXECUÇÃO")
@@ -116,6 +134,7 @@ def main():
     print(f"❌ Erros: {error_count}")
     print(f"📊 Total processado: {new_articles_count + no_change_count + error_count}")
     print(f"\n📄 Feeds individuais gerados: {individual_feeds_generated}")
+    print(f"🔗 Self-links atualizados: {normalized_self_links}")
 
     # Gera o arquivo OPML atualizado
     print("\n" + "=" * 70)
@@ -136,7 +155,7 @@ def main():
         html = generate_html_index(sources)
         save_html_index(html, 'feeds/index.html')
         print("✅ Página HTML gerada com sucesso!")
-        print("   Acesse em: https://paulofeh.github.io/rss-de-valor/feeds/")
+        print(f"   URL base dos feeds: {feed_base_url}")
     except Exception as e:
         print(f"❌ Erro ao gerar página HTML: {str(e)}")
 

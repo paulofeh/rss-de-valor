@@ -1,0 +1,401 @@
+# Operação da publicação privada de feeds
+
+**Estado em 2026-07-24:** implementação e testes locais concluídos; bucket R2
+Standard privado e Worker do piloto criados; Worker implantado em
+`workers.dev`; autenticação atual validada; token S3 R2 restrito criado pelo
+usuário, sem exposição dos valores ao agente; ambiente GitHub
+`private-feed-pilot` configurado com quatro secrets e cinco variables. Nenhum
+snapshot foi publicado e nenhum DNS foi alterado.
+
+Este runbook complementa a
+[especificação](private-feed-publication-cloudflare-spec.md). Ele não autoriza
+por si só implantação, compra, troca de nameservers, publicação completa ou
+corte do GitHub Pages.
+
+## 1. Gates que continuam fechados
+
+É necessária autorização explícita separada para:
+
+1. autorizar commit e push da implementação paralela;
+2. publicar o snapshot piloto;
+3. trocar nameservers de `paulofehlauer.com`;
+4. criar o Custom Domain `feeds.paulofehlauer.com`;
+5. publicar todos os feeds;
+6. migrar assinaturas e desligar a publicação pública.
+
+Depois do piloto, parar e aguardar a confirmação de que o Feedbin fez uma
+atualização automática. Não avançar apenas porque uma requisição manual
+funcionou.
+
+## 2. Modelo implementado
+
+- O Worker autentica antes de examinar método, caminho ou R2.
+- O bucket só é acessado pelo binding privado do Worker e pelo token S3 de
+  publicação.
+- Cada snapshot contém todos os feeds gerados, históricos e o OPML necessários
+  à próxima execução.
+- As rotas públicas são separadas dos objetos armazenados. No piloto, apenas
+  um feed é roteável.
+- `current.json` é o único ponteiro mutável.
+- Objetos e manifesto são escritos com `If-None-Match`; o ponteiro é trocado
+  com `If-Match` ou `If-None-Match`.
+- Uma falha antes da ativação não altera o ponteiro.
+- Uma falha de canário depois da ativação restaura o ponteiro anterior.
+- Publicação e rollback compartilham o grupo
+  `private-feed-r2-publication`, com fila serial.
+- Actions externas dos workflows privados são fixadas por SHA completo e
+  identificadas pelo release correspondente.
+- A retenção mantém 28 snapshots e protege o ativo e o imediatamente anterior.
+
+Com a configuração atual, a allowlist deriva 107 feeds gerados, 107 históricos
+e um OPML: 215 objetos internos. Os dois `ExistingRssScraper` continuam
+apontando diretamente para seus provedores. XMLs agregados ou órfãos presentes
+no disco não entram no snapshot.
+
+## 3. Verificação local
+
+Usar sempre o ambiente virtual do repositório:
+
+```bash
+.venv/bin/pip install -r requirements-private.txt
+.venv/bin/python3 -m unittest discover -s tests -v
+```
+
+Para o Worker:
+
+```bash
+cd worker
+npm ci
+npm run check
+npm test
+npm run deploy -- --dry-run
+```
+
+O último comando apenas empacota e valida; não deve ser substituído por um
+deploy real antes do gate.
+
+## 4. Recursos a criar depois de autorização
+
+| Recurso | Configuração | Motivo |
+|---|---|---|
+| R2 | bucket Standard `rss-de-valor-private-feeds` | snapshots privados |
+| Worker | `rss-de-valor-private-feeds` | única porta de leitura |
+| Token R2 | Object Read & Write, restrito ao bucket | hidratar, publicar e fazer rollback |
+| Ambiente GitHub | `private-feed-pilot` | isolar variables e secrets do piloto |
+
+Habilitar R2 pode exigir aceitar termos de cobrança ou cadastrar um meio de
+pagamento, mesmo que a escala estimada fique na faixa gratuita. Explicar isso
+e obter autorização antes de prosseguir.
+
+No bucket:
+
+- usar armazenamento Standard;
+- manter **Public Development URL (`r2.dev`) desabilitada**;
+- não conectar Custom Domain ao bucket;
+- não criar política anônima;
+- confirmar essas três condições novamente depois da criação.
+
+O domínio `workers.dev` do piloto pertence ao Worker, não ao bucket.
+
+## 5. Secrets e variables
+
+Nunca enviar valores pela conversa, colocá-los na linha de comando ou incluí-los
+em URLs. Usar prompts interativos, o painel da Cloudflare e GitHub Environment
+Secrets.
+
+### Worker secrets
+
+- `BASIC_AUTH_USERNAME`
+- `BASIC_AUTH_PASSWORD_CURRENT`
+- `BASIC_AUTH_PASSWORD_NEXT`, apenas durante rotação
+
+O Wrangler pode recebê-los interativamente, um de cada vez:
+
+```bash
+npx wrangler secret put BASIC_AUTH_USERNAME
+npx wrangler secret put BASIC_AUTH_PASSWORD_CURRENT
+```
+
+O usuário deve ter no máximo 128 bytes, sem `:` nem caracteres de controle. A
+senha deve ter entre 24 e 1.024 bytes; usar preferencialmente pelo menos 32
+caracteres aleatórios gerados por um gerenciador de senhas. Worker, publicação
+e rollback falham fechados se essa política não for atendida.
+
+### GitHub Environment Secrets
+
+- `R2_ACCESS_KEY_ID`
+- `R2_SECRET_ACCESS_KEY`
+- `PRIVATE_FEED_USERNAME`
+- `PRIVATE_FEED_PASSWORD`
+
+### GitHub Environment Variables
+
+- `R2_ACCOUNT_ID`
+- `R2_BUCKET`
+- `PRIVATE_FEED_PILOT_ENDPOINT`
+- `PRIVATE_FEED_PILOT_FEED_FILE`
+- `PRIVATE_FEED_PILOT_ENABLED`
+
+`PRIVATE_FEED_PILOT_ENDPOINT` deve ser a origem HTTPS completa do Worker em
+`workers.dev`, sem credenciais e sem caminho. O workflow usa essa mesma origem
+como `FEED_BASE_URL` no piloto. Em publicação completa, `FEED_BASE_URL` é
+obrigatoriamente `https://feeds.paulofehlauer.com`.
+
+## 6. Implantação do piloto
+
+Executar somente depois dos gates de recursos e acesso:
+
+1. criar e auditar o bucket;
+2. validar novamente os testes e o dry-run;
+3. implantar o Worker em `workers.dev`;
+4. configurar os dois secrets obrigatórios do Worker;
+5. confirmar `401` anônimo antes de existir snapshot;
+6. configurar o ambiente `private-feed-pilot` no GitHub;
+7. escolher explicitamente um feed gerado da configuração;
+8. executar manualmente **Private feed pilot**.
+
+Na primeira execução, marcar `allow_bootstrap_from_local=true`. Isso só autoriza
+o bootstrap se `current.json` ainda estiver ausente. Nas execuções seguintes,
+usar `false`.
+
+Manter `PRIVATE_FEED_PILOT_ENABLED=false` até a publicação manual e os canários
+terem passado. Quando for necessário testar atualização automática, mudar para
+`true`; o workflow agendado roda a cada seis horas sem alterar o workflow
+público existente.
+
+Resultados esperados:
+
+- anônimo: `401`, desafio Basic e nenhum metadado do feed;
+- credencial errada: a mesma resposta `401`;
+- credencial atual: `200`, RSS válido e cache privado;
+- `HEAD`: mesmos metadados de `GET`, sem corpo;
+- `If-None-Match`: `304`, sem corpo;
+- caminho não permitido: `404` somente depois da autenticação;
+- `/healthz`: `200` com o `run_id` ativo.
+
+Não publicar o OPML no piloto. Não incluir usuário ou senha na URL cadastrada no
+Feedbin; o próprio Feedbin deve solicitar as credenciais.
+
+## 7. Publicação e hidratação
+
+Ordem executada pelo workflow:
+
+1. hidratar o snapshot apontado por `current.json`;
+2. validar hash e tamanho de todos os objetos antes de substituir arquivos
+   locais;
+3. executar `main.py`;
+4. validar XML, OPML, históricos, GUIDs, self-links, allowlist, conteúdo
+   enriquecido e ausência de secrets;
+5. montar um diretório imutável em `.private-feed-build/<run_id>`;
+6. enviar objetos e manifesto;
+7. baixar novamente todos os objetos e confirmar os hashes;
+8. reler o ponteiro observado na hidratação;
+9. ativar por escrita condicional;
+10. executar canários anônimo e autenticado;
+11. aplicar retenção.
+
+Se um scraper falhar, o feed hidratado anterior permanece no diretório. A
+validação impede que falhas de enriquecimento da Folha ou do LinkedIn reduzam
+um item conhecido a um stub. A normalização do `self-link` ocorre depois de
+todos os scrapers e independe do sucesso deles; assim, um XML preservado migra
+da origem anterior para o endpoint ativo sem perder itens, descrições ou GUIDs.
+
+## 8. Rollback
+
+O rollback normal troca apenas `current.json`. Antes disso, ele baixa o snapshot
+de destino para uma área temporária e valida manifesto, allowlist, modalidade,
+todos os hashes, tipos de conteúdo e a semântica de RSS, OPML e históricos.
+
+Pelo GitHub:
+
+1. abrir **Private feed rollback**;
+2. informar o `run_id` exato;
+3. conferir o resumo da execução;
+4. validar o feed no Feedbin.
+
+O workflow atual aceita apenas snapshots de piloto. A operação de produção
+deverá exigir explicitamente `--required-mode full`.
+
+Se o canário do destino falhar, o script restaura o ponteiro original e testa o
+snapshot restaurado. Não apagar o snapshot defeituoso antes de investigar.
+
+## 9. Rotação de senha
+
+1. gerar no gerenciador uma senha aleatória com ao menos 32 caracteres, fora de
+   logs e da conversa;
+2. configurar a nova senha como `BASIC_AUTH_PASSWORD_NEXT`;
+3. testar senha atual, senha nova e uma senha inválida;
+4. atualizar o Feedbin;
+5. aguardar ao menos uma atualização automática;
+6. promover a nova senha para `BASIC_AUTH_PASSWORD_CURRENT`;
+7. atualizar `PRIVATE_FEED_PASSWORD` no GitHub Environment;
+8. remover `BASIC_AUTH_PASSWORD_NEXT`;
+9. confirmar `401` para a senha antiga.
+
+Não há documentação oficial do Feedbin garantindo atualização em lote de
+credenciais. Planejar essa etapa como potencialmente individual até o piloto
+produzir evidência.
+
+## 10. Gate de DNS
+
+### Evidência pública preliminar em 2026-07-24
+
+- `paulofehlauer.com` e `www.paulofehlauer.com` responderam `301` para
+  `https://linktr.ee/paulofehlauer`;
+- o servidor do redirecionamento se identificou como `hcdn`;
+- `A`: `2.57.91.91`;
+- `AAAA`: `2a02:4780:84::32`;
+- `www`: CNAME para `paulofehlauer.com`;
+- NS: `ns1.dns-parking.com` e `ns2.dns-parking.com`;
+- SOA aponta para `dns.hostinger.com`;
+- a consulta pública do apex não retornou `MX`, `TXT`, `CAA` nem `DS`.
+
+Isso é apenas uma observação pública, não um inventário completo. DNS não
+permite enumerar com segurança todos os nomes existentes.
+
+### Inventário obrigatório antes de nameservers
+
+1. exportar a zona completa no provedor atual;
+2. guardar o arquivo de zona e uma captura legível;
+3. registrar nome, tipo, valor, prioridade, TTL e proxy de todos os registros;
+4. conferir `A`, `AAAA`, `CNAME`, `MX`, `TXT`, `CAA`, `SRV`, `NS` e wildcards;
+5. procurar especialmente SPF, DKIM, DMARC e verificações de terceiros;
+6. consultar o `DS` no registrador e planejar DNSSEC;
+7. descobrir no painel atual como o redirect do apex e de `www` foi criado;
+8. testar também caminhos, query strings, HTTP e HTTPS para reproduzir a mesma
+   semântica;
+9. importar ou recriar os registros na zona ainda pendente da Cloudflare;
+10. comparar a zona linha a linha e validar e-mail com o provedor responsável.
+
+A varredura automática da Cloudflare não é suficiente; a documentação alerta
+que ela pode omitir registros.
+
+### Preparação do redirecionamento
+
+Uma Single Redirect Rule exige DNS com proxy ativado. Para uma origem somente
+de redirecionamento, a Cloudflare admite os endereços reservados
+`192.0.2.0` e `100::`. A regra exata só deve ser escolhida depois de confirmar
+se o comportamento atual preserva caminho e query.
+
+Sequência do gate:
+
+1. reproduzir todos os registros e preparar a regra;
+2. obter autorização explícita;
+3. tratar DNSSEC/DS conforme o TTL aplicável;
+4. trocar nameservers;
+5. confirmar primeiro apex, `www`, redirect e serviços de e-mail;
+6. somente então criar `feeds.paulofehlauer.com`.
+
+Não alterar `fehla.xyz`.
+
+## 11. Domínio definitivo e publicação completa
+
+Depois de a zona estar ativa e o redirect principal validado:
+
+1. adicionar `feeds.paulofehlauer.com` como Custom Domain do Worker;
+2. confirmar o DNS e certificado criados pela Cloudflare;
+3. testar o Worker ainda com o snapshot piloto;
+4. depois de o Custom Domain responder corretamente, mudar a configuração
+   aprovada de produção para `workers_dev=false`, reimplantar e confirmar que a
+   origem temporária deixou de servir o Worker;
+5. preparar um workflow completo separado, com
+   `FEED_BASE_URL=https://feeds.paulofehlauer.com`;
+6. obter autorização explícita para publicar todas as rotas;
+7. publicar e observar ao menos um ciclo agendado;
+8. migrar as assinaturas em lotes.
+
+O `wrangler.jsonc` local não declara o Custom Domain nesta fase para impedir que
+um deploy do piloto o crie prematuramente. Ele mantém `workers_dev=true`
+exclusivamente para o piloto; essa opção não é a configuração final.
+
+## 12. Corte da publicação pública
+
+O corte é um gate independente. Até ele:
+
+- `.github/workflows/workflow.yml` continua publicando no Git;
+- GitHub Pages continua ativo;
+- `feeds/` e `history/` permanecem versionados;
+- README e URLs públicas existentes não são removidos.
+
+Somente depois da confirmação de todas as assinaturas privadas:
+
+1. parar os commits de artefatos;
+2. reduzir o workflow remanescente para `contents: read`;
+3. remover artefatos da árvore pública;
+4. desligar GitHub Pages;
+5. confirmar que as URLs antigas não entregam XML;
+6. atualizar README e este runbook.
+
+Reescrita de histórico não faz parte desse corte.
+
+## 13. Diagnóstico e recuperação
+
+| Sintoma | Ação |
+|---|---|
+| hidratação sem `current.json` | parar; bootstrap exige autorização explícita |
+| hash remoto divergente | não rodar scraper; preservar estado local e investigar R2 |
+| scraper falhou | confirmar que o feed anterior permaneceu; não forçar arquivo vazio |
+| upload falhou | confirmar que `current.json` não mudou; repetir com novo `run_id` |
+| ponteiro mudou durante a execução | tratar como concorrência; não ativar |
+| canário novo falhou | confirmar restauração automática do ponteiro anterior |
+| canário restaurado falhou | incidente de entrega; não publicar nem aplicar retenção |
+| Worker retorna `503` | validar ponteiro, manifesto, metadata SHA e objeto canário |
+| Feedbin não atualizou | manter piloto; conferir `401/200/304`, User-Agent e logs sem conteúdo |
+| uso acima da faixa prevista | desabilitar agenda do piloto e revisar antes de contratar plano |
+
+Não imprimir `Authorization`, bodies de artigos ou valores de secrets durante o
+diagnóstico.
+
+## 14. Escala e custo
+
+Na configuração atual, uma publicação grava aproximadamente:
+
+- 215 objetos internos;
+- um manifesto;
+- um ponteiro.
+
+Com quatro execuções diárias, são cerca de 26 mil `PutObject` mensais. A
+validação conservadora de retenção acrescenta listagens e aproximadamente
+800 mil leituras mensais. Vinte e oito snapshots ocupam ordem de 150 MB, antes
+de variações de conteúdo.
+
+Esses valores ficam abaixo das faixas gratuitas publicadas para R2 Standard
+(10 GB-mês, 1 milhão de operações Class A e 10 milhões Class B) e Workers Free
+(100 mil requisições diárias). Eles não são garantia contratual. Revisar preços,
+uso real e CPU do Worker antes de habilitar o agendamento.
+
+## 15. Evidência externa validada
+
+- O Feedbin documenta suporte a HTTP Basic Auth e solicita usuário e senha
+  depois do cadastro da URL.
+- O Feedbin documenta importação OPML, mas não promete reutilizar uma única
+  credencial para todos os itens nem documenta o comportamento de `304`.
+- R2 é fortemente consistente para operações diretas por S3 e Worker binding.
+- Buckets R2 são privados por padrão; `r2.dev` e Custom Domains são exposições
+  separadas e explícitas.
+- R2 oferece operações condicionais necessárias ao ponteiro.
+- Workers oferece `crypto.subtle.timingSafeEqual`.
+- GitHub Actions oferece `queue: max`; publicação e rollback podem formar uma
+  fila serial comum.
+- A orientação de segurança do GitHub recomenda SHA completo como a única
+  referência imutável para uma Action.
+
+Referências oficiais:
+
+- [Feedbin: Password Protected Feeds](https://feedbin.com/help/password-protected-feeds/)
+- [Feedbin: OPML Import](https://feedbin.com/help/how-to-subscribe/)
+- [Cloudflare R2: Public buckets](https://developers.cloudflare.com/r2/buckets/public-buckets/)
+- [Cloudflare R2: Consistency](https://developers.cloudflare.com/r2/reference/consistency/)
+- [Cloudflare R2: S3 API](https://developers.cloudflare.com/r2/api/s3/api/)
+- [Cloudflare R2: Tokens](https://developers.cloudflare.com/r2/api/tokens/)
+- [Cloudflare R2: Pricing](https://developers.cloudflare.com/r2/pricing/)
+- [Cloudflare Workers: Limits](https://developers.cloudflare.com/workers/platform/limits/)
+- [Cloudflare Workers: Web Crypto](https://developers.cloudflare.com/workers/runtime-apis/web-crypto/)
+- [Cloudflare Workers: Secrets](https://developers.cloudflare.com/workers/configuration/secrets/)
+- [Cloudflare Workers: Custom Domains](https://developers.cloudflare.com/workers/configuration/routing/custom-domains/)
+- [Cloudflare DNS: Full setup](https://developers.cloudflare.com/dns/zone-setups/full-setup/setup/)
+- [Cloudflare DNS: Import and export](https://developers.cloudflare.com/dns/manage-dns-records/how-to/import-and-export/)
+- [Cloudflare DNS: DNSSEC](https://developers.cloudflare.com/dns/dnssec/)
+- [Cloudflare Rules: Redirects](https://developers.cloudflare.com/rules/url-forwarding/)
+- [GitHub Actions: Concurrency](https://docs.github.com/en/actions/how-tos/write-workflows/choose-when-workflows-run/control-workflow-concurrency)
+- [GitHub Actions: Secure use](https://docs.github.com/en/actions/reference/security/secure-use)

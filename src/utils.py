@@ -7,8 +7,42 @@ import pytz
 from xml.etree import ElementTree as ET
 from urllib.parse import urlsplit, urlunsplit
 
-# Constante para a URL base do GitHub Pages
-GITHUB_PAGES_BASE_URL = "https://paulofeh.github.io/rss-de-valor"
+DEFAULT_FEED_BASE_URL = "https://paulofeh.github.io/rss-de-valor"
+
+
+def get_feed_base_url():
+    """Return the configured, credential-free HTTPS origin for generated feeds."""
+    configured = os.environ.get('FEED_BASE_URL')
+    candidate = (
+        DEFAULT_FEED_BASE_URL if configured is None else configured
+    ).rstrip('/')
+    parsed = urlsplit(candidate)
+    try:
+        port = parsed.port
+    except ValueError as exc:
+        raise ValueError('FEED_BASE_URL must be a valid HTTPS URL') from exc
+    if (
+        parsed.scheme != 'https'
+        or not parsed.hostname
+        or port is not None
+        or parsed.username
+        or parsed.password
+        or parsed.query
+        or parsed.fragment
+        or (configured is not None and parsed.path not in {'', '/'})
+    ):
+        raise ValueError(
+            'FEED_BASE_URL must be a credential-free HTTPS origin'
+        )
+    return candidate
+
+
+def get_opml_url():
+    """Return the OPML URL without changing the legacy Pages location."""
+    base_url = get_feed_base_url()
+    if 'FEED_BASE_URL' not in os.environ:
+        return f"{base_url}/feeds/feeds.opml"
+    return f"{base_url}/feeds.opml"
 
 class CustomRssFeed(Rss201rev2Feed):
     def root_attributes(self):
@@ -42,18 +76,18 @@ def get_config_path(filename):
     return os.path.join('config', filename)
 
 def get_feed_url(filename):
-    """Get the full GitHub Pages URL for a feed file."""
-    return f"{GITHUB_PAGES_BASE_URL}/feeds/{filename}"
+    """Get the configured publication URL for a generated feed file."""
+    return f"{get_feed_base_url()}/feeds/{filename}"
 
 def get_source_feed_url(source):
     """Get the feed URL for a source.
 
     For ExistingRssScraper sources, returns the original feed URL directly.
-    For all others, returns the GitHub Pages URL for the generated feed file.
+    For all others, returns the configured URL for the generated feed file.
     """
     if source.get('scraper') == 'ExistingRssScraper':
         return source['url']
-    return f"{GITHUB_PAGES_BASE_URL}/feeds/{source['feed_file']}"
+    return get_feed_url(source['feed_file'])
 
 def generate_feed(source_name, url, articles, feed_filename=None):
     """Generate RSS feed for one or more articles.
@@ -96,6 +130,57 @@ def save_feed(feed, filename):
     full_path = get_feed_path(filename)
     with open(full_path, 'w', encoding='utf-8') as f:
         feed.write(f, 'utf-8')
+
+
+def normalize_feed_self_link(filename):
+    """Update only the publication self-link of an existing generated feed.
+
+    This is independent from scraping so a preserved feed can migrate between
+    Pages, the pilot Worker and the canonical Worker without losing its items.
+    """
+    full_path = get_feed_path(filename)
+    tree = ET.parse(full_path)
+    root = tree.getroot()
+    channel = root.find('channel')
+    if channel is None:
+        raise ValueError(f'Canal RSS ausente em {filename}')
+
+    atom_link_tag = '{http://www.w3.org/2005/Atom}link'
+    self_links = [
+        element
+        for element in channel.findall(atom_link_tag)
+        if element.get('rel') == 'self'
+    ]
+    if len(self_links) > 1:
+        raise ValueError(f'Múltiplos self-links em {filename}')
+
+    expected_url = get_feed_url(filename)
+    if self_links and self_links[0].get('href') == expected_url:
+        return False
+    if self_links:
+        self_links[0].set('href', expected_url)
+    else:
+        ET.SubElement(
+            channel,
+            atom_link_tag,
+            {
+                'href': expected_url,
+                'rel': 'self',
+                'type': 'application/rss+xml',
+            },
+        )
+
+    ET.register_namespace('atom', 'http://www.w3.org/2005/Atom')
+    ET.register_namespace('dc', 'http://purl.org/dc/elements/1.1/')
+    temporary_path = f"{full_path}.tmp"
+    try:
+        tree.write(temporary_path, encoding='utf-8', xml_declaration=True)
+        os.replace(temporary_path, full_path)
+    finally:
+        if os.path.exists(temporary_path):
+            os.unlink(temporary_path)
+    return True
+
 
 def merge_articles_with_existing_feed(articles, filename, limit=5):
     """Keep a generated feed from being downgraded by transient scrape failures.
@@ -281,7 +366,7 @@ def generate_opml(sources):
                                       title="Outros")
 
         for source in sorted(ungrouped_sources, key=lambda x: x['name']):
-            feed_url = f"{GITHUB_PAGES_BASE_URL}/feeds/{source['feed_file']}"
+            feed_url = get_source_feed_url(source)
             ET.SubElement(other_outline, 'outline',
                         type="rss",
                         text=source['name'],
@@ -594,7 +679,7 @@ def generate_html_index(sources):
         <div class="opml-section">
             <h3>💡 Assinar todos os feeds de uma vez</h3>
             <p>Use o arquivo OPML para importar todos os feeds no seu leitor RSS favorito (Feedly, Inoreader, NetNewsWire, etc.)</p>
-            <a href="{GITHUB_PAGES_BASE_URL}/feeds/feeds.opml" class="opml-link">📥 Baixar OPML</a>
+            <a href="{get_opml_url()}" class="opml-link">📥 Baixar OPML</a>
         </div>
 
         <h2>📄 Feeds Individuais</h2>
