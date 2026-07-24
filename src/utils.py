@@ -100,8 +100,8 @@ def save_feed(feed, filename):
 def merge_articles_with_existing_feed(articles, filename, limit=5):
     """Keep a generated feed from being downgraded by transient scrape failures.
 
-    LinkedIn issue cards remain available even when an individual article request
-    is blocked. The scraper marks those incomplete results with
+    Source listings can remain available even when an individual article request
+    is blocked. Enriching scrapers mark those incomplete results with
     ``_enrichment_failed``. For a known URL, reuse the last published item; for a
     new URL, omit the incomplete item until a later run can retrieve it in full.
     """

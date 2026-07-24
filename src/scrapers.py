@@ -173,8 +173,26 @@ class FolhaRssFullContentScraper(ExistingRssScraper):
     """Scraper for Folha RSS feeds that enriches items with full article content."""
 
     DEFAULT_AUTHORS = {
+        'antonioprata': 'Antonio Prata',
+        'bernardo-carvalho': 'Bernardo Carvalho',
+        'caos-planejado': 'Caos Planejado',
+        'celso-rocha-de-barros': 'Celso Rocha de Barros',
+        'conrado-hubner-mendes': 'Conrado Hubner Mendes',
+        'de-grao-em-grao': 'De Grão em Grão',
         'drauziovarella': 'Dráuzio Varella',
+        'ilona-szabo': 'Ilona Szabó',
+        'joaopereiracoutinho': 'João Pereira Coutinho',
+        'marceloviana': 'Marcelo Viana',
+        'marcos-lisboa': 'Marcos Lisboa',
+        'marcos-mendes': 'Marcos Mendes',
+        'marilizpereirajorge': 'Mariliz Pereira Jorge',
         'maria-herminia-tavares': 'Maria Hermínia Tavares',
+        'ronaldolemos': 'Ronaldo Lemos',
+        'samuelpessoa': 'Samuel Pessoa',
+        'tatibernardi': 'Tati Bernardi',
+        'vera-iaconelli': 'Vera Iaconelli',
+        'wilson-gomes': 'Wilson Gomes',
+        'zecacamargo': 'Zeca Camargo',
     }
 
     @staticmethod
@@ -199,6 +217,9 @@ class FolhaRssFullContentScraper(ExistingRssScraper):
         content = self._fetch_article_content(article['link'])
         if content:
             article['description'] = content
+            article['_enrichment_failed'] = False
+        else:
+            article['_enrichment_failed'] = True
 
         return article
 

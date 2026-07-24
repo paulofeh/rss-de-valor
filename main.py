@@ -51,10 +51,17 @@ def main():
         for attempt in range(max_retries):
             try:
                 articles = scraper.get_articles()
-                if source['scraper'] == 'LinkedInNewsletterScraper':
+                if source['scraper'] in (
+                    'LinkedInNewsletterScraper',
+                    'FolhaRssFullContentScraper',
+                ):
+                    merge_limit = (
+                        5 if source['scraper'] == 'LinkedInNewsletterScraper' else 10
+                    )
                     articles = merge_articles_with_existing_feed(
                         articles,
                         source['feed_file'],
+                        limit=merge_limit,
                     )
                 if articles:
                     latest_article = articles[0]
