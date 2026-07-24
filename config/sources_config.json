@@ -699,7 +699,7 @@
     {
       "name": "Dráuzio Varella",
       "url": "https://feeds.folha.uol.com.br/colunas/drauziovarella/rss091.xml",
-      "scraper": "ExistingRssScraper",
+      "scraper": "FolhaRssFullContentScraper",
       "feed_file": "drauzio_feed.xml",
       "history_file": "drauzio_history.json",
       "group": "folha"

@@ -1,7 +1,7 @@
 <opml version="2.0">
     <head>
         <title>RSS de Colunistas</title>
-        <dateCreated>Fri, 24 Jul 2026 08:32:41 GMT</dateCreated>
+        <dateCreated>Fri, 24 Jul 2026 10:53:13 GMT</dateCreated>
         <ownerName>RSS Scraper</ownerName>
         </head>
     <body>
@@ -67,7 +67,7 @@
                 <outline type="rss" text="Celso Rocha de Barros" title="Celso Rocha de Barros" xmlUrl="https://feeds.folha.uol.com.br/colunas/celso-rocha-de-barros/rss091.xml" />
                 <outline type="rss" text="Conrado Hubner Mendes" title="Conrado Hubner Mendes" xmlUrl="https://feeds.folha.uol.com.br/colunas/conrado-hubner-mendes/rss091.xml" />
                 <outline type="rss" text="De Grão em Grão" title="De Grão em Grão" xmlUrl="https://feeds.folha.uol.com.br/blogs/de-grao-em-grao/rss091.xml" />
-                <outline type="rss" text="Dráuzio Varella" title="Dráuzio Varella" xmlUrl="https://feeds.folha.uol.com.br/colunas/drauziovarella/rss091.xml" />
+                <outline type="rss" text="Dráuzio Varella" title="Dráuzio Varella" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/drauzio_feed.xml" />
                 <outline type="rss" text="Giovana Madalosso" title="Giovana Madalosso" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/giovana_madalosso_feed.xml" />
                 <outline type="rss" text="Ilona Szabó" title="Ilona Szabó" xmlUrl="https://feeds.folha.uol.com.br/colunas/ilona-szabo/rss091.xml" />
                 <outline type="rss" text="João Pereira Coutinho" title="João Pereira Coutinho" xmlUrl="https://feeds.folha.uol.com.br/colunas/joaopereiracoutinho/rss091.xml" />

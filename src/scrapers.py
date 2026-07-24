@@ -173,6 +173,7 @@ class FolhaRssFullContentScraper(ExistingRssScraper):
     """Scraper for Folha RSS feeds that enriches items with full article content."""
 
     DEFAULT_AUTHORS = {
+        'drauziovarella': 'Dráuzio Varella',
         'maria-herminia-tavares': 'Maria Hermínia Tavares',
     }
 
