@@ -102,6 +102,36 @@ class HttpResult:
     body: bytes
 
 
+_SAFE_HTTP_CANARY_FAILURES = frozenset(
+    {
+        "private endpoint request failed",
+        "anonymous canary did not receive the Basic challenge",
+        "invalid credentials did not receive the same generic 401",
+        "authenticated feed canary did not return 200",
+        "authenticated feed canary content type is invalid",
+        "canary route is absent from the manifest",
+        "canary object is absent from the manifest",
+        "authenticated feed canary metadata or hash diverged",
+        "authenticated feed Last-Modified is invalid",
+        "authenticated feed Last-Modified diverged",
+        "authenticated feed cache policy is unsafe",
+        "authenticated feed canary root is not RSS",
+        "authenticated feed canary XML is invalid",
+        "authenticated HEAD canary failed",
+        "conditional feed canary did not return an empty 304",
+        "health canary returned invalid JSON",
+        "health canary does not match the activated snapshot",
+    }
+)
+
+
+def _safe_canary_failure_reason(error: Exception) -> str:
+    message = str(error)
+    if isinstance(error, CanaryError) and message in _SAFE_HTTP_CANARY_FAILURES:
+        return message
+    return "unexpected canary failure"
+
+
 def _http_request(
     *,
     endpoint: str,
@@ -237,8 +267,11 @@ def run_http_canaries(
         authenticated.headers.get("etag") != expected_etag
         or authenticated.headers.get("content-type")
         != expected_object["content_type"]
-        or authenticated.headers.get("content-length")
-        != str(expected_object["size"])
+        or (
+            authenticated.headers.get("content-length") is not None
+            and authenticated.headers.get("content-length")
+            != str(expected_object["size"])
+        )
         or len(authenticated.body) != expected_object["size"]
         or sha256_bytes(authenticated.body) != expected_object["sha256"]
     ):
@@ -274,14 +307,17 @@ def run_http_canaries(
         password=password,
     )
     etag = head.headers.get("etag")
+    head_content_length = head.headers.get("content-length")
     if (
         head.status != 200
         or head.body
         or etag != expected_etag
         or head.headers.get("content-type")
         != authenticated.headers.get("content-type")
-        or head.headers.get("content-length")
-        != authenticated.headers.get("content-length")
+        or (
+            head_content_length is not None
+            and head_content_length != str(expected_object["size"])
+        )
         or head.headers.get("last-modified")
         != authenticated.headers.get("last-modified")
     ):
@@ -746,6 +782,7 @@ def publish_snapshot(
     try:
         canary_runner(manifest)
     except Exception as exc:
+        failure_reason = _safe_canary_failure_reason(exc)
         _restore_previous_pointer(
             store=store,
             activated_etag=activated.etag,
@@ -755,11 +792,17 @@ def publish_snapshot(
             try:
                 canary_runner(previous_manifest)
             except Exception as rollback_exc:
+                rollback_failure_reason = _safe_canary_failure_reason(
+                    rollback_exc
+                )
                 raise CanaryError(
-                    "new snapshot failed and restored snapshot canary also failed"
+                    "new snapshot failed canaries "
+                    f"({failure_reason}); restored snapshot also failed "
+                    f"canaries ({rollback_failure_reason})"
                 ) from rollback_exc
         raise CanaryError(
-            "new snapshot failed canaries; previous pointer was restored"
+            f"new snapshot failed canaries ({failure_reason}); "
+            "previous pointer was restored"
         ) from exc
 
     previous_run_id = (

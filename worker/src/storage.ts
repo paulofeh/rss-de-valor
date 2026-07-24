@@ -362,7 +362,6 @@ export function responseHeaders(object: SnapshotObject): Headers {
     "Cache-Control": "private, no-cache, max-age=0, no-transform",
     "CDN-Cache-Control": "no-store",
     "Cloudflare-CDN-Cache-Control": "no-store",
-    "Content-Length": String(object.size),
     "Content-Type": object.content_type,
     "ETag": `"${object.sha256}"`,
     "Last-Modified": new Date(object.last_modified).toUTCString(),

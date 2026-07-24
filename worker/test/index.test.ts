@@ -232,16 +232,20 @@ describe("private feed Worker", () => {
   });
 
   it("serves HEAD with GET metadata and no body", async () => {
-    await seedValidSnapshot();
-    const response = await dispatch(
+    const { object } = await seedValidSnapshot();
+    const getResponse = await dispatch(privateRequest());
+    const headResponse = await dispatch(
       privateRequest(FEED_ROUTE, { method: "HEAD" }),
     );
 
-    expect(response.status).toBe(200);
-    expect(response.headers.get("Content-Length")).toBe(
-      String(new TextEncoder().encode(FEED_BODY).byteLength),
-    );
-    expect(await response.text()).toBe("");
+    expect(headResponse.status).toBe(200);
+    expect(headResponse.headers.get("Content-Length")).toBeNull();
+    for (const name of ["Content-Type", "ETag", "Last-Modified"]) {
+      expect(headResponse.headers.get(name)).toBe(getResponse.headers.get(name));
+    }
+    expect(headResponse.headers.get("ETag")).toBe(`"${object.sha256}"`);
+    expect(await headResponse.text()).toBe("");
+    await getResponse.text();
   });
 
   it("returns 304 for matching ETag on GET and HEAD", async () => {

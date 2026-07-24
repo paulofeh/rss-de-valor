@@ -1,6 +1,6 @@
 # Publicação privada de feeds com Cloudflare Worker
 
-**Status:** implementação local, base Cloudflare e ambiente GitHub do piloto concluídos; commit/push e publicação piloto aguardam gates
+**Status:** implementação, base Cloudflare, deploy e commit/push iniciais concluídos; piloto técnico em validação, com GitHub Pages preservado
 **Última revisão:** 2026-07-24
 **Origem:** item “Publicação privada dos feeds com compatibilidade com o Feedbin” do [`BACKLOG.md`](../BACKLOG.md)
 
@@ -230,6 +230,11 @@ Responsável por:
 - buscar o objeto no R2;
 - responder com cabeçalhos RSS e cache condicional;
 - ocultar a existência de caminhos para clientes não autenticados.
+
+O Worker preserva `ETag`, `Last-Modified`, `HEAD` e `304`. Como respostas
+streaming do runtime podem usar transferência em blocos, `Content-Length` é
+opcional; quando presente, o canário exige que seja correto, e o tamanho e o
+SHA-256 do corpo são verificados independentemente.
 
 O Worker não deve:
 
@@ -803,13 +808,17 @@ Ainda assim:
 - Actions dos workflows privados fixadas em commits verificados;
 - GitHub Pages e workflow público inalterados.
 
-### Fases 5–9 — infraestrutura concluída; publicação piloto pendente
+### Fases 5–9 — infraestrutura concluída; publicação piloto em validação
 
 - bucket Standard privado, token restrito, Worker, secrets e ambiente GitHub
   criados com autorização;
 - Worker implantado inicialmente em `workers.dev`;
-- autorizar commit/push da implementação paralela;
-- publicar manualmente um único feed;
+- implementação paralela enviada à `main` com autorização;
+- duas execuções manuais do feed piloto realizadas: a primeira parou antes do
+  upload; a segunda enviou um snapshot imutável, ativou-o e restaurou a ausência
+  do ponteiro quando o canário falhou;
+- correções de compatibilidade e diagnóstico validadas localmente antes de nova
+  ativação;
 - manter GitHub Pages inalterado;
 
 - Confirmar `401` sem credenciais.
@@ -909,17 +918,18 @@ Parar aqui e aguardar confirmação.
 ### 17.4 Evidência local em 2026-07-24
 
 - 29 testes do Worker aprovados;
-- 34 testes Python aprovados;
+- 39 testes Python aprovados;
 - typecheck TypeScript aprovado;
 - `npm audit` sem vulnerabilidades conhecidas e `pip check` sem dependências
   quebradas;
-- pacote do Worker aprovado em `wrangler deploy --dry-run` (18,44 KiB,
-  4,56 KiB comprimidos, somente o binding privado do R2);
+- pacote do Worker aprovado em `wrangler deploy --dry-run` (18,28 KiB,
+  4,51 KiB comprimidos, somente o binding privado do R2);
 - 107 feeds, 107 históricos e um OPML derivados da allowlist;
 - bucket R2 Standard privado e Worker em `workers.dev` criados;
 - secrets do Worker, token R2 restrito e ambiente GitHub do piloto configurados
   sem expor seus valores;
-- nenhum snapshot, nameserver, domínio definitivo ou corte executado.
+- um snapshot imutável de diagnóstico armazenado, sem `current.json` ativo;
+- nenhum nameserver, domínio definitivo ou corte executado.
 
 ## 18. Critérios de aceite
 

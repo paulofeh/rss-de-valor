@@ -177,7 +177,28 @@ class PrivatePublicationTest(unittest.TestCase):
             if manifest["run_id"] == "run-bad":
                 raise RuntimeError("injected canary failure")
 
-        with self.assertRaises(CanaryError):
+        with self.assertRaisesRegex(
+            CanaryError,
+            "unexpected canary failure",
+        ) as captured:
+            self.publish(snapshot, canary=canary)
+        self.assertNotIn("injected canary failure", str(captured.exception))
+        self.assertEqual(current_run_id(self.store), "run-good")
+
+    def test_safe_http_canary_reason_survives_automatic_restore(self) -> None:
+        self.publish_first("run-good")
+        snapshot = self.prepare_next("run-bad")
+
+        def canary(manifest):
+            if manifest["run_id"] == "run-bad":
+                raise CanaryError(
+                    "authenticated feed canary did not return 200"
+                )
+
+        with self.assertRaisesRegex(
+            CanaryError,
+            "authenticated feed canary did not return 200",
+        ):
             self.publish(snapshot, canary=canary)
         self.assertEqual(current_run_id(self.store), "run-good")
 

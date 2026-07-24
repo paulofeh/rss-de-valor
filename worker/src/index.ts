@@ -68,13 +68,10 @@ async function healthResponse(
     "X-Content-Type-Options": "nosniff",
   });
   if (request.method === "HEAD") {
-    headers.set("Content-Length", String(textEncoder.encode(body).byteLength));
     return new Response(null, { status: 200, headers });
   }
   return new Response(body, { status: 200, headers });
 }
-
-const textEncoder = new TextEncoder();
 
 async function serveSnapshotObject(
   request: Request,

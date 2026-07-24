@@ -33,6 +33,7 @@ try:
         ConcurrentPublicationError,
         _activate_pointer,
         _restore_previous_pointer,
+        _safe_canary_failure_reason,
         _validate_endpoint,
         run_http_canaries,
     )
@@ -61,6 +62,7 @@ except ImportError:  # pragma: no cover - direct script execution
         ConcurrentPublicationError,
         _activate_pointer,
         _restore_previous_pointer,
+        _safe_canary_failure_reason,
         _validate_endpoint,
         run_http_canaries,
     )
@@ -247,6 +249,7 @@ def rollback_snapshot(
     try:
         canary_runner(target_manifest)
     except Exception as exc:
+        failure_reason = _safe_canary_failure_reason(exc)
         _restore_previous_pointer(
             store=store,
             activated_etag=activated.etag,
@@ -255,11 +258,15 @@ def rollback_snapshot(
         try:
             canary_runner(previous_manifest)
         except Exception as restored_exc:
+            restored_failure_reason = _safe_canary_failure_reason(restored_exc)
             raise CanaryError(
-                "rollback target failed and restored snapshot canary also failed"
+                "rollback target failed canaries "
+                f"({failure_reason}); restored snapshot also failed "
+                f"canaries ({restored_failure_reason})"
             ) from restored_exc
         raise CanaryError(
-            "rollback target failed canaries; original pointer was restored"
+            f"rollback target failed canaries ({failure_reason}); "
+            "original pointer was restored"
         ) from exc
 
     return {

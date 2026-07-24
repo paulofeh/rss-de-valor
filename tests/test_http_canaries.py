@@ -110,6 +110,64 @@ class HttpCanaryTest(unittest.TestCase):
                 manifest=self.manifest,
             )
 
+    def test_canary_accepts_chunked_worker_response_without_content_length(
+        self,
+    ) -> None:
+        responses = self.responses()
+        chunked_headers = dict(self.feed_headers)
+        chunked_headers.pop("content-length")
+        responses[2] = HttpResult(200, chunked_headers, self.body)
+        responses[3] = HttpResult(200, chunked_headers, b"")
+        responses[4] = HttpResult(304, chunked_headers, b"")
+
+        with patch(
+            "scripts.publish_snapshot._http_request",
+            side_effect=responses,
+        ):
+            run_http_canaries(
+                endpoint="https://pilot.example.workers.dev",
+                username="reader",
+                password="secret",
+                manifest=self.manifest,
+            )
+
+    def test_canary_accepts_head_without_content_length(self) -> None:
+        responses = self.responses()
+        head_headers = dict(self.feed_headers)
+        head_headers.pop("content-length")
+        responses[3] = HttpResult(200, head_headers, b"")
+
+        with patch(
+            "scripts.publish_snapshot._http_request",
+            side_effect=responses,
+        ):
+            run_http_canaries(
+                endpoint="https://pilot.example.workers.dev",
+                username="reader",
+                password="secret",
+                manifest=self.manifest,
+            )
+
+    def test_canary_rejects_incorrect_content_length_when_present(self) -> None:
+        responses = self.responses()
+        invalid_headers = dict(self.feed_headers)
+        invalid_headers["content-length"] = "999"
+        responses[2] = HttpResult(200, invalid_headers, self.body)
+
+        with (
+            patch(
+                "scripts.publish_snapshot._http_request",
+                side_effect=responses,
+            ),
+            self.assertRaisesRegex(CanaryError, "metadata or hash diverged"),
+        ):
+            run_http_canaries(
+                endpoint="https://pilot.example.workers.dev",
+                username="reader",
+                password="secret",
+                manifest=self.manifest,
+            )
+
     def test_basic_auth_material_rejects_weak_or_ambiguous_values(self) -> None:
         validate_basic_auth_material(
             "feed-reader",
