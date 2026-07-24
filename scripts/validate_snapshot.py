@@ -13,7 +13,7 @@ from email.utils import parsedate_to_datetime
 from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any, Iterable, Mapping
-from urllib.parse import urlsplit
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 from xml.etree import ElementTree as ET
 
 try:
@@ -59,6 +59,15 @@ ENRICHED_SCRAPERS = {
     "FolhaRssFullContentScraper",
 }
 FALLBACK_AUTHORS = {"", "Autor não encontrado"}
+TRACKING_QUERY_PARAMETERS = {
+    "dclid",
+    "fbclid",
+    "gclid",
+    "mc_cid",
+    "mc_eid",
+    "msclkid",
+    "trk",
+}
 FORBIDDEN_PRIVATE_HOSTS = {
     "paulofeh.github.io",
     "fehla.xyz",
@@ -408,9 +417,25 @@ def _compare_with_baseline(
             parsed = urlsplit(value)
         except ValueError:
             return value
-        return (
-            f"{parsed.scheme.lower()}://{parsed.netloc.lower()}"
-            f"{parsed.path.rstrip('/')}"
+        identity_query = [
+            (name, item)
+            for name, item in parse_qsl(
+                parsed.query,
+                keep_blank_values=True,
+            )
+            if (
+                not name.lower().startswith("utm_")
+                and name.lower() not in TRACKING_QUERY_PARAMETERS
+            )
+        ]
+        return urlunsplit(
+            (
+                parsed.scheme.lower(),
+                parsed.netloc.lower(),
+                parsed.path.rstrip("/"),
+                urlencode(identity_query, doseq=True),
+                "",
+            )
         )
 
     def by_normalized_link(

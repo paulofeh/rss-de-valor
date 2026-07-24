@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import copy
 import json
 import os
 import shutil
@@ -7,6 +8,7 @@ import tempfile
 import unittest
 from pathlib import Path
 from unittest.mock import patch
+from xml.etree import ElementTree as ET
 
 from scripts.build_snapshot_manifest import build_snapshot
 from scripts.hydrate_private_state import hydrate_private_state
@@ -447,6 +449,46 @@ class PrivatePublicationTest(unittest.TestCase):
                 pilot_feed_file="plain_feed.xml",
                 baseline_dir=baseline,
             )
+
+    def test_validator_preserves_identity_query_parameters(self) -> None:
+        baseline = self.root / "baseline"
+        baseline_feed = baseline / "feeds" / "plain_feed.xml"
+        current_feed = self.root / "feeds" / "plain_feed.xml"
+        first_url = "https://www.youtube.com/watch?v=first"
+        second_url = "https://www.youtube.com/watch?v=second"
+        write_feed(
+            baseline_feed,
+            self_url="https://baseline.invalid/feeds/plain_feed.xml",
+            article_url=first_url,
+            description="<p>primeiro</p>",
+        )
+        write_feed(
+            current_feed,
+            self_url=f"{CANONICAL_FEED_BASE_URL}/feeds/plain_feed.xml",
+            article_url=first_url,
+            description="<p>primeiro</p>",
+        )
+
+        for feed_path in (baseline_feed, current_feed):
+            tree = ET.parse(feed_path)
+            channel = tree.getroot().find("channel")
+            assert channel is not None
+            first_item = channel.find("item")
+            assert first_item is not None
+            second_item = copy.deepcopy(first_item)
+            second_item.find("title").text = "Segundo vídeo"
+            second_item.find("link").text = second_url
+            second_item.find("guid").text = second_url
+            channel.append(second_item)
+            tree.write(feed_path, encoding="utf-8", xml_declaration=True)
+
+        validate_working_state(
+            repo_root=self.root,
+            feed_base_url=CANONICAL_FEED_BASE_URL,
+            mode="pilot",
+            pilot_feed_file="plain_feed.xml",
+            baseline_dir=baseline,
+        )
 
     def test_validator_rejects_symlinked_artifact(self) -> None:
         target = self.root / "feed-target.xml"
