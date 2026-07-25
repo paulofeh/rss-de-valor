@@ -47,8 +47,8 @@ funcionou.
   identificadas pelo release correspondente.
 - A retenção mantém 28 snapshots e protege o ativo e o imediatamente anterior.
 
-Com a configuração atual, a allowlist deriva 107 feeds gerados, 107 históricos
-e um OPML: 215 objetos internos. Os dois `ExistingRssScraper` continuam
+Com a configuração atual, a allowlist deriva 106 feeds gerados, 106 históricos
+e um OPML: 213 objetos internos. Os dois `ExistingRssScraper` continuam
 apontando diretamente para seus provedores. XMLs agregados ou órfãos presentes
 no disco não entram no snapshot.
 
@@ -197,6 +197,11 @@ Ordem executada pelo workflow:
 9. ativar por escrita condicional;
 10. executar canários anônimo e autenticado;
 11. aplicar retenção.
+
+Ao remover uma fonte, o snapshot ativo ainda pode conter o feed e o histórico
+legados. A hidratação aceita esses objetos extras somente como estado anterior,
+não os copia e continua recusando qualquer objeto atualmente exigido que esteja
+ausente. A montagem do novo snapshot usa a allowlist atual exata.
 
 Se um scraper falhar, o feed hidratado anterior permanece no diretório. A
 validação impede que falhas de enriquecimento da Folha ou do LinkedIn reduzam

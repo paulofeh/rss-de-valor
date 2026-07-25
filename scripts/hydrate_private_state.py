@@ -119,10 +119,16 @@ def hydrate_private_state(
         }
 
     current_object, pointer, manifest_object, manifest = active
-    if set(manifest["objects"]) != set(expected_object_paths):
+    expected_object_path_set = set(expected_object_paths)
+    manifest_object_paths = set(manifest["objects"])
+    missing_object_paths = expected_object_path_set - manifest_object_paths
+    if missing_object_paths:
         raise ManifestError(
-            "active snapshot object allowlist does not match source configuration"
+            "active snapshot is missing objects required by source configuration"
         )
+    ignored_legacy_objects = len(
+        manifest_object_paths - expected_object_path_set
+    )
     if current_object.data is None or manifest_object.data is None:
         raise ManifestError("active state bodies were not returned")
 
@@ -165,6 +171,7 @@ def hydrate_private_state(
             "observed_current_etag": current_object.etag,
             "observed_current_sha256": sha256_bytes(current_object.data),
             "run_id": pointer["run_id"],
+            "ignored_legacy_objects": ignored_legacy_objects,
         }
         write_json_file(state_dir / "hydration.json", hydration)
     finally:
@@ -173,6 +180,7 @@ def hydrate_private_state(
     return {
         "status": "hydrated",
         "objects": len(expected_object_paths),
+        "ignored_legacy_objects": ignored_legacy_objects,
         "run_id": pointer["run_id"],
     }
 

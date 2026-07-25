@@ -513,6 +513,13 @@ Se existir `current.json`:
 4. verificar hashes e tamanhos;
 5. abortar se o estado obrigatório estiver corrompido ou incompleto.
 
+Durante a remoção de uma fonte, o snapshot ativo anterior pode conter objetos
+legados que já não pertencem à configuração atual. A hidratação deve aceitar
+esse superset somente para a transição, ignorar os objetos extras e baixar
+apenas os caminhos derivados da allowlist atual. A ausência de qualquer objeto
+exigido pela configuração atual continua sendo fatal. O snapshot seguinte deve
+conter exatamente a allowlist atual, sem reenviar os objetos removidos.
+
 No primeiro bootstrap, a hidratação pode partir da árvore pública atual, mas
 isso deve ser uma operação explícita e única.
 
@@ -663,7 +670,10 @@ O Worker não exige alteração quando o manifesto controla os caminhos.
 4. Retirar a assinatura do Feedbin.
 5. Permitir que a retenção elimine o objeto antigo.
 
-Não é necessário apagar imediatamente snapshots históricos.
+Não é necessário apagar imediatamente snapshots históricos. Na execução que
+materializa a remoção, a hidratação ignora objetos extras do snapshot anterior,
+mas ainda exige e verifica os hashes de todos os caminhos da configuração
+atual.
 
 ### 11.3 Renomear
 
@@ -946,7 +956,7 @@ Parar aqui e aguardar confirmação.
 
 - 30 testes do Worker aprovados, incluindo transição de par sem aceitar
   combinações cruzadas;
-- 45 testes Python aprovados;
+- 47 testes Python aprovados;
 - typecheck TypeScript aprovado;
 - `npm audit` sem vulnerabilidades conhecidas e `pip check` sem dependências
   quebradas;
@@ -970,6 +980,10 @@ Parar aqui e aguardar confirmação.
   anterior permaneceu intacto;
 - suporte local a um segundo par de credenciais implementado para permitir a
   rotação sem interromper o par usado pelo Feedbin;
+- segundo piloto no domínio definitivo recusado antes do upload porque o
+  snapshot ativo ainda continha os dois objetos legados da fonte de YouTube já
+  removida; a hidratação foi ajustada localmente para ignorar apenas extras
+  legados, mantendo fatal qualquer objeto atual ausente ou divergente;
 - GitHub Pages, `workers.dev` e a publicação pública continuam ativos.
 
 ## 18. Critérios de aceite

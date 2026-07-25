@@ -159,6 +159,76 @@ class PrivatePublicationTest(unittest.TestCase):
             )
         self.assertEqual(local_feed.read_bytes(), b"local sentinel")
 
+    def test_hydration_ignores_legacy_objects_after_source_removal(self) -> None:
+        self.publish_first()
+        config_path = self.root / "config" / "sources_config.json"
+        config = json.loads(config_path.read_text(encoding="utf-8"))
+        config["sources"] = [
+            source
+            for source in config["sources"]
+            if source["feed_file"] != "folha_feed.xml"
+        ]
+        config_path.write_text(
+            json.dumps(config, ensure_ascii=False),
+            encoding="utf-8",
+        )
+
+        removed_feed = self.root / "feeds" / "folha_feed.xml"
+        removed_history = self.root / "history" / "folha_history.json"
+        removed_feed.write_bytes(b"removed feed sentinel")
+        removed_history.write_bytes(b"removed history sentinel")
+        current_feed = self.root / "feeds" / "plain_feed.xml"
+        current_feed.write_bytes(b"current feed sentinel")
+
+        result = hydrate_private_state(
+            store=self.store,
+            repo_root=self.root,
+            state_dir=self.state,
+            allow_bootstrap_from_local=False,
+        )
+
+        self.assertEqual(result["status"], "hydrated")
+        self.assertEqual(result["objects"], 5)
+        self.assertEqual(result["ignored_legacy_objects"], 2)
+        self.assertNotEqual(current_feed.read_bytes(), b"current feed sentinel")
+        self.assertEqual(removed_feed.read_bytes(), b"removed feed sentinel")
+        self.assertEqual(
+            removed_history.read_bytes(),
+            b"removed history sentinel",
+        )
+        self.assertFalse(
+            (
+                self.state
+                / "baseline"
+                / "feeds"
+                / "folha_feed.xml"
+            ).exists()
+        )
+
+    def test_hydration_rejects_objects_newly_required_by_configuration(
+        self,
+    ) -> None:
+        self.publish_first()
+        config_path = self.root / "config" / "sources_config.json"
+        config = json.loads(config_path.read_text(encoding="utf-8"))
+        config["sources"][0]["feed_file"] = "new_feed.xml"
+        config["sources"][0]["history_file"] = "new_history.json"
+        config_path.write_text(
+            json.dumps(config, ensure_ascii=False),
+            encoding="utf-8",
+        )
+
+        with self.assertRaisesRegex(
+            ManifestError,
+            "missing objects required by source configuration",
+        ):
+            hydrate_private_state(
+                store=self.store,
+                repo_root=self.root,
+                state_dir=self.state,
+                allow_bootstrap_from_local=False,
+            )
+
     def test_interrupted_upload_never_activates_current_pointer(self) -> None:
         self.bootstrap()
         snapshot = self.stage("run-interrupted")
