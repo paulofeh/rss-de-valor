@@ -145,14 +145,6 @@
       "group": "clima"
     },
     {
-      "name": "Arroz, Feijão & Clima",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC6fP4AN5W838NuPeMCT7DcA",
-      "feed_file": "arroz_feijao_clima_feed.xml",
-      "history_file": "arroz_feijao_clima_history.json",
-      "scraper": "YouTubeTranscriptScraper",
-      "group": "clima"
-    },
-    {
       "name": "Repórter Brasil Socioambiental",
       "url": "https://reporterbrasil.org.br/jornalismo/socioambiental/",
       "feed_file": "reporter_brasil_socioambiental_feed.xml",

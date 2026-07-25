@@ -25,6 +25,7 @@ ATOM_LINK = "{http://www.w3.org/2005/Atom}link"
 EXPECTED_EXTRA_XML = {
     "alice_ferraz_feed.xml",
     "andre_derviche_feed.xml",
+    "arroz_feijao_clima_feed.xml",
     "estadao_feed.xml",
     "felipe_salto_feed.xml",
     "folha_feed.xml",
@@ -48,10 +49,10 @@ class RepositorySnapshotIntegrationTest(unittest.TestCase):
             path.name for path in (REPO_ROOT / "feeds").glob("*.xml")
         }
 
-        self.assertEqual(len(inventory.generated_feed_files), 107)
-        self.assertEqual(len(inventory.generated_history_files), 107)
+        self.assertEqual(len(inventory.generated_feed_files), 106)
+        self.assertEqual(len(inventory.generated_history_files), 106)
         self.assertEqual(len(inventory.native_sources), 2)
-        self.assertEqual(len(specs), 215)
+        self.assertEqual(len(specs), 213)
         self.assertEqual(disk_xml - configured_xml, EXPECTED_EXTRA_XML)
 
         with tempfile.TemporaryDirectory(
@@ -133,9 +134,9 @@ class RepositorySnapshotIntegrationTest(unittest.TestCase):
                 revision="test-revision",
             )
 
-            self.assertEqual(report.generated_feeds, 107)
-            self.assertEqual(manifest["counts"]["objects"], 215)
-            self.assertEqual(manifest["counts"]["routes"], 108)
+            self.assertEqual(report.generated_feeds, 106)
+            self.assertEqual(manifest["counts"]["objects"], 213)
+            self.assertEqual(manifest["counts"]["routes"], 107)
             self.assertTrue((snapshot / "manifest.json").is_file())
 
 
