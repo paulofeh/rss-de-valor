@@ -272,7 +272,7 @@ def _load_feed_articles(filename):
     return articles
 
 def _article_link_key(link):
-    """Normalize a LinkedIn article URL for matching across tracking variants."""
+    """Normalize an enriched article URL for matching across fetches."""
     if not link:
         return ''
     parsed = urlsplit(link)

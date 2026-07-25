@@ -16,6 +16,13 @@ from src.utils import (
     normalize_feed_self_link,
 )
 
+CONTENT_PRESERVATION_LIMITS = {
+    'LinkedInNewsletterScraper': 5,
+    'FolhaRssFullContentScraper': 10,
+    'ValorOGloboScraper': 10,
+}
+
+
 def main():
     # Garante que os diretórios necessários existem
     ensure_directories()
@@ -56,13 +63,10 @@ def main():
         for attempt in range(max_retries):
             try:
                 articles = scraper.get_articles()
-                if source['scraper'] in (
-                    'LinkedInNewsletterScraper',
-                    'FolhaRssFullContentScraper',
-                ):
-                    merge_limit = (
-                        5 if source['scraper'] == 'LinkedInNewsletterScraper' else 10
-                    )
+                merge_limit = CONTENT_PRESERVATION_LIMITS.get(
+                    source['scraper']
+                )
+                if merge_limit is not None:
                     articles = merge_articles_with_existing_feed(
                         articles,
                         source['feed_file'],

@@ -434,6 +434,9 @@ class ValorOGloboScraper(BaseScraper):
                     content = self._fetch_article_content(article['link'])
                     if content:
                         article['description'] = content
+                        article['_enrichment_failed'] = False
+                    else:
+                        article['_enrichment_failed'] = True
                     articles.append(article)
             return articles
         except Exception as e:

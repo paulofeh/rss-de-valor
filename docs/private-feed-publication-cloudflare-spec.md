@@ -1,7 +1,7 @@
 # Publicação privada de feeds com Cloudflare Worker
 
 **Status:** implementação, base Cloudflare, deploy e commit/push iniciais concluídos; piloto técnico em validação, com GitHub Pages preservado
-**Última revisão:** 2026-07-24
+**Última revisão:** 2026-07-25
 **Origem:** item “Publicação privada dos feeds com compatibilidade com o Feedbin” do [`BACKLOG.md`](../BACKLOG.md)
 
 ## 1. Resumo executivo
@@ -524,6 +524,13 @@ regressões de conteúdo.
 4. Gerar URLs internas a partir de `FEED_BASE_URL`, não de uma constante do
    GitHub Pages.
 
+`LinkedInNewsletterScraper`, `FolhaRssFullContentScraper` e
+`ValorOGloboScraper` marcam falhas de enriquecimento individual. Para uma URL
+já conhecida, o pipeline reutiliza título, conteúdo, autoria e data do item
+anterior; uma URL nova sem conteúdo integral é adiada e o feed é recomposto com
+itens válidos anteriores. O resumo da listagem de Valor/O Globo nunca deve
+substituir silenciosamente um corpo integral já publicado.
+
 ### 9.4 Fase 4 — validação local
 
 Validações obrigatórias:
@@ -827,6 +834,11 @@ Ainda assim:
 - a terceira execução isolou um `403`/erro `1010` do Browser Integrity Check
   contra a assinatura padrão do `Python-urllib`; um `User-Agent` explícito e
   identificável foi validado anonimamente antes de nova ativação;
+- a quarta execução manual (`30160607101`) regenerou os feeds, mas recusou antes
+  do upload a baseline pública da Malu Gaspar que continha um item sem
+  descrição; `current.json` e o prefixo desse run permaneceram ausentes;
+- a falha revelou que Valor/O Globo também precisa participar da proteção de
+  não regressão já aplicada a LinkedIn e Folha; o validador permaneceu estrito;
 - correções de compatibilidade e diagnóstico validadas localmente;
 - manter GitHub Pages inalterado;
 
@@ -927,7 +939,7 @@ Parar aqui e aguardar confirmação.
 ### 17.4 Evidência local em 2026-07-25
 
 - 29 testes do Worker aprovados;
-- 40 testes Python aprovados;
+- 45 testes Python aprovados;
 - typecheck TypeScript aprovado;
 - `npm audit` sem vulnerabilidades conhecidas e `pip check` sem dependências
   quebradas;
