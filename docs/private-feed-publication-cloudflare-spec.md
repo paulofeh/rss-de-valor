@@ -984,6 +984,14 @@ Parar aqui e aguardar confirmação.
   snapshot ativo ainda continha os dois objetos legados da fonte de YouTube já
   removida; a hidratação foi ajustada localmente para ignorar apenas extras
   legados, mantendo fatal qualquer objeto atual ausente ou divergente;
+- terceiro piloto no domínio definitivo aprovado no commit `f312adda`: dois
+  objetos legados foram ignorados na hidratação; geração e validação produziram
+  213 objetos com somente `/feeds/drauzio_feed.xml` roteável; upload, releitura
+  de hashes, ativação, canários autenticados e anônimos e retenção concluíram
+  com sucesso no snapshot `30165530357-1-f312addae81a`;
+- falhas `404` de Bloomberg Green e Fernando Reinach e respostas `429` durante
+  enriquecimento do LinkedIn não causaram perda de conteúdo anterior nem
+  impediram a validação do snapshot;
 - GitHub Pages, `workers.dev` e a publicação pública continuam ativos.
 
 ## 18. Critérios de aceite

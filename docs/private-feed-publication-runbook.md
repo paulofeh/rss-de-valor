@@ -1,11 +1,13 @@
 # Operação da publicação privada de feeds
 
-**Estado em 2026-07-24:** implementação e testes locais concluídos; bucket R2
-Standard privado e Worker do piloto criados; Worker implantado em
-`workers.dev`; autenticação atual validada; token S3 R2 restrito criado pelo
-usuário, sem exposição dos valores ao agente; ambiente GitHub
-`private-feed-pilot` configurado com quatro secrets e cinco variables. Nenhum
-snapshot foi publicado e nenhum DNS foi alterado.
+**Estado em 2026-07-25:** implementação e testes locais concluídos; bucket R2
+Standard privado, Worker e ambiente GitHub configurados sem exposição de
+secrets; DNS migrado para a Cloudflare com o redirect do domínio principal para
+o Linktree preservado; Custom Domain `feeds.paulofehlauer.com` ativo; snapshot
+piloto `30165530357-1-f312addae81a` publicado com 213 objetos internos e somente
+`/feeds/drauzio_feed.xml` roteável. Canários autenticados e anônimos passaram.
+GitHub Pages, a publicação pública e `workers.dev` continuam ativos enquanto a
+migração controlada no Feedbin aguarda seu próprio gate.
 
 Este runbook complementa a
 [especificação](private-feed-publication-cloudflare-spec.md). Ele não autoriza
@@ -16,12 +18,13 @@ corte do GitHub Pages.
 
 É necessária autorização explícita separada para:
 
-1. autorizar commit e push da implementação paralela;
-2. publicar o snapshot piloto;
-3. trocar nameservers de `paulofehlauer.com`;
-4. criar o Custom Domain `feeds.paulofehlauer.com`;
-5. publicar todos os feeds;
-6. migrar assinaturas e desligar a publicação pública.
+1. atualizar a assinatura piloto no Feedbin para o domínio definitivo e o novo
+   par de credenciais;
+2. retirar o par de credenciais anterior;
+3. desabilitar `workers.dev`;
+4. publicar todos os feeds;
+5. migrar as demais assinaturas;
+6. interromper os commits públicos, remover o GitHub Pages e executar o corte.
 
 Depois do piloto, parar e aguardar a confirmação de que o Feedbin fez uma
 atualização automática. Não avançar apenas porque uma requisição manual

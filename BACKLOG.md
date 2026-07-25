@@ -2,11 +2,11 @@
 
 ## Publicação privada dos feeds com compatibilidade com o Feedbin
 
-**Status:** implementação local, base Cloudflare e ambiente GitHub do piloto concluídos; commit/push e publicação piloto aguardam gates
+**Status:** piloto de um feed ativo no domínio definitivo; migração controlada no Feedbin, publicação completa e corte público aguardam gates separados
 **Prioridade:** antes de ampliar a publicação de feeds com conteúdo integral
 **Registrado em:** 2026-07-20
 **Especificação detalhada:** [`docs/private-feed-publication-cloudflare-spec.md`](docs/private-feed-publication-cloudflare-spec.md)
-**Especificação revisada em:** 2026-07-24
+**Especificação revisada em:** 2026-07-25
 **Domínio decidido:** `feeds.paulofehlauer.com`, com `workers.dev` apenas no piloto
 
 ### Objetivo
@@ -20,6 +20,8 @@ Privatizar a entrega reduz a exposição e reforça o caráter de uso pessoal, m
 - Os XMLs gerados são commitados em `feeds/` pelo GitHub Actions.
 - O repositório é público, portanto os XMLs também ficam acessíveis diretamente pelo GitHub e pelo histórico do repositório.
 - Os feeds são publicados sem autenticação pelo GitHub Pages.
+- Em paralelo, `drauzio_feed.xml` está publicado como piloto privado em
+  `https://feeds.paulofehlauer.com`, com Basic Auth e R2 privado.
 - Tornar somente o repositório privado não protege necessariamente um site do GitHub Pages.
 - Colocar um proxy autenticado diante do Pages sem remover a origem pública não resolve a exposição.
 
@@ -75,10 +77,16 @@ corte e publicar os XMLs apenas no endpoint autenticado.
 - **Decidido:** OPML privado e índice HTML fora da publicação.
 - **Concluído:** bucket R2 Standard privado, Worker em `workers.dev`, secrets do
   Worker, token R2 restrito e ambiente GitHub `private-feed-pilot`.
-- Autorizar separadamente o commit/push da implementação e a execução manual
-  do snapshot piloto.
-- Confirmar uma atualização automática do piloto no Feedbin.
-- Inventariar DNS e autorizar separadamente a troca de nameservers.
+- **Concluído:** inventário DNS, migração dos nameservers, preservação do
+  redirect do domínio principal para o Linktree e Custom Domain
+  `feeds.paulofehlauer.com`.
+- **Concluído:** snapshot piloto de `drauzio_feed.xml` no domínio definitivo,
+  com canários autenticados e anônimos aprovados.
+- Atualizar de forma controlada a assinatura piloto no Feedbin para o domínio
+  definitivo e o novo par de credenciais.
+- Confirmar uma atualização automática do piloto no Feedbin antes de avançar.
+- Retirar o par de credenciais anterior e desabilitar `workers.dev` somente
+  depois da migração controlada.
 - Autorizar publicação completa e, depois, o corte do GitHub Pages.
 - Reescrita de histórico continua fora de escopo.
 
