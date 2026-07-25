@@ -102,6 +102,12 @@ class HttpResult:
     body: bytes
 
 
+CANARY_USER_AGENT = (
+    "rss-de-valor-private-feed-canary/1.0 "
+    "(+https://github.com/paulofeh/rss-de-valor)"
+)
+
+
 _SAFE_HTTP_CANARY_FAILURES = frozenset(
     {
         "private endpoint request failed",
@@ -143,6 +149,7 @@ def _http_request(
     timeout: int = 30,
 ) -> HttpResult:
     request_headers = dict(headers or {})
+    request_headers["User-Agent"] = CANARY_USER_AGENT
     if username is not None and password is not None:
         token = base64.b64encode(
             f"{username}:{password}".encode("utf-8")

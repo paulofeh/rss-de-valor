@@ -573,6 +573,12 @@ diferente.
 7. Confirmar `401` sem autenticação.
 8. Confirmar XML válido e `200` com autenticação.
 
+O cliente HTTP dos canários deve enviar um `User-Agent` explícito, estável,
+identificável e sem secrets em todas as requisições. Isso evita que a assinatura
+padrão do `Python-urllib` seja bloqueada pelo Browser Integrity Check antes de
+alcançar o Worker. O BIC não deve ser desligado para contornar essa falha do
+cliente.
+
 Se a verificação pós-ativação falhar:
 
 1. restaurar o `current.json` anterior;
@@ -765,6 +771,7 @@ caminhos revelam o inventário de assinaturas.
 | Publicação parcial | Snapshot imutável e `current.json` atualizado por último |
 | Stub sobrescrever conteúdo integral | Hidratação obrigatória e validação anti-regressão |
 | Cache entregar conteúdo antigo | Sem cache público e revalidação por ETag |
+| Browser Integrity Check bloquear o canário | `User-Agent` explícito e identificável no cliente de teste |
 | Path traversal | Lookup apenas em caminhos normalizados presentes no manifesto |
 | Exclusão acidental | Retenção e rollback por ponteiro |
 | Execuções concorrentes | Grupo de concorrência único e verificação do ponteiro antes da ativação |
@@ -814,11 +821,13 @@ Ainda assim:
   criados com autorização;
 - Worker implantado inicialmente em `workers.dev`;
 - implementação paralela enviada à `main` com autorização;
-- duas execuções manuais do feed piloto realizadas: a primeira parou antes do
-  upload; a segunda enviou um snapshot imutável, ativou-o e restaurou a ausência
-  do ponteiro quando o canário falhou;
-- correções de compatibilidade e diagnóstico validadas localmente antes de nova
-  ativação;
+- três execuções manuais do feed piloto comprovaram falhas seguras: a primeira
+  parou antes do upload; a segunda e a terceira enviaram snapshots imutáveis,
+  ativaram-nos e restauraram a ausência do ponteiro quando os canários falharam;
+- a terceira execução isolou um `403`/erro `1010` do Browser Integrity Check
+  contra a assinatura padrão do `Python-urllib`; um `User-Agent` explícito e
+  identificável foi validado anonimamente antes de nova ativação;
+- correções de compatibilidade e diagnóstico validadas localmente;
 - manter GitHub Pages inalterado;
 
 - Confirmar `401` sem credenciais.
@@ -915,10 +924,10 @@ Parar aqui e aguardar confirmação.
 - GUIDs permanecem estáveis.
 - URL pública antiga deixa de responder após o corte.
 
-### 17.4 Evidência local em 2026-07-24
+### 17.4 Evidência local em 2026-07-25
 
 - 29 testes do Worker aprovados;
-- 39 testes Python aprovados;
+- 40 testes Python aprovados;
 - typecheck TypeScript aprovado;
 - `npm audit` sem vulnerabilidades conhecidas e `pip check` sem dependências
   quebradas;
@@ -928,7 +937,7 @@ Parar aqui e aguardar confirmação.
 - bucket R2 Standard privado e Worker em `workers.dev` criados;
 - secrets do Worker, token R2 restrito e ambiente GitHub do piloto configurados
   sem expor seus valores;
-- um snapshot imutável de diagnóstico armazenado, sem `current.json` ativo;
+- snapshots imutáveis de diagnóstico armazenados, sem `current.json` ativo;
 - nenhum nameserver, domínio definitivo ou corte executado.
 
 ## 18. Critérios de aceite

@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import json
 import unittest
-from unittest.mock import patch
+from unittest.mock import MagicMock, patch
 
 from scripts.private_feed_common import (
     CanaryError,
@@ -10,7 +10,12 @@ from scripts.private_feed_common import (
     sha256_bytes,
     validate_basic_auth_material,
 )
-from scripts.publish_snapshot import HttpResult, run_http_canaries
+from scripts.publish_snapshot import (
+    CANARY_USER_AGENT,
+    HttpResult,
+    _http_request,
+    run_http_canaries,
+)
 
 
 class HttpCanaryTest(unittest.TestCase):
@@ -88,6 +93,42 @@ class HttpCanaryTest(unittest.TestCase):
             request.call_args_list[1].kwargs["password"],
             "secret-invalid",
         )
+
+    def test_http_request_uses_an_identifiable_user_agent(self) -> None:
+        response = MagicMock()
+        response.status = 401
+        response.headers.items.return_value = [
+            ("WWW-Authenticate", 'Basic realm="Private feeds"'),
+        ]
+        response.read.return_value = b"Authentication required.\n"
+        response.__enter__.return_value = response
+        response.__exit__.return_value = False
+        opener = MagicMock()
+        opener.open.return_value = response
+
+        with patch(
+            "scripts.publish_snapshot.build_opener",
+            return_value=opener,
+        ):
+            result = _http_request(
+                endpoint="https://pilot.example.workers.dev",
+                path="/feeds/canary.xml",
+                method="GET",
+                username=None,
+                password=None,
+                headers={
+                    "If-None-Match": '"digest"',
+                    "User-Agent": "Python-urllib/3.11",
+                },
+            )
+
+        request = opener.open.call_args.args[0]
+        self.assertEqual(
+            request.get_header("User-agent"),
+            CANARY_USER_AGENT,
+        )
+        self.assertEqual(request.get_header("If-none-match"), '"digest"')
+        self.assertEqual(result.status, 401)
 
     def test_canary_rejects_body_hash_divergence(self) -> None:
         responses = self.responses()
