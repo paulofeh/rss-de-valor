@@ -2,7 +2,7 @@
 
 ## Publicação privada dos feeds com compatibilidade com o Feedbin
 
-**Status:** piloto privado validado e encerrado no domínio definitivo; publicação completa autorizada e preparada localmente, ainda sem ativação; migração das demais assinaturas e corte público aguardam gates separados
+**Status:** publicação privada completa ativada manualmente no domínio definitivo; agenda completa, migração das demais assinaturas e corte público aguardam gates separados
 **Prioridade:** antes de ampliar a publicação de feeds com conteúdo integral
 **Registrado em:** 2026-07-20
 **Especificação detalhada:** [`docs/private-feed-publication-cloudflare-spec.md`](docs/private-feed-publication-cloudflare-spec.md)
@@ -20,8 +20,10 @@ Privatizar a entrega reduz a exposição e reforça o caráter de uso pessoal, m
 - Os XMLs gerados são commitados em `feeds/` pelo GitHub Actions.
 - O repositório é público, portanto os XMLs também ficam acessíveis diretamente pelo GitHub e pelo histórico do repositório.
 - Os feeds são publicados sem autenticação pelo GitHub Pages.
-- Em paralelo, `drauzio_feed.xml` está publicado como piloto privado em
-  `https://feeds.paulofehlauer.com`, com Basic Auth e R2 privado.
+- Em paralelo, os 106 feeds gerados e o OPML estão publicados de forma privada
+  em `https://feeds.paulofehlauer.com`, com Basic Auth e R2 privado.
+- O snapshot completo ativo é `30170506858-1-bc9e2a6055ac`, com 213 objetos
+  internos e 107 rotas privadas.
 - O Feedbin confirmou atualização automática autenticada no domínio definitivo,
   com revalidação condicional `304`.
 - A credencial de transição foi promovida, os bindings `*_NEXT` foram removidos
@@ -93,14 +95,13 @@ corte e publicar os XMLs apenas no endpoint autenticado.
 - **Concluído:** novo par promovido aos bindings principais, bindings de
   transição removidos e `workers.dev` desabilitado; a origem temporária passou
   a responder `404`.
-- **Autorizado em 2026-07-25:** preparar e executar a publicação completa,
-  preservando a publicação pública; o workflow completo está preparado
-  localmente e nenhum snapshot `full` foi ativado ainda.
+- **Concluído em 2026-07-25:** commit `bc9e2a60`, push para `main` e primeira
+  execução manual de **Private feed publication**; o snapshot
+  `30170506858-1-bc9e2a6055ac` hidratou o piloto, validou 213 objetos e 107
+  rotas, ativou o novo ponteiro e passou pelos canários e retenção.
 - **Configurado:** `PRIVATE_FEED_FULL_ENABLED=false` e
   `PRIVATE_FEED_FULL_CANARY_FEED_FILE=drauzio_feed.xml`; a agenda completa
-  permanece fechada até o sucesso manual.
-- **Pendente:** autorização específica para versionar e enviar o workflow
-  completo antes da primeira execução manual.
+  permanece fechada até autorização para o primeiro ciclo agendado.
 - **Pendente:** gates separados para migrar as demais assinaturas e, somente
   depois, interromper a publicação pública e o GitHub Pages.
 - Reescrita de histórico continua fora de escopo.

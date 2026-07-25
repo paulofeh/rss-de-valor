@@ -4,13 +4,12 @@
 Standard privado, Worker e ambiente GitHub configurados sem exposição de
 secrets; DNS migrado para a Cloudflare com o redirect do domínio principal para
 o Linktree preservado; Custom Domain `feeds.paulofehlauer.com` ativo; snapshot
-piloto `30165530357-1-f312addae81a` publicado com 213 objetos internos e somente
-`/feeds/drauzio_feed.xml` roteável. Canários autenticados e anônimos passaram;
-o Feedbin fez revalidação automática autenticada e recebeu `304`; o novo par
-foi promovido, os bindings de transição foram removidos e `workers.dev` foi
+completo `30170506858-1-bc9e2a6055ac` publicado com 213 objetos internos e 107
+rotas privadas. Canários autenticados e anônimos passaram; o Feedbin já havia
+feito revalidação automática autenticada e recebido `304`; o novo par foi
+promovido, os bindings de transição foram removidos e `workers.dev` foi
 desabilitado. GitHub Pages e a publicação pública continuam ativos até gates
-separados. A publicação completa foi autorizada e seu workflow está preparado
-localmente, mas nenhum snapshot `full` foi ativado ainda.
+separados. A agenda completa permanece desabilitada.
 
 Este runbook complementa a
 [especificação](private-feed-publication-cloudflare-spec.md). Ele não autoriza
@@ -22,12 +21,11 @@ corte do GitHub Pages.
 Foram concluídos com autorização explícita: atualização da assinatura piloto no
 Feedbin, rotação do par de credenciais e desativação de `workers.dev`.
 
-A publicação completa foi autorizada em 2026-07-25. O workflow foi preparado
-localmente, mas sua inclusão na `main` e a primeira execução remota ainda não
-ocorreram; commit e push continuam sujeitos à autorização específica do
-operador. As variáveis não secretas já estão configuradas com
-`PRIVATE_FEED_FULL_ENABLED=false` e canário `drauzio_feed.xml`, portanto a
-agenda permanece fechada.
+A publicação completa foi autorizada e executada manualmente em 2026-07-25. O
+workflow entrou na `main` pelo commit `bc9e2a60` e publicou
+`30170506858-1-bc9e2a6055ac`. As variáveis não secretas continuam configuradas
+com `PRIVATE_FEED_FULL_ENABLED=false` e canário `drauzio_feed.xml`, portanto a
+agenda permanece fechada até novo gate.
 
 Ainda é necessária autorização explícita separada para:
 
@@ -375,10 +373,32 @@ Depois de a zona estar ativa e o redirect principal validado:
 10. observar ao menos um ciclo agendado completo;
 11. obter outro gate antes de migrar as assinaturas em lotes.
 
-Os passos 1–6 estão concluídos; o workflow dos passos seguintes está preparado
-localmente, ainda sem commit/push ou execução remota. O workflow de piloto exige
-`PRIVATE_FEED_PILOT_ENABLED=true`, que deve permanecer `false`, para não poder
-substituir um snapshot completo por um snapshot com apenas uma rota.
+Os passos 1–8 estão concluídos. Os passos 9–11 permanecem fechados. O workflow
+de piloto exige `PRIVATE_FEED_PILOT_ENABLED=true`, que deve permanecer `false`,
+para não poder substituir um snapshot completo por um snapshot com apenas uma
+rota.
+
+### Evidência da primeira publicação completa
+
+- run GitHub `30170506858`, commit `bc9e2a60`, duração 17m58s;
+- hidratação validou 213 objetos do piloto
+  `30165530357-1-f312addae81a`;
+- geração processou 106 fontes: cinco artigos novos, 99 fontes sem mudança e
+  duas falhas de origem; os feeds anteriores foram preservados;
+- validação montou 213 objetos e 107 rotas;
+- snapshot ativo `30170506858-1-bc9e2a6055ac`, com o piloto registrado como
+  ponteiro anterior e nenhuma exclusão pela retenção;
+- os canários obrigatórios confirmaram `401` anônimo e inválido, `GET 200`,
+  `HEAD 200`, `304` condicional, hash, ETag, `Last-Modified`, XML, cache privado
+  e `/healthz` no novo run;
+- reconciliação da API confirmou no R2 106 feeds, 106 históricos, um OPML e o
+  manifesto; `current.json` foi atualizado às `19:08:56.771Z`;
+- bucket Standard sem Custom Domain e com `r2.dev` desabilitado; Worker com
+  `workers.dev` e Preview URLs desabilitados;
+- dois feeds, OPML, `/healthz` e caminho inexistente retornaram o mesmo `401`
+  sem credenciais; Pages permaneceu em `200` e o apex em `301` para o Linktree;
+- `PRIVATE_FEED_FULL_ENABLED=false` e
+  `PRIVATE_FEED_PILOT_ENABLED=false` foram reconfirmados depois da execução.
 
 O `wrangler.jsonc` local não declara rotas porque o Custom Domain é gerenciado
 no painel da Cloudflare. Ele fixa `workers_dev=false`, evitando que um deploy

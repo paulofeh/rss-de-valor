@@ -1,6 +1,6 @@
 # Publicação privada de feeds com Cloudflare Worker
 
-**Status:** implementação e piloto privado concluídos no domínio definitivo; publicação completa autorizada e preparada localmente, ainda sem ativação; migração e corte público aguardam gates separados, com GitHub Pages preservado
+**Status:** publicação privada completa ativada manualmente no domínio definitivo; agenda completa, migração e corte público aguardam gates separados, com GitHub Pages preservado
 **Última revisão:** 2026-07-25
 **Origem:** item “Publicação privada dos feeds com compatibilidade com o Feedbin” do [`BACKLOG.md`](../BACKLOG.md)
 
@@ -61,11 +61,11 @@ Decisões aplicadas na implementação local:
 
 Estado dos gates externos:
 
-1. publicação completa autorizada em 2026-07-25, com workflow preparado
-   localmente e sem snapshot `full` ativado ainda;
+1. publicação completa manual concluída em 2026-07-25 no snapshot
+   `30170506858-1-bc9e2a6055ac`;
 2. variáveis não secretas de produção configuradas com
    `PRIVATE_FEED_FULL_ENABLED=false` e canário `drauzio_feed.xml`;
-3. commit/push das mudanças preparadas continua sujeito à autorização
+3. habilitação do primeiro ciclo agendado continua sujeita a autorização
    específica do operador;
 4. migração das demais assinaturas continua fechada;
 5. remoção da publicação pública e do GitHub Pages exige autorização adicional
@@ -901,9 +901,20 @@ requisição manual bem-sucedida.
 - Rodar pelo menos um ciclo agendado completo.
 - Manter as URLs públicas antigas durante a verificação.
 
-Preparação registrada em 2026-07-25: workflow completo validado localmente;
-`PRIVATE_FEED_FULL_ENABLED=false` e canário `drauzio_feed.xml` confirmados no
-ambiente GitHub. Nenhum snapshot `full` foi ativado.
+Execução manual registrada em 2026-07-25:
+
+- commit `bc9e2a60` enviado à `main`;
+- run `30170506858` hidratou o snapshot piloto
+  `30165530357-1-f312addae81a`;
+- geração processou 106 fontes: cinco com artigos novos, 99 sem mudança e duas
+  falhas preservadas pelo estado hidratado;
+- manifesto `full` validou 213 objetos e 107 rotas;
+- snapshot `30170506858-1-bc9e2a6055ac` ativado com canários autenticado,
+  anônimo, `HEAD`, `304` e `/healthz` aprovados;
+- R2 reconciliado com 106 XMLs, 106 históricos, um OPML e o manifesto; o
+  ponteiro anterior permaneceu retido;
+- `PRIVATE_FEED_FULL_ENABLED=false` e
+  `PRIVATE_FEED_PILOT_ENABLED=false` mantêm as duas agendas fechadas.
 
 ### Fase 14 — migração e corte
 
@@ -1013,6 +1024,23 @@ ambiente GitHub. Nenhum snapshot `full` foi ativado.
   `404`;
 - `PRIVATE_FEED_PILOT_ENDPOINT` confirmado como
   `https://feeds.paulofehlauer.com`;
+- workflow completo enviado no commit `bc9e2a60` e reconhecido pelo GitHub com
+  `contents: read`, confirmação manual e o mesmo grupo de concorrência do
+  rollback;
+- execução manual `30170506858` aprovada em 17m58s: hidratou o piloto, processou
+  106 fontes, validou 213 objetos e 107 rotas e publicou
+  `30170506858-1-bc9e2a6055ac`;
+- o resultado da publicação registrou o snapshot piloto anterior como
+  `previous_run_id`, não excluiu snapshots na retenção e só concluiu depois dos
+  canários;
+- a API da Cloudflare confirmou `current.json` atualizado às
+  `2026-07-25T19:08:56.771Z`, 214 objetos no prefixo do snapshot completo,
+  bucket Standard, nenhum Custom Domain no R2 e `r2.dev` desabilitado;
+- requisições anônimas a dois feeds, OPML, `/healthz` e caminho inexistente
+  produziram a mesma resposta `401`; `workers.dev` permaneceu em `404`, o feed
+  público no Pages em `200` e o domínio principal em `301` para o Linktree;
+- os valores de secrets apareceram mascarados como `***` no log, e os
+  validadores de artefatos não detectaram secrets;
 - GitHub Pages e a publicação pública continuam ativos.
 
 ## 18. Critérios de aceite
@@ -1020,15 +1048,15 @@ ambiente GitHub. Nenhum snapshot `full` foi ativado.
 A implementação só pode ser considerada concluída quando:
 
 - [ ] O Worker é a única origem dos feeds gerados.
-- [ ] O bucket R2 não tem acesso público alternativo.
+- [x] O bucket R2 não tem acesso público alternativo.
 - [x] Requisições anônimas recebem `401` sem metadados do feed.
 - [x] Requisições autenticadas recebem XML válido e cabeçalhos corretos.
 - [x] O Feedbin executou ao menos uma atualização automática autenticada.
-- [ ] O pipeline hidratou estado, publicou snapshot e ativou ponteiro.
-- [ ] Uma falha antes da ativação manteve o snapshot anterior.
+- [x] O pipeline hidratou estado, publicou snapshot e ativou ponteiro.
+- [x] Uma falha antes da ativação manteve o snapshot anterior.
 - [ ] Um rollback foi testado.
-- [ ] A proteção contra downgrade de conteúdo foi validada.
-- [ ] Nenhum segredo apareceu no Git ou nos logs.
+- [x] A proteção contra downgrade de conteúdo foi validada.
+- [x] Nenhum segredo apareceu no Git ou nos logs.
 - [ ] OPML e índice não expõem o inventário publicamente.
 - [x] `feeds.paulofehlauer.com` é o domínio definitivo dos feeds.
 - [x] `paulofehlauer.com` continua redirecionando corretamente para o Linktree.
@@ -1102,8 +1130,8 @@ Mudanças aplicadas no projeto existente:
 10. ~~Inventariar DNS e obter gate de nameservers.~~
 11. ~~Configurar e validar `feeds.paulofehlauer.com`.~~
 12. ~~Validar o Custom Domain e desabilitar `workers.dev` na configuração de produção.~~
-13. ~~Obter gate de publicação completa.~~ Preparação local concluída; ativação
-    remota ainda não executada.
+13. ~~Obter gate e executar a primeira publicação completa manual.~~ Agenda
+    completa ainda desabilitada.
 14. Obter gate separado de migração e corte.
 
 Cada fase deve terminar com evidência verificável antes de avançar para a
