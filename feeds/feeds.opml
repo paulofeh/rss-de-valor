@@ -1,7 +1,7 @@
 <opml version="2.0">
     <head>
         <title>RSS de Colunistas</title>
-        <dateCreated>Sat, 25 Jul 2026 13:29:39 GMT</dateCreated>
+        <dateCreated>Sat, 25 Jul 2026 19:10:42 GMT</dateCreated>
         <ownerName>RSS Scraper</ownerName>
         </head>
     <body>
@@ -10,7 +10,6 @@
                 <outline type="rss" text="World Bank Data Blog" title="World Bank Data Blog" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/worldbank_opendata_feed.xml" />
                 </outline>
             <outline text="Risco Climático" title="Risco Climático">
-                <outline type="rss" text="Arroz, Feijão &amp; Clima" title="Arroz, Feijão &amp; Clima" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/arroz_feijao_clima_feed.xml" />
                 <outline type="rss" text="Bloomberg Green" title="Bloomberg Green" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/bloomberg_green_feed.xml" />
                 <outline type="rss" text="Bloomberg Green Global" title="Bloomberg Green Global" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/bloomberg_green_global_feed.xml" />
                 <outline type="rss" text="CDP Insights" title="CDP Insights" xmlUrl="https://paulofeh.github.io/rss-de-valor/feeds/cdp_insights_feed.xml" />
