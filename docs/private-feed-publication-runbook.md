@@ -107,6 +107,7 @@ Secrets.
 
 - `BASIC_AUTH_USERNAME`
 - `BASIC_AUTH_PASSWORD_CURRENT`
+- `BASIC_AUTH_USERNAME_NEXT`, apenas durante rotação completa
 - `BASIC_AUTH_PASSWORD_NEXT`, apenas durante rotação
 
 O Wrangler pode recebê-los interativamente, um de cada vez:
@@ -115,6 +116,9 @@ O Wrangler pode recebê-los interativamente, um de cada vez:
 npx wrangler secret put BASIC_AUTH_USERNAME
 npx wrangler secret put BASIC_AUTH_PASSWORD_CURRENT
 ```
+
+Durante uma rotação completa, configurar também
+`BASIC_AUTH_USERNAME_NEXT` e `BASIC_AUTH_PASSWORD_NEXT` pelo mesmo mecanismo.
 
 O usuário deve ter no máximo 128 bytes, sem `:` nem caracteres de controle. A
 senha deve ter entre 24 e 1.024 bytes; usar preferencialmente pelo menos 32
@@ -219,11 +223,14 @@ deverá exigir explicitamente `--required-mode full`.
 Se o canário do destino falhar, o script restaura o ponteiro original e testa o
 snapshot restaurado. Não apagar o snapshot defeituoso antes de investigar.
 
-## 9. Rotação de senha
+## 9. Rotação de credenciais
+
+Para rotacionar somente a senha:
 
 1. gerar no gerenciador uma senha aleatória com ao menos 32 caracteres, fora de
    logs e da conversa;
-2. configurar a nova senha como `BASIC_AUTH_PASSWORD_NEXT`;
+2. configurar a nova senha como `BASIC_AUTH_PASSWORD_NEXT`, sem configurar
+   `BASIC_AUTH_USERNAME_NEXT`;
 3. testar senha atual, senha nova e uma senha inválida;
 4. atualizar o Feedbin;
 5. aguardar ao menos uma atualização automática;
@@ -231,6 +238,23 @@ snapshot restaurado. Não apagar o snapshot defeituoso antes de investigar.
 7. atualizar `PRIVATE_FEED_PASSWORD` no GitHub Environment;
 8. remover `BASIC_AUTH_PASSWORD_NEXT`;
 9. confirmar `401` para a senha antiga.
+
+Para rotacionar usuário e senha sem interromper o par atual:
+
+1. gerar no gerenciador um usuário aleatório sem relação com domínio, nomes ou
+   conteúdo e uma senha aleatória com ao menos 32 caracteres;
+2. configurar o novo par como `BASIC_AUTH_USERNAME_NEXT` e
+   `BASIC_AUTH_PASSWORD_NEXT`;
+3. testar o par atual, o par de transição, os dois pares cruzados e um par
+   inválido;
+4. atualizar `PRIVATE_FEED_USERNAME` e `PRIVATE_FEED_PASSWORD` no GitHub
+   Environment;
+5. executar os canários no domínio definitivo;
+6. atualizar o Feedbin e aguardar ao menos uma atualização automática;
+7. promover o par de transição para `BASIC_AUTH_USERNAME` e
+   `BASIC_AUTH_PASSWORD_CURRENT`;
+8. remover `BASIC_AUTH_USERNAME_NEXT` e `BASIC_AUTH_PASSWORD_NEXT`;
+9. confirmar `401` para o par antigo.
 
 Não há documentação oficial do Feedbin garantindo atualização em lote de
 credenciais. Planejar essa etapa como potencialmente individual até o piloto

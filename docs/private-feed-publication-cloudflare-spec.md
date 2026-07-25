@@ -416,9 +416,8 @@ Não deve retornar lista de feeds nem detalhes de credenciais.
 
 Usar:
 
-- um usuário;
-- uma senha atual;
-- opcionalmente uma segunda senha durante rotação;
+- um par atual de usuário e senha;
+- opcionalmente um segundo par durante rotação;
 - comparação em tempo constante;
 - senha com mínimo operacional de 24 bytes e usuário Basic sem `:`;
 - HTTPS obrigatório.
@@ -426,8 +425,14 @@ Usar:
 O Worker deve aceitar:
 
 ```text
-usuário correto AND (senha atual OR senha de transição)
+(usuário atual AND senha atual)
+OR
+(usuário de transição AND senha de transição)
 ```
+
+Se `BASIC_AUTH_USERNAME_NEXT` não estiver configurado, o usuário de transição
+é o usuário atual. Isso preserva a rotação somente de senha sem aceitar pares
+cruzados durante uma rotação completa.
 
 ### 8.2 Segredos do Worker
 
@@ -435,6 +440,7 @@ usuário correto AND (senha atual OR senha de transição)
 |---|---|---|
 | `BASIC_AUTH_USERNAME` | Secret | Usuário aceito |
 | `BASIC_AUTH_PASSWORD_CURRENT` | Secret | Senha principal |
+| `BASIC_AUTH_USERNAME_NEXT` | Secret opcional | Usuário do par de transição |
 | `BASIC_AUTH_PASSWORD_NEXT` | Secret opcional | Janela de rotação |
 
 O binding do R2 é configurado no Worker, mas não concede acesso público ao
@@ -936,21 +942,35 @@ Parar aqui e aguardar confirmação.
 - GUIDs permanecem estáveis.
 - URL pública antiga deixa de responder após o corte.
 
-### 17.4 Evidência local em 2026-07-25
+### 17.4 Evidência local e operacional em 2026-07-25
 
-- 29 testes do Worker aprovados;
+- 30 testes do Worker aprovados, incluindo transição de par sem aceitar
+  combinações cruzadas;
 - 45 testes Python aprovados;
 - typecheck TypeScript aprovado;
 - `npm audit` sem vulnerabilidades conhecidas e `pip check` sem dependências
   quebradas;
 - pacote do Worker aprovado em `wrangler deploy --dry-run` (18,28 KiB,
   4,51 KiB comprimidos, somente o binding privado do R2);
-- 107 feeds, 107 históricos e um OPML derivados da allowlist;
+- 106 feeds, 106 históricos e um OPML derivados da allowlist depois da remoção
+  da fonte de transcrições do YouTube;
 - bucket R2 Standard privado e Worker em `workers.dev` criados;
 - secrets do Worker, token R2 restrito e ambiente GitHub do piloto configurados
   sem expor seus valores;
-- snapshots imutáveis de diagnóstico armazenados, sem `current.json` ativo;
-- nenhum nameserver, domínio definitivo ou corte executado.
+- snapshot piloto ativado e validado manualmente no Feedbin em `workers.dev`,
+  sem confirmação de atualização automática;
+- nameservers migrados para a Cloudflare depois do inventário e do gate
+  explícito;
+- redirect HTTPS do apex e de `www` para o Linktree validado na borda da
+  Cloudflare;
+- `feeds.paulofehlauer.com` anexado como Custom Domain do Worker, com DNS,
+  certificado e respostas anônimas `401` validados;
+- primeiro piloto no domínio definitivo recusado antes do upload porque uma
+  credencial coincidia textualmente com o domínio canônico; o snapshot ativo
+  anterior permaneceu intacto;
+- suporte local a um segundo par de credenciais implementado para permitir a
+  rotação sem interromper o par usado pelo Feedbin;
+- GitHub Pages, `workers.dev` e a publicação pública continuam ativos.
 
 ## 18. Critérios de aceite
 
@@ -1033,10 +1053,10 @@ Mudanças aplicadas no projeto existente:
 5. ~~Workflow paralelo de piloto, desabilitado por padrão.~~
 6. ~~Criar recursos Cloudflare após autorização.~~
 7. ~~Implantar em `workers.dev` e configurar o ambiente GitHub do piloto.~~
-8. Publicar um feed piloto e testar no Feedbin.
-9. Parar e aguardar confirmação de atualização automática.
-10. Inventariar DNS e obter gate de nameservers.
-11. Configurar `feeds.paulofehlauer.com`.
+8. ~~Publicar um feed piloto e testar manualmente no Feedbin.~~
+9. Confirmar uma atualização automática no Feedbin.
+10. ~~Inventariar DNS e obter gate de nameservers.~~
+11. ~~Configurar e validar `feeds.paulofehlauer.com`.~~
 12. Validar o Custom Domain e desabilitar `workers.dev` na configuração de
     produção.
 13. Obter gate de publicação completa.

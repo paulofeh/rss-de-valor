@@ -108,6 +108,7 @@ export async function isAuthorized(
     Env,
     | "BASIC_AUTH_USERNAME"
     | "BASIC_AUTH_PASSWORD_CURRENT"
+    | "BASIC_AUTH_USERNAME_NEXT"
     | "BASIC_AUTH_PASSWORD_NEXT"
   >,
 ): Promise<boolean> {
@@ -116,31 +117,41 @@ export async function isAuthorized(
   );
   const candidateUsername = credentials?.username ?? "\u0000";
   const candidatePassword = credentials?.password ?? "\u0000";
+  const nextUsername =
+    env.BASIC_AUTH_USERNAME_NEXT === undefined
+      ? (env.BASIC_AUTH_USERNAME ?? "")
+      : env.BASIC_AUTH_USERNAME_NEXT;
   const nextPassword = env.BASIC_AUTH_PASSWORD_NEXT ?? "\u0000";
 
-  const [usernameMatches, currentPasswordMatches, nextPasswordMatches] =
-    await Promise.all([
+  const [
+    currentUsernameMatches,
+    currentPasswordMatches,
+    nextUsernameMatches,
+    nextPasswordMatches,
+  ] = await Promise.all([
       constantTimeStringEqual(candidateUsername, env.BASIC_AUTH_USERNAME ?? ""),
       constantTimeStringEqual(
         candidatePassword,
         env.BASIC_AUTH_PASSWORD_CURRENT ?? "",
       ),
+      constantTimeStringEqual(candidateUsername, nextUsername),
       constantTimeStringEqual(candidatePassword, nextPassword),
     ]);
 
-  const secretsConfigured =
+  const currentCredentialsConfigured =
     configuredUsernameIsValid(env.BASIC_AUTH_USERNAME) &&
     configuredPasswordIsValid(env.BASIC_AUTH_PASSWORD_CURRENT);
-  const nextPasswordConfigured = configuredPasswordIsValid(
-    env.BASIC_AUTH_PASSWORD_NEXT,
-  );
+  const nextCredentialsConfigured =
+    configuredUsernameIsValid(nextUsername) &&
+    configuredPasswordIsValid(env.BASIC_AUTH_PASSWORD_NEXT);
 
   return Boolean(
     credentials &&
-      secretsConfigured &&
-      usernameMatches &&
-      (currentPasswordMatches ||
-        (nextPasswordConfigured && nextPasswordMatches)),
+      currentCredentialsConfigured &&
+      ((currentUsernameMatches && currentPasswordMatches) ||
+        (nextCredentialsConfigured &&
+          nextUsernameMatches &&
+          nextPasswordMatches)),
   );
 }
 

@@ -49,6 +49,44 @@ describe("Basic authentication", () => {
     ).resolves.toBe(true);
   });
 
+  it("accepts a transition credential pair without accepting crossed pairs", async () => {
+    const transitionEnv = {
+      ...authEnv,
+      BASIC_AUTH_USERNAME_NEXT: "next-feed-reader",
+    };
+
+    await expect(
+      isAuthorized(
+        request(
+          authorization(
+            "next-feed-reader",
+            "next-secret-with-enough-length",
+          ),
+        ),
+        transitionEnv,
+      ),
+    ).resolves.toBe(true);
+    await expect(
+      isAuthorized(
+        request(
+          authorization("feed-reader", "next-secret-with-enough-length"),
+        ),
+        transitionEnv,
+      ),
+    ).resolves.toBe(false);
+    await expect(
+      isAuthorized(
+        request(
+          authorization(
+            "next-feed-reader",
+            "current-secret-with-enough-length",
+          ),
+        ),
+        transitionEnv,
+      ),
+    ).resolves.toBe(false);
+  });
+
   it("rejects missing, malformed and invalid credentials", async () => {
     const candidates = [
       request(),
@@ -96,6 +134,20 @@ describe("Basic authentication", () => {
         {
           BASIC_AUTH_USERNAME: "feed:reader",
           BASIC_AUTH_PASSWORD_CURRENT: "current-secret-with-enough-length",
+        },
+      ),
+    ).resolves.toBe(false);
+    await expect(
+      isAuthorized(
+        request(
+          authorization(
+            "next-feed-reader",
+            "next-secret-with-enough-length",
+          ),
+        ),
+        {
+          ...authEnv,
+          BASIC_AUTH_USERNAME_NEXT: "next:feed-reader",
         },
       ),
     ).resolves.toBe(false);

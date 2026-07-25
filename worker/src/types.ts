@@ -2,6 +2,7 @@ export interface Env {
   PRIVATE_FEEDS_BUCKET: R2Bucket;
   BASIC_AUTH_USERNAME: string;
   BASIC_AUTH_PASSWORD_CURRENT: string;
+  BASIC_AUTH_USERNAME_NEXT?: string;
   BASIC_AUTH_PASSWORD_NEXT?: string;
 }
 
@@ -48,6 +49,7 @@ declare global {
       PRIVATE_FEEDS_BUCKET: R2Bucket;
       BASIC_AUTH_USERNAME: string;
       BASIC_AUTH_PASSWORD_CURRENT: string;
+      BASIC_AUTH_USERNAME_NEXT?: string;
       BASIC_AUTH_PASSWORD_NEXT?: string;
     }
   }
