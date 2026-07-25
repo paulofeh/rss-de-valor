@@ -5,30 +5,38 @@ Standard privado, Worker e ambiente GitHub configurados sem exposição de
 secrets; DNS migrado para a Cloudflare com o redirect do domínio principal para
 o Linktree preservado; Custom Domain `feeds.paulofehlauer.com` ativo; snapshot
 piloto `30165530357-1-f312addae81a` publicado com 213 objetos internos e somente
-`/feeds/drauzio_feed.xml` roteável. Canários autenticados e anônimos passaram.
-GitHub Pages, a publicação pública e `workers.dev` continuam ativos enquanto a
-migração controlada no Feedbin aguarda seu próprio gate.
+`/feeds/drauzio_feed.xml` roteável. Canários autenticados e anônimos passaram;
+o Feedbin fez revalidação automática autenticada e recebeu `304`; o novo par
+foi promovido, os bindings de transição foram removidos e `workers.dev` foi
+desabilitado. GitHub Pages e a publicação pública continuam ativos até gates
+separados. A publicação completa foi autorizada e seu workflow está preparado
+localmente, mas nenhum snapshot `full` foi ativado ainda.
 
 Este runbook complementa a
 [especificação](private-feed-publication-cloudflare-spec.md). Ele não autoriza
 por si só implantação, compra, troca de nameservers, publicação completa ou
 corte do GitHub Pages.
 
-## 1. Gates que continuam fechados
+## 1. Gates e autorizações
 
-É necessária autorização explícita separada para:
+Foram concluídos com autorização explícita: atualização da assinatura piloto no
+Feedbin, rotação do par de credenciais e desativação de `workers.dev`.
 
-1. atualizar a assinatura piloto no Feedbin para o domínio definitivo e o novo
-   par de credenciais;
-2. retirar o par de credenciais anterior;
-3. desabilitar `workers.dev`;
-4. publicar todos os feeds;
-5. migrar as demais assinaturas;
-6. interromper os commits públicos, remover o GitHub Pages e executar o corte.
+A publicação completa foi autorizada em 2026-07-25. O workflow foi preparado
+localmente, mas sua inclusão na `main` e a primeira execução remota ainda não
+ocorreram; commit e push continuam sujeitos à autorização específica do
+operador. As variáveis não secretas já estão configuradas com
+`PRIVATE_FEED_FULL_ENABLED=false` e canário `drauzio_feed.xml`, portanto a
+agenda permanece fechada.
 
-Depois do piloto, parar e aguardar a confirmação de que o Feedbin fez uma
-atualização automática. Não avançar apenas porque uma requisição manual
-funcionou.
+Ainda é necessária autorização explícita separada para:
+
+1. migrar as demais assinaturas;
+2. interromper os commits públicos, remover o GitHub Pages e executar o corte.
+
+O gate de espera foi satisfeito por uma atualização automática do Feedbin. Em
+futuras rotações, continuar exigindo essa evidência e não avançar apenas porque
+uma requisição manual funcionou.
 
 ## 2. Modelo implementado
 
@@ -84,7 +92,7 @@ deploy real antes do gate.
 | R2 | bucket Standard `rss-de-valor-private-feeds` | snapshots privados |
 | Worker | `rss-de-valor-private-feeds` | única porta de leitura |
 | Token R2 | Object Read & Write, restrito ao bucket | hidratar, publicar e fazer rollback |
-| Ambiente GitHub | `private-feed-pilot` | isolar variables e secrets do piloto |
+| Ambiente GitHub | `private-feed-pilot` | isolar variables e secrets privados; reutilizado pela publicação completa para não duplicar secrets não recuperáveis |
 
 Habilitar R2 pode exigir aceitar termos de cobrança ou cadastrar um meio de
 pagamento, mesmo que a escala estimada fique na faixa gratuita. Explicar isso
@@ -142,11 +150,22 @@ e rollback falham fechados se essa política não for atendida.
 - `PRIVATE_FEED_PILOT_ENDPOINT`
 - `PRIVATE_FEED_PILOT_FEED_FILE`
 - `PRIVATE_FEED_PILOT_ENABLED`
+- `PRIVATE_FEED_FULL_CANARY_FEED_FILE`
+- `PRIVATE_FEED_FULL_ENABLED`
 
-`PRIVATE_FEED_PILOT_ENDPOINT` deve ser a origem HTTPS completa do Worker em
-`workers.dev`, sem credenciais e sem caminho. O workflow usa essa mesma origem
-como `FEED_BASE_URL` no piloto. Em publicação completa, `FEED_BASE_URL` é
-obrigatoriamente `https://feeds.paulofehlauer.com`.
+`PRIVATE_FEED_PILOT_ENDPOINT` deve ser a origem HTTPS completa
+`https://feeds.paulofehlauer.com`, sem credenciais e sem caminho. A origem
+`workers.dev` foi usada somente no bootstrap do piloto e não deve ser
+reativada. O workflow usa a variável como `FEED_BASE_URL`; em publicação
+completa, o mesmo domínio canônico continua obrigatório.
+
+Manter `PRIVATE_FEED_PILOT_ENABLED=false`: mesmo uma execução manual do workflow
+de piloto deve falhar fechada quando essa variável estiver desabilitada. Para a
+publicação completa, manter `PRIVATE_FEED_FULL_ENABLED=false` até uma execução
+manual bem-sucedida e definir
+`PRIVATE_FEED_FULL_CANARY_FEED_FILE=drauzio_feed.xml`. Só então habilitar a
+agenda completa. Os dois workflows reutilizam o ambiente
+`private-feed-pilot`, evitando copiar ou revelar os secrets existentes.
 
 ## 6. Implantação do piloto
 
@@ -225,8 +244,11 @@ Pelo GitHub:
 3. conferir o resumo da execução;
 4. validar o feed no Feedbin.
 
-O workflow atual aceita apenas snapshots de piloto. A operação de produção
-deverá exigir explicitamente `--required-mode full`.
+O workflow **Private feed rollback** exige `--required-mode full`. Isso impede
+que um rollback manual depois da ampliação reduza inadvertidamente a superfície
+de 107 rotas para o único feed do piloto. Antes do primeiro snapshot `full`, uma
+falha de publicação preserva o ponteiro piloto; uma falha de canário depois da
+ativação restaura esse ponteiro automaticamente.
 
 Se o canário do destino falhar, o script restaura o ponteiro original e testa o
 snapshot restaurado. Não apagar o snapshot defeituoso antes de investigar.
@@ -267,6 +289,17 @@ Para rotacionar usuário e senha sem interromper o par atual:
 Não há documentação oficial do Feedbin garantindo atualização em lote de
 credenciais. Planejar essa etapa como potencialmente individual até o piloto
 produzir evidência.
+
+### Evidência da rotação real de 2026-07-25
+
+- a assinatura piloto foi recriada manualmente no Feedbin com o novo par;
+- depois da promoção, a Cloudflare expôs somente
+  `BASIC_AUTH_USERNAME` e `BASIC_AUTH_PASSWORD_CURRENT`;
+- às 15:28:38 BRT, já sem bindings `*_NEXT`, o Feedbin fez `GET` em
+  `https://feeds.paulofehlauer.com/feeds/drauzio_feed.xml`, enviou
+  `If-None-Match` e `If-Modified-Since` e recebeu `304`, com resultado `ok`;
+- o par anterior foi retirado sem recuperar ou registrar seu valor;
+- depois dessa evidência, `workers.dev` e Preview URLs foram desabilitados.
 
 ## 10. Gate de DNS
 
@@ -333,12 +366,24 @@ Depois de a zona estar ativa e o redirect principal validado:
 5. preparar um workflow completo separado, com
    `FEED_BASE_URL=https://feeds.paulofehlauer.com`;
 6. obter autorização explícita para publicar todas as rotas;
-7. publicar e observar ao menos um ciclo agendado;
-8. migrar as assinaturas em lotes.
+7. executar manualmente **Private feed publication**, confirmando
+   `confirm_full_publication=true`;
+8. verificar os 213 objetos internos, as 107 rotas, os canários e o novo
+   `current.json`;
+9. somente depois do sucesso manual, definir
+   `PRIVATE_FEED_FULL_ENABLED=true`;
+10. observar ao menos um ciclo agendado completo;
+11. obter outro gate antes de migrar as assinaturas em lotes.
 
-O `wrangler.jsonc` local não declara o Custom Domain nesta fase para impedir que
-um deploy do piloto o crie prematuramente. Ele mantém `workers_dev=true`
-exclusivamente para o piloto; essa opção não é a configuração final.
+Os passos 1–6 estão concluídos; o workflow dos passos seguintes está preparado
+localmente, ainda sem commit/push ou execução remota. O workflow de piloto exige
+`PRIVATE_FEED_PILOT_ENABLED=true`, que deve permanecer `false`, para não poder
+substituir um snapshot completo por um snapshot com apenas uma rota.
+
+O `wrangler.jsonc` local não declara rotas porque o Custom Domain é gerenciado
+no painel da Cloudflare. Ele fixa `workers_dev=false`, evitando que um deploy
+futuro reative a origem temporária. Preview URLs também permanecem desabilitadas
+na configuração remota.
 
 ## 12. Corte da publicação pública
 
@@ -382,7 +427,7 @@ diagnóstico.
 
 Na configuração atual, uma publicação grava aproximadamente:
 
-- 215 objetos internos;
+- 213 objetos internos;
 - um manifesto;
 - um ponteiro.
 
@@ -415,6 +460,7 @@ uso real e CPU do Worker antes de habilitar o agendamento.
 Referências oficiais:
 
 - [Feedbin: Password Protected Feeds](https://feedbin.com/help/password-protected-feeds/)
+- [Feedbin: Verifying Feed Requests](https://feedbin.com/help/verifying-feed-requests/)
 - [Feedbin: OPML Import](https://feedbin.com/help/how-to-subscribe/)
 - [Cloudflare R2: Public buckets](https://developers.cloudflare.com/r2/buckets/public-buckets/)
 - [Cloudflare R2: Consistency](https://developers.cloudflare.com/r2/reference/consistency/)
@@ -425,6 +471,8 @@ Referências oficiais:
 - [Cloudflare Workers: Web Crypto](https://developers.cloudflare.com/workers/runtime-apis/web-crypto/)
 - [Cloudflare Workers: Secrets](https://developers.cloudflare.com/workers/configuration/secrets/)
 - [Cloudflare Workers: Custom Domains](https://developers.cloudflare.com/workers/configuration/routing/custom-domains/)
+- [Cloudflare Workers: `workers.dev`](https://developers.cloudflare.com/workers/configuration/routing/workers-dev/)
+- [Cloudflare Workers: Real-time logs](https://developers.cloudflare.com/workers/observability/logs/real-time-logs/)
 - [Cloudflare DNS: Full setup](https://developers.cloudflare.com/dns/zone-setups/full-setup/setup/)
 - [Cloudflare DNS: Import and export](https://developers.cloudflare.com/dns/manage-dns-records/how-to/import-and-export/)
 - [Cloudflare DNS: DNSSEC](https://developers.cloudflare.com/dns/dnssec/)

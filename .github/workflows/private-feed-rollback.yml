@@ -22,7 +22,7 @@ jobs:
     timeout-minutes: 30
     environment: private-feed-pilot
     env:
-      PRIVATE_FEED_ENDPOINT: ${{ vars.PRIVATE_FEED_PILOT_ENDPOINT }}
+      PRIVATE_FEED_ENDPOINT: https://feeds.paulofehlauer.com
       R2_ACCOUNT_ID: ${{ vars.R2_ACCOUNT_ID }}
       R2_BUCKET: ${{ vars.R2_BUCKET }}
       TARGET_RUN_ID: ${{ inputs.target_run_id }}
@@ -52,7 +52,7 @@ jobs:
         run: >-
           python scripts/rollback_snapshot.py
           --target-run-id "$TARGET_RUN_ID"
-          --required-mode pilot
+          --required-mode full
           --endpoint "$PRIVATE_FEED_ENDPOINT"
 
       - name: Record a secret-free summary

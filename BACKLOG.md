@@ -2,12 +2,12 @@
 
 ## Publicação privada dos feeds com compatibilidade com o Feedbin
 
-**Status:** piloto de um feed ativo no domínio definitivo; migração controlada no Feedbin, publicação completa e corte público aguardam gates separados
+**Status:** piloto privado validado e encerrado no domínio definitivo; publicação completa autorizada e preparada localmente, ainda sem ativação; migração das demais assinaturas e corte público aguardam gates separados
 **Prioridade:** antes de ampliar a publicação de feeds com conteúdo integral
 **Registrado em:** 2026-07-20
 **Especificação detalhada:** [`docs/private-feed-publication-cloudflare-spec.md`](docs/private-feed-publication-cloudflare-spec.md)
 **Especificação revisada em:** 2026-07-25
-**Domínio decidido:** `feeds.paulofehlauer.com`, com `workers.dev` apenas no piloto
+**Domínio decidido:** `feeds.paulofehlauer.com`; `workers.dev` foi usado apenas no piloto e está desabilitado
 
 ### Objetivo
 
@@ -22,6 +22,10 @@ Privatizar a entrega reduz a exposição e reforça o caráter de uso pessoal, m
 - Os feeds são publicados sem autenticação pelo GitHub Pages.
 - Em paralelo, `drauzio_feed.xml` está publicado como piloto privado em
   `https://feeds.paulofehlauer.com`, com Basic Auth e R2 privado.
+- O Feedbin confirmou atualização automática autenticada no domínio definitivo,
+  com revalidação condicional `304`.
+- A credencial de transição foi promovida, os bindings `*_NEXT` foram removidos
+  e a origem temporária `workers.dev` foi desabilitada.
 - Tornar somente o repositório privado não protege necessariamente um site do GitHub Pages.
 - Colocar um proxy autenticado diante do Pages sem remover a origem pública não resolve a exposição.
 
@@ -72,8 +76,9 @@ corte e publicar os XMLs apenas no endpoint autenticado.
 ### Gates que permanecem abertos
 
 - **Decidido:** Cloudflare Worker, R2 Standard privado e código público.
-- **Decidido:** usar `feeds.paulofehlauer.com`; `workers.dev` fica restrito ao
-  piloto e `fehla.xyz` permanece como domínio legado.
+- **Decidido:** usar `feeds.paulofehlauer.com`; `workers.dev` ficou restrito ao
+  piloto, foi desabilitado depois da validação e `fehla.xyz` permanece como
+  domínio legado.
 - **Decidido:** OPML privado e índice HTML fora da publicação.
 - **Concluído:** bucket R2 Standard privado, Worker em `workers.dev`, secrets do
   Worker, token R2 restrito e ambiente GitHub `private-feed-pilot`.
@@ -82,12 +87,22 @@ corte e publicar os XMLs apenas no endpoint autenticado.
   `feeds.paulofehlauer.com`.
 - **Concluído:** snapshot piloto de `drauzio_feed.xml` no domínio definitivo,
   com canários autenticados e anônimos aprovados.
-- Atualizar de forma controlada a assinatura piloto no Feedbin para o domínio
-  definitivo e o novo par de credenciais.
-- Confirmar uma atualização automática do piloto no Feedbin antes de avançar.
-- Retirar o par de credenciais anterior e desabilitar `workers.dev` somente
-  depois da migração controlada.
-- Autorizar publicação completa e, depois, o corte do GitHub Pages.
+- **Concluído:** assinatura piloto recriada no Feedbin com o novo par; atualização
+  automática observada em 2026-07-25 às 15:28:38 BRT, com `If-None-Match`,
+  `If-Modified-Since`, resposta `304` e resultado `ok`.
+- **Concluído:** novo par promovido aos bindings principais, bindings de
+  transição removidos e `workers.dev` desabilitado; a origem temporária passou
+  a responder `404`.
+- **Autorizado em 2026-07-25:** preparar e executar a publicação completa,
+  preservando a publicação pública; o workflow completo está preparado
+  localmente e nenhum snapshot `full` foi ativado ainda.
+- **Configurado:** `PRIVATE_FEED_FULL_ENABLED=false` e
+  `PRIVATE_FEED_FULL_CANARY_FEED_FILE=drauzio_feed.xml`; a agenda completa
+  permanece fechada até o sucesso manual.
+- **Pendente:** autorização específica para versionar e enviar o workflow
+  completo antes da primeira execução manual.
+- **Pendente:** gates separados para migrar as demais assinaturas e, somente
+  depois, interromper a publicação pública e o GitHub Pages.
 - Reescrita de histórico continua fora de escopo.
 
 ### Fora de escopo dos próximos gates

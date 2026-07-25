@@ -3,7 +3,7 @@
   "name": "rss-de-valor-private-feeds",
   "main": "src/index.ts",
   "compatibility_date": "2026-07-24",
-  "workers_dev": true,
+  "workers_dev": false,
   "r2_buckets": [
     {
       "binding": "PRIVATE_FEEDS_BUCKET",

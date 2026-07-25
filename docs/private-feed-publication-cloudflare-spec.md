@@ -1,6 +1,6 @@
 # Publicação privada de feeds com Cloudflare Worker
 
-**Status:** implementação, base Cloudflare, deploy e commit/push iniciais concluídos; piloto técnico em validação, com GitHub Pages preservado
+**Status:** implementação e piloto privado concluídos no domínio definitivo; publicação completa autorizada e preparada localmente, ainda sem ativação; migração e corte público aguardam gates separados, com GitHub Pages preservado
 **Última revisão:** 2026-07-25
 **Origem:** item “Publicação privada dos feeds com compatibilidade com o Feedbin” do [`BACKLOG.md`](../BACKLOG.md)
 
@@ -38,7 +38,7 @@ conteúdo são operações independentes.
 | Autenticação | HTTP Basic Auth sobre HTTPS |
 | Domínio canônico | `paulofehlauer.com` |
 | Domínio de produção dos feeds | `feeds.paulofehlauer.com` |
-| Domínio de piloto | Subdomínio temporário `workers.dev` |
+| Domínio de piloto | Subdomínio temporário `workers.dev`, desabilitado depois da validação |
 | Publicação | Snapshots versionados com ponteiro atômico |
 | Estado do pipeline | Feeds anteriores e `history/` no R2 |
 | Retenção | 28 snapshots, equivalentes a sete dias no ritmo atual |
@@ -59,14 +59,17 @@ Decisões aplicadas na implementação local:
 5. não haverá reescrita de histórico;
 6. os dois RSS nativos continuam apontando diretamente para os provedores.
 
-Continuam como gates externos:
+Estado dos gates externos:
 
-1. criar os recursos Cloudflare;
-2. implantar e publicar um único feed piloto;
-3. confirmar atualização automática, tags e estado de leitura no Feedbin;
-4. inventariar a zona DNS completa;
-5. autorizar nameservers, domínio definitivo, publicação completa e corte em
-   decisões separadas.
+1. publicação completa autorizada em 2026-07-25, com workflow preparado
+   localmente e sem snapshot `full` ativado ainda;
+2. variáveis não secretas de produção configuradas com
+   `PRIVATE_FEED_FULL_ENABLED=false` e canário `drauzio_feed.xml`;
+3. commit/push das mudanças preparadas continua sujeito à autorização
+   específica do operador;
+4. migração das demais assinaturas continua fechada;
+5. remoção da publicação pública e do GitHub Pages exige autorização adicional
+   depois da migração.
 
 ### 2.3 Premissas
 
@@ -87,7 +90,8 @@ Decisão registrada em 2026-07-24:
 
 - `paulofehlauer.com` é o domínio canônico;
 - `feeds.paulofehlauer.com` será o endpoint definitivo dos feeds privados;
-- o piloto usará uma URL temporária `workers.dev`;
+- o piloto usou uma URL temporária `workers.dev`, desabilitada depois da
+  validação no domínio definitivo;
 - `paulofehlauer.com` continuará redirecionando para o Linktree durante a
   migração de DNS;
 - a configuração do Worker não deve interferir no redirecionamento do domínio
@@ -454,7 +458,9 @@ bucket.
 | `R2_ACCESS_KEY_ID` | Token S3 limitado ao bucket |
 | `R2_SECRET_ACCESS_KEY` | Token S3 limitado ao bucket |
 | `R2_BUCKET` | Variable com o nome do bucket |
-| `PRIVATE_FEED_PILOT_ENDPOINT` | Variable com a origem `workers.dev` |
+| `PRIVATE_FEED_PILOT_ENDPOINT` | Variable com `https://feeds.paulofehlauer.com` |
+| `PRIVATE_FEED_FULL_ENABLED` | Variable; `false` até a primeira publicação manual completa |
+| `PRIVATE_FEED_FULL_CANARY_FEED_FILE` | Variable com um feed gerado da allowlist |
 | `PRIVATE_FEED_USERNAME` | Teste canário autenticado |
 | `PRIVATE_FEED_PASSWORD` | Teste canário autenticado |
 
@@ -464,9 +470,10 @@ Valores não sensíveis podem ser variables em vez de secrets. Para produção:
 FEED_BASE_URL=https://feeds.paulofehlauer.com
 ```
 
-No piloto, `FEED_BASE_URL` usa a origem temporária `workers.dev` para que o
-self-link reflita o endpoint realmente testado. Snapshots completos recusam
-qualquer origem diferente de `https://feeds.paulofehlauer.com`.
+O bootstrap do piloto usou a origem temporária `workers.dev`. Depois da
+validação do Custom Domain, `PRIVATE_FEED_PILOT_ENDPOINT` e `FEED_BASE_URL`
+passaram a usar `https://feeds.paulofehlauer.com`; snapshots completos recusam
+qualquer origem diferente desse domínio canônico.
 
 Se o Worker for implantado por GitHub Actions, usar um token separado e
 restrito à edição do Worker. A credencial de publicação de objetos não deve
@@ -805,8 +812,8 @@ caminhos revelam o inventário de assinaturas.
 
 Estimativa conservadora para a implementação atual:
 
-- 107 objetos de feed, 107 históricos e um OPML por execução;
-- 215 objetos internos, mais manifesto e ponteiro;
+- 106 objetos de feed, 106 históricos e um OPML por execução;
+- 213 objetos internos, mais manifesto e ponteiro;
 - quatro execuções por dia;
 - aproximadamente 26 mil escritas e menos de 31 mil operações Class A por mês,
   incluindo as listagens conservadoras de retenção;
@@ -834,11 +841,12 @@ Ainda assim:
 - auditoria e confirmação do desenho;
 - Worker, scripts, testes de falha e allowlist;
 - `FEED_BASE_URL` configurável;
-- workflows paralelos de piloto e rollback, desabilitados por padrão;
+- workflows paralelos de piloto, publicação completa e rollback, desabilitados
+  por padrão;
 - Actions dos workflows privados fixadas em commits verificados;
 - GitHub Pages e workflow público inalterados.
 
-### Fases 5–9 — infraestrutura concluída; publicação piloto em validação
+### Fases 5–9 — infraestrutura e publicação piloto concluídas
 
 - bucket Standard privado, token restrito, Worker, secrets e ambiente GitHub
   criados com autorização;
@@ -856,21 +864,17 @@ Ainda assim:
 - a falha revelou que Valor/O Globo também precisa participar da proteção de
   não regressão já aplicada a LinkedIn e Folha; o validador permaneceu estrito;
 - correções de compatibilidade e diagnóstico validadas localmente;
-- manter GitHub Pages inalterado;
-
-- Confirmar `401` sem credenciais.
-- Confirmar `200` e XML válido com credenciais.
-- Cadastrar a nova URL no Feedbin.
-- Aguardar pelo menos uma atualização automática.
-- Publicar uma edição nova e confirmar ingestão.
-- Testar senha incorreta.
-- Testar rotação de senha.
-- Verificar tags, não lidos, duplicação e comportamento do OPML.
+- `401` anônimo, acesso autenticado e XML válido confirmados;
+- assinatura piloto recriada no Feedbin com a URL canônica e o novo par;
+- em 2026-07-25 às 15:28:38 BRT, já sem bindings de transição, o Feedbin
+  enviou `GET`, `If-None-Match` e `If-Modified-Since` e recebeu `304`, com
+  resultado `ok`;
+- o par de transição foi promovido e os bindings `*_NEXT` foram removidos;
+- `workers.dev` e Preview URLs foram desabilitados, enquanto GitHub Pages
+  permaneceu inalterado.
 
 O piloto só termina depois de uma atualização automática, não apenas de uma
 requisição manual bem-sucedida.
-
-Parar aqui e aguardar confirmação.
 
 ### Fases 10–12 — DNS e domínio definitivo
 
@@ -888,15 +892,24 @@ Parar aqui e aguardar confirmação.
 
 - Hidratar o snapshot privado ativo do piloto; não reiniciar pelo estado
   público se `current.json` já existir.
+- Usar o workflow separado `Private feed publication`, com confirmação manual
+  explícita ou agenda habilitada pela variável
+  `PRIVATE_FEED_FULL_ENABLED=true`.
 - Publicar todas as fontes geradas no endpoint privado.
-- Validar contagens e URLs.
+- Validar 213 objetos internos e 107 rotas privadas: 106 feeds gerados e um
+  OPML.
 - Rodar pelo menos um ciclo agendado completo.
-- Migrar assinaturas em lotes.
 - Manter as URLs públicas antigas durante a verificação.
+
+Preparação registrada em 2026-07-25: workflow completo validado localmente;
+`PRIVATE_FEED_FULL_ENABLED=false` e canário `drauzio_feed.xml` confirmados no
+ambiente GitHub. Nenhum snapshot `full` foi ativado.
 
 ### Fase 14 — migração e corte
 
+- Obter gate explícito para migrar as assinaturas em lotes.
 - Confirmar que todas as assinaturas privadas atualizaram.
+- Obter autorização adicional para o corte público.
 - Interromper commits de `feeds/` e `history/`.
 - Reduzir a permissão do workflow para `contents: read`.
 - Remover os artefatos atuais da árvore pública.
@@ -967,8 +980,8 @@ Parar aqui e aguardar confirmação.
 - bucket R2 Standard privado e Worker em `workers.dev` criados;
 - secrets do Worker, token R2 restrito e ambiente GitHub do piloto configurados
   sem expor seus valores;
-- snapshot piloto ativado e validado manualmente no Feedbin em `workers.dev`,
-  sem confirmação de atualização automática;
+- snapshot piloto ativado e validado manualmente no Feedbin, primeiro em
+  `workers.dev` e depois no domínio definitivo;
 - nameservers migrados para a Cloudflare depois do inventário e do gate
   explícito;
 - redirect HTTPS do apex e de `www` para o Linktree validado na borda da
@@ -992,7 +1005,15 @@ Parar aqui e aguardar confirmação.
 - falhas `404` de Bloomberg Green e Fernando Reinach e respostas `429` durante
   enriquecimento do LinkedIn não causaram perda de conteúdo anterior nem
   impediram a validação do snapshot;
-- GitHub Pages, `workers.dev` e a publicação pública continuam ativos.
+- assinatura piloto recriada com o novo par no domínio definitivo;
+- atualização automática do Feedbin observada às 15:28:38 BRT, com
+  revalidação condicional `304` e resultado `ok`;
+- novo par promovido aos bindings principais e bindings `*_NEXT` removidos;
+- `workers.dev` e Preview URLs desabilitados; a origem temporária responde
+  `404`;
+- `PRIVATE_FEED_PILOT_ENDPOINT` confirmado como
+  `https://feeds.paulofehlauer.com`;
+- GitHub Pages e a publicação pública continuam ativos.
 
 ## 18. Critérios de aceite
 
@@ -1000,23 +1021,23 @@ A implementação só pode ser considerada concluída quando:
 
 - [ ] O Worker é a única origem dos feeds gerados.
 - [ ] O bucket R2 não tem acesso público alternativo.
-- [ ] Requisições anônimas recebem `401` sem metadados do feed.
-- [ ] Requisições autenticadas recebem XML válido e cabeçalhos corretos.
-- [ ] O Feedbin executou ao menos uma atualização automática autenticada.
+- [x] Requisições anônimas recebem `401` sem metadados do feed.
+- [x] Requisições autenticadas recebem XML válido e cabeçalhos corretos.
+- [x] O Feedbin executou ao menos uma atualização automática autenticada.
 - [ ] O pipeline hidratou estado, publicou snapshot e ativou ponteiro.
 - [ ] Uma falha antes da ativação manteve o snapshot anterior.
 - [ ] Um rollback foi testado.
 - [ ] A proteção contra downgrade de conteúdo foi validada.
 - [ ] Nenhum segredo apareceu no Git ou nos logs.
 - [ ] OPML e índice não expõem o inventário publicamente.
-- [ ] `feeds.paulofehlauer.com` é o domínio definitivo dos feeds.
-- [ ] `paulofehlauer.com` continua redirecionando corretamente para o Linktree.
-- [ ] Nenhuma URL definitiva de feed usa `fehla.xyz` ou `workers.dev`.
+- [x] `feeds.paulofehlauer.com` é o domínio definitivo dos feeds.
+- [x] `paulofehlauer.com` continua redirecionando corretamente para o Linktree.
+- [x] Nenhuma URL definitiva de feed usa `fehla.xyz` ou `workers.dev`.
 - [ ] O workflow não tem mais permissão de escrita no repositório.
 - [ ] `feeds/` e `history/` não são mais commitados publicamente.
 - [ ] O GitHub Pages foi desativado.
 - [ ] As URLs públicas antigas não entregam XML.
-- [ ] Existe procedimento testado de rotação.
+- [x] Existe procedimento testado de rotação.
 - [ ] Existem pelo menos 28 snapshots ou a retenção aprovada.
 - [ ] README e runbook refletem a operação real.
 
@@ -1048,6 +1069,7 @@ config/
 
 .github/workflows/
   private-feed-pilot.yml
+  private-feed-publication.yml
   private-feed-rollback.yml
 
 tests/
@@ -1076,12 +1098,12 @@ Mudanças aplicadas no projeto existente:
 6. ~~Criar recursos Cloudflare após autorização.~~
 7. ~~Implantar em `workers.dev` e configurar o ambiente GitHub do piloto.~~
 8. ~~Publicar um feed piloto e testar manualmente no Feedbin.~~
-9. Confirmar uma atualização automática no Feedbin.
+9. ~~Confirmar uma atualização automática no Feedbin.~~
 10. ~~Inventariar DNS e obter gate de nameservers.~~
 11. ~~Configurar e validar `feeds.paulofehlauer.com`.~~
-12. Validar o Custom Domain e desabilitar `workers.dev` na configuração de
-    produção.
-13. Obter gate de publicação completa.
+12. ~~Validar o Custom Domain e desabilitar `workers.dev` na configuração de produção.~~
+13. ~~Obter gate de publicação completa.~~ Preparação local concluída; ativação
+    remota ainda não executada.
 14. Obter gate separado de migração e corte.
 
 Cada fase deve terminar com evidência verificável antes de avançar para a
@@ -1090,12 +1112,15 @@ ou a reescrita do histórico Git.
 
 ## 21. Referências externas
 
-Referências revalidadas em 2026-07-24 e que devem ser conferidas novamente
+Referências revalidadas em 2026-07-25 e que devem ser conferidas novamente
 antes da implantação:
 
 - [Feedbin — Password Protected Feeds](https://feedbin.com/help/password-protected-feeds/)
+- [Feedbin — Verifying Feed Requests](https://feedbin.com/help/verifying-feed-requests/)
 - [Cloudflare Workers — HTTP Basic Authentication](https://developers.cloudflare.com/workers/examples/basic-auth/)
 - [Cloudflare Workers — Custom Domains](https://developers.cloudflare.com/workers/configuration/routing/custom-domains/)
+- [Cloudflare Workers — `workers.dev`](https://developers.cloudflare.com/workers/configuration/routing/workers-dev/)
+- [Cloudflare Workers — Real-time logs](https://developers.cloudflare.com/workers/observability/logs/real-time-logs/)
 - [Cloudflare Workers — Secrets](https://developers.cloudflare.com/workers/configuration/secrets/)
 - [Cloudflare Workers — Pricing](https://developers.cloudflare.com/workers/platform/pricing/)
 - [Cloudflare R2 — Authentication and API tokens](https://developers.cloudflare.com/r2/api/tokens/)
