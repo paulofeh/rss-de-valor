@@ -4,7 +4,7 @@
 Standard privado, Worker e ambiente GitHub configurados sem exposição de
 secrets; DNS migrado para a Cloudflare com o redirect do domínio principal para
 o Linktree preservado; Custom Domain `feeds.paulofehlauer.com` ativo; snapshot
-completo `30290619416-1-1765aebfb4ff` ativo com 213 objetos internos e 107
+completo `30305737638-1-70c4243cc7a9` ativo com 213 objetos internos e 107
 rotas privadas. Canários autenticados e anônimos passaram; o Feedbin já havia
 feito revalidação automática autenticada e recebido `304`; o novo par foi
 promovido, os bindings de transição foram removidos e `workers.dev` foi
@@ -18,7 +18,8 @@ primeiro ciclo nominal posterior à correção terminou com sucesso no run
 agendado `30237068708`, preservando `full=true` e `pilot=false`. A promoção
 posterior do enriquecimento Folha falhou fechada no run `30301308278`, antes
 do upload, por uma correção de fuso em um item de Martin Wolf; o snapshot ativo
-anterior foi preservado.
+anterior foi preservado. O reparo exato foi promovido uma única vez pelo run
+manual `30305737638`, que ativou o snapshot corrigido e passou pelos canários.
 
 Este runbook complementa a
 [especificação](private-feed-publication-cloudflare-spec.md). Ele não autoriza
@@ -371,24 +372,46 @@ Assim, o perfil também falha fechado se for selecionado novamente depois que
 o snapshot ativo já contiver a data corrigida. Os reparos de Martin Wolf e
 LinkedIn são mutuamente exclusivos.
 
-Para executar o reparo, somente depois de commit, push e autorização externa:
+O reparo foi executado uma única vez, com autorização individual, no run
+`30305737638`, baseado no commit `70c4243c`, de `21:10:37Z` a `21:35:19Z`.
+Os inputs efetivos foram `confirm_full_publication=true`,
+`repair_linkedin_baseline=false` e `repair_martin_wolf_pubdate=true`.
 
-1. abrir **Private feed publication** em GitHub Actions;
-2. selecionar **Run workflow**;
-3. marcar `confirm_full_publication=true`;
-4. manter `repair_linkedin_baseline=false`;
-5. marcar `repair_martin_wolf_pubdate=true`;
-6. confirmar no log o perfil `martin-wolf-pubdate-2026-07-27`, a hidratação do
-   snapshot anterior, 213 objetos, 107 rotas, ativação, canários e retenção;
-7. reconciliar `current.json` e o prefixo novo no R2;
-8. validar anonimamente `401` e, com autenticação, autoria, conteúdo e data de
-   Martin Wolf;
-9. em execuções manuais normais, manter os dois inputs de reparo como `false`.
+Evidência operacional:
 
-Depois desse sucesso, execuções agendadas normais devem passar sem perfil,
-porque o baseline ativo já terá a data corrigida. A migração das 19 assinaturas
-Folha ainda nativas no Feedbin é um gate posterior à validação autenticada do
-conteúdo.
+- hidratação de 213 objetos do snapshot anterior
+  `30290619416-1-1765aebfb4ff`;
+- processamento de 106 fontes, com proteção anterior preservada nas falhas
+  transitórias de coleta;
+- perfil `martin-wolf-pubdate-2026-07-27`, 213 objetos e 107 rotas validados;
+- ativação de `30305737638-1-70c4243cc7a9`;
+- canários autenticados e anônimos aprovados;
+- retenção concluída sem exclusões.
+
+A API do R2 confirmou 214 chaves no prefixo: 106 feeds, 106 históricos, um OPML
+e `manifest.json`, todos em Standard. O hash do objeto
+`martin_wolf_feed.xml` é idêntico ao XML completo corrigido, com autoria
+`Martin Wolf` e `Wed, 22 Jul 2026 23:30:00 +0000`. `current.json` recebeu novo
+ETag às `21:29:59.734Z`; `r2.dev` permaneceu desabilitado e não há Custom
+Domain ligado diretamente ao bucket.
+
+A rota privada de Martin Wolf respondeu anonimamente `401`, `no-store` e o
+desafio Basic esperado. `workers.dev` continuou `404`, GitHub Pages `200` e o
+apex `301` para o Linktree. Os gates permaneceram
+`PRIVATE_FEED_FULL_ENABLED=true` e `PRIVATE_FEED_PILOT_ENABLED=false` somente
+no repositório.
+
+Não selecionar novamente `repair_martin_wolf_pubdate`: o baseline ativo já tem
+a data corrigida e o perfil falharia por não observar a transição. Execuções
+manuais normais devem manter os dois inputs de reparo como `false`; execuções
+agendadas continuam sem perfil.
+
+O usuário cadastrou o feed privado de Martin Wolf no Feedbin, confirmou autoria
+e conteúdo completos e removeu a assinatura nativa. O gate autenticado está
+concluído. Restam 18 assinaturas nativas da Folha no lote atual; cadastrar cada
+URL privada com o mesmo par de credenciais e remover a origem nativa somente
+depois da validação individual. Juliano Spyer e Sérgio Rodrigues continuam
+adiados e não pertencem a esse lote.
 
 ## 8. Rollback
 

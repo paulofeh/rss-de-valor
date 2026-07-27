@@ -2,8 +2,8 @@
 
 **Status:** publicação privada completa ativa no domínio definitivo; o primeiro
 ciclo agendado depois da correção dos gates foi validado, a migração no Feedbin
-foi concluída, a promoção do enriquecimento Folha aguarda um reparo manual
-limitado a uma data de Martin Wolf e o corte público permanece fechado, com
+foi concluída e o enriquecimento Folha foi promovido com um reparo manual
+limitado a uma data de Martin Wolf; o corte público permanece fechado, com
 GitHub Pages preservado
 **Última revisão:** 2026-07-27
 **Origem:** item “Publicação privada dos feeds com compatibilidade com o Feedbin” do [`BACKLOG.md`](../BACKLOG.md)
@@ -1022,7 +1022,35 @@ detectou a mudança de data do item conhecido de Martin Wolf descrita na fase
 de hidratação. Upload, ativação, canários e retenção não foram executados;
 `current.json` permaneceu apontando para
 `30290619416-1-1765aebfb4ff`. A exceção exata foi implementada e testada
-localmente, sem disparar nova publicação.
+localmente.
+
+O reparo entrou na `main` no commit `70c4243c` e foi executado uma única vez
+no run manual autorizado `30305737638`, de `2026-07-27T21:10:37Z` a
+`21:35:19Z`. O run:
+
+- deixou staging e restauração LinkedIn desativados;
+- hidratou os 213 objetos de `30290619416-1-1765aebfb4ff`;
+- processou 106 fontes e preservou conteúdo anterior nas falhas transitórias;
+- aplicou `martin-wolf-pubdate-2026-07-27` e validou 213 objetos e 107 rotas;
+- ativou `30305737638-1-70c4243cc7a9`;
+- passou pelos canários autenticados e anônimos;
+- concluiu retenção sem exclusões.
+
+A reconciliação encontrou 214 chaves no prefixo — 106 feeds, 106 históricos,
+um OPML e `manifest.json` — todas em Standard. O SHA-256 do objeto de Martin
+Wolf coincidiu com o XML completo corrigido depois da normalização esperada do
+`self-link`. `current.json` recebeu novo ETag às `21:29:59.734Z`, com cache
+privado. `r2.dev` continuou desabilitado e o bucket permaneceu sem Custom
+Domain próprio. Testes anônimos confirmaram `401` e `no-store` no feed privado,
+`404` em `workers.dev`, `200` no Pages e `301` do apex para o Linktree. Os
+gates permaneceram full habilitado e piloto desabilitado somente no
+repositório.
+
+O usuário adicionou o feed privado de Martin Wolf no Feedbin com o par de
+credenciais existente, confirmou autoria e conteúdo completos e removeu a
+assinatura nativa da Folha. O gate autenticado específico foi, portanto,
+satisfeito. Das 19 assinaturas nativas previstas para este lote, restam 18;
+Juliano Spyer e Sérgio Rodrigues permanecem adiados e fora da migração atual.
 
 O piloto só termina depois de uma atualização automática, não apenas de uma
 requisição manual bem-sucedida.

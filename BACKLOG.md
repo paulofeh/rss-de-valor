@@ -4,9 +4,9 @@
 
 **Status:** publicação privada completa ativa no domínio definitivo; o primeiro
 ciclo agendado depois da correção dos gates foi validado, a migração das
-assinaturas no Feedbin foi concluída, e a promoção do enriquecimento da Folha
-aguarda um reparo manual estritamente limitado à data de um item de Martin
-Wolf; o corte da publicação pública permanece sujeito a um gate separado
+assinaturas no Feedbin foi concluída e o enriquecimento da Folha foi promovido
+com um reparo manual estritamente limitado à data de um item de Martin Wolf; o
+corte da publicação pública permanece sujeito a um gate separado
 **Prioridade:** antes de ampliar a publicação de feeds com conteúdo integral
 **Registrado em:** 2026-07-20
 **Especificação detalhada:** [`docs/private-feed-publication-cloudflare-spec.md`](docs/private-feed-publication-cloudflare-spec.md)
@@ -26,7 +26,7 @@ Privatizar a entrega reduz a exposição e reforça o caráter de uso pessoal, m
 - Os feeds são publicados sem autenticação pelo GitHub Pages.
 - Em paralelo, os 106 feeds gerados e o OPML estão publicados de forma privada
   em `https://feeds.paulofehlauer.com`, com Basic Auth e R2 privado.
-- O snapshot completo ativo é `30290619416-1-1765aebfb4ff`, com 213 objetos
+- O snapshot completo ativo é `30305737638-1-70c4243cc7a9`, com 213 objetos
   internos e 107 rotas privadas.
 - O Feedbin confirmou atualização automática autenticada no domínio definitivo,
   com revalidação condicional `304`.
@@ -97,11 +97,31 @@ Privatizar a entrega reduz a exposição e reforça o caráter de uso pessoal, m
   histórico LMT, não o fuso de São Paulo em 2026. O validador corretamente
   recusou a mudança; `current.json` e
   `30290619416-1-1765aebfb4ff` permaneceram ativos.
-- Foi preparada localmente uma exceção de migração que exige modo `full`,
+- A exceção de migração exige modo `full`,
   baseline hidratado, disparo manual e correspondência exata de feed, artigo,
   data antiga e data nova. Ela também exige conteúdo completo no candidato,
   falha se a transição não for observada e não pode ser combinada com o reparo
-  LinkedIn. Nenhum novo run foi disparado.
+  LinkedIn.
+- O reparo entrou na `main` no commit `70c4243c` e foi executado uma única vez,
+  com autorização individual, no run manual `30305737638`. Ele hidratou os 213
+  objetos de `30290619416-1-1765aebfb4ff`, validou o perfil
+  `martin-wolf-pubdate-2026-07-27`, 213 objetos e 107 rotas, ativou
+  `30305737638-1-70c4243cc7a9`, passou pelos canários e concluiu retenção sem
+  exclusões.
+- A API da Cloudflare confirmou 214 chaves no prefixo novo: 106 feeds, 106
+  históricos, um OPML e `manifest.json`, todos em Standard. O SHA-256 do
+  objeto `martin_wolf_feed.xml` coincide com o XML completo corrigido, com
+  autoria `Martin Wolf` e data `Wed, 22 Jul 2026 23:30:00 +0000`.
+- Depois da ativação, a rota privada de Martin Wolf respondeu `401` sem
+  credenciais e `Cache-Control: no-store`; `workers.dev` permaneceu `404`,
+  GitHub Pages `200` e o apex `301` para o Linktree. Os gates continuam
+  `PRIVATE_FEED_FULL_ENABLED=true` e
+  `PRIVATE_FEED_PILOT_ENABLED=false` apenas no repositório.
+- O usuário cadastrou `martin_wolf_feed.xml` no Feedbin com as credenciais
+  privadas existentes, confirmou autoria e conteúdo completos e removeu a
+  assinatura nativa da Folha. Esse teste fecha o gate autenticado de Martin
+  Wolf; restam 18 assinaturas nativas da Folha no lote atual. Juliano Spyer e
+  Sérgio Rodrigues continuam adiados.
 - Tornar somente o repositório privado não protege necessariamente um site do GitHub Pages.
 - Colocar um proxy autenticado diante do Pages sem remover a origem pública não resolve a exposição.
 
@@ -198,13 +218,11 @@ corte e publicar os XMLs apenas no endpoint autenticado.
 - **Concluído em 2026-07-27:** as 87 assinaturas antigas do GitHub Pages foram
   excluídas do Feedbin, incluindo o órfão legado
   `futuro_marketing_b2b_linkedin_feed.xml`.
-- **Próximo gate:** depois de revisão, commit e push autorizados do reparo de
-  Martin Wolf, obter autorização individual para uma execução manual com
-  `confirm_full_publication=true`,
-  `repair_martin_wolf_pubdate=true` e
-  `repair_linkedin_baseline=false`. Em sucesso, validar o conteúdo autenticado
-  de Martin Wolf e então migrar as 19 assinaturas Folha ainda apontadas
-  diretamente aos feeds nativos.
+- **Próximo gate:** migrar as 18 assinaturas Folha restantes do lote atual,
+  adicionando primeiro as URLs privadas no Feedbin e removendo as nativas
+  somente depois da validação individual. Juliano Spyer e Sérgio Rodrigues
+  permanecem fora desse lote. O perfil de reparo de Martin Wolf não deve ser
+  selecionado novamente.
 - **Gate posterior:** observar a estabilização do conjunto privado e obter
   autorização explícita adicional antes de interromper commits públicos,
   remover artefatos ou desligar o GitHub Pages.
