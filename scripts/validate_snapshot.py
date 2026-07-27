@@ -35,7 +35,13 @@ try:
     )
     from .repair_linkedin_baseline import (
         MIN_DESCRIPTION_CHARACTERS as LINKEDIN_REPAIR_MIN_DESCRIPTION_CHARACTERS,
+        PROFILE_NAME as LINKEDIN_REPAIR_PROFILE_NAME,
         approved_repair_feed_files,
+    )
+    from .repair_martin_wolf_pubdate import (
+        PROFILE_NAME as MARTIN_WOLF_PUBDATE_REPAIR_PROFILE_NAME,
+        ApprovedPubdateRepair,
+        approved_pubdate_repair,
     )
 except ImportError:  # pragma: no cover - direct script execution
     from private_feed_common import (  # type: ignore[no-redef]
@@ -56,7 +62,13 @@ except ImportError:  # pragma: no cover - direct script execution
     )
     from repair_linkedin_baseline import (  # type: ignore[no-redef]
         MIN_DESCRIPTION_CHARACTERS as LINKEDIN_REPAIR_MIN_DESCRIPTION_CHARACTERS,
+        PROFILE_NAME as LINKEDIN_REPAIR_PROFILE_NAME,
         approved_repair_feed_files,
+    )
+    from repair_martin_wolf_pubdate import (  # type: ignore[no-redef]
+        PROFILE_NAME as MARTIN_WOLF_PUBDATE_REPAIR_PROFILE_NAME,
+        ApprovedPubdateRepair,
+        approved_pubdate_repair,
     )
 
 
@@ -397,6 +409,8 @@ def _compare_with_baseline(
     current_path: Path,
     max_bytes: int,
     allow_linkedin_repair: bool,
+    approved_pubdate_change: ApprovedPubdateRepair | None,
+    observed_pubdate_repairs: set[tuple[str, str]],
     errors: list[str],
 ) -> None:
     if not baseline_path.exists():
@@ -499,11 +513,25 @@ def _compare_with_baseline(
                 current.author not in FALLBACK_AUTHORS
                 and current_length >= LINKEDIN_REPAIR_MIN_DESCRIPTION_CHARACTERS
             )
+            exact_pubdate_repair = (
+                approved_pubdate_change is not None
+                and current_path.name == approved_pubdate_change.feed_file
+                and link == approved_pubdate_change.article_url
+                and baseline.pubdate
+                == _parse_pubdate(approved_pubdate_change.baseline_pubdate)
+                and current.pubdate
+                == _parse_pubdate(approved_pubdate_change.current_pubdate)
+                and current_is_complete
+            )
+            if exact_pubdate_repair:
+                observed_pubdate_repairs.add(
+                    (current_path.name, link)
+                )
             if not (
                 allow_linkedin_repair
                 and baseline_is_degraded
                 and current_is_complete
-            ):
+            ) and not exact_pubdate_repair:
                 _error(
                     errors,
                     "known enriched item changed its publication date: "
@@ -572,19 +600,35 @@ def validate_working_state(
     inventory = load_source_inventory(repo_root)
     policy = load_publication_policy(repo_root)
     repair_feed_files: frozenset[str] = frozenset()
+    pubdate_repair: ApprovedPubdateRepair | None = None
+    observed_pubdate_repairs: set[tuple[str, str]] = set()
     if baseline_repair_profile is not None:
         if mode != "full":
             raise ConfigurationError(
-                "a LinkedIn baseline repair profile requires full mode"
+                "a baseline repair profile requires full mode"
             )
         if baseline_dir is None:
             raise ConfigurationError(
-                "a LinkedIn baseline repair profile requires a hydrated baseline"
+                "a baseline repair profile requires a hydrated baseline"
             )
-        repair_feed_files = approved_repair_feed_files(
-            repo_root=repo_root,
-            profile=baseline_repair_profile,
-        )
+        if baseline_repair_profile == LINKEDIN_REPAIR_PROFILE_NAME:
+            repair_feed_files = approved_repair_feed_files(
+                repo_root=repo_root,
+                profile=baseline_repair_profile,
+            )
+        elif (
+            baseline_repair_profile
+            == MARTIN_WOLF_PUBDATE_REPAIR_PROFILE_NAME
+        ):
+            pubdate_repair = approved_pubdate_repair(
+                repo_root=repo_root,
+                profile=baseline_repair_profile,
+            )
+        else:
+            raise ConfigurationError(
+                "unsupported baseline repair profile: "
+                f"{baseline_repair_profile}"
+            )
     specs = build_object_specs(repo_root, inventory, policy)
     expected_routes(
         specs=specs,
@@ -611,8 +655,18 @@ def validate_working_state(
                 current_path=path,
                 max_bytes=max_bytes,
                 allow_linkedin_repair=feed_file in repair_feed_files,
+                approved_pubdate_change=pubdate_repair,
+                observed_pubdate_repairs=observed_pubdate_repairs,
                 errors=errors,
             )
+
+    if pubdate_repair is not None and observed_pubdate_repairs != {
+        (pubdate_repair.feed_file, pubdate_repair.article_url)
+    }:
+        _error(
+            errors,
+            "approved publication-date repair was not observed exactly once",
+        )
 
     for history_file in inventory.generated_history_files:
         _validate_history(

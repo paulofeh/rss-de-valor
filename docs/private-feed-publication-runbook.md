@@ -4,7 +4,7 @@
 Standard privado, Worker e ambiente GitHub configurados sem exposição de
 secrets; DNS migrado para a Cloudflare com o redirect do domínio principal para
 o Linktree preservado; Custom Domain `feeds.paulofehlauer.com` ativo; snapshot
-completo `30237068708-1-57ac4cee27df` ativo com 213 objetos internos e 107
+completo `30290619416-1-1765aebfb4ff` ativo com 213 objetos internos e 107
 rotas privadas. Canários autenticados e anônimos passaram; o Feedbin já havia
 feito revalidação automática autenticada e recebido `304`; o novo par foi
 promovido, os bindings de transição foram removidos e `workers.dev` foi
@@ -15,7 +15,10 @@ removidas do Feedbin. GitHub Pages e a publicação pública continuam ativos at
 um gate separado. Depois de quatro disparos que falharam fechados por escopo
 incorreto do gate, as variables foram corrigidas em `2026-07-26T23:04Z`. O
 primeiro ciclo nominal posterior à correção terminou com sucesso no run
-agendado `30237068708`, preservando `full=true` e `pilot=false`.
+agendado `30237068708`, preservando `full=true` e `pilot=false`. A promoção
+posterior do enriquecimento Folha falhou fechada no run `30301308278`, antes
+do upload, por uma correção de fuso em um item de Martin Wolf; o snapshot ativo
+anterior foi preservado.
 
 Este runbook complementa a
 [especificação](private-feed-publication-cloudflare-spec.md). Ele não autoriza
@@ -337,6 +340,55 @@ Para executar o reparo:
 
 Não usar esse input para adicionar fontes, bootstrap, rollback ou reparos
 genéricos. Uma mudança na lista exige revisão de código, testes e novo gate.
+
+### Reparo controlado da data de Martin Wolf
+
+O run agendado `30301308278`, no descendente `0c9581eb` da correção Folha,
+hidratou e gerou os feeds, mas parou em **Validate and stage the complete
+snapshot**. O item
+`quem-vencera-a-guerra-dos-neomercantilistas.shtml` existia no baseline como
+`Wed, 22 Jul 2026 20:30:00 -0306` e passou a
+`Wed, 22 Jul 2026 23:30:00 +0000`.
+
+O `-03:06` não era o fuso de São Paulo em 2026: era o offset histórico LMT
+introduzido pelo uso antigo de `replace(tzinfo=pytz.timezone(...))`. O horário
+corrigido representa 20h30 em São Paulo como 23h30 UTC. A proteção de data
+agiu corretamente e bloqueou o run antes do upload; `current.json` continuou
+apontando para `30290619416-1-1765aebfb4ff`.
+
+O workflow oferece `repair_martin_wolf_pubdate`, falso por padrão e ignorado
+em execuções agendadas. O perfil
+`martin-wolf-pubdate-2026-07-27` aceita somente:
+
+- `martin_wolf_feed.xml`;
+- a URL integral exata desse artigo;
+- a data antiga e a data nova registradas acima;
+- um candidato com autor conhecido e pelo menos 200 caracteres visíveis;
+- modo `full` com baseline hidratado.
+
+O run falha se qualquer valor divergir ou se a transição não for encontrada.
+Assim, o perfil também falha fechado se for selecionado novamente depois que
+o snapshot ativo já contiver a data corrigida. Os reparos de Martin Wolf e
+LinkedIn são mutuamente exclusivos.
+
+Para executar o reparo, somente depois de commit, push e autorização externa:
+
+1. abrir **Private feed publication** em GitHub Actions;
+2. selecionar **Run workflow**;
+3. marcar `confirm_full_publication=true`;
+4. manter `repair_linkedin_baseline=false`;
+5. marcar `repair_martin_wolf_pubdate=true`;
+6. confirmar no log o perfil `martin-wolf-pubdate-2026-07-27`, a hidratação do
+   snapshot anterior, 213 objetos, 107 rotas, ativação, canários e retenção;
+7. reconciliar `current.json` e o prefixo novo no R2;
+8. validar anonimamente `401` e, com autenticação, autoria, conteúdo e data de
+   Martin Wolf;
+9. em execuções manuais normais, manter os dois inputs de reparo como `false`.
+
+Depois desse sucesso, execuções agendadas normais devem passar sem perfil,
+porque o baseline ativo já terá a data corrigida. A migração das 19 assinaturas
+Folha ainda nativas no Feedbin é um gate posterior à validação autenticada do
+conteúdo.
 
 ## 8. Rollback
 

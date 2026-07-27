@@ -15,6 +15,11 @@ on:
         required: true
         default: false
         type: boolean
+      repair_martin_wolf_pubdate:
+        description: Allow the exact one-time 2026-07-27 Martin Wolf publication-date correction
+        required: true
+        default: false
+        type: boolean
 
 concurrency:
   group: private-feed-r2-publication
@@ -67,6 +72,20 @@ jobs:
           test -n "$R2_ACCOUNT_ID"
           test -n "$R2_BUCKET"
 
+      - name: Validate manual repair selection
+        if: github.event_name == 'workflow_dispatch'
+        shell: bash
+        env:
+          REPAIR_LINKEDIN: ${{ inputs.repair_linkedin_baseline }}
+          REPAIR_MARTIN_WOLF: ${{ inputs.repair_martin_wolf_pubdate }}
+        run: |
+          set -euo pipefail
+          if [[ "$REPAIR_LINKEDIN" == "true" &&
+                "$REPAIR_MARTIN_WOLF" == "true" ]]; then
+            echo "::error::repair profiles are mutually exclusive"
+            exit 1
+          fi
+
       - name: Stage the approved LinkedIn repair baseline
         if: >-
           github.event_name == 'workflow_dispatch' &&
@@ -103,6 +122,9 @@ jobs:
           PRIVATE_FEED_PASSWORD: ${{ secrets.PRIVATE_FEED_PASSWORD }}
           BASELINE_REPAIR_PROFILE: >-
             ${{ github.event_name == 'workflow_dispatch' &&
+                inputs.repair_martin_wolf_pubdate == true &&
+                'martin-wolf-pubdate-2026-07-27' ||
+                github.event_name == 'workflow_dispatch' &&
                 inputs.repair_linkedin_baseline == true &&
                 'linkedin-full-content-2026-07-27' || '' }}
         run: |
@@ -157,4 +179,5 @@ jobs:
             echo "- Endpoint: \`$FEED_BASE_URL\`"
             echo "- Canary feed: \`/feeds/$CANARY_FEED_FILE\`"
             echo "- LinkedIn baseline repair: \`${{ github.event_name == 'workflow_dispatch' && inputs.repair_linkedin_baseline == true }}\`"
+            echo "- Martin Wolf publication-date repair: \`${{ github.event_name == 'workflow_dispatch' && inputs.repair_martin_wolf_pubdate == true }}\`"
           } >> "$GITHUB_STEP_SUMMARY"

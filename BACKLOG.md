@@ -4,8 +4,9 @@
 
 **Status:** publicação privada completa ativa no domínio definitivo; o primeiro
 ciclo agendado depois da correção dos gates foi validado, a migração das
-assinaturas no Feedbin foi concluída e o corte da publicação pública permanece
-sujeito a um gate separado
+assinaturas no Feedbin foi concluída, e a promoção do enriquecimento da Folha
+aguarda um reparo manual estritamente limitado à data de um item de Martin
+Wolf; o corte da publicação pública permanece sujeito a um gate separado
 **Prioridade:** antes de ampliar a publicação de feeds com conteúdo integral
 **Registrado em:** 2026-07-20
 **Especificação detalhada:** [`docs/private-feed-publication-cloudflare-spec.md`](docs/private-feed-publication-cloudflare-spec.md)
@@ -84,6 +85,23 @@ Privatizar a entrega reduz a exposição e reforça o caráter de uso pessoal, m
   continuou redirecionando `301` para `https://linktr.ee/paulofehlauer`.
   `PRIVATE_FEED_FULL_ENABLED=true` e `PRIVATE_FEED_PILOT_ENABLED=false`
   permanecem no escopo do repositório e ausentes do Environment.
+- O enriquecimento dos feeds Folha entrou na `main` em `1b481286`; o workflow
+  público gerou os artefatos atualizados em `0c9581eb`. O primeiro run privado
+  posterior, `30301308278`, hidratou e gerou normalmente, mas falhou fechado
+  na validação antes do upload. O item de Martin Wolf
+  `quem-vencera-a-guerra-dos-neomercantilistas.shtml` mudou de
+  `Wed, 22 Jul 2026 20:30:00 -0306` para
+  `Wed, 22 Jul 2026 23:30:00 +0000`.
+- A diferença é uma correção do antigo uso de
+  `datetime.replace(tzinfo=pytz.timezone(...))`: `-03:06` era o offset
+  histórico LMT, não o fuso de São Paulo em 2026. O validador corretamente
+  recusou a mudança; `current.json` e
+  `30290619416-1-1765aebfb4ff` permaneceram ativos.
+- Foi preparada localmente uma exceção de migração que exige modo `full`,
+  baseline hidratado, disparo manual e correspondência exata de feed, artigo,
+  data antiga e data nova. Ela também exige conteúdo completo no candidato,
+  falha se a transição não for observada e não pode ser combinada com o reparo
+  LinkedIn. Nenhum novo run foi disparado.
 - Tornar somente o repositório privado não protege necessariamente um site do GitHub Pages.
 - Colocar um proxy autenticado diante do Pages sem remover a origem pública não resolve a exposição.
 
@@ -180,7 +198,14 @@ corte e publicar os XMLs apenas no endpoint autenticado.
 - **Concluído em 2026-07-27:** as 87 assinaturas antigas do GitHub Pages foram
   excluídas do Feedbin, incluindo o órfão legado
   `futuro_marketing_b2b_linkedin_feed.xml`.
-- **Próximo gate:** observar a estabilização do conjunto privado e obter
+- **Próximo gate:** depois de revisão, commit e push autorizados do reparo de
+  Martin Wolf, obter autorização individual para uma execução manual com
+  `confirm_full_publication=true`,
+  `repair_martin_wolf_pubdate=true` e
+  `repair_linkedin_baseline=false`. Em sucesso, validar o conteúdo autenticado
+  de Martin Wolf e então migrar as 19 assinaturas Folha ainda apontadas
+  diretamente aos feeds nativos.
+- **Gate posterior:** observar a estabilização do conjunto privado e obter
   autorização explícita adicional antes de interromper commits públicos,
   remover artefatos ou desligar o GitHub Pages.
 - **Preservado:** GitHub Pages, `feeds/`, `history/` e o workflow público

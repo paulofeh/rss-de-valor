@@ -2,7 +2,9 @@
 
 **Status:** publicação privada completa ativa no domínio definitivo; o primeiro
 ciclo agendado depois da correção dos gates foi validado, a migração no Feedbin
-foi concluída e o corte público permanece fechado, com GitHub Pages preservado
+foi concluída, a promoção do enriquecimento Folha aguarda um reparo manual
+limitado a uma data de Martin Wolf e o corte público permanece fechado, com
+GitHub Pages preservado
 **Última revisão:** 2026-07-27
 **Origem:** item “Publicação privada dos feeds com compatibilidade com o Feedbin” do [`BACKLOG.md`](../BACKLOG.md)
 
@@ -624,6 +626,33 @@ Esse mecanismo não altera o R2 diretamente, não permite bootstrap e não
 constitui um reparo genérico. Qualquer mudança na allowlist fixa requer revisão
 de código e novo gate.
 
+Uma segunda exceção, independente e mutuamente exclusiva, trata somente a
+correção de fuso do artigo de Martin Wolf
+`quem-vencera-a-guerra-dos-neomercantilistas.shtml`. O scraper antigo
+serializou `20:30` com `-03:06`, offset LMT produzido por
+`pytz.timezone(...).replace(tzinfo=...)`; o scraper corrigido representa a
+mesma hora civil como `23:30 +0000`.
+
+O perfil manual `martin-wolf-pubdate-2026-07-27` deve:
+
+- exigir `workflow_dispatch`, `confirm_full_publication=true`,
+  `repair_martin_wolf_pubdate=true`, modo `full` e baseline hidratado;
+- permanecer vazio e inoperante em `schedule`;
+- validar que Martin Wolf ainda usa a URL RSS, o scraper e o arquivo
+  codificados no perfil;
+- aceitar apenas o feed `martin_wolf_feed.xml`, a URL integral do artigo e a
+  transição exata de `Wed, 22 Jul 2026 20:30:00 -0306` para
+  `Wed, 22 Jul 2026 23:30:00 +0000`;
+- exigir que o candidato tenha autor conhecido e pelo menos 200 caracteres
+  visíveis;
+- falhar se a transição aprovada não for observada, o que impede reutilizar o
+  perfil depois de o baseline ativo já estar corrigido;
+- preservar todas as demais verificações de GUID, conteúdo, autoria,
+  snapshot, ponteiro, canários, rollback e retenção.
+
+Os perfis LinkedIn e Martin Wolf não podem ser selecionados no mesmo run.
+Qualquer outra mudança de data continua fatal.
+
 ### 9.3 Fase 3 — geração
 
 1. Executar `main.py`.
@@ -986,6 +1015,15 @@ confirmaram `401` no domínio privado, `404` em `workers.dev`, `200` no Pages e
 `301` do apex para o Linktree. Os gates do repositório permaneceram full
 habilitado e piloto desabilitado, sem duplicatas no Environment.
 
+Ainda em 2026-07-27, o run agendado `30301308278`, baseado no descendente
+`0c9581eb` da correção Folha, falhou fechado em **Validate and stage the
+complete snapshot**. Hidratação e geração haviam terminado, mas o validador
+detectou a mudança de data do item conhecido de Martin Wolf descrita na fase
+de hidratação. Upload, ativação, canários e retenção não foram executados;
+`current.json` permaneceu apontando para
+`30290619416-1-1765aebfb4ff`. A exceção exata foi implementada e testada
+localmente, sem disparar nova publicação.
+
 O piloto só termina depois de uma atualização automática, não apenas de uma
 requisição manual bem-sucedida.
 
@@ -1300,6 +1338,7 @@ scripts/
   private_feed_common.py
   hydrate_private_state.py
   repair_linkedin_baseline.py
+  repair_martin_wolf_pubdate.py
   build_snapshot_manifest.py
   validate_snapshot.py
   publish_snapshot.py

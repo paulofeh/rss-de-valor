@@ -20,6 +20,12 @@ from scripts.repair_linkedin_baseline import (
     PROFILE_NAME,
     approved_repair_feed_files,
 )
+from scripts.repair_martin_wolf_pubdate import (
+    ARTICLE_URL as MARTIN_WOLF_ARTICLE_URL,
+    BASELINE_PUBDATE as MARTIN_WOLF_BASELINE_PUBDATE,
+    FEED_FILE as MARTIN_WOLF_FEED_FILE,
+    PROFILE_NAME as MARTIN_WOLF_REPAIR_PROFILE_NAME,
+)
 from scripts.validate_snapshot import validate_working_state
 from src.utils import generate_opml, save_opml
 
@@ -193,6 +199,64 @@ class RepositorySnapshotIntegrationTest(unittest.TestCase):
             self.assertEqual(repair_manifest["counts"]["objects"], 213)
             self.assertEqual(repair_manifest["counts"]["routes"], 107)
             self.assertTrue((repair_snapshot / "manifest.json").is_file())
+
+            martin_baseline = (
+                root / ".private-feed-state" / "martin-wolf-baseline"
+            )
+            martin_baseline_feed = (
+                martin_baseline / "feeds" / MARTIN_WOLF_FEED_FILE
+            )
+            martin_baseline_feed.parent.mkdir(parents=True)
+            shutil.copyfile(
+                root / "feeds" / MARTIN_WOLF_FEED_FILE,
+                martin_baseline_feed,
+            )
+            tree = ET.parse(martin_baseline_feed)
+            channel = tree.getroot().find("channel")
+            self.assertIsNotNone(channel)
+            matching_items = [
+                item
+                for item in channel.findall("item")
+                if item.findtext("link") == MARTIN_WOLF_ARTICLE_URL
+            ]
+            self.assertEqual(len(matching_items), 1)
+            matching_items[0].find("pubDate").text = (
+                MARTIN_WOLF_BASELINE_PUBDATE
+            )
+            tree.write(
+                martin_baseline_feed,
+                encoding="utf-8",
+                xml_declaration=True,
+            )
+
+            martin_report = validate_working_state(
+                repo_root=root,
+                feed_base_url=CANONICAL_FEED_BASE_URL,
+                mode="full",
+                pilot_feed_file=None,
+                baseline_dir=martin_baseline,
+                baseline_repair_profile=MARTIN_WOLF_REPAIR_PROFILE_NAME,
+            )
+            martin_snapshot, martin_manifest = build_snapshot(
+                repo_root=root,
+                output_root=root / ".private-feed-build",
+                feed_base_url=CANONICAL_FEED_BASE_URL,
+                mode="full",
+                pilot_feed_file=None,
+                canary_feed_file=inventory.generated_feed_files[0],
+                baseline_dir=martin_baseline,
+                state_dir=root / ".private-feed-state",
+                run_id="actual-martin-wolf-pubdate-repair-integration",
+                revision="test-revision",
+                baseline_repair_profile=MARTIN_WOLF_REPAIR_PROFILE_NAME,
+            )
+
+            self.assertEqual(martin_report.generated_feeds, 106)
+            self.assertEqual(martin_manifest["counts"]["objects"], 213)
+            self.assertEqual(martin_manifest["counts"]["routes"], 107)
+            self.assertTrue(
+                (martin_snapshot / "manifest.json").is_file()
+            )
 
 
 if __name__ == "__main__":

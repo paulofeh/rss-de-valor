@@ -48,8 +48,13 @@ class PrivateWorkflowTest(unittest.TestCase):
         self.assertIn("PRIVATE_FEED_FULL_ENABLED == 'true'", publication)
         self.assertIn("inputs.confirm_full_publication == true", publication)
         self.assertIn("repair_linkedin_baseline:", publication)
+        self.assertIn("repair_martin_wolf_pubdate:", publication)
         self.assertIn(
             "inputs.repair_linkedin_baseline == true",
+            publication,
+        )
+        self.assertIn(
+            "inputs.repair_martin_wolf_pubdate == true",
             publication,
         )
         self.assertIn(
@@ -58,6 +63,10 @@ class PrivateWorkflowTest(unittest.TestCase):
         )
         self.assertIn(
             "linkedin-full-content-2026-07-27",
+            publication,
+        )
+        self.assertIn(
+            "martin-wolf-pubdate-2026-07-27",
             publication,
         )
         self.assertIn(
@@ -115,6 +124,33 @@ class PrivateWorkflowTest(unittest.TestCase):
                 "python scripts/repair_linkedin_baseline.py"
             ),
             2,
+        )
+
+    def test_martin_wolf_pubdate_repair_is_manual_and_mutually_exclusive(
+        self,
+    ) -> None:
+        publication = (
+            REPO_ROOT
+            / ".github"
+            / "workflows"
+            / "private-feed-publication.yml"
+        ).read_text(encoding="utf-8")
+
+        self.assertIn(
+            "Validate manual repair selection",
+            publication,
+        )
+        self.assertIn(
+            "inputs.repair_linkedin_baseline == true &&",
+            publication,
+        )
+        self.assertIn(
+            "inputs.repair_martin_wolf_pubdate == true",
+            publication,
+        )
+        self.assertIn(
+            "repair profiles are mutually exclusive",
+            publication,
         )
 
     def test_existing_public_workflow_remains_present_and_independent(
