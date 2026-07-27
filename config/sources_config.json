@@ -722,8 +722,8 @@
     },
     {
       "name": "Martin Wolf",
-      "url": "https://www1.folha.uol.com.br/colunas/martinwolf/",
-      "scraper": "FolhaScraper",
+      "url": "https://feeds.folha.uol.com.br/colunas/martinwolf/rss091.xml",
+      "scraper": "FolhaRssFullContentScraper",
       "feed_file": "martin_wolf_feed.xml",
       "history_file": "martin_wolf_history.json",
       "group": "folha"

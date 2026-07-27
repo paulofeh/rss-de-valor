@@ -19,6 +19,7 @@ from src.utils import (
 CONTENT_PRESERVATION_LIMITS = {
     'LinkedInNewsletterScraper': 5,
     'FolhaRssFullContentScraper': 10,
+    'FolhaScraper': 10,
     'ValorOGloboScraper': 10,
 }
 

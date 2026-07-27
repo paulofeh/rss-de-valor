@@ -175,19 +175,24 @@ class FolhaRssFullContentScraper(ExistingRssScraper):
     DEFAULT_AUTHORS = {
         'antonioprata': 'Antonio Prata',
         'bernardo-carvalho': 'Bernardo Carvalho',
+        'bernardo-guimaraes': 'Bernardo Guimarães',
         'caos-planejado': 'Caos Planejado',
         'celso-rocha-de-barros': 'Celso Rocha de Barros',
         'conrado-hubner-mendes': 'Conrado Hubner Mendes',
         'de-grao-em-grao': 'De Grão em Grão',
         'drauziovarella': 'Dráuzio Varella',
+        'giovana-madalosso': 'Giovana Madalosso',
         'ilona-szabo': 'Ilona Szabó',
         'joaopereiracoutinho': 'João Pereira Coutinho',
+        'juliano-spyer': 'Juliano Spyer',
         'marceloviana': 'Marcelo Viana',
         'marcos-lisboa': 'Marcos Lisboa',
         'marcos-mendes': 'Marcos Mendes',
         'marilizpereirajorge': 'Mariliz Pereira Jorge',
+        'martinwolf': 'Martin Wolf',
         'maria-herminia-tavares': 'Maria Hermínia Tavares',
         'ronaldolemos': 'Ronaldo Lemos',
+        'rodrigo-zeidan': 'Rodrigo Zeidan',
         'samuelpessoa': 'Samuel Pessoa',
         'tatibernardi': 'Tati Bernardi',
         'vera-iaconelli': 'Vera Iaconelli',
@@ -204,15 +209,22 @@ class FolhaRssFullContentScraper(ExistingRssScraper):
             return unquote(url.split('*', 1)[1])
         return url
 
+    @classmethod
+    def _default_author_for_url(cls, url):
+        """Return the configured columnist fallback for a Folha URL."""
+        for slug, author in cls.DEFAULT_AUTHORS.items():
+            if slug in url:
+                return author
+        return None
+
     def _parse_item(self, item):
         article = super()._parse_item(item)
         article['link'] = self._resolve_folha_redirect(article['link'])
 
         if article.get('author') == 'Autor não encontrado':
-            for slug, author in self.DEFAULT_AUTHORS.items():
-                if slug in self.url:
-                    article['author'] = author
-                    break
+            default_author = self._default_author_for_url(self.url)
+            if default_author:
+                article['author'] = default_author
 
         content = self._fetch_article_content(article['link'])
         if content:
@@ -505,35 +517,115 @@ class WashingtonPostScraper(BaseScraper):
             return datetime.datetime.now(pytz.timezone('US/Eastern'))
 
 class FolhaScraper(BaseScraper):
-    """Scraper for Folha articles."""
+    """Scraper for Folha column pages without a usable native RSS feed."""
+
+    USER_AGENT = (
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) '
+        'AppleWebKit/537.36'
+    )
+
+    def _parse_headline(self, headline):
+        title_element = headline.select_one('h2.c-headline__title')
+        link_element = headline.select_one('a.c-headline__url[href]')
+        date_element = headline.select_one('time.c-headline__dateline')
+
+        if not (title_element and link_element and date_element):
+            return None
+
+        link = urljoin(self.url, link_element['href'])
+        column_url = urlparse(self.url)
+        article_url = urlparse(link)
+        column_path = column_url.path.rstrip('/') + '/'
+
+        if (
+            article_url.netloc != column_url.netloc
+            or not article_url.path.startswith(column_path)
+            or not article_url.path.endswith('.shtml')
+        ):
+            return None
+
+        description_element = headline.select_one(
+            'p.c-headline__standfirst'
+        )
+        author = (
+            FolhaRssFullContentScraper._default_author_for_url(self.url)
+            or 'Autor Desconhecido'
+        )
+
+        return {
+            'title': title_element.get_text(' ', strip=True),
+            'link': link,
+            'pubdate': self._parse_date(date_element.get('datetime')),
+            'author': author,
+            'description': (
+                description_element.get_text(' ', strip=True)
+                if description_element
+                else ''
+            ),
+        }
+
+    @staticmethod
+    def _enrich_article(article):
+        content = FolhaRssFullContentScraper._fetch_article_content(
+            article['link']
+        )
+        if content:
+            article['description'] = content
+            article['_enrichment_failed'] = False
+        else:
+            article['_enrichment_failed'] = True
+        return article
+
     def _extract_article_data(self, soup):
-        article = soup.select_one('div.c-headline.c-headline--opinion')
-        if article:
-            title = article.select_one('h2.c-headline__title').text.strip()
-            link = article.select_one('a.c-headline__url')['href']
-            date_str = article.select_one('time.c-headline__dateline')['datetime']
-            
-            author_element = soup.select_one('div[data-qa="kicker"]')
-            author = author_element.text.strip() if author_element else "Autor Desconhecido"
-            
-            description_element = article.select_one('p.c-headline__standfirst')
-            description = description_element.text.strip() if description_element else ""
-            
-            date = self._parse_date(date_str)
-            
-            return {
-                'title': title,
-                'link': link,
-                'pubdate': date,
-                'author': author,
-                'description': description,
-            }
+        for headline in soup.select('div.c-headline'):
+            article = self._parse_headline(headline)
+            if article:
+                return self._enrich_article(article)
         return None
+
+    def get_articles(self, limit=10):
+        """Fetch, deduplicate, and enrich recent articles from a column page."""
+        if limit <= 0:
+            return []
+
+        try:
+            response = requests_retry_session().get(
+                self.url,
+                timeout=30,
+                headers={'User-Agent': self.USER_AGENT},
+            )
+            response.raise_for_status()
+            soup = BeautifulSoup(
+                response.content,
+                'html.parser',
+                from_encoding='utf-8',
+            )
+
+            articles = []
+            seen_links = set()
+            for headline in soup.select('div.c-headline'):
+                article = self._parse_headline(headline)
+                if not article or article['link'] in seen_links:
+                    continue
+
+                seen_links.add(article['link'])
+                articles.append(self._enrich_article(article))
+                if len(articles) >= limit:
+                    break
+
+            return articles
+        except Exception as e:
+            print(f"Erro ao processar página da Folha {self.url}: {str(e)}")
+            return []
 
     def _parse_date(self, date_str):
         try:
-            return datetime.datetime.strptime(date_str, "%Y-%m-%d %H:%M:%S").replace(tzinfo=pytz.timezone('America/Sao_Paulo'))
-        except ValueError:
+            naive_date = datetime.datetime.strptime(
+                date_str,
+                "%Y-%m-%d %H:%M:%S",
+            )
+            return pytz.timezone('America/Sao_Paulo').localize(naive_date)
+        except (TypeError, ValueError):
             print(f"Formato de data não reconhecido: {date_str}. Usando a data atual.")
             return datetime.datetime.now(pytz.timezone('America/Sao_Paulo')).replace(microsecond=0)
 
