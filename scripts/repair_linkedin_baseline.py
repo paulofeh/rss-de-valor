@@ -105,6 +105,22 @@ def _object_paths(sources: list[dict[str, Any]]) -> tuple[str, ...]:
     return tuple(paths)
 
 
+def approved_repair_feed_files(
+    *,
+    repo_root: Path,
+    profile: str,
+) -> frozenset[str]:
+    """Resolve the fixed feed allowlist for a supported repair profile."""
+    if profile != PROFILE_NAME:
+        raise ConfigurationError(
+            f"unsupported LinkedIn baseline repair profile: {profile}"
+        )
+    return frozenset(
+        str(source["feed_file"])
+        for source in _repair_sources(repo_root.resolve())
+    )
+
+
 def _validate_feed_and_history(
     *,
     feed_data: bytes,

@@ -101,9 +101,20 @@ jobs:
           R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
           PRIVATE_FEED_USERNAME: ${{ secrets.PRIVATE_FEED_USERNAME }}
           PRIVATE_FEED_PASSWORD: ${{ secrets.PRIVATE_FEED_PASSWORD }}
+          BASELINE_REPAIR_PROFILE: >-
+            ${{ github.event_name == 'workflow_dispatch' &&
+                inputs.repair_linkedin_baseline == true &&
+                'linkedin-full-content-2026-07-27' || '' }}
         run: |
           set -euo pipefail
           run_id="${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}-${GITHUB_SHA:0:12}"
+          repair_args=()
+          if [[ -n "$BASELINE_REPAIR_PROFILE" ]]; then
+            repair_args+=(
+              --baseline-repair-profile
+              "$BASELINE_REPAIR_PROFILE"
+            )
+          fi
           python scripts/build_snapshot_manifest.py \
             --feed-base-url "$FEED_BASE_URL" \
             --mode full \
@@ -112,7 +123,8 @@ jobs:
             --secret-env R2_ACCESS_KEY_ID \
             --secret-env R2_SECRET_ACCESS_KEY \
             --secret-env PRIVATE_FEED_USERNAME \
-            --secret-env PRIVATE_FEED_PASSWORD
+            --secret-env PRIVATE_FEED_PASSWORD \
+            "${repair_args[@]}"
           echo "run_id=$run_id" >> "$GITHUB_OUTPUT"
           echo "snapshot_dir=.private-feed-build/$run_id" >> "$GITHUB_OUTPUT"
 

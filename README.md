@@ -192,7 +192,9 @@ execução:
 O input manual `repair_linkedin_baseline` existe apenas para transportar pela
 hidratação os 12 pares feed/histórico completos identificados em 2026-07-27.
 Ele exige confirmação da publicação completa, usa uma allowlist fixa e não é
-executado pelo cron.
+executado pelo cron. Seu perfil de validação também pode substituir a data
+sintética de um stub pela data real somente quando o mesmo item allowlisted
+recupera simultaneamente autoria e conteúdo completos.
 
 ### Piloto
 

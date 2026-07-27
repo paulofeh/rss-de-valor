@@ -277,6 +277,20 @@ downgrade nos outros objetos. Qualquer divergência antes da ativação encerra 
 run sem alterar `current.json`; os canários e o rollback automático
 pós-ativação permanecem os mesmos.
 
+O baseline degradado também contém datas sintéticas produzidas pela coleta que
+falhou. Quando o mesmo link e GUID reaparecem com a data real, o perfil nomeado
+`linkedin-full-content-2026-07-27` pode aceitar a correção. A exceção só vale
+para os 12 nomes fixos, em modo `full`, com baseline hidratado, e apenas se o
+item anterior tiver simultaneamente autor fallback e menos de 200 caracteres
+visíveis, enquanto o candidato tiver autor conhecido e pelo menos 200
+caracteres visíveis. Sem o perfil, fora da allowlist ou para um item já
+completo, qualquer mudança de data continua fatal.
+
+Na primeira tentativa, run `30288789576`, staging, hidratação, restauração e
+geração foram concluídos. A validação recusou as 12 diferenças de data antes
+do upload; portanto nenhum objeto foi enviado e `current.json` não foi
+alterado. O novo disparo deve ser único e novamente autorizado.
+
 Para executar o reparo:
 
 1. confirmar que os 12 pares corrigidos estão commitados em `main`;
@@ -286,9 +300,11 @@ Para executar o reparo:
 5. marcar `repair_linkedin_baseline=true`;
 6. conferir no log os resultados `staged` e `restored`, ambos com 12 fontes e
    24 objetos;
-7. aguardar validação, ativação, canários e retenção;
-8. reconciliar `current.json`, o novo prefixo e os feeds autenticados;
-9. deixar `repair_linkedin_baseline=false` em execuções manuais normais.
+7. conferir que a validação usou o perfil
+   `linkedin-full-content-2026-07-27`;
+8. aguardar validação, ativação, canários e retenção;
+9. reconciliar `current.json`, o novo prefixo e os feeds autenticados;
+10. deixar `repair_linkedin_baseline=false` em execuções manuais normais.
 
 Não usar esse input para adicionar fontes, bootstrap, rollback ou reparos
 genéricos. Uma mudança na lista exige revisão de código, testes e novo gate.

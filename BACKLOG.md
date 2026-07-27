@@ -60,7 +60,15 @@ Privatizar a entrega reduz a exposição e reforça o caráter de uso pessoal, m
   localmente, validados com 60 itens completos e enviados à `main` nos commits
   `319a88bb` e `32a47138`. Como a hidratação privada substitui a árvore Git
   pelo snapshot R2 antes dos scrapers, a promoção exige uma execução manual
-  allowlisted; o reparo está implementado e aguarda sua publicação controlada.
+  allowlisted.
+- A primeira tentativa controlada, run `30288789576`, concluiu staging,
+  hidratação, restauração e geração, mas foi interrompida antes do upload:
+  o baseline degradado continha datas sintéticas diferentes das datas reais
+  restauradas. `current.json` permaneceu intacto. O perfil manual agora admite
+  essa correção somente nos 12 feeds fixos e somente quando o item remoto tem
+  simultaneamente autor fallback e conteúdo visível abaixo de 200 caracteres,
+  enquanto o candidato recupera autor e conteúdo completo. Uma nova execução
+  manual continua sendo um gate explícito.
 - Tornar somente o repositório privado não protege necessariamente um site do GitHub Pages.
 - Colocar um proxy autenticado diante do Pages sem remover a origem pública não resolve a exposição.
 

@@ -16,12 +16,17 @@ from scripts.private_feed_common import (
     load_publication_policy,
     load_source_inventory,
 )
+from scripts.repair_linkedin_baseline import (
+    PROFILE_NAME,
+    approved_repair_feed_files,
+)
 from scripts.validate_snapshot import validate_working_state
 from src.utils import generate_opml, save_opml
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 ATOM_LINK = "{http://www.w3.org/2005/Atom}link"
+DC_CREATOR = "{http://purl.org/dc/elements/1.1/}creator"
 EXPECTED_EXTRA_XML = {
     "alice_ferraz_feed.xml",
     "andre_derviche_feed.xml",
@@ -138,6 +143,56 @@ class RepositorySnapshotIntegrationTest(unittest.TestCase):
             self.assertEqual(manifest["counts"]["objects"], 213)
             self.assertEqual(manifest["counts"]["routes"], 107)
             self.assertTrue((snapshot / "manifest.json").is_file())
+
+            baseline = root / ".private-feed-state" / "baseline"
+            for name in approved_repair_feed_files(
+                repo_root=root,
+                profile=PROFILE_NAME,
+            ):
+                baseline_feed = baseline / "feeds" / name
+                baseline_feed.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copyfile(root / "feeds" / name, baseline_feed)
+                tree = ET.parse(baseline_feed)
+                channel = tree.getroot().find("channel")
+                self.assertIsNotNone(channel)
+                for item in channel.findall("item"):
+                    item.find("description").text = "degraded stub"
+                    item.find(DC_CREATOR).text = "Autor não encontrado"
+                    item.find("pubDate").text = (
+                        "Wed, 22 Jul 2026 08:00:00 +0000"
+                    )
+                tree.write(
+                    baseline_feed,
+                    encoding="utf-8",
+                    xml_declaration=True,
+                )
+
+            repair_report = validate_working_state(
+                repo_root=root,
+                feed_base_url=CANONICAL_FEED_BASE_URL,
+                mode="full",
+                pilot_feed_file=None,
+                baseline_dir=baseline,
+                baseline_repair_profile=PROFILE_NAME,
+            )
+            repair_snapshot, repair_manifest = build_snapshot(
+                repo_root=root,
+                output_root=root / ".private-feed-build",
+                feed_base_url=CANONICAL_FEED_BASE_URL,
+                mode="full",
+                pilot_feed_file=None,
+                canary_feed_file=inventory.generated_feed_files[0],
+                baseline_dir=baseline,
+                state_dir=root / ".private-feed-state",
+                run_id="actual-linkedin-repair-integration",
+                revision="test-revision",
+                baseline_repair_profile=PROFILE_NAME,
+            )
+
+            self.assertEqual(repair_report.generated_feeds, 106)
+            self.assertEqual(repair_manifest["counts"]["objects"], 213)
+            self.assertEqual(repair_manifest["counts"]["routes"], 107)
+            self.assertTrue((repair_snapshot / "manifest.json").is_file())
 
 
 if __name__ == "__main__":

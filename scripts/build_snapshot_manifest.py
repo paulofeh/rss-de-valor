@@ -125,6 +125,7 @@ def build_snapshot(
     run_id: str | None = None,
     revision: str | None = None,
     secret_values: tuple[bytes, ...] = (),
+    baseline_repair_profile: str | None = None,
 ) -> tuple[Path, dict[str, Any]]:
     repo_root = repo_root.resolve()
     output_root = output_root.resolve()
@@ -137,6 +138,7 @@ def build_snapshot(
         baseline_dir=baseline_dir,
         secret_values=secret_values,
         production=mode == "full",
+        baseline_repair_profile=baseline_repair_profile,
     )
 
     inventory = load_source_inventory(repo_root)
@@ -265,6 +267,7 @@ def _parser() -> argparse.ArgumentParser:
     parser.add_argument("--pilot-feed-file")
     parser.add_argument("--canary-feed-file")
     parser.add_argument("--baseline-dir", type=Path)
+    parser.add_argument("--baseline-repair-profile")
     parser.add_argument("--run-id")
     parser.add_argument("--source-revision")
     parser.add_argument("--secret-env", action="append", default=[])
@@ -303,6 +306,7 @@ def main(argv: list[str] | None = None) -> int:
             run_id=arguments.run_id,
             revision=arguments.source_revision,
             secret_values=secrets,
+            baseline_repair_profile=arguments.baseline_repair_profile,
         )
     except PublicationError as exc:
         print(str(exc), file=sys.stderr)
@@ -316,6 +320,7 @@ def main(argv: list[str] | None = None) -> int:
                 "snapshot_dir": str(snapshot_dir),
                 "objects": manifest["counts"]["objects"],
                 "routes": manifest["counts"]["routes"],
+                "baseline_repair_profile": arguments.baseline_repair_profile,
             },
             sort_keys=True,
         )

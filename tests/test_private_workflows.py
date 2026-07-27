@@ -53,6 +53,22 @@ class PrivateWorkflowTest(unittest.TestCase):
             publication,
         )
         self.assertIn(
+            "BASELINE_REPAIR_PROFILE:",
+            publication,
+        )
+        self.assertIn(
+            "linkedin-full-content-2026-07-27",
+            publication,
+        )
+        self.assertIn(
+            "--baseline-repair-profile",
+            publication,
+        )
+        self.assertIn(
+            'if [[ -n "$BASELINE_REPAIR_PROFILE" ]]',
+            publication,
+        )
+        self.assertIn(
             "FEED_BASE_URL: https://feeds.paulofehlauer.com",
             publication,
         )

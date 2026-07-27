@@ -611,6 +611,15 @@ O transporte deve:
 - manter o snapshot remoto anterior como baseline da validação e preservar
   todas as regras normais de upload, ponteiro, canário, rollback e retenção.
 
+Como os stubs desse incidente também carregam datas sintéticas, o perfil
+manual `linkedin-full-content-2026-07-27` pode corrigir `pubDate` somente para
+os 12 feeds fixos. O item deve manter link normalizado e GUID, o baseline deve
+ter ao mesmo tempo autor fallback e conteúdo visível abaixo de 200 caracteres,
+e o candidato deve recuperar autor conhecido e pelo menos 200 caracteres
+visíveis. O perfil exige modo `full` e baseline hidratado. A regra normal
+continua rejeitando qualquer mudança de data em execuções agendadas, fontes
+fora da allowlist e itens que já estavam completos.
+
 Esse mecanismo não altera o R2 diretamente, não permite bootstrap e não
 constitui um reparo genérico. Qualquer mudança na allowlist fixa requer revisão
 de código e novo gate.
@@ -953,6 +962,13 @@ Ainda assim:
 - o par de transição foi promovido e os bindings `*_NEXT` foram removidos;
 - `workers.dev` e Preview URLs foram desabilitados, enquanto GitHub Pages
   permaneceu inalterado.
+
+Em 2026-07-27, a primeira promoção manual dos 12 feeds LinkedIn corrigidos,
+run `30288789576`, chegou até a validação depois de staging, hidratação,
+restauração e geração. Ela falhou de forma fechada antes do upload porque as
+datas reais divergiam das datas sintéticas dos stubs. O ponteiro anterior
+permaneceu intacto. A exceção estrita descrita na fase de hidratação foi então
+adicionada; uma nova execução continua sujeita a autorização explícita.
 
 O piloto só termina depois de uma atualização automática, não apenas de uma
 requisição manual bem-sucedida.

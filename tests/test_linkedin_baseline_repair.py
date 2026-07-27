@@ -11,7 +11,9 @@ from scripts.repair_linkedin_baseline import (
     ConfigurationError,
     EXPECTED_OBJECT_COUNT,
     EXPECTED_SOURCE_COUNT,
+    PROFILE_NAME,
     REPAIR_SOURCE_NAMES,
+    approved_repair_feed_files,
     restore_repair_baseline,
     stage_repair_baseline,
 )
@@ -111,6 +113,15 @@ class LinkedInBaselineRepairTest(unittest.TestCase):
         self.repository.cleanup()
 
     def test_stage_and_restore_exact_validated_inventory(self) -> None:
+        self.assertEqual(
+            len(
+                approved_repair_feed_files(
+                    repo_root=self.root,
+                    profile=PROFILE_NAME,
+                )
+            ),
+            EXPECTED_SOURCE_COUNT,
+        )
         staged = stage_repair_baseline(
             repo_root=self.root,
             stage_dir=self.stage_dir,
@@ -204,6 +215,16 @@ class LinkedInBaselineRepairTest(unittest.TestCase):
             stage_repair_baseline(
                 repo_root=self.root,
                 stage_dir=self.stage_dir,
+            )
+
+    def test_repair_feed_allowlist_rejects_unknown_profile(self) -> None:
+        with self.assertRaisesRegex(
+            ConfigurationError,
+            "unsupported LinkedIn baseline repair profile",
+        ):
+            approved_repair_feed_files(
+                repo_root=self.root,
+                profile="unknown-repair",
             )
 
 

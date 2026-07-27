@@ -16,6 +16,7 @@ from scripts.private_feed_common import (
     CANONICAL_FEED_BASE_URL,
     BootstrapRequired,
     CanaryError,
+    ConfigurationError,
     ManifestError,
     StorageOperationError,
     canonical_json_bytes,
@@ -27,6 +28,7 @@ from scripts.publish_snapshot import (
     apply_retention,
     publish_snapshot,
 )
+from scripts.repair_linkedin_baseline import PROFILE_NAME
 from scripts.rollback_snapshot import rollback_snapshot
 from scripts.validate_snapshot import (
     SnapshotValidationError,
@@ -539,6 +541,150 @@ class PrivatePublicationTest(unittest.TestCase):
                 mode="pilot",
                 pilot_feed_file="plain_feed.xml",
                 baseline_dir=baseline,
+            )
+
+    def test_validator_allows_repair_profile_to_correct_degraded_pubdate(
+        self,
+    ) -> None:
+        baseline = self.root / "baseline"
+        baseline_feed = baseline / "feeds" / "linkedin_feed.xml"
+        write_feed(
+            baseline_feed,
+            self_url="https://baseline.invalid/feeds/linkedin_feed.xml",
+            article_url="https://publisher.example/article-1",
+            description="<p>degraded stub</p>",
+            author="Autor não encontrado",
+            pubdate="Wed, 22 Jul 2026 08:00:00 +0000",
+        )
+        write_feed(
+            self.root / "feeds" / "linkedin_feed.xml",
+            self_url=(
+                f"{CANONICAL_FEED_BASE_URL}/feeds/linkedin_feed.xml"
+            ),
+            article_url="https://publisher.example/article-1",
+            description=f"<p>{'complete content ' * 40}</p>",
+            author="Autora Restaurada",
+            pubdate="Mon, 20 Jul 2026 08:00:00 +0000",
+        )
+
+        with self.assertRaisesRegex(
+            SnapshotValidationError,
+            "changed its publication date",
+        ):
+            validate_working_state(
+                repo_root=self.root,
+                feed_base_url=CANONICAL_FEED_BASE_URL,
+                mode="full",
+                pilot_feed_file=None,
+                baseline_dir=baseline,
+            )
+
+        with patch(
+            "scripts.validate_snapshot.approved_repair_feed_files",
+            return_value=frozenset({"linkedin_feed.xml"}),
+        ):
+            validate_working_state(
+                repo_root=self.root,
+                feed_base_url=CANONICAL_FEED_BASE_URL,
+                mode="full",
+                pilot_feed_file=None,
+                baseline_dir=baseline,
+                baseline_repair_profile=PROFILE_NAME,
+            )
+
+    def test_validator_repair_profile_keeps_pubdate_guard_strict(self) -> None:
+        baseline = self.root / "baseline"
+        baseline_feed = baseline / "feeds" / "linkedin_feed.xml"
+        current_feed = self.root / "feeds" / "linkedin_feed.xml"
+        complete_description = f"<p>{'complete content ' * 40}</p>"
+        write_feed(
+            baseline_feed,
+            self_url="https://baseline.invalid/feeds/linkedin_feed.xml",
+            article_url="https://publisher.example/article-1",
+            description=complete_description,
+            author="Autora Existente",
+            pubdate="Wed, 22 Jul 2026 08:00:00 +0000",
+        )
+        write_feed(
+            current_feed,
+            self_url=(
+                f"{CANONICAL_FEED_BASE_URL}/feeds/linkedin_feed.xml"
+            ),
+            article_url="https://publisher.example/article-1",
+            description=complete_description,
+            author="Autora Existente",
+            pubdate="Mon, 20 Jul 2026 08:00:00 +0000",
+        )
+
+        with patch(
+            "scripts.validate_snapshot.approved_repair_feed_files",
+            return_value=frozenset({"linkedin_feed.xml"}),
+        ):
+            with self.assertRaisesRegex(
+                SnapshotValidationError,
+                "changed its publication date",
+            ):
+                validate_working_state(
+                    repo_root=self.root,
+                    feed_base_url=CANONICAL_FEED_BASE_URL,
+                    mode="full",
+                    pilot_feed_file=None,
+                    baseline_dir=baseline,
+                    baseline_repair_profile=PROFILE_NAME,
+                )
+
+        write_feed(
+            baseline_feed,
+            self_url="https://baseline.invalid/feeds/linkedin_feed.xml",
+            article_url="https://publisher.example/article-1",
+            description="<p>degraded stub</p>",
+            author="Autor não encontrado",
+            pubdate="Wed, 22 Jul 2026 08:00:00 +0000",
+        )
+        with patch(
+            "scripts.validate_snapshot.approved_repair_feed_files",
+            return_value=frozenset(),
+        ):
+            with self.assertRaisesRegex(
+                SnapshotValidationError,
+                "changed its publication date",
+            ):
+                validate_working_state(
+                    repo_root=self.root,
+                    feed_base_url=CANONICAL_FEED_BASE_URL,
+                    mode="full",
+                    pilot_feed_file=None,
+                    baseline_dir=baseline,
+                    baseline_repair_profile=PROFILE_NAME,
+                )
+
+    def test_validator_repair_profile_requires_full_hydrated_baseline(
+        self,
+    ) -> None:
+        with self.assertRaisesRegex(
+            ConfigurationError,
+            "requires full mode",
+        ):
+            validate_working_state(
+                repo_root=self.root,
+                feed_base_url=CANONICAL_FEED_BASE_URL,
+                mode="pilot",
+                pilot_feed_file="plain_feed.xml",
+                baseline_dir=self.root / "baseline",
+                baseline_repair_profile=PROFILE_NAME,
+            )
+
+        with self.assertRaisesRegex(
+            ConfigurationError,
+            "requires a hydrated baseline",
+        ):
+            validate_working_state(
+                repo_root=self.root,
+                feed_base_url=CANONICAL_FEED_BASE_URL,
+                mode="full",
+                pilot_feed_file=None,
+                baseline_dir=None,
+                baseline_repair_profile=PROFILE_NAME,
             )
 
     def test_validator_preserves_identity_query_parameters(self) -> None:

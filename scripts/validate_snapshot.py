@@ -33,6 +33,10 @@ try:
         secret_values_from_environment,
         sha256_bytes,
     )
+    from .repair_linkedin_baseline import (
+        MIN_DESCRIPTION_CHARACTERS as LINKEDIN_REPAIR_MIN_DESCRIPTION_CHARACTERS,
+        approved_repair_feed_files,
+    )
 except ImportError:  # pragma: no cover - direct script execution
     from private_feed_common import (  # type: ignore[no-redef]
         CANONICAL_FEED_BASE_URL,
@@ -49,6 +53,10 @@ except ImportError:  # pragma: no cover - direct script execution
         read_manifest_bytes,
         secret_values_from_environment,
         sha256_bytes,
+    )
+    from repair_linkedin_baseline import (  # type: ignore[no-redef]
+        MIN_DESCRIPTION_CHARACTERS as LINKEDIN_REPAIR_MIN_DESCRIPTION_CHARACTERS,
+        approved_repair_feed_files,
     )
 
 
@@ -388,6 +396,7 @@ def _compare_with_baseline(
     source: Mapping[str, Any],
     current_path: Path,
     max_bytes: int,
+    allow_linkedin_repair: bool,
     errors: list[str],
 ) -> None:
     if not baseline_path.exists():
@@ -482,7 +491,24 @@ def _compare_with_baseline(
             and current.pubdate is not None
             and baseline.pubdate != current.pubdate
         ):
-            _error(errors, f"known enriched item changed its publication date: {current_path}")
+            baseline_is_degraded = (
+                baseline.author in FALLBACK_AUTHORS
+                and baseline_length < LINKEDIN_REPAIR_MIN_DESCRIPTION_CHARACTERS
+            )
+            current_is_complete = (
+                current.author not in FALLBACK_AUTHORS
+                and current_length >= LINKEDIN_REPAIR_MIN_DESCRIPTION_CHARACTERS
+            )
+            if not (
+                allow_linkedin_repair
+                and baseline_is_degraded
+                and current_is_complete
+            ):
+                _error(
+                    errors,
+                    "known enriched item changed its publication date: "
+                    f"{current_path}",
+                )
 
 
 def expected_routes(
@@ -527,6 +553,7 @@ def validate_working_state(
     baseline_dir: Path | None,
     secret_values: Iterable[bytes] = (),
     production: bool = True,
+    baseline_repair_profile: str | None = None,
 ) -> ValidationReport:
     repo_root = repo_root.resolve()
     feed_base_url = _validate_feed_base_url(
@@ -544,6 +571,20 @@ def validate_working_state(
 
     inventory = load_source_inventory(repo_root)
     policy = load_publication_policy(repo_root)
+    repair_feed_files: frozenset[str] = frozenset()
+    if baseline_repair_profile is not None:
+        if mode != "full":
+            raise ConfigurationError(
+                "a LinkedIn baseline repair profile requires full mode"
+            )
+        if baseline_dir is None:
+            raise ConfigurationError(
+                "a LinkedIn baseline repair profile requires a hydrated baseline"
+            )
+        repair_feed_files = approved_repair_feed_files(
+            repo_root=repo_root,
+            profile=baseline_repair_profile,
+        )
     specs = build_object_specs(repo_root, inventory, policy)
     expected_routes(
         specs=specs,
@@ -569,6 +610,7 @@ def validate_working_state(
                 source=source,
                 current_path=path,
                 max_bytes=max_bytes,
+                allow_linkedin_repair=feed_file in repair_feed_files,
                 errors=errors,
             )
 
@@ -741,6 +783,7 @@ def _parser() -> argparse.ArgumentParser:
     parser.add_argument("--mode", choices=("pilot", "full"), required=True)
     parser.add_argument("--pilot-feed-file")
     parser.add_argument("--baseline-dir", type=Path)
+    parser.add_argument("--baseline-repair-profile")
     parser.add_argument("--snapshot-dir", type=Path)
     parser.add_argument(
         "--secret-env",
@@ -773,6 +816,7 @@ def main(argv: list[str] | None = None) -> int:
             baseline_dir=baseline_dir,
             secret_values=secrets,
             production=not arguments.allow_noncanonical_base_url,
+            baseline_repair_profile=arguments.baseline_repair_profile,
         )
         if arguments.snapshot_dir:
             validate_snapshot_directory(

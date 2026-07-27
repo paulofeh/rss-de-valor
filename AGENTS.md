@@ -112,6 +112,9 @@ publisher. It uses `contents: read`, canonical `FEED_BASE_URL`, and the shared
 `private-feed-r2-publication` concurrency group. Its
 `repair_linkedin_baseline` input is manual-only and carries exactly the fixed
 12-source repair allowlist across hydration; it is not a generic bootstrap.
+Its named validator profile may correct a synthetic publication date only
+when the same allowlisted item moves from both fallback author and short
+content to a known author and complete content.
 
 **`.github/workflows/private-feed-pilot.yml`** is retained for controlled
 diagnostics but its repository-level gate normally remains `false`.
