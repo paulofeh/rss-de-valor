@@ -100,7 +100,8 @@ includes configured generated sources, excludes `ExistingRssScraper`, publishes
 the private OPML, rejects aggregate feeds, and disables the private HTML index.
 
 **`scripts/`** implements hydration, manifest construction, validation,
-publication, and rollback through the S3-compatible R2 API.
+publication, rollback, and the explicitly gated LinkedIn baseline repair. R2
+operations use its S3-compatible API.
 
 **`worker/`** contains the TypeScript Worker. Authentication happens before
 method/path resolution. The Worker serves only manifest routes from the active
@@ -108,7 +109,9 @@ snapshot, with private cache headers, ETag, `Last-Modified`, `HEAD`, and `304`.
 
 **`.github/workflows/private-feed-publication.yml`** is the active full private
 publisher. It uses `contents: read`, canonical `FEED_BASE_URL`, and the shared
-`private-feed-r2-publication` concurrency group.
+`private-feed-r2-publication` concurrency group. Its
+`repair_linkedin_baseline` input is manual-only and carries exactly the fixed
+12-source repair allowlist across hydration; it is not a generic bootstrap.
 
 **`.github/workflows/private-feed-pilot.yml`** is retained for controlled
 diagnostics but its repository-level gate normally remains `false`.

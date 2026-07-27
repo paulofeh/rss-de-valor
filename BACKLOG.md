@@ -56,6 +56,11 @@ Privatizar a entrega reduz a exposição e reforça o caráter de uso pessoal, m
   sucesso às `04:47:32Z`, sem `workflow_dispatch`. Ele hidratou o snapshot
   anterior, publicou o novo conjunto completo, passou pelos canários e não
   excluiu snapshots na retenção.
+- Em 2026-07-27, 12 feeds LinkedIn com baseline já degradado foram regenerados
+  localmente, validados com 60 itens completos e enviados à `main` nos commits
+  `319a88bb` e `32a47138`. Como a hidratação privada substitui a árvore Git
+  pelo snapshot R2 antes dos scrapers, a promoção exige uma execução manual
+  allowlisted; o reparo está implementado e aguarda sua publicação controlada.
 - Tornar somente o repositório privado não protege necessariamente um site do GitHub Pages.
 - Colocar um proxy autenticado diante do Pages sem remover a origem pública não resolve a exposição.
 

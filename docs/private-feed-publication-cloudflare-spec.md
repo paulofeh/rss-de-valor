@@ -590,6 +590,31 @@ Essa fase é obrigatória porque
 `merge_articles_with_existing_feed()` depende do XML anterior para impedir
 regressões de conteúdo.
 
+Exceção operacional controlada: um baseline remoto que já contenha stubs não
+pode se autocorrigir quando o mesmo scraper continua bloqueado no GitHub
+Actions. Para o incidente LinkedIn identificado em 2026-07-27, uma execução
+manual confirmada pode transportar pela hidratação exatamente 12 pares
+feed/histórico commitados e completos.
+
+O transporte deve:
+
+- ficar desabilitado por padrão e ser impossível em `schedule`;
+- exigir `workflow_dispatch`, `confirm_full_publication=true` e
+  `repair_linkedin_baseline=true`;
+- usar uma lista de fontes fixa no código, sem glob;
+- validar cinco itens, autoria, conteúdo, URLs, unicidade, histórico e
+  `self-link` antes de guardar os objetos;
+- registrar tamanho e SHA-256 dos 24 objetos num manifesto temporário;
+- hidratar e validar integralmente o snapshot R2 antes da restauração local;
+- verificar novamente manifesto, hashes e semântica antes de substituir os
+  caminhos hidratados;
+- manter o snapshot remoto anterior como baseline da validação e preservar
+  todas as regras normais de upload, ponteiro, canário, rollback e retenção.
+
+Esse mecanismo não altera o R2 diretamente, não permite bootstrap e não
+constitui um reparo genérico. Qualquer mudança na allowlist fixa requer revisão
+de código e novo gate.
+
 ### 9.3 Fase 3 — geração
 
 1. Executar `main.py`.
@@ -1242,6 +1267,7 @@ worker/
 scripts/
   private_feed_common.py
   hydrate_private_state.py
+  repair_linkedin_baseline.py
   build_snapshot_manifest.py
   validate_snapshot.py
   publish_snapshot.py

@@ -10,6 +10,11 @@ on:
         required: true
         default: false
         type: boolean
+      repair_linkedin_baseline:
+        description: Restore the allowlisted 2026-07-27 LinkedIn baseline after R2 hydration
+        required: true
+        default: false
+        type: boolean
 
 concurrency:
   group: private-feed-r2-publication
@@ -62,12 +67,28 @@ jobs:
           test -n "$R2_ACCOUNT_ID"
           test -n "$R2_BUCKET"
 
+      - name: Stage the approved LinkedIn repair baseline
+        if: >-
+          github.event_name == 'workflow_dispatch' &&
+          inputs.repair_linkedin_baseline == true
+        run: >-
+          python scripts/repair_linkedin_baseline.py stage
+          --stage-dir "$RUNNER_TEMP/private-feed-linkedin-repair"
+
       - name: Hydrate the active private snapshot
         shell: bash
         env:
           R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
           R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
         run: python scripts/hydrate_private_state.py
+
+      - name: Restore the approved LinkedIn repair baseline
+        if: >-
+          github.event_name == 'workflow_dispatch' &&
+          inputs.repair_linkedin_baseline == true
+        run: >-
+          python scripts/repair_linkedin_baseline.py restore
+          --stage-dir "$RUNNER_TEMP/private-feed-linkedin-repair"
 
       - name: Generate feeds from the hydrated state
         run: python main.py
@@ -123,4 +144,5 @@ jobs:
             echo "- Mode: full"
             echo "- Endpoint: \`$FEED_BASE_URL\`"
             echo "- Canary feed: \`/feeds/$CANARY_FEED_FILE\`"
+            echo "- LinkedIn baseline repair: \`${{ github.event_name == 'workflow_dispatch' && inputs.repair_linkedin_baseline == true }}\`"
           } >> "$GITHUB_STEP_SUMMARY"

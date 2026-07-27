@@ -152,6 +152,7 @@ rss-de-valor/
 ├── history/                       # estado legado ainda versionado
 ├── scripts/
 │   ├── hydrate_private_state.py
+│   ├── repair_linkedin_baseline.py
 │   ├── build_snapshot_manifest.py
 │   ├── validate_snapshot.py
 │   ├── publish_snapshot.py
@@ -187,6 +188,11 @@ execução:
 5. ativa `current.json` condicionalmente;
 6. executa canários;
 7. aplica retenção.
+
+O input manual `repair_linkedin_baseline` existe apenas para transportar pela
+hidratação os 12 pares feed/histórico completos identificados em 2026-07-27.
+Ele exige confirmação da publicação completa, usa uma allowlist fixa e não é
+executado pelo cron.
 
 ### Piloto
 

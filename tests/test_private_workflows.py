@@ -47,6 +47,11 @@ class PrivateWorkflowTest(unittest.TestCase):
         )
         self.assertIn("PRIVATE_FEED_FULL_ENABLED == 'true'", publication)
         self.assertIn("inputs.confirm_full_publication == true", publication)
+        self.assertIn("repair_linkedin_baseline:", publication)
+        self.assertIn(
+            "inputs.repair_linkedin_baseline == true",
+            publication,
+        )
         self.assertIn(
             "FEED_BASE_URL: https://feeds.paulofehlauer.com",
             publication,
@@ -62,6 +67,39 @@ class PrivateWorkflowTest(unittest.TestCase):
         self.assertNotIn("git push", pilot)
         self.assertNotIn("git push", publication)
         self.assertNotIn("git push", rollback)
+
+    def test_linkedin_repair_is_manual_and_wraps_hydration(self) -> None:
+        publication = (
+            REPO_ROOT
+            / ".github"
+            / "workflows"
+            / "private-feed-publication.yml"
+        ).read_text(encoding="utf-8")
+
+        stage = publication.index(
+            "Stage the approved LinkedIn repair baseline"
+        )
+        hydrate = publication.index("Hydrate the active private snapshot")
+        restore = publication.index(
+            "Restore the approved LinkedIn repair baseline"
+        )
+        generate = publication.index(
+            "Generate feeds from the hydrated state"
+        )
+
+        self.assertLess(stage, hydrate)
+        self.assertLess(hydrate, restore)
+        self.assertLess(restore, generate)
+        self.assertGreaterEqual(
+            publication.count("github.event_name == 'workflow_dispatch'"),
+            3,
+        )
+        self.assertEqual(
+            publication.count(
+                "python scripts/repair_linkedin_baseline.py"
+            ),
+            2,
+        )
 
     def test_existing_public_workflow_remains_present_and_independent(
         self,

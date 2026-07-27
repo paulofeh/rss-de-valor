@@ -254,6 +254,45 @@ um item conhecido a um stub. A normalização do `self-link` ocorre depois de
 todos os scrapers e independe do sucesso deles; assim, um XML preservado migra
 da origem anterior para o endpoint ativo sem perder itens, descrições ou GUIDs.
 
+### Reparo controlado de baseline LinkedIn
+
+Um baseline já degradado não pode ser corrigido pela proteção anti-downgrade:
+a hidratação substitui a árvore Git pelo snapshot ativo antes que
+`merge_articles_with_existing_feed()` seja executado. Para esse caso, o
+workflow completo oferece o input manual `repair_linkedin_baseline`, falso por
+padrão e ignorado em execuções agendadas.
+
+O reparo é limitado pelo código aos 12 newsletters identificados em
+2026-07-27. Ele transporta exatamente 24 objetos da revisão Git confirmada:
+um feed e um histórico por fonte. Antes da hidratação, o utilitário exige cinco
+itens por feed, autor conhecido, conteúdo não resumido, URLs LinkedIn válidas,
+links únicos, histórico coerente e `self-link` HTTPS sem credenciais. Um
+manifesto temporário registra tamanho e SHA-256 de cada objeto.
+
+Depois da hidratação normal e integral do R2, o utilitário relê e verifica esse
+manifesto e restaura somente os 24 caminhos explicitamente allowlisted. Só
+então `main.py` é executado. O baseline de validação continua sendo o snapshot
+remoto anterior, de forma que a publicação ainda precisa provar que não houve
+downgrade nos outros objetos. Qualquer divergência antes da ativação encerra o
+run sem alterar `current.json`; os canários e o rollback automático
+pós-ativação permanecem os mesmos.
+
+Para executar o reparo:
+
+1. confirmar que os 12 pares corrigidos estão commitados em `main`;
+2. abrir **Private feed publication** em GitHub Actions;
+3. selecionar **Run workflow**;
+4. marcar `confirm_full_publication=true`;
+5. marcar `repair_linkedin_baseline=true`;
+6. conferir no log os resultados `staged` e `restored`, ambos com 12 fontes e
+   24 objetos;
+7. aguardar validação, ativação, canários e retenção;
+8. reconciliar `current.json`, o novo prefixo e os feeds autenticados;
+9. deixar `repair_linkedin_baseline=false` em execuções manuais normais.
+
+Não usar esse input para adicionar fontes, bootstrap, rollback ou reparos
+genéricos. Uma mudança na lista exige revisão de código, testes e novo gate.
+
 ## 8. Rollback
 
 O rollback normal troca apenas `current.json`. Antes disso, ele baixa o snapshot
