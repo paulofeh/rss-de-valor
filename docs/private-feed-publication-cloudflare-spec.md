@@ -1,7 +1,9 @@
 # Publicação privada de feeds com Cloudflare Worker
 
-**Status:** publicação privada completa ativada manualmente no domínio definitivo; agenda completa, migração e corte público aguardam gates separados, com GitHub Pages preservado
-**Última revisão:** 2026-07-25
+**Status:** publicação privada completa ativa no domínio definitivo; o primeiro
+ciclo agendado depois da correção dos gates foi validado, a migração no Feedbin
+foi concluída e o corte público permanece fechado, com GitHub Pages preservado
+**Última revisão:** 2026-07-27
 **Origem:** item “Publicação privada dos feeds com compatibilidade com o Feedbin” do [`BACKLOG.md`](../BACKLOG.md)
 
 ## 1. Resumo executivo
@@ -63,13 +65,25 @@ Estado dos gates externos:
 
 1. publicação completa manual concluída em 2026-07-25 no snapshot
    `30170506858-1-bc9e2a6055ac`;
-2. variáveis não secretas de produção configuradas com
-   `PRIVATE_FEED_FULL_ENABLED=false` e canário `drauzio_feed.xml`;
-3. habilitação do primeiro ciclo agendado continua sujeita a autorização
-   específica do operador;
-4. migração das demais assinaturas continua fechada;
-5. remoção da publicação pública e do GitHub Pages exige autorização adicional
-   depois da migração.
+2. o Environment havia sido configurado com
+   `PRIVATE_FEED_FULL_ENABLED=true`, `PRIVATE_FEED_PILOT_ENABLED=false` e
+   canário `drauzio_feed.xml`;
+3. as quatro execuções agendadas de 2026-07-26 terminaram como `skipped`
+   antes de qualquer step porque um `jobs.<job_id>.if` não consegue usar uma
+   configuration variable disponível somente depois que o Environment é
+   declarado pelo runner;
+4. em `2026-07-26T23:04Z`, os dois gates foram transferidos para variables do
+   repositório, com os valores `true` e `false` preservados e os duplicados do
+   Environment removidos;
+5. o run agendado `30237068708` concluiu com sucesso em 2026-07-27, sem
+   disparo manual, e ativou `30237068708-1-57ac4cee27df`;
+6. a migração foi autorizada e concluída em 2026-07-27: 86 assinaturas que
+   apontavam para o GitHub Pages foram recriadas manualmente em cinco lotes,
+   somando 87 assinaturas privadas com o piloto de Drauzio;
+7. depois da validação inicial dos lotes, as 87 assinaturas antigas do GitHub
+   Pages foram removidas do Feedbin, incluindo um órfão legado;
+8. remoção da publicação pública e do GitHub Pages continua exigindo
+   autorização adicional depois da estabilização do conjunto privado.
 
 ### 2.3 Premissas
 
@@ -126,7 +140,9 @@ Antes de alterar os nameservers de `paulofehlauer.com`:
 
 ### 3.2 Objetivos não funcionais
 
-- Nenhum segredo no Git, nos XMLs, no OPML ou nos logs.
+- Nenhum segredo no Git, nos XMLs, no OPML gerado pelo projeto ou nos logs.
+- Exportações de terceiros que materializem credenciais devem ser tratadas
+  como arquivos secretos, nunca como OPML operacional ou artefato versionável.
 - Nenhum bucket, endpoint alternativo ou origem pública que contorne o Worker.
 - Publicação de todos os feeds como uma unidade consistente.
 - URLs independentes do domínio `workers.dev` em produção.
@@ -146,9 +162,9 @@ Antes de alterar os nameservers de `paulofehlauer.com`:
 - Tornar privados os RSS oficiais que continuarem sendo consumidos diretamente
   dos provedores.
 
-## 4. Inventário e restrições atuais
+## 4. Inventário de baseline e restrições atuais
 
-Snapshot do repositório em 2026-07-24:
+Baseline anterior à publicação privada, registrado em 2026-07-24:
 
 - 109 fontes configuradas;
 - 107 fontes processadas pelo pipeline;
@@ -169,6 +185,17 @@ agregados legados e três feeds órfãos de fontes removidas. O `main.py` atual
 regenera 107 feeds e não regenera os sete agregados, os três órfãos nem as
 cópias locais das duas fontes com RSS nativo. Portanto, o processo futuro
 não deve publicar cegamente tudo o que encontrar em `feeds/*.xml`.
+
+Estado reconciliado em 2026-07-27, depois da remoção da fonte de YouTube:
+
+- 108 fontes configuradas;
+- 106 feeds gerados pelo pipeline;
+- 2 RSS nativos mantidos diretamente nos provedores;
+- 106 históricos, um OPML e 106 XMLs no manifesto privado;
+- 213 objetos internos e 107 rotas privadas no modo `full`.
+
+O inventário público legado pode conter arquivos que não pertencem ao
+manifesto privado. A presença no disco nunca é autorização de publicação.
 
 A lista de objetos publicáveis deve ser construída a partir de:
 
@@ -459,12 +486,16 @@ bucket.
 | `R2_SECRET_ACCESS_KEY` | Token S3 limitado ao bucket |
 | `R2_BUCKET` | Variable com o nome do bucket |
 | `PRIVATE_FEED_PILOT_ENDPOINT` | Variable com `https://feeds.paulofehlauer.com` |
-| `PRIVATE_FEED_FULL_ENABLED` | Variable; `false` até a primeira publicação manual completa |
+| `PRIVATE_FEED_FULL_ENABLED` | Variable de repositório usada no `jobs.<job_id>.if`; `false` até a primeira publicação manual completa |
+| `PRIVATE_FEED_PILOT_ENABLED` | Variable de repositório usada no `jobs.<job_id>.if`; normalmente `false` |
 | `PRIVATE_FEED_FULL_CANARY_FEED_FILE` | Variable com um feed gerado da allowlist |
 | `PRIVATE_FEED_USERNAME` | Teste canário autenticado |
 | `PRIVATE_FEED_PASSWORD` | Teste canário autenticado |
 
-Valores não sensíveis podem ser variables em vez de secrets. Para produção:
+Gates usados no `jobs.<job_id>.if` precisam estar disponíveis antes de o job
+ser enviado ao runner; uma variable definida somente no Environment não atende
+esse contrato. As demais configurações não sensíveis podem continuar no
+Environment, e valores sensíveis permanecem secrets. Para produção:
 
 ```text
 FEED_BASE_URL=https://feeds.paulofehlauer.com
@@ -478,6 +509,31 @@ qualquer origem diferente desse domínio canônico.
 Se o Worker for implantado por GitHub Actions, usar um token separado e
 restrito à edição do Worker. A credencial de publicação de objetos não deve
 poder alterar o Worker ou configurações de domínio.
+
+### 8.3.1 Exportações do Feedbin
+
+Durante o inventário de 2026-07-27, observou-se que o arquivo
+`subscriptions.xml` exportado pelo Feedbin incorporou as credenciais Basic no
+campo `xmlUrl`. Esse comportamento é do export do serviço, não do OPML gerado
+pelo projeto, mas exige uma exceção operacional explícita à premissa de que
+todo arquivo com extensão XML ou OPML é seguro para circulação.
+
+Aplicam-se as seguintes regras:
+
+- tratar qualquer export de assinaturas do Feedbin como um segredo até
+  verificar o contrário;
+- nunca enviar o arquivo bruto ao Git, a logs ou à conversa;
+- produzir inventários somente a partir de uma cópia sanitizada, removendo
+  `userinfo` das URLs antes de qualquer uso;
+- eliminar a cópia bruta depois da reconciliação e lembrar que mover para o
+  Lixo não equivale a apagamento permanente;
+- não usar o export como OPML de produção.
+
+Na migração, o usuário moveu o export bruto para o Lixo e decidiu manter o par
+de credenciais atual sem rotação. Uma verificação somente leitura confirmou que
+o arquivo não permanece em Downloads; o conteúdo do Lixo não pôde ser
+inspecionado por restrições do macOS. Nenhum valor foi copiado para o
+repositório.
 
 ### 8.4 Rotação sem indisponibilidade
 
@@ -913,20 +969,90 @@ Execução manual registrada em 2026-07-25:
   anônimo, `HEAD`, `304` e `/healthz` aprovados;
 - R2 reconciliado com 106 XMLs, 106 históricos, um OPML e o manifesto; o
   ponteiro anterior permaneceu retido;
-- `PRIVATE_FEED_FULL_ENABLED=false` e
-  `PRIVATE_FEED_PILOT_ENABLED=false` mantêm as duas agendas fechadas.
+- imediatamente depois da execução manual,
+  `PRIVATE_FEED_FULL_ENABLED=false` e
+  `PRIVATE_FEED_PILOT_ENABLED=false` mantinham as duas agendas fechadas.
+
+Tentativas agendadas registradas em 2026-07-26:
+
+- o Environment `private-feed-pilot` já tinha
+  `PRIVATE_FEED_FULL_ENABLED=true` desde `2026-07-25T19:19:57Z` e
+  `PRIVATE_FEED_PILOT_ENABLED=false`;
+- os runs `30187551489`, `30195696122`, `30205646460` e `30217759033`
+  terminaram como `skipped`, sem steps;
+- a causa é o uso de `vars.PRIVATE_FEED_FULL_ENABLED` no
+  `jobs.publish-full.if` enquanto a variable existe somente no Environment;
+  segundo o contrato do GitHub Actions, variables desse nível só ficam
+  disponíveis no runner depois que o job começa;
+- nenhum dos quatro prefixos apareceu no R2; `current.json` conservou ETag
+  `34ed3781f186ae54da0b20896ae77de4`, SHA-256
+  `14ab666e93cc2d7830f4efdea8c6283e497c552f4e842e7665ab3ad84dac999c` e
+  `Last-Modified` `2026-07-25T19:08:56.771Z`;
+- o snapshot `30170506858-1-bc9e2a6055ac` continuou com 214 chaves, sendo
+  213 objetos do manifesto e o próprio manifesto;
+- a correção recomendada é manter gates usados em `jobs.<job_id>.if` como
+  variables de repositório, não somente de Environment. O ambiente continua
+  sendo o lugar dos secrets e das demais variables usadas depois que o job
+  começa.
+
+Correção aplicada em `2026-07-26T23:04Z`:
+
+- `PRIVATE_FEED_FULL_ENABLED=true` e
+  `PRIVATE_FEED_PILOT_ENABLED=false` foram criados no nível do repositório e
+  conferidos antes da remoção dos duplicados;
+- somente os dois gates foram removidos do Environment
+  `private-feed-pilot`; canário, endpoint, feed piloto, conta R2 e bucket
+  permaneceram intactos;
+- o workflow **Private feed publication** permaneceu `active`;
+- não houve alteração de código nem `workflow_dispatch`; o próximo horário
+  nominal a observar é `2026-07-27T00:47Z`.
+
+Execução agendada bem-sucedida em 2026-07-27:
+
+- o run `30237068708`, no commit
+  `57ac4cee27df9992d076e2507a239f612ff7f97f`, foi criado às `04:25:46Z`
+  para o primeiro ciclo nominal posterior a `00:47Z` e terminou às
+  `04:47:32Z` com `event=schedule` e conclusão `success`;
+- a hidratação recuperou os 213 objetos do snapshot anterior
+  `30170506858-1-bc9e2a6055ac`, sem objetos legados ignorados;
+- o manifesto em modo `full` validou 213 objetos e 107 rotas;
+- a publicação ativou `30237068708-1-57ac4cee27df`, registrou
+  `30170506858-1-bc9e2a6055ac` como `previous_run_id`, passou pelos canários
+  autenticados e anônimos e executou a retenção sem exclusões;
+- a API do R2 confirmou 214 chaves no prefixo novo, todas em Standard, com
+  `manifest.json` presente; `current.json` passou a ter ETag
+  `dc5393314b4f77e24b8dff1b1da787d9`, SHA-256
+  `dd76ce846ab39f32d92258cf35d14e6ada16236aab5a6fc604e496e8e35d16ae` e
+  `Last-Modified` `2026-07-27T04:43:15.064Z`, posterior ao upload;
+- a validação externa confirmou `401` no domínio privado, `404` em
+  `workers.dev`, `200` no feed do GitHub Pages e `301` do apex para
+  `https://linktr.ee/paulofehlauer`;
+- no repositório, os gates continuam `PRIVATE_FEED_FULL_ENABLED=true` e
+  `PRIVATE_FEED_PILOT_ENABLED=false`; esses nomes não existem no Environment,
+  cujas demais variables permaneceram intactas.
 
 ### Fase 14 — migração e corte
 
-- Obter gate explícito para migrar as assinaturas em lotes.
-- Confirmar que todas as assinaturas privadas atualizaram.
+- ~~Obter gate explícito para migrar as assinaturas em lotes.~~
+- ~~Migrar as 86 assinaturas públicas atuais em lotes, preservando as
+  categorias e sem excluir as antigas durante cada lote.~~
+- ~~Confirmar o cadastro inicial das 87 assinaturas privadas, incluindo o
+  piloto.~~
+- ~~Remover do Feedbin as 87 assinaturas antigas do GitHub Pages depois da
+  conferência dos lotes.~~
+- Observar a estabilização do conjunto privado; a atualização automática
+  autenticada já foi comprovada no piloto, enquanto os demais lotes têm
+  confirmação manual inicial do usuário.
 - Obter autorização adicional para o corte público.
 - Interromper commits de `feeds/` e `history/`.
 - Reduzir a permissão do workflow para `contents: read`.
 - Remover os artefatos atuais da árvore pública.
 - Desativar GitHub Pages.
 - Confirmar que as URLs antigas não entregam XML.
-- Atualizar README e documentação operacional.
+- ~~Atualizar README e documentação operacional para registrar a migração
+  concluída e a contingência pública ainda ativa.~~
+- Depois do corte, retirar dos documentos o aviso de contingência e registrar
+  a validação das URLs antigas.
 
 ### Fase 15 — pós-migração
 
@@ -1042,6 +1168,30 @@ Execução manual registrada em 2026-07-25:
 - os valores de secrets apareceram mascarados como `***` no log, e os
   validadores de artefatos não detectaram secrets;
 - GitHub Pages e a publicação pública continuam ativos.
+- Em 2026-07-26, quatro disparos `schedule` do workflow completo terminaram
+  como `skipped` por escopo incorreto da variable de gate; não houve hidratação,
+  upload, ativação, canário nem retenção.
+- A reconciliação posterior confirmou o ponteiro e o snapshot manual
+  inalterados, respostas anônimas `401` no domínio privado, `404` em
+  `workers.dev`, `200` no Pages e `301` do apex para o Linktree.
+- Em 2026-07-27, o run agendado `30237068708` terminou com sucesso no modo
+  `full`: hidratou 213 objetos de `30170506858-1-bc9e2a6055ac`, validou 213
+  objetos e 107 rotas, ativou `30237068708-1-57ac4cee27df`, passou pelos
+  canários e não excluiu snapshots na retenção.
+- A reconciliação independente confirmou 214 chaves no novo prefixo,
+  `current.json` atualizado às `04:43:15.064Z`, `401` no domínio privado,
+  `404` em `workers.dev`, `200` no Pages e `301` do apex para o Linktree.
+- Ainda em 2026-07-27, 86 assinaturas que apontavam para o GitHub Pages foram
+  recriadas manualmente em lotes de 5, 20, 21, 18 e 22; com Drauzio, o
+  inventário privado chegou a 87 assinaturas, todas confirmadas como `OK` pelo
+  usuário no cadastro inicial.
+- Depois da conferência, o usuário excluiu do Feedbin as 87 assinaturas
+  antigas: as 86 atuais e o órfão
+  `futuro_marketing_b2b_linkedin_feed.xml`. O GitHub Pages permaneceu
+  acessível em `200`, como previsto antes do gate de corte.
+- O export bruto do Feedbin foi removido de Downloads e movido para o Lixo.
+  Como ele materializava credenciais nas URLs, não foi incorporado ao
+  repositório; o par atual foi mantido por decisão explícita.
 
 ## 18. Critérios de aceite
 
@@ -1052,7 +1202,12 @@ A implementação só pode ser considerada concluída quando:
 - [x] Requisições anônimas recebem `401` sem metadados do feed.
 - [x] Requisições autenticadas recebem XML válido e cabeçalhos corretos.
 - [x] O Feedbin executou ao menos uma atualização automática autenticada.
+- [x] As 86 assinaturas públicas atuais foram recriadas com URLs privadas.
+- [x] As 87 assinaturas antigas do GitHub Pages foram removidas do Feedbin.
+- [ ] O conjunto migrado atravessou a janela de estabilização anterior ao
+  corte público.
 - [x] O pipeline hidratou estado, publicou snapshot e ativou ponteiro.
+- [x] Um ciclo agendado completo terminou com sucesso.
 - [x] Uma falha antes da ativação manteve o snapshot anterior.
 - [ ] Um rollback foi testado.
 - [x] A proteção contra downgrade de conteúdo foi validada.
@@ -1067,7 +1222,7 @@ A implementação só pode ser considerada concluída quando:
 - [ ] As URLs públicas antigas não entregam XML.
 - [x] Existe procedimento testado de rotação.
 - [ ] Existem pelo menos 28 snapshots ou a retenção aprovada.
-- [ ] README e runbook refletem a operação real.
+- [x] README e runbook refletem a operação real antes do gate de corte.
 
 ## 19. Estrutura implementada
 
@@ -1114,7 +1269,7 @@ Mudanças aplicadas no projeto existente:
 - adicionar publicação paralela no R2 sem remover o commit/push atual;
 - usar `contents: read` nos workflows privados;
 - deixar de versionar `feeds/` e `history/` depois do corte;
-- atualizar README apenas quando a migração estiver concluída.
+- atualizar o README depois da migração e novamente no corte público.
 
 ## 20. Sequência recomendada de implementação
 
@@ -1130,9 +1285,12 @@ Mudanças aplicadas no projeto existente:
 10. ~~Inventariar DNS e obter gate de nameservers.~~
 11. ~~Configurar e validar `feeds.paulofehlauer.com`.~~
 12. ~~Validar o Custom Domain e desabilitar `workers.dev` na configuração de produção.~~
-13. ~~Obter gate e executar a primeira publicação completa manual.~~ Agenda
-    completa ainda desabilitada.
-14. Obter gate separado de migração e corte.
+13. ~~Obter gate, executar a primeira publicação completa manual, corrigir o
+    escopo dos gates agendados e observar um ciclo automático completo.~~
+14. ~~Obter gate separado e migrar as assinaturas em lotes, preservando o
+    GitHub Pages.~~
+15. Observar a estabilização e obter autorização adicional para o corte
+    público.
 
 Cada fase deve terminar com evidência verificável antes de avançar para a
 seguinte. Nenhuma fase autoriza automaticamente a remoção da publicação pública
@@ -1140,7 +1298,7 @@ ou a reescrita do histórico Git.
 
 ## 21. Referências externas
 
-Referências revalidadas em 2026-07-25 e que devem ser conferidas novamente
+Referências revalidadas até 2026-07-26 e que devem ser conferidas novamente
 antes da implantação:
 
 - [Feedbin — Password Protected Feeds](https://feedbin.com/help/password-protected-feeds/)
@@ -1158,3 +1316,4 @@ antes da implantação:
 - [Cloudflare DNS — Full setup](https://developers.cloudflare.com/dns/zone-setups/full-setup/setup/)
 - [Cloudflare DNS — Import and export](https://developers.cloudflare.com/dns/manage-dns-records/how-to/import-and-export/)
 - [GitHub Actions — Concurrency](https://docs.github.com/en/actions/how-tos/write-workflows/choose-when-workflows-run/control-workflow-concurrency)
+- [GitHub Actions — Variables](https://docs.github.com/en/actions/reference/workflows-and-actions/variables)

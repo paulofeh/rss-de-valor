@@ -1,15 +1,21 @@
 # Operação da publicação privada de feeds
 
-**Estado em 2026-07-25:** implementação e testes locais concluídos; bucket R2
+**Estado em 2026-07-27:** implementação e testes locais concluídos; bucket R2
 Standard privado, Worker e ambiente GitHub configurados sem exposição de
 secrets; DNS migrado para a Cloudflare com o redirect do domínio principal para
 o Linktree preservado; Custom Domain `feeds.paulofehlauer.com` ativo; snapshot
-completo `30170506858-1-bc9e2a6055ac` publicado com 213 objetos internos e 107
+completo `30237068708-1-57ac4cee27df` ativo com 213 objetos internos e 107
 rotas privadas. Canários autenticados e anônimos passaram; o Feedbin já havia
 feito revalidação automática autenticada e recebido `304`; o novo par foi
 promovido, os bindings de transição foram removidos e `workers.dev` foi
-desabilitado. GitHub Pages e a publicação pública continuam ativos até gates
-separados. A agenda completa permanece desabilitada.
+desabilitado. A migração manual no Feedbin foi concluída: 86 assinaturas do
+GitHub Pages foram recriadas em cinco lotes e, com o piloto, há 87 assinaturas
+privadas confirmadas como `OK`; as 87 assinaturas públicas antigas foram
+removidas do Feedbin. GitHub Pages e a publicação pública continuam ativos até
+um gate separado. Depois de quatro disparos que falharam fechados por escopo
+incorreto do gate, as variables foram corrigidas em `2026-07-26T23:04Z`. O
+primeiro ciclo nominal posterior à correção terminou com sucesso no run
+agendado `30237068708`, preservando `full=true` e `pilot=false`.
 
 Este runbook complementa a
 [especificação](private-feed-publication-cloudflare-spec.md). Ele não autoriza
@@ -23,18 +29,24 @@ Feedbin, rotação do par de credenciais e desativação de `workers.dev`.
 
 A publicação completa foi autorizada e executada manualmente em 2026-07-25. O
 workflow entrou na `main` pelo commit `bc9e2a60` e publicou
-`30170506858-1-bc9e2a6055ac`. As variáveis não secretas continuam configuradas
-com `PRIVATE_FEED_FULL_ENABLED=false` e canário `drauzio_feed.xml`, portanto a
-agenda permanece fechada até novo gate.
+`30170506858-1-bc9e2a6055ac`. Em 2026-07-26, os runs agendados `30187551489`,
+`30195696122`, `30205646460` e `30217759033` foram pulados antes de qualquer
+step. Com autorização explícita, os gates foram movidos para o nível do
+repositório, mantendo `PRIVATE_FEED_FULL_ENABLED=true` e
+`PRIVATE_FEED_PILOT_ENABLED=false`; os duplicados do Environment foram
+removidos. A exigência de observar um ciclo completo sem substituí-lo por uma
+reexecução manual foi satisfeita pelo run agendado `30237068708` em
+2026-07-27.
 
-Ainda é necessária autorização explícita separada para:
-
-1. migrar as demais assinaturas;
-2. interromper os commits públicos, remover o GitHub Pages e executar o corte.
+A migração das demais assinaturas foi autorizada e concluída em 2026-07-27.
+Ainda é necessária autorização explícita separada para interromper os commits
+públicos, remover o GitHub Pages e executar o corte.
 
 O gate de espera foi satisfeito por uma atualização automática do Feedbin. Em
 futuras rotações, continuar exigindo essa evidência e não avançar apenas porque
-uma requisição manual funcionou.
+uma requisição manual funcionou. Para o conjunto recém-migrado, a confirmação
+inicial foi manual; observar uma janela de estabilização antes do gate de
+corte.
 
 ## 2. Modelo implementado
 
@@ -141,15 +153,26 @@ e rollback falham fechados se essa política não for atendida.
 - `PRIVATE_FEED_USERNAME`
 - `PRIVATE_FEED_PASSWORD`
 
-### GitHub Environment Variables
+### GitHub variables
+
+No nível do repositório:
+
+- `PRIVATE_FEED_FULL_ENABLED`
+- `PRIVATE_FEED_PILOT_ENABLED`
+
+No Environment `private-feed-pilot`:
 
 - `R2_ACCOUNT_ID`
 - `R2_BUCKET`
 - `PRIVATE_FEED_PILOT_ENDPOINT`
 - `PRIVATE_FEED_PILOT_FEED_FILE`
-- `PRIVATE_FEED_PILOT_ENABLED`
 - `PRIVATE_FEED_FULL_CANARY_FEED_FILE`
-- `PRIVATE_FEED_FULL_ENABLED`
+
+Os dois gates foram transferidos em `2026-07-26T23:04Z`, pois são usados
+diretamente em `jobs.<job_id>.if` e não podem existir somente no Environment:
+esse nível só fica disponível depois que o runner inicia o job. Os duplicados
+foram removidos para evitar fontes operacionais ambíguas. Secrets e variables
+consumidos somente pelos steps continuam no Environment.
 
 `PRIVATE_FEED_PILOT_ENDPOINT` deve ser a origem HTTPS completa
 `https://feeds.paulofehlauer.com`, sem credenciais e sem caminho. A origem
@@ -158,12 +181,14 @@ reativada. O workflow usa a variável como `FEED_BASE_URL`; em publicação
 completa, o mesmo domínio canônico continua obrigatório.
 
 Manter `PRIVATE_FEED_PILOT_ENABLED=false`: mesmo uma execução manual do workflow
-de piloto deve falhar fechada quando essa variável estiver desabilitada. Para a
-publicação completa, manter `PRIVATE_FEED_FULL_ENABLED=false` até uma execução
-manual bem-sucedida e definir
-`PRIVATE_FEED_FULL_CANARY_FEED_FILE=drauzio_feed.xml`. Só então habilitar a
-agenda completa. Os dois workflows reutilizam o ambiente
-`private-feed-pilot`, evitando copiar ou revelar os secrets existentes.
+de piloto deve falhar fechada quando essa variável estiver desabilitada. Na
+operação atual, `PRIVATE_FEED_FULL_ENABLED=true` no nível do repositório mantém
+a agenda completa ativa e
+`PRIVATE_FEED_FULL_CANARY_FEED_FILE=drauzio_feed.xml` define o canário. Em um
+novo bootstrap, o gate completo deve começar em `false` até uma execução manual
+bem-sucedida; não aplicar essa instrução retroativamente à produção já
+validada. Os dois workflows reutilizam o ambiente `private-feed-pilot`,
+evitando copiar ou revelar os secrets existentes.
 
 ## 6. Implantação do piloto
 
@@ -288,6 +313,17 @@ Não há documentação oficial do Feedbin garantindo atualização em lote de
 credenciais. Planejar essa etapa como potencialmente individual até o piloto
 produzir evidência.
 
+Exports do Feedbin exigem cuidado adicional: o `subscriptions.xml` usado no
+inventário de 2026-07-27 incorporou o par Basic nas URLs. Tratar todo export
+como segredo, não exibir seu conteúdo, sanitizar `userinfo` antes de produzir
+um inventário e nunca versionar o arquivo bruto. Ao terminar a migração, o
+usuário removeu o bruto de Downloads e o moveu para o Lixo. Uma checagem
+somente leitura confirmou sua ausência em Downloads, mas o Lixo não pôde ser
+inspecionado por restrições do macOS e continua sendo armazenamento
+recuperável até o esvaziamento. A cópia sanitizada anteriormente usada no
+inventário também não estava mais no caminho registrado em Downloads. O par
+atual foi mantido sem rotação por decisão explícita.
+
 ### Evidência da rotação real de 2026-07-25
 
 - a assinatura piloto foi recriada manualmente no Feedbin com o novo par;
@@ -373,10 +409,13 @@ Depois de a zona estar ativa e o redirect principal validado:
 10. observar ao menos um ciclo agendado completo;
 11. obter outro gate antes de migrar as assinaturas em lotes.
 
-Os passos 1–8 estão concluídos. Os passos 9–11 permanecem fechados. O workflow
-de piloto exige `PRIVATE_FEED_PILOT_ENABLED=true`, que deve permanecer `false`,
-para não poder substituir um snapshot completo por um snapshot com apenas uma
-rota.
+Os passos 1–10 estão concluídos. O passo 10 falhou fechado nos quatro disparos
+de 2026-07-26 por escopo incorreto da variable usada no `jobs.<job_id>.if`, a
+causa foi corrigida às `23:04Z` e o run agendado `30237068708` forneceu a
+evidência automática em 2026-07-27. O passo 11 também foi autorizado e
+concluído no mesmo dia. O workflow de piloto exige
+`PRIVATE_FEED_PILOT_ENABLED=true`, que deve permanecer `false`, para não poder
+substituir um snapshot completo por um snapshot com apenas uma rota.
 
 ### Evidência da primeira publicação completa
 
@@ -397,8 +436,83 @@ rota.
   `workers.dev` e Preview URLs desabilitados;
 - dois feeds, OPML, `/healthz` e caminho inexistente retornaram o mesmo `401`
   sem credenciais; Pages permaneceu em `200` e o apex em `301` para o Linktree;
-- `PRIVATE_FEED_FULL_ENABLED=false` e
-  `PRIVATE_FEED_PILOT_ENABLED=false` foram reconfirmados depois da execução.
+- imediatamente depois da execução manual,
+  `PRIVATE_FEED_FULL_ENABLED=false` e
+  `PRIVATE_FEED_PILOT_ENABLED=false` foram reconfirmados.
+
+### Evidência das tentativas agendadas que falharam fechadas
+
+- `PRIVATE_FEED_FULL_ENABLED=true` desde `2026-07-25T19:19:57Z` e
+  `PRIVATE_FEED_PILOT_ENABLED=false`, ambos no Environment
+  `private-feed-pilot`;
+- runs `30187551489`, `30195696122`, `30205646460` e `30217759033` concluídos
+  como `skipped`, sem steps;
+- diagnóstico: `jobs.publish-full.if` é processado antes que variables
+  exclusivas do Environment fiquem disponíveis; a expressão recebeu string
+  vazia e fechou o job;
+- nenhum prefixo dos quatro runs existe no R2;
+- `current.json` permaneceu com ETag
+  `34ed3781f186ae54da0b20896ae77de4`, SHA-256
+  `14ab666e93cc2d7830f4efdea8c6283e497c552f4e842e7665ab3ad84dac999c` e
+  `Last-Modified` `2026-07-25T19:08:56.771Z`;
+- o snapshot completo ativo continuou com 213 objetos mais o manifesto;
+- validação anônima posterior: domínio privado `401`, origem `workers.dev`
+  `404`, feed no GitHub Pages `200` e apex `301` para
+  `https://linktr.ee/paulofehlauer`.
+
+Não houve hidratação, scraper, upload, ativação, canário ou retenção nesses
+quatro runs. Às `23:04Z`, `PRIVATE_FEED_FULL_ENABLED=true` e
+`PRIVATE_FEED_PILOT_ENABLED=false` foram criados como variables do repositório
+e conferidos; somente depois os dois duplicados foram removidos do Environment.
+As demais variables permaneceram intactas e o workflow foi confirmado como
+`active`. Não foi usado `workflow_dispatch` como substituto da evidência
+agendada.
+
+### Evidência do primeiro ciclo agendado bem-sucedido
+
+- run `30237068708`, `event=schedule`, commit
+  `57ac4cee27df9992d076e2507a239f612ff7f97f`;
+- primeiro horário nominal posterior à correção: `2026-07-27T00:47Z`; criação
+  às `04:25:46Z` e conclusão `success` às `04:47:32Z`;
+- modo `full`, com hidratação dos 213 objetos do snapshot anterior
+  `30170506858-1-bc9e2a6055ac` e nenhum objeto legado ignorado;
+- validação de 213 objetos e 107 rotas;
+- ativação de `30237068708-1-57ac4cee27df`, com o snapshot anterior registrado
+  como `previous_run_id`, canários autenticados e anônimos aprovados e
+  retenção executada sem exclusões;
+- API do R2: 214 chaves no prefixo novo, incluindo `manifest.json`, todas em
+  Standard; `current.json` com ETag `dc5393314b4f77e24b8dff1b1da787d9`,
+  SHA-256 `dd76ce846ab39f32d92258cf35d14e6ada16236aab5a6fc604e496e8e35d16ae`
+  e `Last-Modified` `2026-07-27T04:43:15.064Z`;
+- validação externa: domínio privado `401`, origem `workers.dev` `404`, feed
+  no GitHub Pages `200` e apex `301` para
+  `https://linktr.ee/paulofehlauer`;
+- variables no repositório: `PRIVATE_FEED_FULL_ENABLED=true` e
+  `PRIVATE_FEED_PILOT_ENABLED=false`; esses nomes permanecem ausentes do
+  Environment `private-feed-pilot`, que conserva canário, endpoint, feed
+  piloto, conta R2 e bucket.
+
+### Evidência da migração das assinaturas no Feedbin
+
+- o inventário inicial encontrou 87 URLs públicas antigas: 86 correspondiam à
+  configuração atual e uma era o órfão legado
+  `futuro_marketing_b2b_linkedin_feed.xml`;
+- as 86 assinaturas atuais foram recriadas com URLs privadas em cinco lotes de
+  5, 20, 21, 18 e 22 itens, preservando as categorias;
+- com a assinatura piloto de Drauzio, o Feedbin passou a ter 87 assinaturas
+  privadas, todas confirmadas como `OK` pelo usuário no cadastro inicial;
+- somente depois dessa conferência o usuário excluiu as 87 assinaturas antigas
+  do GitHub Pages, inclusive o órfão;
+- o export bruto que continha credenciais foi movido para o Lixo e não está
+  mais em Downloads; nenhum valor foi registrado no Git, nos documentos ou nos
+  logs;
+- a reconciliação externa continuou retornando `401` anonimamente no domínio
+  privado, `404` em `workers.dev`, `200` no GitHub Pages e destino final
+  `https://linktr.ee/paulofehlauer` no apex.
+
+O próximo gate é observar a estabilização do conjunto privado e obter
+autorização explícita para o corte. A migração das assinaturas não inclui nem
+autoriza desligar o GitHub Pages.
 
 O `wrangler.jsonc` local não declara rotas porque o Custom Domain é gerenciado
 no painel da Cloudflare. Ele fixa `workers_dev=false`, evitando que um deploy
@@ -412,7 +526,8 @@ O corte é um gate independente. Até ele:
 - `.github/workflows/workflow.yml` continua publicando no Git;
 - GitHub Pages continua ativo;
 - `feeds/` e `history/` permanecem versionados;
-- README e URLs públicas existentes não são removidos.
+- o README identifica a origem pública como contingência, não como destino
+  canônico para novas assinaturas.
 
 Somente depois da confirmação de todas as assinaturas privadas:
 
@@ -421,7 +536,8 @@ Somente depois da confirmação de todas as assinaturas privadas:
 3. remover artefatos da árvore pública;
 4. desligar GitHub Pages;
 5. confirmar que as URLs antigas não entregam XML;
-6. atualizar README e este runbook.
+6. remover do README o aviso de contingência e registrar a evidência final
+   neste runbook.
 
 Reescrita de histórico não faz parte desse corte.
 
@@ -459,7 +575,7 @@ de variações de conteúdo.
 Esses valores ficam abaixo das faixas gratuitas publicadas para R2 Standard
 (10 GB-mês, 1 milhão de operações Class A e 10 milhões Class B) e Workers Free
 (100 mil requisições diárias). Eles não são garantia contratual. Revisar preços,
-uso real e CPU do Worker antes de habilitar o agendamento.
+uso real e CPU do Worker antes de restabelecer o ciclo agendado.
 
 ## 15. Evidência externa validada
 
@@ -498,4 +614,5 @@ Referências oficiais:
 - [Cloudflare DNS: DNSSEC](https://developers.cloudflare.com/dns/dnssec/)
 - [Cloudflare Rules: Redirects](https://developers.cloudflare.com/rules/url-forwarding/)
 - [GitHub Actions: Concurrency](https://docs.github.com/en/actions/how-tos/write-workflows/choose-when-workflows-run/control-workflow-concurrency)
+- [GitHub Actions: Variables](https://docs.github.com/en/actions/reference/workflows-and-actions/variables)
 - [GitHub Actions: Secure use](https://docs.github.com/en/actions/reference/security/secure-use)

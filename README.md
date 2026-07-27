@@ -1,233 +1,257 @@
-# 📰 RSS de Colunistas
+# RSS de Valor
 
-Agregador automatizado de feeds RSS de colunistas brasileiros e fontes de risco climático, com atualizações a cada 6 horas via GitHub Actions.
+Agregador pessoal de feeds RSS para colunistas brasileiros e fontes de risco
+climático. O projeto coleta artigos, preserva histórico entre execuções e
+publica feeds padronizados para consumo no Feedbin.
 
-[![Update Feeds](https://github.com/paulofeh/rss-de-valor/actions/workflows/workflow.yml/badge.svg)](https://github.com/paulofeh/rss-de-valor/actions/workflows/workflow.yml)
+[![Private feed publication](https://github.com/paulofeh/rss-de-valor/actions/workflows/private-feed-publication.yml/badge.svg)](https://github.com/paulofeh/rss-de-valor/actions/workflows/private-feed-publication.yml)
+[![Legacy Pages publication](https://github.com/paulofeh/rss-de-valor/actions/workflows/workflow.yml/badge.svg)](https://github.com/paulofeh/rss-de-valor/actions/workflows/workflow.yml)
 
-## 🎯 O que é este projeto?
+## Estado atual
 
-Este projeto transforma artigos de colunistas brasileiros e fontes sobre risco climático em feeds RSS padronizados, permitindo que você acompanhe seus colunistas e temas favoritos através de qualquer leitor RSS (Feedly, Inoreader, NetNewsWire, etc.).
+A publicação canônica é privada:
 
-**✨ Acesse a página de feeds:** [https://paulofeh.github.io/rss-de-valor/feeds/](https://paulofeh.github.io/rss-de-valor/feeds/)
+- endpoint: `https://feeds.paulofehlauer.com`;
+- leitura protegida por HTTP Basic Auth sobre HTTPS;
+- Cloudflare Worker como única porta de leitura privada;
+- bucket R2 Standard privado, sem `r2.dev` ou domínio público;
+- snapshots imutáveis, ativados atomicamente por `current.json`;
+- atualização automática nominal a cada seis horas;
+- 28 snapshots de retenção;
+- suporte a `GET`, `HEAD`, ETag, `Last-Modified` e respostas `304`;
+- OPML privado e nenhum índice HTML na superfície privada.
 
-## 📊 Status Atual
+Em 27 de julho de 2026, o repositório tinha 108 fontes configuradas:
 
-- **113 fontes** monitoradas (colunistas, seções, portais e canais do YouTube)
-- **21 feeds RSS nativos** (link direto ao feed original)
-- **92 feeds gerados** via scraping/APIs
-- **Atualização automática** a cada 6 horas
-- **100% gratuito** via GitHub Actions
+- 106 feeds gerados, cada um com seu histórico;
+- dois RSS nativos, mantidos diretamente nos provedores;
+- 213 objetos internos e 107 rotas no snapshot privado completo.
 
-## 🗂️ Fontes Cobertas
+A migração do Feedbin foi concluída com 87 assinaturas privadas. As 87
+assinaturas antigas que apontavam para o GitHub Pages foram removidas do
+Feedbin.
+
+O GitHub Pages, os arquivos em `feeds/` e `history/` e o workflow público ainda
+existem como contingência temporária. Eles não são mais a origem canônica para
+novas assinaturas. O corte público depende de uma autorização explícita
+separada e não inclui reescrita do histórico Git.
+
+## Fontes configuradas
 
 | Grupo | Fontes |
-|-------|--------|
-| **Folha de S.Paulo** | 25 colunistas |
-| **Risco Climático** | 28 (BBC, Bloomberg Green, DW, FT, Nature, Google Alerts, YouTube e mais) |
-| **LinkedIn Newsletters** | 23 |
-| **Estadão** | 18 colunistas |
-| **O Globo** | 11 colunistas |
-| **Valor Econômico** | 4 colunistas |
-| **Outros** | 3 (Paul Graham, Poder360 e BBC Future) |
-| **World Bank Blogs** | 1 |
+|---|---:|
+| Risco climático | 27 |
+| Folha de S.Paulo | 25 |
+| LinkedIn Newsletters | 19 |
+| Estadão | 18 |
+| O Globo | 11 |
+| Valor Econômico | 4 |
+| Outros | 3 |
+| Banco Mundial | 1 |
+| **Total** | **108** |
 
-[Ver lista completa na página de feeds →](https://paulofeh.github.io/rss-de-valor/feeds/)
+Os dois `ExistingRssScraper` são FT Climate Capital e Juliano Spyer. Eles
+continuam apontando para os feeds originais e não são copiados para o R2.
 
-## 🚀 Como Usar
+A fonte de transcrições do YouTube foi retirada da configuração ativa. A classe
+`YouTubeTranscriptScraper` e sua dependência ainda existem como código legado,
+mas nenhum feed configurado as utiliza.
 
-### Opção 1: Importar Todos os Feeds de Uma Vez (Recomendado)
+## Como funciona
 
-Baixe o arquivo OPML e importe no seu leitor RSS:
+O fluxo privado é:
 
-📥 **[Baixar feeds.opml](https://paulofeh.github.io/rss-de-valor/feeds/feeds.opml)**
-
-### Opção 2: Assinar Feeds Individualmente
-
-Visite a página de feeds e escolha os que deseja assinar:
-
-🌐 **[https://paulofeh.github.io/rss-de-valor/feeds/](https://paulofeh.github.io/rss-de-valor/feeds/)**
-
-### Opção 3: URLs Diretas
-
-Copie a URL do feed que deseja e adicione manualmente no seu leitor RSS:
-
+```text
+R2/current.json
+    ↓
+hidratação do snapshot ativo
+    ↓
+main.py → scrapers → feeds + históricos + OPML
+    ↓
+allowlist + validações de XML, hashes, GUIDs, self-links e conteúdo
+    ↓
+upload de snapshot imutável
+    ↓
+releitura dos objetos e verificação do ponteiro observado
+    ↓
+troca atômica de current.json
+    ↓
+canários autenticados e anônimos
+    ↓
+retenção
 ```
-https://paulofeh.github.io/rss-de-valor/feeds/folha_feed.xml
-https://paulofeh.github.io/rss-de-valor/feeds/estadao_feed.xml
-https://paulofeh.github.io/rss-de-valor/feeds/oglobo_feed.xml
-...
+
+O Worker autentica antes de resolver método ou caminho. Depois da autenticação,
+ele lê o ponteiro, o manifesto e o objeto correspondente no binding privado do
+R2. O Worker nunca executa scrapers e uma atualização de conteúdo não exige
+redeploy.
+
+As rotas privadas são:
+
+```text
+/feeds/<feed_file>
+/feeds.opml
 ```
 
-## ✨ Funcionalidades
+Credenciais não devem ser incluídas na URL. O Feedbin solicita e armazena o
+usuário e a senha separadamente.
 
-### Feeds com Conteúdo Completo
-- Quando possível, o scraper extrai o conteúdo completo dos artigos (Estadão, BBC, Bloomberg Línea, Valor/O Globo, WordPress)
-- Transcrições automáticas de vídeos do YouTube via legendas
-- Abstracts de periódicos acadêmicos (Nature)
-- Feeds gerados com múltiplos artigos por fonte (não apenas o mais recente)
+## Execução local
 
-### Feeds RSS Nativos
-- Quando a fonte já fornece RSS oficial (22 fontes), o sistema linka diretamente ao feed original
-- Sem redundância: o feed original é sempre mais completo e atualizado
+Use sempre o ambiente virtual local, nunca o Python do sistema:
 
-### Feeds Individuais Gerados
-- Para fontes sem RSS nativo, gera feeds via scraping de HTML ou APIs internas
-- Mantém histórico individual para detectar novos artigos
-
-### Página HTML Interativa
-- Interface visual moderna
-- Organização por veículo
-- Links para todos os feeds (originais ou gerados)
-- Estatísticas atualizadas
-- Design responsivo (mobile-friendly)
-
-## 🛠️ Tecnologias
-
-- **Python 3** - Linguagem principal
-- **BeautifulSoup4** - Scraping de HTML
-- **feedgenerator** - Geração de feeds RSS
-- **trafilatura** - Extração de conteúdo de artigos (Google Alerts)
-- **youtube-transcript-api** - Transcrições de vídeos do YouTube
-- **WordPress REST API** - Extração de conteúdo de sites WordPress
-- **Arc/Fusion CMS** - APIs internas do Estadão e Bloomberg Línea
-- **GitHub Actions** - Automação (executa a cada 6 horas)
-- **GitHub Pages** - Hospedagem dos feeds
-
-## 📁 Estrutura do Projeto
-
+```bash
+python3 -m venv .venv
+.venv/bin/pip install -r requirements.txt
+.venv/bin/python3 main.py
 ```
+
+`main.py` escreve em `feeds/` e `history/`. Sem `FEED_BASE_URL`, a execução
+local preserva a origem legada do GitHub Pages. Para gerar self-links iguais aos
+de produção sem publicar nada:
+
+```bash
+FEED_BASE_URL=https://feeds.paulofehlauer.com .venv/bin/python3 main.py
+```
+
+`FEED_BASE_URL` deve ser uma origem HTTPS sem caminho, porta explícita,
+credenciais, query ou fragmento.
+
+## Testes
+
+Instale também as dependências da publicação privada:
+
+```bash
+.venv/bin/pip install -r requirements-private.txt
+.venv/bin/python3 -m unittest discover -s tests -v
+```
+
+Para o Worker:
+
+```bash
+cd worker
+npm ci
+npm run check
+npm test
+npm run deploy -- --dry-run
+```
+
+O último comando apenas empacota e valida o Worker; não faz implantação.
+
+## Estrutura
+
+```text
 rss-de-valor/
 ├── config/
-│   └── sources_config.json      # Configuração de todos os colunistas
-├── feeds/
-│   ├── index.html               # Página web dos feeds
-│   ├── feeds.opml               # Arquivo OPML para importação
-│   ├── *_feed.xml               # Feeds individuais por fonte
-│   └── ...                      
-├── history/
-│   └── *.json                   # Histórico de artigos processados
+│   ├── sources_config.json
+│   └── private_publication_allowlist.json
+├── docs/
+│   ├── private-feed-publication-cloudflare-spec.md
+│   └── private-feed-publication-runbook.md
+├── feeds/                         # artefatos legados ainda versionados
+├── history/                       # estado legado ainda versionado
+├── scripts/
+│   ├── hydrate_private_state.py
+│   ├── build_snapshot_manifest.py
+│   ├── validate_snapshot.py
+│   ├── publish_snapshot.py
+│   └── rollback_snapshot.py
 ├── src/
-│   ├── scrapers.py              # Classes de scraping
-│   └── utils.py                 # Funções auxiliares
-├── main.py                      # Script principal
+│   ├── scrapers.py
+│   └── utils.py
+├── tests/
+├── worker/
+│   ├── src/
+│   ├── test/
+│   └── wrangler.jsonc
+├── main.py
 └── .github/workflows/
-    └── workflow.yml             # Automação GitHub Actions
+    ├── workflow.yml
+    ├── private-feed-pilot.yml
+    ├── private-feed-publication.yml
+    └── private-feed-rollback.yml
 ```
 
-## 🔧 Como Adicionar Novas Fontes
+## Workflows
 
-### 1. Fonte com Feed RSS Existente
+### Publicação privada completa
 
-Se a fonte já tem um feed RSS oficial, use `ExistingRssScraper`. O sistema não raspará o feed — apenas linka diretamente ao original no HTML e OPML:
+`private-feed-publication.yml` usa `contents: read` e o grupo de concorrência
+`private-feed-r2-publication`. O cron nominal é `47 */6 * * *` em UTC. Cada
+execução:
 
-```json
-{
-  "name": "Nome da Fonte",
-  "url": "https://site.com/feed.xml",
-  "scraper": "ExistingRssScraper",
-  "feed_file": "fonte_feed.xml",
-  "history_file": "fonte_history.json",
-  "group": "nome_veiculo"
-}
-```
+1. hidrata o snapshot ativo;
+2. executa `main.py`;
+3. valida e monta o conjunto completo;
+4. publica e relê todos os objetos;
+5. ativa `current.json` condicionalmente;
+6. executa canários;
+7. aplica retenção.
 
-### 2. Site WordPress com REST API
+### Piloto
 
-Se o site é WordPress e tem a API habilitada (`/wp-json/wp/v2/posts`), use `WordPressApiScraper`. Suporta filtro automático por tag/categoria a partir da URL:
+`private-feed-pilot.yml` permanece no repositório para diagnóstico controlado,
+mas seu gate deve continuar desabilitado durante a operação completa. Ele não
+pode substituir um snapshot completo por um snapshot de uma única rota.
 
-```json
-{
-  "name": "Nome da Fonte",
-  "url": "https://site.com/categoria/",
-  "scraper": "WordPressApiScraper",
-  "feed_file": "fonte_feed.xml",
-  "history_file": "fonte_history.json",
-  "group": "nome_veiculo"
-}
-```
+### Rollback
 
-### 3. Fonte que Precisa de Scraper Customizado
+`private-feed-rollback.yml` é manual, compartilha o mesmo grupo de concorrência
+e só aceita snapshots em modo `full`. O rollback valida o destino antes de
+trocar o ponteiro e restaura o anterior se o canário falhar.
 
-Para sites com estrutura própria, crie uma classe em `src/scrapers.py` herdando `BaseScraper`, implemente `get_articles(limit)` para retornar múltiplos artigos, registre em `get_scraper_class()`, e adicione a entrada no config.
+### Publicação pública legada
 
-Adicione a entrada em `config/sources_config.json` e faça commit. O GitHub Actions processará automaticamente.
+`workflow.yml` continua rodando nominalmente em `0 */6 * * *` UTC, gerando e
+commitando `feeds/` e `history/`. Ele será removido ou reduzido para
+`contents: read` somente no gate de corte. Não cadastrar novas assinaturas nas
+URLs do GitHub Pages.
 
-## 🤖 Automação
+## Adicionar uma fonte
 
-O sistema é executado automaticamente via GitHub Actions:
+1. Adicione a entrada em `config/sources_config.json`.
+2. Para uma fonte com RSS oficial, use `ExistingRssScraper`; ela continuará
+   apontando diretamente ao provedor.
+3. Para scraping novo, implemente uma classe em `src/scrapers.py`, registre-a em
+   `get_scraper_class()` e prefira `get_articles(limit=...)`.
+4. Se criar um grupo, atualize os dois mapas `group_display_names` em
+   `src/utils.py`.
+5. Rode os testes Python e valide a geração local.
+6. Confirme que apenas os caminhos derivados da configuração e da política em
+   `config/private_publication_allowlist.json` entram no snapshot.
 
-- **Frequência:** A cada 6 horas (00:00, 06:00, 12:00, 18:00 UTC)
-- **Processo:**
-  1. Coleta artigos de cada fonte que precisa de scraping (92 fontes)
-  2. Fontes com RSS nativo (21) são ignoradas no scraping — linkam direto ao original
-  3. Compara com histórico para detectar novos artigos
-  4. Gera feeds individuais com múltiplos artigos
-  5. Atualiza OPML e página HTML
-  6. Faz commit automático das mudanças
-  7. Publica no GitHub Pages
+Não faça upload indiscriminado de `feeds/*.xml`. Agregados e arquivos órfãos
+exigem uma decisão e uma allowlist explícitas.
 
-## 📝 Formato dos Feeds
+## Remover uma fonte
 
-Os feeds gerados contêm múltiplos artigos por fonte (quando suportado pelo scraper), com conteúdo completo quando disponível:
+1. Remova a entrada da configuração.
+2. Remova explicitamente o XML e o histórico locais quando isso fizer parte da
+   mudança aprovada.
+3. Rode os testes de snapshot.
+4. Confirme que a próxima publicação privada ignora os objetos legados durante
+   a hidratação e não os inclui no novo manifesto.
 
-```xml
-<item>
-  <title>A importância da filosofia na educação</title>
-  <link>https://...</link>
-  <description>Conteúdo completo do artigo em HTML...</description>
-  <author>Leandro Karnal</author>
-  <pubDate>Mon, 19 Jan 2026 10:00:00 GMT</pubDate>
-</item>
-```
+## Segurança
 
-## 🔍 Scrapers Disponíveis
+- Nunca registre `Authorization`, usuário, senha ou tokens.
+- Nunca coloque credenciais no Git, XML, OPML, logs ou URLs.
+- Trate qualquer export do Feedbin como secreto: `subscriptions.xml` pode
+  materializar credenciais dentro de `xmlUrl`.
+- Mantenha o bucket R2 sem `r2.dev`, Custom Domain ou política anônima.
+- Não use cache público para conteúdo autenticado.
+- Ausência de credenciais e credenciais inválidas devem gerar a mesma resposta
+  `401`.
+- Publicação e rollback devem permanecer serializados.
 
-| Scraper | Descrição | Uso |
-|---------|-----------|-----|
-| `ExistingRssScraper` | Link direto a feeds RSS nativos | Folha (22 feeds), FT Climate Capital |
-| `FolhaScraper` | Scraping de páginas da Folha | Folha (4 colunistas) |
-| `EstadaoColumnistScraper` | Scraping de colunistas do Estadão | Estadão (16 colunistas) |
-| `EstadaoSectionScraper` | Seções do Estadão via Fusion/Arc CMS | Estadão Sustentabilidade |
-| `ValorOGloboScraper` | Scraping de Valor e O Globo (com conteúdo completo) | Valor, O Globo (17 fontes) |
-| `BloombergLineaScraper` | API Arc/Fusion da Bloomberg Línea | Bloomberg Green |
-| `BBCTopicScraper` | Páginas de tópico da BBC (conteúdo completo) | BBC Mudanças Climáticas |
-| `WordPressApiScraper` | WP REST API com filtro por tag/categoria/taxonomia | CNN Agro, FAPESP, Nottus, O Eco, Yale Climate, Repórter Brasil |
-| `GoogleAlertsScraper` | Google Alerts RSS com conteúdo via trafilatura | Risco Climático, Climate Risk |
-| `NatureRdfScraper` | Feeds RDF/RSS 1.0 da Nature com abstracts | npj Climate Action, npj Urban Sustainability |
-| `DWTopicScraper` | Tópicos da Deutsche Welle via GraphQL (conteúdo completo) | DW Climate |
-| `YouTubeTranscriptScraper` | Transcrições de canais do YouTube (filtra Shorts) | Arroz, Feijão & Clima |
-| `SustainableViewsScraper` | Categorias do Sustainable Views (FT) | Sustainable Views Risk |
-| `LinkedInNewsletterScraper` | Newsletters do LinkedIn com até 5 edições e conteúdo completo | LinkedIn (23 fontes) |
-| `PaulGrahamScraper` | Essays do paulgraham.com (conteúdo completo) | Paul Graham |
-| `Poder360Scraper` | Scraping do Poder360 | Poder360 |
+## Documentação operacional
 
-## 🤝 Contribuindo
+- [Especificação da publicação privada](docs/private-feed-publication-cloudflare-spec.md)
+- [Runbook de operação e recuperação](docs/private-feed-publication-runbook.md)
+- [Backlog e gates restantes](BACKLOG.md)
+- [Guia para agentes de código](AGENTS.md)
 
-Contribuições são bem-vindas! Para adicionar novos colunistas ou veículos:
+## Licença
 
-1. Fork o repositório
-2. Adicione a configuração em `config/sources_config.json`
-3. Se necessário, crie um novo scraper em `src/scrapers.py`
-4. Teste localmente com `python main.py`
-5. Envie um Pull Request
-
-## 📜 Licença
-
-Este projeto é de código aberto e está disponível sob licença MIT.
-
-## 🙏 Agradecimentos
-
-- Aos jornalistas e colunistas que produzem conteúdo de qualidade
-- À comunidade Python pelo excelente ecossistema de ferramentas
-- Ao GitHub por fornecer Actions e Pages gratuitamente
-
-## 📞 Contato
-
-Encontrou algum problema ou tem sugestões?
-
-- [Abra uma issue](https://github.com/paulofeh/rss-de-valor/issues)
-- [Envie um Pull Request](https://github.com/paulofeh/rss-de-valor/pulls)
-
----
-
-**⭐ Se este projeto foi útil para você, considere dar uma estrela no repositório!**
+O código está disponível sob a [licença MIT](LICENSE). A licença do repositório
+não altera os direitos sobre os artigos coletados de terceiros.
