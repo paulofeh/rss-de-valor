@@ -101,7 +101,7 @@
       "url": "https://www.cnnbrasil.com.br/agro/",
       "feed_file": "cnn_agro_feed.xml",
       "history_file": "cnn_agro_history.json",
-      "scraper": "WordPressApiScraper",
+      "scraper": "CNNBrasilSectionScraper",
       "group": "clima"
     },
     {

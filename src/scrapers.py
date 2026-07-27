@@ -2239,6 +2239,8 @@ class CNNBrasilBlogScraper(BaseScraper):
     For each post, full body HTML is fetched from /wp-json/content/v1/posts/<slug>.
     """
 
+    source_kind = 'blog'
+
     def _resolver_url(self):
         from urllib.parse import quote
         return f"https://www.cnnbrasil.com.br/wp-json/content/v1/resolver/{quote(self.url, safe='')}"
@@ -2322,7 +2324,10 @@ class CNNBrasilBlogScraper(BaseScraper):
                 return None
             return self._parse_post(posts[0])
         except Exception as e:
-            print(f"Erro ao processar CNN Brasil blog {self.url}: {str(e)}")
+            print(
+                f"Erro ao processar CNN Brasil {self.source_kind} "
+                f"{self.url}: {str(e)}"
+            )
             return None
 
     def get_articles(self, limit=10):
@@ -2330,11 +2335,133 @@ class CNNBrasilBlogScraper(BaseScraper):
             posts = self._fetch_posts()
             return [self._parse_post(p) for p in posts[:limit]]
         except Exception as e:
-            print(f"Erro ao processar CNN Brasil blog {self.url}: {str(e)}")
+            print(
+                f"Erro ao processar CNN Brasil {self.source_kind} "
+                f"{self.url}: {str(e)}"
+            )
             return []
 
     def _extract_article_data(self, soup):
         pass  # Logic is handled in get_latest_article
+
+
+class CNNBrasilSectionScraper(CNNBrasilBlogScraper):
+    """Scraper for a CNN Brasil section via its internal resolver API.
+
+    CNN's public WordPress API can ignore category query parameters and return
+    the global latest-post list. Section pages expose their intended list in a
+    resolver block whose ``posts_origin.slug`` matches the section slug.
+
+    This scraper fails closed unless every selected post belongs to the
+    configured section and uses its canonical CNN path.
+    """
+
+    source_kind = 'section'
+
+    def _section_slug(self):
+        parsed = urlparse(self.url)
+        path_parts = [
+            part for part in parsed.path.strip('/').split('/') if part
+        ]
+        if (
+            parsed.scheme != 'https'
+            or parsed.netloc != 'www.cnnbrasil.com.br'
+            or len(path_parts) != 1
+        ):
+            raise ValueError('invalid CNN Brasil section URL')
+        return parsed, path_parts[0]
+
+    @staticmethod
+    def _iter_resolver_blocks(sections):
+        if not isinstance(sections, list):
+            raise ValueError('CNN Brasil resolver sections are invalid')
+        for section in sections:
+            if not isinstance(section, dict):
+                continue
+            columns = section.get('blocks')
+            if not isinstance(columns, list):
+                continue
+            for column in columns:
+                if not isinstance(column, list):
+                    continue
+                for block in column:
+                    if isinstance(block, dict):
+                        yield block
+
+    @staticmethod
+    def _validate_section_posts(posts, *, parsed_section, section_slug):
+        if not isinstance(posts, list) or not posts:
+            raise ValueError('CNN Brasil section returned no posts')
+
+        expected_path_prefix = f'/{section_slug}/'
+        seen_links = set()
+        for post in posts:
+            if not isinstance(post, dict):
+                raise ValueError('CNN Brasil section post is invalid')
+            category = post.get('category') or {}
+            permalink = post.get('permalink', '')
+            post_slug = post.get('slug', '')
+            parsed_link = urlparse(permalink)
+            if (
+                not isinstance(category, dict)
+                or category.get('slug') != section_slug
+                or not isinstance(post_slug, str)
+                or not post_slug
+                or parsed_link.scheme != 'https'
+                or parsed_link.netloc != parsed_section.netloc
+                or not parsed_link.path.startswith(expected_path_prefix)
+                or parsed_link.query
+                or parsed_link.fragment
+                or permalink in seen_links
+            ):
+                raise ValueError('CNN Brasil section returned off-scope post')
+            seen_links.add(permalink)
+
+        return posts
+
+    def _fetch_posts(self):
+        parsed_section, section_slug = self._section_slug()
+        response = requests_retry_session().get(
+            self._resolver_url(),
+            timeout=30,
+            headers={
+                'User-Agent': (
+                    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) '
+                    'AppleWebKit/537.36'
+                ),
+            },
+        )
+        response.raise_for_status()
+        payload = response.json()
+        data = payload.get('data') if isinstance(payload, dict) else None
+        if not isinstance(data, dict):
+            raise ValueError('CNN Brasil resolver data is invalid')
+
+        for block in self._iter_resolver_blocks(data.get('sections')):
+            if block.get('block_type') != 'list':
+                continue
+            block_data = block.get('data')
+            if not isinstance(block_data, dict):
+                continue
+            details = block_data.get('details')
+            if not isinstance(details, dict):
+                continue
+            settings = details.get('settings')
+            if not isinstance(settings, dict):
+                continue
+            origin = settings.get('posts_origin')
+            if (
+                not isinstance(origin, dict)
+                or origin.get('slug') != section_slug
+            ):
+                continue
+            return self._validate_section_posts(
+                details.get('data'),
+                parsed_section=parsed_section,
+                section_slug=section_slug,
+            )
+
+        raise ValueError('CNN Brasil section list was not found')
 
 
 class NatureRdfScraper(BaseScraper):
@@ -3185,6 +3312,7 @@ def get_scraper_class(scraper_name):
         'BBCTopicScraper': BBCTopicScraper,
         'WordPressApiScraper': WordPressApiScraper,
         'CNNBrasilBlogScraper': CNNBrasilBlogScraper,
+        'CNNBrasilSectionScraper': CNNBrasilSectionScraper,
         'GoogleAlertsScraper': GoogleAlertsScraper,
         'NatureRdfScraper': NatureRdfScraper,
         'DWTopicScraper': DWTopicScraper,
