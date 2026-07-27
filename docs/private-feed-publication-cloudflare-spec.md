@@ -968,7 +968,23 @@ run `30288789576`, chegou até a validação depois de staging, hidratação,
 restauração e geração. Ela falhou de forma fechada antes do upload porque as
 datas reais divergiam das datas sintéticas dos stubs. O ponteiro anterior
 permaneceu intacto. A exceção estrita descrita na fase de hidratação foi então
-adicionada; uma nova execução continua sujeita a autorização explícita.
+adicionada.
+
+A execução seguinte foi autorizada individualmente. O run `30290619416`,
+baseado no commit `1765aebf`, terminou com sucesso em
+`2026-07-27T18:06:14Z`: transportou 12 fontes/24 objetos, hidratou 213 objetos
+de `30280303014-1-7003ea8af1f3`, validou 213 objetos e 107 rotas, ativou
+`30290619416-1-1765aebfb4ff`, passou pelos canários e não excluiu snapshots na
+retenção.
+
+A reconciliação independente listou no R2 os 213 objetos do manifesto e o
+`manifest.json`; os hashes dos 12 feeds corrigidos coincidiram com a revisão
+Git após a normalização esperada do `self-link`. `current.json` foi atualizado
+durante o run, o bucket permaneceu Standard, `r2.dev` continuou desabilitado e
+nenhum Custom Domain foi anexado diretamente ao bucket. Testes anônimos
+confirmaram `401` no domínio privado, `404` em `workers.dev`, `200` no Pages e
+`301` do apex para o Linktree. Os gates do repositório permaneceram full
+habilitado e piloto desabilitado, sem duplicatas no Environment.
 
 O piloto só termina depois de uma atualização automática, não apenas de uma
 requisição manual bem-sucedida.

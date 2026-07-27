@@ -25,7 +25,7 @@ Privatizar a entrega reduz a exposição e reforça o caráter de uso pessoal, m
 - Os feeds são publicados sem autenticação pelo GitHub Pages.
 - Em paralelo, os 106 feeds gerados e o OPML estão publicados de forma privada
   em `https://feeds.paulofehlauer.com`, com Basic Auth e R2 privado.
-- O snapshot completo ativo é `30237068708-1-57ac4cee27df`, com 213 objetos
+- O snapshot completo ativo é `30290619416-1-1765aebfb4ff`, com 213 objetos
   internos e 107 rotas privadas.
 - O Feedbin confirmou atualização automática autenticada no domínio definitivo,
   com revalidação condicional `304`.
@@ -67,8 +67,23 @@ Privatizar a entrega reduz a exposição e reforça o caráter de uso pessoal, m
   restauradas. `current.json` permaneceu intacto. O perfil manual agora admite
   essa correção somente nos 12 feeds fixos e somente quando o item remoto tem
   simultaneamente autor fallback e conteúdo visível abaixo de 200 caracteres,
-  enquanto o candidato recupera autor e conteúdo completo. Uma nova execução
-  manual continua sendo um gate explícito.
+  enquanto o candidato recupera autor e conteúdo completo.
+- A segunda execução, run `30290619416`, foi autorizada individualmente e
+  terminou com sucesso em 2026-07-27 às `18:06:14Z`. Ela transportou e
+  restaurou 12 fontes/24 objetos, hidratou o snapshot anterior
+  `30280303014-1-7003ea8af1f3`, validou 213 objetos e 107 rotas, ativou
+  atomicamente `30290619416-1-1765aebfb4ff`, passou pelos canários e não
+  removeu snapshots na retenção.
+- A reconciliação via API da Cloudflare encontrou no novo prefixo 214 chaves:
+  106 feeds, 106 históricos, um OPML e `manifest.json`. Os hashes dos 12 feeds
+  LinkedIn coincidem com os XMLs corrigidos depois da troca esperada do
+  `self-link` público pelo canônico privado. O bucket permanece Standard,
+  `r2.dev` está desabilitado e não há Custom Domain ligado diretamente ao R2.
+- Depois da ativação, os feeds privados testados anonimamente responderam
+  `401`, `workers.dev` respondeu `404`, GitHub Pages permaneceu `200` e o apex
+  continuou redirecionando `301` para `https://linktr.ee/paulofehlauer`.
+  `PRIVATE_FEED_FULL_ENABLED=true` e `PRIVATE_FEED_PILOT_ENABLED=false`
+  permanecem no escopo do repositório e ausentes do Environment.
 - Tornar somente o repositório privado não protege necessariamente um site do GitHub Pages.
 - Colocar um proxy autenticado diante do Pages sem remover a origem pública não resolve a exposição.
 

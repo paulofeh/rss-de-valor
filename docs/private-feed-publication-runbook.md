@@ -289,7 +289,36 @@ completo, qualquer mudança de data continua fatal.
 Na primeira tentativa, run `30288789576`, staging, hidratação, restauração e
 geração foram concluídos. A validação recusou as 12 diferenças de data antes
 do upload; portanto nenhum objeto foi enviado e `current.json` não foi
-alterado. O novo disparo deve ser único e novamente autorizado.
+alterado.
+
+A nova execução foi autorizada individualmente e concluída no run
+`30290619416`, de `2026-07-27T17:44:49Z` a `18:06:14Z`, usando o commit
+`1765aebf`. Ela registrou:
+
+- staging e restauração de 12 fontes e 24 objetos com o perfil
+  `linkedin-full-content-2026-07-27`;
+- hidratação de 213 objetos do snapshot anterior
+  `30280303014-1-7003ea8af1f3`;
+- geração de 106 fontes e validação de 213 objetos e 107 rotas;
+- ativação de `30290619416-1-1765aebfb4ff`;
+- canários autenticados e anônimos aprovados;
+- retenção concluída sem exclusões.
+
+Na reconciliação, a API da Cloudflare listou 214 chaves no prefixo — os 213
+objetos do manifesto mais `manifest.json` — e `current.json` foi atualizado às
+`18:00:06Z`, antes da conclusão dos canários. Os hashes dos 12 feeds no R2
+coincidiram com os XMLs corrigidos após somente substituir o `self-link` do
+Pages pelo canônico privado. O bucket continuou Standard, com `r2.dev`
+desabilitado e nenhum Custom Domain próprio.
+
+Os testes anônimos posteriores receberam `401` tanto no canário de Drauzio
+quanto em `ia_sem_hype_linkedin_feed.xml`; `workers.dev` retornou `404`, o
+Pages permaneceu `200` e o apex preservou o `301` para o Linktree. Os gates
+continuaram `PRIVATE_FEED_FULL_ENABLED=true` e
+`PRIVATE_FEED_PILOT_ENABLED=false` apenas no escopo do repositório.
+
+O reparo de 2026-07-27 está concluído. Não repetir esse perfil como rotina:
+execuções manuais normais devem deixar `repair_linkedin_baseline=false`.
 
 Para executar o reparo:
 
