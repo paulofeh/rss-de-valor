@@ -27,16 +27,18 @@ ter 109 fontes:
 - um RSS nativo mantido diretamente no provedor;
 - 217 objetos internos e 109 rotas no snapshot privado completo.
 
-O snapshot `30394804773-1-1204dfd6414d` encerrou a janela de estabilização
-posterior à migração. O Feedbin acompanha os 108 feeds gerados pelo endpoint
-privado; Juliano Spyer e Sérgio Rodrigues foram validados e suas assinaturas
-nativas foram removidas. FT Climate Capital é a única assinatura que continua
+O snapshot `30398410821-1-ed9924f6e9ad` foi publicado depois do corte,
+hidratando os 217 objetos de estado exclusivamente do snapshot privado
+anterior. O Feedbin acompanha os 108 feeds gerados pelo endpoint privado;
+Juliano Spyer e Sérgio Rodrigues foram validados e suas assinaturas nativas
+foram removidas. FT Climate Capital é a única assinatura que continua
 diretamente no provedor. As 87 assinaturas antigas que apontavam para o GitHub
 Pages já foram removidas.
 
 No corte público de 28 de julho de 2026, o workflow legado foi retirado e
 `feeds/` e `history/` deixaram de ser versionados. Esses diretórios continuam
 sendo criados localmente e hidratados do R2 durante a publicação privada. O
+GitHub Pages foi desativado, as URLs antigas deixaram de entregar XML e o
 histórico Git não foi reescrito.
 
 ## Fontes configuradas

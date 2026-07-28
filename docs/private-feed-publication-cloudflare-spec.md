@@ -1,11 +1,9 @@
 # Publicação privada de feeds com Cloudflare Worker
 
-**Status:** publicação privada completa ativa no domínio definitivo; o primeiro
-ciclo agendado depois da correção dos gates foi validado, a migração no Feedbin
-foi concluída e o enriquecimento Folha foi promovido com um reparo manual
-limitado a uma data de Martin Wolf; o corte público permanece fechado, com
-GitHub Pages preservado
-**Última revisão:** 2026-07-27
+**Status:** migração e corte público concluídos; o Worker é a única origem dos
+feeds gerados, o GitHub Pages está desativado e o estado de runtime é hidratado
+do R2 sem artefatos na árvore atual
+**Última revisão:** 2026-07-28
 **Origem:** item “Publicação privada dos feeds com compatibilidade com o Feedbin” do [`BACKLOG.md`](../BACKLOG.md)
 
 ## 1. Resumo executivo
@@ -84,8 +82,11 @@ Estado dos gates externos:
    somando 87 assinaturas privadas com o piloto de Drauzio;
 7. depois da validação inicial dos lotes, as 87 assinaturas antigas do GitHub
    Pages foram removidas do Feedbin, incluindo um órfão legado;
-8. remoção da publicação pública e do GitHub Pages continua exigindo
-   autorização adicional depois da estabilização do conjunto privado.
+8. os runs agendados `30371575582` e `30394804773` concluíram a estabilização
+   do conjunto privado sem perfis de reparo ou migração;
+9. o corte foi autorizado e executado em 2026-07-28: workflow público e
+   artefatos foram retirados da árvore atual, o GitHub Pages foi desativado e
+   uma publicação privada pós-corte confirmou a hidratação exclusiva do R2.
 
 ### 2.3 Premissas
 
@@ -1143,7 +1144,41 @@ Na sequência, o usuário cadastrou Juliano Spyer e Sérgio Rodrigues com as
 credenciais privadas existentes, validou os dois feeds no Feedbin e removeu as
 assinaturas nativas. O leitor passou a acompanhar os 108 feeds gerados pelo
 endpoint privado; FT Climate Capital é a única assinatura direta no provedor.
-O próximo gate é observar um ciclo agendado normal sem perfil de migração.
+
+A janela de estabilização foi concluída por dois runs agendados normais:
+
+- `30371575582` hidratou `30357116106-1-51f8690fec06`, validou 217 objetos e
+  109 rotas e ativou `30371575582-1-e3ff37944524`;
+- `30394804773`, já em commit descendente do ajuste do Valor
+  `e580f93f`, hidratou o snapshot anterior, validou o mesmo inventário e ativou
+  `30394804773-1-1204dfd6414d`.
+
+Os dois runs passaram pelos canários autenticados e anônimos e aplicaram
+retenção sem exclusões. A reconciliação do segundo prefixo confirmou 218
+chaves: 108 feeds, 108 históricos, OPML e manifesto. As rotas privadas de
+Juliano Spyer e Sérgio Rodrigues continuaram em `401` e `no-store` sem
+credenciais, `workers.dev` em `404`, GitHub Pages em `200` e o apex em `301`
+para o Linktree. Os gates permaneceram full habilitado e piloto desabilitado.
+
+O segundo ciclo registrou `404` no RSS do Bloomberg Green, `404` na página de
+Fernando Reinach e respostas `429` durante enriquecimentos do LinkedIn. A
+proteção contra regressão preservou os feeds anteriores e o snapshot completo
+foi publicado; os avisos permanecem como observação operacional, não como
+objetos ausentes.
+
+Com autorização explícita, o corte foi concluído em 2026-07-28 pelo commit
+`ed9924f6`. O run manual pós-corte `30398410821` hidratou os 217 objetos de
+`30394804773-1-1204dfd6414d`, sem perfil de reparo ou migração, validou 217
+objetos e 109 rotas e ativou `30398410821-1-ed9924f6e9ad`. A API do R2
+confirmou 218 chaves no prefixo: 108 feeds, 108 históricos, OPML e manifesto.
+Canários autenticados e anônimos e retenção terminaram com sucesso.
+
+Depois da ativação, o GitHub Pages foi desativado pela API. A configuração do
+site, a URL legada do feed e o arquivo correspondente em `main` passaram a
+retornar `404`; o domínio privado permaneceu em `401` e `no-store` sem
+credenciais, `workers.dev` em `404` e o apex em `301` para o Linktree. Os
+gates permaneceram full habilitado e piloto desabilitado. O histórico Git não
+foi reescrito.
 
 O piloto só termina depois de uma atualização automática, não apenas de uma
 requisição manual bem-sucedida.
@@ -1256,23 +1291,22 @@ Execução agendada bem-sucedida em 2026-07-27:
   piloto.~~
 - ~~Remover do Feedbin as 87 assinaturas antigas do GitHub Pages depois da
   conferência dos lotes.~~
-- Observar a estabilização do conjunto privado; a atualização automática
-  autenticada já foi comprovada no piloto, enquanto os demais lotes têm
-  confirmação manual inicial do usuário.
-- Obter autorização adicional para o corte público.
-- Interromper commits de `feeds/` e `history/`.
-- Reduzir a permissão do workflow para `contents: read`.
-- Remover os artefatos atuais da árvore pública.
-- Desativar GitHub Pages.
-- Confirmar que as URLs antigas não entregam XML.
+- ~~Observar a estabilização do conjunto privado em dois ciclos agendados sem
+  perfis de reparo ou migração.~~
+- ~~Obter autorização adicional para o corte público.~~
+- ~~Interromper commits de `feeds/` e `history/`.~~
+- ~~Reduzir a permissão do workflow para `contents: read`.~~
+- ~~Remover os artefatos atuais da árvore pública.~~
+- ~~Desativar GitHub Pages.~~
+- ~~Confirmar que as URLs antigas não entregam XML.~~
 - ~~Atualizar README e documentação operacional para registrar a migração
   concluída e a contingência pública ainda ativa.~~
-- Depois do corte, retirar dos documentos o aviso de contingência e registrar
-  a validação das URLs antigas.
+- ~~Depois do corte, retirar dos documentos o aviso de contingência e registrar
+  a validação das URLs antigas.~~
 
 ### Fase 15 — pós-migração
 
-- Observar ao menos dois ciclos agendados.
+- ~~Observar ao menos dois ciclos agendados.~~
 - Confirmar retenção e rollback.
 - Fazer uma rotação documentada de credencial em ambiente real.
 - Decidir separadamente sobre o histórico Git.
@@ -1383,7 +1417,7 @@ Execução agendada bem-sucedida em 2026-07-27:
   público no Pages em `200` e o domínio principal em `301` para o Linktree;
 - os valores de secrets apareceram mascarados como `***` no log, e os
   validadores de artefatos não detectaram secrets;
-- GitHub Pages e a publicação pública continuam ativos.
+- Naquele ponto, GitHub Pages e a publicação pública ainda estavam ativos.
 - Em 2026-07-26, quatro disparos `schedule` do workflow completo terminaram
   como `skipped` por escopo incorreto da variable de gate; não houve hidratação,
   upload, ativação, canário nem retenção.
@@ -1413,14 +1447,14 @@ Execução agendada bem-sucedida em 2026-07-27:
 
 A implementação só pode ser considerada concluída quando:
 
-- [ ] O Worker é a única origem dos feeds gerados.
+- [x] O Worker é a única origem dos feeds gerados.
 - [x] O bucket R2 não tem acesso público alternativo.
 - [x] Requisições anônimas recebem `401` sem metadados do feed.
 - [x] Requisições autenticadas recebem XML válido e cabeçalhos corretos.
 - [x] O Feedbin executou ao menos uma atualização automática autenticada.
 - [x] As 86 assinaturas públicas atuais foram recriadas com URLs privadas.
 - [x] As 87 assinaturas antigas do GitHub Pages foram removidas do Feedbin.
-- [ ] O conjunto migrado atravessou a janela de estabilização anterior ao
+- [x] O conjunto migrado atravessou a janela de estabilização anterior ao
   corte público.
 - [x] O pipeline hidratou estado, publicou snapshot e ativou ponteiro.
 - [x] Um ciclo agendado completo terminou com sucesso.
@@ -1428,17 +1462,17 @@ A implementação só pode ser considerada concluída quando:
 - [ ] Um rollback foi testado.
 - [x] A proteção contra downgrade de conteúdo foi validada.
 - [x] Nenhum segredo apareceu no Git ou nos logs.
-- [ ] OPML e índice não expõem o inventário publicamente.
+- [x] OPML e índice não expõem o inventário publicamente.
 - [x] `feeds.paulofehlauer.com` é o domínio definitivo dos feeds.
 - [x] `paulofehlauer.com` continua redirecionando corretamente para o Linktree.
 - [x] Nenhuma URL definitiva de feed usa `fehla.xyz` ou `workers.dev`.
-- [ ] O workflow não tem mais permissão de escrita no repositório.
-- [ ] `feeds/` e `history/` não são mais commitados publicamente.
-- [ ] O GitHub Pages foi desativado.
-- [ ] As URLs públicas antigas não entregam XML.
+- [x] O workflow não tem mais permissão de escrita no repositório.
+- [x] `feeds/` e `history/` não são mais commitados publicamente.
+- [x] O GitHub Pages foi desativado.
+- [x] As URLs públicas antigas não entregam XML.
 - [x] Existe procedimento testado de rotação.
-- [ ] Existem pelo menos 28 snapshots ou a retenção aprovada.
-- [x] README e runbook refletem a operação real antes do gate de corte.
+- [x] A retenção aprovada de 28 snapshots foi aplicada nos ciclos agendados.
+- [x] README e runbook refletem a operação real depois do corte.
 
 ## 19. Estrutura implementada
 
@@ -1510,12 +1544,13 @@ Mudanças aplicadas no projeto existente:
     GitHub Pages.~~
 15. ~~Validar Juliano Spyer e Sérgio Rodrigues no Feedbin e remover as versões
     nativas somente depois da conferência.~~
-16. Observar um ciclo agendado normal sem perfil de migração e a estabilização;
-    depois, obter autorização adicional para o corte público.
+16. ~~Observar dois ciclos agendados normais sem perfil de migração e concluir
+    a estabilização.~~
+17. ~~Obter autorização adicional e concluir o corte público sem reescrever o
+    histórico Git.~~
 
 Cada fase deve terminar com evidência verificável antes de avançar para a
-seguinte. Nenhuma fase autoriza automaticamente a remoção da publicação pública
-ou a reescrita do histórico Git.
+seguinte. O corte concluído não autoriza reescrita do histórico Git.
 
 ## 21. Referências externas
 

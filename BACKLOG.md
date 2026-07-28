@@ -2,10 +2,9 @@
 
 ## Publicação privada dos feeds com compatibilidade com o Feedbin
 
-**Status:** publicação privada completa ativa no domínio definitivo; os 108
-feeds gerados estão validados no Feedbin e somente FT Climate Capital permanece
-diretamente no provedor; o corte da publicação pública permanece sujeito a um
-gate separado
+**Status:** migração e corte público concluídos; os 108 feeds gerados são
+servidos apenas pelo endpoint privado, o GitHub Pages está desativado e somente
+FT Climate Capital permanece diretamente no provedor
 **Prioridade:** antes de ampliar a publicação de feeds com conteúdo integral
 **Registrado em:** 2026-07-20
 **Especificação detalhada:** [`docs/private-feed-publication-cloudflare-spec.md`](docs/private-feed-publication-cloudflare-spec.md)
@@ -20,12 +19,14 @@ Privatizar a entrega reduz a exposição e reforça o caráter de uso pessoal, m
 
 ### Situação atual
 
-- Os XMLs gerados são commitados em `feeds/` pelo GitHub Actions.
-- O repositório é público, portanto os XMLs também ficam acessíveis diretamente pelo GitHub e pelo histórico do repositório.
-- Os feeds são publicados sem autenticação pelo GitHub Pages.
-- Em paralelo, os 108 feeds gerados e o OPML estão publicados de forma privada
-  em `https://feeds.paulofehlauer.com`, com Basic Auth e R2 privado.
-- O snapshot completo ativo é `30357116106-1-51f8690fec06`, com 217 objetos
+- Os 108 feeds gerados e o OPML são publicados somente em
+  `https://feeds.paulofehlauer.com`, com Basic Auth e R2 privado.
+- O workflow público foi removido; `feeds/` e `history/` são estado de runtime
+  ignorado pelo Git e hidratado do R2 antes da coleta.
+- O GitHub Pages está desativado e as URLs antigas não entregam XML. Os
+  artefatos continuam recuperáveis nos commits anteriores porque o histórico
+  Git não foi reescrito.
+- O snapshot completo ativo é `30398410821-1-ed9924f6e9ad`, com 217 objetos
   internos e 109 rotas privadas.
 - O Feedbin confirmou atualização automática autenticada no domínio definitivo,
   com revalidação condicional `304`.
@@ -276,13 +277,30 @@ corte e publicar os XMLs apenas no endpoint autenticado.
 - **Concluído em 2026-07-28:** Juliano Spyer e Sérgio Rodrigues foram
   validados no Feedbin e suas assinaturas nativas foram removidas; o leitor
   agora acompanha os 108 feeds gerados pelo endpoint privado.
-- **Próximo gate:** observar um ciclo agendado normal sem perfil de migração.
-- **Gate posterior:** depois da estabilização, obter autorização explícita
-  adicional antes de interromper commits públicos, remover artefatos ou
-  desligar o GitHub Pages.
-- **Preservado:** GitHub Pages, `feeds/`, `history/` e o workflow público
-  continuam ativos como contingência; a limpeza no Feedbin não autorizou o
-  corte da origem pública.
+- **Concluído em 2026-07-28:** a janela de estabilização atravessou dois ciclos
+  agendados normais, `30371575582` e `30394804773`, sem perfil de reparo ou
+  migração. Eles hidrataram sucessivamente os snapshots anteriores, validaram
+  217 objetos e 109 rotas, ativaram
+  `30371575582-1-e3ff37944524` e
+  `30394804773-1-1204dfd6414d`, passaram pelos canários e aplicaram retenção
+  sem exclusões.
+- **Observação operacional:** o segundo ciclo preservou os feeds anteriores
+  diante de `404` no RSS do Bloomberg Green, `404` na página de Fernando
+  Reinach e respostas `429` durante enriquecimentos do LinkedIn. A validação
+  integral do snapshot e os canários continuaram aprovados.
+- **Concluído em 2026-07-28:** a autorização explícita de corte foi executada
+  no commit `ed9924f6`: o workflow público foi removido, `feeds/` e `history/`
+  saíram da árvore atual e passaram a ser ignorados, e o GitHub Pages foi
+  desativado sem reescrever o histórico.
+- **Validado em 2026-07-28:** o run manual pós-corte `30398410821` hidratou os
+  217 objetos de `30394804773-1-1204dfd6414d`, validou 217 objetos e 109
+  rotas e ativou `30398410821-1-ed9924f6e9ad`. O prefixo contém 218 chaves:
+  108 feeds, 108 históricos, OPML e manifesto. Canários e retenção passaram.
+- **Reconciliação final:** domínio privado em `401` e `no-store` sem
+  credenciais, `workers.dev` em `404`, Pages e arquivo bruto da árvore atual
+  em `404`, apex em `301` para o Linktree, `full=true` e `pilot=false`.
+- **Próximo gate:** observar os próximos ciclos agendados pós-corte e manter
+  rollback, retenção e rotação sob acompanhamento operacional.
 - Reescrita de histórico continua fora de escopo.
 
 ### Fora de escopo dos próximos gates

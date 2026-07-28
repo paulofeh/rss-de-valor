@@ -3,14 +3,15 @@
 **Estado em 2026-07-28:** bucket R2 Standard privado, Worker, DNS, Custom
 Domain `feeds.paulofehlauer.com` e ambiente GitHub estão operacionais sem
 exposição de secrets. O snapshot completo
-`30357116106-1-51f8690fec06` está ativo com 217 objetos internos e 109 rotas
+`30398410821-1-ed9924f6e9ad` está ativo com 217 objetos internos e 109 rotas
 privadas. Juliano Spyer e Sérgio Rodrigues foram publicados pelo perfil manual
 fixo, que foi consumido e não pode ser reutilizado. Canários autenticados e
 anônimos passaram; `workers.dev` permanece desabilitado e o apex continua
 redirecionando ao Linktree. O Feedbin acompanha os 108 feeds gerados pelo
 endpoint privado; Juliano e Sérgio foram validados e suas assinaturas nativas
 foram removidas. FT Climate Capital é a única assinatura direta no provedor.
-GitHub Pages e a publicação pública continuam ativos até um gate separado.
+O workflow público foi removido, os artefatos saíram da árvore atual e o GitHub
+Pages está desativado.
 
 Este runbook complementa a
 [especificação](private-feed-publication-cloudflare-spec.md). Ele não autoriza
@@ -33,15 +34,16 @@ removidos. A exigência de observar um ciclo completo sem substituí-lo por uma
 reexecução manual foi satisfeita pelo run agendado `30237068708` em
 2026-07-27.
 
-A migração das demais assinaturas foi autorizada e concluída em 2026-07-27.
-Ainda é necessária autorização explícita separada para interromper os commits
-públicos, remover o GitHub Pages e executar o corte.
+A migração das demais assinaturas foi autorizada e concluída em 2026-07-27. O
+corte público recebeu autorização explícita separada e foi concluído em
+2026-07-28, sem reescrita do histórico Git.
 
 O gate de espera foi satisfeito por uma atualização automática do Feedbin. Em
 futuras rotações, continuar exigindo essa evidência e não avançar apenas porque
-uma requisição manual funcionou. Para o conjunto recém-migrado, a confirmação
-inicial foi manual; observar uma janela de estabilização antes do gate de
-corte.
+uma requisição manual funcionou. A janela de estabilização posterior à migração
+foi satisfeita pelos runs agendados `30371575582` e `30394804773`, ambos sem
+perfil de reparo ou migração. O run manual pós-corte `30398410821` comprovou
+que o estado é hidratado exclusivamente do snapshot privado.
 
 ## 2. Modelo implementado
 
@@ -742,10 +744,27 @@ agendada.
   privado, `404` em `workers.dev`, `200` no GitHub Pages e destino final
   `https://linktr.ee/paulofehlauer` no apex.
 
-O próximo gate é observar um ciclo agendado normal sem o perfil de migração. A
-estabilização e a autorização explícita para o corte continuam sendo gates
-separados; a migração das assinaturas não inclui nem autoriza desligar o
-GitHub Pages.
+Os runs agendados `30371575582` e `30394804773` atravessaram a janela de
+estabilização sem perfil de reparo ou migração. O primeiro hidratou
+`30357116106-1-51f8690fec06` e ativou
+`30371575582-1-e3ff37944524`; o segundo hidratou esse snapshot e ativou
+`30394804773-1-1204dfd6414d`. Cada ciclo validou 217 objetos e 109 rotas,
+passou pelos canários autenticados e anônimos e aplicou retenção sem exclusões.
+A API do R2 confirmou 218 chaves no segundo prefixo: 108 feeds, 108 históricos,
+OPML e manifesto.
+
+O segundo ciclo registrou `404` no RSS do Bloomberg Green, `404` na página de
+Fernando Reinach e respostas `429` durante enriquecimentos do LinkedIn. A
+proteção contra regressão preservou o conteúdo anterior e o snapshot completo
+foi validado e publicado. Esses avisos devem continuar sob observação, mas não
+deixaram objetos ou rotas ausentes.
+
+Com a estabilização concluída, o corte autorizado foi aplicado no commit
+`ed9924f6`. O run pós-corte `30398410821` hidratou 217 objetos de
+`30394804773-1-1204dfd6414d`, sem perfil de reparo ou migração, validou 217
+objetos e 109 rotas e ativou `30398410821-1-ed9924f6e9ad`. Canários e retenção
+passaram. A API do R2 confirmou 218 chaves: 108 feeds, 108 históricos, OPML e
+manifesto.
 
 O `wrangler.jsonc` local não declara rotas porque o Custom Domain é gerenciado
 no painel da Cloudflare. Ele fixa `workers_dev=false`, evitando que um deploy
@@ -754,25 +773,22 @@ na configuração remota.
 
 ## 12. Corte da publicação pública
 
-O corte é um gate independente. Até ele:
+O corte foi executado em 2026-07-28 depois da autorização explícita:
 
-- `.github/workflows/workflow.yml` continua publicando no Git;
-- GitHub Pages continua ativo;
-- `feeds/` e `history/` permanecem versionados;
-- o README identifica a origem pública como contingência, não como destino
-  canônico para novas assinaturas.
+1. `.github/workflows/workflow.yml` foi removido;
+2. `feeds/` e `history/` saíram da árvore atual e passaram a ser ignorados;
+3. o workflow privado permaneceu com `contents: read`;
+4. o commit `ed9924f6` foi enviado para `main`;
+5. o run `30398410821` publicou e ativou o snapshot privado pós-corte;
+6. somente depois dos canários, o GitHub Pages foi desativado pela API;
+7. a configuração Pages, a URL pública legada e o arquivo bruto em `main`
+   retornaram `404`;
+8. o endpoint privado permaneceu `401` e `no-store` sem credenciais,
+   `workers.dev` permaneceu `404` e o apex preservou o `301` para o Linktree.
 
-Somente depois da confirmação de todas as assinaturas privadas:
-
-1. parar os commits de artefatos;
-2. reduzir o workflow remanescente para `contents: read`;
-3. remover artefatos da árvore pública;
-4. desligar GitHub Pages;
-5. confirmar que as URLs antigas não entregam XML;
-6. remover do README o aviso de contingência e registrar a evidência final
-   neste runbook.
-
-Reescrita de histórico não faz parte desse corte.
+O histórico Git não foi reescrito. Para reversão, restaurar os arquivos pelo
+revert de `ed9924f6` e só então recriar o Pages apontando para `main` e `/`;
+isso exige nova autorização explícita.
 
 ## 13. Diagnóstico e recuperação
 

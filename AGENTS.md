@@ -24,8 +24,8 @@ The `clima` group also feeds an automated climate-risk digest.
 Current production inventory as of 2026-07-28: 109 configured sources, 108
 generated feeds, one direct `ExistingRssScraper` source, 217 internal snapshot
 objects, and 109 authenticated private routes. R2 snapshot
-`30394804773-1-1204dfd6414d` completed the two-cycle stabilization window
-after the fixed Folha source migration.
+`30398410821-1-ed9924f6e9ad` was published successfully after the public-cut
+commit, hydrating all runtime state from the previous private snapshot.
 
 ## Safety and Authorization Gates
 
