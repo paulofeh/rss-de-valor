@@ -49,12 +49,17 @@ class PrivateWorkflowTest(unittest.TestCase):
         self.assertIn("inputs.confirm_full_publication == true", publication)
         self.assertIn("repair_linkedin_baseline:", publication)
         self.assertIn("repair_martin_wolf_pubdate:", publication)
+        self.assertIn("migrate_folha_juliano_sergio:", publication)
         self.assertIn(
             "inputs.repair_linkedin_baseline == true",
             publication,
         )
         self.assertIn(
             "inputs.repair_martin_wolf_pubdate == true",
+            publication,
+        )
+        self.assertIn(
+            "inputs.migrate_folha_juliano_sergio == true",
             publication,
         )
         self.assertIn(
@@ -71,6 +76,14 @@ class PrivateWorkflowTest(unittest.TestCase):
         )
         self.assertIn(
             "--baseline-repair-profile",
+            publication,
+        )
+        self.assertIn(
+            "--missing-object-profile",
+            publication,
+        )
+        self.assertIn(
+            "folha-juliano-sergio-2026-07-27",
             publication,
         )
         self.assertIn(
@@ -149,7 +162,7 @@ class PrivateWorkflowTest(unittest.TestCase):
             publication,
         )
         self.assertIn(
-            "repair profiles are mutually exclusive",
+            "repair and migration profiles are mutually exclusive",
             publication,
         )
 

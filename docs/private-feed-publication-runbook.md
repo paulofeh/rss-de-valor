@@ -72,10 +72,11 @@ corte.
   identificadas pelo release correspondente.
 - A retenção mantém 28 snapshots e protege o ativo e o imediatamente anterior.
 
-Com a configuração atual, a allowlist deriva 106 feeds gerados, 106 históricos
-e um OPML: 213 objetos internos. Os dois `ExistingRssScraper` continuam
-apontando diretamente para seus provedores. XMLs agregados ou órfãos presentes
-no disco não entram no snapshot.
+O snapshot ativo anterior deriva 106 feeds, 106 históricos e um OPML: 213
+objetos internos. A configuração candidata deriva 108 feeds, 108 históricos e
+um OPML: 217 objetos internos e 109 rotas. O único `ExistingRssScraper`
+restante é FT Climate Capital. XMLs agregados ou órfãos presentes no disco não
+entram no snapshot.
 
 ## 3. Verificação local
 
@@ -410,8 +411,80 @@ O usuário cadastrou o feed privado de Martin Wolf no Feedbin, confirmou autoria
 e conteúdo completos e removeu a assinatura nativa. O gate autenticado está
 concluído. Restam 18 assinaturas nativas da Folha no lote atual; cadastrar cada
 URL privada com o mesmo par de credenciais e remover a origem nativa somente
-depois da validação individual. Juliano Spyer e Sérgio Rodrigues continuam
-adiados e não pertencem a esse lote.
+depois da validação individual. Juliano Spyer e Sérgio Rodrigues ficaram
+adiados e não pertenciam àquele lote.
+
+As 18 migrações restantes foram concluídas pelo usuário e as versões nativas
+correspondentes foram removidas. O estado esperado no Feedbin é agora:
+
+- 106 feeds gerados em `https://feeds.paulofehlauer.com`;
+- FT Climate Capital, Juliano Spyer e Sérgio Rodrigues diretamente nos
+  provedores;
+- nenhuma assinatura nativa remanescente para os 19 feeds Folha migrados.
+
+Essa observação terminou com sucesso em 2026-07-28 no run agendado
+`30327075108`, no commit automático `365187247398`, descendente de
+`9a0133e0`. Sem perfil de reparo ou migração, o job hidratou
+`30305737638-1-70c4243cc7a9` e concluiu geração, validação, ativação, canários
+e retenção. A reconciliação do R2 confirmou `current.json` apontando para
+`30327075108-1-365187247398` e 214 chaves Standard: 106 feeds, 106
+históricos, OPML e `manifest.json`, equivalentes aos 213 objetos internos e
+107 rotas.
+
+Os checks anônimos permaneceram `401`/`no-store` no endpoint privado, `404`
+em `workers.dev`, `200` no Pages e `301` do apex para o Linktree. O job full
+agendado executou e o piloto agendado no mesmo commit foi ignorado,
+confirmando operacionalmente full habilitado e piloto desabilitado. Como o
+download integral do log exigia autenticação administrativa indisponível, o
+registro usa os estados seguros das etapas do GitHub e a reconciliação
+independente do R2.
+
+### 7.5 Migração de Juliano Spyer e Sérgio Rodrigues
+
+A investigação de 2026-07-27 confirmou que o RSS de Juliano está congelado em
+15/12/2025, embora a página da coluna tenha artigo em 27/07/2026. Sérgio
+Rodrigues tem RSS ativo. O candidato usa `FolhaScraper` para Juliano e
+`FolhaRssFullContentScraper` para Sérgio; os dois artefatos locais têm dez
+itens, autoria explícita, conteúdo integral, GUIDs iguais às URLs e self-links
+canônicos.
+
+O snapshot ativo não possui:
+
+- `feeds/juliano_spyer_feed.xml`;
+- `history/juliano_spyer_history.json`;
+- `feeds/sergio_rodrigues_feed.xml`;
+- `history/sergio_rodrigues_history.json`.
+
+A primeira publicação exige uma execução manual de `Private feed publication`
+com:
+
+- `confirm_full_publication=true`;
+- `migrate_folha_juliano_sergio=true`;
+- `repair_linkedin_baseline=false`;
+- `repair_martin_wolf_pubdate=false`.
+
+O perfil interno `folha-juliano-sergio-2026-07-27` valida esses quatro objetos
+antes de qualquer substituição local. A hidratação deve relatar 217 objetos,
+quatro semeados localmente e o snapshot ativo anterior como origem dos outros
+213. Depois da geração, o manifesto deve ter 217 objetos e 109 rotas. Upload,
+releitura do ponteiro, ativação, canários e retenção continuam inalterados.
+O seed aceita self-link canônico ou o endereço legado exato do Pages, porque o
+workflow público pode atualizar o checkout antes da migração; `main.py` deve
+normalizar ambos para o domínio privado, e a validação final continua recusando
+Pages.
+
+Não reutilizar o perfil: depois da ativação, ele falha porque o conjunto exato
+de objetos ausentes deixa de existir. Os ciclos agendados seguintes devem usar
+hidratação normal, sem perfil.
+
+Somente depois de validar os dois XMLs autenticados no Worker, cadastrar no
+Feedbin:
+
+- `https://feeds.paulofehlauer.com/feeds/juliano_spyer_feed.xml`;
+- `https://feeds.paulofehlauer.com/feeds/sergio_rodrigues_feed.xml`.
+
+Remover as duas assinaturas nativas apenas depois de confirmar título, autor,
+conteúdo e atualização. FT Climate Capital permanece upstream.
 
 ## 8. Rollback
 
@@ -428,9 +501,10 @@ Pelo GitHub:
 
 O workflow **Private feed rollback** exige `--required-mode full`. Isso impede
 que um rollback manual depois da ampliação reduza inadvertidamente a superfície
-de 107 rotas para o único feed do piloto. Antes do primeiro snapshot `full`, uma
-falha de publicação preserva o ponteiro piloto; uma falha de canário depois da
-ativação restaura esse ponteiro automaticamente.
+completa — 107 rotas no snapshot anterior e 109 no candidato — para o único
+feed do piloto. Antes do primeiro snapshot `full`, uma falha de publicação
+preserva o ponteiro piloto; uma falha de canário depois da ativação restaura
+esse ponteiro automaticamente.
 
 Se o canário do destino falhar, o script restaura o ponteiro original e testa o
 snapshot restaurado. Não apagar o snapshot defeituoso antes de investigar.
@@ -722,7 +796,7 @@ diagnóstico.
 
 Na configuração atual, uma publicação grava aproximadamente:
 
-- 213 objetos internos;
+- 217 objetos internos;
 - um manifesto;
 - um ponteiro.
 

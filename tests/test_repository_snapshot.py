@@ -60,10 +60,10 @@ class RepositorySnapshotIntegrationTest(unittest.TestCase):
             path.name for path in (REPO_ROOT / "feeds").glob("*.xml")
         }
 
-        self.assertEqual(len(inventory.generated_feed_files), 106)
-        self.assertEqual(len(inventory.generated_history_files), 106)
-        self.assertEqual(len(inventory.native_sources), 2)
-        self.assertEqual(len(specs), 213)
+        self.assertEqual(len(inventory.generated_feed_files), 108)
+        self.assertEqual(len(inventory.generated_history_files), 108)
+        self.assertEqual(len(inventory.native_sources), 1)
+        self.assertEqual(len(specs), 217)
         self.assertEqual(disk_xml - configured_xml, EXPECTED_EXTRA_XML)
 
         with tempfile.TemporaryDirectory(
@@ -145,9 +145,9 @@ class RepositorySnapshotIntegrationTest(unittest.TestCase):
                 revision="test-revision",
             )
 
-            self.assertEqual(report.generated_feeds, 106)
-            self.assertEqual(manifest["counts"]["objects"], 213)
-            self.assertEqual(manifest["counts"]["routes"], 107)
+            self.assertEqual(report.generated_feeds, 108)
+            self.assertEqual(manifest["counts"]["objects"], 217)
+            self.assertEqual(manifest["counts"]["routes"], 109)
             self.assertTrue((snapshot / "manifest.json").is_file())
 
             baseline = root / ".private-feed-state" / "baseline"
@@ -195,9 +195,9 @@ class RepositorySnapshotIntegrationTest(unittest.TestCase):
                 baseline_repair_profile=PROFILE_NAME,
             )
 
-            self.assertEqual(repair_report.generated_feeds, 106)
-            self.assertEqual(repair_manifest["counts"]["objects"], 213)
-            self.assertEqual(repair_manifest["counts"]["routes"], 107)
+            self.assertEqual(repair_report.generated_feeds, 108)
+            self.assertEqual(repair_manifest["counts"]["objects"], 217)
+            self.assertEqual(repair_manifest["counts"]["routes"], 109)
             self.assertTrue((repair_snapshot / "manifest.json").is_file())
 
             martin_baseline = (
@@ -251,9 +251,9 @@ class RepositorySnapshotIntegrationTest(unittest.TestCase):
                 baseline_repair_profile=MARTIN_WOLF_REPAIR_PROFILE_NAME,
             )
 
-            self.assertEqual(martin_report.generated_feeds, 106)
-            self.assertEqual(martin_manifest["counts"]["objects"], 213)
-            self.assertEqual(martin_manifest["counts"]["routes"], 107)
+            self.assertEqual(martin_report.generated_feeds, 108)
+            self.assertEqual(martin_manifest["counts"]["objects"], 217)
+            self.assertEqual(martin_manifest["counts"]["routes"], 109)
             self.assertTrue(
                 (martin_snapshot / "manifest.json").is_file()
             )

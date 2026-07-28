@@ -20,6 +20,11 @@ on:
         required: true
         default: false
         type: boolean
+      migrate_folha_juliano_sergio:
+        description: Seed the exact one-time Juliano Spyer and Sérgio Rodrigues source migration
+        required: true
+        default: false
+        type: boolean
 
 concurrency:
   group: private-feed-r2-publication
@@ -78,11 +83,15 @@ jobs:
         env:
           REPAIR_LINKEDIN: ${{ inputs.repair_linkedin_baseline }}
           REPAIR_MARTIN_WOLF: ${{ inputs.repair_martin_wolf_pubdate }}
+          MIGRATE_FOLHA: ${{ inputs.migrate_folha_juliano_sergio }}
         run: |
           set -euo pipefail
           if [[ "$REPAIR_LINKEDIN" == "true" &&
-                "$REPAIR_MARTIN_WOLF" == "true" ]]; then
-            echo "::error::repair profiles are mutually exclusive"
+                ( "$REPAIR_MARTIN_WOLF" == "true" ||
+                  "$MIGRATE_FOLHA" == "true" ) ]] ||
+             [[ "$REPAIR_MARTIN_WOLF" == "true" &&
+                "$MIGRATE_FOLHA" == "true" ]]; then
+            echo "::error::repair and migration profiles are mutually exclusive"
             exit 1
           fi
 
@@ -99,7 +108,20 @@ jobs:
         env:
           R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
           R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
-        run: python scripts/hydrate_private_state.py
+          MISSING_OBJECT_PROFILE: >-
+            ${{ github.event_name == 'workflow_dispatch' &&
+                inputs.migrate_folha_juliano_sergio == true &&
+                'folha-juliano-sergio-2026-07-27' || '' }}
+        run: |
+          set -euo pipefail
+          migration_args=()
+          if [[ -n "$MISSING_OBJECT_PROFILE" ]]; then
+            migration_args+=(
+              --missing-object-profile
+              "$MISSING_OBJECT_PROFILE"
+            )
+          fi
+          python scripts/hydrate_private_state.py "${migration_args[@]}"
 
       - name: Restore the approved LinkedIn repair baseline
         if: >-
@@ -180,4 +202,5 @@ jobs:
             echo "- Canary feed: \`/feeds/$CANARY_FEED_FILE\`"
             echo "- LinkedIn baseline repair: \`${{ github.event_name == 'workflow_dispatch' && inputs.repair_linkedin_baseline == true }}\`"
             echo "- Martin Wolf publication-date repair: \`${{ github.event_name == 'workflow_dispatch' && inputs.repair_martin_wolf_pubdate == true }}\`"
+            echo "- Folha source migration: \`${{ github.event_name == 'workflow_dispatch' && inputs.migrate_folha_juliano_sergio == true }}\`"
           } >> "$GITHUB_STEP_SUMMARY"

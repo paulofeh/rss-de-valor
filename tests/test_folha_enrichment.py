@@ -139,6 +139,66 @@ class FolhaPageEnrichmentTest(unittest.TestCase):
 
 
 class FolhaRssConfigurationTest(unittest.TestCase):
+    def test_juliano_spyer_uses_page_scraper_because_rss_is_stale(self) -> None:
+        source = next(
+            source
+            for source in load_sources_config()
+            if source["name"] == "Juliano Spyer"
+        )
+
+        self.assertEqual(
+            source["url"],
+            "https://www1.folha.uol.com.br/colunas/juliano-spyer/",
+        )
+        self.assertEqual(source["scraper"], "FolhaScraper")
+        self.assertEqual(source["feed_file"], "juliano_spyer_feed.xml")
+
+    def test_sergio_rodrigues_uses_native_rss_with_full_content(self) -> None:
+        source = next(
+            source
+            for source in load_sources_config()
+            if source["name"] == "Sérgio Rodrigues"
+        )
+
+        self.assertEqual(
+            source["url"],
+            (
+                "https://feeds.folha.uol.com.br/colunas/"
+                "sergio-rodrigues/rss091.xml"
+            ),
+        )
+        self.assertEqual(source["scraper"], "FolhaRssFullContentScraper")
+        self.assertEqual(source["feed_file"], "sergio_rodrigues_feed.xml")
+
+    def test_sergio_rodrigues_rss_gets_author_fallback(self) -> None:
+        item = ET.fromstring(
+            """
+            <item>
+              <title>Artigo de teste</title>
+              <link>https://www1.folha.uol.com.br/colunas/sergio-rodrigues/2026/07/artigo.shtml</link>
+              <description>Resumo</description>
+              <pubDate>Wed, 22 Jul 2026 23:43:00 +0000</pubDate>
+            </item>
+            """
+        )
+        scraper = FolhaRssFullContentScraper(
+            (
+                "https://feeds.folha.uol.com.br/colunas/"
+                "sergio-rodrigues/rss091.xml"
+            )
+        )
+
+        with patch.object(
+            scraper,
+            "_fetch_article_content",
+            return_value="<p>Conteúdo integral</p>",
+        ):
+            article = scraper._parse_item(item)
+
+        self.assertEqual(article["author"], "Sérgio Rodrigues")
+        self.assertEqual(article["description"], "<p>Conteúdo integral</p>")
+        self.assertIs(article["_enrichment_failed"], False)
+
     def test_martin_wolf_uses_native_rss_with_full_content(self) -> None:
         source = next(
             source

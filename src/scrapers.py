@@ -194,6 +194,7 @@ class FolhaRssFullContentScraper(ExistingRssScraper):
         'ronaldolemos': 'Ronaldo Lemos',
         'rodrigo-zeidan': 'Rodrigo Zeidan',
         'samuelpessoa': 'Samuel Pessoa',
+        'sergio-rodrigues': 'Sérgio Rodrigues',
         'tatibernardi': 'Tati Bernardi',
         'vera-iaconelli': 'Vera Iaconelli',
         'wilson-gomes': 'Wilson Gomes',

@@ -20,9 +20,11 @@ The public GitHub Pages workflow, `feeds/`, and `history/` are still present as
 a temporary contingency. They may only be removed at the explicit public-cut
 gate. The `clima` group also feeds an automated climate-risk digest.
 
-Current inventory as of 2026-07-27: 108 configured sources, 106 generated
-feeds, two direct `ExistingRssScraper` sources, 213 internal snapshot objects,
-and 107 authenticated private routes.
+Current candidate inventory as of 2026-07-27: 109 configured sources, 108
+generated feeds, one direct `ExistingRssScraper` source, 217 internal snapshot
+objects, and 109 authenticated private routes. The active R2 snapshot can
+remain at the preceding 213-object inventory until the fixed Folha source
+migration is explicitly published.
 
 ## Safety and Authorization Gates
 
@@ -100,8 +102,8 @@ includes configured generated sources, excludes `ExistingRssScraper`, publishes
 the private OPML, rejects aggregate feeds, and disables the private HTML index.
 
 **`scripts/`** implements hydration, manifest construction, validation,
-publication, rollback, and the explicitly gated LinkedIn baseline repair. R2
-operations use its S3-compatible API.
+publication, rollback, the explicitly gated LinkedIn baseline repair, and the
+fixed Folha source migration. R2 operations use its S3-compatible API.
 
 **`worker/`** contains the TypeScript Worker. Authentication happens before
 method/path resolution. The Worker serves only manifest routes from the active
@@ -115,6 +117,9 @@ publisher. It uses `contents: read`, canonical `FEED_BASE_URL`, and the shared
 Its named validator profile may correct a synthetic publication date only
 when the same allowlisted item moves from both fallback author and short
 content to a known author and complete content.
+The one-time `folha-juliano-sergio-2026-07-27` missing-object profile is also
+manual-only, restricted to four validated local seed objects, and must be
+omitted after its successful activation.
 
 **`.github/workflows/private-feed-pilot.yml`** is retained for controlled
 diagnostics but its repository-level gate normally remains `false`.
@@ -162,6 +167,9 @@ do not re-add a YouTube feed without a new decision.
 - Preserve existing feed content on transient scraper/enrichment failures.
   `main.py` applies anti-downgrade merging to LinkedIn newsletters, Folha
   full-content RSS, and Valor/O Globo.
+- Normal hydration fails on every missing configured object. The fixed Folha
+  source-migration profile is the only current exception and must observe its
+  exact four-object set.
 - Normalize self-links after every scraper run, including preserved feeds.
 - Existing RSS sources must keep upstream URLs in OPML.
 - A publication must validate every object before activation; partial

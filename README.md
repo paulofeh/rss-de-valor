@@ -21,15 +21,17 @@ A publicação canônica é privada:
 - suporte a `GET`, `HEAD`, ETag, `Last-Modified` e respostas `304`;
 - OPML privado e nenhum índice HTML na superfície privada.
 
-Em 27 de julho de 2026, o repositório tinha 108 fontes configuradas:
+Em 27 de julho de 2026, a configuração candidata passou a ter 109 fontes:
 
-- 106 feeds gerados, cada um com seu histórico;
-- dois RSS nativos, mantidos diretamente nos provedores;
-- 213 objetos internos e 107 rotas no snapshot privado completo.
+- 108 feeds gerados, cada um com seu histórico;
+- um RSS nativo mantido diretamente no provedor;
+- 217 objetos internos e 109 rotas no próximo snapshot privado completo.
 
-A migração do Feedbin foi concluída com 87 assinaturas privadas. As 87
-assinaturas antigas que apontavam para o GitHub Pages foram removidas do
-Feedbin.
+O snapshot ativo anterior ainda pode ter 213 objetos e 107 rotas até a
+publicação manual da migração de Juliano Spyer e Sérgio Rodrigues. O Feedbin
+acompanha 106 feeds privados; esses dois nomes continuam temporariamente nas
+assinaturas nativas. As 87 assinaturas antigas que apontavam para o GitHub
+Pages já foram removidas.
 
 O GitHub Pages, os arquivos em `feeds/` e `history/` e o workflow público ainda
 existem como contingência temporária. Eles não são mais a origem canônica para
@@ -41,17 +43,19 @@ separada e não inclui reescrita do histórico Git.
 | Grupo | Fontes |
 |---|---:|
 | Risco climático | 27 |
-| Folha de S.Paulo | 25 |
+| Folha de S.Paulo | 26 |
 | LinkedIn Newsletters | 19 |
 | Estadão | 18 |
 | O Globo | 11 |
 | Valor Econômico | 4 |
 | Outros | 3 |
 | Banco Mundial | 1 |
-| **Total** | **108** |
+| **Total** | **109** |
 
-Os dois `ExistingRssScraper` são FT Climate Capital e Juliano Spyer. Eles
-continuam apontando para os feeds originais e não são copiados para o R2.
+O único `ExistingRssScraper` é FT Climate Capital, que continua apontando para
+o feed original e não é copiado para o R2. Juliano Spyer passou a usar a página
+da coluna porque o RSS oficial ficou congelado; Sérgio Rodrigues usa o RSS
+oficial com enriquecimento de conteúdo integral.
 
 A fonte de transcrições do YouTube foi retirada da configuração ativa. A classe
 `YouTubeTranscriptScraper` e sua dependência ainda existem como código legado,

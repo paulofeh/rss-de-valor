@@ -84,6 +84,7 @@ def hydrate_private_state(
     repo_root: Path,
     state_dir: Path,
     allow_bootstrap_from_local: bool,
+    missing_object_profile: str | None = None,
 ) -> dict[str, Any]:
     repo_root = repo_root.resolve()
     state_dir = state_dir.resolve()
@@ -122,7 +123,23 @@ def hydrate_private_state(
     expected_object_path_set = set(expected_object_paths)
     manifest_object_paths = set(manifest["objects"])
     missing_object_paths = expected_object_path_set - manifest_object_paths
-    if missing_object_paths:
+    seed_object_data: dict[str, bytes] = {}
+    if missing_object_profile:
+        try:
+            from .migrate_folha_sources import approved_seed_objects
+        except ImportError:  # pragma: no cover - direct script execution
+            from migrate_folha_sources import approved_seed_objects
+
+        seed_object_data = approved_seed_objects(
+            repo_root=repo_root,
+            profile=missing_object_profile,
+        )
+        if missing_object_paths != set(seed_object_data):
+            raise ManifestError(
+                "Folha source migration did not observe its exact missing "
+                "object set"
+            )
+    elif missing_object_paths:
         raise ManifestError(
             "active snapshot is missing objects required by source configuration"
         )
@@ -137,23 +154,31 @@ def hydrate_private_state(
     baseline = temporary_root / "baseline"
     try:
         for object_path in expected_object_paths:
-            entry = manifest["objects"][object_path]
-            stored = store.get(entry["key"])
-            if stored is None or stored.data is None:
-                raise ManifestError("active snapshot contains an absent object")
-            if (
-                stored.size != entry["size"]
-                or len(stored.data) != entry["size"]
-                or sha256_bytes(stored.data) != entry["sha256"]
-                or stored.metadata.get("sha256") != entry["sha256"]
-            ):
-                raise ManifestError("active snapshot object hash or size diverged")
+            if object_path in seed_object_data:
+                data = seed_object_data[object_path]
+            else:
+                entry = manifest["objects"][object_path]
+                stored = store.get(entry["key"])
+                if stored is None or stored.data is None:
+                    raise ManifestError(
+                        "active snapshot contains an absent object"
+                    )
+                if (
+                    stored.size != entry["size"]
+                    or len(stored.data) != entry["size"]
+                    or sha256_bytes(stored.data) != entry["sha256"]
+                    or stored.metadata.get("sha256") != entry["sha256"]
+                ):
+                    raise ManifestError(
+                        "active snapshot object hash or size diverged"
+                    )
+                data = stored.data
             staged_path = staged / object_path
             staged_path.parent.mkdir(parents=True, exist_ok=True)
-            staged_path.write_bytes(stored.data)
+            staged_path.write_bytes(data)
             baseline_path = baseline / object_path
             baseline_path.parent.mkdir(parents=True, exist_ok=True)
-            baseline_path.write_bytes(stored.data)
+            baseline_path.write_bytes(data)
 
         # No working-tree file is replaced until every remote object has passed
         # size, metadata and SHA-256 validation.
@@ -172,6 +197,8 @@ def hydrate_private_state(
             "observed_current_sha256": sha256_bytes(current_object.data),
             "run_id": pointer["run_id"],
             "ignored_legacy_objects": ignored_legacy_objects,
+            "missing_object_profile": missing_object_profile,
+            "seeded_objects": len(seed_object_data),
         }
         write_json_file(state_dir / "hydration.json", hydration)
     finally:
@@ -181,6 +208,8 @@ def hydrate_private_state(
         "status": "hydrated",
         "objects": len(expected_object_paths),
         "ignored_legacy_objects": ignored_legacy_objects,
+        "missing_object_profile": missing_object_profile,
+        "seeded_objects": len(seed_object_data),
         "run_id": pointer["run_id"],
     }
 
@@ -193,6 +222,13 @@ def _parser() -> argparse.ArgumentParser:
         "--allow-bootstrap-from-local",
         action="store_true",
         help="Use the current public tree only when R2 has no current.json.",
+    )
+    parser.add_argument(
+        "--missing-object-profile",
+        help=(
+            "Allow one fixed, validated set of newly configured local "
+            "objects during hydration."
+        ),
     )
     return parser
 
@@ -211,6 +247,7 @@ def main(argv: list[str] | None = None) -> int:
             repo_root=repo_root,
             state_dir=state_dir,
             allow_bootstrap_from_local=arguments.allow_bootstrap_from_local,
+            missing_object_profile=arguments.missing_object_profile,
         )
     except PublicationError as exc:
         print(str(exc), file=sys.stderr)

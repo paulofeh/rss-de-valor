@@ -122,6 +122,36 @@ Privatizar a entrega reduz a exposição e reforça o caráter de uso pessoal, m
   assinatura nativa da Folha. Esse teste fecha o gate autenticado de Martin
   Wolf; restam 18 assinaturas nativas da Folha no lote atual. Juliano Spyer e
   Sérgio Rodrigues continuam adiados.
+- As 18 assinaturas restantes do lote Folha foram então cadastradas com as
+  URLs privadas, validadas pelo usuário e tiveram as versões nativas removidas.
+  O Feedbin agora acompanha os 106 feeds gerados pelo endpoint privado. FT
+  Climate Capital, Juliano Spyer e Sérgio Rodrigues permanecem diretamente nos
+  provedores; Sérgio ainda era uma assinatura exclusiva do leitor, fora da
+  configuração do repositório.
+- A investigação local de 2026-07-27 confirmou que o RSS oficial de Juliano
+  congelou em 15/12/2025 enquanto a página da coluna tinha publicação em
+  27/07/2026. O candidato troca Juliano para `FolhaScraper`, adiciona Sérgio
+  com `FolhaRssFullContentScraper` e gera ambos com 10 itens, autor e conteúdo
+  integral.
+- Depois dessa mudança, a configuração deriva 109 fontes, 108 feeds gerados,
+  um RSS nativo, 217 objetos internos e 109 rotas. Como o snapshot ativo não
+  contém os quatro objetos novos, a primeira publicação deve ser manual com o
+  perfil fixo `folha-juliano-sergio-2026-07-27`; ciclos normais continuam
+  falhando fechados para qualquer objeto configurado ausente.
+- O primeiro ciclo agendado normal posterior ao reparo de Martin Wolf terminou
+  com sucesso no run `30327075108`, no commit automático `365187247398`,
+  descendente de `9a0133e0`. Sem perfil de reparo ou migração, o job hidratou o
+  snapshot anterior `30305737638-1-70c4243cc7a9` e concluiu geração,
+  validação, ativação, canários e retenção. A reconciliação do R2 confirmou
+  `current.json` apontando para `30327075108-1-365187247398` e 214 chaves no
+  prefixo: 106 feeds, 106 históricos, OPML e `manifest.json`, todos em
+  Standard. Os checks anônimos permaneceram `401`/`no-store` no endpoint
+  privado, `404` em `workers.dev`, `200` no Pages e `301` do apex para o
+  Linktree. O gate full executou e o run agendado do piloto foi ignorado,
+  confirmando operacionalmente full habilitado e piloto desabilitado. O
+  download integral do log não estava disponível sem autenticação de
+  administrador; a evidência registrada combina os estados seguros das etapas
+  do GitHub com a reconciliação do R2.
 - Tornar somente o repositório privado não protege necessariamente um site do GitHub Pages.
 - Colocar um proxy autenticado diante do Pages sem remover a origem pública não resolve a exposição.
 
@@ -218,11 +248,13 @@ corte e publicar os XMLs apenas no endpoint autenticado.
 - **Concluído em 2026-07-27:** as 87 assinaturas antigas do GitHub Pages foram
   excluídas do Feedbin, incluindo o órfão legado
   `futuro_marketing_b2b_linkedin_feed.xml`.
-- **Próximo gate:** migrar as 18 assinaturas Folha restantes do lote atual,
-  adicionando primeiro as URLs privadas no Feedbin e removendo as nativas
-  somente depois da validação individual. Juliano Spyer e Sérgio Rodrigues
-  permanecem fora desse lote. O perfil de reparo de Martin Wolf não deve ser
-  selecionado novamente.
+- **Concluído em 2026-07-28:** o primeiro ciclo agendado normal posterior ao
+  reparo de Martin Wolf terminou com sucesso no run `30327075108` e ativou
+  `30327075108-1-365187247398`, sem perfil de reparo ou migração.
+- **Próximo gate:** mediante nova autorização, publicar manualmente Juliano
+  Spyer e Sérgio Rodrigues com somente o perfil
+  `folha-juliano-sergio-2026-07-27`; os dois perfis de reparo devem permanecer
+  desmarcados. O perfil de Martin Wolf não deve ser selecionado novamente.
 - **Gate posterior:** observar a estabilização do conjunto privado e obter
   autorização explícita adicional antes de interromper commits públicos,
   remover artefatos ou desligar o GitHub Pages.

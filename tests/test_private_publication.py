@@ -12,6 +12,10 @@ from xml.etree import ElementTree as ET
 
 from scripts.build_snapshot_manifest import build_snapshot
 from scripts.hydrate_private_state import hydrate_private_state
+from scripts.migrate_folha_sources import (
+    EXPECTED_SOURCES as FOLHA_MIGRATION_SOURCES,
+    PROFILE_NAME as FOLHA_MIGRATION_PROFILE,
+)
 from scripts.private_feed_common import (
     CANONICAL_FEED_BASE_URL,
     BootstrapRequired,
@@ -41,7 +45,10 @@ from tests.private_publication_helpers import (
     create_test_repository,
     current_run_id,
     write_feed,
+    write_opml,
 )
+
+REPO_ROOT = Path(__file__).resolve().parents[1]
 
 
 class PrivatePublicationTest(unittest.TestCase):
@@ -229,6 +236,83 @@ class PrivatePublicationTest(unittest.TestCase):
                 repo_root=self.root,
                 state_dir=self.state,
                 allow_bootstrap_from_local=False,
+            )
+
+    def test_hydration_seeds_only_the_exact_one_time_folha_migration(
+        self,
+    ) -> None:
+        self.publish_first()
+        config_path = self.root / "config" / "sources_config.json"
+        config = json.loads(config_path.read_text(encoding="utf-8"))
+        checked_fields = (
+            "name",
+            "url",
+            "scraper",
+            "feed_file",
+            "history_file",
+            "group",
+        )
+        for expected in FOLHA_MIGRATION_SOURCES:
+            source = {
+                field: expected[field]
+                for field in checked_fields
+            }
+            config["sources"].append(source)
+            for directory, filename_key in (
+                ("feeds", "feed_file"),
+                ("history", "history_file"),
+            ):
+                shutil.copyfile(
+                    REPO_ROOT / directory / source[filename_key],
+                    self.root / directory / source[filename_key],
+                )
+        config_path.write_text(
+            json.dumps(config, ensure_ascii=False),
+            encoding="utf-8",
+        )
+
+        result = hydrate_private_state(
+            store=self.store,
+            repo_root=self.root,
+            state_dir=self.state,
+            allow_bootstrap_from_local=False,
+            missing_object_profile=FOLHA_MIGRATION_PROFILE,
+        )
+
+        self.assertEqual(result["status"], "hydrated")
+        self.assertEqual(result["objects"], 11)
+        self.assertEqual(result["seeded_objects"], 4)
+        self.assertEqual(
+            result["missing_object_profile"],
+            FOLHA_MIGRATION_PROFILE,
+        )
+        for expected in FOLHA_MIGRATION_SOURCES:
+            for directory, filename_key in (
+                ("feeds", "feed_file"),
+                ("history", "history_file"),
+            ):
+                relative = Path(directory) / expected[filename_key]
+                self.assertEqual(
+                    (self.state / "baseline" / relative).read_bytes(),
+                    (REPO_ROOT / relative).read_bytes(),
+                )
+
+        write_opml(
+            self.root / "feeds" / "feeds.opml",
+            config["sources"],
+        )
+        snapshot = self.stage("run-with-folha-migration")
+        self.publish(snapshot)
+        with self.assertRaisesRegex(
+            ManifestError,
+            "did not observe its exact missing object set",
+        ):
+            hydrate_private_state(
+                store=self.store,
+                repo_root=self.root,
+                state_dir=self.state,
+                allow_bootstrap_from_local=False,
+                missing_object_profile=FOLHA_MIGRATION_PROFILE,
             )
 
     def test_interrupted_upload_never_activates_current_pointer(self) -> None:

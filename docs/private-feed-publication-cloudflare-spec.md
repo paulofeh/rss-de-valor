@@ -46,7 +46,7 @@ conteúdo são operações independentes.
 | Publicação | Snapshots versionados com ponteiro atômico |
 | Estado do pipeline | Feeds anteriores e `history/` no R2 |
 | Retenção | 28 snapshots, equivalentes a sete dias no ritmo atual |
-| Feeds RSS nativos | Continuam apontando para os provedores originais |
+| Feeds RSS nativos | O único restante continua apontando para o provedor original |
 | OPML | Privado, servido pelo mesmo Worker |
 | Índice HTML | Desabilitado ou privado; nunca público com o inventário completo |
 | Cache | Sem cache público; revalidação condicional com ETag |
@@ -61,7 +61,7 @@ Decisões aplicadas na implementação local:
 3. o OPML é privado e o índice HTML não é publicado;
 4. uma credencial comum é aceita inicialmente, com duas senhas durante rotação;
 5. não haverá reescrita de histórico;
-6. os dois RSS nativos continuam apontando diretamente para os provedores.
+6. o RSS nativo restante continua apontando diretamente para o provedor.
 
 Estado dos gates externos:
 
@@ -182,19 +182,23 @@ Baseline anterior à publicação privada, registrado em 2026-07-24:
 - `fehla.xyz` mantido como domínio legado, sem receber as URLs definitivas dos
   feeds privados.
 
-Os 119 XMLs incluem os 109 nomes de feed declarados na configuração, sete
-agregados legados e três feeds órfãos de fontes removidas. O `main.py` atual
-regenera 107 feeds e não regenera os sete agregados, os três órfãos nem as
-cópias locais das duas fontes com RSS nativo. Portanto, o processo futuro
+Os XMLs no checkout incluem os nomes de feed declarados na configuração, sete
+agregados legados e feeds órfãos de fontes removidas. O `main.py` candidato
+regenera 108 feeds e não regenera os sete agregados, os órfãos nem a cópia
+local da única fonte com RSS nativo. Portanto, o processo futuro
 não deve publicar cegamente tudo o que encontrar em `feeds/*.xml`.
 
-Estado reconciliado em 2026-07-27, depois da remoção da fonte de YouTube:
+Estado candidato reconciliado em 2026-07-27, depois da inclusão de Sérgio
+Rodrigues e da conversão de Juliano Spyer:
 
-- 108 fontes configuradas;
-- 106 feeds gerados pelo pipeline;
-- 2 RSS nativos mantidos diretamente nos provedores;
-- 106 históricos, um OPML e 106 XMLs no manifesto privado;
-- 213 objetos internos e 107 rotas privadas no modo `full`.
+- 109 fontes configuradas;
+- 108 feeds gerados pelo pipeline;
+- 1 RSS nativo mantido diretamente no provedor;
+- 108 históricos, um OPML e 108 XMLs no manifesto privado;
+- 217 objetos internos e 109 rotas privadas no modo `full`.
+
+O snapshot R2 ativo pode conservar o inventário anterior de 213 objetos e 107
+rotas até a execução manual do perfil fixo de migração.
 
 O inventário público legado pode conter arquivos que não pertencem ao
 manifesto privado. A presença no disco nunca é autorização de publicação.
@@ -343,11 +347,11 @@ Exemplo reduzido:
   "source_revision": "a1b2c3d",
   "canary_path": "/feeds/drauzio_feed.xml",
   "counts": {
-    "feeds": 107,
-    "history_files": 107,
+    "feeds": 108,
+    "history_files": 108,
     "metadata_files": 1,
-    "objects": 215,
-    "routes": 108
+    "objects": 217,
+    "routes": 109
   },
   "objects": {
     "feeds/drauzio_feed.xml": {
@@ -582,8 +586,12 @@ Durante a remoção de uma fonte, o snapshot ativo anterior pode conter objetos
 legados que já não pertencem à configuração atual. A hidratação deve aceitar
 esse superset somente para a transição, ignorar os objetos extras e baixar
 apenas os caminhos derivados da allowlist atual. A ausência de qualquer objeto
-exigido pela configuração atual continua sendo fatal. O snapshot seguinte deve
-conter exatamente a allowlist atual, sem reenviar os objetos removidos.
+exigido pela configuração atual continua sendo fatal. A exceção
+`folha-juliano-sergio-2026-07-27` é manual, fixa e limitada aos quatro objetos
+locais validados da adição dessas duas fontes; ela deve observar exatamente
+esse conjunto ausente e falhar em toda reutilização posterior. O snapshot
+seguinte deve conter exatamente a allowlist atual, sem reenviar os objetos
+removidos.
 
 No primeiro bootstrap, a hidratação pode partir da árvore pública atual, mas
 isso deve ser uma operação explícita e única.
@@ -812,12 +820,17 @@ atual.
 Baseline:
 
 - `FT Climate Capital` continua usando o RSS da FT;
-- `Juliano Spyer` continua usando o RSS oficial da Folha;
+- `Juliano Spyer` passa a usar a página da coluna com `FolhaScraper`, pois o
+  RSS oficial congelou em 15/12/2025 apesar de a página permanecer ativa;
+- `Sérgio Rodrigues` entra na configuração com o RSS oficial enriquecido por
+  `FolhaRssFullContentScraper`;
 - o OPML privado pode misturar URLs upstream e URLs privadas;
-- cópias locais antigas desses feeds não entram no manifesto.
+- somente a fonte FT permanece upstream depois da migração;
+- cópias locais antigas de fontes nativas não entram no manifesto.
 
-Passar fontes nativas pelo Worker exige uma decisão específica, pois adiciona
-dependência sem tornar privado o conteúdo já público no upstream.
+Passar outras fontes nativas pelo Worker continua exigindo decisão específica.
+Neste caso, o pipeline não atua como proxy: ele gera novos XMLs com conteúdo
+integral, histórico e proteção anti-regressão.
 
 ### 11.5 Feeds agregados
 
@@ -1050,7 +1063,50 @@ O usuário adicionou o feed privado de Martin Wolf no Feedbin com o par de
 credenciais existente, confirmou autoria e conteúdo completos e removeu a
 assinatura nativa da Folha. O gate autenticado específico foi, portanto,
 satisfeito. Das 19 assinaturas nativas previstas para este lote, restam 18;
-Juliano Spyer e Sérgio Rodrigues permanecem adiados e fora da migração atual.
+Juliano Spyer e Sérgio Rodrigues permaneceram adiados e fora daquele lote.
+
+Na sequência, o usuário adicionou as 18 URLs privadas restantes, validou os
+feeds e removeu as versões nativas correspondentes. O inventário do leitor
+passou a ter 106 feeds gerados no endpoint privado e três assinaturas upstream:
+FT Climate Capital, Juliano Spyer e Sérgio Rodrigues. Sérgio ainda não
+integrava a configuração do repositório.
+
+Em 2026-07-27, a investigação dos dois adiados encontrou situações distintas:
+o RSS de Juliano terminava em 15/12/2025 enquanto a página listava artigo de
+27/07/2026; o RSS de Sérgio permanecia atualizado em 22/07/2026. Testes
+isolados confirmaram que `FolhaScraper` recupera dez artigos completos de
+Juliano e que `FolhaRssFullContentScraper` recupera dez artigos completos de
+Sérgio quando recebe o fallback autoral específico.
+
+O candidato resultante tem 109 fontes, 108 feeds gerados, um RSS nativo, 217
+objetos e 109 rotas. A hidratação normal continua recusando objetos exigidos
+pela configuração que estejam ausentes do snapshot ativo. A única transição
+permitida é o perfil manual `folha-juliano-sergio-2026-07-27`, que valida e
+semeia exatamente os feeds e históricos dos dois nomes. Ele falha se qualquer
+outro caminho estiver ausente e também falha se for reutilizado depois da
+ativação. O seed pode trazer o self-link canônico ou o endereço legado exato do
+Pages, mas `main.py` deve normalizá-lo antes do snapshot e a validação final
+continua recusando qualquer origem pública.
+
+Em 2026-07-28, o primeiro ciclo agendado normal posterior ao reparo de Martin
+Wolf terminou com sucesso no run `30327075108`, no commit automático
+`365187247398`, descendente de `9a0133e0`. A seleção manual de reparo foi
+ignorada no evento agendado e o código remoto ainda não continha o perfil de
+migração local. O job concluiu hidratação do snapshot ativo
+`30305737638-1-70c4243cc7a9`, geração, validação, publicação, ativação,
+canários e retenção. A reconciliação do R2 confirmou `current.json` apontando
+para `30327075108-1-365187247398` e 214 chaves Standard no prefixo: 106 feeds,
+106 históricos, OPML e `manifest.json`. Isso corresponde aos 213 objetos
+internos e 107 rotas do conjunto publicado.
+
+As verificações anônimas retornaram `401` e `Cache-Control: no-store` no
+endpoint privado, `404` em `workers.dev`, `200` no GitHub Pages e `301` do
+apex para o Linktree. O job full agendado executou e o piloto agendado no mesmo
+commit foi ignorado, confirmando operacionalmente
+`PRIVATE_FEED_FULL_ENABLED=true` e `PRIVATE_FEED_PILOT_ENABLED=false`. O
+download integral do log exigia autenticação administrativa indisponível
+nesse preflight; por isso, a evidência combina os estados seguros das etapas do
+GitHub com a reconciliação independente do R2.
 
 O piloto só termina depois de uma atualização automática, não apenas de uma
 requisição manual bem-sucedida.
