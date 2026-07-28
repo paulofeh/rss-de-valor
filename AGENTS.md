@@ -20,11 +20,11 @@ The public GitHub Pages workflow, `feeds/`, and `history/` are still present as
 a temporary contingency. They may only be removed at the explicit public-cut
 gate. The `clima` group also feeds an automated climate-risk digest.
 
-Current candidate inventory as of 2026-07-27: 109 configured sources, 108
+Current production inventory as of 2026-07-28: 109 configured sources, 108
 generated feeds, one direct `ExistingRssScraper` source, 217 internal snapshot
-objects, and 109 authenticated private routes. The active R2 snapshot can
-remain at the preceding 213-object inventory until the fixed Folha source
-migration is explicitly published.
+objects, and 109 authenticated private routes. R2 snapshot
+`30357116106-1-51f8690fec06` activated this inventory through the fixed Folha
+source migration.
 
 ## Safety and Authorization Gates
 
@@ -117,9 +117,9 @@ publisher. It uses `contents: read`, canonical `FEED_BASE_URL`, and the shared
 Its named validator profile may correct a synthetic publication date only
 when the same allowlisted item moves from both fallback author and short
 content to a known author and complete content.
-The one-time `folha-juliano-sergio-2026-07-27` missing-object profile is also
-manual-only, restricted to four validated local seed objects, and must be
-omitted after its successful activation.
+The one-time `folha-juliano-sergio-2026-07-27` missing-object profile was
+consumed successfully by run `30357116106`. It was restricted to four
+validated local seed objects and must never be selected again.
 
 **`.github/workflows/private-feed-pilot.yml`** is retained for controlled
 diagnostics but its repository-level gate normally remains `false`.
@@ -168,8 +168,8 @@ do not re-add a YouTube feed without a new decision.
   `main.py` applies anti-downgrade merging to LinkedIn newsletters, Folha
   full-content RSS, and Valor/O Globo.
 - Normal hydration fails on every missing configured object. The fixed Folha
-  source-migration profile is the only current exception and must observe its
-  exact four-object set.
+  source-migration profile was consumed once and must remain disabled; the
+  active snapshot now contains all configured objects.
 - Normalize self-links after every scraper run, including preserved feeds.
 - Existing RSS sources must keep upstream URLs in OPML.
 - A publication must validate every object before activation; partial

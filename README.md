@@ -21,17 +21,18 @@ A publicação canônica é privada:
 - suporte a `GET`, `HEAD`, ETag, `Last-Modified` e respostas `304`;
 - OPML privado e nenhum índice HTML na superfície privada.
 
-Em 27 de julho de 2026, a configuração candidata passou a ter 109 fontes:
+Em 28 de julho de 2026, a configuração e o snapshot privado ativo passaram a
+ter 109 fontes:
 
 - 108 feeds gerados, cada um com seu histórico;
 - um RSS nativo mantido diretamente no provedor;
-- 217 objetos internos e 109 rotas no próximo snapshot privado completo.
+- 217 objetos internos e 109 rotas no snapshot privado completo.
 
-O snapshot ativo anterior ainda pode ter 213 objetos e 107 rotas até a
-publicação manual da migração de Juliano Spyer e Sérgio Rodrigues. O Feedbin
-acompanha 106 feeds privados; esses dois nomes continuam temporariamente nas
-assinaturas nativas. As 87 assinaturas antigas que apontavam para o GitHub
-Pages já foram removidas.
+O snapshot `30357116106-1-51f8690fec06` publicou Juliano Spyer e Sérgio
+Rodrigues. O Feedbin acompanha os 108 feeds gerados pelo endpoint privado;
+Juliano e Sérgio foram validados e suas assinaturas nativas foram removidas.
+FT Climate Capital é a única assinatura que continua diretamente no provedor.
+As 87 assinaturas antigas que apontavam para o GitHub Pages já foram removidas.
 
 O GitHub Pages, os arquivos em `feeds/` e `history/` e o workflow público ainda
 existem como contingência temporária. Eles não são mais a origem canônica para

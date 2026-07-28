@@ -1,25 +1,16 @@
 # Operação da publicação privada de feeds
 
-**Estado em 2026-07-27:** implementação e testes locais concluídos; bucket R2
-Standard privado, Worker e ambiente GitHub configurados sem exposição de
-secrets; DNS migrado para a Cloudflare com o redirect do domínio principal para
-o Linktree preservado; Custom Domain `feeds.paulofehlauer.com` ativo; snapshot
-completo `30305737638-1-70c4243cc7a9` ativo com 213 objetos internos e 107
-rotas privadas. Canários autenticados e anônimos passaram; o Feedbin já havia
-feito revalidação automática autenticada e recebido `304`; o novo par foi
-promovido, os bindings de transição foram removidos e `workers.dev` foi
-desabilitado. A migração manual no Feedbin foi concluída: 86 assinaturas do
-GitHub Pages foram recriadas em cinco lotes e, com o piloto, há 87 assinaturas
-privadas confirmadas como `OK`; as 87 assinaturas públicas antigas foram
-removidas do Feedbin. GitHub Pages e a publicação pública continuam ativos até
-um gate separado. Depois de quatro disparos que falharam fechados por escopo
-incorreto do gate, as variables foram corrigidas em `2026-07-26T23:04Z`. O
-primeiro ciclo nominal posterior à correção terminou com sucesso no run
-agendado `30237068708`, preservando `full=true` e `pilot=false`. A promoção
-posterior do enriquecimento Folha falhou fechada no run `30301308278`, antes
-do upload, por uma correção de fuso em um item de Martin Wolf; o snapshot ativo
-anterior foi preservado. O reparo exato foi promovido uma única vez pelo run
-manual `30305737638`, que ativou o snapshot corrigido e passou pelos canários.
+**Estado em 2026-07-28:** bucket R2 Standard privado, Worker, DNS, Custom
+Domain `feeds.paulofehlauer.com` e ambiente GitHub estão operacionais sem
+exposição de secrets. O snapshot completo
+`30357116106-1-51f8690fec06` está ativo com 217 objetos internos e 109 rotas
+privadas. Juliano Spyer e Sérgio Rodrigues foram publicados pelo perfil manual
+fixo, que foi consumido e não pode ser reutilizado. Canários autenticados e
+anônimos passaram; `workers.dev` permanece desabilitado e o apex continua
+redirecionando ao Linktree. O Feedbin acompanha os 108 feeds gerados pelo
+endpoint privado; Juliano e Sérgio foram validados e suas assinaturas nativas
+foram removidas. FT Climate Capital é a única assinatura direta no provedor.
+GitHub Pages e a publicação pública continuam ativos até um gate separado.
 
 Este runbook complementa a
 [especificação](private-feed-publication-cloudflare-spec.md). Ele não autoriza
@@ -72,11 +63,9 @@ corte.
   identificadas pelo release correspondente.
 - A retenção mantém 28 snapshots e protege o ativo e o imediatamente anterior.
 
-O snapshot ativo anterior deriva 106 feeds, 106 históricos e um OPML: 213
-objetos internos. A configuração candidata deriva 108 feeds, 108 históricos e
-um OPML: 217 objetos internos e 109 rotas. O único `ExistingRssScraper`
-restante é FT Climate Capital. XMLs agregados ou órfãos presentes no disco não
-entram no snapshot.
+O snapshot ativo deriva 108 feeds, 108 históricos e um OPML: 217 objetos
+internos e 109 rotas. O único `ExistingRssScraper` restante é FT Climate
+Capital. XMLs agregados ou órfãos presentes no disco não entram no snapshot.
 
 ## 3. Verificação local
 
@@ -443,19 +432,19 @@ independente do R2.
 
 A investigação de 2026-07-27 confirmou que o RSS de Juliano está congelado em
 15/12/2025, embora a página da coluna tenha artigo em 27/07/2026. Sérgio
-Rodrigues tem RSS ativo. O candidato usa `FolhaScraper` para Juliano e
+Rodrigues tem RSS ativo. A produção usa `FolhaScraper` para Juliano e
 `FolhaRssFullContentScraper` para Sérgio; os dois artefatos locais têm dez
 itens, autoria explícita, conteúdo integral, GUIDs iguais às URLs e self-links
 canônicos.
 
-O snapshot ativo não possui:
+Antes da migração, o snapshot ativo não possuía:
 
 - `feeds/juliano_spyer_feed.xml`;
 - `history/juliano_spyer_history.json`;
 - `feeds/sergio_rodrigues_feed.xml`;
 - `history/sergio_rodrigues_history.json`.
 
-A primeira publicação exige uma execução manual de `Private feed publication`
+A primeira publicação foi executada manualmente em `Private feed publication`
 com:
 
 - `confirm_full_publication=true`;
@@ -463,28 +452,38 @@ com:
 - `repair_linkedin_baseline=false`;
 - `repair_martin_wolf_pubdate=false`.
 
-O perfil interno `folha-juliano-sergio-2026-07-27` valida esses quatro objetos
-antes de qualquer substituição local. A hidratação deve relatar 217 objetos,
-quatro semeados localmente e o snapshot ativo anterior como origem dos outros
-213. Depois da geração, o manifesto deve ter 217 objetos e 109 rotas. Upload,
-releitura do ponteiro, ativação, canários e retenção continuam inalterados.
-O seed aceita self-link canônico ou o endereço legado exato do Pages, porque o
-workflow público pode atualizar o checkout antes da migração; `main.py` deve
-normalizar ambos para o domínio privado, e a validação final continua recusando
-Pages.
+O perfil interno `folha-juliano-sergio-2026-07-27` validou esses quatro objetos
+antes de qualquer substituição local. O seed aceitava self-link canônico ou o
+endereço legado exato do Pages, porque o workflow público podia atualizar o
+checkout antes da migração; `main.py` normalizou a saída para o domínio privado
+e a validação final recusou qualquer origem pública.
 
-Não reutilizar o perfil: depois da ativação, ele falha porque o conjunto exato
-de objetos ausentes deixa de existir. Os ciclos agendados seguintes devem usar
-hidratação normal, sem perfil.
+O run manual `30357116106`, no commit
+`51f8690fec06ea89868538aaf43e3e8359ad1341`, terminou com sucesso em
+2026-07-28. `current.json` ativou
+`30357116106-1-51f8690fec06` às `12:18:40Z`. A reconciliação do R2 confirmou
+218 chaves Standard: 108 feeds, 108 históricos, OPML e `manifest.json`,
+equivalentes a 217 objetos internos e 109 rotas.
 
-Somente depois de validar os dois XMLs autenticados no Worker, cadastrar no
-Feedbin:
+Os hashes remotos dos XMLs de Juliano e Sérgio coincidiram com os arquivos
+locais. Ambos têm dez itens, autor explícito, conteúdo integral e self-link
+canônico. Sem credenciais, as duas rotas responderam `401` com
+`Cache-Control: no-store`; `workers.dev` permaneceu `404`, GitHub Pages `200`
+e o apex `301` para o Linktree. A retenção deixou 13 snapshots, abaixo do teto
+de 28.
+
+Não reutilizar o perfil: ele foi consumido e agora falha porque o conjunto
+exato de objetos ausentes deixou de existir. Todos os ciclos seguintes devem
+usar hidratação normal, sem perfil.
+
+Os dois XMLs autenticados foram cadastrados no Feedbin:
 
 - `https://feeds.paulofehlauer.com/feeds/juliano_spyer_feed.xml`;
 - `https://feeds.paulofehlauer.com/feeds/sergio_rodrigues_feed.xml`.
 
-Remover as duas assinaturas nativas apenas depois de confirmar título, autor,
-conteúdo e atualização. FT Climate Capital permanece upstream.
+O usuário confirmou título, autor, conteúdo e funcionamento e então removeu as
+duas assinaturas nativas. O Feedbin passou a acompanhar os 108 feeds gerados
+pelo endpoint privado. FT Climate Capital permanece upstream.
 
 ## 8. Rollback
 
@@ -501,8 +500,8 @@ Pelo GitHub:
 
 O workflow **Private feed rollback** exige `--required-mode full`. Isso impede
 que um rollback manual depois da ampliação reduza inadvertidamente a superfície
-completa — 107 rotas no snapshot anterior e 109 no candidato — para o único
-feed do piloto. Antes do primeiro snapshot `full`, uma falha de publicação
+completa — 109 rotas no snapshot atual — para o único feed do piloto. Antes do
+primeiro snapshot `full`, uma falha de publicação
 preserva o ponteiro piloto; uma falha de canário depois da ativação restaura
 esse ponteiro automaticamente.
 
@@ -743,9 +742,10 @@ agendada.
   privado, `404` em `workers.dev`, `200` no GitHub Pages e destino final
   `https://linktr.ee/paulofehlauer` no apex.
 
-O próximo gate é observar a estabilização do conjunto privado e obter
-autorização explícita para o corte. A migração das assinaturas não inclui nem
-autoriza desligar o GitHub Pages.
+O próximo gate é observar um ciclo agendado normal sem o perfil de migração. A
+estabilização e a autorização explícita para o corte continuam sendo gates
+separados; a migração das assinaturas não inclui nem autoriza desligar o
+GitHub Pages.
 
 O `wrangler.jsonc` local não declara rotas porque o Custom Domain é gerenciado
 no painel da Cloudflare. Ele fixa `workers_dev=false`, evitando que um deploy

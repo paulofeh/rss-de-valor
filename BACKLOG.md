@@ -2,15 +2,14 @@
 
 ## Publicação privada dos feeds com compatibilidade com o Feedbin
 
-**Status:** publicação privada completa ativa no domínio definitivo; o primeiro
-ciclo agendado depois da correção dos gates foi validado, a migração das
-assinaturas no Feedbin foi concluída e o enriquecimento da Folha foi promovido
-com um reparo manual estritamente limitado à data de um item de Martin Wolf; o
-corte da publicação pública permanece sujeito a um gate separado
+**Status:** publicação privada completa ativa no domínio definitivo; os 108
+feeds gerados estão validados no Feedbin e somente FT Climate Capital permanece
+diretamente no provedor; o corte da publicação pública permanece sujeito a um
+gate separado
 **Prioridade:** antes de ampliar a publicação de feeds com conteúdo integral
 **Registrado em:** 2026-07-20
 **Especificação detalhada:** [`docs/private-feed-publication-cloudflare-spec.md`](docs/private-feed-publication-cloudflare-spec.md)
-**Especificação revisada em:** 2026-07-27
+**Especificação revisada em:** 2026-07-28
 **Domínio decidido:** `feeds.paulofehlauer.com`; `workers.dev` foi usado apenas no piloto e está desabilitado
 
 ### Objetivo
@@ -24,10 +23,10 @@ Privatizar a entrega reduz a exposição e reforça o caráter de uso pessoal, m
 - Os XMLs gerados são commitados em `feeds/` pelo GitHub Actions.
 - O repositório é público, portanto os XMLs também ficam acessíveis diretamente pelo GitHub e pelo histórico do repositório.
 - Os feeds são publicados sem autenticação pelo GitHub Pages.
-- Em paralelo, os 106 feeds gerados e o OPML estão publicados de forma privada
+- Em paralelo, os 108 feeds gerados e o OPML estão publicados de forma privada
   em `https://feeds.paulofehlauer.com`, com Basic Auth e R2 privado.
-- O snapshot completo ativo é `30305737638-1-70c4243cc7a9`, com 213 objetos
-  internos e 107 rotas privadas.
+- O snapshot completo ativo é `30357116106-1-51f8690fec06`, com 217 objetos
+  internos e 109 rotas privadas.
 - O Feedbin confirmou atualização automática autenticada no domínio definitivo,
   com revalidação condicional `304`.
 - As 86 assinaturas atuais que ainda apontavam para o GitHub Pages foram
@@ -134,10 +133,10 @@ Privatizar a entrega reduz a exposição e reforça o caráter de uso pessoal, m
   com `FolhaRssFullContentScraper` e gera ambos com 10 itens, autor e conteúdo
   integral.
 - Depois dessa mudança, a configuração deriva 109 fontes, 108 feeds gerados,
-  um RSS nativo, 217 objetos internos e 109 rotas. Como o snapshot ativo não
-  contém os quatro objetos novos, a primeira publicação deve ser manual com o
-  perfil fixo `folha-juliano-sergio-2026-07-27`; ciclos normais continuam
-  falhando fechados para qualquer objeto configurado ausente.
+  um RSS nativo, 217 objetos internos e 109 rotas. A transição exigia uma
+  publicação manual com o perfil fixo
+  `folha-juliano-sergio-2026-07-27`; ciclos normais continuam falhando
+  fechados para qualquer objeto configurado ausente.
 - O primeiro ciclo agendado normal posterior ao reparo de Martin Wolf terminou
   com sucesso no run `30327075108`, no commit automático `365187247398`,
   descendente de `9a0133e0`. Sem perfil de reparo ou migração, o job hidratou o
@@ -152,6 +151,25 @@ Privatizar a entrega reduz a exposição e reforça o caráter de uso pessoal, m
   download integral do log não estava disponível sem autenticação de
   administrador; a evidência registrada combina os estados seguros das etapas
   do GitHub com a reconciliação do R2.
+- A migração fixa de Juliano Spyer e Sérgio Rodrigues foi publicada com
+  sucesso no run manual `30357116106`, a partir do commit
+  `51f8690fec06ea89868538aaf43e3e8359ad1341`. O perfil semeou somente os
+  quatro objetos autorizados e `current.json` ativou
+  `30357116106-1-51f8690fec06` às `2026-07-28T12:18:40Z`.
+- A reconciliação independente do R2 encontrou 218 chaves Standard no prefixo
+  ativo: 108 feeds, 108 históricos, OPML e `manifest.json`, correspondentes a
+  217 objetos internos e 109 rotas. Os hashes remotos de Juliano e Sérgio
+  coincidem com os XMLs locais; ambos têm dez itens, autoria explícita,
+  conteúdo integral e self-link canônico.
+- Depois da ativação, as duas rotas privadas responderam `401` e
+  `Cache-Control: no-store` sem credenciais; `workers.dev` permaneceu `404`,
+  GitHub Pages `200` e o apex `301` para o Linktree. Havia 13 snapshots, todos
+  abaixo do teto de retenção de 28. O perfil de migração foi consumido e não
+  pode ser reutilizado.
+- O usuário cadastrou Juliano Spyer e Sérgio Rodrigues com as credenciais
+  privadas existentes, validou ambos no Feedbin e removeu as duas assinaturas
+  nativas. O leitor passou a acompanhar os 108 feeds gerados no endpoint
+  privado; FT Climate Capital é a única assinatura direta no provedor.
 - Tornar somente o repositório privado não protege necessariamente um site do GitHub Pages.
 - Colocar um proxy autenticado diante do Pages sem remover a origem pública não resolve a exposição.
 
@@ -251,13 +269,17 @@ corte e publicar os XMLs apenas no endpoint autenticado.
 - **Concluído em 2026-07-28:** o primeiro ciclo agendado normal posterior ao
   reparo de Martin Wolf terminou com sucesso no run `30327075108` e ativou
   `30327075108-1-365187247398`, sem perfil de reparo ou migração.
-- **Próximo gate:** mediante nova autorização, publicar manualmente Juliano
-  Spyer e Sérgio Rodrigues com somente o perfil
-  `folha-juliano-sergio-2026-07-27`; os dois perfis de reparo devem permanecer
-  desmarcados. O perfil de Martin Wolf não deve ser selecionado novamente.
-- **Gate posterior:** observar a estabilização do conjunto privado e obter
-  autorização explícita adicional antes de interromper commits públicos,
-  remover artefatos ou desligar o GitHub Pages.
+- **Concluído em 2026-07-28:** o run manual `30357116106` ativou
+  `30357116106-1-51f8690fec06`, com 217 objetos internos e 109 rotas. O perfil
+  fixo de Juliano Spyer e Sérgio Rodrigues foi consumido e não deve ser
+  selecionado novamente.
+- **Concluído em 2026-07-28:** Juliano Spyer e Sérgio Rodrigues foram
+  validados no Feedbin e suas assinaturas nativas foram removidas; o leitor
+  agora acompanha os 108 feeds gerados pelo endpoint privado.
+- **Próximo gate:** observar um ciclo agendado normal sem perfil de migração.
+- **Gate posterior:** depois da estabilização, obter autorização explícita
+  adicional antes de interromper commits públicos, remover artefatos ou
+  desligar o GitHub Pages.
 - **Preservado:** GitHub Pages, `feeds/`, `history/` e o workflow público
   continuam ativos como contingência; a limpeza no Feedbin não autorizou o
   corte da origem pública.

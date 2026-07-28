@@ -183,12 +183,12 @@ Baseline anterior à publicação privada, registrado em 2026-07-24:
   feeds privados.
 
 Os XMLs no checkout incluem os nomes de feed declarados na configuração, sete
-agregados legados e feeds órfãos de fontes removidas. O `main.py` candidato
+agregados legados e feeds órfãos de fontes removidas. O `main.py`
 regenera 108 feeds e não regenera os sete agregados, os órfãos nem a cópia
 local da única fonte com RSS nativo. Portanto, o processo futuro
 não deve publicar cegamente tudo o que encontrar em `feeds/*.xml`.
 
-Estado candidato reconciliado em 2026-07-27, depois da inclusão de Sérgio
+Estado de produção ativado em 2026-07-28, depois da inclusão de Sérgio
 Rodrigues e da conversão de Juliano Spyer:
 
 - 109 fontes configuradas;
@@ -197,8 +197,9 @@ Rodrigues e da conversão de Juliano Spyer:
 - 108 históricos, um OPML e 108 XMLs no manifesto privado;
 - 217 objetos internos e 109 rotas privadas no modo `full`.
 
-O snapshot R2 ativo pode conservar o inventário anterior de 213 objetos e 107
-rotas até a execução manual do perfil fixo de migração.
+O snapshot R2 ativo `30357116106-1-51f8690fec06` contém esse inventário. O
+conjunto anterior de 213 objetos e 107 rotas permanece apenas em snapshots
+históricos disponíveis para rollback.
 
 O inventário público legado pode conter arquivos que não pertencem ao
 manifesto privado. A presença no disco nunca é autorização de publicação.
@@ -1078,15 +1079,14 @@ isolados confirmaram que `FolhaScraper` recupera dez artigos completos de
 Juliano e que `FolhaRssFullContentScraper` recupera dez artigos completos de
 Sérgio quando recebe o fallback autoral específico.
 
-O candidato resultante tem 109 fontes, 108 feeds gerados, um RSS nativo, 217
+O conjunto ativado tem 109 fontes, 108 feeds gerados, um RSS nativo, 217
 objetos e 109 rotas. A hidratação normal continua recusando objetos exigidos
-pela configuração que estejam ausentes do snapshot ativo. A única transição
-permitida é o perfil manual `folha-juliano-sergio-2026-07-27`, que valida e
-semeia exatamente os feeds e históricos dos dois nomes. Ele falha se qualquer
-outro caminho estiver ausente e também falha se for reutilizado depois da
-ativação. O seed pode trazer o self-link canônico ou o endereço legado exato do
-Pages, mas `main.py` deve normalizá-lo antes do snapshot e a validação final
-continua recusando qualquer origem pública.
+pela configuração que estejam ausentes do snapshot ativo. A transição usou uma
+única vez o perfil manual `folha-juliano-sergio-2026-07-27`, que validou e
+semeou exatamente os feeds e históricos dos dois nomes. O seed admitia o
+self-link canônico ou o endereço legado exato do Pages, mas `main.py`
+normalizou a saída antes do snapshot e a validação final recusou qualquer
+origem pública.
 
 Em 2026-07-28, o primeiro ciclo agendado normal posterior ao reparo de Martin
 Wolf terminou com sucesso no run `30327075108`, no commit automático
@@ -1107,6 +1107,43 @@ commit foi ignorado, confirmando operacionalmente
 download integral do log exigia autenticação administrativa indisponível
 nesse preflight; por isso, a evidência combina os estados seguros das etapas do
 GitHub com a reconciliação independente do R2.
+
+Em 2026-07-28, o perfil manual fixo
+`folha-juliano-sergio-2026-07-27` foi consumido com sucesso no run
+`30357116106`, a partir do commit
+`51f8690fec06ea89868538aaf43e3e8359ad1341`. O job começou às
+`2026-07-28T12:00:44Z` e concluiu hidratação, geração, validação, upload,
+ativação, canários, retenção e resumo sem secrets às `12:24:00Z`.
+
+O ponteiro canônico ativado às `12:18:40Z` contém:
+
+- `run_id`: `30357116106-1-51f8690fec06`;
+- `manifest_key`:
+  `snapshots/30357116106-1-51f8690fec06/manifest.json`;
+- `manifest_sha256`:
+  `177830c4fd3dc1b6e42ba98b5479a8fd7966194fc45dd1d57381517b87052d48`;
+- SHA-256 do próprio `current.json`:
+  `70227b6d02f985ccac1170b0af54ac5578d75f5a979d77bf60e169ca3ce64b36`.
+
+A reconciliação do R2 encontrou 218 chaves Standard nesse prefixo: 108 feeds,
+108 históricos, OPML e `manifest.json`. O feed de Juliano tem SHA-256
+`2de64e800b5b1fa00b94adaad0ed5793e425e4195b8773ebeee188a2795696cb`; o de
+Sérgio,
+`31d371dd2638f0e48b456a47efc5fb6d7f2c1ddfb238d0c6c26b630609e3573a`.
+Ambos coincidem byte a byte com os XMLs validados localmente, têm dez itens,
+autoria explícita, conteúdo integral e self-links canônicos.
+
+As rotas privadas dos dois feeds responderam `401` e
+`Cache-Control: no-store` sem credenciais; `workers.dev` permaneceu `404`,
+GitHub Pages `200` e o apex `301` para o Linktree. O bucket continha 13
+snapshots depois da retenção, abaixo do teto de 28. O perfil de migração foi
+consumido e não pode ser reutilizado.
+
+Na sequência, o usuário cadastrou Juliano Spyer e Sérgio Rodrigues com as
+credenciais privadas existentes, validou os dois feeds no Feedbin e removeu as
+assinaturas nativas. O leitor passou a acompanhar os 108 feeds gerados pelo
+endpoint privado; FT Climate Capital é a única assinatura direta no provedor.
+O próximo gate é observar um ciclo agendado normal sem perfil de migração.
 
 O piloto só termina depois de uma atualização automática, não apenas de uma
 requisição manual bem-sucedida.
@@ -1423,6 +1460,7 @@ scripts/
   hydrate_private_state.py
   repair_linkedin_baseline.py
   repair_martin_wolf_pubdate.py
+  migrate_folha_sources.py
   build_snapshot_manifest.py
   validate_snapshot.py
   publish_snapshot.py
@@ -1470,8 +1508,10 @@ Mudanças aplicadas no projeto existente:
     escopo dos gates agendados e observar um ciclo automático completo.~~
 14. ~~Obter gate separado e migrar as assinaturas em lotes, preservando o
     GitHub Pages.~~
-15. Observar a estabilização e obter autorização adicional para o corte
-    público.
+15. ~~Validar Juliano Spyer e Sérgio Rodrigues no Feedbin e remover as versões
+    nativas somente depois da conferência.~~
+16. Observar um ciclo agendado normal sem perfil de migração e a estabilização;
+    depois, obter autorização adicional para o corte público.
 
 Cada fase deve terminar com evidência verificável antes de avançar para a
 seguinte. Nenhuma fase autoriza automaticamente a remoção da publicação pública
