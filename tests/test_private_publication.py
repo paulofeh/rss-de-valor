@@ -45,6 +45,7 @@ from tests.private_publication_helpers import (
     create_test_repository,
     current_run_id,
     write_feed,
+    write_folha_migration_pair,
     write_opml,
 )
 
@@ -258,14 +259,7 @@ class PrivatePublicationTest(unittest.TestCase):
                 for field in checked_fields
             }
             config["sources"].append(source)
-            for directory, filename_key in (
-                ("feeds", "feed_file"),
-                ("history", "history_file"),
-            ):
-                shutil.copyfile(
-                    REPO_ROOT / directory / source[filename_key],
-                    self.root / directory / source[filename_key],
-                )
+            write_folha_migration_pair(self.root, expected)
         config_path.write_text(
             json.dumps(config, ensure_ascii=False),
             encoding="utf-8",
@@ -294,7 +288,7 @@ class PrivatePublicationTest(unittest.TestCase):
                 relative = Path(directory) / expected[filename_key]
                 self.assertEqual(
                     (self.state / "baseline" / relative).read_bytes(),
-                    (REPO_ROOT / relative).read_bytes(),
+                    (self.root / relative).read_bytes(),
                 )
 
         write_opml(

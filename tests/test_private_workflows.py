@@ -166,15 +166,13 @@ class PrivateWorkflowTest(unittest.TestCase):
             publication,
         )
 
-    def test_existing_public_workflow_remains_present_and_independent(
-        self,
-    ) -> None:
-        public = (
-            REPO_ROOT / ".github" / "workflows" / "workflow.yml"
-        ).read_text(encoding="utf-8")
-        self.assertIn("contents: write", public)
-        self.assertIn("git push", public)
-        self.assertNotIn("private-feed-r2-publication", public)
+    def test_public_workflow_and_generated_artifacts_are_retired(self) -> None:
+        self.assertFalse(
+            (REPO_ROOT / ".github" / "workflows" / "workflow.yml").exists()
+        )
+        gitignore = (REPO_ROOT / ".gitignore").read_text(encoding="utf-8")
+        self.assertIn("/feeds/", gitignore)
+        self.assertIn("/history/", gitignore)
 
 
 if __name__ == "__main__":

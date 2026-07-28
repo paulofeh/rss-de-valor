@@ -20,22 +20,16 @@ from tests.private_publication_helpers import write_feed
 
 
 class FeedBaseUrlTest(unittest.TestCase):
-    def test_default_preserves_existing_pages_urls(self) -> None:
+    def test_default_uses_canonical_private_origin(self) -> None:
         with patch.dict(os.environ, {}, clear=True):
             self.assertEqual(get_feed_base_url(), DEFAULT_FEED_BASE_URL)
             self.assertEqual(
                 get_feed_url("example.xml"),
-                (
-                    "https://paulofeh.github.io/rss-de-valor/"
-                    "feeds/example.xml"
-                ),
+                "https://feeds.paulofehlauer.com/feeds/example.xml",
             )
             self.assertEqual(
                 get_opml_url(),
-                (
-                    "https://paulofeh.github.io/rss-de-valor/"
-                    "feeds/feeds.opml"
-                ),
+                "https://feeds.paulofehlauer.com/feeds.opml",
             )
 
     def test_private_origin_is_configurable_and_native_rss_stays_direct(

@@ -5,7 +5,6 @@ import unittest
 from pathlib import Path
 from unittest.mock import MagicMock, patch
 from urllib.parse import urlparse
-from xml.etree import ElementTree as ET
 
 from src.scrapers import CNNBrasilSectionScraper, get_scraper_class
 
@@ -209,24 +208,6 @@ class CNNBrasilSectionScraperTest(unittest.TestCase):
             if item["name"] == "CNN Agro"
         )
         self.assertEqual(source["scraper"], "CNNBrasilSectionScraper")
-
-    def test_checked_in_feed_contains_only_agro_items(self) -> None:
-        tree = ET.parse(REPO_ROOT / "feeds" / "cnn_agro_feed.xml")
-        links = [
-            element.text or ""
-            for element in tree.getroot().findall("./channel/item/link")
-        ]
-
-        self.assertGreater(len(links), 0)
-        self.assertTrue(
-            all(
-                urlparse(link).scheme == "https"
-                and urlparse(link).netloc == "www.cnnbrasil.com.br"
-                and urlparse(link).path.startswith("/agro/")
-                for link in links
-            )
-        )
-
 
 if __name__ == "__main__":
     unittest.main()

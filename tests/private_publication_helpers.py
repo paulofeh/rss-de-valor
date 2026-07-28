@@ -165,6 +165,54 @@ def write_opml(path: Path, sources: list[dict[str, str]]) -> None:
     ET.ElementTree(root).write(path, encoding="utf-8", xml_declaration=True)
 
 
+def write_folha_migration_pair(
+    root: Path,
+    source: Mapping[str, str],
+) -> None:
+    feed_file = source["feed_file"]
+    links = [
+        (
+            "https://www1.folha.uol.com.br/colunas/"
+            f"{source['slug']}/2026/07/artigo-{index}.shtml"
+        )
+        for index in range(10)
+    ]
+    items = "\n".join(
+        f"""    <item>
+      <title>Artigo {index}</title>
+      <link>{html.escape(link)}</link>
+      <description>{html.escape('conteudo completo ' * 80)}</description>
+      <dc:creator>{html.escape(source['name'])}</dc:creator>
+      <pubDate>Thu, 24 Jul 2026 12:00:00 +0000</pubDate>
+      <guid isPermaLink="true">{html.escape(link)}</guid>
+    </item>"""
+        for index, link in enumerate(links)
+    )
+    feed = f"""<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     version="2.0">
+  <channel>
+    <title>{html.escape(source['name'])}</title>
+    <link>https://www1.folha.uol.com.br/</link>
+    <description>Fixture da migração Folha</description>
+    <atom:link href="{CANONICAL_FEED_BASE_URL}/feeds/{feed_file}"
+               rel="self" type="application/rss+xml" />
+{items}
+  </channel>
+</rss>
+"""
+    feed_path = root / "feeds" / feed_file
+    feed_path.parent.mkdir(parents=True, exist_ok=True)
+    feed_path.write_text(feed, encoding="utf-8")
+    history_path = root / "history" / source["history_file"]
+    history_path.parent.mkdir(parents=True, exist_ok=True)
+    history_path.write_text(
+        json.dumps({"last_article_link": links[0]}),
+        encoding="utf-8",
+    )
+
+
 def create_test_repository(root: Path) -> list[dict[str, str]]:
     (root / "config").mkdir(parents=True)
     (root / "feeds").mkdir()

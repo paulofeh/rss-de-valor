@@ -15,6 +15,7 @@ from scripts.migrate_folha_sources import (
     FolhaSourceMigrationError,
     approved_seed_objects,
 )
+from tests.private_publication_helpers import write_folha_migration_pair
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -32,14 +33,7 @@ class FolhaSourceMigrationTest(unittest.TestCase):
             self.root / "config" / "sources_config.json",
         )
         for source in EXPECTED_SOURCES:
-            shutil.copyfile(
-                REPO_ROOT / "feeds" / source["feed_file"],
-                self.root / "feeds" / source["feed_file"],
-            )
-            shutil.copyfile(
-                REPO_ROOT / "history" / source["history_file"],
-                self.root / "history" / source["history_file"],
-            )
+            write_folha_migration_pair(self.root, source)
 
     def tearDown(self) -> None:
         self.temporary.cleanup()

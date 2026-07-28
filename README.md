@@ -5,7 +5,6 @@ climático. O projeto coleta artigos, preserva histórico entre execuções e
 publica feeds padronizados para consumo no Feedbin.
 
 [![Private feed publication](https://github.com/paulofeh/rss-de-valor/actions/workflows/private-feed-publication.yml/badge.svg)](https://github.com/paulofeh/rss-de-valor/actions/workflows/private-feed-publication.yml)
-[![Legacy Pages publication](https://github.com/paulofeh/rss-de-valor/actions/workflows/workflow.yml/badge.svg)](https://github.com/paulofeh/rss-de-valor/actions/workflows/workflow.yml)
 
 ## Estado atual
 
@@ -28,16 +27,17 @@ ter 109 fontes:
 - um RSS nativo mantido diretamente no provedor;
 - 217 objetos internos e 109 rotas no snapshot privado completo.
 
-O snapshot `30357116106-1-51f8690fec06` publicou Juliano Spyer e Sérgio
-Rodrigues. O Feedbin acompanha os 108 feeds gerados pelo endpoint privado;
-Juliano e Sérgio foram validados e suas assinaturas nativas foram removidas.
-FT Climate Capital é a única assinatura que continua diretamente no provedor.
-As 87 assinaturas antigas que apontavam para o GitHub Pages já foram removidas.
+O snapshot `30394804773-1-1204dfd6414d` encerrou a janela de estabilização
+posterior à migração. O Feedbin acompanha os 108 feeds gerados pelo endpoint
+privado; Juliano Spyer e Sérgio Rodrigues foram validados e suas assinaturas
+nativas foram removidas. FT Climate Capital é a única assinatura que continua
+diretamente no provedor. As 87 assinaturas antigas que apontavam para o GitHub
+Pages já foram removidas.
 
-O GitHub Pages, os arquivos em `feeds/` e `history/` e o workflow público ainda
-existem como contingência temporária. Eles não são mais a origem canônica para
-novas assinaturas. O corte público depende de uma autorização explícita
-separada e não inclui reescrita do histórico Git.
+No corte público de 28 de julho de 2026, o workflow legado foi retirado e
+`feeds/` e `history/` deixaram de ser versionados. Esses diretórios continuam
+sendo criados localmente e hidratados do R2 durante a publicação privada. O
+histórico Git não foi reescrito.
 
 ## Fontes configuradas
 
@@ -111,12 +111,12 @@ python3 -m venv .venv
 .venv/bin/python3 main.py
 ```
 
-`main.py` escreve em `feeds/` e `history/`. Sem `FEED_BASE_URL`, a execução
-local preserva a origem legada do GitHub Pages. Para gerar self-links iguais aos
-de produção sem publicar nada:
+`main.py` escreve em `feeds/` e `history/`, que são diretórios locais ignorados
+pelo Git. Sem `FEED_BASE_URL`, a execução usa o domínio canônico privado nos
+self-links. A variável continua disponível para testes com outra origem HTTPS:
 
 ```bash
-FEED_BASE_URL=https://feeds.paulofehlauer.com .venv/bin/python3 main.py
+FEED_BASE_URL=https://feeds.example.invalid .venv/bin/python3 main.py
 ```
 
 `FEED_BASE_URL` deve ser uma origem HTTPS sem caminho, porta explícita,
@@ -153,8 +153,6 @@ rss-de-valor/
 ├── docs/
 │   ├── private-feed-publication-cloudflare-spec.md
 │   └── private-feed-publication-runbook.md
-├── feeds/                         # artefatos legados ainda versionados
-├── history/                       # estado legado ainda versionado
 ├── scripts/
 │   ├── hydrate_private_state.py
 │   ├── repair_linkedin_baseline.py
@@ -172,7 +170,6 @@ rss-de-valor/
 │   └── wrangler.jsonc
 ├── main.py
 └── .github/workflows/
-    ├── workflow.yml
     ├── private-feed-pilot.yml
     ├── private-feed-publication.yml
     └── private-feed-rollback.yml
@@ -213,12 +210,11 @@ pode substituir um snapshot completo por um snapshot de uma única rota.
 e só aceita snapshots em modo `full`. O rollback valida o destino antes de
 trocar o ponteiro e restaura o anterior se o canário falhar.
 
-### Publicação pública legada
+### Corte da publicação pública
 
-`workflow.yml` continua rodando nominalmente em `0 */6 * * *` UTC, gerando e
-commitando `feeds/` e `history/`. Ele será removido ou reduzido para
-`contents: read` somente no gate de corte. Não cadastrar novas assinaturas nas
-URLs do GitHub Pages.
+O workflow legado foi removido. A branch atual não contém `feeds/` nem
+`history/`, e nenhum workflow ativo possui permissão para commitar artefatos
+gerados. A publicação de conteúdo acontece somente pelo pipeline privado.
 
 ## Adicionar uma fonte
 
@@ -239,8 +235,8 @@ exigem uma decisão e uma allowlist explícitas.
 ## Remover uma fonte
 
 1. Remova a entrada da configuração.
-2. Remova explicitamente o XML e o histórico locais quando isso fizer parte da
-   mudança aprovada.
+2. Remova artefatos locais ignorados, se existirem, quando isso ajudar a
+   validação da mudança.
 3. Rode os testes de snapshot.
 4. Confirme que a próxima publicação privada ignora os objetos legados durante
    a hidratação e não os inclui no novo manifesto.

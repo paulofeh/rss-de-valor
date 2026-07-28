@@ -7,7 +7,7 @@ import pytz
 from xml.etree import ElementTree as ET
 from urllib.parse import urlsplit, urlunsplit
 
-DEFAULT_FEED_BASE_URL = "https://paulofeh.github.io/rss-de-valor"
+DEFAULT_FEED_BASE_URL = "https://feeds.paulofehlauer.com"
 
 
 def get_feed_base_url():
@@ -38,11 +38,8 @@ def get_feed_base_url():
 
 
 def get_opml_url():
-    """Return the OPML URL without changing the legacy Pages location."""
-    base_url = get_feed_base_url()
-    if 'FEED_BASE_URL' not in os.environ:
-        return f"{base_url}/feeds/feeds.opml"
-    return f"{base_url}/feeds.opml"
+    """Return the configured publication URL for the private OPML."""
+    return f"{get_feed_base_url()}/feeds.opml"
 
 class CustomRssFeed(Rss201rev2Feed):
     def root_attributes(self):

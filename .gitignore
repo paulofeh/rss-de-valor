@@ -33,6 +33,10 @@ worker/coverage/
 .private-feed-build/
 .private-feed-state/
 
+# Generated runtime state is hydrated from and published to private R2.
+/feeds/
+/history/
+
 # IDEs
 .idea/
 .vscode/
@@ -47,7 +51,3 @@ worker/coverage/
 .Trashes
 ehthumbs.db
 Thumbs.db
-
-# NÃO ignore os arquivos gerados
-# !feeds/*.xml
-# !history/*.json

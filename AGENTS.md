@@ -16,22 +16,24 @@ The canonical production delivery is private:
 - immutable snapshots selected by `current.json`;
 - GitHub Actions publication every six hours.
 
-The public GitHub Pages workflow, `feeds/`, and `history/` are still present as
-a temporary contingency. They may only be removed at the explicit public-cut
-gate. The `clima` group also feeds an automated climate-risk digest.
+The public GitHub Pages workflow and the tracked `feeds/` and `history/`
+artifacts were retired at the explicit public-cut gate. These directories are
+runtime state, ignored by Git, and hydrated from private R2 before collection.
+The `clima` group also feeds an automated climate-risk digest.
 
 Current production inventory as of 2026-07-28: 109 configured sources, 108
 generated feeds, one direct `ExistingRssScraper` source, 217 internal snapshot
 objects, and 109 authenticated private routes. R2 snapshot
-`30357116106-1-51f8690fec06` activated this inventory through the fixed Folha
-source migration.
+`30394804773-1-1204dfd6414d` completed the two-cycle stabilization window
+after the fixed Folha source migration.
 
 ## Safety and Authorization Gates
 
 - Preserve pre-existing working-tree changes and avoid unrelated files.
 - Do not commit or push unless the user explicitly authorizes it.
-- Do not disable GitHub Pages, stop the public workflow, remove `feeds/` or
-  `history/`, or rewrite Git history without a separate explicit authorization.
+- Do not re-enable GitHub Pages, recreate a public publisher, re-version
+  `feeds/` or `history/`, or rewrite Git history without separate explicit
+  authorization.
 - Do not change DNS, Worker routes, R2 access, secrets, or external
   infrastructure unless the task explicitly includes that operation.
 - Never request secrets in chat or print them in commands, logs, XML, OPML, or
@@ -90,8 +92,8 @@ and `PaulGrahamScraper` have special behavior. New classes must be registered in
 
 **`src/utils.py`** handles feed, OPML, HTML, config, and history utilities.
 `FEED_BASE_URL` controls generated self-links. It must be a credential-free
-HTTPS origin. Production uses `https://feeds.paulofehlauer.com`; an unset local
-value preserves the legacy Pages origin. The `group_display_names` map is
+HTTPS origin. Production and the unset local default use
+`https://feeds.paulofehlauer.com`. The `group_display_names` map is
 duplicated in `generate_opml()` and `generate_html_index()`.
 
 **`config/sources_config.json`** is the source of truth for sources. Each source
@@ -127,9 +129,8 @@ diagnostics but its repository-level gate normally remains `false`.
 **`.github/workflows/private-feed-rollback.yml`** performs a validated,
 full-snapshot pointer rollback and shares the publication concurrency group.
 
-**`.github/workflows/workflow.yml`** is the legacy public publisher. It still
-commits `feeds/` and `history/` with `[skip ci]` and must remain until the
-separate cut gate.
+The legacy `.github/workflows/workflow.yml` publisher was removed at the
+public-cut gate. No active workflow may commit generated artifacts.
 
 ## Adding a Source
 
@@ -149,7 +150,7 @@ explicit policy change.
 ## Removing a Source
 
 1. Remove the config entry.
-2. Remove its generated feed/history only when included in the approved change.
+2. Remove any ignored local feed/history copies when useful for validation.
 3. Verify the derived allowlist and snapshot tests.
 4. Confirm that hydration ignores only legacy extras and still fails on a
    missing or divergent required object.
