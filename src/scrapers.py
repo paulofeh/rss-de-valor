@@ -384,6 +384,17 @@ class Poder360Scraper(BaseScraper):
 
 class ValorOGloboScraper(BaseScraper):
     """Scraper for Valor/O Globo articles."""
+
+    MIN_FULL_CONTENT_PARAGRAPHS = 3
+    MIN_FULL_CONTENT_CHARS = 600
+    VALOR_AUTHOR_PATHS = {
+        '/autores/bruno-carazza': 'Bruno Carazza',
+        '/autores/guilherme-ravache': 'Guilherme Ravache',
+        '/opiniao/jose-eli-da-veiga': 'José Eli da Veiga',
+        '/opiniao/maria-cristina-fernandes': 'Maria Cristina Fernandes',
+        '/autores/tatiana-salem-levy': 'Tatiana Salem Levy',
+    }
+
     def _parse_feed_item(self, item):
         """Parse a single bastian-feed-item element."""
         title_el = item.select_one('h2.feed-post-link')
@@ -409,30 +420,164 @@ class ValorOGloboScraper(BaseScraper):
             return self._parse_feed_item(article)
         return None
 
-    def _fetch_article_content(self, url):
-        """Fetch full article content from individual article page.
+    @classmethod
+    def _default_author_for_url(cls, url):
+        """Return the configured columnist implied by a Valor source URL."""
+        path = urlparse(url).path.rstrip('/')
+        for source_path, author in cls.VALOR_AUTHOR_PATHS.items():
+            if path == source_path:
+                return author
+        return None
 
-        Returns HTML string with article body paragraphs, or None on failure.
-        Filters out inline recommendation blocks (data-block-type="raw").
-        """
+    @staticmethod
+    def _normalize_article_author(author):
+        """Remove publisher/location suffixes from a visible article byline."""
+        if not author:
+            return None
+        normalized = re.sub(r'^Por\s+', '', author.strip(), flags=re.I)
+        normalized = re.split(r'\s+—\s+', normalized, maxsplit=1)[0]
+        normalized = re.sub(
+            r'\s*,\s*(?:Valor|Prática ESG|Para o Prática ESG)$',
+            '',
+            normalized,
+            flags=re.I,
+        )
+        return normalized.strip() or None
+
+    @staticmethod
+    def _extract_article_metadata(soup):
+        """Extract the stable public byline and publication timestamp."""
+        author_el = soup.select_one(
+            'p.top__signature__text__author-name, '
+            '.content-publication-data__from'
+        )
+        author = ValorOGloboScraper._normalize_article_author(
+            author_el.get_text(' ', strip=True) if author_el else None
+        )
+
+        pubdate = None
+        date_el = soup.select_one('time[datetime]')
+        if date_el:
+            date_value = date_el.get('datetime')
+            try:
+                pubdate = datetime.datetime.fromisoformat(
+                    date_value.replace('Z', '+00:00')
+                )
+                if pubdate.tzinfo is None:
+                    pubdate = pytz.timezone(
+                        'America/Sao_Paulo'
+                    ).localize(pubdate)
+            except (AttributeError, ValueError):
+                pubdate = None
+
+        return author, pubdate
+
+    @staticmethod
+    def _extract_standard_content(soup):
+        """Extract article paragraphs from the regular Globo page."""
+        body = soup.select_one('div.mc-article-body')
+        if not body:
+            return None
+        paragraphs = []
+        for div in body.select('div.content-text'):
+            if div.get('data-block-type') == 'raw':
+                continue
+            p = div.select_one('p.content-text__container')
+            if p:
+                paragraphs.append(str(p))
+        return '\n'.join(paragraphs) if paragraphs else None
+
+    @classmethod
+    def _content_is_complete(cls, content):
+        """Reject teaser-only responses before they can downgrade a feed."""
+        if not content:
+            return False
+        soup = BeautifulSoup(content, 'html.parser')
+        paragraphs = soup.select('p')
+        visible = re.sub(r'\s+', ' ', soup.get_text(' ', strip=True)).strip()
+        return (
+            len(paragraphs) >= cls.MIN_FULL_CONTENT_PARAGRAPHS
+            and len(visible) >= cls.MIN_FULL_CONTENT_CHARS
+        )
+
+    @staticmethod
+    def _extract_amp_content(soup):
+        """Extract editorial paragraphs from the official AMP article body."""
+        body = soup.select_one('section.globo-amp-article-body')
+        if not body:
+            return None
+
+        paragraphs = []
+        for paragraph in body.select('p'):
+            excluded = False
+            for ancestor in paragraph.parents:
+                if ancestor is body:
+                    break
+                classes = ancestor.get('class', [])
+                if any(
+                    'paywall' in class_name or 'amp-barreira' in class_name
+                    for class_name in classes
+                ):
+                    excluded = True
+                    break
+            if excluded or not paragraph.get_text(' ', strip=True):
+                continue
+            paragraphs.append(str(paragraph))
+
+        return '\n'.join(paragraphs) if paragraphs else None
+
+    def _fetch_article_enrichment(self, url):
+        """Fetch complete content plus stable byline and publication date."""
         try:
             response = requests_retry_session().get(url, timeout=30)
             response.raise_for_status()
             soup = BeautifulSoup(response.content, 'html.parser')
-            body = soup.select_one('div.mc-article-body')
-            if not body:
-                return None
-            paragraphs = []
-            for div in body.select('div.content-text'):
-                if div.get('data-block-type') == 'raw':
-                    continue
-                p = div.select_one('p.content-text__container')
-                if p:
-                    paragraphs.append(str(p))
-            return '\n'.join(paragraphs) if paragraphs else None
+            content = self._extract_standard_content(soup)
+            author, pubdate = self._extract_article_metadata(soup)
+            is_valor = urlparse(url).netloc == 'valor.globo.com'
+
+            if (
+                is_valor
+                and not self._content_is_complete(content)
+            ):
+                amp_el = soup.select_one('link[rel="amphtml"][href]')
+                amp_url = urljoin(url, amp_el['href']) if amp_el else None
+                if (
+                    amp_url
+                    and urlparse(amp_url).netloc == urlparse(url).netloc
+                ):
+                    amp_response = requests_retry_session().get(
+                        amp_url,
+                        timeout=30,
+                    )
+                    amp_response.raise_for_status()
+                    amp_soup = BeautifulSoup(
+                        amp_response.content,
+                        'html.parser',
+                    )
+                    amp_content = self._extract_amp_content(amp_soup)
+                    if self._content_is_complete(amp_content):
+                        content = amp_content
+
+            if is_valor and not self._content_is_complete(content):
+                content = None
+
+            return {
+                'content': content,
+                'author': author,
+                'pubdate': pubdate,
+            }
         except Exception as e:
             print(f"   ⚠️  Erro ao buscar conteúdo de {url}: {str(e)}")
-            return None
+            return {
+                'content': None,
+                'author': None,
+                'pubdate': None,
+            }
+
+    def _fetch_article_content(self, url):
+        """Backward-compatible content-only wrapper."""
+        return self._fetch_article_enrichment(url)['content']
 
     def get_articles(self, limit=10):
         try:
@@ -444,9 +589,19 @@ class ValorOGloboScraper(BaseScraper):
             for item in items[:limit]:
                 article = self._parse_feed_item(item)
                 if article:
-                    content = self._fetch_article_content(article['link'])
+                    enrichment = self._fetch_article_enrichment(
+                        article['link']
+                    )
+                    content = enrichment['content']
                     if content:
                         article['description'] = content
+                        article['author'] = (
+                            self._default_author_for_url(self.url)
+                            or enrichment['author']
+                            or article['author']
+                        )
+                        if enrichment['pubdate']:
+                            article['pubdate'] = enrichment['pubdate']
                         article['_enrichment_failed'] = False
                     else:
                         article['_enrichment_failed'] = True

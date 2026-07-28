@@ -182,7 +182,12 @@ def normalize_feed_self_link(filename):
     return True
 
 
-def merge_articles_with_existing_feed(articles, filename, limit=5):
+def merge_articles_with_existing_feed(
+    articles,
+    filename,
+    limit=5,
+    preserve_existing_pubdate=False,
+):
     """Keep a generated feed from being downgraded by transient scrape failures.
 
     Source listings can remain available even when an individual article request
@@ -212,6 +217,13 @@ def merge_articles_with_existing_feed(articles, filename, limit=5):
             else:
                 print(f"   ⏳ Edição incompleta adiada: {article.get('title', article.get('link'))}")
                 continue
+        elif preserve_existing_pubdate:
+            previous_article = previous_by_link.get(link_key)
+            if previous_article and previous_article.get('_had_pubdate'):
+                selected_article = {
+                    **article,
+                    'pubdate': previous_article['pubdate'],
+                }
 
         if link_key in included_links:
             continue
@@ -267,6 +279,7 @@ def _load_feed_articles(filename):
             'description': item.findtext('description') or '',
             'author': item.findtext(dc_creator) or 'Autor não encontrado',
             'pubdate': pubdate,
+            '_had_pubdate': bool(pubdate_text),
         })
 
     return articles

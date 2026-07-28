@@ -167,6 +167,10 @@ do not re-add a YouTube feed without a new decision.
 - Preserve existing feed content on transient scraper/enrichment failures.
   `main.py` applies anti-downgrade merging to LinkedIn newsletters, Folha
   full-content RSS, and Valor/O Globo.
+- Short regular-page responses from Valor are treated as teasers and retried
+  through the official AMP page. Known Valor items keep their previously
+  published date while content and authorship are enriched; new items use the
+  official article timestamp.
 - Normal hydration fails on every missing configured object. The fixed Folha
   source-migration profile was consumed once and must remain disabled; the
   active snapshot now contains all configured objects.

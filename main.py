@@ -72,6 +72,12 @@ def main():
                         articles,
                         source['feed_file'],
                         limit=merge_limit,
+                        preserve_existing_pubdate=(
+                            source['scraper'] == 'ValorOGloboScraper'
+                            and source['url'].startswith(
+                                'https://valor.globo.com/'
+                            )
+                        ),
                     )
                 if articles:
                     latest_article = articles[0]
