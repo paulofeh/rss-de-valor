@@ -3,12 +3,22 @@
 from __future__ import annotations
 
 import json
+import sys
 from pathlib import Path
 from typing import Any
 from urllib.parse import urlsplit
 
-from src.scrapers import CNNBrasilBlogScraper
-from src.utils import generate_feed
+try:
+    from src.scrapers import CNNBrasilBlogScraper
+    from src.utils import generate_feed
+except ModuleNotFoundError as exc:  # pragma: no cover - direct script execution
+    if exc.name != "src":
+        raise
+    repo_root = str(Path(__file__).resolve().parents[1])
+    if repo_root not in sys.path:
+        sys.path.insert(0, repo_root)
+    from src.scrapers import CNNBrasilBlogScraper
+    from src.utils import generate_feed
 
 try:
     from .private_feed_common import (

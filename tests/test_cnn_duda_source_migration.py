@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import json
+import subprocess
+import sys
 import unittest
 from datetime import datetime
 from pathlib import Path
@@ -39,6 +41,26 @@ def article(**overrides: object) -> dict[str, object]:
 
 
 class DudaHerriotSourceMigrationTest(unittest.TestCase):
+    def test_direct_script_import_resolves_repository_packages(self) -> None:
+        completed = subprocess.run(
+            [
+                sys.executable,
+                "-B",
+                "-c",
+                (
+                    "import source_migrations; "
+                    "print(source_migrations.DUDA_HERRIOT_PROFILE)"
+                ),
+            ],
+            cwd=REPO_ROOT / "scripts",
+            check=False,
+            capture_output=True,
+            text=True,
+        )
+
+        self.assertEqual(completed.returncode, 0, completed.stderr)
+        self.assertEqual(completed.stdout.strip(), PROFILE_NAME)
+
     @patch("scripts.migrate_cnn_duda_source.CNNBrasilBlogScraper")
     def test_builds_only_the_validated_feed_and_history(
         self,
