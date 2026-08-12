@@ -487,6 +487,33 @@ O usuário confirmou título, autor, conteúdo e funcionamento e então removeu 
 duas assinaturas nativas. O Feedbin passou a acompanhar os 108 feeds gerados
 pelo endpoint privado. FT Climate Capital permanece upstream.
 
+### 7.6 Migração preparada para Duda Herriot
+
+Em 2026-08-12, a coluna de Duda Herriot na CNN Brasil foi cadastrada com o
+`CNNBrasilBlogScraper`, já usado por Pedro Côrtes. A fonte pertence ao grupo
+`outros` e deriva exatamente:
+
+- `feeds/duda_herriot_feed.xml`;
+- `history/duda_herriot_history.json`.
+
+O perfil manual `cnn-duda-herriot-2026-08-12` existe apenas para a primeira
+publicação, porque o snapshot ativo ainda não contém esse par. Durante a
+hidratação, o perfil consulta o resolver da CNN, aceita somente URLs sob
+`/colunas/duda-herriot/`, exige autoria `Duda Herriot`, data com fuso e conteúdo
+integral, e gera os dois objetos em memória. O conjunto observado de objetos
+ausentes deve coincidir exatamente com esse par.
+
+Para a primeira publicação, usar `Private feed publication` com:
+
+- `confirm_full_publication=true`;
+- `migrate_cnn_duda_herriot=true`;
+- todos os demais perfis de reparo/migração em `false`.
+
+Depois do run bem-sucedido e da verificação da rota autenticada, não reutilizar
+o perfil. O cadastro da URL privada no Feedbin é um gate manual separado. Até
+esses passos ocorrerem, a fonte está preparada no código, mas não ativa no
+Jornal do Dia.
+
 ## 8. Rollback
 
 O rollback normal troca apenas `current.json`. Antes disso, ele baixa o snapshot

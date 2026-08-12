@@ -25,6 +25,11 @@ on:
         required: true
         default: false
         type: boolean
+      migrate_cnn_duda_herriot:
+        description: Seed the exact one-time Duda Herriot CNN source migration
+        required: true
+        default: false
+        type: boolean
 
 concurrency:
   group: private-feed-r2-publication
@@ -84,13 +89,20 @@ jobs:
           REPAIR_LINKEDIN: ${{ inputs.repair_linkedin_baseline }}
           REPAIR_MARTIN_WOLF: ${{ inputs.repair_martin_wolf_pubdate }}
           MIGRATE_FOLHA: ${{ inputs.migrate_folha_juliano_sergio }}
+          MIGRATE_DUDA: ${{ inputs.migrate_cnn_duda_herriot }}
         run: |
           set -euo pipefail
-          if [[ "$REPAIR_LINKEDIN" == "true" &&
-                ( "$REPAIR_MARTIN_WOLF" == "true" ||
-                  "$MIGRATE_FOLHA" == "true" ) ]] ||
-             [[ "$REPAIR_MARTIN_WOLF" == "true" &&
-                "$MIGRATE_FOLHA" == "true" ]]; then
+          selected_profiles=0
+          for selected in \
+            "$REPAIR_LINKEDIN" \
+            "$REPAIR_MARTIN_WOLF" \
+            "$MIGRATE_FOLHA" \
+            "$MIGRATE_DUDA"; do
+            if [[ "$selected" == "true" ]]; then
+              selected_profiles=$((selected_profiles + 1))
+            fi
+          done
+          if (( selected_profiles > 1 )); then
             echo "::error::repair and migration profiles are mutually exclusive"
             exit 1
           fi
@@ -111,7 +123,10 @@ jobs:
           MISSING_OBJECT_PROFILE: >-
             ${{ github.event_name == 'workflow_dispatch' &&
                 inputs.migrate_folha_juliano_sergio == true &&
-                'folha-juliano-sergio-2026-07-27' || '' }}
+                'folha-juliano-sergio-2026-07-27' ||
+                github.event_name == 'workflow_dispatch' &&
+                inputs.migrate_cnn_duda_herriot == true &&
+                'cnn-duda-herriot-2026-08-12' || '' }}
         run: |
           set -euo pipefail
           migration_args=()
@@ -203,4 +218,5 @@ jobs:
             echo "- LinkedIn baseline repair: \`${{ github.event_name == 'workflow_dispatch' && inputs.repair_linkedin_baseline == true }}\`"
             echo "- Martin Wolf publication-date repair: \`${{ github.event_name == 'workflow_dispatch' && inputs.repair_martin_wolf_pubdate == true }}\`"
             echo "- Folha source migration: \`${{ github.event_name == 'workflow_dispatch' && inputs.migrate_folha_juliano_sergio == true }}\`"
+            echo "- Duda Herriot source migration: \`${{ github.event_name == 'workflow_dispatch' && inputs.migrate_cnn_duda_herriot == true }}\`"
           } >> "$GITHUB_STEP_SUMMARY"

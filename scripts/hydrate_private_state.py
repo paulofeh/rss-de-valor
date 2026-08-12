@@ -126,9 +126,9 @@ def hydrate_private_state(
     seed_object_data: dict[str, bytes] = {}
     if missing_object_profile:
         try:
-            from .migrate_folha_sources import approved_seed_objects
+            from .source_migrations import approved_seed_objects
         except ImportError:  # pragma: no cover - direct script execution
-            from migrate_folha_sources import approved_seed_objects
+            from source_migrations import approved_seed_objects
 
         seed_object_data = approved_seed_objects(
             repo_root=repo_root,
@@ -136,7 +136,7 @@ def hydrate_private_state(
         )
         if missing_object_paths != set(seed_object_data):
             raise ManifestError(
-                "Folha source migration did not observe its exact missing "
+                "source migration did not observe its exact missing "
                 "object set"
             )
     elif missing_object_paths:
@@ -226,8 +226,8 @@ def _parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--missing-object-profile",
         help=(
-            "Allow one fixed, validated set of newly configured local "
-            "objects during hydration."
+            "Allow one fixed, validated set of newly configured objects "
+            "during hydration."
         ),
     )
     return parser

@@ -104,8 +104,8 @@ includes configured generated sources, excludes `ExistingRssScraper`, publishes
 the private OPML, rejects aggregate feeds, and disables the private HTML index.
 
 **`scripts/`** implements hydration, manifest construction, validation,
-publication, rollback, the explicitly gated LinkedIn baseline repair, and the
-fixed Folha source migration. R2 operations use its S3-compatible API.
+publication, rollback, the explicitly gated LinkedIn baseline repair, and
+fixed one-time source migrations. R2 operations use its S3-compatible API.
 
 **`worker/`** contains the TypeScript Worker. Authentication happens before
 method/path resolution. The Worker serves only manifest routes from the active
@@ -122,6 +122,10 @@ content to a known author and complete content.
 The one-time `folha-juliano-sergio-2026-07-27` missing-object profile was
 consumed successfully by run `30357116106`. It was restricted to four
 validated local seed objects and must never be selected again.
+The pending `cnn-duda-herriot-2026-08-12` profile is manual-only and may seed
+only `duda_herriot_feed.xml` plus its history. It collects that pair in memory,
+validates the CNN author/path/full body, and must not be selected after its
+first successful publication.
 
 **`.github/workflows/private-feed-pilot.yml`** is retained for controlled
 diagnostics but its repository-level gate normally remains `false`.
@@ -143,6 +147,9 @@ public-cut gate. No active workflow may commit generated artifacts.
 5. Run Python tests and local generation.
 6. Verify that the derived private inventory contains only the intended feed
    and history paths.
+7. If the active snapshot lacks the new pair, add and use one exact manual
+   source-migration profile for its first publication; scheduled hydration must
+   continue to fail closed.
 
 Do not publish by globbing `feeds/*.xml`. Aggregate or orphaned files require an
 explicit policy change.
