@@ -136,7 +136,7 @@ def approved_seed_objects(
         articles,
         feed_filename=source["feed_file"],
     )
-    feed_data = feed.writeString("utf-8")
+    feed_data = feed.writeString("utf-8").encode("utf-8")
     history_data = json.dumps(
         {"last_article_link": articles[0]["link"]},
         ensure_ascii=False,

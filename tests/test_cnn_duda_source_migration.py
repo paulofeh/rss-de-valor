@@ -80,6 +80,9 @@ class DudaHerriotSourceMigrationTest(unittest.TestCase):
                 "history/duda_herriot_history.json",
             },
         )
+        self.assertTrue(
+            all(isinstance(data, bytes) for data in object_data.values())
+        )
         scraper_class.assert_called_once_with(
             "https://www.cnnbrasil.com.br/colunas/duda-herriot/"
         )
