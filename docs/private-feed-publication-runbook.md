@@ -1,17 +1,15 @@
 # Operação da publicação privada de feeds
 
-**Estado em 2026-07-28:** bucket R2 Standard privado, Worker, DNS, Custom
+**Estado em 2026-08-12:** bucket R2 Standard privado, Worker, DNS, Custom
 Domain `feeds.paulofehlauer.com` e ambiente GitHub estão operacionais sem
-exposição de secrets. O snapshot completo
-`30398410821-1-ed9924f6e9ad` está ativo com 217 objetos internos e 109 rotas
-privadas. Juliano Spyer e Sérgio Rodrigues foram publicados pelo perfil manual
-fixo, que foi consumido e não pode ser reutilizado. Canários autenticados e
-anônimos passaram; `workers.dev` permanece desabilitado e o apex continua
-redirecionando ao Linktree. O Feedbin acompanha os 108 feeds gerados pelo
-endpoint privado; Juliano e Sérgio foram validados e suas assinaturas nativas
-foram removidas. FT Climate Capital é a única assinatura direta no provedor.
-O workflow público foi removido, os artefatos saíram da árvore atual e o GitHub
-Pages está desativado.
+exposição de secrets. A publicação completa do run `31599855268` está ativa
+com 219 objetos internos e 110 rotas privadas. Os perfis manuais de Juliano
+Spyer/Sérgio Rodrigues e Duda Herriot foram consumidos e não podem ser
+reutilizados. Canários autenticados e anônimos passaram; `workers.dev`
+permanece desabilitado e o apex continua redirecionando ao Linktree. O endpoint
+privado publica 109 feeds gerados; FT Climate Capital é a única fonte direta no
+provedor. O workflow público foi removido, os artefatos saíram da árvore atual
+e o GitHub Pages está desativado.
 
 Este runbook complementa a
 [especificação](private-feed-publication-cloudflare-spec.md). Ele não autoriza
@@ -65,8 +63,8 @@ que o estado é hidratado exclusivamente do snapshot privado.
   identificadas pelo release correspondente.
 - A retenção mantém 28 snapshots e protege o ativo e o imediatamente anterior.
 
-O snapshot ativo deriva 108 feeds, 108 históricos e um OPML: 217 objetos
-internos e 109 rotas. O único `ExistingRssScraper` restante é FT Climate
+O snapshot ativo deriva 109 feeds, 109 históricos e um OPML: 219 objetos
+internos e 110 rotas. O único `ExistingRssScraper` restante é FT Climate
 Capital. XMLs agregados ou órfãos presentes no disco não entram no snapshot.
 
 ## 3. Verificação local
@@ -487,7 +485,7 @@ O usuário confirmou título, autor, conteúdo e funcionamento e então removeu 
 duas assinaturas nativas. O Feedbin passou a acompanhar os 108 feeds gerados
 pelo endpoint privado. FT Climate Capital permanece upstream.
 
-### 7.6 Migração preparada para Duda Herriot
+### 7.6 Migração de Duda Herriot
 
 Em 2026-08-12, a coluna de Duda Herriot na CNN Brasil foi cadastrada com o
 `CNNBrasilBlogScraper`, já usado por Pedro Côrtes. A fonte pertence ao grupo
@@ -496,9 +494,9 @@ Em 2026-08-12, a coluna de Duda Herriot na CNN Brasil foi cadastrada com o
 - `feeds/duda_herriot_feed.xml`;
 - `history/duda_herriot_history.json`.
 
-O perfil manual `cnn-duda-herriot-2026-08-12` existe apenas para a primeira
-publicação, porque o snapshot ativo ainda não contém esse par. Durante a
-hidratação, o perfil consulta o resolver da CNN, aceita somente URLs sob
+O perfil manual `cnn-duda-herriot-2026-08-12` existia apenas para a primeira
+publicação, porque o snapshot anterior ainda não continha esse par. Durante a
+hidratação, o perfil consultou o resolver da CNN, aceitou somente URLs sob
 `/colunas/duda-herriot/`, exige autoria `Duda Herriot`, data com fuso e conteúdo
 integral, e gera os dois objetos em memória. O conjunto observado de objetos
 ausentes deve coincidir exatamente com esse par.
@@ -509,10 +507,40 @@ Para a primeira publicação, usar `Private feed publication` com:
 - `migrate_cnn_duda_herriot=true`;
 - todos os demais perfis de reparo/migração em `false`.
 
+O run `31599855268`, no commit `104a65b4`, hidratou exatamente os dois objetos
+semeados, publicou 219 objetos e 110 rotas e terminou com sucesso. O snapshot
+anterior tinha 217 objetos e 109 rotas, confirmando que somente o feed, o
+histórico e a rota de Duda foram acrescentados. O perfil foi consumido e não
+deve ser reutilizado; os ciclos seguintes devem usar hidratação normal.
+
+### 7.7 Migração preparada para Caetano W. Galindo
+
+Em 2026-08-13, a coluna de Caetano W. Galindo na Folha foi cadastrada com o
+`FolhaScraper`. O endereço previsível do RSS oficial respondeu `404`, enquanto
+a página da coluna entregou oito artigos recentes com data válida e conteúdo
+integral. A fonte pertence ao grupo `folha` e deriva exatamente:
+
+- `feeds/caetano_w_galindo_feed.xml`;
+- `history/caetano_w_galindo_history.json`.
+
+O perfil manual `folha-caetano-w-galindo-2026-08-13` existe apenas para a
+primeira publicação, porque o snapshot ativo ainda não contém esse par. Durante
+a hidratação, o perfil coleta a página da coluna, aceita somente URLs sob
+`/colunas/caetano-w-galindo/` terminadas em `.shtml`, exige autoria
+`Caetano W. Galindo`, data com fuso e conteúdo integral, e gera os dois objetos
+em memória. O conjunto observado de objetos ausentes deve coincidir exatamente
+com esse par.
+
+Para a primeira publicação, usar `Private feed publication` com:
+
+- `confirm_full_publication=true`;
+- `migrate_folha_caetano_w_galindo=true`;
+- todos os demais perfis de reparo/migração em `false`.
+
 Depois do run bem-sucedido e da verificação da rota autenticada, não reutilizar
 o perfil. O cadastro da URL privada no Feedbin é um gate manual separado. Até
-esses passos ocorrerem, a fonte está preparada no código, mas não ativa no
-Jornal do Dia.
+esses passos ocorrerem, a fonte está preparada no código, mas ainda não integra
+o snapshot privado ativo nem o leitor.
 
 ## 8. Rollback
 
@@ -529,7 +557,7 @@ Pelo GitHub:
 
 O workflow **Private feed rollback** exige `--required-mode full`. Isso impede
 que um rollback manual depois da ampliação reduza inadvertidamente a superfície
-completa — 109 rotas no snapshot atual — para o único feed do piloto. Antes do
+completa — 110 rotas no snapshot atual — para o único feed do piloto. Antes do
 primeiro snapshot `full`, uma falha de publicação
 preserva o ponteiro piloto; uma falha de canário depois da ativação restaura
 esse ponteiro automaticamente.

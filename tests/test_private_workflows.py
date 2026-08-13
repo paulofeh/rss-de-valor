@@ -51,6 +51,7 @@ class PrivateWorkflowTest(unittest.TestCase):
         self.assertIn("repair_martin_wolf_pubdate:", publication)
         self.assertIn("migrate_folha_juliano_sergio:", publication)
         self.assertIn("migrate_cnn_duda_herriot:", publication)
+        self.assertIn("migrate_folha_caetano_w_galindo:", publication)
         self.assertIn(
             "inputs.repair_linkedin_baseline == true",
             publication,
@@ -65,6 +66,10 @@ class PrivateWorkflowTest(unittest.TestCase):
         )
         self.assertIn(
             "inputs.migrate_cnn_duda_herriot == true",
+            publication,
+        )
+        self.assertIn(
+            "inputs.migrate_folha_caetano_w_galindo == true",
             publication,
         )
         self.assertIn(
@@ -93,6 +98,10 @@ class PrivateWorkflowTest(unittest.TestCase):
         )
         self.assertIn(
             "cnn-duda-herriot-2026-08-12",
+            publication,
+        )
+        self.assertIn(
+            "folha-caetano-w-galindo-2026-08-13",
             publication,
         )
         self.assertIn(
@@ -164,6 +173,7 @@ class PrivateWorkflowTest(unittest.TestCase):
         )
         self.assertIn("selected_profiles=0", publication)
         self.assertIn('"$MIGRATE_DUDA"', publication)
+        self.assertIn('"$MIGRATE_CAETANO"', publication)
         self.assertIn("selected_profiles > 1", publication)
         self.assertIn(
             "repair and migration profiles are mutually exclusive",

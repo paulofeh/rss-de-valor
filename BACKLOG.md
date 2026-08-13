@@ -2,7 +2,7 @@
 
 ## Publicação privada dos feeds com compatibilidade com o Feedbin
 
-**Status:** migração e corte público concluídos; os 108 feeds gerados são
+**Status:** migração e corte público concluídos; os 109 feeds gerados são
 servidos apenas pelo endpoint privado, o GitHub Pages está desativado e somente
 FT Climate Capital permanece diretamente no provedor
 **Prioridade:** antes de ampliar a publicação de feeds com conteúdo integral
@@ -19,15 +19,15 @@ Privatizar a entrega reduz a exposição e reforça o caráter de uso pessoal, m
 
 ### Situação atual
 
-- Os 108 feeds gerados e o OPML são publicados somente em
+- Os 109 feeds gerados e o OPML são publicados somente em
   `https://feeds.paulofehlauer.com`, com Basic Auth e R2 privado.
 - O workflow público foi removido; `feeds/` e `history/` são estado de runtime
   ignorado pelo Git e hidratado do R2 antes da coleta.
 - O GitHub Pages está desativado e as URLs antigas não entregam XML. Os
   artefatos continuam recuperáveis nos commits anteriores porque o histórico
   Git não foi reescrito.
-- O snapshot completo ativo é `30398410821-1-ed9924f6e9ad`, com 217 objetos
-  internos e 109 rotas privadas.
+- O snapshot completo ativo foi publicado pelo run `31599855268`, com 219
+  objetos internos e 110 rotas privadas.
 - O Feedbin confirmou atualização automática autenticada no domínio definitivo,
   com revalidação condicional `304`.
 - As 86 assinaturas atuais que ainda apontavam para o GitHub Pages foram

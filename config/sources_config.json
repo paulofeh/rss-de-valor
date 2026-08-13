@@ -769,6 +769,14 @@
       "group": "folha"
     },
     {
+      "name": "Caetano W. Galindo",
+      "url": "https://www1.folha.uol.com.br/colunas/caetano-w-galindo/",
+      "scraper": "FolhaScraper",
+      "feed_file": "caetano_w_galindo_feed.xml",
+      "history_file": "caetano_w_galindo_history.json",
+      "group": "folha"
+    },
+    {
       "name": "Celso Rocha de Barros",
       "url": "https://feeds.folha.uol.com.br/colunas/celso-rocha-de-barros/rss091.xml",
       "scraper": "FolhaRssFullContentScraper",

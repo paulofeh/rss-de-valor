@@ -176,6 +176,7 @@ class FolhaRssFullContentScraper(ExistingRssScraper):
         'antonioprata': 'Antonio Prata',
         'bernardo-carvalho': 'Bernardo Carvalho',
         'bernardo-guimaraes': 'Bernardo Guimarães',
+        'caetano-w-galindo': 'Caetano W. Galindo',
         'caos-planejado': 'Caos Planejado',
         'celso-rocha-de-barros': 'Celso Rocha de Barros',
         'conrado-hubner-mendes': 'Conrado Hubner Mendes',

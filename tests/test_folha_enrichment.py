@@ -139,6 +139,31 @@ class FolhaPageEnrichmentTest(unittest.TestCase):
 
 
 class FolhaRssConfigurationTest(unittest.TestCase):
+    def test_caetano_w_galindo_uses_page_scraper_with_author_fallback(
+        self,
+    ) -> None:
+        source = next(
+            source
+            for source in load_sources_config()
+            if source["name"] == "Caetano W. Galindo"
+        )
+
+        self.assertEqual(
+            source["url"],
+            "https://www1.folha.uol.com.br/colunas/caetano-w-galindo/",
+        )
+        self.assertEqual(source["scraper"], "FolhaScraper")
+        self.assertEqual(
+            source["feed_file"],
+            "caetano_w_galindo_feed.xml",
+        )
+        self.assertEqual(
+            FolhaRssFullContentScraper._default_author_for_url(
+                source["url"]
+            ),
+            "Caetano W. Galindo",
+        )
+
     def test_juliano_spyer_uses_page_scraper_because_rss_is_stale(self) -> None:
         source = next(
             source

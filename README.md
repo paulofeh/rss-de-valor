@@ -20,20 +20,20 @@ A publicação canônica é privada:
 - suporte a `GET`, `HEAD`, ETag, `Last-Modified` e respostas `304`;
 - OPML privado e nenhum índice HTML na superfície privada.
 
-Em 28 de julho de 2026, a configuração e o snapshot privado ativo passaram a
-ter 109 fontes:
+Em 12 de agosto de 2026, o snapshot privado ativo passou a ter 110 fontes:
 
-- 108 feeds gerados, cada um com seu histórico;
+- 109 feeds gerados, cada um com seu histórico;
 - um RSS nativo mantido diretamente no provedor;
-- 217 objetos internos e 109 rotas no snapshot privado completo.
+- 219 objetos internos e 110 rotas no snapshot privado completo.
 
-O snapshot `30398410821-1-ed9924f6e9ad` foi publicado depois do corte,
-hidratando os 217 objetos de estado exclusivamente do snapshot privado
-anterior. O Feedbin acompanha os 108 feeds gerados pelo endpoint privado;
-Juliano Spyer e Sérgio Rodrigues foram validados e suas assinaturas nativas
-foram removidas. FT Climate Capital é a única assinatura que continua
-diretamente no provedor. As 87 assinaturas antigas que apontavam para o GitHub
-Pages já foram removidas.
+O run `31599855268`, no commit `104a65b4`, publicou Duda Herriot hidratando
+exatamente os dois novos objetos; os demais vieram do snapshot privado
+anterior. O snapshot `30398410821-1-ed9924f6e9ad` já havia comprovado, depois
+do corte, a hidratação integral sem artefatos versionados. Juliano Spyer e
+Sérgio Rodrigues foram validados no Feedbin e suas assinaturas nativas foram
+removidas. FT Climate Capital é a única fonte que continua diretamente no
+provedor. As 87 assinaturas antigas que apontavam para o GitHub Pages já foram
+removidas.
 
 No corte público de 28 de julho de 2026, o workflow legado foi retirado e
 `feeds/` e `history/` deixaram de ser versionados. Esses diretórios continuam
@@ -46,19 +46,21 @@ histórico Git não foi reescrito.
 | Grupo | Fontes |
 |---|---:|
 | Risco climático | 27 |
-| Folha de S.Paulo | 26 |
+| Folha de S.Paulo | 27 |
 | LinkedIn Newsletters | 19 |
 | Estadão | 18 |
 | O Globo | 11 |
 | Valor Econômico | 4 |
-| Outros | 3 |
+| Outros | 4 |
 | Banco Mundial | 1 |
-| **Total** | **109** |
+| **Total** | **111** |
 
-O único `ExistingRssScraper` é FT Climate Capital, que continua apontando para
-o feed original e não é copiado para o R2. Juliano Spyer passou a usar a página
-da coluna porque o RSS oficial ficou congelado; Sérgio Rodrigues usa o RSS
-oficial com enriquecimento de conteúdo integral.
+A configuração atual reúne 110 feeds gerados e um RSS nativo. O único
+`ExistingRssScraper` é FT Climate Capital, que continua apontando para o feed
+original e não é copiado para o R2. Juliano Spyer passou a usar a página da
+coluna porque o RSS oficial ficou congelado; Caetano W. Galindo também usa a
+página, pois não há RSS oficial disponível. Sérgio Rodrigues usa o RSS oficial
+com enriquecimento de conteúdo integral.
 
 A fonte de transcrições do YouTube foi retirada da configuração ativa. A classe
 `YouTubeTranscriptScraper` e sua dependência ainda existem como código legado,
@@ -230,6 +232,9 @@ gerados. A publicação de conteúdo acontece somente pelo pipeline privado.
 5. Rode os testes Python e valide a geração local.
 6. Confirme que apenas os caminhos derivados da configuração e da política em
    `config/private_publication_allowlist.json` entram no snapshot.
+7. Se o snapshot ativo ainda não tiver o novo feed e histórico, prepare um
+   perfil manual exato para a primeira publicação; a hidratação agendada deve
+   continuar falhando fechada para objetos ausentes.
 
 Não faça upload indiscriminado de `feeds/*.xml`. Agregados e arquivos órfãos
 exigem uma decisão e uma allowlist explícitas.

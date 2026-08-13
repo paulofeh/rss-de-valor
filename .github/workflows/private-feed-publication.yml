@@ -30,6 +30,11 @@ on:
         required: true
         default: false
         type: boolean
+      migrate_folha_caetano_w_galindo:
+        description: Seed the exact one-time Caetano W. Galindo Folha source migration
+        required: true
+        default: false
+        type: boolean
 
 concurrency:
   group: private-feed-r2-publication
@@ -90,6 +95,7 @@ jobs:
           REPAIR_MARTIN_WOLF: ${{ inputs.repair_martin_wolf_pubdate }}
           MIGRATE_FOLHA: ${{ inputs.migrate_folha_juliano_sergio }}
           MIGRATE_DUDA: ${{ inputs.migrate_cnn_duda_herriot }}
+          MIGRATE_CAETANO: ${{ inputs.migrate_folha_caetano_w_galindo }}
         run: |
           set -euo pipefail
           selected_profiles=0
@@ -97,7 +103,8 @@ jobs:
             "$REPAIR_LINKEDIN" \
             "$REPAIR_MARTIN_WOLF" \
             "$MIGRATE_FOLHA" \
-            "$MIGRATE_DUDA"; do
+            "$MIGRATE_DUDA" \
+            "$MIGRATE_CAETANO"; do
             if [[ "$selected" == "true" ]]; then
               selected_profiles=$((selected_profiles + 1))
             fi
@@ -126,7 +133,10 @@ jobs:
                 'folha-juliano-sergio-2026-07-27' ||
                 github.event_name == 'workflow_dispatch' &&
                 inputs.migrate_cnn_duda_herriot == true &&
-                'cnn-duda-herriot-2026-08-12' || '' }}
+                'cnn-duda-herriot-2026-08-12' ||
+                github.event_name == 'workflow_dispatch' &&
+                inputs.migrate_folha_caetano_w_galindo == true &&
+                'folha-caetano-w-galindo-2026-08-13' || '' }}
         run: |
           set -euo pipefail
           migration_args=()
@@ -219,4 +229,5 @@ jobs:
             echo "- Martin Wolf publication-date repair: \`${{ github.event_name == 'workflow_dispatch' && inputs.repair_martin_wolf_pubdate == true }}\`"
             echo "- Folha source migration: \`${{ github.event_name == 'workflow_dispatch' && inputs.migrate_folha_juliano_sergio == true }}\`"
             echo "- Duda Herriot source migration: \`${{ github.event_name == 'workflow_dispatch' && inputs.migrate_cnn_duda_herriot == true }}\`"
+            echo "- Caetano W. Galindo source migration: \`${{ github.event_name == 'workflow_dispatch' && inputs.migrate_folha_caetano_w_galindo == true }}\`"
           } >> "$GITHUB_STEP_SUMMARY"
