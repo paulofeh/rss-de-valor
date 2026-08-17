@@ -2,12 +2,12 @@
 
 **Estado em 2026-08-17:** bucket R2 Standard privado, Worker, DNS, Custom
 Domain `feeds.paulofehlauer.com` e ambiente GitHub estão operacionais sem
-exposição de secrets. A publicação completa do run agendado `32006682084` está
-ativa com 221 objetos internos e 111 rotas privadas. Os perfis manuais de
-Juliano Spyer/Sérgio Rodrigues, Duda Herriot e Caetano W. Galindo foram
-consumidos e não podem ser reutilizados. Canários autenticados e anônimos
+exposição de secrets. A publicação completa do run manual `32028294483` está
+ativa com 223 objetos internos e 112 rotas privadas. Os perfis manuais de
+Juliano Spyer/Sérgio Rodrigues, Duda Herriot, Caetano W. Galindo e Élcio Batista
+foram consumidos e não podem ser reutilizados. Canários autenticados e anônimos
 passaram; `workers.dev` permanece desabilitado e o apex continua redirecionando
-ao Linktree. O endpoint privado publica 110 feeds gerados; FT Climate Capital é
+ao Linktree. O endpoint privado publica 111 feeds gerados; FT Climate Capital é
 a única fonte direta no provedor. O workflow público foi removido, os artefatos
 saíram da árvore atual e o GitHub Pages está desativado.
 
@@ -63,11 +63,9 @@ que o estado é hidratado exclusivamente do snapshot privado.
   identificadas pelo release correspondente.
 - A retenção mantém 28 snapshots e protege o ativo e o imediatamente anterior.
 
-O snapshot ativo deriva 110 feeds, 110 históricos e um OPML: 221 objetos
-internos e 111 rotas. A configuração preparada de Élcio Batista elevará o
-próximo snapshot controlado a 111 feeds, 223 objetos internos e 112 rotas. O
-único `ExistingRssScraper` restante é FT Climate Capital. XMLs agregados ou
-órfãos presentes no disco não entram no snapshot.
+O snapshot ativo deriva 111 feeds, 111 históricos e um OPML: 223 objetos
+internos e 112 rotas. O único `ExistingRssScraper` restante é FT Climate
+Capital. XMLs agregados ou órfãos presentes no disco não entram no snapshot.
 
 ## 3. Verificação local
 
@@ -544,7 +542,7 @@ semeados, publicou 221 objetos e 111 rotas e terminou com sucesso. O perfil foi
 consumido e não deve ser reutilizado; os ciclos seguintes devem usar hidratação
 normal.
 
-### 7.8 Migração preparada para Élcio Batista
+### 7.8 Migração de Élcio Batista
 
 Em 2026-08-17, a newsletter **Entre Vozes e Caminhos**, de Élcio Batista, foi
 cadastrada com o `LinkedInNewsletterScraper`. A coleta pontual retornou cinco
@@ -554,13 +552,13 @@ integral. A fonte pertence ao grupo `linkedin` e deriva exatamente:
 - `feeds/elcio_batista_linkedin_feed.xml`;
 - `history/elcio_batista_linkedin_history.json`.
 
-O perfil manual `linkedin-elcio-batista-2026-08-17` existe apenas para a
-primeira publicação, porque o snapshot ativo ainda não contém esse par. Durante
-a hidratação, o perfil aceita somente artigos HTTPS do LinkedIn sob `/pulse/`
-cujo caminho identifica `élcio-batista`, exige autoria exata, enriquecimento
-completo, data com fuso e conteúdo integral, e gera os dois objetos em memória.
-O conjunto observado de objetos ausentes deve coincidir exatamente com esse
-par.
+O perfil manual `linkedin-elcio-batista-2026-08-17` existia apenas para a
+primeira publicação, porque o snapshot anterior ainda não continha esse par.
+Durante a hidratação, o perfil aceitou somente artigos HTTPS do LinkedIn sob
+`/pulse/` cujo caminho identifica `élcio-batista`, exigiu autoria exata,
+enriquecimento completo, data com fuso e conteúdo integral, e gerou os dois
+objetos em memória. O conjunto observado de objetos ausentes coincidiu
+exatamente com esse par.
 
 Para a primeira publicação, usar `Private feed publication` com:
 
@@ -568,10 +566,12 @@ Para a primeira publicação, usar `Private feed publication` com:
 - `migrate_linkedin_elcio_batista=true`;
 - todos os demais perfis de reparo/migração em `false`.
 
-Depois do run bem-sucedido e da verificação da rota autenticada, não reutilizar
-o perfil. O cadastro da URL privada no Feedbin é um gate manual separado. Até
-esses passos ocorrerem, a fonte está preparada no código, mas ainda não integra
-o snapshot privado ativo nem o leitor.
+O run `32028294483`, no commit `f1ea9119`, hidratou exatamente os dois objetos
+semeados, publicou o snapshot `32028294483-1-f1ea9119bae7` com 223 objetos e
+112 rotas e passou pelos canários e pela retenção. A rota anônima de Élcio
+respondeu `401` com `Cache-Control: no-store`. O perfil foi consumido e não deve
+ser reutilizado. O cadastro da URL privada no Feedbin permanece um gate manual
+separado.
 
 ## 8. Rollback
 
@@ -588,7 +588,7 @@ Pelo GitHub:
 
 O workflow **Private feed rollback** exige `--required-mode full`. Isso impede
 que um rollback manual depois da ampliação reduza inadvertidamente a superfície
-completa — 111 rotas no snapshot atual — para o único feed do piloto. Antes do
+completa — 112 rotas no snapshot atual — para o único feed do piloto. Antes do
 primeiro snapshot `full`, uma falha de publicação
 preserva o ponteiro piloto; uma falha de canário depois da ativação restaura
 esse ponteiro automaticamente.

@@ -20,17 +20,16 @@ A publicação canônica é privada:
 - suporte a `GET`, `HEAD`, ETag, `Last-Modified` e respostas `304`;
 - OPML privado e nenhum índice HTML na superfície privada.
 
-Em 17 de agosto de 2026, o snapshot privado ativo tem 111 fontes:
+Em 17 de agosto de 2026, o snapshot privado ativo tem 112 fontes:
 
-- 110 feeds gerados, cada um com seu histórico;
+- 111 feeds gerados, cada um com seu histórico;
 - um RSS nativo mantido diretamente no provedor;
-- 221 objetos internos e 111 rotas no snapshot privado completo.
+- 223 objetos internos e 112 rotas no snapshot privado completo.
 
-O run agendado `32006682084`, no commit `17bc5315`, hidratou o snapshot anterior
-sem perfil excepcional e publicou novamente os 221 objetos e 111 rotas. A
-configuração do repositório já inclui também Élcio Batista, mas esse novo par de
-feed e histórico ainda depende da primeira publicação manual controlada. FT
-Climate Capital é a única fonte que continua diretamente no provedor.
+O run manual `32028294483`, no commit `f1ea9119`, semeou exatamente o feed e o
+histórico de Élcio Batista, publicou 223 objetos e 112 rotas e passou pelos
+canários e pela retenção. Os demais objetos vieram do snapshot privado anterior.
+FT Climate Capital é a única fonte que continua diretamente no provedor.
 
 No corte público de 28 de julho de 2026, o workflow legado foi retirado e
 `feeds/` e `history/` deixaram de ser versionados. Esses diretórios continuam
@@ -54,9 +53,7 @@ histórico Git não foi reescrito.
 
 A configuração atual reúne 111 feeds gerados e um RSS nativo. O único
 `ExistingRssScraper` é FT Climate Capital, que continua apontando para o feed
-original e não é copiado para o R2. O próximo snapshot controlado de Élcio
-Batista deve conter 223 objetos internos e 112 rotas; até lá, o snapshot ativo
-permanece com as contagens anteriores. Juliano Spyer passou a usar a página da
+original e não é copiado para o R2. Juliano Spyer passou a usar a página da
 coluna porque o RSS oficial ficou congelado; Caetano W. Galindo também usa a
 página, pois não há RSS oficial disponível.
 
