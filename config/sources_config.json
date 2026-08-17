@@ -529,6 +529,14 @@
       "group": "linkedin"
     },
     {
+      "name": "Élcio Batista",
+      "url": "https://www.linkedin.com/newsletters/entre-vozes-e-caminhos-7307792015079972865/",
+      "feed_file": "elcio_batista_linkedin_feed.xml",
+      "history_file": "elcio_batista_linkedin_history.json",
+      "scraper": "LinkedInNewsletterScraper",
+      "group": "linkedin"
+    },
+    {
       "name": "Dorrit Harazim",
       "url": "https://oglobo.globo.com/opiniao/dorrit-harazim/",
       "feed_file": "dorrit_harazim_feed.xml",

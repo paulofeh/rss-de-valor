@@ -35,6 +35,11 @@ on:
         required: true
         default: false
         type: boolean
+      migrate_linkedin_elcio_batista:
+        description: Seed the exact one-time Élcio Batista LinkedIn source migration
+        required: true
+        default: false
+        type: boolean
 
 concurrency:
   group: private-feed-r2-publication
@@ -96,6 +101,7 @@ jobs:
           MIGRATE_FOLHA: ${{ inputs.migrate_folha_juliano_sergio }}
           MIGRATE_DUDA: ${{ inputs.migrate_cnn_duda_herriot }}
           MIGRATE_CAETANO: ${{ inputs.migrate_folha_caetano_w_galindo }}
+          MIGRATE_ELCIO: ${{ inputs.migrate_linkedin_elcio_batista }}
         run: |
           set -euo pipefail
           selected_profiles=0
@@ -104,7 +110,8 @@ jobs:
             "$REPAIR_MARTIN_WOLF" \
             "$MIGRATE_FOLHA" \
             "$MIGRATE_DUDA" \
-            "$MIGRATE_CAETANO"; do
+            "$MIGRATE_CAETANO" \
+            "$MIGRATE_ELCIO"; do
             if [[ "$selected" == "true" ]]; then
               selected_profiles=$((selected_profiles + 1))
             fi
@@ -136,7 +143,10 @@ jobs:
                 'cnn-duda-herriot-2026-08-12' ||
                 github.event_name == 'workflow_dispatch' &&
                 inputs.migrate_folha_caetano_w_galindo == true &&
-                'folha-caetano-w-galindo-2026-08-13' || '' }}
+                'folha-caetano-w-galindo-2026-08-13' ||
+                github.event_name == 'workflow_dispatch' &&
+                inputs.migrate_linkedin_elcio_batista == true &&
+                'linkedin-elcio-batista-2026-08-17' || '' }}
         run: |
           set -euo pipefail
           migration_args=()
@@ -230,4 +240,5 @@ jobs:
             echo "- Folha source migration: \`${{ github.event_name == 'workflow_dispatch' && inputs.migrate_folha_juliano_sergio == true }}\`"
             echo "- Duda Herriot source migration: \`${{ github.event_name == 'workflow_dispatch' && inputs.migrate_cnn_duda_herriot == true }}\`"
             echo "- Caetano W. Galindo source migration: \`${{ github.event_name == 'workflow_dispatch' && inputs.migrate_folha_caetano_w_galindo == true }}\`"
+            echo "- Élcio Batista source migration: \`${{ github.event_name == 'workflow_dispatch' && inputs.migrate_linkedin_elcio_batista == true }}\`"
           } >> "$GITHUB_STEP_SUMMARY"

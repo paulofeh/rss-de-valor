@@ -5,6 +5,10 @@ from __future__ import annotations
 from pathlib import Path
 
 try:
+    from .migrate_linkedin_elcio_source import (
+        PROFILE_NAME as ELCIO_BATISTA_PROFILE,
+        approved_seed_objects as approved_elcio_batista_seed_objects,
+    )
     from .migrate_folha_caetano_source import (
         PROFILE_NAME as CAETANO_W_GALINDO_PROFILE,
         approved_seed_objects as approved_caetano_w_galindo_seed_objects,
@@ -19,6 +23,10 @@ try:
     )
     from .private_feed_common import ConfigurationError
 except ImportError:  # pragma: no cover - direct script execution
+    from migrate_linkedin_elcio_source import (  # type: ignore[no-redef]
+        PROFILE_NAME as ELCIO_BATISTA_PROFILE,
+        approved_seed_objects as approved_elcio_batista_seed_objects,
+    )
     from migrate_folha_caetano_source import (  # type: ignore[no-redef]
         PROFILE_NAME as CAETANO_W_GALINDO_PROFILE,
         approved_seed_objects as approved_caetano_w_galindo_seed_objects,
@@ -39,6 +47,11 @@ def approved_seed_objects(
     repo_root: Path,
     profile: str,
 ) -> dict[str, bytes]:
+    if profile == ELCIO_BATISTA_PROFILE:
+        return approved_elcio_batista_seed_objects(
+            repo_root=repo_root,
+            profile=profile,
+        )
     if profile == CAETANO_W_GALINDO_PROFILE:
         return approved_caetano_w_galindo_seed_objects(
             repo_root=repo_root,
