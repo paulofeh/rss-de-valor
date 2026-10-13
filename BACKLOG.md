@@ -17,6 +17,16 @@ Substituir a publicação pública dos feeds gerados por uma distribuição priv
 
 Privatizar a entrega reduz a exposição e reforça o caráter de uso pessoal, mas não elimina automaticamente questões autorais relacionadas à reprodução de conteúdo integral.
 
+### Ampliação pendente — 2026-10-13
+
+Mercado Imobiliário e Economia, de Fábio Tadeu Araújo, foi adicionada à
+configuração local. Coleta validada com cinco edições integrais; perfil manual
+`linkedin-mercado-imobiliario-e-economia-2026-10-13` preparado para semear
+somente o novo feed e histórico. Commit/push, primeira publicação e cadastro
+no Feedbin estão pendentes. O inventário local passa a 112 feeds gerados,
+225 objetos e 113 rotas; os números de produção abaixo são o registro anterior.
+Procedimento: seção 7.9 do runbook.
+
 ### Situação atual
 
 - Os 111 feeds ativos e o OPML são publicados somente em

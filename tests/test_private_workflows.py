@@ -53,6 +53,7 @@ class PrivateWorkflowTest(unittest.TestCase):
         self.assertIn("migrate_cnn_duda_herriot:", publication)
         self.assertIn("migrate_folha_caetano_w_galindo:", publication)
         self.assertIn("migrate_linkedin_elcio_batista:", publication)
+        self.assertIn("migrate_linkedin_mercado_imobiliario:", publication)
         self.assertIn(
             "inputs.repair_linkedin_baseline == true",
             publication,
@@ -75,6 +76,12 @@ class PrivateWorkflowTest(unittest.TestCase):
         )
         self.assertIn(
             "inputs.migrate_linkedin_elcio_batista == true",
+            publication,
+        )
+        self.assertIn(
+            "github.event_name == 'workflow_dispatch' &&\n"
+            "                inputs.migrate_linkedin_mercado_imobiliario == true &&\n"
+            "                'linkedin-mercado-imobiliario-e-economia-2026-10-13'",
             publication,
         )
         self.assertIn(
@@ -184,6 +191,7 @@ class PrivateWorkflowTest(unittest.TestCase):
         self.assertIn('"$MIGRATE_DUDA"', publication)
         self.assertIn('"$MIGRATE_CAETANO"', publication)
         self.assertIn('"$MIGRATE_ELCIO"', publication)
+        self.assertIn('"$MIGRATE_MERCADO"', publication)
         self.assertIn("selected_profiles > 1", publication)
         self.assertIn(
             "repair and migration profiles are mutually exclusive",

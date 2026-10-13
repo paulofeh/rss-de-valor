@@ -573,6 +573,38 @@ respondeu `401` com `Cache-Control: no-store`. O perfil foi consumido e não dev
 ser reutilizado. O cadastro da URL privada no Feedbin permanece um gate manual
 separado.
 
+### 7.9 Migração de Mercado Imobiliário e Economia (pendente)
+
+Em 2026-10-13, a newsletter **Mercado Imobiliário e Economia**, de Fábio Tadeu
+Araújo, foi cadastrada no grupo `linkedin`, com o `LinkedInNewsletterScraper`.
+A coleta local retornou cinco edições públicas com autoria exata, datas com
+fuso e conteúdo integral. O cadastro deriva somente o novo par:
+
+- `feeds/mercado_imobiliario_e_economia_linkedin_feed.xml`;
+- `history/mercado_imobiliario_e_economia_linkedin_history.json`.
+
+O perfil `linkedin-mercado-imobiliario-e-economia-2026-10-13` prepara esse par
+em memória durante a hidratação. Exige artigos HTTPS sob `/pulse/`, caminho
+com `araújo-`, autor `Fábio Tadeu Araújo`, enriquecimento completo, títulos,
+datas com fuso e conteúdo integral. O conjunto de objetos ausentes deve
+coincidir exatamente com o par; hidratação agendada continua falhando quando
+falta qualquer objeto requerido. O perfil também falha depois que o par já
+existe no snapshot ativo, impedindo reutilização.
+
+Após autorização para commit/push e primeira publicação, executar
+`Private feed publication` com:
+
+- `confirm_full_publication=true`;
+- `migrate_linkedin_mercado_imobiliario=true`;
+- todos os demais perfis de reparo/migração em `false`.
+
+O inventário local esperado passa a 112 feeds gerados, uma fonte RSS direta,
+225 objetos e 113 rotas privadas. Publicação e cadastro no Feedbin permanecem
+pendentes. URL privada prevista:
+`https://feeds.paulofehlauer.com/feeds/mercado_imobiliario_e_economia_linkedin_feed.xml`.
+Após a primeira publicação bem-sucedida, registrar o run/snapshot e não
+selecionar o perfil novamente.
+
 ## 8. Rollback
 
 O rollback normal troca apenas `current.json`. Antes disso, ele baixa o snapshot
