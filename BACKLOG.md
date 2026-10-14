@@ -2,7 +2,7 @@
 
 ## Publicação privada dos feeds com compatibilidade com o Feedbin
 
-**Status:** migração e corte público concluídos; os 111 feeds ativos são
+**Status:** migração e corte público concluídos; os 112 feeds ativos são
 servidos apenas pelo endpoint privado, o GitHub Pages está desativado e somente
 FT Climate Capital permanece diretamente no provedor
 **Prioridade:** antes de ampliar a publicação de feeds com conteúdo integral
@@ -17,27 +17,29 @@ Substituir a publicação pública dos feeds gerados por uma distribuição priv
 
 Privatizar a entrega reduz a exposição e reforça o caráter de uso pessoal, mas não elimina automaticamente questões autorais relacionadas à reprodução de conteúdo integral.
 
-### Ampliação pendente — 2026-10-13
+### Ampliação concluída — 2026-10-13
 
-Mercado Imobiliário e Economia, de Fábio Tadeu Araújo, foi adicionada à
-configuração local. Coleta validada com cinco edições integrais; perfil manual
-`linkedin-mercado-imobiliario-e-economia-2026-10-13` preparado para semear
-somente o novo feed e histórico. Commit/push, primeira publicação e cadastro
-no Feedbin estão pendentes. O inventário local passa a 112 feeds gerados,
-225 objetos e 113 rotas; os números de produção abaixo são o registro anterior.
-Procedimento: seção 7.9 do runbook.
+Mercado Imobiliário e Economia, de Fábio Tadeu Araújo, foi adicionada e
+publicada com autorização explícita no commit `386f19d8`, run `38486026149`.
+Coleta local validada com cinco edições integrais; 99 testes passaram. O perfil
+`linkedin-mercado-imobiliario-e-economia-2026-10-13` semeou somente os dois
+objetos novos e foi consumido: não reutilizar. Snapshot ativo
+`38486026149-1-386f19d8e32f`, com 112 feeds gerados, 225 objetos e 113 rotas.
+Canários e retenção passaram; nova rota anônima confirmou `401` e `no-store`.
+O cadastro no Feedbin permanece manual e pendente. Evidência: seção 7.9 do
+runbook.
 
 ### Situação atual
 
-- Os 111 feeds ativos e o OPML são publicados somente em
+- Os 112 feeds ativos e o OPML são publicados somente em
   `https://feeds.paulofehlauer.com`, com Basic Auth e R2 privado.
 - O workflow público foi removido; `feeds/` e `history/` são estado de runtime
   ignorado pelo Git e hidratado do R2 antes da coleta.
 - O GitHub Pages está desativado e as URLs antigas não entregam XML. Os
   artefatos continuam recuperáveis nos commits anteriores porque o histórico
   Git não foi reescrito.
-- O snapshot completo ativo foi publicado pelo run manual `32028294483`, com
-  223 objetos internos e 112 rotas privadas.
+- O snapshot completo ativo foi publicado pelo run manual `38486026149`, com
+  225 objetos internos e 113 rotas privadas.
 - O perfil de Élcio Batista semeou exatamente seu feed e histórico, foi
   consumido com sucesso e não deve ser reutilizado.
 - O Feedbin confirmou atualização automática autenticada no domínio definitivo,

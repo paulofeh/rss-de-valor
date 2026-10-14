@@ -1,13 +1,13 @@
 # Operação da publicação privada de feeds
 
-**Estado em 2026-08-17:** bucket R2 Standard privado, Worker, DNS, Custom
+**Estado em 2026-10-13:** bucket R2 Standard privado, Worker, DNS, Custom
 Domain `feeds.paulofehlauer.com` e ambiente GitHub estão operacionais sem
-exposição de secrets. A publicação completa do run manual `32028294483` está
-ativa com 223 objetos internos e 112 rotas privadas. Os perfis manuais de
-Juliano Spyer/Sérgio Rodrigues, Duda Herriot, Caetano W. Galindo e Élcio Batista
-foram consumidos e não podem ser reutilizados. Canários autenticados e anônimos
-passaram; `workers.dev` permanece desabilitado e o apex continua redirecionando
-ao Linktree. O endpoint privado publica 111 feeds gerados; FT Climate Capital é
+exposição de secrets. A publicação completa do run manual `38486026149` está
+ativa com 225 objetos internos e 113 rotas privadas. Os perfis manuais de
+Juliano Spyer/Sérgio Rodrigues, Duda Herriot, Caetano W. Galindo, Élcio Batista
+e Mercado Imobiliário e Economia foram consumidos e não podem ser reutilizados.
+Canários autenticados e anônimos passaram; `workers.dev` permanece desabilitado e o apex continua redirecionando
+ao Linktree. O endpoint privado publica 112 feeds gerados; FT Climate Capital é
 a única fonte direta no provedor. O workflow público foi removido, os artefatos
 saíram da árvore atual e o GitHub Pages está desativado.
 
@@ -63,8 +63,8 @@ que o estado é hidratado exclusivamente do snapshot privado.
   identificadas pelo release correspondente.
 - A retenção mantém 28 snapshots e protege o ativo e o imediatamente anterior.
 
-O snapshot ativo deriva 111 feeds, 111 históricos e um OPML: 223 objetos
-internos e 112 rotas. O único `ExistingRssScraper` restante é FT Climate
+O snapshot ativo deriva 112 feeds, 112 históricos e um OPML: 225 objetos
+internos e 113 rotas. O único `ExistingRssScraper` restante é FT Climate
 Capital. XMLs agregados ou órfãos presentes no disco não entram no snapshot.
 
 ## 3. Verificação local
@@ -573,7 +573,7 @@ respondeu `401` com `Cache-Control: no-store`. O perfil foi consumido e não dev
 ser reutilizado. O cadastro da URL privada no Feedbin permanece um gate manual
 separado.
 
-### 7.9 Migração de Mercado Imobiliário e Economia (pendente)
+### 7.9 Migração de Mercado Imobiliário e Economia (concluída)
 
 Em 2026-10-13, a newsletter **Mercado Imobiliário e Economia**, de Fábio Tadeu
 Araújo, foi cadastrada no grupo `linkedin`, com o `LinkedInNewsletterScraper`.
@@ -591,19 +591,25 @@ coincidir exatamente com o par; hidratação agendada continua falhando quando
 falta qualquer objeto requerido. O perfil também falha depois que o par já
 existe no snapshot ativo, impedindo reutilização.
 
-Após autorização para commit/push e primeira publicação, executar
+Com autorização explícita, a primeira publicação foi executada pelo workflow
 `Private feed publication` com:
 
 - `confirm_full_publication=true`;
 - `migrate_linkedin_mercado_imobiliario=true`;
 - todos os demais perfis de reparo/migração em `false`.
 
-O inventário local esperado passa a 112 feeds gerados, uma fonte RSS direta,
-225 objetos e 113 rotas privadas. Publicação e cadastro no Feedbin permanecem
-pendentes. URL privada prevista:
+O run `38486026149`, no commit `386f19d8`, hidratou o snapshot anterior
+`38482239931-1-9de76a1983ce` e semeou exatamente os dois objetos novos, sem
+extras legados. Validou e publicou `38486026149-1-386f19d8e32f`, com 112 feeds
+gerados, uma fonte RSS direta, 225 objetos e 113 rotas privadas. Ativação,
+canários autenticados e anônimos e retenção passaram. A retenção removeu
+somente o snapshot `37203535579-1-9de76a1983ce`.
+
+A nova rota foi conferida anonimamente depois da publicação: respondeu `401`,
+com desafio Basic, `Cache-Control: no-store` e `Vary: Authorization`. O perfil
+foi consumido e não deve ser reutilizado. O cadastro no Feedbin permanece
+manual e pendente. URL privada:
 `https://feeds.paulofehlauer.com/feeds/mercado_imobiliario_e_economia_linkedin_feed.xml`.
-Após a primeira publicação bem-sucedida, registrar o run/snapshot e não
-selecionar o perfil novamente.
 
 ## 8. Rollback
 
