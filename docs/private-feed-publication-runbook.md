@@ -611,6 +611,39 @@ foi consumido e não deve ser reutilizado. O cadastro no Feedbin permanece
 manual e pendente. URL privada:
 `https://feeds.paulofehlauer.com/feeds/mercado_imobiliario_e_economia_linkedin_feed.xml`.
 
+### 7.10 Migração de IA na Semana (pendente)
+
+Em 2026-10-16, a newsletter **IA na Semana**, de Angelo Pixel, foi cadastrada
+localmente no grupo `linkedin`, com o `LinkedInNewsletterScraper`. A coleta
+pontual retornou cinco edições completas, com autoria exata e datas com fuso,
+entre 2026-09-14 e 2026-10-13. O cadastro acrescenta somente o par:
+
+- `feeds/ia_na_semana_linkedin_feed.xml`;
+- `history/ia_na_semana_linkedin_history.json`.
+
+O perfil manual `linkedin-ia-na-semana-2026-10-16` coleta e valida esse par em
+memória durante a hidratação. Exige a configuração exata da newsletter,
+artigos HTTPS do LinkedIn sob `/pulse/` com `angelo-pixel-` no caminho,
+autoria `Angelo Pixel`, enriquecimento completo, títulos, conteúdo integral
+e datas com fuso. O conjunto de objetos ausentes deve coincidir exatamente
+com o par. Hidratação agendada continua falhando quando falta qualquer
+objeto requerido; o perfil também falha quando o par já existe no snapshot,
+impedindo reutilização após a primeira publicação.
+
+Após autorização para commit/push e primeira publicação, executar o workflow
+`Private feed publication` com:
+
+- `confirm_full_publication=true`;
+- `migrate_linkedin_ia_na_semana=true`;
+- todos os demais perfis de reparo/migração em `false`.
+
+O inventário local esperado passa a 113 feeds gerados, uma fonte RSS direta,
+227 objetos e 114 rotas privadas. A publicação e o cadastro no Feedbin estão
+pendentes. URL privada prevista:
+`https://feeds.paulofehlauer.com/feeds/ia_na_semana_linkedin_feed.xml`.
+Após a publicação bem-sucedida, registrar o run/snapshot e marcar o perfil
+como consumido; não selecioná-lo novamente.
+
 ## 8. Rollback
 
 O rollback normal troca apenas `current.json`. Antes disso, ele baixa o snapshot

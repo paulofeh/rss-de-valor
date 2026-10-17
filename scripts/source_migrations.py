@@ -5,6 +5,10 @@ from __future__ import annotations
 from pathlib import Path
 
 try:
+    from .migrate_linkedin_ia_na_semana_source import (
+        PROFILE_NAME as IA_NA_SEMANA_PROFILE,
+        approved_seed_objects as approved_ia_na_semana_seed_objects,
+    )
     from .migrate_linkedin_mercado_imobiliario_source import (
         PROFILE_NAME as MERCADO_IMOBILIARIO_PROFILE,
         approved_seed_objects as approved_mercado_imobiliario_seed_objects,
@@ -27,6 +31,10 @@ try:
     )
     from .private_feed_common import ConfigurationError
 except ImportError:  # pragma: no cover - direct script execution
+    from migrate_linkedin_ia_na_semana_source import (  # type: ignore[no-redef]
+        PROFILE_NAME as IA_NA_SEMANA_PROFILE,
+        approved_seed_objects as approved_ia_na_semana_seed_objects,
+    )
     from migrate_linkedin_mercado_imobiliario_source import (  # type: ignore[no-redef]
         PROFILE_NAME as MERCADO_IMOBILIARIO_PROFILE,
         approved_seed_objects as approved_mercado_imobiliario_seed_objects,
@@ -55,6 +63,11 @@ def approved_seed_objects(
     repo_root: Path,
     profile: str,
 ) -> dict[str, bytes]:
+    if profile == IA_NA_SEMANA_PROFILE:
+        return approved_ia_na_semana_seed_objects(
+            repo_root=repo_root,
+            profile=profile,
+        )
     if profile == MERCADO_IMOBILIARIO_PROFILE:
         return approved_mercado_imobiliario_seed_objects(
             repo_root=repo_root,

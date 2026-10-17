@@ -17,6 +17,15 @@ Substituir a publicação pública dos feeds gerados por uma distribuição priv
 
 Privatizar a entrega reduz a exposição e reforça o caráter de uso pessoal, mas não elimina automaticamente questões autorais relacionadas à reprodução de conteúdo integral.
 
+### Ampliação pendente — 2026-10-16
+
+IA na Semana, de Angelo Pixel, foi adicionada à configuração local no grupo
+LinkedIn. Coleta validada com cinco edições completas; perfil manual
+`linkedin-ia-na-semana-2026-10-16` preparado para semear somente o novo feed e
+histórico. Commit/push, primeira publicação privada e cadastro no Feedbin
+estão pendentes. Inventário local esperado: 113 feeds gerados, 227 objetos e
+114 rotas. Procedimento: seção 7.10 do runbook.
+
 ### Ampliação concluída — 2026-10-13
 
 Mercado Imobiliário e Economia, de Fábio Tadeu Araújo, foi adicionada e

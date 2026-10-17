@@ -28,10 +28,10 @@ class RepositorySnapshotIntegrationTest(unittest.TestCase):
         policy = load_publication_policy(REPO_ROOT)
         specs = build_object_specs(REPO_ROOT, inventory, policy)
 
-        self.assertEqual(len(inventory.generated_feed_files), 112)
-        self.assertEqual(len(inventory.generated_history_files), 112)
+        self.assertEqual(len(inventory.generated_feed_files), 113)
+        self.assertEqual(len(inventory.generated_history_files), 113)
         self.assertEqual(len(inventory.native_sources), 1)
-        self.assertEqual(len(specs), 225)
+        self.assertEqual(len(specs), 227)
 
         with tempfile.TemporaryDirectory(
             prefix="rss-private-repository-snapshot-"
@@ -101,9 +101,9 @@ class RepositorySnapshotIntegrationTest(unittest.TestCase):
                 revision="test-revision",
             )
 
-            self.assertEqual(report.generated_feeds, 112)
-            self.assertEqual(manifest["counts"]["objects"], 225)
-            self.assertEqual(manifest["counts"]["routes"], 113)
+            self.assertEqual(report.generated_feeds, 113)
+            self.assertEqual(manifest["counts"]["objects"], 227)
+            self.assertEqual(manifest["counts"]["routes"], 114)
             self.assertTrue((snapshot / "manifest.json").is_file())
 
 

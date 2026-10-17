@@ -545,6 +545,14 @@
       "group": "linkedin"
     },
     {
+      "name": "IA na Semana",
+      "url": "https://www.linkedin.com/newsletters/ia-na-semana-7489744978307473408/",
+      "feed_file": "ia_na_semana_linkedin_feed.xml",
+      "history_file": "ia_na_semana_linkedin_history.json",
+      "scraper": "LinkedInNewsletterScraper",
+      "group": "linkedin"
+    },
+    {
       "name": "Dorrit Harazim",
       "url": "https://oglobo.globo.com/opiniao/dorrit-harazim/",
       "feed_file": "dorrit_harazim_feed.xml",

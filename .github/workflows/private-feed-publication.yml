@@ -47,6 +47,12 @@ on:
         default: false
         type: boolean
 
+      migrate_linkedin_ia_na_semana:
+        description: Seed the exact one-time IA na Semana LinkedIn source migration
+        required: true
+        default: false
+        type: boolean
+
 concurrency:
   group: private-feed-r2-publication
   cancel-in-progress: false
@@ -109,6 +115,7 @@ jobs:
           MIGRATE_CAETANO: ${{ inputs.migrate_folha_caetano_w_galindo }}
           MIGRATE_ELCIO: ${{ inputs.migrate_linkedin_elcio_batista }}
           MIGRATE_MERCADO: ${{ inputs.migrate_linkedin_mercado_imobiliario }}
+          MIGRATE_IA_NA_SEMANA: ${{ inputs.migrate_linkedin_ia_na_semana }}
         run: |
           set -euo pipefail
           selected_profiles=0
@@ -119,7 +126,8 @@ jobs:
             "$MIGRATE_DUDA" \
             "$MIGRATE_CAETANO" \
             "$MIGRATE_ELCIO" \
-            "$MIGRATE_MERCADO"; do
+            "$MIGRATE_MERCADO" \
+            "$MIGRATE_IA_NA_SEMANA"; do
             if [[ "$selected" == "true" ]]; then
               selected_profiles=$((selected_profiles + 1))
             fi
@@ -157,7 +165,10 @@ jobs:
                 'linkedin-elcio-batista-2026-08-17' ||
                 github.event_name == 'workflow_dispatch' &&
                 inputs.migrate_linkedin_mercado_imobiliario == true &&
-                'linkedin-mercado-imobiliario-e-economia-2026-10-13' || '' }}
+                'linkedin-mercado-imobiliario-e-economia-2026-10-13' ||
+                github.event_name == 'workflow_dispatch' &&
+                inputs.migrate_linkedin_ia_na_semana == true &&
+                'linkedin-ia-na-semana-2026-10-16' || '' }}
         run: |
           set -euo pipefail
           migration_args=()
@@ -253,4 +264,5 @@ jobs:
             echo "- Caetano W. Galindo source migration: \`${{ github.event_name == 'workflow_dispatch' && inputs.migrate_folha_caetano_w_galindo == true }}\`"
             echo "- Élcio Batista source migration: \`${{ github.event_name == 'workflow_dispatch' && inputs.migrate_linkedin_elcio_batista == true }}\`"
             echo "- Mercado Imobiliário e Economia source migration: \`${{ github.event_name == 'workflow_dispatch' && inputs.migrate_linkedin_mercado_imobiliario == true }}\`"
+            echo "- IA na Semana source migration: \`${{ github.event_name == 'workflow_dispatch' && inputs.migrate_linkedin_ia_na_semana == true }}\`"
           } >> "$GITHUB_STEP_SUMMARY"
