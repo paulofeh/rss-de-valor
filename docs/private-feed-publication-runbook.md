@@ -1,13 +1,15 @@
 # Operação da publicação privada de feeds
 
-**Estado em 2026-10-13:** bucket R2 Standard privado, Worker, DNS, Custom
+**Publicação em 2026-10-17; infraestrutura registrada em 2026-10-13:**
+bucket R2 Standard privado, Worker, DNS, Custom
 Domain `feeds.paulofehlauer.com` e ambiente GitHub estão operacionais sem
-exposição de secrets. A publicação completa do run manual `38486026149` está
-ativa com 225 objetos internos e 113 rotas privadas. Os perfis manuais de
-Juliano Spyer/Sérgio Rodrigues, Duda Herriot, Caetano W. Galindo, Élcio Batista
-e Mercado Imobiliário e Economia foram consumidos e não podem ser reutilizados.
+exposição de secrets. A publicação completa do run manual `38996282979` está
+ativa com 227 objetos internos e 114 rotas privadas. Os perfis manuais de
+Juliano Spyer/Sérgio Rodrigues, Duda Herriot, Caetano W. Galindo, Élcio Batista,
+Mercado Imobiliário e Economia e IA na Semana foram consumidos e não podem
+ser reutilizados.
 Canários autenticados e anônimos passaram; `workers.dev` permanece desabilitado e o apex continua redirecionando
-ao Linktree. O endpoint privado publica 112 feeds gerados; FT Climate Capital é
+ao Linktree. O endpoint privado publica 113 feeds gerados; FT Climate Capital é
 a única fonte direta no provedor. O workflow público foi removido, os artefatos
 saíram da árvore atual e o GitHub Pages está desativado.
 
@@ -63,8 +65,8 @@ que o estado é hidratado exclusivamente do snapshot privado.
   identificadas pelo release correspondente.
 - A retenção mantém 28 snapshots e protege o ativo e o imediatamente anterior.
 
-O snapshot ativo deriva 112 feeds, 112 históricos e um OPML: 225 objetos
-internos e 113 rotas. O único `ExistingRssScraper` restante é FT Climate
+O snapshot ativo deriva 113 feeds, 113 históricos e um OPML: 227 objetos
+internos e 114 rotas. O único `ExistingRssScraper` restante é FT Climate
 Capital. XMLs agregados ou órfãos presentes no disco não entram no snapshot.
 
 ## 3. Verificação local
@@ -611,7 +613,7 @@ foi consumido e não deve ser reutilizado. O cadastro no Feedbin permanece
 manual e pendente. URL privada:
 `https://feeds.paulofehlauer.com/feeds/mercado_imobiliario_e_economia_linkedin_feed.xml`.
 
-### 7.10 Migração de IA na Semana (pendente)
+### 7.10 Migração de IA na Semana (concluída)
 
 Em 2026-10-16, a newsletter **IA na Semana**, de Angelo Pixel, foi cadastrada
 localmente no grupo `linkedin`, com o `LinkedInNewsletterScraper`. A coleta
@@ -630,19 +632,27 @@ com o par. Hidratação agendada continua falhando quando falta qualquer
 objeto requerido; o perfil também falha quando o par já existe no snapshot,
 impedindo reutilização após a primeira publicação.
 
-Após autorização para commit/push e primeira publicação, executar o workflow
+Com autorização explícita, a primeira publicação foi executada pelo workflow
 `Private feed publication` com:
 
 - `confirm_full_publication=true`;
 - `migrate_linkedin_ia_na_semana=true`;
 - todos os demais perfis de reparo/migração em `false`.
 
-O inventário local esperado passa a 113 feeds gerados, uma fonte RSS direta,
-227 objetos e 114 rotas privadas. A publicação e o cadastro no Feedbin estão
-pendentes. URL privada prevista:
+O run `38996282979`, no commit `66612c33`, concluiu com sucesso em
+2026-10-17 às 00h14 (São Paulo; `03:14:45Z`). Hidratou o snapshot anterior
+`38971196082-1-3c45e29a09aa` e semeou exatamente os dois objetos novos, sem
+extras legados. Validou e publicou `38996282979-1-66612c334497`, com 113 feeds
+gerados, uma fonte RSS direta, 227 objetos e 114 rotas privadas. Os 106 testes
+Python locais passaram antes do commit. Ativação, canários autenticados e
+anônimos e retenção passaram; a retenção removeu somente o snapshot
+`37860072862-1-9de76a1983ce`.
+
+A nova rota foi conferida anonimamente com curl depois da publicação:
+respondeu `401`, com desafio Basic, `Cache-Control: no-store` e
+`Vary: Authorization`. O perfil foi consumido e não deve ser reutilizado.
+O cadastro no Feedbin permanece manual e pendente. URL privada:
 `https://feeds.paulofehlauer.com/feeds/ia_na_semana_linkedin_feed.xml`.
-Após a publicação bem-sucedida, registrar o run/snapshot e marcar o perfil
-como consumido; não selecioná-lo novamente.
 
 ## 8. Rollback
 
@@ -659,7 +669,7 @@ Pelo GitHub:
 
 O workflow **Private feed rollback** exige `--required-mode full`. Isso impede
 que um rollback manual depois da ampliação reduza inadvertidamente a superfície
-completa — 112 rotas no snapshot atual — para o único feed do piloto. Antes do
+completa — 114 rotas no snapshot atual — para o único feed do piloto. Antes do
 primeiro snapshot `full`, uma falha de publicação
 preserva o ponteiro piloto; uma falha de canário depois da ativação restaura
 esse ponteiro automaticamente.

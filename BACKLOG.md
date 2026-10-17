@@ -2,7 +2,7 @@
 
 ## Publicação privada dos feeds com compatibilidade com o Feedbin
 
-**Status:** migração e corte público concluídos; os 112 feeds ativos são
+**Status:** migração e corte público concluídos; os 113 feeds ativos são
 servidos apenas pelo endpoint privado, o GitHub Pages está desativado e somente
 FT Climate Capital permanece diretamente no provedor
 **Prioridade:** antes de ampliar a publicação de feeds com conteúdo integral
@@ -17,14 +17,16 @@ Substituir a publicação pública dos feeds gerados por uma distribuição priv
 
 Privatizar a entrega reduz a exposição e reforça o caráter de uso pessoal, mas não elimina automaticamente questões autorais relacionadas à reprodução de conteúdo integral.
 
-### Ampliação pendente — 2026-10-16
+### Ampliação concluída — 2026-10-17
 
-IA na Semana, de Angelo Pixel, foi adicionada à configuração local no grupo
-LinkedIn. Coleta validada com cinco edições completas; perfil manual
-`linkedin-ia-na-semana-2026-10-16` preparado para semear somente o novo feed e
-histórico. Commit/push, primeira publicação privada e cadastro no Feedbin
-estão pendentes. Inventário local esperado: 113 feeds gerados, 227 objetos e
-114 rotas. Procedimento: seção 7.10 do runbook.
+IA na Semana, de Angelo Pixel, foi cadastrada em 2026-10-16 e publicada com
+autorização explícita pelo commit `66612c33`, run `38996282979`. Coleta local
+validada com cinco edições completas; 106 testes passaram. O perfil
+`linkedin-ia-na-semana-2026-10-16` semeou somente os dois objetos novos e foi
+consumido: não reutilizar. Snapshot `38996282979-1-66612c334497`, com 113 feeds
+gerados, 227 objetos e 114 rotas. Ativação, canários e retenção passaram; a nova
+rota anônima confirmou `401`, desafio Basic e `no-store` via curl. O cadastro
+no Feedbin permanece manual e pendente. Evidência: seção 7.10 do runbook.
 
 ### Ampliação concluída — 2026-10-13
 
@@ -40,15 +42,15 @@ runbook.
 
 ### Situação atual
 
-- Os 112 feeds ativos e o OPML são publicados somente em
+- Os 113 feeds ativos e o OPML são publicados somente em
   `https://feeds.paulofehlauer.com`, com Basic Auth e R2 privado.
 - O workflow público foi removido; `feeds/` e `history/` são estado de runtime
   ignorado pelo Git e hidratado do R2 antes da coleta.
 - O GitHub Pages está desativado e as URLs antigas não entregam XML. Os
   artefatos continuam recuperáveis nos commits anteriores porque o histórico
   Git não foi reescrito.
-- O snapshot completo ativo foi publicado pelo run manual `38486026149`, com
-  225 objetos internos e 113 rotas privadas.
+- O snapshot completo ativo foi publicado pelo run manual `38996282979`, com
+  227 objetos internos e 114 rotas privadas.
 - O perfil de Élcio Batista semeou exatamente seu feed e histórico, foi
   consumido com sucesso e não deve ser reutilizado.
 - O Feedbin confirmou atualização automática autenticada no domínio definitivo,
